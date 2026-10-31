@@ -54,9 +54,8 @@ mirrors it). v2 work is on `next`: Phases 1–2 merged (program profiles, sectio
 content model, program structure). The ontology is a **v1.0 release candidate**: the owner
 decided every open point ([CONTENT_MODEL.md §6](CONTENT_MODEL.md)).
 
-1. **Owner merges the two open PRs into `next`**: #12 (content-platform design, website first:
-   [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md)) and #15 (ontology decisions). Both edit this file;
-   if the second conflicts, merge `origin/next` into its branch and keep both sides.
+1. **Done:** PRs #12 (content-platform design, website first: [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md))
+   and #15 (ontology decisions) are merged into `next`.
 2. **Phase 3, the content compiler** (on a `task/*` branch from `next`, PR to `next`):
    `scripts/content/compile.mjs` builds the website's content release
    ([CONTENT_PLATFORM.md §2, §7](CONTENT_PLATFORM.md): `manifest.json`, `entities/`, `graph.json`,
@@ -80,7 +79,8 @@ the baseline.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/ontology-decisions` (from `next`) | `docs/CONTENT_MODEL.md` §3/§6, `schemas/content-model/{vocabularies,common,outcomes}`, `curricula/*/model/structure.json`, `scripts/content/build_examples.mjs`, examples, profiles | Drafted; PR to `next` open | Owner decided all 7 open points; ontology is v1.0 release candidate. Next: Phase 3 compiler (byte-for-byte v1 parity) freezes v1.0. |
+| Claude Code | `task/ontology-decisions` (from `next`) | `docs/CONTENT_MODEL.md` §3/§6, `schemas/content-model/{vocabularies,common,outcomes}`, `curricula/*/model/structure.json`, `scripts/content/build_examples.mjs`, examples, profiles | Merged as PR #15 | Owner decided all 7 open points; ontology is v1.0 release candidate. Next: Phase 3 compiler (byte-for-byte v1 parity) freezes v1.0. |
+| Claude Code | `task/content-platform` (from `next`) | `docs/CONTENT_PLATFORM.md`; links in `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/ARCHITECTURE.md`, `docs/PRD.md` | Merged as PR #12 (`9ce00b1`) | Owner: build only the website now; design the content repository so other products can come later. Next: Phase 3 builds the website's content release and query library. |
 | Claude Code | `task/lesson-link-pack` (from `main`) | `dist/domain/selection.mjs`, `dist/app.mjs` (render), `tests/hindi-pack.test.mjs`, r61 bumps, `docs/ARCHITECTURE.md` | Merged as PR #14 (`49f873c`); live r61, tag `v1.0.4` | Done, and branches synced. Left: lazy subject loading. |
 | Claude Code | `task/v1-fixes` (from `main`) | Hindi `repairs.json`, `build_pack.py`, reviewed/dist catalog and worksheets, `curricula/published-baseline.json`, `tests/hindi-pack.test.mjs`, r60 bumps | Merged as PR #13 (`4be3376`); live r60, tag `v1.0.3` | Done, and branches synced. Left: pack-less lesson links, lazy subject loading. Task note: [v1 fixes](tasks/v1-fixes.md). |
 | Claude Code | `task/hindi-grid-columns` (from `main`) | `curricula/up-hindi-2026/tools/parse_guides.py`, Hindi reviewed/dist catalog, `curricula/published-baseline.json`, `tests/test_hindi_grids.py`, `tests/hindi-pack.test.mjs`, r59 bumps | Merged as PR #11 (`cb6075b`); live r59, tag `v1.0.2` | Done, and branches synced (`release/v1`, `next`). Task note: [grid](tasks/hindi-grid-columns.md). |
@@ -138,6 +138,18 @@ task note, and anything left undone.
 - Checks: npm test 82/82, check, design:check, sw.js, verify:publication, ingestion 15/15,
   verify:sources, skill tests. Left: lesson links without `?curriculum=`; lazy subject loading.
   Task note: [v1 fixes](tasks/v1-fixes.md).
+
+### 2026-10-31 · Claude Code · `task/content-platform` (PR to `next`)
+
+- Owner asked to structure the product so the content back end serves several front ends
+  (website, chatbot) and new products (remedial plans, teacher tools). Wrote
+  [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md): content core → versioned, static content release
+  (manifest, entities, graph, app/v1/retrieval views, changelog) → shared query library →
+  products; contract (stable ids, pinned versions, provenance, review gates), generated-content
+  rules, and owner decisions (content rights, first product, chatbot hosting, policy).
+- Plan: Phase 3 emits the content release and query library for the website. Owner then
+  decided (same day): don't build other products now; only keep the repository ready for them.
+  Phase 10 became "later, not scheduled"; §8 decisions are deferred. Docs only; npm test 95/95.
 
 ### 2026-10-31 · Claude Code · `next` (merge of `main` after r59)
 

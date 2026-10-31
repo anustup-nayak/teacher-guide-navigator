@@ -146,3 +146,10 @@ from the selected pack, screen and current source section. App composition updat
 its existing DOM text on scrolling (without replacing focused controls) and measures
 header/nav heights for sticky and anchor offsets. The top identity button returns
 to selection controls. The section navigator no longer duplicates that identity.
+
+## Content platform (v2 design constraint)
+
+The v2 plan separates a product-neutral content back end (model → versioned content release
+→ shared query library) from the products that read it: this website, a chatbot, remedial-plan
+and print tools. Only the website is built now; it is the first consumer and never owns
+curriculum data. Design and deferred decisions: [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md).
