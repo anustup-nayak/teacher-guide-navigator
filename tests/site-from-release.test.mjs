@@ -53,3 +53,26 @@ test('per-grade app bundles carry everything the website shows, for every lesson
   assert.equal(lessons, 732);
   assert.ok(steps > 4000, `${steps} steps compared`);
 });
+
+test('week cards use one rule for both subjects and name non-teaching days (owner-approved 31 Oct 2026)', async () => {
+  const {lessonSummary, dayLabel} = await import('../dist/ux.mjs');
+  const {DAY_TYPES} = await import('../dist/day-types.mjs');
+  const [math, hindi] = CURRICULA, byId = (p, id) => p.lessons.find(l => l.id === id);
+  const label = (p, id, lang = 'hi') => dayLabel(DAY_TYPES[p.id], byId(p, id), lang);
+  assert.equal(label(hindi, 'g2-hindi-w19-d01'), '', 'teaching days carry no label');
+  assert.equal(label(hindi, 'g2-hindi-w19-d05'), 'साप्ताहिक पुनरावृत्ति');
+  assert.equal(label(hindi, 'g2-hindi-w19-d06'), 'साप्ताहिक आकलन');
+  assert.equal(label(hindi, 'g1-hindi-w12-d06'), 'साप्ताहिक पुनरावृत्ति', 'G1 assessment starts in week 14');
+  assert.equal(label(hindi, 'g1-hindi-w14-d06', 'en'), 'Weekly assessment');
+  assert.equal(label(math, 'g2-math-w25-d01'), '');
+  assert.equal(label(math, 'g2-math-w25-d05'), 'समेकन और आकलन', 'Math assesses on day 5');
+  assert.equal(label(math, 'g3-math-w09-d06'), 'रिमीडियल और पुनरावृत्ति');
+  for (const pack of CURRICULA) for (const l of pack.lessons) {
+    const s = lessonSummary(l, 'hi');
+    if (l.structure === 'weekly-template') continue;
+    assert.match(s, /^(कार्यपत्रक पृष्ठ [\d, ]+|कॉपी में अभ्यास)( · |$)/, `${l.id} summary starts with its workbook page`);
+    assert.ok(!s.includes(' — '), `${l.id} summary has no preparation note`);
+  }
+  assert.equal(lessonSummary(byId(hindi, 'g2-hindi-w19-d06')), 'कार्यपत्रक पृष्ठ 85 · चित्र कहानी पोस्टर-5');
+  assert.equal(lessonSummary(byId(math, 'g2-math-w25-d01')), 'कार्यपत्रक पृष्ठ 127 · बोर्ड, चाॅक, ब्लाॅक्स।');
+});
