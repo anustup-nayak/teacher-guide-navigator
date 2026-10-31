@@ -141,7 +141,9 @@ pages, every cited workbook page) for all 732 lessons, so a v2 front end can swi
 bundles without losing content. `site:publish` also writes `dist/day-types.mjs` (each pack's
 calendar and day-type labels, from the hash-checked release `structure.json`), which the week
 and topic cards use to name revision, assessment and weekly-plan days the same way in every
-subject; `verify:site` checks it too. `reviewed/catalog.mjs` → `publish_curriculum.mjs` stays the v1
+subject; `verify:site` checks it too. It also writes `dist/program-guide-data.mjs` (per grade: calendar, day types with
+periods and slots, period outline and the guide's section page map, from the release's `structure.json` and
+`sections.json`) for the program guide ([PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md)). `reviewed/catalog.mjs` → `publish_curriculum.mjs` stays the v1
 ingestion path; the parity gate keeps both identical.
 
 **1.0.1 (31 Oct 2026):** adds lesson-level `workbook` links (every page the day cites, in order;
