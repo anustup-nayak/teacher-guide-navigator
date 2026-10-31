@@ -38,7 +38,7 @@ mid-task. It is the first file to read and the last file to update.
 |---|---|
 | Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`) |
 | Repository | github.com/anustup-nayak/teacher-guide-navigator (public). Branches: `main` (v1 live), `release/v1`, `next` (v2) — see [VERSIONING.md](VERSIONING.md). Tag `v1.0.0` = r57 |
-| Release | r60 (live, tag `v1.0.3`, `main` @ `4be3376`; `release/v1` mirrors it). `next` has `main` merged in |
+| Release | r61 (live, tag `v1.0.4`, `main` @ `49f873c`; `release/v1` mirrors it). `next` has `main` merged in |
 | Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
 | Checks | `npm test` (94 on `next`, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (12), skill script tests, `npm run verify:sources -- --require-complete` |
@@ -71,6 +71,7 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
 | Claude Code | `task/content-platform` (from `next`) | `docs/CONTENT_PLATFORM.md`; links in `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/ARCHITECTURE.md`, `docs/PRD.md` | Design only; PR to `next` open | Owner: build only the website now; design the content repository so other products can come later. Next: Phase 3 builds the website's content release and query library. |
+| Claude Code | `task/lesson-link-pack` (from `main`) | `dist/domain/selection.mjs`, `dist/app.mjs` (render), `tests/hindi-pack.test.mjs`, r61 bumps, `docs/ARCHITECTURE.md` | Merged as PR #14 (`49f873c`); live r61, tag `v1.0.4` | Done, and branches synced. Left: lazy subject loading. |
 | Claude Code | `task/v1-fixes` (from `main`) | Hindi `repairs.json`, `build_pack.py`, reviewed/dist catalog and worksheets, `curricula/published-baseline.json`, `tests/hindi-pack.test.mjs`, r60 bumps | Merged as PR #13 (`4be3376`); live r60, tag `v1.0.3` | Done, and branches synced. Left: pack-less lesson links, lazy subject loading. Task note: [v1 fixes](tasks/v1-fixes.md). |
 | Claude Code | `task/hindi-grid-columns` (from `main`) | `curricula/up-hindi-2026/tools/parse_guides.py`, Hindi reviewed/dist catalog, `curricula/published-baseline.json`, `tests/test_hindi_grids.py`, `tests/hindi-pack.test.mjs`, r59 bumps | Merged as PR #11 (`cb6075b`); live r59, tag `v1.0.2` | Done, and branches synced (`release/v1`, `next`). Task note: [grid](tasks/hindi-grid-columns.md). |
 | Claude Code | `task/repair-g2-hindi-w19-d03` (from `main`) | `curricula/up-hindi-2026/tools/{repairs.json,build_pack.py}`, `curricula/up-hindi-2026/reviewed/catalog.mjs`, `dist/packs/up-hindi-2026/catalog.mjs`, `curricula/published-baseline.json`, r58 version bumps in `dist/` | Merged as PR #10 (`181a840`); live r58, tag `v1.0.1` | Done: repair, publish, reviewed baseline amendment, r58, all checks, browser check. Done after merge: `release/v1` fast-forwarded, `v1.0.1` tagged, `main` merged into `next`, exception dropped. Left: check grid attachment on G2 w19 d2. Task note: [repair](tasks/repair-g2-hindi-w19-d03.md). |
@@ -83,6 +84,21 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `next` (merge of `main` after r61)
+
+- r61 is live (PR #14, `49f873c`): lesson links without `?curriculum=` open the right subject.
+  `release/v1` fast-forwarded and tagged `v1.0.4`; `main` merged into `next` (HANDOFF.md
+  conflict resolved by keeping both sides).
+
+### 2026-10-31 · Claude Code · `task/lesson-link-pack` (PR to `main`, release r61)
+
+- A lesson link without `?curriculum=` (e.g. `#/lesson/g2-hindi-w19-d03`) showed "lesson not
+  found". The app now reads grade and subject from the lesson id (`packForLessonId`), flushes
+  notes and replaces the URL with that pack's, keeping route and step. No loop for ids with no
+  lesson; the query-less Math default is unchanged.
+- Checks: npm test 83/83, check, design:check, sw.js, verify:publication, ingestion 15/15,
+  verify:sources, skill tests; browser checks. Task note: [v1 fixes](tasks/v1-fixes.md).
 
 ### 2026-10-31 · Claude Code · `next` (merge of `main` after r60)
 

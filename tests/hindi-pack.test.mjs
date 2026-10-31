@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {CURRICULA,validateCurricula} from '../dist/curricula.mjs';
 import {validateCatalog} from '../dist/core.mjs';
-import {groupKey,levelsInGroup,subjectsAtLevel,packForSelection,selectionForGroup} from '../dist/domain/selection.mjs';
+import {groupKey,levelsInGroup,subjectsAtLevel,packForSelection,selectionForGroup,packForLessonId,lessonURL} from '../dist/domain/selection.mjs';
 import {phaseVisual,lessonPalette} from '../dist/lesson-visuals.mjs';
 const [math,hindi]=CURRICULA,root=new URL('../dist/',import.meta.url),exists=p=>fs.existsSync(new URL(p,root));
 const byId=id=>hindi.lessons.find(l=>l.id===id);
@@ -78,4 +78,16 @@ test('grid crops sit on the step printed in the same column (r59)',()=>{
  assert.ok(steps('g1-hindi-w23-d02').includes('p2-1'),'left-column grid stays in 2.1');
  const right=Object.entries(overrides).flatMap(([id,o])=>Object.entries(o).filter(([pid,v])=>pid==='p3-1'&&(v.rect[0]+v.rect[2])/2>.5).map(([pid])=>id));
  assert.deepEqual(right,[],'no right-column grid on step 3.1');
+});
+
+test('a lesson link without ?curriculum= finds its pack from the lesson id (r61)',()=>{
+ const group=groupKey(math),find=id=>{const r=packForLessonId(CURRICULA,id,group);return r&&[r.pack.id,r.grade];};
+ assert.deepEqual(find('g2-hindi-w19-d03'),['up-hindi-2026',2]);
+ assert.deepEqual(find('g3-math-w09-d05'),['up-math-2026',3]);
+ for(const id of ['g9-hindi-w01-d01','g2-urdu-w01-d01','not-a-lesson',undefined])assert.equal(find(id),null,String(id));
+ assert.equal(lessonURL('https://example.test/app/?ui=en#/lesson/g2-hindi-w19-d03/teach/3',hindi,2,'en'),
+  'https://example.test/app/?ui=en&curriculum=up-hindi-2026&grade=2#/lesson/g2-hindi-w19-d03/teach/3','route and step kept');
+ const app=fs.readFileSync(new URL('app.mjs',root),'utf8');
+ assert.match(app,/packForLessonId\(CURRICULA,route\.id,groupKey\(curriculum\)\)/,'render switches pack before showing "not found"');
+ assert.match(app,/location\.replace\(lessonURL\(/,'switch replaces history, so Back does not loop');
 });
