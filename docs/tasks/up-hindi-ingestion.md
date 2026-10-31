@@ -80,7 +80,23 @@ authenticated browser or a local copy.
   phase `role` (period 1 teaching/amber, 2 practice/pink, 3 support/purple, as on the
   printed pages). Weeks 13/20 are one-page review tables → `reviewPages`. Topics =
   the TG's own annual objectives by week block (G1 p15).
-- [ ] TG parser, workbook mapping, renders, publish, register, checks, PR.
+- [x] TG parser `tools/parse_guides.py` (+ `visible_text.py`, `audit_guides.py`,
+  `show_day.py`). Output `extracted/adapter/guides.json` (reproducible, not committed):
+  G1 90 days (weeks 9–25), G2/G3 138 days (weeks 1–25); weeks 13/20 are review tables.
+  Day 6 usually has कालांश-2 एवं 3 (80 min weekly assessment) — source structure.
+  Fixed on the way: Unicode \b vs Devanagari; step numbers printed right of titles;
+  raised small text (समूह-A, workbook page icons); scrambled glyph order on some lines
+  (rebuilt from glyph positions); older edits printed under current text (G3 p127) and
+  clipped tails (G2 p19) — earlier overdrawn spans dropped, rawdict honours clipping;
+  letter/word grids (drawn squares ≥30pt) kept out of prose and attached to their step
+  for page crops; 59 “क्या आप जानते हैं?” tip boxes excluded from steps.
+- Source misprints kept as printed (app numbers cards itself): duplicate step numbers on
+  G1 w10d6, w14d2; G2 w6d1, w17d2, w25d5; G3 w16d4, w21d3, w22d5.
+- Needs reviewed repair: G3 w19 d6 period 1 (two overprinted edits). Transcribed from a
+  120-dpi render: 1.1 शिक्षक द्वारा अनुभव सुनाना (7–10), 1.2 बच्चों द्वारा अनुभव साझा
+  करना (10–15), 1.3 लेखन कार्य (10–12); 1.3 names ‘मेरा प्यारा मित्र’ as printed.
+- Review list: G3 w4 d3 period 2 objective loses a bare vowel sign inside quotes.
+- [ ] Workbook mapping, topics, build reviewed files, renders, register, checks, PR.
 
 ## Unresolved
 

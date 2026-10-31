@@ -60,7 +60,7 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/up-hindi-ingestion` | `curricula/up-hindi-2026/`, `tests/test_hindi_decoder.py`, `scripts/verify_source_archive.py`, `tests/test_source_archive.py`, `docs/SOURCE_ARCHIVE.md`, `docs/tasks/up-hindi-ingestion.md`, this file | in progress: build (owner said start building) | Done: decoder `curricula/up-hindi-2026/tools/hindi_text.py` (+ tests) cuts ळ-errors 8,978→10 across 972 pages. Next: TG parser (periods by कालांश header bands, two columns left→right, steps N.N with minutes, bullets = leading-space spans, questions = •), workbook week/day mapping, WebP renders, publish, register subject. Design notes in task note. Renu email: owner sends. |
+| Claude Code | `task/up-hindi-ingestion` | `curricula/up-hindi-2026/`, `tests/test_hindi_decoder.py`, `scripts/verify_source_archive.py`, `tests/test_source_archive.py`, `docs/SOURCE_ARCHIVE.md`, `docs/tasks/up-hindi-ingestion.md`, this file | in progress: build | Parser done: `python3 -I curricula/up-hindi-2026/tools/parse_guides.py . > curricula/up-hindi-2026/extracted/adapter/guides.json` → 366 days (90/138/138), 2,753 steps; audit with tools/audit_guides.py, inspect with tools/show_day.py. Handles legacy fonts, scrambled glyph order, hidden older edits (tools/visible_text.py), grids (175, kept as page crops), tip boxes (59, excluded). Next: reviewed repair for G3 w19 d6 period 1 (overprinted page; transcription in task note), workbook week/day mapping, topics from annual-objectives pages, build reviewed/ + WebP renders, register pack, app `role` for period colours. |
 
 ## Change log
 
