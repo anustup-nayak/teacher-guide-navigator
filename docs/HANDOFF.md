@@ -70,7 +70,7 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/phase2-content-model` (from `next`) | `docs/CONTENT_MODEL.md`, `schemas/content-model/`, `scripts/content/schema.mjs`, `scripts/content/v1_lesson.mjs`, `docs/content-model/examples/`, `tests/content-model.test.mjs` | Phase 2 in progress | Done: vocabularies, common + 9 entity schemas, dependency-free validator. Next: worked examples (Hindi g1-hindi-w09-d02, Math g1-math-w09-d01), CONTENT_MODEL.md, test, PR to `next`. Owner said “Start work” after Phase 1 merge; the profile review gate is still open. |
+| Claude Code | `task/phase2-content-model` (from `next`) | `docs/CONTENT_MODEL.md`, `schemas/content-model/`, `scripts/content/{schema,v1_lesson,build_examples}.mjs`, `docs/content-model/examples/`, `tests/content-model.test.mjs` | Phase 2 drafted; PR to `next` open | Done: model doc, vocabularies, 10 schemas, validator, two worked examples, tests (npm test 87/87). Next: curriculum-design review gate ✋ (CONTENT_MODEL.md §6), then Phase 3 (compiler, parity with v1 catalogs). |
 | Claude Code | `task/phase1-program-profiles` (from `next`) | `scripts/content/*`, `curricula/*/extracted/matter/`, `curricula/*/model/*`, `tests/pagemap.test.mjs`, `docs/tasks/phase1-program-profiles.md` | Phase 1 drafted; PR to `next` open | Done: extractor, section maps, page maps + coverage test (npm test 83/83), both PROGRAM_PROFILE.md drafts, workbook matter. Next: owner/academic review gate ✋ of both profiles; then Phase 2. Any agent may take over. |
 | Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
 
@@ -78,6 +78,16 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `task/phase2-content-model` (PR to `next`)
+
+- Phase 2 drafted: [CONTENT_MODEL.md](CONTENT_MODEL.md) (files, ID rules, links/provenance,
+  derivation rules, how Hindi and Math fit, worked examples, open points);
+  `schemas/content-model/` (vocabularies + common + 9 entity schemas); dependency-free validator
+  `scripts/content/schema.mjs`; `v1_lesson.mjs` (v1 record → model lesson, ids and text unchanged);
+  examples for `g1-hindi-w09-d02` and `g1-math-w09-d01` in `docs/content-model/examples/`.
+- Checks: npm test 87/87 (4 new content-model tests). No app or dist change.
+- Left: review gate; Phase 3 compiler and v1 parity.
 
 ### 2026-10-31 · Claude Code · `task/phase1-program-profiles` (PR to `next`)
 

@@ -80,7 +80,7 @@ const hindiGuide = {pack: 'up-hindi-2026', grade: 1, sections: [{
 
 // ---- Math --------------------------------------------------------------------------------
 const mathOutcomes = {pack: 'up-math-2026',
-  outcomes: [{id: 'M101.1', grade: 1, strand: 'shapes-space', code: 'M101.1', nipun: true, statement: math.lessons.find(l => l.loCode === 'M101.1').loStatement, provenance: {...stated(MG, 2, 'source-compared'), note: 'statement as published in v1 (source-compared)'}}],
+  outcomes: [{id: 'M101.1', grade: 1, strand: 'shapes-space', code: 'M101.1', nipun: true, statement: math.lessons.find(l => l.loCode === 'M101.1').loStatement, provenance: {...stated(MG, 2, 'source-compared'), note: 'statement as published in v1 (source-compared); strand is the project’s unreviewed proposal'}}],
   objectives: [{id: 'g1-w09-o1', grade: 1, week: 9, statement: 'दूर-पास और ऊपर-नीचे की अवधारणा को समझना', outcomes: [link('lo:M101.1', 'stated', {source: at(MG, 8)})], provenance: stated(MG, 8)}]};
 const mathRoutines = {pack: 'up-math-2026', routines: [
   {id: 'math-conversation', type: 'instruction', name: 'गणितीय बातचीत', grades: [1, 2, 3], period: 1, section: 'g1/teaching-process', provenance: stated(MG, 18)},
