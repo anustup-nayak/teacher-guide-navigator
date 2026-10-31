@@ -90,6 +90,10 @@ dist/  (v1, live)                    unchanged until cutover
 app-next/ → build → dist-next/       v2 app, compiled bundles per pack/grade (new)
 ```
 
+**Content platform.** The model is a product-neutral back end: the compiler publishes a
+versioned *content release* that the website, a chatbot and other tools all read through one
+query library. See [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md).
+
 **Compiler.** `npm run content:compile` validates the model against the schemas, checks
 referential integrity (every link resolves; no orphan LOs/routines), then emits per-pack,
 per-grade bundles: schedule index, lesson bodies, LO index, routine index, search index.
@@ -229,8 +233,10 @@ vocabularies (strands, routine types, material types, assessment types) and ID r
 worked examples from one Hindi day and one Math day. Gate ✋: curriculum-design review —
 does the model express both programs without forcing one onto the other?
 
-**Phase 3 — Content tooling.** Validator, referential-integrity checks, compiler (v2
-bundles and the v1-compatible catalog), diff and coverage reports (LOs without lessons,
+**Phase 3 — Content tooling.** Validator, referential-integrity checks, compiler emitting a
+versioned content release for the website ([platform](CONTENT_PLATFORM.md) §2, §7: manifest,
+entities, graph, v2 app bundles, the v1-compatible catalog, changelog) and the query library, diff
+and coverage reports (LOs without lessons,
 lessons without LOs, routines never used, pages not in the page map), tests. Gate: compiling the *current* content
 reproduces today's v1 catalogs byte-for-byte (no behaviour change yet).
 
@@ -269,6 +275,10 @@ offline Hindi lesson, real Android phones, TalkBack, print). Teacher pilot if po
 **Phase 9 — Cutover.** Release notes, deploy v2 to root, v1 at `/v1/`, monitor, keep the
 rollback path for a term. Gate ✋: owner go-live decision.
 
+**Later, not scheduled — other products.** The owner decided (31 Oct 2026) to build only the
+website now. The content repository is shaped so that a chatbot, remedial-plan builder or print
+tools can be added later as new consumers of the content release ([CONTENT_PLATFORM.md](CONTENT_PLATFORM.md)).
+
 ## 7. Working agreements for agents
 
 - File ownership per phase: model/schemas (content), compiler (tooling) and app-next (UI)
@@ -302,3 +312,6 @@ rollback path for a term. Gate ✋: owner go-live decision.
 4. Which v2 additions to explore in Phase 6 (LO view, routine guide, remediation view)?
 5. Where the program guide lives in the app (fourth header link, inside Help, or only via
    lesson links), decided in Phase 6 with screens.
+6. Deferred until a non-website product starts: content rights for serving other products,
+   chatbot channel and hosting, generated-content policy, public or private releases
+   ([CONTENT_PLATFORM.md](CONTENT_PLATFORM.md) §8).
