@@ -54,3 +54,20 @@ paths, overwrite attempts by the migration importer, deletion of stable entities
 query isolation, proposed crosswalks, editorial visibility and legacy-only changes
 in the changelog. Generated release/compatibility files are marked for collapsed
 GitHub diffs; canonical model changes remain visible.
+
+## PR and remote evidence
+
+[PR #16](https://github.com/anustup-nayak/teacher-guide-navigator/pull/16) targets
+`next`, with #15 explicitly declared as an open dependency. Implementation commit
+`92663b9` passed both GitHub runs:
+[push checks](https://github.com/anustup-nayak/teacher-guide-navigator/actions/runs/41214414045),
+[PR checks](https://github.com/anustup-nayak/teacher-guide-navigator/actions/runs/41214444577).
+The PR is mergeable. Neither PR was merged by this task; production remains r61.
+A final documentation-only commit records this handoff; its CI must also pass.
+
+Next agent: review/merge #15 before #16 (or inspect the dependency changes together),
+then continue Phases 4–5 from next. Do not deploy these artifacts or create v2 UI
+without the separate hosting/design decisions. Full live-site QA from the earlier
+chat was superseded by the user's explicit choice to resume Phase 3; no stale r56
+asset results were used as r61 release approval. Temporary browser preferences were
+restored, and the live-test tab closed before compiler work.
