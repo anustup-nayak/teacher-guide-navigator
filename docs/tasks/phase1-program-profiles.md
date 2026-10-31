@@ -32,8 +32,10 @@ Printed page = pdf page − 2 in all six guides.
   they made `verify:sources` report unregistered originals. Nothing deleted.
 - [x] Extractor run: all pages decoded; Math G1 pdf 12, 13, 85, 86, 88, 89 have no text
   layer (images; need OCR or reading from the page image).
-- [ ] Program profiles and page maps.
-- [ ] PR to `next`.
+- [x] Section maps, page maps and coverage test (`tests/pagemap.test.mjs`).
+- [x] Draft program profiles (both packs) with open questions.
+- [x] PR to `next`.
+- [ ] Not done: full reading of G2/G3 routine pages and articles; workbook front matter; Math image-only pages; owner/academic review gate.
 
 ## Checks
 `python3 scripts/content/extract_matter.py`; `npm test`; `npm run verify:sources -- --require-complete`.

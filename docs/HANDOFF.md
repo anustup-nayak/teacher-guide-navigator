@@ -70,13 +70,23 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/phase1-program-profiles` (from `next`) | `scripts/content/extract_matter.py`, `curricula/*/extracted/matter/`, `curricula/*/model/PROGRAM_PROFILE.md`, `curricula/*/model/pagemap.json`, `docs/tasks/phase1-program-profiles.md` | Phase 1 in progress | Done: extractor written and run (decoded front/back matter, 6 guides, 320 pages). Next: write both PROGRAM_PROFILE.md from the dumps + page maps, PR to `next`. |
+| Claude Code | `task/phase1-program-profiles` (from `next`) | `scripts/content/*`, `curricula/*/extracted/matter/`, `curricula/*/model/*`, `tests/pagemap.test.mjs`, `docs/tasks/phase1-program-profiles.md` | Phase 1 drafted; PR to `next` open | Done: extractor, section maps, page maps + coverage test (npm test 83/83), both PROGRAM_PROFILE.md drafts. Next: owner/academic review gate ✋ of both profiles; then Phase 2. Any agent may take over. |
 | Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
 
 ## Change log
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `task/phase1-program-profiles` (PR to `next`)
+
+- Phase 1 drafted: `scripts/content/extract_matter.py` decodes all front/back matter (320 pages);
+  `curricula/*/model/sections.json` maps each guide from its contents page; `build_pagemap.mjs`
+  writes `pagemap.json` (every page → section → lessons) and `tests/pagemap.test.mjs` gates it.
+  Draft profiles: `curricula/up-hindi-2026/model/PROGRAM_PROFILE.md`, `curricula/up-math-2026/model/PROGRAM_PROFILE.md`.
+- Moved 38 macOS " 2" duplicate files out of the repo (nothing deleted; see task note).
+- Checks: npm test 83/83; verify:sources ok. Left: review gate, deeper reading of G2/G3 routine
+  pages, workbook front matter (not yet read). Task note: [phase1](tasks/phase1-program-profiles.md).
 
 ### 2026-10-31 · Claude Code · `main` @ `25c50ac` (PR #5, squash-merged)
 
