@@ -47,24 +47,34 @@ mid-task. It is the first file to read and the last file to update.
 
 ## Next up
 
-**Ontology-led content system and app v2**, plan in [CONTENT_ARCHITECTURE_PLAN.md](CONTENT_ARCHITECTURE_PLAN.md)
-(approved by the owner; branch rules in [VERSIONING.md](VERSIONING.md)). Do the phases in
-order and stop at every ✋ gate for the owner.
+*Refreshed 31 Oct 2026 for the next agent (Codex or Claude Code). Read AGENTS.md first.*
 
-1. **Finish Phase 0 (blocked on the owner).** The owner creates a free GitHub organisation
-   and tells you its name (suggested `sandarshika-preview`). Then, with the owner's go-ahead:
-   create the public repo `<org>/<org>.github.io`, add `docs/preview/pages-preview.yml` as
-   `.github/workflows/pages-preview.yml`, set Pages source to GitHub Actions, run the
-   workflow once, and confirm `https://<org>.github.io/` serves the `next` build. Record the
-   URL in *Current state* and the plan §9.
-2. **Phase 1** (read all front and back matter of both programs; program profiles, section
-   map, page map). Work on `task/*` branches from `next`; PRs go to `next`, never `main`.
-3. Open plan decisions §9.2–5 (derived LO links, reviewers, v2 additions, program-guide
-   placement) need the owner's answers before the phases that use them.
+**Where things stand.** v1 is live at r61 (`main` @ `49f873c`, tag `v1.0.4`; `release/v1`
+mirrors it). v2 work is on `next`: Phases 1–2 merged (program profiles, section and page maps,
+content model, program structure). The ontology is a **v1.0 release candidate**: the owner
+decided every open point ([CONTENT_MODEL.md §6](CONTENT_MODEL.md)).
 
-v1 follow-ups (on `main`, then fast-forward `release/v1` and merge `main` into `next`):
-proofread the review list in `docs/tasks/up-hindi-ingestion.md`; 390 px, keyboard-only,
-offline-Hindi and real-phone checks; load each subject's lessons only when selected.
+1. **Owner merges the two open PRs into `next`**: #12 (content-platform design, website first:
+   [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md)) and #15 (ontology decisions). Both edit this file;
+   if the second conflicts, merge `origin/next` into its branch and keep both sides.
+2. **Phase 3, the content compiler** (on a `task/*` branch from `next`, PR to `next`):
+   `scripts/content/compile.mjs` builds the website's content release
+   ([CONTENT_PLATFORM.md §2, §7](CONTENT_PLATFORM.md): `manifest.json`, `entities/`, `graph.json`,
+   `views/app/`, `views/v1/catalog.mjs`, `CHANGELOG.json`) and `content/query.mjs` (plain ES
+   modules, no browser APIs). **Gate:** `views/v1/` must equal today's `dist/catalog.mjs` and
+   `dist/packs/up-hindi-2026/catalog.mjs` byte for byte. Start from `scripts/content/v1_lesson.mjs`
+   (v1 record → model lesson) and `structure.mjs` (day types and slots). When the gate passes,
+   mark the ontology v1.0 (additive changes only after that).
+3. **Phases 4–5** fill the full model per pack (outcomes, sequence, routines, materials,
+   assessments, guide passages) using the §6 decisions.
+4. **Blocked on the owner:** Phase 0 preview site (needs a GitHub organisation name); Phase 6
+   v2 screen design needs owner approval before any v2 UI (design contract).
+
+**v1 follow-ups** (on `main`, then fast-forward `release/v1`, tag `v1.0.N`, merge `main` into
+`next`; see [VERSIONING.md](VERSIONING.md)): load each subject's lessons only when selected;
+real-phone, TalkBack and print checks (need a person). Content repairs use `repairs.json` and a
+recorded baseline amendment ([CURRICULUM_EXPANSION.md](CURRICULUM_EXPANSION.md)); never reset
+the baseline.
 
 ## Active work
 
