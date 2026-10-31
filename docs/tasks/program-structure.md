@@ -40,5 +40,8 @@ structure first, then the schemas. Branch `task/program-structure` from `next`; 
 - [x] Assessment days are where each guide puts them (test).
 - [x] npm test 94/94, npm run check, skill preflight tests.
 
+## Update
+- 2026-10-31: `g2-hindi-w19-d03` repaired on `main` (r58, v1.0.1); exception removed after `main` was merged into `next`.
+
 ## Open (review gate ✋)
-Confirm day types; Math G1 weeks 1–8 kind (editorial); repair of `g2-hindi-w19-d03`.
+Confirm day types; Math G1 weeks 1–8 kind (editorial).

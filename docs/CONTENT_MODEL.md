@@ -68,8 +68,9 @@ periodic-revision plan pages to match the published review pages.
 Calendar: G1 weeks 1–8 school readiness (not in this guide), 9–12 teaching with school readiness
 continuing and no weekly assessment, 13 and 20 periodic revision, 14–19 and 21–25 teaching.
 G2/G3 weeks 1–4 review the previous class, then the same pattern. Result: 244 + 65 + 57 lessons;
-three exceptions (G2 and G3 week 1 day 1 have no remedial work, as printed; `g2-hindi-w19-d03`
-lost step 2.3 and all of period 3 in v1).
+two exceptions (G2 and G3 week 1 day 1 have no remedial work, as printed). The check also
+found that v1 had lost step 2.3 and all of period 3 of `g2-hindi-w19-d03`; that lesson was
+repaired from the source in r58 (v1.0.1) and now fits `hi-new-skills`.
 
 **Math** (weekly overview G1 pdf 11–14, G2/G3 pdf 12–15; the day pages are image-only):
 
@@ -170,9 +171,8 @@ and actions are unchanged.
 
 1. Authoritative Hindi G1/G2 outcome list (workbook codes or guide numbering), and LO linking
    policy for derived links (plan §9.2).
-2. Program structure (§1a): confirm the day types; whether Math G1 weeks 1–8 are school
-   readiness (the Math guide does not say); and approve a source repair task for
-   `g2-hindi-w19-d03` (v1 dropped step 2.3 and period 3).
+2. Program structure (§1a): confirm the day types, and whether Math G1 weeks 1–8 are school
+   readiness (the Math guide does not say).
 3. Whether Hindi steps such as “कार्यपुस्तिका पर कार्य” become routines (`practice` type).
 4. Strand assignment for Math codes (the guides do not name strands; current values are the
    project's proposal, noted as unreviewed in each outcome's provenance note).

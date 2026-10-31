@@ -25,6 +25,7 @@ cutover is approved by the owner.
 
 - `v1.0.0` = `main` @ `5ae263b`, release r57 (UP Math + Hindi, Grades 1–3), live on 31 Oct 2026.
 - v1 patches: `v1.0.1`, `v1.0.2` … (each still bumps the rNN release with `npm run release:assets`).
+- `v1.0.1` = `main` @ `181a840`, release r58 (source repair of Hindi `g2-hindi-w19-d03`).
 - v2 previews: `v2.0.0-alpha.N`; release candidates `v2.0.0-rc.N`; cutover `v2.0.0`.
 
 Rollback at any time: revert the offending merge on `main` by PR (Pages redeploys the

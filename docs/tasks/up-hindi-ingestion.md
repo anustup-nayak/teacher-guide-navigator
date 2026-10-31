@@ -124,6 +124,8 @@ Not run: 390 px, keyboard-only pass, offline download of a Hindi lesson, real ph
 
 ## Known limits / follow-ups
 
+- 2026-10-31 r58: G2 w19 d3 repaired (periods 2–3); see [repair task](repair-g2-hindi-w19-d03.md).
+
 - Text is decoded, audited for all 366 days and compared on sampled lessons (G1 w9 d2,
   G2 w1 d5–6, G3 w3 d4, w4 d3, w19 d6, G1 w10 d6, w17 d5); not proofread line by line.
   Lessons carry contentStatus `decoded-unreviewed` and a visible extraction notice.
