@@ -1,5 +1,12 @@
 # Developer handoff
 
+Program understanding is a required metadata feature for every pack and release.
+Read [PROGRAM_METADATA.md](PROGRAM_METADATA.md) for evidence, coverage, gaps and
+readiness, and [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md) for source/model/release
+ownership. New grade/subject content must preserve earlier deliveries and use the
+same program model and query contract across front ends.
+
+
 The live cross-agent state and change log is [HANDOFF.md](HANDOFF.md); the frozen
 look, feel and flow are in [DESIGN_CONTRACT.md](DESIGN_CONTRACT.md). Sections below
 marked with a release or date are historical records.

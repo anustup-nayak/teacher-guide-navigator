@@ -132,7 +132,7 @@ state app. Reuse its techniques, not its coordinates or topic table:
 
 | Script | What it actually assumes/does | Safe reuse |
 |---|---|---|
-| `decode_legacy.py` | g1–g3 filenames, Kruti/AAText/private glyph mappings, outputs beside PDFs | Reuse a mapping only for matching font after inspection; adapt paths |
+| `scripts/ingestion/legacy_fonts.py` + pack `legacy/decode_guides.py` | g1–g3 filenames, Kruti/AAText/private glyph mappings, outputs beside PDFs | Reuse a mapping only for matching font after inspection; adapt paths |
 | `ocr_guides.py` | g1–g2 blank decoded pages, local tessdata, Hindi+English Tesseract | New adapter in extracted staging; don't run against immutable originals |
 | `index_guides.py` | UP header regions, page ranges and manual week/day overrides | Study indexing approach; do not reuse UP schedules |
 | `extract_guides.py` | UP IDs, coordinates, LO parsing, six daily stages, source outputs | Source-family adapter only; explicit isolated output |
@@ -172,3 +172,11 @@ For Balvatika, import with `--grade 0` and display the native level label. Add n
 levels/subjects as disjoint delivery packs under the same state/edition selection
 group. Do not reuse or regenerate old pack payloads. The all-delivery preservation
 gate in docs/CURRICULUM_EXPANSION.md is part of every subsequent build.
+
+## Current adapter ownership
+
+Historical Math adapters in the table above now live under
+`curricula/up-math-2026/tools/legacy/`; Hindi source-family adapters live in its
+pack's `tools/`. Shared decoding primitives live in `scripts/ingestion/`.
+See `docs/REPOSITORY_LAYOUT.md`. Complete the whole-program metadata/profile before
+lesson modelling; preserve OCR/extraction as unreviewed staging.

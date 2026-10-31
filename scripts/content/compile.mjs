@@ -4,9 +4,10 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {validate} from './schema.mjs';
+import {loadProgramMetadata,validateProgramMetadata} from './program_metadata.mjs';
 import {checkStructure,dayTypeFor} from './structure.mjs';
 import {exportCatalog} from './v1_codec.mjs';
-export const SCHEMA_VERSION='1.0.0';
+export const SCHEMA_VERSION='1.1.0';
 const ROOT=fileURLToPath(new URL('../../',import.meta.url));
 const json=x=>JSON.stringify(x,null,1)+'\n';
 export const sha256=x=>crypto.createHash('sha256').update(x).digest('hex');
@@ -33,8 +34,9 @@ export function loadPack(pack,root=ROOT){
   if(!safeId(pack))throw Error('Unsafe pack id');
   const dir=path.join(root,'curricula',pack), model=path.join(dir,'model');
   const config=read(path.join(dir,'pack.json'));
+  const programMetadata=loadProgramMetadata(root,pack);
   if(config.status!=='reviewed-snapshot')throw Error(`${pack}: pack not reviewed for publication`);
-  const inputFiles=[...walk(model).filter(p=>p.endsWith('.json')),path.join(dir,'compat/v1.json')];
+  const inputFiles=[...walk(model).filter(p=>p.endsWith('.json')),path.join(dir,'compat/v1.json'),path.join(model,'PROGRAM_PROFILE.md')];
   const inputs=Object.fromEntries(inputFiles.map(p=>[path.relative(root,p).split(path.sep).join('/'),sha256(fs.readFileSync(p))]));
   const optional=name=>fs.existsSync(path.join(model,name))?read(path.join(model,name)):null;
   const assetModel=read(path.join(model,'assets.json'));if(assetModel.pack!==pack)throw Error('Asset pack identity mismatch');
@@ -43,7 +45,7 @@ export function loadPack(pack,root=ROOT){
   const guides=fs.existsSync(path.join(model,'guide'))?walk(path.join(model,'guide')).filter(p=>p.endsWith('.json')).map(read):[];
   const publication=path.resolve(root,'dist',config.publicationDirectory);
   if(publication!==path.join(root,'dist')&&!publication.startsWith(path.join(root,'dist')+path.sep))throw Error('Unsafe publication path');
-  return {pack,program:read(path.join(model,'program.json')),structure:read(path.join(model,'structure.json')),sections:read(path.join(model,'sections.json')),assets:assetModel.assets,lessons,guides,compat:read(path.join(dir,'compat/v1.json')),outcomes:optional('outcomes.json'),sequence:optional('sequence.json'),routines:optional('routines.json'),materials:optional('materials.json'),assessments:optional('assessments.json'),inputs,parityCatalog:fs.readFileSync(path.join(publication,'catalog.mjs'),'utf8')};
+  return {...programMetadata,pageMap:read(path.join(model,'pagemap.json')),pack,program:read(path.join(model,'program.json')),structure:read(path.join(model,'structure.json')),sections:read(path.join(model,'sections.json')),assets:assetModel.assets,lessons,guides,compat:read(path.join(dir,'compat/v1.json')),outcomes:optional('outcomes.json'),sequence:optional('sequence.json'),routines:optional('routines.json'),materials:optional('materials.json'),assessments:optional('assessments.json'),inputs,parityCatalog:fs.readFileSync(path.join(publication,'catalog.mjs'),'utf8')};
 }
 function assertSchema(schema,data){const errors=validate(schema,data);if(errors.length)throw Error(`${schema}: ${errors.slice(0,8).join('; ')}`);}
 function eachSource(value,visit){
@@ -54,6 +56,7 @@ function eachSource(value,visit){
 export function buildRelease(data,{version,previous=null}={}){
   if(!versionOK(version))throw Error('Version must be a safe semantic version');
   if(previous&&(previous.pack!==data.pack||!versionOK(previous.version)||compareVersions(version,previous.version)<=0))throw Error('Previous release pack/version mismatch');
+  const metadataErrors=validateProgramMetadata(data);if(metadataErrors.length)throw Error(metadataErrors.join('; '));
   assertSchema('assets',{pack:data.pack,assets:data.assets});
   assertSchema('program',data.program);assertSchema('structure',data.structure);assertSchema('sections',data.sections);
   if(data.pack!==data.program.pack||data.sections.pack!==data.pack||data.structure.pack!==data.pack)throw Error('Pack identity mismatch');
@@ -81,7 +84,7 @@ export function buildRelease(data,{version,previous=null}={}){
     if(!docs.has(s.doc)||!assetsByDoc.get(s.doc)?.has(s.pdf))throw Error(`Unresolved source ${s.doc} p${s.pdf}`);
     if(s.rect&&(!(s.rect.length===4)||s.rect.some(n=>!Number.isFinite(n)||n<0||n>1)||s.rect[0]>=s.rect[2]||s.rect[1]>=s.rect[3]))throw Error('Invalid source crop');
   };
-  eachSource({program:data.program,lessons:data.lessons,guides:data.guides,assets:data.assets,structure:data.structure,...Object.fromEntries(['outcomes','sequence','routines','materials','assessments'].map(k=>[k,data[k]]))},checkSource);
+  eachSource({understanding:data.understanding,program:data.program,lessons:data.lessons,guides:data.guides,assets:data.assets,structure:data.structure,...Object.fromEntries(['outcomes','sequence','routines','materials','assessments'].map(k=>[k,data[k]]))},checkSource);
   const v1=exportCatalog(data.lessons,data.compat,data.assets);
   if(v1!==data.parityCatalog)throw Error(`${data.pack}: v1 catalog byte parity failed`);
   const provenance={assertion:'stated',review:'unreviewed'};
@@ -129,15 +132,16 @@ export function buildRelease(data,{version,previous=null}={}){
   const changelog={pack:data.pack,version,previous:previous?.version||null,added:Object.keys(current).filter(id=>!old[id]).sort(),changed:[...new Set([...Object.keys(current).filter(id=>old[id]&&old[id]!==current[id]),...Object.keys(legacyHashes).filter(id=>previous?.legacyHashes?.[id]&&previous.legacyHashes[id]!==legacyHashes[id]).map(id=>`lesson:${id}`)])].sort(),removed};
   const files=new Map();
   for(const [kind,list]of Object.entries(entities))files.set(`entities/${kind}.json`,json(list));
-  files.set('graph.json',json(uniqueGraph));files.set('structure.json',json(data.structure));files.set('views/v1/catalog.mjs',v1);
+  files.set('graph.json',json(uniqueGraph));files.set('structure.json',json(data.structure));
+  files.set('program-understanding.json',json(data.understanding));files.set('PROGRAM_PROFILE.md',data.profileText);files.set('sections.json',json(data.sections));files.set('pagemap.json',json(data.pageMap));files.set('views/v1/catalog.mjs',v1);
   for(const grade of data.program.grades)files.set(`views/app/grade-${grade}.json`,json({pack:data.pack,version,grade,lessons:data.lessons.filter(l=>l.grade===grade)}));
   const oldFiles=Object.fromEntries(Object.entries(previous?.files||{}).filter(([name])=>name!=='CHANGELOG.json'));
   changelog.files={added:[...files.keys()].filter(n=>!oldFiles[n]).sort(),changed:[...files].filter(([n,t])=>oldFiles[n]&&oldFiles[n].sha256!==sha256(t)).map(([n])=>n).sort(),removed:Object.keys(oldFiles).filter(n=>!files.has(n)).sort()};
   files.set('CHANGELOG.json',json(changelog));
   const reviewSummary={};for(const entity of index.values()){const review=entity.provenance?.review||'unreviewed';reviewSummary[review]=(reviewSummary[review]||0)+1;}
-  const manifest={pack:data.pack,version,schemaVersion:SCHEMA_VERSION,counts:Object.fromEntries(Object.entries(entities).map(([k,v])=>[k,v.length])),reviewSummary,pendingModels:['outcomes','sequence','routines','materials','assessments',...(!data.guides.length?['guide']:[])].filter(k=>k==='guide'||!data[k]),inputs:data.inputs,entityHashes:current,legacyHashes,files:Object.fromEntries([...files].map(([name,text])=>[name,{sha256:sha256(text),bytes:Buffer.byteLength(text)}]))};
+  const manifest={pack:data.pack,version,schemaVersion:SCHEMA_VERSION,counts:Object.fromEntries(Object.entries(entities).map(([k,v])=>[k,v.length])),reviewSummary,programStructure:{...data.program.structure,status:data.understanding.status,review:data.understanding.provenance.review,dimensions:data.understanding.dimensions.map(d=>({id:d.id,status:d.status,sourceReferences:d.sourceRefs.length}))},pendingModels:['outcomes','sequence','routines','materials','assessments',...(!data.guides.length?['guide']:[])].filter(k=>k==='guide'||!data[k]),inputs:data.inputs,entityHashes:current,legacyHashes,files:Object.fromEntries([...files].map(([name,text])=>[name,{sha256:sha256(text),bytes:Buffer.byteLength(text)}]))};
   assertSchema('../content-release/manifest.schema.json',manifest);
-  files.set('manifest.json',json(manifest));return {files,manifest,entities,graph:uniqueGraph,changelog};
+  files.set('manifest.json',json(manifest));return {files,manifest,entities,graph:uniqueGraph,changelog,structure:data.structure,understanding:data.understanding};
 }
 export function writeRelease(release,directory,{check=false}={}){
   const expected=release.files;

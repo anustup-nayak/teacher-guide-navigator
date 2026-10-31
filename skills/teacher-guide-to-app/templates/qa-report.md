@@ -9,6 +9,13 @@
 | Check/defect ID | Fixture/lesson/source | Steps/command/environment | Observed outcome | PASS/FAIL/LIMITED/NOT RUN | Evidence |
 |---|---|---|---|---|---|
 
+## Program and release metadata
+
+- Nine dimensions, profile/evidence, open questions and readiness versus review:
+- verify:program, verify:content, preflight --require-program results:
+- Release metadata snapshots/hashes, query programStructure and review filtering:
+- Prior release bytes/IDs/teacher-data identities preserved; pending model families:
+
 ## Required coverage
 
 - Baseline and all-pack catalog/registry/resource/publication checks:

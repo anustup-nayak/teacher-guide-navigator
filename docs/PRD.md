@@ -1,5 +1,12 @@
 # Sandarshika product requirements
 
+Program understanding is a required metadata feature for every pack and release.
+Read [PROGRAM_METADATA.md](PROGRAM_METADATA.md) for evidence, coverage, gaps and
+readiness, and [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md) for source/model/release
+ownership. New grade/subject content must preserve earlier deliveries and use the
+same program model and query contract across front ends.
+
+
 Status: reusable product baseline, 31 October 2026. A new curriculum's agreed
 requirements brief specializes this PRD; it does not silently replace it.
 Implementation boundaries: [architecture](ARCHITECTURE.md). Execution process:

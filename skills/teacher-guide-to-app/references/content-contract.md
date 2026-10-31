@@ -1,5 +1,11 @@
 # Pack, content, resource and identity contracts
 
+Whole-program metadata is mandatory: follow [program understanding](program-understanding.md)
+and `docs/PROGRAM_METADATA.md`. Run `npm run verify:program` and the pinned
+`npm run verify:content`; a source profile alone cannot replace structured evidence,
+calendar/day-type validation or source review. Preserve older immutable releases.
+
+
 Read current implementations of `dist/core.mjs`, `dist/curricula.mjs`,
 `dist/lesson-visuals.mjs` and the publisher before adapting these shapes. The
 examples below illustrate the existing contract; they are not shipped demo packs.

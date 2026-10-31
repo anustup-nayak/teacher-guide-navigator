@@ -14,11 +14,14 @@ REQUIRED = ('AGENTS.md', 'README.md', 'package.json', 'dist/index.html',
             'dist/domain/app-context.mjs', 'dist/services/resources.mjs',
             'dist/features/reader.mjs', 'dist/features/offline.mjs', 'dist/views/lesson-media.mjs', 'dist/domain/selection.mjs',
             'dist/views/curriculum-switcher.mjs', 'curricula/published-baseline.json',
-            'scripts/verify_publications.mjs', 'docs/CURRICULUM_EXPANSION.md')
+            'scripts/verify_publications.mjs', 'docs/CURRICULUM_EXPANSION.md',
+            'docs/REPOSITORY_LAYOUT.md', 'docs/PROGRAM_METADATA.md',
+            'schemas/content-model/program-understanding.schema.json',
+            'scripts/content/program_metadata.mjs', 'scripts/content/compile.mjs', 'content/query.mjs')
 NORMALIZED = {'catalog.mjs', 'resources.json', 'worksheets.json', 'sources.json'}
 
 
-def inspect(repo, pack_id=None, require_reviewed=False, require_sources=False):
+def inspect(repo, pack_id=None, require_reviewed=False, require_sources=False, require_program=False):
     repo = repo.resolve()
     errors, warnings, facts = [], [], {}
     for name in REQUIRED:
@@ -102,9 +105,44 @@ def inspect(repo, pack_id=None, require_reviewed=False, require_sources=False):
                 digest = hashlib.file_digest(stream, 'sha256').hexdigest()
             if digest != document.get('sha256'):
                 errors.append('Original PDF checksum mismatch')
+        if require_program:
+            expected_meta = {'program': 'model/program.json', 'structure': 'model/structure.json',
+                             'understanding': 'model/program-understanding.json', 'profile': 'model/PROGRAM_PROFILE.md'}
+            if config.get('metadata') != expected_meta:
+                errors.append('Pack metadata must identify program, structure, understanding and profile')
+            try:
+                for relative in expected_meta.values():
+                    target = pack / relative
+                    if target.resolve().parent != (pack / 'model').resolve() or target.is_symlink():
+                        raise ValueError('Unsafe program metadata reference')
+                understanding = json.loads((pack / expected_meta['understanding']).read_text())
+                program = json.loads((pack / expected_meta['program']).read_text())
+                structure = json.loads((pack / expected_meta['structure']).read_text())
+                schema = json.loads((repo / 'schemas/content-model/program-understanding.schema.json').read_text())
+                required = schema['$defs']['dimensionId']['enum']
+                dimensions = understanding['dimensions']
+                ids = [d['id'] for d in dimensions]
+                if understanding['pack'] != pack_id or understanding['status'] != 'documented':
+                    errors.append('Program understanding must be documented for this pack')
+                if sorted(ids) != sorted(required):
+                    errors.append('Program understanding needs every dimension exactly once')
+                for d in dimensions:
+                    if d['status'] in ('not-inspected', 'unresolved') or not d['summary'].strip():
+                        errors.append('Program understanding has incomplete dimensions')
+                    if d['status'] != 'not-applicable' and not d['sourceRefs']:
+                        errors.append('Program understanding needs source evidence')
+                if any(q['blocking'] and q['status'] == 'open' for q in understanding['questions']):
+                    errors.append('Blocking program question remains open')
+                if program.get('structure', {}).get('file') != 'structure.json' or not structure.get('calendar') or not structure.get('dayTypes'):
+                    errors.append('Program metadata must link a populated calendar and day types')
+                if not (pack / expected_meta['profile']).read_text().strip():
+                    errors.append('Program profile is empty')
+                facts['programUnderstanding'] = understanding['status']
+            except (OSError, ValueError, KeyError, TypeError):
+                errors.append('Program metadata missing, unsafe or invalid; run the Node program gate for full validation')
         facts['packStatus'] = config.get('status')
-    elif require_reviewed or require_sources:
-        errors.append('--require-reviewed/--require-sources need --pack')
+    elif require_reviewed or require_sources or require_program:
+        errors.append('--require-reviewed/--require-sources/--require-program need --pack')
     return {'ok': not errors, 'facts': facts, 'warnings': warnings, 'errors': errors}
 
 
@@ -114,8 +152,9 @@ def main():
     parser.add_argument('--pack')
     parser.add_argument('--require-reviewed', action='store_true')
     parser.add_argument('--require-sources', action='store_true')
+    parser.add_argument('--require-program', action='store_true')
     args = parser.parse_args()
-    result = inspect(args.repo, args.pack, args.require_reviewed, args.require_sources)
+    result = inspect(args.repo, args.pack, args.require_reviewed, args.require_sources, args.require_program)
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0 if result['ok'] else 1
 

@@ -1,5 +1,11 @@
 # Quality gates and regression matrix
 
+Whole-program metadata is mandatory: follow [program understanding](program-understanding.md)
+and `docs/PROGRAM_METADATA.md`. Run `npm run verify:program` and the pinned
+`npm run verify:content`; a source profile alone cannot replace structured evidence,
+calendar/day-type validation or source review. Preserve older immutable releases.
+
+
 ## Evidence format
 
 Use PASS / FAIL / LIMITED / NOT RUN, with fixture/lesson/pack, exact environment,

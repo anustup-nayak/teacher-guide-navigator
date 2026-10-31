@@ -1,5 +1,11 @@
 # Release, durability and handover
 
+Whole-program metadata is mandatory: follow [program understanding](program-understanding.md)
+and `docs/PROGRAM_METADATA.md`. Run `npm run verify:program` and the pinned
+`npm run verify:content`; a source profile alone cannot replace structured evidence,
+calendar/day-type validation or source review. Preserve older immutable releases.
+
+
 ## Release identity and cache coherence
 
 A pack storageKey identifies teacher data permanently; it is not a release cache

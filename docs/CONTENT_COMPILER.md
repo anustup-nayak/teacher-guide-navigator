@@ -1,16 +1,25 @@
 # Content compiler and query contract — Phase 3
 
-The ontology is v1.0.0: the Phase 3 gate reconstructs both current v1 catalogs byte
+The ontology began at v1.0.0: the Phase 3 gate reconstructs both current v1 catalogs byte
 for byte (732 lessons) without copying the catalog as the build output. Changes to
 published model vocabulary/schema fields are additive after this version. The
 model is only partly populated: Phases 4–5 supply outcomes, sequence, routines,
 materials, assessments and program-guide passages. That missing work is explicit
 in each release manifest; no links or academic approval are inferred to fill it.
 
+Program understanding is mandatory authoring metadata; see
+[PROGRAM_METADATA.md](PROGRAM_METADATA.md) and [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md).
+Current releases use schema 1.1.0, adding program metadata snapshots without
+changing retained 1.0.0 releases or the production website.
+
 ## Inputs and ownership
 
 - `curricula/<pack>/model/program.json`: pack identity and archived document metadata.
-- `structure.json`, `sections.json`, `pagemap.json`: existing program/page maps.
+- `structure.json`, `sections.json`, `pagemap.json`: program/page maps.
+- `program-understanding.json`, `PROGRAM_PROFILE.md`: nine evidence-backed inspection
+  dimensions, whole-program synthesis, explicit questions and honest review status.
+  `pack.json.metadata` and `program.json.structure` must reference these records.
+  The compiler refuses incomplete understanding or open blocking questions.
 - `lessons/<grade>.json`: canonical day/period/step records. Titles, actions, minute
   values, questions, exact instruction variants and source references live here.
   `instructions: []` means no alternate instruction list; consumers fall back to
@@ -42,14 +51,15 @@ is part of the build. Legacy module text is parsed as JSON, never evaluated.
 Requires Node 22+. No npm dependency/install or build framework.
 
 ```sh
-npm run content:build -- --version 1.0.0
+npm run verify:program
+npm run content:build -- --version 1.1.0 --previous 1.0.0
 npm run verify:content
 # Next content version, after model review and matching v1 repair if necessary:
-npm run content:build -- --version 1.0.1 --previous 1.0.0
+npm run content:build -- --version 1.1.1 --previous 1.1.0
 ```
 
 Optional final arguments select pack IDs. The current `verify:content` command pins
-1.0.0; change its pinned version/previous version in the same reviewed PR when the
+1.1.0 with previous 1.0.0; change its pinned version/previous version in the same reviewed PR when the
 current canonical models advance. Older directories remain immutable; rebuilding
 an older release from newer models is not a supported update mechanism.
 
@@ -61,6 +71,8 @@ Output: `content/<pack>/<version>/`:
 | `entities/<kind>.json` | nodes by kind: program, document, daytype, lesson, step, section, passage, lo, objective, unit, routine, material, assessment, resource, workbook |
 | `graph.json` | typed links with origin, review, rule and available source; qualified step IDs (`step:<lesson>/<step>`) avoid cross-lesson collisions |
 | `structure.json` | calendar, day types, slots and explicit exceptions |
+| `program-understanding.json`, `PROGRAM_PROFILE.md` | evidence-backed whole-program understanding and questions |
+| `sections.json`, `pagemap.json` | guide architecture and page mapping snapshots |
 | `views/app/grade-N.json` | independently loadable canonical grade bundle, tagged with pack/version |
 | `views/v1/catalog.mjs` | byte-identical legacy module, including auxiliary exports |
 | `CHANGELOG.json` | added/changed/removed qualified IDs and added/changed/removed files relative to an explicitly named previous release |
@@ -86,12 +98,18 @@ software checks. Explicit source-variant exceptions remain source variants.
 
 ## Query library
 
-`content/query.mjs` exports `createContentQuery({manifest, entities, graph})`.
+`content/query.mjs` exports `createContentQuery({manifest, entities, graph, structure, understanding})`.
 It is plain ES: no imports, filesystem, network, browser APIs or global app state.
 The host loads release JSON and verifies manifest hashes before constructing it.
 `entities` maps each manifest kind to its JSON array. A website may load a pinned
 grade bundle and the relevant entities/edges; server-side tools can load the same
 release without a browser.
+
+Load `structure.json` and `program-understanding.json` into the corresponding
+properties to use `programStructure()`, which returns references, structure and
+understanding. Retained releases without these properties return null metadata.
+This accessor uses the same review projection as other queries; unapproved
+editorial summaries remain hidden, but evidence and readiness status are available.
 
 Queries: `lesson(id)`, `day(grade, week, day)`, `dayType(lessonOrId)`, `routine(id)`,
 `stepsByRoutine(id)`, `lessonsForOutcome(code)`, `assessmentFor(grade, week)`,
@@ -112,7 +130,7 @@ projected copies; consumers cannot mutate the query's internal release.
 
 ## Release boundaries and validation
 
-The two 1.0.0 releases live in the repository on `next`; they are **not published
+The retained 1.0.0 and new 1.1.0 releases live in the repository on `next`; they are **not published
 to the production website**. `dist/`, its pipeline, storage keys, caches and design
 lock are unchanged. There is no retrieval view, chatbot, generator or v2 UI in this
 phase. Preview/public `/content/` hosting remains a separate owner decision.

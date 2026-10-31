@@ -17,7 +17,7 @@ fonts by the pack's own adapter (`curricula/up-hindi-2026/tools/`); see
 
 Mathematics: 366 mapped day plans: 183 direct teaching plans and 183 weekly plans. Grade 1 begins Week 9; Grades 2 and 3 begin Week 1. Weeks 13/20 expose the original periodic-review pages and workbooks without fabricated day records. Direct plans retain three 40-minute periods.
 
-Preserve authorized original PDFs and checksum manifests under `curricula/<pack-id>/originals/`; see [source archive](docs/SOURCE_ARCHIVE.md). `scripts/decode_legacy.py`, `ocr_guides.py`, `index_guides.py`, and `extract_guides.py` form the original extraction pipeline. `scripts/prepare_resources.py SOURCE_ROOT dist` indexes printed worksheet headers and renders the complete supplied guides/workbooks and available Grade 3 textbook. `scripts/harden_content.mjs` applies source-compared repairs, removes known encoding artifacts, prepares summary cards, links worksheets and gives source-derived practice when no worksheet was supplied. It produces `docs/CONTENT_AUDIT.json`.
+Preserve authorized original PDFs and checksum manifests under `curricula/<pack-id>/originals/`; see [source archive](docs/SOURCE_ARCHIVE.md). Shared font decoding is in `scripts/ingestion/legacy_fonts.py`; historical Math adapters are isolated in `curricula/up-math-2026/tools/legacy/` and must not be run against the live publication. See [repository layout](docs/REPOSITORY_LAYOUT.md) and [program metadata](docs/PROGRAM_METADATA.md) for the source → program model → release → front-end boundaries.
 
 Eight image-only daily records and four weekly source pages (12 day records) were manually compared with original images. Repairs include 70% thresholds, materials, references and actual teaching instructions. Adapted practice is labelled. Original pages remain accessible inside an in-app reader. A separate academic reviewer has not signed off every instruction.
 
@@ -123,5 +123,5 @@ checks completeness and integrity independently of app content validation.
 
 The [Phase 3 compiler](docs/CONTENT_COMPILER.md) builds immutable, schema-validated
 content releases and a shared query contract; both legacy catalogs must reconstruct
-byte for byte. Run `npm run content:build -- --version 1.0.0` and
+byte for byte. Run `npm run content:build -- --version 1.1.0 --previous 1.0.0` and
 `npm run verify:content`. Repository releases do not change the live v1 app.
