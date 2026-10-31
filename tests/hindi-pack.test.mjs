@@ -60,3 +60,13 @@ test('decoded text matches page images on checked lessons, including the reviewe
  assert.ok(!JSON.stringify(g3).includes('घर के सदस्य'),'older overprinted edit excluded');
  const grid=byId('g1-hindi-w17-d05').phases.find(p=>p.title.includes('समूह-A'));assert.ok(grid.actions[0].includes('बच्चों को वर्ण एवं अक्षर पहचानने'),'grid letters kept out of instructions');
 });
+
+test('grid crops sit on the step printed in the same column (r59)',()=>{
+ const overrides=hindi.visualStyle.overrides,steps=id=>Object.keys(overrides[id]||{});
+ // 3.2 (remedial, right column) sits beside 3.1 (left column); the grid belongs to 3.2.
+ for(const id of ['g1-hindi-w14-d03','g2-hindi-w19-d02','g2-hindi-w19-d03','g3-hindi-w05-d01'])assert.deepEqual(steps(id),['p3-2'],id);
+ assert.deepEqual(steps('g3-hindi-w19-d01'),['p2-2'],'right-column grid in 2.2');
+ assert.ok(steps('g1-hindi-w23-d02').includes('p2-1'),'left-column grid stays in 2.1');
+ const right=Object.entries(overrides).flatMap(([id,o])=>Object.entries(o).filter(([pid,v])=>pid==='p3-1'&&(v.rect[0]+v.rect[2])/2>.5).map(([pid])=>id));
+ assert.deepEqual(right,[],'no right-column grid on step 3.1');
+});

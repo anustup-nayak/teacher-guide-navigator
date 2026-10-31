@@ -154,7 +154,7 @@ def page_model(page):
 
 def new_step(num, title, minutes, line, pno, model):
     return {'num': num, 'title': title, 'minutes': minutes, 'actions': [], 'questions': [], 'notes': [],
-            'pdfPage': pno, 'top': line['y'] / model['height'], 'bottom': line['y1'] / model['height']}
+            'pdfPage': pno, 'col': line['col'], 'top': line['y'] / model['height'], 'bottom': line['y1'] / model['height']}
 
 
 def split_preamble(period):
@@ -240,11 +240,13 @@ def parse_day(pages):
 
 
 def attach_grids(day, pages):
-    """Give each grid to the step whose vertical extent on that page contains it."""
+    """Give each grid to the step in its column whose vertical extent on that page contains it.
+    Steps in the two columns overlap vertically (3.1 left beside 3.2 right), so the column decides."""
     for pno, m in pages:
         for g in m['grids']:
-            mid = (g[1] + g[3]) / 2
+            mid, col = (g[1] + g[3]) / 2, 'L' if (g[0] + g[2]) / 2 < .5 else 'R'
             steps = [s for p in day['periods'] for s in p['steps'] if s['pdfPage'] == pno]
+            steps = [s for s in steps if s.get('col') == col] or steps
             best = min(steps, key=lambda s: 0 if s['top'] - .01 <= mid <= s['bottom'] + .03 else min(abs(mid - s['top']), abs(mid - s['bottom'])), default=None)
             if best is not None:
                 best.setdefault('grids', []).append(g)
