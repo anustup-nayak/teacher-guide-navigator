@@ -14,7 +14,7 @@ imports this file; keep rules here, not in agent-specific copies.
    left), and refresh *Current state* if facts changed. Never rewrite older entries.
 
 Then read README.md, docs/DESIGN_CONTRACT.md, docs/QA_QC_RELEASE_CHECKLIST.md and
-docs/DEVELOPMENT.md before editing. docs/MVP_ACCEPTANCE.md is historical.
+docs/DEVELOPMENT.md before editing. Files under docs/history/ and docs/tasks/ are dated records, not instructions.
 
 ## Protected design
 - [docs/DESIGN_CONTRACT.md](docs/DESIGN_CONTRACT.md) freezes the look, feel and teaching

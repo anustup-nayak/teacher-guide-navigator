@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Program guide mockups</title>
+<!-- The app's own protected styles, so the mockups look like the real app. -->
+<link rel="stylesheet" href="../../../dist/styles.css">
+<link rel="stylesheet" href="../../../dist/guide-cards.css">
+<style>
+/* Mockup page only */
+body{background:#dfe6ea}
+.mock-intro{max-width:1180px;margin:20px auto;padding:0 20px;font-size:15px;color:#334d5c}
+.mock-intro h1{font-size:24px}
+.phones{display:flex;flex-wrap:wrap;gap:22px;justify-content:center;padding:10px 20px 40px}
+.phone{width:360px;background:var(--bg);border:10px solid #1f2b33;border-radius:26px;overflow:hidden;box-shadow:0 8px 24px #0003}
+.phone-label{width:360px;font-size:14px;font-weight:700;color:#174d6c;margin:0 0 8px}
+.phone main{padding:16px 14px 28px;max-width:none}
+.phone .site-header .header-inner{padding:8px 12px;gap:8px}
+.phone .brand{font-size:17px}.phone .header-inner nav a{font-size:13px;padding:6px 7px}
+.new{outline:3px dashed #854900;outline-offset:3px;position:relative}
+.new::after{content:"नया";position:absolute;top:-11px;right:8px;background:#854900;color:#fff;font-size:11px;font-weight:700;padding:1px 6px;border-radius:5px}
+
+/* PROPOSED styles (would go into dist/guide-cards.css after approval) */
+.guide-entry{display:block;background:#eef6fb;border:1px solid #a3c4d6;border-left:5px solid var(--blue);border-radius:10px;padding:14px 15px;text-decoration:none;margin:14px 0}
+.guide-entry strong{display:block;font-size:17px;color:var(--ink)}
+.guide-entry span{font-size:14px;color:var(--body)}
+.guide-section{display:block;text-decoration:none;background:#fff;border:1px solid #c6d6df;border-radius:10px;padding:14px;margin:10px 0}
+.guide-section h3{font-size:17px;margin:0 0 4px}
+.guide-section p{font-size:14px;margin:0;color:var(--body)}
+.guide-section small{display:block;font-size:12px;color:var(--muted);margin-top:6px}
+.depth-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;background:#e4ebef;border-radius:9px;padding:4px;margin:12px 0}
+.depth-tabs span{text-align:center;font-size:14px;font-weight:700;padding:9px 2px;border-radius:6px;color:var(--blue-dark)}
+.depth-tabs span.on{background:var(--blue-dark);color:#fff}
+.week-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:4px;margin:12px 0}
+.day{border-radius:8px;padding:8px 3px;text-align:center;font-size:12px;line-height:1.35;color:#3a2a10;border:1px solid #0001}
+.day b{display:block;font-size:15px}
+.day.new-skills{background:#fde8c4}.day.revision{background:#f9dde3}.day.assessment{background:#e6dcf1}
+.legend{font-size:13px;margin:6px 0 0}.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin:0 4px -1px 8px}
+.year-strip{display:grid;grid-template-columns:repeat(25,1fr);gap:2px;margin:10px 0 4px}
+.year-strip span{height:22px;border-radius:3px;background:#cfe2ee}
+.year-strip .review{background:#b9a6cf}.year-strip .prev{background:#a7c5a6}
+.year-axis{display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}
+.period{border-radius:10px;padding:12px 13px;margin:10px 0;background:#fff;border:1px solid #e1ccac;border-top:6px solid var(--amber)}
+.period.practice{border-color:#e4bdc5;border-top-color:var(--pink)}.period.support{border-color:#cfc0dc;border-top-color:var(--purple)}
+.period h3{font-size:16px;margin:0 0 4px;display:flex;justify-content:space-between}
+.period h3 span{font-size:13px;background:#fff0d6;border-radius:6px;padding:1px 7px}
+.period p{font-size:14px;margin:0}
+.callout-n{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#854900;color:#fff;font-size:12px;font-weight:800;margin-right:6px;vertical-align:middle}
+.annot{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0;font-size:14px}
+.lo-strand{font-size:15px;font-weight:800;color:var(--blue-dark);margin:14px 0 6px}
+.lo{background:#fff;border:1px solid var(--line);border-radius:9px;padding:10px 12px;margin:6px 0;font-size:14px}
+.lo .weeks{margin-top:6px}.lo .weeks span{display:inline-block;font-size:12px;border:1px solid #a3c4d6;border-radius:12px;padding:1px 8px;margin:2px 3px 0 0;color:#174d6c;background:#f2f8fb}
+.pending{font-size:13px;color:#714700;background:#fff5df;border:1px solid #e5c98b;border-radius:8px;padding:8px 10px;margin:8px 0}
+.source-line{font-size:12px;color:var(--muted);margin-top:8px}
+.daylink{color:var(--blue-dark);text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="mock-intro">
+  <h1>संदर्शिका को समझें · program guide — design mockups</h1>
+  <p>Proposal in <code>docs/PROGRAM_GUIDE_DESIGN.md</code>. Built with the app's own stylesheets; dashed
+  brown outlines mark what is new. Example: कक्षा 2 · हिन्दी (data from content release 1.1.0 and the
+  guide's pages). Text from the guide's front matter is shown as decoded and will be source-compared
+  before use. Nothing here is live.</p>
+</div>
+
+<div class="phones">
+
+<!-- 1. Entry points -->
+<div>
+<p class="phone-label">1 · Entry: find page and lesson (no gate)</p>
+<div class="phone">
+  <header class="site-header"><div class="header-inner"><a class="brand" href="#"><span class="brand-mark">▤</span><span class="brand-name">संदर्शिका</span></a><nav><a href="#" aria-current="page">पाठ चुनें</a><a href="#">मेरी सूची</a><a href="#">मदद</a></nav></div></header>
+  <main>
+    <h1 style="font-size:22px">अपना पाठ चुनें</h1>
+    <div class="browse-tabs"><button aria-pressed="false">पाठ के विषय से</button><button aria-pressed="true">सप्ताह / दिन से</button></div>
+    <a class="guide-entry new" href="#"><strong>📘 संदर्शिका को समझें</strong><span>सप्ताह और दिन, कालांश, पाठ योजना कैसे पढ़ें, सीखने के प्रतिफल</span></a>
+    <div class="lesson-card" style="margin-top:6px"><div class="card-meta"><span>सप्ताह 19 · दिन 6 · <span class="daylink new">साप्ताहिक आकलन</span></span></div><h3 style="font-size:17px">सभी बच्चों के साथ साप्ताहिक आकलन ‘मैंने सीख लिया’ का क्रियान्वयन करना</h3><p class="card-summary">कार्यपत्रक पृष्ठ 85 · चित्र कहानी पोस्टर-5</p><div class="card-footer"><span>2 कालांश · 120 मिनट</span><span class="card-open">पाठयोजना खोलें →</span></div></div>
+    <p class="hint">Lesson page: the day label links to “दिन 6 क्यों अलग है”, and a small link <span class="daylink new">यह पाठ योजना कैसे पढ़ें?</span> sits under the section chips. Help gets one line too. The header is unchanged.</p>
+  </main>
+</div>
+</div>
+
+<!-- 2. Guide home -->
+<div>
+<p class="phone-label">2 · Guide home (#/guide)</p>
+<div class="phone">
+  <header class="site-header"><div class="header-inner"><a class="brand" href="#"><span class="brand-mark">▤</span><span class="brand-name">संदर्शिका</span></a><nav><a href="#">पाठ चुनें</a><a href="#">मेरी सूची</a><a href="#">मदद</a></nav></div></header>
+  <main class="new">
+    <p class="small"><a href="#">← पाठ चुनें</a></p>
+    <h1 style="font-size:22px">कक्षा 2 · हिन्दी · संदर्शिका को समझें</h1>
+    <p style="font-size:15px">संदर्शिका के शुरुआती पृष्ठों में पूरे साल की योजना है। यहाँ वही बातें छोटे हिस्सों में हैं।</p>
+    <a class="guide-section" href="#"><h3>1 · सप्ताह कैसे चलता है</h3><p>दिन 1–4 नई दक्षताएँ, दिन 5 पुनरावृत्ति, दिन 6 आकलन; सावधिक पुनरावृत्ति के सप्ताह</p><small>संदर्शिका पृष्ठ 13–14</small></a>
+    <a class="guide-section" href="#"><h3>2 · हर दिन के कालांश</h3><p>तीन कालांश, 40-40 मिनट: क्या, किस सामग्री से</p><small>संदर्शिका पृष्ठ 16</small></a>
+    <a class="guide-section" href="#"><h3>3 · पाठ योजना कैसे पढ़ें</h3><p>चरण, मिनट, रंग, प्रश्न, कार्यपत्रक और रिमीडियल समय</p><small>आपके किसी एक पाठ से</small></a>
+    <a class="guide-section" href="#"><h3>4 · सीखने के प्रतिफल</h3><p>मौखिक भाषा, पढ़ना, लेखन: बच्चे साल भर में क्या सीखेंगे</p><small>संदर्शिका पृष्ठ ii (निपुण सूची)</small></a>
+    <a class="guide-section" href="#"><h3>5 · आकलन और सहायता</h3><p>‘मैंने सीख लिया’, समूह A और B, रिमीडियल कार्य</p><small>संदर्शिका पृष्ठ 180–182</small></a>
+  </main>
+</div>
+</div>
+
+<!-- 3. Week structure -->
+<div>
+<p class="phone-label">3 · सप्ताह कैसे चलता है</p>
+<div class="phone">
+  <main class="new">
+    <p class="small"><a href="#">← संदर्शिका को समझें</a></p>
+    <h1 style="font-size:21px">सप्ताह कैसे चलता है</h1>
+    <div class="depth-tabs"><span class="on">सार</span><span>पूरा पढ़ें</span><span>मूल पृष्ठ</span></div>
+    <div class="week-strip">
+      <div class="day new-skills"><b>1</b>नई दक्षताएँ</div><div class="day new-skills"><b>2</b>नई दक्षताएँ</div><div class="day new-skills"><b>3</b>नई दक्षताएँ</div><div class="day new-skills"><b>4</b>नई दक्षताएँ</div><div class="day revision"><b>5</b>पुनरा&shy;वृत्ति</div><div class="day assessment"><b>6</b>आकलन</div>
+    </div>
+    <ul style="font-size:15px;margin-top:6px">
+      <li>दिन 1–4: नई दक्षताओं का शिक्षण।</li>
+      <li>दिन 5: सप्ताह भर की दक्षताओं की पुनरावृत्ति।</li>
+      <li>दिन 6: कालांश 2 और 3 मिलाकर साप्ताहिक आकलन ‘मैंने सीख लिया’।</li>
+      <li>दिन 1–5 में तीसरे कालांश के अंतिम 20 मिनट: समूह-A के साथ रिमीडियल कार्य।</li>
+    </ul>
+    <p class="lo-strand" style="margin-top:4px">पूरा वर्ष (25 सप्ताह)</p>
+    <div class="year-strip"><span class="prev"></span><span class="prev"></span><span class="prev"></span><span class="prev"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="review"></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="review"></span><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="year-axis"><span>1</span><span>13</span><span>20</span><span>25</span></div>
+    <p class="legend"><i style="background:#a7c5a6"></i>कक्षा-1 की पुनरावृत्ति<i style="background:#cfe2ee"></i>शिक्षण<i style="background:#b9a6cf"></i>सावधिक पुनरावृत्ति</p>
+    <p class="source-line">सार · संदर्शिका पृष्ठ 13–14 से (स्वामी द्वारा स्वीकृत होने पर ही दिखेगा)</p>
+    <p class="hint">Tap a day → that day's lesson in your current week.</p>
+  </main>
+</div>
+</div>
+
+<!-- 4. Periods -->
+<div>
+<p class="phone-label">4 · हर दिन के कालांश</p>
+<div class="phone">
+  <main class="new">
+    <p class="small"><a href="#">← संदर्शिका को समझें</a></p>
+    <h1 style="font-size:21px">हर दिन के कालांश</h1>
+    <div class="depth-tabs"><span class="on">सार</span><span>पूरा पढ़ें</span><span>मूल पृष्ठ</span></div>
+    <div class="period"><h3>कालांश 1 <span>40 मिनट</span></h3><p>पाठ्यपुस्तक ‘सारंगी-2’ एवं मौखिक भाषा विकास</p><p class="small">सामग्री: सारंगी-2, चित्र/कहानी पोस्टर</p></div>
+    <div class="period practice"><h3>कालांश 2 <span style="background:#fff0f3">40 मिनट</span></h3><p>समझ के साथ पढ़ने पर कार्य (कार्यपुस्तिका भाग-1)</p></div>
+    <div class="period support"><h3>कालांश 3 <span style="background:#f2eafa">40 मिनट</span></h3><p>पठन अभ्यास, स्वतंत्र पठन, प्रवाहपूर्ण पठन अभ्यास</p><p class="small">दिन 1–5: अंतिम 20 मिनट रिमीडियल कार्य</p></div>
+    <p class="source-line">संदर्शिका पृष्ठ 16 · रंग वही जो हर पाठ में हैं: नारंगी शिक्षण, गुलाबी अभ्यास, बैंगनी सहायता</p>
+  </main>
+</div>
+</div>
+
+<!-- 5. How to read a lesson plan -->
+<div>
+<p class="phone-label">5 · पाठ योजना कैसे पढ़ें</p>
+<div class="phone">
+  <main class="new">
+    <p class="small"><a href="#">← संदर्शिका को समझें</a></p>
+    <h1 style="font-size:21px">पाठ योजना कैसे पढ़ें</h1>
+    <p style="font-size:14px">उदाहरण: सप्ताह 19 · दिन 3 (आपकी कक्षा का असली पाठ)</p>
+    <div class="annot"><span class="callout-n">1</span><b>सप्ताह · दिन</b> — पाठ किस दिन का है।</div>
+    <div class="annot"><span class="callout-n">2</span><b>चरण की पट्टियाँ</b> — हर चरण पर सीधे जाएँ; मिनट साथ लिखे हैं।</div>
+    <div class="annot" style="border-top:5px solid var(--amber)"><span class="callout-n">3</span><b>कालांश 1 · पाठ्यपुस्तक ‘सारंगी-2’ पर कार्य</b> — रंग बताता है कालांश का काम।</div>
+    <div class="annot"><span class="callout-n">4</span><b>1.1 पाठ्यांश का आदर्श वाचन करना · 7–10 मिनट</b> — चरण का नाम और समय संदर्शिका से।</div>
+    <div class="annot"><span class="callout-n">5</span><b>क्या करें</b> — क्रम से करें। <span class="callout-n">6</span><b>बच्चों से पूछें</b> — प्रश्न जैसे लिखे हैं।</div>
+    <div class="annot"><span class="callout-n">7</span><b>कार्यपत्रक</b> — कार्यपुस्तिका का पृष्ठ यहीं खुलता है।</div>
+    <div class="annot" style="border-top:5px solid var(--purple)"><span class="callout-n">8</span><b>3.2 समूह-A के साथ रिमीडियल कार्य · 20 मिनट</b></div>
+    <div class="annot"><span class="callout-n">9</span><b>मूल पृष्ठ</b> — कोई शब्द साफ़ न लगे तो संदर्शिका का पृष्ठ देखें।</div>
+    <p class="source-line">Call-out wording is editorial; shown only after the owner approves it.</p>
+  </main>
+</div>
+</div>
+
+<!-- 6. Learning outcomes -->
+<div>
+<p class="phone-label">6 · सीखने के प्रतिफल</p>
+<div class="phone">
+  <main class="new">
+    <p class="small"><a href="#">← संदर्शिका को समझें</a></p>
+    <h1 style="font-size:21px">सीखने के प्रतिफल · कक्षा 2</h1>
+    <div class="depth-tabs"><span>सार</span><span class="on">पूरा पढ़ें</span><span>मूल पृष्ठ</span></div>
+    <p class="lo-strand">मौखिक भाषा</p>
+    <div class="lo">1. कक्षा में उपलब्ध प्रिंट सामग्री पर बातचीत एवं चर्चा करना।<div class="weeks"><span>सप्ताह … (placeholder)</span></div></div>
+    <div class="lo">3. हाव-भाव एवं उतार-चढ़ाव के साथ गीत एवं कविताएँ सुनाना।<div class="weeks"><span>…</span></div></div>
+    <p class="lo-strand">पढ़ना</p>
+    <div class="lo">3. सरल शब्दों से युक्त 6 से 8 वाक्यों के आयु उपयुक्त अज्ञात पाठ को बोध, स्पष्टता और प्रवाह के साथ पढ़ना।</div>
+    <p class="lo-strand">लेखन</p>
+    <div class="lo">2. पठनीय लेखन के साथ 4 से 5 छोटे वाक्य लिखना।</div>
+    <p class="pending">“इन सप्ताहों में” links come from the model in Phases 4–5; Hindi week links are rule-based and appear only after approval. Until then: the list and its original page.</p>
+    <p class="source-line">संदर्शिका पृष्ठ ii · निपुण सूची (संदर्शिका की अपनी सूची, निर्णय 1)</p>
+  </main>
+</div>
+</div>
+
+</div>
+</body>
+</html>

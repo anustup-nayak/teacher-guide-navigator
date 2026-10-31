@@ -1,6 +1,6 @@
 # Protected design contract
 
-Owner-approved look, feel and teaching flow of Sandarshika as released in r56.
+Owner-approved look, feel and teaching flow of Sandarshika as released in r56, with later owner-approved amendments noted where they apply (latest: week and topic cards, 31 Oct 2026).
 No agent may change what this file protects without the owner's explicit
 approval in chat. Detailed rationale lives in the skill's
 [design reference](../skills/teacher-guide-to-app/references/design.md) and

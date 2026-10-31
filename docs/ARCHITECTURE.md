@@ -7,7 +7,7 @@ ownership. New grade/subject content must preserve earlier deliveries and use th
 same program model and query contract across front ends.
 
 
-Status: implemented local release r51. Product behavior: [PRD](PRD.md).
+Status: current for v1 (`main`, r61) and the v2 integration line (`next`); section headings with an rNN record when a part was introduced. Product behavior: [PRD](PRD.md).
 Agent workflow: [skill](../skills/teacher-guide-to-app/SKILL.md).
 Data publication: [pack contract](CURRICULUM_PACKS.md).
 

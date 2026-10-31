@@ -127,6 +127,15 @@ state app. Reuse its techniques, not its coordinates or topic table:
 - **Audit structure for every day** (`audit_guides.py`): periods, steps, minutes,
   numbering gaps, empty steps, suspicious characters. Check each anomaly on the image;
   keep genuine source misprints as printed.
+- **Check every day against its day type** (program structure, `scripts/content/structure.mjs`).
+  A lesson with fewer periods than its day type, or a missing remedial/assessment slot, is
+  either a recorded source variant or lost content. This found a day whose parser output had
+  dropped step 2.3 and all of period 3 (repaired in r58; a repair may now add a dropped period).
+- **Attach regions by column, not only by height.** Two-column period bands put steps side by
+  side (3.1 left, 3.2 right); a grid must go to a step in its own column (r59 moved 133 crops).
+- **Bare vowel signs may not be text.** A quoted sign such as ‘ े ’ or ‘ ं ’ can be drawn outside
+  the text layer, decoding to an empty ‘ ’, sometimes in lesson titles. Scan for empty quotes in
+  every decoded field and restore each sign from the page image (`sign` repairs, r60).
 
 ## Historical UP pipeline: forensic reference only
 

@@ -60,3 +60,13 @@ must pass before integration. No merge or production deployment performed. Core
 skill, metadata schema/gate, compiler/query and canonical documentation describe
 the same structure. Remaining academic and physical-device/teacher checks are
 unchanged and are not claimed as completed here.
+
+## Taken over by Claude Code (31 Oct 2026)
+
+Codex was out of credits; owner chose to take over PR #17 rather than redo it. Merged `next`
+(PRs #16 and #18 had landed): three-way merge of each add/add file against `bcd106e`; resolved
+package.json, compile.mjs (sync-copy guard + PROGRAM_PROFILE input), CONTENT_COMPILER and HANDOFF.
+Release 1.1.0 rebuilt with `--previous 1.0.1` so it keeps the lesson-level workbook links. Then
+added the documentation cleanup and the program-guide design proposal (see HANDOFF change log).
+Checks: npm test 121/121 and all gates.
+
