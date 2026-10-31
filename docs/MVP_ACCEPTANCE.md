@@ -26,4 +26,4 @@ The teacher finds an actual source lesson through the topic or week/day route, p
 
 ## Explicit limits
 
-No cloud sync, user accounts, offline installation or videos are claimed. Hindi subject guides were not supplied in this numeracy source set. Review weeks 13/20 are available through the full source guide, not mapped as invented day plans. Recovered text is not fully manually proofread; original images remain the fidelity reference. Classroom usability and pedagogical effectiveness need actual teacher observation.
+No cloud sync, user accounts, offline installation or videos are claimed. Hindi subject guides were not supplied in this numeracy source set (they were added later as the separate `up-hindi-2026` pack; see docs/tasks/up-hindi-ingestion.md). Review weeks 13/20 are available through the full source guide, not mapped as invented day plans. Recovered text is not fully manually proofread; original images remain the fidelity reference. Classroom usability and pedagogical effectiveness need actual teacher observation.

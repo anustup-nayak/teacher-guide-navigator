@@ -1,14 +1,21 @@
 # UP Sandarshika lesson companion
 
-Buildless static app for Grade 1–3 UP Mathematics guides shared for AY 2026–27. Hindi-first interface with English UI switch. Topic → two-line summary card → full lesson, or week → named day card → full lesson. No mandatory sub-topic accordion or Prepare/Teach gate. Original I do / We do / You do sections retain mapped week/day.
+Buildless static app for the Grade 1–3 UP Mathematics and Hindi (भाषा) guides for AY 2026–27; teachers pick the subject at the top. Hindi-first interface with English UI switch. Topic → two-line summary card → full lesson, or week → named day card → full lesson. No mandatory sub-topic accordion or Prepare/Teach gate. Original I do / We do / You do sections retain mapped week/day.
 
 ## Run and validate
 
 For local development run `python3 -m http.server 8000 --directory dist` and open http://localhost:8000. Requires Node.js 22+ and Python 3.11+ for ingestion/archive tooling. Agents start with the [handoff log](docs/HANDOFF.md) (current state, active work, change log) and the [protected design contract](docs/DESIGN_CONTRACT.md); then read the [developer handoff](docs/DEVELOPMENT.md) and [agent instructions](AGENTS.md) before editing. Use the Sites managed preview workflow when developing inside ChatGPT Sites. `npm test` runs the catalog, UI-navigation, offline and workspace regression checks. `npm run check` checks application syntax; also check `dist/sw.js` after worker changes. There are no runtime packages or build step. `.openai/hosting.json` is retained as historical Sites metadata; GitHub Pages uses `.github/workflows/pages.yml`.
 
+Hindi (`up-hindi-2026`): 366 day plans, each with its source periods (usually three
+40-minute कालांश; day 6 combines periods 2 and 3 for the weekly assessment), timed steps,
+questions and the workbook pages the guide cites. Grade 1 begins Week 9; Grades 2 and 3
+begin Week 1; weeks 13/20 are original review pages. Text is decoded from legacy Hindi
+fonts by the pack's own adapter (`curricula/up-hindi-2026/tools/`); see
+`docs/tasks/up-hindi-ingestion.md` for its checks and limits.
+
 ## Resources and source pipeline
 
-366 mapped day plans: 183 direct teaching plans and 183 weekly plans. Grade 1 begins Week 9; Grades 2 and 3 begin Week 1. Weeks 13/20 expose the original periodic-review pages and workbooks without fabricated day records. Direct plans retain three 40-minute periods.
+Mathematics: 366 mapped day plans: 183 direct teaching plans and 183 weekly plans. Grade 1 begins Week 9; Grades 2 and 3 begin Week 1. Weeks 13/20 expose the original periodic-review pages and workbooks without fabricated day records. Direct plans retain three 40-minute periods.
 
 Preserve authorized original PDFs and checksum manifests under `curricula/<pack-id>/originals/`; see [source archive](docs/SOURCE_ARCHIVE.md). `scripts/decode_legacy.py`, `ocr_guides.py`, `index_guides.py`, and `extract_guides.py` form the original extraction pipeline. `scripts/prepare_resources.py SOURCE_ROOT dist` indexes printed worksheet headers and renders the complete supplied guides/workbooks and available Grade 3 textbook. `scripts/harden_content.mjs` applies source-compared repairs, removes known encoding artifacts, prepares summary cards, links worksheets and gives source-derived practice when no worksheet was supplied. It produces `docs/CONTENT_AUDIT.json`.
 

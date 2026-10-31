@@ -161,6 +161,16 @@ def split_preamble(period):
     """Objective rows (bold) sit above a row pairing a material name (left of the checkbox
     column) with a preparation note (right of it); the name may sit a few points higher."""
     pre = period.pop('pre')
+    # Page-number icons follow the book they belong to: पाठ्यपुस्तक (textbook) or कार्यपुस्तिका.
+    period['workbookPages'], period['textbookPages'] = [], []
+    book = None
+    for l in sorted(pre, key=lambda l: (l['y'], l['x'])):
+        if 'पाठ्यपुस्तक' in l['text']:
+            book = 'textbookPages'
+        elif 'कार्यपुस्तिका' in l['text']:
+            book = 'workbookPages'
+        if l['small']:
+            period[book or 'workbookPages'] += l['small']
     # Objectives and material names are bold; a preparation note is normal weight at the right.
     prep_rows = [l['y'] for l in pre if l['col'] == 'L' and any(x >= PREP_X and not bold and t.strip() for x, t, bold in l['parts'])]
     first = min(prep_rows) - 8 if prep_rows else None
@@ -192,7 +202,7 @@ def parse_day(pages):
             if band['header']:
                 h = band['header']
                 current = {'period': h['period'], 'label': h['label'], 'title': h['title'], 'minutes': h['minutes'], 'objective': [],
-                           'pre': [], 'workbookPages': [], 'steps': [], 'pdfPage': pno}
+                           'pre': [], 'steps': [], 'pdfPage': pno}
                 periods.append(current)
             if current is None:
                 continue
@@ -205,7 +215,6 @@ def parse_day(pages):
                     item = None
                     continue
                 if not current['steps']:
-                    current['workbookPages'] += line['small']
                     current['pre'].append(line)
                     continue
                 step = current['steps'][-1]

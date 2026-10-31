@@ -1,6 +1,12 @@
 {
   "id": "up-hindi-2026",
   "publicationDirectory": "packs/up-hindi-2026",
-  "reviewedFiles": [],
-  "status": "awaiting-sources"
+  "reviewedFiles": [
+    "catalog.mjs",
+    "sources.json",
+    "resources.json",
+    "worksheets.json"
+  ],
+  "status": "reviewed-snapshot",
+  "reviewNote": "Decoded from legacy-font Teacher Guides/Workbooks (tools/). Structure audited for all 366 days; sampled lessons compared with page images; one overprinted period repaired from the image (tools/repairs.json). Not independent academic sign-off."
 }

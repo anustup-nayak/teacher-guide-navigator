@@ -102,6 +102,32 @@ UP OCR used Hindi+English and region/line grouping; those settings are examples,
 not defaults for another language/layout. Re-run only changed source pages.
 Keep document checksums in the extraction manifest for reproducibility.
 
+## Lessons from the UP Hindi adapter (31 October 2026)
+
+`curricula/up-hindi-2026/tools/` is the reference adapter for a second pack in the same
+state app. Reuse its techniques, not its coordinates or topic table:
+
+- **Measure decoding, don't eyeball it.** Decode every legacy-font span in the corpus and
+  count residual non-Devanagari characters and impossible letters (`ळ` for क). The most
+  frequent residues become per-font rules with unit tests from real words
+  (`tests/test_hindi_decoder.py`). The same punctuation can mean different things per
+  font (`)` is द्ध in SuperHindi, a real parenthesis in BHARTIYA).
+- **Glyph order can be scrambled.** Some lines emit zero-width vowel signs after the next
+  letter with stray spaces; rebuild from glyph positions only for spans showing that
+  pattern (`hindi_text.ordered_text`).
+- **Pages can hold hidden older edits.** Two versions may be printed on top of each
+  other, or a tail clipped. MuPDF `rawdict` honours clipping; for overprints, drop earlier
+  spans overdrawn by later text using the text-trace draw order (`visible_text.py`).
+  Anything still tangled gets a source-compared repair with evidence (`repairs.json`).
+- **Separate non-prose regions.** Detect letter/word grids from drawn cell squares and
+  show them as page crops; keep tip boxes (“क्या आप जानते हैं?”) out of steps.
+- **Trust the guide's citations over badges.** Workbooks had 5 days a week against the
+  guide's 6; the guide's printed page-number icons decide which workbook page a day
+  uses, and the icon's line says whether it is a workbook or textbook page.
+- **Audit structure for every day** (`audit_guides.py`): periods, steps, minutes,
+  numbering gaps, empty steps, suspicious characters. Check each anomaly on the image;
+  keep genuine source misprints as printed.
+
 ## Historical UP pipeline: forensic reference only
 
 | Script | What it actually assumes/does | Safe reuse |

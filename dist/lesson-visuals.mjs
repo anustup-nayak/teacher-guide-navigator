@@ -19,7 +19,8 @@ export function phaseVisual(lesson,phase,style={}){
   const r=reference?.sourceRect;
   if(validRect(r)){rect=[.072,r[1]+.025,.347,r[3]-.012];image=reference.image;shared=phase.id==='we-do';}
  }
- if(!rect&&phase.id==='practice'&&lesson.worksheets?.length){
+ // A pack may mark the step that uses the workbook (phase.worksheetPreview) when its id is source-native.
+ if(!rect&&(phase.id==='practice'||phase.worksheetPreview)&&lesson.worksheets?.length){
   return {image:lesson.worksheets[0].image,kind:'worksheet',page:lesson.worksheets[0].page,rect:[0,0,1,1],width:1,height:1.34,provenance:'assigned-workbook'};
  }
  if(!rect&&profile&&phase.id==='support'&&validRect(phase.sourceRect)){
