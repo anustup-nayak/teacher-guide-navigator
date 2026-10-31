@@ -133,6 +133,10 @@ groups and resolves a unique grade/subject pair. Grade0 represents Balvatika.
 main content on every screen. Deep lesson context links back to them. Pack
 changes carry grade and UI locale in the query, flush notes and construct a new
 context; within-pack grade changes retain their remembered week and open Find.
+A lesson route whose id is not in the current pack (for example `#/lesson/g2-hindi-…`
+without `?curriculum=`) resolves its pack from the id's grade and subject
+(`packForLessonId`) and replaces the URL with that pack's, keeping the route and step
+(r61). A missing lesson in its own pack still shows "Lesson not found".
 Read docs/CURRICULUM_EXPANSION.md for additive delivery and preservation gates.
 
 ## Persistent context header

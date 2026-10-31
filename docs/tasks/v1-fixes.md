@@ -38,9 +38,14 @@ unchanged). Test: `hindi-pack.test.mjs` rejects any empty ‘ ’.
 - 8 source step-number misprints (unchanged).
 
 ## Not done (follow-ups)
-- A lesson link without `?curriculum=` (for example `#/lesson/g2-hindi-…`) shows "lesson not
-  found"; the id already names its subject, so the app could switch pack. Needs an app.mjs
-  routing change.
+- Done in r61: a lesson link without `?curriculum=` (for example `#/lesson/g2-hindi-…`)
+  used to show "lesson not found". `packForLessonId` in `dist/domain/selection.mjs` reads
+  grade and subject from the id; `render()` flushes notes and `location.replace`s to the
+  pack's URL with the same route and step. Browser: Hindi link from the Math default opens
+  the Hindi lesson at its step; a Math link from Hindi switches back; a review-week id with no
+  lesson shows "not found" once (no loop); the query-less Math link is unchanged; no console
+  errors. Tests in `hindi-pack.test.mjs`. Checks: npm test 83/83, check, design:check, sw.js,
+  verify:publication, ingestion 15/15, verify:sources, skill tests.
 - Load each subject's lessons only when selected (first-visit download).
 
 ## Checks (31 Oct 2026)
