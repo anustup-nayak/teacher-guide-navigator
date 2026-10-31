@@ -26,18 +26,37 @@
   "weekly-revision": "साप्ताहिक पुनरावृत्ति",
   "weekly-assessment": "साप्ताहिक आकलन",
   "consolidation": "समेकन",
-  "open": "teacher's choice (e.g. Math day 4 period 3)"
+  "open": "teacher's choice (e.g. Math day 4 period 3)",
+  "explore": "खोजें और जानें: application and project work (Math day 4)",
+  "consolidation-assessment": "समेकन और आकलन (Math day 5)",
+  "remedial-revision": "रिमीडियल और पुनरावृत्ति (Math day 6)"
  },
  "weekKind": {
   "teaching": "regular teaching week",
   "periodic-revision": "सावधिक पुनरावृत्ति (weeks 13 and 20)",
   "school-readiness": "विद्या प्रवेश / school readiness (Hindi G1 weeks 1–8)",
-  "class-review": "previous-class review weeks (Math G2/G3)"
+  "class-review": "previous-class review weeks (Hindi and Math G2/G3 weeks 1–4)"
  },
  "periodRole": {
   "teaching": "teaching period (Hindi period 1; Math instruction)",
   "practice": "practice / workbook period",
-  "support": "reading practice, remediation and support"
+  "support": "reading practice, remediation and support",
+  "assessment": "weekly assessment period (Hindi day 6 periods 2 and 3; Math day 5 period 2)",
+  "open": "रिक्त कालांश: left open by the guide for the teacher to use as needed"
+ },
+ "planForm": {
+  "daily-plan": "the guide prints a full plan for this day (periods, steps, minutes)",
+  "weekly-template": "the guide prints one plan shape for this day of every week; the week supplies its objectives and pages",
+  "week-plan": "the guide prints one plan for the whole week (periodic revision weeks), not day plans"
+ },
+ "weekPhase": {
+  "instruction": "अनुदेशात्मक कार्य (Math days 1–4)",
+  "consolidation-assessment": "समेकन और आकलन (Math day 5)",
+  "remedial-revision": "रिमीडियल और पुनरावृत्ति (Math day 6)"
+ },
+ "exceptionKind": {
+  "v1-incomplete": "the published v1 record is missing steps or periods that the source page prints",
+  "source-variant": "the source page itself departs from its day type; kept as printed"
  },
  "routineType": {
   "oral-language": "talk, picture chart, experience, poem, story poster",

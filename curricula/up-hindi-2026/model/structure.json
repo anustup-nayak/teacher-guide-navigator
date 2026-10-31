@@ -1,0 +1,1246 @@
+{
+ "pack": "up-hindi-2026",
+ "subject": "hindi",
+ "calendar": [
+  {
+   "grade": 1,
+   "from": 1,
+   "to": 8,
+   "kind": "school-readiness",
+   "inApp": false,
+   "label": {
+    "hi": "स्कूल रेडिनेस (विद्या प्रवेश)",
+    "en": "School readiness (Vidya Pravesh)"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 15,
+      "printed": 13
+     }
+    ],
+    "note": "worked from the school-readiness calendar and its own guide, not this guide"
+   }
+  },
+  {
+   "grade": 1,
+   "from": 9,
+   "to": 12,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "dayType": "hi-new-skills"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "hi-weekly-revision"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "hi-weekly-revision"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 7,
+      "printed": 5
+     },
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 18,
+      "printed": 16
+     }
+    ],
+    "note": "weekly assessment is for weeks 14–25 only (pdf 7, 18)"
+   },
+   "label": {
+    "hi": "स्कूल रेडिनेस जारी; साप्ताहिक आकलन नहीं",
+    "en": "School readiness continues; no weekly assessment"
+   }
+  },
+  {
+   "grade": 1,
+   "from": 13,
+   "to": 13,
+   "kind": "periodic-revision",
+   "inApp": true,
+   "plan": {
+    "doc": "guide-g1-00970fd3c1e8",
+    "pdf": 43,
+    "printed": 41
+   },
+   "label": {
+    "hi": "सावधिक पुनरावृत्ति (सप्ताह 9–12)",
+    "en": "Periodic revision (weeks 9–12)"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 43,
+      "printed": 41
+     }
+    ],
+    "note": "one plan for the week; no day plans"
+   }
+  },
+  {
+   "grade": 1,
+   "from": 14,
+   "to": 19,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "dayType": "hi-new-skills"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "hi-weekly-revision"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "hi-weekly-assessment"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 16,
+      "printed": 14
+     }
+    ]
+   }
+  },
+  {
+   "grade": 1,
+   "from": 20,
+   "to": 20,
+   "kind": "periodic-revision",
+   "inApp": true,
+   "plan": {
+    "doc": "guide-g1-00970fd3c1e8",
+    "pdf": 80,
+    "printed": 78
+   },
+   "label": {
+    "hi": "सावधिक पुनरावृत्ति (सप्ताह 9–19)",
+    "en": "Periodic revision (weeks 9–19)"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 80,
+      "printed": 78
+     }
+    ],
+    "note": "one plan for the week; no day plans"
+   }
+  },
+  {
+   "grade": 1,
+   "from": 21,
+   "to": 25,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "dayType": "hi-new-skills"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "hi-weekly-revision"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "hi-weekly-assessment"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 16,
+      "printed": 14
+     }
+    ]
+   }
+  },
+  {
+   "grade": 2,
+   "from": 1,
+   "to": 4,
+   "kind": "class-review",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "dayType": "hi-new-skills"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "hi-weekly-revision"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "hi-weekly-assessment"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 16,
+      "printed": 14
+     }
+    ]
+   },
+   "label": {
+    "hi": "कक्षा-1 की दक्षताओं की पुनरावृत्ति",
+    "en": "Review of class 1 skills"
+   }
+  },
+  {
+   "grade": 2,
+   "from": 5,
+   "to": 12,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "dayType": "hi-new-skills"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "hi-weekly-revision"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "hi-weekly-assessment"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 16,
+      "printed": 14
+     }
+    ]
+   }
+  },
+  {
+   "grade": 2,
+   "from": 13,
+   "to": 13,
+   "kind": "periodic-revision",
+   "inApp": true,
+   "plan": {
+    "doc": "guide-g2-d86262b7a94c",
+    "pdf": 91,
+    "printed": 89
+   },
+   "label": {
+    "hi": "सावधिक पुनरावृत्ति (सप्ताह 1–12)",
+    "en": "Periodic revision (weeks 1–12)"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 91,
+      "printed": 89
+     }
+    ],
+    "note": "one plan for the week; no day plans"
+   }
+  },
+  {
+   "grade": 2,
+   "from": 14,
+   "to": 19,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "dayType": "hi-new-skills"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "hi-weekly-revision"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "hi-weekly-assessment"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 16,
+      "printed": 14
+     }
+    ]
+   }
+  },
+  {
+   "grade": 2,
+   "from": 20,
+   "to": 20,
+   "kind": "periodic-revision",
+   "inApp": true,
+   "plan": {
+    "doc": "guide-g2-d86262b7a94c",
+    "pdf": 128,
+    "printed": 126
+   },
+   "label": {
+    "hi": "सावधिक पुनरावृत्ति (सप्ताह 1–19)",
+    "en": "Periodic revision (weeks 1–19)"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 128,
+      "printed": 126
+     }
+    ],
+    "note": "one plan for the week; no day plans"
+   }
+  },
+  {
+   "grade": 2,
+   "from": 21,
+   "to": 25,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "dayType": "hi-new-skills"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "hi-weekly-revision"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "hi-weekly-assessment"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 16,
+      "printed": 14
+     }
+    ]
+   }
+  },
+  {
+   "grade": 3,
+   "from": 1,
+   "to": 4,
+   "kind": "class-review",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "dayType": "hi-new-skills"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "hi-weekly-revision"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "hi-weekly-assessment"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 16,
+      "printed": 14
+     }
+    ]
+   },
+   "label": {
+    "hi": "कक्षा-2 की दक्षताओं की पुनरावृत्ति",
+    "en": "Review of class 2 skills"
+   }
+  },
+  {
+   "grade": 3,
+   "from": 5,
+   "to": 12,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "dayType": "hi-new-skills"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "hi-weekly-revision"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "hi-weekly-assessment"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 16,
+      "printed": 14
+     }
+    ]
+   }
+  },
+  {
+   "grade": 3,
+   "from": 13,
+   "to": 13,
+   "kind": "periodic-revision",
+   "inApp": true,
+   "plan": {
+    "doc": "guide-g3-ab99c837f781",
+    "pdf": 91,
+    "printed": 89
+   },
+   "label": {
+    "hi": "सावधिक पुनरावृत्ति (सप्ताह 1–12)",
+    "en": "Periodic revision (weeks 1–12)"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 91,
+      "printed": 89
+     }
+    ],
+    "note": "one plan for the week; no day plans"
+   }
+  },
+  {
+   "grade": 3,
+   "from": 14,
+   "to": 19,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "dayType": "hi-new-skills"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "hi-weekly-revision"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "hi-weekly-assessment"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 16,
+      "printed": 14
+     }
+    ]
+   }
+  },
+  {
+   "grade": 3,
+   "from": 20,
+   "to": 20,
+   "kind": "periodic-revision",
+   "inApp": true,
+   "plan": {
+    "doc": "guide-g3-ab99c837f781",
+    "pdf": 128,
+    "printed": 126
+   },
+   "label": {
+    "hi": "सावधिक पुनरावृत्ति (सप्ताह 1–19)",
+    "en": "Periodic revision (weeks 1–19)"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 128,
+      "printed": 126
+     }
+    ],
+    "note": "one plan for the week; no day plans"
+   }
+  },
+  {
+   "grade": 3,
+   "from": 21,
+   "to": 25,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "dayType": "hi-new-skills"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "hi-weekly-revision"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "hi-weekly-assessment"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 16,
+      "printed": 14
+     }
+    ]
+   }
+  }
+ ],
+ "dayTypes": [
+  {
+   "id": "hi-new-skills",
+   "name": {
+    "hi": "नई दक्षताओं का शिक्षण",
+    "en": "New skills"
+   },
+   "purpose": "new-skills",
+   "planForm": "daily-plan",
+   "grades": [
+    1,
+    2,
+    3
+   ],
+   "periods": [
+    {
+     "number": [
+      1
+     ],
+     "role": "teaching",
+     "minutes": 40
+    },
+    {
+     "number": [
+      2
+     ],
+     "role": "practice",
+     "minutes": 40
+    },
+    {
+     "number": [
+      3
+     ],
+     "role": "support",
+     "minutes": 40,
+     "slots": [
+      {
+       "id": "remedial-group-a",
+       "name": {
+        "hi": "समूह-A के साथ रिमीडियल कार्य",
+        "en": "Remedial work with group A"
+       },
+       "kind": "remediation",
+       "minutes": "20",
+       "match": "रिमीडियल"
+      }
+     ],
+     "note": "last 20 minutes of period 3 on the first five days are remedial work (weekly cycle page)"
+    }
+   ],
+   "remediation": true,
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 16,
+      "printed": 14
+     },
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 18,
+      "printed": 16
+     },
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 16,
+      "printed": 14
+     },
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 18,
+      "printed": 16
+     },
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 16,
+      "printed": 14
+     },
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 18,
+      "printed": 16
+     }
+    ]
+   }
+  },
+  {
+   "id": "hi-weekly-revision",
+   "name": {
+    "hi": "साप्ताहिक पुनरावृत्ति",
+    "en": "Weekly revision"
+   },
+   "purpose": "weekly-revision",
+   "planForm": "daily-plan",
+   "grades": [
+    1,
+    2,
+    3
+   ],
+   "periods": [
+    {
+     "number": [
+      1
+     ],
+     "role": "teaching",
+     "minutes": 40
+    },
+    {
+     "number": [
+      2
+     ],
+     "role": "practice",
+     "minutes": 40
+    },
+    {
+     "number": [
+      3
+     ],
+     "role": "support",
+     "minutes": 40,
+     "slots": [
+      {
+       "id": "remedial-group-a",
+       "name": {
+        "hi": "समूह-A के साथ रिमीडियल कार्य",
+        "en": "Remedial work with group A"
+       },
+       "kind": "remediation",
+       "minutes": "20",
+       "match": "रिमीडियल"
+      }
+     ],
+     "note": "last 20 minutes of period 3 on the first five days are remedial work (weekly cycle page)"
+    }
+   ],
+   "remediation": true,
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 16,
+      "printed": 14
+     },
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 16,
+      "printed": 14
+     },
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 16,
+      "printed": 14
+     },
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 24,
+      "printed": 22
+     }
+    ],
+    "note": "Day 5 every week. In G1 weeks 9–12 day 6 is also a revision day with three periods (day pages, e.g. pdf 24), because the weekly assessment starts in week 14 (pdf 7, 18)."
+   }
+  },
+  {
+   "id": "hi-weekly-assessment",
+   "name": {
+    "hi": "साप्ताहिक आकलन ‘मैंने सीख लिया’",
+    "en": "Weekly assessment"
+   },
+   "purpose": "weekly-assessment",
+   "planForm": "daily-plan",
+   "grades": [
+    1,
+    2,
+    3
+   ],
+   "assessment": "weekly",
+   "remediation": false,
+   "periods": [
+    {
+     "number": [
+      1
+     ],
+     "role": "teaching",
+     "minutes": 40
+    },
+    {
+     "number": [
+      2,
+      3
+     ],
+     "role": "assessment",
+     "minutes": 80,
+     "label": {
+      "hi": "कालांश 2 एवं 3 · साप्ताहिक आकलन",
+      "en": "Periods 2 and 3 · weekly assessment"
+     },
+     "slots": [
+      {
+       "id": "before-assessment",
+       "name": {
+        "hi": "आकलन से पूर्व तैयारी",
+        "en": "Before the assessment"
+       },
+       "kind": "assessment",
+       "match": "^आकलन से पूर्व"
+      },
+      {
+       "id": "assessment",
+       "name": {
+        "hi": "‘मैंने सीख लिया’ आकलन प्रक्रिया",
+        "en": "‘मैंने सीख लिया’ assessment"
+       },
+       "kind": "assessment",
+       "match": "मैंने सीख लिया"
+      },
+      {
+       "id": "after-assessment",
+       "name": {
+        "hi": "आकलन प्रक्रिया के पश्चात्",
+        "en": "After the assessment"
+       },
+       "kind": "assessment",
+       "note": "plan the next week's period-3 remedial work from the results (weekly cycle page)",
+       "match": "^आकलन प्रक्रिया के पश्चात"
+      }
+     ]
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 7,
+      "printed": 5
+     },
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 16,
+      "printed": 14
+     },
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 18,
+      "printed": 16
+     },
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 16,
+      "printed": 14
+     },
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 18,
+      "printed": 16
+     },
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 16,
+      "printed": 14
+     },
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 18,
+      "printed": 16
+     }
+    ],
+    "note": "Remedial work is only on the first five days, so day 6 has no remedial slot."
+   }
+  }
+ ],
+ "periodOutline": [
+  {
+   "grade": 1,
+   "number": 1,
+   "minutes": 40,
+   "role": "teaching",
+   "focus": {
+    "hi": "‘सारंगी-1’ एवं मौखिक भाषा विकास"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 18,
+      "printed": 16
+     }
+    ]
+   }
+  },
+  {
+   "grade": 1,
+   "number": 2,
+   "minutes": 40,
+   "role": "practice",
+   "focus": {
+    "hi": "डिकोडिंग के कौशल एवं कार्यपुस्तिका (भाग-1)"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 18,
+      "printed": 16
+     }
+    ]
+   }
+  },
+  {
+   "grade": 1,
+   "number": 3,
+   "minutes": 40,
+   "role": "support",
+   "focus": {
+    "hi": "बिग-बुक, पठन अभ्यास, कार्यपुस्तिका (भाग-2), स्वतंत्र पठन, रिमीडियल कार्य"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 18,
+      "printed": 16
+     }
+    ]
+   }
+  },
+  {
+   "grade": 2,
+   "number": 1,
+   "minutes": 40,
+   "role": "teaching",
+   "focus": {
+    "hi": "पाठ्यपुस्तक ‘सारंगी-2’ एवं मौखिक भाषा विकास"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 18,
+      "printed": 16
+     }
+    ]
+   }
+  },
+  {
+   "grade": 2,
+   "number": 2,
+   "minutes": 40,
+   "role": "practice",
+   "focus": {
+    "hi": "समझ के साथ पढ़ने पर कार्य"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 18,
+      "printed": 16
+     }
+    ]
+   }
+  },
+  {
+   "grade": 2,
+   "number": 3,
+   "minutes": 40,
+   "role": "support",
+   "focus": {
+    "hi": "पठन अभ्यास, स्वतंत्र पठन, प्रवाहपूर्ण पठन अभ्यास; रिमीडियल कार्य"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-d86262b7a94c",
+      "pdf": 18,
+      "printed": 16
+     }
+    ]
+   }
+  },
+  {
+   "grade": 3,
+   "number": 1,
+   "minutes": 40,
+   "role": "teaching",
+   "focus": {
+    "hi": "पाठ्यपुस्तक ‘वीणा-1’ एवं मौखिक भाषा विकास"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 18,
+      "printed": 16
+     }
+    ]
+   }
+  },
+  {
+   "grade": 3,
+   "number": 2,
+   "minutes": 40,
+   "role": "practice",
+   "focus": {
+    "hi": "कार्यपुस्तिका भाग-1 में समझ के साथ पढ़ना"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 18,
+      "printed": 16
+     }
+    ]
+   }
+  },
+  {
+   "grade": 3,
+   "number": 3,
+   "minutes": 40,
+   "role": "support",
+   "focus": {
+    "hi": "कार्यपुस्तिका भाग-2 में पठन अभ्यास, स्वतंत्र पठन, प्रवाहपूर्ण पठन अभ्यास; रिमीडियल कार्य"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-ab99c837f781",
+      "pdf": 18,
+      "printed": 16
+     }
+    ]
+   }
+  }
+ ],
+ "exceptions": [
+  {
+   "lesson": "g2-hindi-w01-d01",
+   "kind": "source-variant",
+   "note": "Period 3 is reading practice only (35–37 min); no remedial work in the first lesson of the year.",
+   "source": {
+    "doc": "guide-g2-d86262b7a94c",
+    "pdf": 19,
+    "printed": 17
+   }
+  },
+  {
+   "lesson": "g3-hindi-w01-d01",
+   "kind": "source-variant",
+   "note": "Period 3 is reading practice only; no remedial work in the first lesson of the year.",
+   "source": {
+    "doc": "guide-g3-ab99c837f781",
+    "pdf": 19,
+    "printed": 17
+   }
+  },
+  {
+   "lesson": "g2-hindi-w19-d03",
+   "kind": "v1-incomplete",
+   "note": "The page prints steps 2.3 (गतिविधि 1 और 2) and period 3 (3.1 प्रवाहपूर्ण पठन अभ्यास, 3.2 समूह-A के साथ रिमीडियल कार्य); the v1 record stops after 2.2. Needs a source repair task.",
+   "source": {
+    "doc": "guide-g2-d86262b7a94c",
+    "pdf": 124,
+    "printed": 122
+   }
+  }
+ ],
+ "provenance": {
+  "assertion": "stated",
+  "review": "unreviewed",
+  "note": "From each guide's usage (G1 pdf 7), annual objectives (pdf 15), weekly cycle (pdf 16) and period outline (pdf 18) pages, read on 31 Oct 2026. Exceptions were checked against the day page images."
+ }
+}

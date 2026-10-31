@@ -13,7 +13,7 @@
    "printed": 15
   }
  },
- "dayPurpose": "new-skills",
+ "dayType": "math-instruction",
  "title": "दूर-पास और ऊपर-नीचे की अवधारणा को समझना",
  "outcomes": [
   {
@@ -204,6 +204,9 @@
      "id": "practice",
      "title": "अभ्यास",
      "minutes": 40,
+     "slots": [
+      "practice"
+     ],
      "routine": {
       "to": "routine:math-practice",
       "assertion": "derived",
@@ -254,6 +257,9 @@
      "id": "support",
      "title": "खेल और रिमीडियल",
      "minutes": 40,
+     "slots": [
+      "math-game"
+     ],
      "routine": {
       "to": "routine:math-game-support",
       "assertion": "derived",

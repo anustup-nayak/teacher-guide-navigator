@@ -8,8 +8,6 @@
   "academicYear",
   "grades",
   "documents",
-  "weeklyCycle",
-  "periods",
   "provenance"
  ],
  "additionalProperties": false,
@@ -71,132 +69,9 @@
     }
    }
   },
-  "weeks": {
-   "type": "array",
-   "items": {
-    "type": "object",
-    "required": [
-     "grade",
-     "from",
-     "to",
-     "kind"
-    ],
-    "additionalProperties": false,
-    "properties": {
-     "grade": {
-      "$ref": "common.schema.json#/$defs/grade"
-     },
-     "from": {
-      "type": "integer",
-      "minimum": 1
-     },
-     "to": {
-      "type": "integer",
-      "minimum": 1
-     },
-     "kind": {
-      "enum": [
-       "teaching",
-       "periodic-revision",
-       "school-readiness",
-       "class-review"
-      ]
-     },
-     "provenance": {
-      "$ref": "common.schema.json#/$defs/provenance"
-     }
-    }
-   }
-  },
-  "weeklyCycle": {
-   "type": "array",
-   "items": {
-    "type": "object",
-    "required": [
-     "day",
-     "purpose"
-    ],
-    "additionalProperties": false,
-    "properties": {
-     "day": {
-      "type": "integer",
-      "minimum": 1
-     },
-     "purpose": {
-      "enum": [
-       "new-skills",
-       "weekly-revision",
-       "weekly-assessment",
-       "consolidation",
-       "open"
-      ]
-     },
-     "periods": {
-      "type": "array",
-      "items": {
-       "type": "integer"
-      }
-     },
-     "grades": {
-      "type": "array",
-      "items": {
-       "$ref": "common.schema.json#/$defs/grade"
-      }
-     },
-     "provenance": {
-      "$ref": "common.schema.json#/$defs/provenance"
-     }
-    }
-   },
-   "minItems": 1
-  },
-  "periods": {
-   "type": "array",
-   "items": {
-    "type": "object",
-    "required": [
-     "grade",
-     "number",
-     "minutes",
-     "role",
-     "focus"
-    ],
-    "additionalProperties": false,
-    "properties": {
-     "grade": {
-      "$ref": "common.schema.json#/$defs/grade"
-     },
-     "number": {
-      "type": "integer",
-      "minimum": 1
-     },
-     "minutes": {
-      "type": "integer"
-     },
-     "role": {
-      "enum": [
-       "teaching",
-       "practice",
-       "support"
-      ]
-     },
-     "focus": {
-      "$ref": "common.schema.json#/$defs/bilingual"
-     },
-     "materials": {
-      "type": "array",
-      "items": {
-       "$ref": "common.schema.json#/$defs/link"
-      }
-     },
-     "provenance": {
-      "$ref": "common.schema.json#/$defs/provenance"
-     }
-    }
-   }
-  },
   "provenance": {
    "$ref": "common.schema.json#/$defs/provenance"
   }
- }
+ },
+ "$comment": "Edition and source documents. Calendar, weekly cycle and periods live in structure.json."
 }

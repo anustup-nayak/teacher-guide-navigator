@@ -41,7 +41,7 @@ mid-task. It is the first file to read and the last file to update.
 | Release | r57 (live). `main`, `release/v1` and `next` all at `25c50ac` (docs-only commits after r57; live worker still r57) |
 | Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
-| Checks | `npm test` (80, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (12), skill script tests, `npm run verify:sources -- --require-complete` |
+| Checks | `npm test` (94 on `next`, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (12), skill script tests, `npm run verify:sources -- --require-complete` |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
 | Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
 
@@ -70,7 +70,8 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/phase2-content-model` (from `next`) | `docs/CONTENT_MODEL.md`, `schemas/content-model/`, `scripts/content/{schema,v1_lesson,build_examples}.mjs`, `docs/content-model/examples/`, `tests/content-model.test.mjs` | Phase 2 drafted; PR to `next` open | Done: model doc, vocabularies, 10 schemas, validator, two worked examples, tests (npm test 87/87). Next: curriculum-design review gate ✋ (CONTENT_MODEL.md §6), then Phase 3 (compiler, parity with v1 catalogs). |
+| Claude Code | `task/program-structure` (from `next`) | `schemas/content-model/{structure,lesson,program}.schema.json`, `vocabularies.json`, `curricula/*/model/structure.json`, `scripts/content/{structure,v1_lesson,build_examples}.mjs`, `tests/structure.test.mjs`, `tests/content-model.test.mjs`, `docs/CONTENT_MODEL.md` | Drafted; PR to `next` open | Done: program structure (calendar, day types, exceptions) for both packs; all 732 lessons classified; npm test 94/94. Next: review gate ✋ (CONTENT_MODEL.md §1a, §6), then Phase 3. Task note: [program-structure](tasks/program-structure.md). |
+| Claude Code | `task/phase2-content-model` (merged as PR #8, `bb39abe`) | — | Merged into `next` | Review gate ✋ still open (CONTENT_MODEL.md §6). |
 | Claude Code | `task/phase1-program-profiles` (from `next`) | `scripts/content/*`, `curricula/*/extracted/matter/`, `curricula/*/model/*`, `tests/pagemap.test.mjs`, `docs/tasks/phase1-program-profiles.md` | Phase 1 drafted; PR to `next` open | Done: extractor, section maps, page maps + coverage test (npm test 83/83), both PROGRAM_PROFILE.md drafts, workbook matter. Next: owner/academic review gate ✋ of both profiles; then Phase 2. Any agent may take over. |
 | Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
 
@@ -78,6 +79,19 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `task/program-structure` (PR to `next`)
+
+- Owner asked for the program structure first, because subjects differ and assessment days do not
+  share the teaching-day shape. Added `structure.json` per pack (calendar → day types → periods and
+  slots, period outline, exceptions), `structure.schema.json`, checker `scripts/content/structure.mjs`
+  and `tests/structure.test.mjs`. Lessons now carry `dayType` (replaces `dayPurpose`) and step `slots`;
+  calendar, cycle and periods moved out of `program.json`. See [CONTENT_MODEL.md §1a](CONTENT_MODEL.md).
+- Findings: Hindi assesses on day 6 (G1 only from week 14); Math assesses on day 5 and its days 4–6
+  are weekly templates; Math G3 days 4–6 have their own shape. `g2-hindi-w19-d03` lost step 2.3 and
+  period 3 in v1 (needs a repair task on `main`).
+- Checks: npm test 94/94, npm run check, skill preflight tests. Task note: [program-structure](tasks/program-structure.md).
+- PR #8 (Phase 2) was squash-merged into `next` as `bb39abe`.
 
 ### 2026-10-31 · Claude Code · `task/phase2-content-model` (PR to `next`)
 

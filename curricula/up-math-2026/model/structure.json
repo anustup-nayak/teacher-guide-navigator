@@ -1,0 +1,1650 @@
+{
+ "pack": "up-math-2026",
+ "subject": "math",
+ "calendar": [
+  {
+   "grade": 1,
+   "from": 1,
+   "to": 8,
+   "kind": "school-readiness",
+   "inApp": false,
+   "provenance": {
+    "assertion": "editorial",
+    "review": "unreviewed",
+    "note": "The G1 guide plans weeks 9–25 only (contents, pdf 7). Calling weeks 1–8 school readiness follows the Hindi guide (pdf 15 there); confirm for Math."
+   }
+  },
+  {
+   "grade": 1,
+   "from": 9,
+   "to": 12,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3
+     ],
+     "dayType": "math-instruction"
+    },
+    {
+     "days": [
+      4
+     ],
+     "dayType": "math-explore"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "math-consolidation-assessment"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "math-remedial-revision"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 8,
+      "printed": 6
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 12,
+      "printed": 10
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 13,
+      "printed": 11
+     }
+    ]
+   }
+  },
+  {
+   "grade": 1,
+   "from": 13,
+   "to": 13,
+   "kind": "periodic-revision",
+   "inApp": true,
+   "plan": {
+    "doc": "guide-g1-167f09e3bf58",
+    "pdf": 35,
+    "printed": 33
+   },
+   "label": {
+    "hi": "सावधिक पुनरावृत्ति",
+    "en": "Periodic revision"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 14,
+      "printed": 12
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 35,
+      "printed": 33
+     }
+    ],
+    "note": "periodic-revision sheets (workbook) and remedial work as needed; no day plans"
+   }
+  },
+  {
+   "grade": 1,
+   "from": 14,
+   "to": 19,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3
+     ],
+     "dayType": "math-instruction"
+    },
+    {
+     "days": [
+      4
+     ],
+     "dayType": "math-explore"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "math-consolidation-assessment"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "math-remedial-revision"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 8,
+      "printed": 6
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 12,
+      "printed": 10
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 13,
+      "printed": 11
+     }
+    ]
+   }
+  },
+  {
+   "grade": 1,
+   "from": 20,
+   "to": 20,
+   "kind": "periodic-revision",
+   "inApp": true,
+   "plan": {
+    "doc": "guide-g1-167f09e3bf58",
+    "pdf": 62,
+    "printed": 60
+   },
+   "label": {
+    "hi": "सावधिक पुनरावृत्ति",
+    "en": "Periodic revision"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 14,
+      "printed": 12
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 62,
+      "printed": 60
+     }
+    ],
+    "note": "periodic-revision sheets (workbook) and remedial work as needed; no day plans"
+   }
+  },
+  {
+   "grade": 1,
+   "from": 21,
+   "to": 25,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3
+     ],
+     "dayType": "math-instruction"
+    },
+    {
+     "days": [
+      4
+     ],
+     "dayType": "math-explore"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "math-consolidation-assessment"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "math-remedial-revision"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 8,
+      "printed": 6
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 12,
+      "printed": 10
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 13,
+      "printed": 11
+     }
+    ]
+   }
+  },
+  {
+   "grade": 2,
+   "from": 1,
+   "to": 4,
+   "kind": "class-review",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3
+     ],
+     "dayType": "math-instruction"
+    },
+    {
+     "days": [
+      4
+     ],
+     "dayType": "math-explore"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "math-consolidation-assessment"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "math-remedial-revision"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 8,
+      "printed": 6
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 14,
+      "printed": 12
+     }
+    ]
+   },
+   "label": {
+    "hi": "कक्षा 1 की पुनरावृत्ति",
+    "en": "Class 1 review"
+   }
+  },
+  {
+   "grade": 2,
+   "from": 5,
+   "to": 12,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3
+     ],
+     "dayType": "math-instruction"
+    },
+    {
+     "days": [
+      4
+     ],
+     "dayType": "math-explore"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "math-consolidation-assessment"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "math-remedial-revision"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 8,
+      "printed": 6
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 14,
+      "printed": 12
+     }
+    ]
+   }
+  },
+  {
+   "grade": 2,
+   "from": 13,
+   "to": 13,
+   "kind": "periodic-revision",
+   "inApp": true,
+   "plan": {
+    "doc": "guide-g2-9b3436f6e0f7",
+    "pdf": 68,
+    "printed": 66
+   },
+   "label": {
+    "hi": "सावधिक पुनरावृत्ति",
+    "en": "Periodic revision"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 68,
+      "printed": 66
+     }
+    ],
+    "note": "periodic-revision sheets (workbook) and remedial work as needed; no day plans"
+   }
+  },
+  {
+   "grade": 2,
+   "from": 14,
+   "to": 19,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3
+     ],
+     "dayType": "math-instruction"
+    },
+    {
+     "days": [
+      4
+     ],
+     "dayType": "math-explore"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "math-consolidation-assessment"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "math-remedial-revision"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 8,
+      "printed": 6
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 14,
+      "printed": 12
+     }
+    ]
+   }
+  },
+  {
+   "grade": 2,
+   "from": 20,
+   "to": 20,
+   "kind": "periodic-revision",
+   "inApp": true,
+   "plan": {
+    "doc": "guide-g2-9b3436f6e0f7",
+    "pdf": 94,
+    "printed": 92
+   },
+   "label": {
+    "hi": "सावधिक पुनरावृत्ति",
+    "en": "Periodic revision"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 94,
+      "printed": 92
+     }
+    ],
+    "note": "periodic-revision sheets (workbook) and remedial work as needed; no day plans"
+   }
+  },
+  {
+   "grade": 2,
+   "from": 21,
+   "to": 25,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3
+     ],
+     "dayType": "math-instruction"
+    },
+    {
+     "days": [
+      4
+     ],
+     "dayType": "math-explore"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "math-consolidation-assessment"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "math-remedial-revision"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 8,
+      "printed": 6
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 14,
+      "printed": 12
+     }
+    ]
+   }
+  },
+  {
+   "grade": 3,
+   "from": 1,
+   "to": 4,
+   "kind": "class-review",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3
+     ],
+     "dayType": "math-instruction"
+    },
+    {
+     "days": [
+      4
+     ],
+     "dayType": "math-explore-g3"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "math-consolidation-assessment-g3"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "math-remedial-revision-g3"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 8,
+      "printed": 6
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 14,
+      "printed": 12
+     }
+    ]
+   },
+   "label": {
+    "hi": "कक्षा 2 की पुनरावृत्ति",
+    "en": "Class 2 review"
+   }
+  },
+  {
+   "grade": 3,
+   "from": 5,
+   "to": 12,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3
+     ],
+     "dayType": "math-instruction"
+    },
+    {
+     "days": [
+      4
+     ],
+     "dayType": "math-explore-g3"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "math-consolidation-assessment-g3"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "math-remedial-revision-g3"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 8,
+      "printed": 6
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 14,
+      "printed": 12
+     }
+    ]
+   }
+  },
+  {
+   "grade": 3,
+   "from": 13,
+   "to": 13,
+   "kind": "periodic-revision",
+   "inApp": true,
+   "plan": {
+    "doc": "guide-g3-186da9c8f52a",
+    "pdf": 67,
+    "printed": 65
+   },
+   "label": {
+    "hi": "सावधिक पुनरावृत्ति",
+    "en": "Periodic revision"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 67,
+      "printed": 65
+     }
+    ],
+    "note": "periodic-revision sheets (workbook) and remedial work as needed; no day plans"
+   }
+  },
+  {
+   "grade": 3,
+   "from": 14,
+   "to": 19,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3
+     ],
+     "dayType": "math-instruction"
+    },
+    {
+     "days": [
+      4
+     ],
+     "dayType": "math-explore-g3"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "math-consolidation-assessment-g3"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "math-remedial-revision-g3"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 8,
+      "printed": 6
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 14,
+      "printed": 12
+     }
+    ]
+   }
+  },
+  {
+   "grade": 3,
+   "from": 20,
+   "to": 20,
+   "kind": "periodic-revision",
+   "inApp": true,
+   "plan": {
+    "doc": "guide-g3-186da9c8f52a",
+    "pdf": 93,
+    "printed": 91
+   },
+   "label": {
+    "hi": "सावधिक पुनरावृत्ति",
+    "en": "Periodic revision"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 15,
+      "printed": 13
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 93,
+      "printed": 91
+     }
+    ],
+    "note": "periodic-revision sheets (workbook) and remedial work as needed; no day plans"
+   }
+  },
+  {
+   "grade": 3,
+   "from": 21,
+   "to": 25,
+   "kind": "teaching",
+   "inApp": true,
+   "cycle": [
+    {
+     "days": [
+      1,
+      2,
+      3
+     ],
+     "dayType": "math-instruction"
+    },
+    {
+     "days": [
+      4
+     ],
+     "dayType": "math-explore-g3"
+    },
+    {
+     "days": [
+      5
+     ],
+     "dayType": "math-consolidation-assessment-g3"
+    },
+    {
+     "days": [
+      6
+     ],
+     "dayType": "math-remedial-revision-g3"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 8,
+      "printed": 6
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 14,
+      "printed": 12
+     }
+    ]
+   }
+  }
+ ],
+ "dayTypes": [
+  {
+   "id": "math-instruction",
+   "name": {
+    "hi": "अनुदेशात्मक कार्य",
+    "en": "Instruction"
+   },
+   "purpose": "new-skills",
+   "planForm": "daily-plan",
+   "phase": "instruction",
+   "grades": [
+    1,
+    2,
+    3
+   ],
+   "periods": [
+    {
+     "number": [
+      1
+     ],
+     "role": "teaching",
+     "minutes": 40,
+     "slots": [
+      {
+       "id": "lesson-plan",
+       "name": {
+        "hi": "शिक्षण योजना (गणितीय बातचीत, मैं करूँ · हम करें · आप करो)",
+        "en": "Lesson plan (conversation and GRR)"
+       },
+       "kind": "instruction"
+      }
+     ]
+    },
+    {
+     "number": [
+      2
+     ],
+     "role": "practice",
+     "minutes": 40,
+     "slots": [
+      {
+       "id": "practice",
+       "name": {
+        "hi": "अभ्यास (कार्यपुस्तिका)",
+        "en": "Workbook practice"
+       },
+       "kind": "practice",
+       "match": "^अभ्यास$"
+      },
+      {
+       "id": "procedural-fluency",
+       "name": {
+        "hi": "प्रक्रियात्मक प्रवाह",
+        "en": "Procedural fluency"
+       },
+       "kind": "procedural-fluency",
+       "note": "8–10 questions; sample questions are at the back of the guide"
+      }
+     ]
+    },
+    {
+     "number": [
+      3
+     ],
+     "role": "support",
+     "minutes": 40,
+     "slots": [
+      {
+       "id": "math-game",
+       "name": {
+        "hi": "गणित खेल",
+        "en": "Math game"
+       },
+       "kind": "game",
+       "match": "खेल"
+      },
+      {
+       "id": "remedial",
+       "name": {
+        "hi": "रिमीडियल कार्य (चिह्नित बच्चों के साथ)",
+        "en": "Remedial work with identified children"
+       },
+       "kind": "remediation",
+       "note": "after the math game in period 3, with children identified in the weekly assessment (cycle page ★ note). G1/G2 day plans title the step ‘खेल और रिमीडियल’; G3 day plans title it ‘गणित खेल / अभ्यास’ and print no separate remedial step."
+      }
+     ]
+    }
+   ],
+   "remediation": true,
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 12,
+      "printed": 10
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 18,
+      "printed": 16
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 19,
+      "printed": 17
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 19,
+      "printed": 17
+     }
+    ],
+    "note": "one teaching objective a day, three a week; period numbers are printed on each day plan"
+   }
+  },
+  {
+   "id": "math-explore",
+   "name": {
+    "hi": "खोजें और जानें",
+    "en": "Explore and learn"
+   },
+   "purpose": "explore",
+   "planForm": "weekly-template",
+   "phase": "instruction",
+   "grades": [
+    1,
+    2
+   ],
+   "periods": [
+    {
+     "number": [
+      1
+     ],
+     "role": "teaching",
+     "minutes": 40,
+     "slots": [
+      {
+       "id": "explore",
+       "name": {
+        "hi": "खोजें और जानें (पाठ्यपुस्तक में अभ्यास कार्य और परियोजना कार्य)",
+        "en": "Explore and learn (textbook exercises and project)"
+       },
+       "kind": "explore"
+      }
+     ]
+    },
+    {
+     "number": [
+      2
+     ],
+     "role": "practice",
+     "minutes": 40,
+     "slots": [
+      {
+       "id": "procedural-fluency",
+       "name": {
+        "hi": "प्रक्रियात्मक प्रवाह (कार्यपुस्तिका)",
+        "en": "Procedural fluency (workbook)"
+       },
+       "kind": "procedural-fluency"
+      }
+     ]
+    },
+    {
+     "number": [
+      3
+     ],
+     "role": "open",
+     "minutes": 40,
+     "note": "रिक्त कालांश: use as needed"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 12,
+      "printed": 10
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 14,
+      "printed": 12
+     }
+    ]
+   }
+  },
+  {
+   "id": "math-explore-g3",
+   "name": {
+    "hi": "खोजें और जानें",
+    "en": "Explore and learn"
+   },
+   "purpose": "explore",
+   "planForm": "weekly-template",
+   "phase": "instruction",
+   "grades": [
+    3
+   ],
+   "periods": [],
+   "sequence": [
+    {
+     "id": "explore",
+     "name": {
+      "hi": "खोजें और जानें (पाठ्यपुस्तक में अभ्यास कार्य और परियोजना कार्य)",
+      "en": "Explore and learn (textbook exercises and project)"
+     },
+     "kind": "explore",
+     "selfMade": true,
+     "note": "teacher designs it; one sample in the guide"
+    },
+    {
+     "id": "procedural-fluency",
+     "name": {
+      "hi": "अभ्यास 4 · प्रक्रियात्मक प्रवाह (कार्यपुस्तिका)",
+      "en": "Practice 4 · procedural fluency (workbook)"
+     },
+     "kind": "procedural-fluency"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 13,
+      "printed": 11
+     }
+    ],
+    "note": "G3 prints day 4 as a flow without कालांश"
+   }
+  },
+  {
+   "id": "math-consolidation-assessment",
+   "name": {
+    "hi": "समेकन और आकलन",
+    "en": "Consolidation and assessment"
+   },
+   "purpose": "consolidation-assessment",
+   "planForm": "weekly-template",
+   "phase": "consolidation-assessment",
+   "grades": [
+    1,
+    2
+   ],
+   "assessment": "weekly",
+   "periods": [
+    {
+     "number": [
+      1
+     ],
+     "role": "teaching",
+     "minutes": 40,
+     "slots": [
+      {
+       "id": "consolidation-plan",
+       "name": {
+        "hi": "समेकन शिक्षण योजना",
+        "en": "Consolidation plan"
+       },
+       "kind": "consolidation",
+       "note": "the week's three objectives with the whole class"
+      }
+     ]
+    },
+    {
+     "number": [
+      2
+     ],
+     "role": "assessment",
+     "minutes": 40,
+     "slots": [
+      {
+       "id": "assessment",
+       "name": {
+        "hi": "आकलन ‘मैंने सीख लिया’ (कार्यपुस्तिका)",
+        "en": "Assessment ‘मैंने सीख लिया’ (workbook)"
+       },
+       "kind": "assessment"
+      },
+      {
+       "id": "procedural-fluency",
+       "name": {
+        "hi": "प्रक्रियात्मक प्रवाह",
+        "en": "Procedural fluency"
+       },
+       "kind": "procedural-fluency",
+       "note": "8–10 questions; sample questions are at the back of the guide"
+      },
+      {
+       "id": "assessment-tracker",
+       "name": {
+        "hi": "आकलन ट्रैकर (संदर्शिका): समूह A और B",
+        "en": "Assessment tracker: groups A and B"
+       },
+       "kind": "assessment"
+      }
+     ]
+    },
+    {
+     "number": [
+      3
+     ],
+     "role": "open",
+     "minutes": 40,
+     "note": "रिक्त कालांश: use as needed"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 14,
+      "printed": 12
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 14,
+      "printed": 12
+     }
+    ]
+   }
+  },
+  {
+   "id": "math-consolidation-assessment-g3",
+   "name": {
+    "hi": "समेकन और आकलन",
+    "en": "Consolidation and assessment"
+   },
+   "purpose": "consolidation-assessment",
+   "planForm": "weekly-template",
+   "phase": "consolidation-assessment",
+   "grades": [
+    3
+   ],
+   "assessment": "weekly",
+   "periods": [],
+   "sequence": [
+    {
+     "id": "consolidation-plan",
+     "name": {
+      "hi": "समेकन शिक्षण योजना",
+      "en": "Consolidation plan"
+     },
+     "kind": "consolidation",
+     "note": "teacher designs it; one sample in the guide",
+     "selfMade": true
+    },
+    {
+     "id": "explore-review",
+     "name": {
+      "hi": "खोजें और जानें परियोजना कार्य समीक्षा",
+      "en": "Review of the explore-and-learn project"
+     },
+     "kind": "explore"
+    },
+    {
+     "id": "assessment",
+     "name": {
+      "hi": "आकलन ‘मैंने सीख लिया’ (कार्यपुस्तिका)",
+      "en": "Assessment ‘मैंने सीख लिया’ (workbook)"
+     },
+     "kind": "assessment"
+    },
+    {
+     "id": "procedural-fluency",
+     "name": {
+      "hi": "प्रक्रियात्मक प्रवाह",
+      "en": "Procedural fluency"
+     },
+     "kind": "procedural-fluency",
+     "note": "8–10 questions; sample questions are at the back of the guide"
+    },
+    {
+     "id": "assessment-tracker",
+     "name": {
+      "hi": "आकलन ट्रैकर (संदर्शिका): समूह A और B",
+      "en": "Assessment tracker: groups A and B"
+     },
+     "kind": "assessment"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 14,
+      "printed": 12
+     }
+    ],
+    "note": "G3 prints day 5 as a flow without कालांश"
+   }
+  },
+  {
+   "id": "math-remedial-revision",
+   "name": {
+    "hi": "रिमीडियल और पुनरावृत्ति",
+    "en": "Remediation and revision"
+   },
+   "purpose": "remedial-revision",
+   "planForm": "weekly-template",
+   "phase": "remedial-revision",
+   "grades": [
+    1,
+    2
+   ],
+   "remediation": true,
+   "periods": [
+    {
+     "number": [
+      1
+     ],
+     "role": "support",
+     "minutes": 40,
+     "slots": [
+      {
+       "id": "remedial-plan",
+       "name": {
+        "hi": "रिमीडियल शिक्षण योजना (समूह A और B)",
+        "en": "Remedial plan (groups A and B)"
+       },
+       "kind": "remediation",
+       "note": "group A: activities given for the days; group B: procedural-fluency questions from the week's sheets"
+      }
+     ]
+    },
+    {
+     "number": [
+      2
+     ],
+     "role": "practice",
+     "minutes": 40,
+     "slots": [
+      {
+       "id": "weekly-revision",
+       "name": {
+        "hi": "पुनरावृत्ति (साप्ताहिक पुनरावृत्ति, कार्यपुस्तिका)",
+        "en": "Weekly revision (workbook)"
+       },
+       "kind": "revision"
+      },
+      {
+       "id": "procedural-fluency",
+       "name": {
+        "hi": "प्रक्रियात्मक प्रवाह",
+        "en": "Procedural fluency"
+       },
+       "kind": "procedural-fluency",
+       "note": "8–10 questions; sample questions are at the back of the guide"
+      }
+     ]
+    },
+    {
+     "number": [
+      3
+     ],
+     "role": "open",
+     "minutes": 40,
+     "note": "रिक्त कालांश: use as needed"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 13,
+      "printed": 11
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 14,
+      "printed": 12
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 14,
+      "printed": 12
+     }
+    ]
+   }
+  },
+  {
+   "id": "math-remedial-revision-g3",
+   "name": {
+    "hi": "रिमीडियल और पुनरावृत्ति",
+    "en": "Remediation and revision"
+   },
+   "purpose": "remedial-revision",
+   "planForm": "weekly-template",
+   "phase": "remedial-revision",
+   "grades": [
+    3
+   ],
+   "remediation": true,
+   "periods": [],
+   "sequence": [
+    {
+     "id": "remedial-plan",
+     "name": {
+      "hi": "रिमीडियल शिक्षण योजना (समूह A और B)",
+      "en": "Remedial plan (groups A and B)"
+     },
+     "kind": "remediation",
+     "selfMade": true,
+     "note": "special attention to group A; one sample in the guide"
+    },
+    {
+     "id": "explore-consolidation",
+     "name": {
+      "hi": "खोजें और जानें परियोजना कार्य समेकन",
+      "en": "Consolidating the explore-and-learn project"
+     },
+     "kind": "explore"
+    },
+    {
+     "id": "weekly-revision",
+     "name": {
+      "hi": "पुनरावृत्ति (साप्ताहिक पुनरावृत्ति, कार्यपुस्तिका)",
+      "en": "Weekly revision (workbook)"
+     },
+     "kind": "revision"
+    },
+    {
+     "id": "procedural-fluency",
+     "name": {
+      "hi": "प्रक्रियात्मक प्रवाह",
+      "en": "Procedural fluency"
+     },
+     "kind": "procedural-fluency",
+     "note": "8–10 questions; sample questions are at the back of the guide"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 14,
+      "printed": 12
+     }
+    ],
+    "note": "G3 prints day 6 as a flow without कालांश"
+   }
+  }
+ ],
+ "periodOutline": [
+  {
+   "grade": 1,
+   "number": 1,
+   "minutes": 40,
+   "role": "teaching",
+   "focus": {
+    "hi": "शिक्षण योजना: गणितीय बातचीत और मैं करूँ · हम करें · आप करो"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 18,
+      "printed": 16
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 12,
+      "printed": 10
+     }
+    ]
+   }
+  },
+  {
+   "grade": 1,
+   "number": 2,
+   "minutes": 40,
+   "role": "practice",
+   "focus": {
+    "hi": "कार्यपत्रक (कार्यपुस्तिका) और प्रक्रियात्मक प्रवाह"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 18,
+      "printed": 16
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 12,
+      "printed": 10
+     }
+    ]
+   }
+  },
+  {
+   "grade": 1,
+   "number": 3,
+   "minutes": 40,
+   "role": "support",
+   "focus": {
+    "hi": "गणित खेल और चिह्नित बच्चों के साथ रिमीडियल कार्य"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 18,
+      "printed": 16
+     },
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 12,
+      "printed": 10
+     }
+    ]
+   }
+  },
+  {
+   "grade": 2,
+   "number": 1,
+   "minutes": 40,
+   "role": "teaching",
+   "focus": {
+    "hi": "शिक्षण योजना: गणितीय बातचीत और मैं करूँ · हम करें · आप करो"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 19,
+      "printed": 17
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 13,
+      "printed": 11
+     }
+    ]
+   }
+  },
+  {
+   "grade": 2,
+   "number": 2,
+   "minutes": 40,
+   "role": "practice",
+   "focus": {
+    "hi": "कार्यपत्रक (कार्यपुस्तिका) और प्रक्रियात्मक प्रवाह"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 19,
+      "printed": 17
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 13,
+      "printed": 11
+     }
+    ]
+   }
+  },
+  {
+   "grade": 2,
+   "number": 3,
+   "minutes": 40,
+   "role": "support",
+   "focus": {
+    "hi": "गणित खेल और चिह्नित बच्चों के साथ रिमीडियल कार्य"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 19,
+      "printed": 17
+     },
+     {
+      "doc": "guide-g2-9b3436f6e0f7",
+      "pdf": 13,
+      "printed": 11
+     }
+    ]
+   }
+  },
+  {
+   "grade": 3,
+   "number": 1,
+   "minutes": 40,
+   "role": "teaching",
+   "focus": {
+    "hi": "शिक्षण योजना: गणितीय बातचीत और मैं करूँ · हम करें · आप करो"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 19,
+      "printed": 17
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 13,
+      "printed": 11
+     }
+    ]
+   }
+  },
+  {
+   "grade": 3,
+   "number": 2,
+   "minutes": 40,
+   "role": "practice",
+   "focus": {
+    "hi": "कार्यपत्रक (कार्यपुस्तिका) और प्रक्रियात्मक प्रवाह"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 19,
+      "printed": 17
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 13,
+      "printed": 11
+     }
+    ]
+   }
+  },
+  {
+   "grade": 3,
+   "number": 3,
+   "minutes": 40,
+   "role": "support",
+   "focus": {
+    "hi": "गणित खेल और चिह्नित बच्चों के साथ रिमीडियल कार्य"
+   },
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 19,
+      "printed": 17
+     },
+     {
+      "doc": "guide-g3-186da9c8f52a",
+      "pdf": 13,
+      "printed": 11
+     }
+    ]
+   }
+  }
+ ],
+ "exceptions": [],
+ "provenance": {
+  "assertion": "stated",
+  "review": "unreviewed",
+  "note": "From each guide's weekly overview (साप्ताहिक कार्य का अवलोकन: G1 pdf 11–14, G2/G3 pdf 12–15; day pages are image-only and were read from the page images) and the day-1 plans. G1 and G2 print periods for days 4–6; G3 prints them as a flow without कालांश, with teacher-made consolidation and remedial plans, so G3 has its own day types."
+ }
+}

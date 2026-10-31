@@ -6,7 +6,7 @@
   "grade",
   "week",
   "day",
-  "dayPurpose",
+  "dayType",
   "title",
   "periods",
   "source",
@@ -30,14 +30,8 @@
   "unit": {
    "$ref": "common.schema.json#/$defs/link"
   },
-  "dayPurpose": {
-   "enum": [
-    "new-skills",
-    "weekly-revision",
-    "weekly-assessment",
-    "consolidation",
-    "open"
-   ]
+  "dayType": {
+   "$ref": "common.schema.json#/$defs/slug"
   },
   "title": {
    "$ref": "common.schema.json#/$defs/text"
@@ -84,7 +78,9 @@
       "enum": [
        "teaching",
        "practice",
-       "support"
+       "support",
+       "assessment",
+       "open"
       ]
      },
      "steps": {
@@ -112,6 +108,12 @@
           "integer",
           "null"
          ]
+        },
+        "slots": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/slug"
+         }
         },
         "routine": {
          "$ref": "common.schema.json#/$defs/link"
