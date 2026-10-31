@@ -7,8 +7,8 @@
 Writes curricula/up-hindi-2026/reviewed/{catalog.mjs,resources.json,worksheets.json,sources.json}
 and renders dist/packs/up-hindi-2026/{source,workbook}/gN-pNNN.webp. Topics come from each
 guide's “वार्षिक शिक्षण उद्देश्य” page (printed p13); repairs.json holds source-compared
-replacements for text the parser cannot recover (a repair replaces a period, or adds one the
-parser dropped). Text is decoded from the PDFs, never rewritten.
+replacements for text the parser cannot recover (a repair replaces a period, adds one the
+parser dropped, or restores a bare vowel sign shown as an empty ‘ ’). Text is decoded from the PDFs, never rewritten.
 """
 import hashlib
 import io
@@ -124,6 +124,12 @@ def main(repo, images=True):
         for d in days:
             key = f"g{g}-w{d['week']}-d{d['day']}"
             periods = d['periods']
+            # A bare vowel sign inside quotes (‘ े ’) is drawn outside the text layer, so the
+            # decoder sees ‘ ’; `sign` restores it from the page image.
+            sign = repairs.get(key, {}).get('sign')
+            if sign:
+                periods = json.loads(re.sub(r'‘\s*’', f'‘ {sign} ’', json.dumps(periods, ensure_ascii=False)))
+            compared = bool(repairs.get(key, {}).get('periods'))
             for fix in repairs.get(key, {}).get('periods', []):
                 if any(p['period'] == fix['period'] for p in periods):
                     periods = [fix['replace'] if p['period'] == fix['period'] else p for p in periods]
@@ -154,7 +160,7 @@ def main(repo, images=True):
                              'instructions': actions, 'questions': questions,
                              'image': guide_res['pages'][s['pdfPage'] - 1],
                              'sourceRect': [0.05, round(max(0, s['top'] - 0.01), 4), 0.95, round(min(1, s['bottom'] + 0.01), 4)],
-                             'extraction': 'source-compared' if key in repairs else 'legacy-font-decoded'}
+                             'extraction': 'source-compared' if compared else 'legacy-font-decoded'}
                     if p['period'] == 2 and 'कार्यपुस्तिका' in phase['title']:
                         phase['worksheetPreview'] = True
                     if not phase['actions']:
@@ -173,6 +179,9 @@ def main(repo, images=True):
                 wp = wb_pages.get(n)
                 if not wp:
                     continue
+                wsign = repairs.get(f"workbook-g{g}-p{wp['pdfPage']}", {}).get('sign')
+                if wsign:
+                    wp = json.loads(re.sub(r'‘\s*’', f'‘ {wsign} ’', json.dumps(wp, ensure_ascii=False)))
                 sheet = {'grade': g, 'week': d['week'], 'day': d['day'],
                          'kind': 'assessment' if d['day'] == 6 else 'practice',
                          'label': clean(wp['heading']) or f'कार्यपुस्तिका पृष्ठ {n}',
@@ -207,7 +216,7 @@ def main(repo, images=True):
                                for p in d['pdfPages']],
                 'textbookReference': (f"पाठ्यपुस्तक पृष्ठ {', '.join(str(n) for n in dict.fromkeys(tb_refs))} (मुद्रित पुस्तक देखें)"
                                       if tb_refs else 'इस पाठ में पाठ्यपुस्तक का पृष्ठ संदर्शिका में नहीं दिया गया है।'),
-                'contentStatus': 'source-compared' if key in repairs else 'decoded-unreviewed',
+                'contentStatus': 'source-compared' if compared else 'decoded-unreviewed',
                 'worksheets': sheets,
             }
             if lesson['duration'] is None:
