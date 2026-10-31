@@ -37,7 +37,7 @@ mid-task. It is the first file to read and the last file to update.
 | Item | Value |
 |---|---|
 | Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`) |
-| Repository | github.com/anustup-nayak/teacher-guide-navigator (public), default branch `main` |
+| Repository | github.com/anustup-nayak/teacher-guide-navigator (public). Branches: `main` (v1 live), `release/v1`, `next` (v2) — see [VERSIONING.md](VERSIONING.md). Tag `v1.0.0` = r57 |
 | Release | r57 (live; deployed from `main` @ `4e7065d`) |
 | Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
@@ -60,7 +60,7 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/ontology-plan` | `docs/CONTENT_ARCHITECTURE_PLAN.md`, this file | plan written, awaiting owner approval | No code changed. Owner chose a second GitHub Pages site under a new organisation for the preview (§9.1, Phase 0); owner to create the org. Owner added: the app must reflect the whole TG — front/back matter as a simplified, linked “program guide” layer (plan §4a). Next: Phase 0 (tag v1.0.0, release/v1, next branch). |
+| Claude Code | `task/ontology-plan` | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml`, `AGENTS.md`, this file | Phase 0 in progress | Done: tag `v1.0.0` (=5ae263b, r57), branches `release/v1` and `next` pushed; branch rules written. Waiting: owner creates the preview GitHub organisation, then create `<org>.github.io` repo with docs/preview/pages-preview.yml and enable Pages (Actions). Then Phase 1. |
 
 ## Change log
 

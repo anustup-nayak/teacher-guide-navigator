@@ -207,7 +207,8 @@ it is published; unreviewed sections show only “Read in full” and the origin
 Each phase ends with a gate. Owner approvals are marked ✋. Agents log each step in
 `docs/HANDOFF.md`; each phase has a task note.
 
-**Phase 0 — Safeguard v1 (small).** Tag `v1.0.0`, create `release/v1` and `next`, add CI for
+**Phase 0 — Safeguard v1 (small).** *Started 31 Oct 2026: `v1.0.0` tagged at `5ae263b`; `release/v1`
+and `next` created; rules in [VERSIONING.md](VERSIONING.md); preview repo waits for the org.* Tag `v1.0.0`, create `release/v1` and `next`, add CI for
 `next`. Preview: the owner creates a free GitHub organisation (e.g. `sandarshika-preview`);
 its user-site repo `<org>.github.io` holds only a Pages workflow that checks out the public
 `next` branch of `anustup-nayak/teacher-guide-navigator` and publishes its v2 build, on a

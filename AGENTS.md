@@ -36,6 +36,7 @@ docs/DEVELOPMENT.md before editing. docs/MVP_ACCEPTANCE.md is historical.
 - Keep original images accessible; label adaptations. Do not claim academic sign-off.
 
 ## Collaboration
+- Branches and releases follow [docs/VERSIONING.md](docs/VERSIONING.md): `main` is v1 production; v2 work branches from and merges into `next`; never merge `next` into `main` before the owner approves cutover.
 - One task branch and isolated git worktree per coding agent. Never edit another agent's worktree.
 - Agree file ownership before parallel tasks. app.mjs and styles.css are shared hotspots: only one agent edits each at a time.
 - Task notes belong in docs/tasks/; record goal, owned files, acceptance criteria, checks and unresolved risks. The running cross-agent state and change log is docs/HANDOFF.md.
