@@ -70,13 +70,23 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/repair-g2-hindi-w19-d03` (from `main`) | `curricula/up-hindi-2026/tools/{repairs.json,build_pack.py}`, `curricula/up-hindi-2026/reviewed/catalog.mjs`, `dist/packs/up-hindi-2026/catalog.mjs`, `curricula/published-baseline.json`, r58 version bumps in `dist/` | r58 drafted; PR to `main` open | Done: repair, publish, reviewed baseline amendment, r58, all checks, browser check. Next: owner merges; then fast-forward `release/v1`, merge `main` into `next` and drop the structure.json exception. Task note: [repair](tasks/repair-g2-hindi-w19-d03.md). |
+| Claude Code | `task/hindi-grid-columns` (from `main`) | `curricula/up-hindi-2026/tools/parse_guides.py`, Hindi reviewed/dist catalog, `curricula/published-baseline.json`, `tests/test_hindi_grids.py`, `tests/hindi-pack.test.mjs`, r59 bumps | r59 drafted; PR to `main` open | Done: parser fix, rebuild (only grid crops move), amendment, tests, browser check. Next: owner merges; then sync branches. Task note: [grid](tasks/hindi-grid-columns.md). |
+| Claude Code | `task/repair-g2-hindi-w19-d03` (from `main`) | `curricula/up-hindi-2026/tools/{repairs.json,build_pack.py}`, `curricula/up-hindi-2026/reviewed/catalog.mjs`, `dist/packs/up-hindi-2026/catalog.mjs`, `curricula/published-baseline.json`, r58 version bumps in `dist/` | Merged as PR #10 (`181a840`); live r58, tag `v1.0.1` | Done, and branches synced (`release/v1`, `next`). Task note: [repair](tasks/repair-g2-hindi-w19-d03.md). |
 | Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
 
 ## Change log
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `task/hindi-grid-columns` (PR to `main`, release r59)
+
+- Owner approved after checking G2 w19 d2: the parser gave grids to the first step at their height,
+  ignoring columns, so 132 grids printed in 3.2 showed on 3.1 (and one 2.2 grid on 2.1). Steps now
+  record their column; 133 crops move, every lesson's text and steps are unchanged.
+- Second recorded baseline amendment (r59). New tests: `tests/test_hindi_grids.py`, pack test.
+- Checks: npm test 81/81, check, design:check, sw.js, verify:publication, ingestion 15/15,
+  verify:sources, skill tests; browser 360/390 px, Hindi/English. Task note: [grid](tasks/hindi-grid-columns.md).
 
 ### 2026-10-31 · Claude Code · `task/repair-g2-hindi-w19-d03` (PR to `main`, release r58)
 

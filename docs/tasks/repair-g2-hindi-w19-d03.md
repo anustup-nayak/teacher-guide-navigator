@@ -36,5 +36,5 @@ Math lesson unchanged; no console errors. Not run: real phones, offline re-downl
 ## Follow-ups
 - When `main` is merged into `next`, remove the `g2-hindi-w19-d03` exception from
   `curricula/up-hindi-2026/model/structure.json` (the structure test reports it as no longer needed).
-- The same grid mis-attachment may exist on other days: e.g. G2 w19 d2 attaches a right-column
+- Done in r59 ([grid task](hindi-grid-columns.md)). Was: the same grid mis-attachment may exist on other days: e.g. G2 w19 d2 attaches a right-column
   grid to 3.1 (left column) that may belong to 3.2. Not checked; needs its own source review.
