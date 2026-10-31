@@ -35,7 +35,11 @@ Printed page = pdf page − 2 in all six guides.
 - [x] Section maps, page maps and coverage test (`tests/pagemap.test.mjs`).
 - [x] Draft program profiles (both packs) with open questions.
 - [x] PR to `next`.
-- [ ] Not done: full reading of G2/G3 routine pages and articles; workbook front matter; Math image-only pages; owner/academic review gate.
+- [x] Workbook front/back matter read (extractor covers all 12 documents); findings in both profiles.
+- [x] G2/G3 routine-library headings read; differences in the Hindi profile.
+- [ ] Not done: line-by-line reading of the articles; Math image-only pages (G1 pdf 12, 13, 85, 86, 88, 89); owner/academic review gate.
+
+`extracted/` is git-ignored (reproducible): rerun `python3 scripts/content/extract_matter.py` to regenerate the decoded matter.
 
 ## Checks
 `python3 scripts/content/extract_matter.py`; `npm test`; `npm run verify:sources -- --require-complete`.

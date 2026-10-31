@@ -1,4 +1,4 @@
-"""Extract the front and back matter of each archived Teacher Guide as decoded, line-grouped text.
+"""Extract the front and back matter of each archived Teacher Guide and Workbook as decoded, line-grouped text.
 
 Phase 1 of docs/CONTENT_ARCHITECTURE_PLAN.md: the program profiles are written from this
 output. Lesson pages are skipped; the lesson range per guide comes from the published
@@ -40,6 +40,14 @@ MATTER = [
     ('up-math-2026', 'guide-g1-167f09e3bf58', 17, 85),
     ('up-math-2026', 'guide-g2-9b3436f6e0f7', 18, 116),
     ('up-math-2026', 'guide-g3-186da9c8f52a', 18, 115),
+    # Workbooks: front matter before the first worksheet; back = Hindi part 2 (पठन अभ्यास),
+    # grids and trackers, or the Math NIPUN list. Hindi part 2 is not linked to lessons in v1.
+    ('up-hindi-2026', 'workbook-g1-04678c7d6792', 6, 92),
+    ('up-hindi-2026', 'workbook-g2-b7aee36aedf3', 6, 123),
+    ('up-hindi-2026', 'workbook-g3-e0e75877c246', 6, 125),
+    ('up-math-2026', 'workbook-g1-87d1e0f42ce2', 7, 111),
+    ('up-math-2026', 'workbook-g2-9a90832e59d1', 7, 135),
+    ('up-math-2026', 'workbook-g3-057d687b6500', 7, 135),
 ]
 
 

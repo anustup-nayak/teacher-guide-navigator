@@ -27,6 +27,13 @@ procedural-fluency sample questions per week, weekly assessment tracker.
 - **Teaching process.** ELPS (Experience, Language, Pictures, Symbols) and GRR (मैं करूँ आप देखो …).
 - **Materials.** Math kit, posters, board, self-made material, (G3) picture-story book.
 
+## Workbooks (आनंदमय गणित G1–G2, गणित मेला G3)
+Front: cover, NCERT math-kit list (G1/G2 p2), title, credits, tick-mark instructions and periodic
+revision (p5), worksheet legend कार्यपत्रक अवलोकन (top strip = week and worksheet type-number;
+bottom strip for the teacher: icon, date, signature; p6, G3 p2), contents by week (p7). Back: the
+NIPUN list with LO codes (pdf 111 / 135 / 135). The worksheet type-number on each top strip is a
+stated link from worksheet to plan type (अभ्यास, प्रक्रियात्मक प्रवाह, मैंने सीख लिया).
+
 ## Open questions for the curriculum team
 1. Math G1 pdf 12–13, 85, 86, 88, 89 have no text layer; read from images or OCR.
 2. G3 weekly tracker (pdf 4) prints 2025-2026 and its credits differ from G1/G2; current edition?
