@@ -22,9 +22,15 @@ own descriptions, materials, an assessment and remediation loop. We use little o
 | Routine library | Hindi: back matter describes each period's activities (G1 printed pp109–130) | None — steps are untyped text |
 | Assessment and remediation | Hindi: weekly assessment, remedial strategy, oral-language assessment (G1 printed pp131–136); groups A/B | Day-6 text only |
 | Materials | Big book, picture/story charts, textbook, workbook parts 1/2, grids, stories, poems | Free text |
+| Teacher guidance articles | Hindi (all grades): usage guide, समझ की जाँच, gender sensitivity, multigrade teaching; G1 decoding and emergent writing; G2 oral-language strategies, scaffolding and pair/group work; G3 structured pedagogy, writing for expression | Page images only |
+| Resources and trackers | Stories, poems, grids, annual-weekly tracker, weekly assessment tracker | Page images only |
+
+About a quarter to a third of each Hindi guide is front and back matter. Teachers rarely
+read it because it is dense, yet it explains why each lesson is built the way it is.
 
 **Goal:** make the program itself the backbone. Model it once per edition from the guide's
-front and back matter, link every lesson and step to it, and build the app from that model,
+front and back matter, link every lesson and step to it, give teachers that guidance as a
+simplified **program guide** layer (section 4a), and build the app from that model,
 without breaking the live product or teachers' saved data.
 
 ## 2. Principles
@@ -71,6 +77,9 @@ curricula/<pack>/model/              CANONICAL CONTENT MODEL (new)
     routines.json                    routine definitions (from back matter) + types
     materials.json                   books, charts, workbook parts, page ranges
     assessments.json                 weekly/periodic assessment, remediation strategy
+    guide/<grade>.json               program guide: sections → passages (source text,
+                                     reviewed summaries, key actions), resources
+    pagemap.json                     every PDF page → node (coverage gate)
     lessons/g1.json …                lesson → periods → steps, each linked to
                                      routine, LOs, materials, pages
     provenance.json                  page refs and assertion type per node/link
@@ -107,9 +116,64 @@ startup, about 0.8 MB compressed). Indexes are small; lesson bodies load on dema
 | Material | type, title, pages | बिग बुक ‘मुर्गी के तीन चूजे’ |
 | Assessment | type, when, instrument, recording | ‘मैंने सीख लिया’ (दिवस 6) |
 | Remediation | groups, strategy, period | समूह-A रिमीडियल, कालांश 3 |
+| GuideSection | id, title, kind (overview, approach, routine guide, assessment, remediation, resource, tracker), grade(s), source pages, parent | “व्यवस्थित डिकोडिंग” (G1 printed p8) |
+| GuidePassage | section, order, source text (decoded), plain-language summary, key actions, review status | one paragraph or list of a section |
+| Resource | type (story, poem, grid, tracker), title, pages, linked lessons | कहानी ‘मुर्गी के तीन चूजे’ |
+| PageMap | every PDF page → the node(s) it belongs to | p20 → lesson g1-w09-d02 |
 
 Every link carries `{source: {doc, pdfPage, printedPage}, assertion: stated|derived|editorial,
 rule?, review: unreviewed|reviewed}`.
+
+**Full coverage.** The page map assigns every page of every guide and workbook to a node:
+a lesson, a review week, a guide section, a resource or tracker, or a labelled
+non-teaching page (cover, credits, pledge). A coverage gate fails if any page is unassigned,
+so the app reflects everything in the guide.
+
+## 4a. Program guide layer (the simplified navigator)
+
+A separate section of the app, built from the guide's front and back matter, that
+**informs** the lessons without changing them. Lesson content stays as decoded from the
+day pages; the program guide is a parallel, linked layer.
+
+**Structure.** The same for every subject; sections follow each guide's own contents.
+
+1. **कार्यक्रम एक नज़र में / Program at a glance**: goals (NIPUN list by domain), the year
+   map (annual objectives by week block), the weekly cycle (what each day is for), the
+   period outline (what each कालांश is for), materials.
+2. **पढ़ाने का तरीका / How we teach**: the approach articles (decoding, writing, oral
+   language, structured pedagogy, scaffolding, gender sensitivity, multigrade).
+3. **गतिविधियों की गाइड / Activity guide**: each routine as the guide describes it, by period.
+4. **आकलन और सहायता / Assessment and support**: समझ की जाँच, the weekly assessment, the
+   oral-language assessment, the remediation strategy and groups A/B, the trackers.
+5. **संसाधन / Resources**: stories, poems, grids.
+
+**Three reading depths per section, so it is no longer too dense:**
+
+- **सार / In short**: 3–5 plain-language points plus “कक्षा में क्या करें” (what to do in
+  class). These are editorial: written strictly from the source passages they cite, with
+  no new pedagogy, labelled as a summary and reviewed before publication.
+- **पूरा पढ़ें / Read in full**: the guide's own text, decoded and structured into headings,
+  lists and tables, unchanged in wording.
+- **मूल पृष्ठ / Original page**: the page image, as today.
+
+**How it informs lessons (links, never gates).** On the lesson screen, small links lead into
+the guide at the point of need, for example:
+
+- the lesson header shows the day's place in the weekly cycle (“दिवस 5 · पुनरावृत्ति का दिन”)
+  and the unit, linking to the year map;
+- each step's routine links to its activity guide (“चित्र चार्ट चर्चा कैसे कराएँ”);
+- LO chips link to the goal and where it is taught, revised and assessed;
+- day 6 links to the weekly assessment guide and tracker; remedial steps link to the
+  remediation strategy; grid and story steps link to the resource.
+
+The guide never sits in front of a lesson: the existing topic → summary → lesson and
+week → day → lesson routes stay one tap away, as the design contract requires. Where the
+guide section appears (a header link, a Help entry or a lesson-panel link) is a Phase 6
+design decision for the owner.
+
+**Authoring and review of summaries.** Drafts may be machine-assisted, but each summary point
+cites its source passage. A reviewer with curriculum authority approves each section before
+it is published; unreviewed sections show only “Read in full” and the original page.
 
 ## 5. Keeping the live product safe (version control and release)
 
@@ -154,31 +218,37 @@ or storage with the live app. Gate: v1 unchanged; `next` CI green; preview URL s
 matter page of each TG and workbook (contents, NIPUN lists, usage guide, teaching cycle,
 materials, period outline, routine descriptions, assessment, remediation, annual
 objectives, Math LO table and LO→week map). Math front matter needs OCR/legacy decoding
-first. Output: `curricula/<pack>/model/PROGRAM_PROFILE.md` per pack, with page references
+first. Draft the section map of each guide's front and back matter (following its own
+contents page) and a first page map. Output: `curricula/<pack>/model/PROGRAM_PROFILE.md` per pack, with page references
 and open questions for the curriculum team. Gate ✋: owner/academic review of both profiles.
 
-**Phase 2 — Design the content model.** Write `docs/CONTENT_MODEL.md`, the JSON Schemas,
+**Phase 2 — Design the content model.** Including the program guide entities (section 4a).
+Write `docs/CONTENT_MODEL.md`, the JSON Schemas,
 vocabularies (strands, routine types, material types, assessment types) and ID rules, with
 worked examples from one Hindi day and one Math day. Gate ✋: curriculum-design review —
 does the model express both programs without forcing one onto the other?
 
 **Phase 3 — Content tooling.** Validator, referential-integrity checks, compiler (v2
 bundles and the v1-compatible catalog), diff and coverage reports (LOs without lessons,
-lessons without LOs, routines never used), tests. Gate: compiling the *current* content
+lessons without LOs, routines never used, pages not in the page map), tests. Gate: compiling the *current* content
 reproduces today's v1 catalogs byte-for-byte (no behaviour change yet).
 
-**Phase 4 — Populate Hindi.** Extract the NIPUN LOs and strands, unit blocks, weekly cycle,
+**Phase 4 — Populate Hindi.** Decode every front and back matter section into structured
+program-guide text, draft cited plain-language summaries, and link sections to lessons.
+Extract the NIPUN LOs and strands, unit blocks, weekly cycle,
 period roles and routine library from the guide; type every step against the routine
 library (matching titles plus back-matter definitions; ambiguous cases reviewed); link
 lessons to LOs only where stated or derivable by a named rule; model assessment and
 remediation. Gate ✋: coverage report plus a sampled academic check per grade.
 
-**Phase 5 — Populate Math.** OCR the LO table and LO→week map; link all 366 days (direct
+**Phase 5 — Populate Math.** Build the Math program guide the same way. OCR the LO table and
+LO→week map; link all 366 days (direct
 plans stated; weekly plans derived from the week map); map GRR stages to routine types;
 replace app-made topics with the guide's sequence where it defines one, keeping
 `editorial` labels where it does not. Gate ✋: same as Phase 4.
 
-**Phase 6 — App v2 design proposal.** Proposal with Hindi screens at 360 px: the same core
+**Phase 6 — App v2 design proposal.** Include the program guide section, its three reading
+depths and the lesson-to-guide links (section 4a). Proposal with Hindi screens at 360 px: the same core
 flow (Today/week → day → lesson; topic → summary → lesson) plus ontology-backed
 additions to discuss, such as "why" (LO and strand chips on each lesson), a routine guide
 (how to run picture-chart discussion), an LO view (where an outcome is taught, revised and
@@ -189,7 +259,8 @@ and the design-lock tests updated in the same change.
 screens re-pointed to the model; approved new views; same storage keys and deep links;
 offline worker scoped to v2. Gate: all v1 behavioural tests pass on v2, plus new ones.
 
-**Phase 8 — Parity and QA.** Automated parity: every v1 lesson ID reachable, with the same
+**Phase 8 — Parity and QA.** Page coverage is 100% for every guide and workbook; every
+published summary has a reviewer. Automated parity: every v1 lesson ID reachable, with the same
 steps, times, questions and worksheets, and all v1 deep links resolving. Storage snapshot
 replay; offline download/upgrade; the previously open checks (390 px, keyboard-only,
 offline Hindi lesson, real Android phones, TalkBack, print). Teacher pilot if possible ✋.
@@ -228,3 +299,5 @@ rollback path for a term. Gate ✋: owner go-live decision.
 2. LO linking: allow reviewed `derived` links, or only links printed in the guide?
 3. Who reviews the program profiles and content model (✋ gates)?
 4. Which v2 additions to explore in Phase 6 (LO view, routine guide, remediation view)?
+5. Where the program guide lives in the app (fourth header link, inside Help, or only via
+   lesson links), decided in Phase 6 with screens.
