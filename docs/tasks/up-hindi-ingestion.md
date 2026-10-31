@@ -21,6 +21,12 @@ Branch / agent: `task/up-hindi-ingestion` · Claude Code.
 
 Owner decisions so far: include Grades 1–3; download through the in-app browser.
 
+Drive file IDs (folder 1KQa4pH58nRBC00VGItfbpx9JhBfJtKbK): TG G1 1AwGjmuTeYGVovRhLLOp39v0GGFOGTrz3,
+TG G2 1Bvf5r9EqhHh8NCLt64Opeg2cuNGNJLMJ, TG G3 1EZTc_ZcLekvqczG2hjUDR8UzaTBLpfK8,
+WB G1 1axTTkscK2Qh0j9L5WuktqnW33ftm2Gvl, WB G2 1pMWpkffNNMstsccYnInrqAI9SwY21RMZ,
+WB G3 1jvZ1FddXpjbilTDmXB6a5LivDbfu9JNh. Too large for the Drive connector; use an
+authenticated browser or a local copy.
+
 ## Owned files
 
 `curricula/<new pack>/` (originals, extracted), this note, `docs/HANDOFF.md`.

@@ -60,7 +60,7 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/up-hindi-ingestion` | `curricula/<new Hindi pack>/`, `docs/tasks/up-hindi-ingestion.md`, this file | in progress: discovery (no app changes) | Owner chose Grades 1–3 from Renu Chauhan's Drive folder (6 PDFs, ~363 MB, received 31 Oct 2026). Next: download via in-app browser to ~/Downloads/up-hindi-sources/, import, extract, inspect, then present plan and requirements questions. |
+| Claude Code | `task/up-hindi-ingestion` | `curricula/<new Hindi pack>/`, `docs/tasks/up-hindi-ingestion.md`, this file | in progress: discovery (no app changes) | Owner chose Grades 1–3 from Renu Chauhan's Drive folder (6 PDFs, ~363 MB, received 31 Oct 2026). Blocked: in-app browser shows Google sign-in; waiting for the owner to sign in (agents must not enter passwords). Drive file IDs are in the task note. Then download to ~/Downloads/up-hindi-sources/, import, extract, inspect, present plan. |
 
 ## Change log
 
