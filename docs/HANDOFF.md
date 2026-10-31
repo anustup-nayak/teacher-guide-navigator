@@ -38,8 +38,8 @@ mid-task. It is the first file to read and the last file to update.
 |---|---|
 | Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`) |
 | Repository | github.com/anustup-nayak/teacher-guide-navigator (public), default branch `main` |
-| Release | r57 on branch `task/up-hindi-ingestion` (live site still r56 until merged) |
-| Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026` (on branch until merged): 366 day plans, 972 page images |
+| Release | r57 (live; deployed from `main` @ `4e7065d`) |
+| Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
 | Checks | `npm test` (75, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (9), skill script tests, `npm run verify:sources -- --require-complete` |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
@@ -47,7 +47,7 @@ mid-task. It is the first file to read and the last file to update.
 
 ## Next up
 
-**UP Hindi Grades 1–3 built** (see *Active work* and the change log); after merge: proofreading of the review list, optional per-subject lazy loading. Sources: Renu Chauhan's Drive folder “UP Literacy TG & WB” (TG G1–G3, Workbooks Sarangi G1–G2 and Veena 1 G3).
+**UP Hindi Grades 1–3 is live.** Possible next steps: proofread the review list in `docs/tasks/up-hindi-ingestion.md`; 390 px, keyboard-only, offline-Hindi and real-phone checks; load each subject's lessons only when selected. Sources: Renu Chauhan's Drive folder “UP Literacy TG & WB” (TG G1–G3, Workbooks Sarangi G1–G2 and Veena 1 G3).
 Follow [skills/teacher-guide-to-app/SKILL.md](../skills/teacher-guide-to-app/SKILL.md)
 from its discovery step: obtain the Hindi Teacher Guide and Workbook PDFs,
 inspect them, agree a requirements brief with the owner, then build a **new,
@@ -60,14 +60,14 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/up-hindi-ingestion` | see task note | done locally; PR next | All checks pass; browser-tested. Next: push (includes 135 MB LFS object) and open PR to `main`; owner merges; then clear this row. |
+| — | — | — | — | — |
 
 ## Change log
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
 
-### 2026-10-31 · Claude Code · `task/up-hindi-ingestion`
+### 2026-10-31 · Claude Code · `main` @ `4e7065d` (PR #3, squash-merged; live as r57)
 
 - Added UP Hindi Grades 1–3 as pack `up-hindi-2026` beside Math in the same app (Subject
   menu: गणित / हिन्दी): 366 lessons, 2,752 timed steps, 332 workbook links, 175 grid
