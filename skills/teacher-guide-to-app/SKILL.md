@@ -31,7 +31,11 @@ runtime with distinct pack configuration and durable storage identity.
 
 Resolve the repository root from the current checkout; do not reuse a previous
 agent's machine paths, browser tab IDs, temporary download URLs or cache version.
-Read `AGENTS.md`, `README.md`, `docs/DEVELOPMENT.md`,
+Read `docs/HANDOFF.md` first and continue any unfinished work it records; claim
+your task there and update it after each meaningful step, so another agent
+(Codex, Claude Code or other) can resume if you are cut off. Read
+`docs/DESIGN_CONTRACT.md`: the look, feel and flow it lists are frozen without
+the owner's explicit approval. Then read `AGENTS.md`, `README.md`, `docs/DEVELOPMENT.md`,
 `docs/QA_QC_RELEASE_CHECKLIST.md`, `curricula/README.md` and
 `docs/CURRICULUM_PACKS.md`. Resolve disagreements using current user intent and
 current implementation. Older acceptance notes describe superseded dropdowns,
@@ -173,7 +177,12 @@ both new-pack publication equality and the UP regression/equality checks.
 
 ### 5. Design as the PDF's usable extension
 
-Read [design](references/design.md). Inspect representative direct lessons,
+Read [design](references/design.md) and the repo's `docs/DESIGN_CONTRACT.md`.
+In this repo a new pack, grade or subject reuses the existing screens and
+lesson-card components and expresses its source identity through pack
+`visualStyle` configuration. `npm test` enforces the design lock; propose any
+new component or protected-file change to the owner before building it.
+Inspect representative direct lessons,
 weekly outlines, review pages and workbook pages from every source layout family.
 Build one integrated reference lesson and validate it before applying a pattern.
 
@@ -255,7 +264,8 @@ public release. Do not equate a local server or archive with a deployed update.
 
 Handover: local/public URL as applicable, pack coverage, source mapping/review
 status, changed files, commands/results, screenshots, release identity, checksum
-or commit, missing resources and precise unperformed checks. Link the task record.
+or commit, missing resources and precise unperformed checks. Link the task record and add
+the dated change-log entry to `docs/HANDOFF.md`.
 Keep the final response concise; the report carries the detailed evidence.
 
 ## Maintain this workflow after every change
@@ -266,4 +276,7 @@ source-contract, development or QA documents whenever future builds need the new
 behavior, interface, command, limitation or regression case. Keep acceptance tests
 in sync. Link to one authoritative explanation rather than duplicating procedures.
 Preserve dated history; record the documentation impact and verification in the
-task note. Do not finish with instructions that contradict the current app.
+task note and the `docs/HANDOFF.md` change log. Do not finish with instructions
+that contradict the current app. If an owner-approved design change altered a
+frozen rule, update `docs/DESIGN_CONTRACT.md` and `tests/design-lock.test.mjs`
+in the same change.

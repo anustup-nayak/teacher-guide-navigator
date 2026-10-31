@@ -12,6 +12,10 @@ updates, unchanged old downloads can migrate by hash; changed assets require
 fresh download. If integrity/migration cannot complete safely, retain old cache
 for recovery. A successful UI update must not delete all prepared teaching pages.
 
+`npm run design:check` (also inside `npm test`) must pass. Release version bumps
+in `dist/index.html` do not trip it; any style or shell change needs an owner
+approval recorded with `npm run design:approve` (see `docs/DESIGN_CONTRACT.md`).
+
 Before releasing changed modules/styles, run `npm run release:assets -- rNN`
 with the chosen new release counter, then inspect the coordinated version references
 in `dist/index.html`, `bootstrap.mjs`, `app.mjs`, `sw.js` and any new versioned

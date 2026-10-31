@@ -1,6 +1,31 @@
 # Working on Sandarshika
 
-Read README.md, docs/MVP_ACCEPTANCE.md, docs/QA_QC_RELEASE_CHECKLIST.md and docs/DEVELOPMENT.md before editing.
+These rules apply to every coding agent (Codex, Claude Code or another). `CLAUDE.md`
+imports this file; keep rules here, not in agent-specific copies.
+
+## Start and finish every session
+1. Read [docs/HANDOFF.md](docs/HANDOFF.md) first: current state, active work, next
+   step and change log. Continue unfinished work recorded there before starting new work.
+2. Claim your task in its *Active work* table (agent, branch, owned files) and create
+   the task note in docs/tasks/.
+3. Update your row after each meaningful step, not only at the end: you may run out of
+   tokens, and the next agent must be able to continue from HANDOFF.md and the task note.
+4. Finish with a dated *Change log* entry (what changed, checks and results, what is
+   left), and refresh *Current state* if facts changed. Never rewrite older entries.
+
+Then read README.md, docs/DESIGN_CONTRACT.md, docs/QA_QC_RELEASE_CHECKLIST.md and
+docs/DEVELOPMENT.md before editing. docs/MVP_ACCEPTANCE.md is historical.
+
+## Protected design
+- [docs/DESIGN_CONTRACT.md](docs/DESIGN_CONTRACT.md) freezes the look, feel and teaching
+  flow: routes, header, browse tabs, lesson anatomy, palette, type, touch sizes and
+  core Hindi labels. Do not change them without the owner's explicit approval in chat.
+- `npm test` fails when `dist/styles.css`, `dist/guide-cards.css` or the `dist/index.html`
+  shell changes without a recorded approval, or when a frozen invariant breaks. Never
+  run `npm run design:approve` or edit `tests/design-lock.test.mjs` to make a test pass
+  without that approval; record the approval in HANDOFF.md.
+- New grades and subjects reuse the existing screens and lesson-card components. If a
+  source cannot be shown with them, stop and propose the new component to the owner.
 
 ## Product rules
 - Serve Hindi-first rural UP teachers with low digital familiarity.
@@ -13,13 +38,13 @@ Read README.md, docs/MVP_ACCEPTANCE.md, docs/QA_QC_RELEASE_CHECKLIST.md and docs
 ## Collaboration
 - One task branch and isolated git worktree per coding agent. Never edit another agent's worktree.
 - Agree file ownership before parallel tasks. app.mjs and styles.css are shared hotspots: only one agent edits each at a time.
-- Task notes belong in docs/tasks/; record goal, owned files, acceptance criteria, checks and unresolved risks.
+- Task notes belong in docs/tasks/; record goal, owned files, acceptance criteria, checks and unresolved risks. The running cross-agent state and change log is docs/HANDOFF.md.
 - An integrating agent reviews diffs and runs the complete checks before merging. Do not force-push shared branches.
 - Content changes require source comparison; app tests alone cannot prove academic correctness.
 - No credentials, signed URLs, private email or student data in commits. Preserve authorized source PDFs and checksum manifests in curricula/<pack-id>/originals; follow docs/SOURCE_ARCHIVE.md. Publish only dist/ to Pages.
 
 ## Verification
-- Node 22+: npm test and npm run check.
+- Node 22+: npm test and npm run check. `npm test` includes the design lock (`npm run design:check` runs it alone).
 - Check dist/sw.js syntax after worker changes; bump app and worker versions together for releases.
 - Test changed UI in Hindi and English at 360 and 390px, keyboard navigation and legacy deep links.
 - Test on localhost or HTTPS. Opening index.html through file:// is unsupported.
