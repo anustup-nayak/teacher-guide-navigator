@@ -138,7 +138,13 @@ geometry and page provenance, and create small source-family fixtures.
 
 ### 3. Map and review teaching content
 
-Read [content contract](references/content-contract.md). Establish explicit
+Read [content contract](references/content-contract.md). Before modelling lessons, write
+the program structure from the guide's usage, annual-objectives, weekly-cycle and
+period-outline pages: calendar (week blocks → day types), day types (purpose, plan form,
+periods, slots) and exceptions, then check every lesson against it
+([content model §1a](../../docs/CONTENT_MODEL.md)). Assessment, revision and template days
+differ in shape from teaching days and between subjects; never assume one lesson shape.
+Establish explicit
 PDF-index ↔ printed-page ↔ lesson/week/day ↔ worksheet mappings. Join workbook
 pages using printed grade/week/practice/assessment evidence, never page proximity
 or assumed uniform offsets. Separate review weeks and source weekly outlines.

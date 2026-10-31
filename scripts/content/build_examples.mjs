@@ -2,10 +2,12 @@
 // (g1-hindi-w09-d02) and one Math day (g1-math-w09-d01), each with the program, outcome,
 // routine and guide records it links to. Lesson text comes from the published v1 catalog;
 // guide passages come from the decoded front matter (run scripts/content/extract_matter.py).
-// The small hand-entered records below cite the page they were read from.
+// The small hand-entered records below cite the page they were read from. Day types and step
+// slots come from each pack's program structure (curricula/<pack>/model/structure.json).
 import fs from 'node:fs';
 import {CURRICULA} from '../../dist/curricula.mjs';
 import {lessonFromV1} from './v1_lesson.mjs';
+import {loadStructure, dayTypeFor, slotsOf} from './structure.mjs';
 
 const OUT = new URL('../../docs/content-model/examples/', import.meta.url);
 const ROOT = new URL('../../', import.meta.url);
@@ -34,18 +36,7 @@ const hindiProgram = {
   pack: 'up-hindi-2026', state: 'UP', subject: 'hindi', academicYear: '2026–27', grades: [1, 2, 3],
   documents: [{id: HG, kind: 'guide', grade: 1, title: {hi: 'आधारशिला क्रियान्वयन शिक्षक संदर्शिका कक्षा 1 (भाषा)'}, edition: '2026-27'},
     {id: HW, kind: 'workbook', grade: 1, title: {hi: 'कार्यपुस्तिका सारंगी 1'}, edition: '2023-24 print'}],
-  weeks: [{grade: 1, from: 1, to: 8, kind: 'school-readiness', provenance: stated(HG, 15)},
-    {grade: 1, from: 9, to: 25, kind: 'teaching', provenance: stated(HG, 15)},
-    {grade: 1, from: 13, to: 13, kind: 'periodic-revision', provenance: stated(HG, 7)},
-    {grade: 1, from: 20, to: 20, kind: 'periodic-revision', provenance: stated(HG, 7)}],
-  weeklyCycle: [1, 2, 3, 4].map(day => ({day, purpose: 'new-skills', provenance: stated(HG, 16)}))
-    .concat([{day: 5, purpose: 'weekly-revision', provenance: stated(HG, 16)},
-      {day: 6, purpose: 'weekly-assessment', periods: [2, 3], provenance: stated(HG, 16)}]),
-  periods: [
-    {grade: 1, number: 1, minutes: 40, role: 'teaching', focus: {hi: '‘सारंगी-1’ एवं मौखिक भाषा विकास'}, materials: [link('material:textbook-sarangi-1', 'stated'), link('material:picture-chart', 'stated')], provenance: stated(HG, 18)},
-    {grade: 1, number: 2, minutes: 40, role: 'practice', focus: {hi: 'डिकोडिंग के कौशल एवं कार्यपुस्तिका (भाग-1)'}, materials: [link('material:workbook-g1-part-1', 'stated')], provenance: stated(HG, 18)},
-    {grade: 1, number: 3, minutes: 40, role: 'support', focus: {hi: 'बिग-बुक, पठन अभ्यास, कार्यपुस्तिका (भाग-2), स्वतंत्र पठन, रिमीडियल कार्य'}, materials: [link('material:big-book', 'stated'), link('material:workbook-g1-part-2', 'stated')], provenance: stated(HG, 18)}],
-  provenance: {assertion: 'stated', review: 'unreviewed', sources: [at(HG, 15), at(HG, 16), at(HG, 18)]}
+  provenance: {assertion: 'stated', review: 'unreviewed', sources: [at(HG, 3)]}
 };
 const hindiOutcomes = {pack: 'up-hindi-2026', outcomes: [
   {id: 'H101', grade: 1, strand: 'oral-language', code: 'H101', nipun: true, statement: nipun(HW, 2, 'H101'), provenance: stated(HW, 2)},
@@ -58,12 +49,16 @@ const hindiRoutines = {pack: 'up-hindi-2026', routines: [
 const ROUTINE_BY_TITLE = {};
 for (const r of hindiRoutines.routines) for (const t of [r.name, ...(r.aliases || [])]) ROUTINE_BY_TITLE[t] = r.id;
 
+const structureOf = (pack, l) => {
+  const {dayType} = dayTypeFor(loadStructure(pack), l.grade, l.week, l.day);
+  return {dayType: dayType.id, slots: slotsOf(l, dayType)};
+};
 const hl = hindi.lessons.find(l => l.id === 'g1-hindi-w09-d02');
 const hindiLesson = lessonFromV1(hl, {
   docs: {guide: HG, workbook: HW},
   routineFor: p => ROUTINE_BY_TITLE[p.title] && link(`routine:${ROUTINE_BY_TITLE[p.title]}`, 'derived', {rule: 'step-title-matches-routine'}),
   unit: link('unit:g1-u-w09-12', 'stated', {source: at(HG, 15)}),
-  dayPurpose: 'new-skills',
+  ...structureOf('up-hindi-2026', hl),
   guideLinks: [link('section:g1/weekly-cycle', 'derived', {rule: 'every-lesson-weekly-cycle'}),
     link('section:g1/article-checking-understanding', 'stated', {source: at(HG, 20)})]
 });
@@ -95,7 +90,7 @@ const mathLesson = lessonFromV1(ml, {
   unit: link('unit:g1-u-w09-11', 'stated', {source: at(MG, 17)}),
   outcomes: [link('lo:M101.1', 'stated', {source: at(MG, 18)})],
   objectives: [link('objective:g1-w09-o1', 'derived', {rule: 'objective-matches-lesson-title'})],
-  dayPurpose: 'new-skills',
+  ...structureOf('up-math-2026', ml),
   guideLinks: [link('section:g1/weekly-overview', 'derived', {rule: 'every-lesson-weekly-cycle'})]
 });
 

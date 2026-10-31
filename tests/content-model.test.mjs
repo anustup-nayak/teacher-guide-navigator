@@ -18,14 +18,19 @@ test('schema enums are exactly the shared vocabularies', () => {
   const common = loadSchema('common').$defs;
   assert.deepEqual(common.assertion.enum, keys('assertion'));
   assert.deepEqual(common.review.enum, keys('review'));
-  const lesson = loadSchema('lesson').properties;
-  assert.deepEqual(lesson.dayPurpose.enum, keys('dayPurpose'));
   assert.deepEqual(loadSchema('routines').properties.routines.items.properties.type.enum, keys('routineType'));
   assert.deepEqual(loadSchema('materials').properties.materials.items.properties.type.enum, keys('materialType'));
   assert.deepEqual(loadSchema('assessments').properties.assessments.items.properties.type.enum, keys('assessmentType'));
-  const program = loadSchema('program').properties;
-  assert.deepEqual(program.weeks.items.properties.kind.enum, keys('weekKind'));
-  assert.deepEqual(program.periods.items.properties.role.enum, keys('periodRole'));
+  const structure = loadSchema('structure').properties, dayType = structure.dayTypes.items.properties;
+  assert.deepEqual(structure.calendar.items.properties.kind.enum, keys('weekKind'));
+  assert.deepEqual(structure.periodOutline.items.properties.role.enum, keys('periodRole'));
+  assert.deepEqual(structure.exceptions.items.properties.kind.enum, keys('exceptionKind'));
+  assert.deepEqual(dayType.purpose.enum, keys('dayPurpose'));
+  assert.deepEqual(dayType.planForm.enum, keys('planForm'));
+  assert.deepEqual(dayType.phase.enum, keys('weekPhase'));
+  assert.deepEqual(dayType.periods.items.properties.role.enum, keys('periodRole'));
+  assert.deepEqual(dayType.periods.items.properties.slots.items.properties.kind.enum, keys('routineType'));
+  assert.deepEqual(loadSchema('lesson').properties.periods.items.properties.role.enum, keys('periodRole'));
   assert.deepEqual(loadSchema('guide').properties.sections.items.properties.kind.enum, keys('sectionKind'));
 });
 
@@ -34,8 +39,8 @@ test('worked examples and section maps validate against the schemas', () => {
   for (const pack of ['up-hindi-2026', 'up-math-2026'])
     assert.deepEqual(validate('sections', read(`curricula/${pack}/model/sections.json`)), [], pack);
   const bad = structuredClone(read(EX + 'hindi/lesson-g1-hindi-w09-d02.json'));
-  bad.dayPurpose = 'holiday'; delete bad.periods[0].steps[0].provenance;
-  assert.equal(validate('lesson', bad).length, 2, 'validator reports bad enums and missing provenance');
+  bad.dayType = 'Holiday!'; delete bad.periods[0].steps[0].provenance;
+  assert.equal(validate('lesson', bad).length, 2, 'validator reports a bad day type id and missing provenance');
 });
 
 test('example lessons keep v1 ids, step ids and source text unchanged', () => {

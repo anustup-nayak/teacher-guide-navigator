@@ -13,7 +13,7 @@
    "printed": 13
   }
  },
- "dayPurpose": "new-skills",
+ "dayType": "hi-new-skills",
  "title": "‘क’ वर्ण की ध्वनि और प्रतीक को पहचानना और लिखने का अभ्यास करना",
  "outcomes": [],
  "objectives": [],
@@ -242,6 +242,9 @@
      "id": "p3-2",
      "title": "समूह-A के साथ रिमीडियल कार्य",
      "minutes": "20",
+     "slots": [
+      "remedial-group-a"
+     ],
      "routine": {
       "to": "routine:hi-remedial-group-a",
       "assertion": "derived",

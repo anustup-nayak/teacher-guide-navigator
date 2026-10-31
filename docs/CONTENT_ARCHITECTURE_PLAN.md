@@ -223,7 +223,7 @@ first. Draft the section map of each guide's front and back matter (following it
 contents page) and a first page map. Output: `curricula/<pack>/model/PROGRAM_PROFILE.md` per pack, with page references
 and open questions for the curriculum team. Gate ✋: owner/academic review of both profiles.
 
-**Phase 2 — Design the content model.** Draft: [CONTENT_MODEL.md](CONTENT_MODEL.md). Including the program guide entities (section 4a).
+**Phase 2 — Design the content model.** Draft: [CONTENT_MODEL.md](CONTENT_MODEL.md); program structure first (its §1a). Including the program guide entities (section 4a).
 Write `docs/CONTENT_MODEL.md`, the JSON Schemas,
 vocabularies (strands, routine types, material types, assessment types) and ID rules, with
 worked examples from one Hindi day and one Math day. Gate ✋: curriculum-design review —

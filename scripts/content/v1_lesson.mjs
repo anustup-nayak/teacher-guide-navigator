@@ -3,7 +3,8 @@
 // v1 phase ids become step ids so teacher data keyed on them keeps working.
 //
 // Links the v1 record cannot supply (routine, unit, outcomes, guide sections) come from the
-// caller's `links` callbacks, each returning content-model links with their own provenance.
+// caller, each with its own provenance. The day type and each step's slots come from the
+// program structure (scripts/content/structure.mjs: dayTypeFor and slotsOf).
 // Phase 2 uses this for the worked examples; Phase 3 grows it into the compiler's importer.
 
 const PAGE = /(source|workbook)\/g(\d)-p(\d{3})\.webp$/;
@@ -18,7 +19,7 @@ export function pageRef(image, docs, rect) {
 }
 
 // Hindi phases carry `period: "2 एवं 3 · label"`; Math phases carry `subtitle: "… · कालांश 2"`.
-function periodOf(phase) {
+export function periodOf(phase) {
   if (phase.period) {
     const [nums, label] = phase.period.split(' · ');
     return {number: nums.split(' एवं ').map(Number), label};
@@ -27,9 +28,9 @@ function periodOf(phase) {
   return {number: [n ? +n[1] : 1], label: null};
 }
 
-export function lessonFromV1(lesson, {docs, routineFor, unit, outcomes = [], objectives = [], dayPurpose, guideLinks = []}) {
+export function lessonFromV1(lesson, {docs, routineFor, unit, outcomes = [], objectives = [], dayType, slots = [], guideLinks = []}) {
   const periods = [];
-  for (const phase of lesson.phases) {
+  lesson.phases.forEach((phase, i) => {
     const {number, label} = periodOf(phase);
     let period = periods.find(p => p.number.join() === number.join());
     if (!period) {
@@ -38,6 +39,7 @@ export function lessonFromV1(lesson, {docs, routineFor, unit, outcomes = [], obj
     }
     const review = REVIEW[phase.extraction] || 'unreviewed';
     const step = {id: phase.id, title: phase.title, minutes: phase.minutes ?? null};
+    if (slots[i]?.slots.length) step.slots = slots[i].slots;
     const routine = routineFor(phase, lesson);
     if (routine) step.routine = routine;
     step.actions = phase.actions;
@@ -49,11 +51,11 @@ export function lessonFromV1(lesson, {docs, routineFor, unit, outcomes = [], obj
     if (source) step.source = source;
     step.provenance = {assertion: 'stated', review};
     period.steps.push(step);
-  }
+  });
   const source = pageRef(lesson.source.image, docs);
   return {
     id: lesson.id, grade: lesson.grade, week: lesson.week, day: lesson.day,
-    ...(unit ? {unit} : {}), dayPurpose, title: lesson.title, outcomes, objectives, periods,
+    ...(unit ? {unit} : {}), dayType, title: lesson.title, outcomes, objectives, periods,
     assessment: [], guideLinks, source,
     v1: {structure: lesson.structure, phaseIds: lesson.phases.map(p => p.id)},
     provenance: {assertion: 'stated', review: lesson.contentStatus === 'source-compared' ? 'source-compared' : 'unreviewed', sources: [source]}
