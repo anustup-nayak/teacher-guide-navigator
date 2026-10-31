@@ -1,0 +1,99 @@
+{
+ "$id": "sections.schema.json",
+ "type": "object",
+ "required": [
+  "pack",
+  "printedOffset",
+  "provenance",
+  "guides"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "pack": {
+   "$ref": "common.schema.json#/$defs/slug"
+  },
+  "printedOffset": {
+   "type": "integer"
+  },
+  "provenance": {
+   "type": "string"
+  },
+  "guides": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "required": [
+     "document",
+     "pages",
+     "sections"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "document": {
+      "type": "string"
+     },
+     "pages": {
+      "type": "integer"
+     },
+     "contentsAnomalies": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "sections": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "id",
+        "kind",
+        "title",
+        "pdf",
+        "source"
+       ],
+       "additionalProperties": false,
+       "properties": {
+        "id": {
+         "$ref": "common.schema.json#/$defs/slug"
+        },
+        "kind": {
+         "enum": [
+          "admin",
+          "program",
+          "article",
+          "plans",
+          "routines",
+          "assessment",
+          "resources",
+          "tracker"
+         ]
+        },
+        "title": {
+         "$ref": "common.schema.json#/$defs/text"
+        },
+        "pdf": {
+         "type": "array",
+         "items": {
+          "type": "integer"
+         },
+         "minItems": 2
+        },
+        "source": {
+         "enum": [
+          "contents",
+          "observed"
+         ]
+        },
+        "note": {
+         "type": "string"
+        }
+       }
+      },
+      "minItems": 1
+     }
+    }
+   }
+  }
+ }
+}

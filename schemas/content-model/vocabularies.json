@@ -1,0 +1,95 @@
+{
+ "$comment": "Controlled vocabularies shared by every pack. Add a value only with a CONTENT_MODEL.md entry explaining it; never rename one (IDs and compiled bundles depend on them).",
+ "assertion": {
+  "stated": "printed in the source at the cited page",
+  "derived": "follows from stated facts by a named rule (rule id required)",
+  "editorial": "written by the project (summaries, labels); never shown as source text"
+ },
+ "review": {
+  "unreviewed": "machine-extracted or drafted; not checked",
+  "source-compared": "checked against the page image by the project",
+  "reviewed": "approved by a reviewer with curriculum authority"
+ },
+ "strand": {
+  "oral-language": "मौखिक भाषा / Oral language",
+  "reading": "पढ़ना / Reading",
+  "writing": "लेखन / Writing",
+  "decoding": "डिकोडिंग / Decoding (Hindi four-block model; not a NIPUN strand)",
+  "number": "संख्या / Number",
+  "operations": "संक्रियाएँ / Operations",
+  "shapes-space": "आकृतियाँ और स्थानिक समझ / Shapes and space",
+  "measurement": "मापन / Measurement",
+  "data-patterns": "पैटर्न और आँकड़े / Patterns and data"
+ },
+ "dayPurpose": {
+  "new-skills": "नई दक्षताओं का शिक्षण",
+  "weekly-revision": "साप्ताहिक पुनरावृत्ति",
+  "weekly-assessment": "साप्ताहिक आकलन",
+  "consolidation": "समेकन",
+  "open": "teacher's choice (e.g. Math day 4 period 3)"
+ },
+ "weekKind": {
+  "teaching": "regular teaching week",
+  "periodic-revision": "सावधिक पुनरावृत्ति (weeks 13 and 20)",
+  "school-readiness": "विद्या प्रवेश / school readiness (Hindi G1 weeks 1–8)",
+  "class-review": "previous-class review weeks (Math G2/G3)"
+ },
+ "periodRole": {
+  "teaching": "teaching period (Hindi period 1; Math instruction)",
+  "practice": "practice / workbook period",
+  "support": "reading practice, remediation and support"
+ },
+ "routineType": {
+  "oral-language": "talk, picture chart, experience, poem, story poster",
+  "sel": "social and emotional learning activity",
+  "game": "oral-language, decoding or math game",
+  "decoding": "letter, akshar, matra, blending, word and sentence reading, grids",
+  "reading": "model, shared, logographic, independent, fluent reading",
+  "writing": "emergent, dictation, related and expressive writing",
+  "instruction": "Math शिक्षण योजना: conversation and GRR (I do / we do / you do)",
+  "practice": "workbook अभ्यास / worksheet",
+  "procedural-fluency": "प्रक्रियात्मक प्रवाह short questions",
+  "explore": "खोजें और जानें (application, homework)",
+  "consolidation": "समेकन शिक्षण योजना",
+  "revision": "weekly or periodic revision",
+  "assessment": "मैंने सीख लिया and other assessments",
+  "remediation": "रिमीडियल कार्य with group A"
+ },
+ "materialType": {
+  "textbook": "पाठ्यपुस्तक",
+  "workbook": "कार्यपुस्तिका (part 1 / part 2)",
+  "teacher-guide": "शिक्षक संदर्शिका",
+  "picture-chart": "चित्र चार्ट",
+  "poster": "कविता / कहानी / चित्र कहानी / गणित पोस्टर",
+  "big-book": "बिग बुक",
+  "library-book": "पुस्तकालय की किताबें",
+  "grid": "ग्रिड",
+  "kit": "गणित किट / गणित बोर्ड",
+  "picture-story-book": "गणित चित्र कहानी पुस्तक",
+  "local": "स्वयं निर्मित / परिवेशीय सामग्री"
+ },
+ "assessmentType": {
+  "checking-understanding": "समझ की जाँच (during teaching)",
+  "weekly": "साप्ताहिक आकलन ‘मैंने सीख लिया’",
+  "periodic": "सावधिक पुनरावृत्ति / आकलन",
+  "oral-language-observation": "मौखिक भाषा विकास का अवलोकन",
+  "fluency": "प्रवाहपूर्ण पठन (words per minute, levels)"
+ },
+ "sectionKind": {
+  "admin": "cover, credits, contents, anthem: shown only as original pages",
+  "program": "program-level guidance (goals, year map, cycle, periods, materials, usage)",
+  "article": "teacher article (approach)",
+  "plans": "daily lesson plans",
+  "routines": "activity guide by period",
+  "assessment": "assessment and remediation",
+  "resources": "stories, poems, grids, sample questions, kit",
+  "tracker": "trackers to fill"
+ },
+ "programGuideArea": {
+  "at-a-glance": "कार्यक्रम एक नज़र में",
+  "how-we-teach": "पढ़ाने का तरीका",
+  "activity-guide": "गतिविधियों की गाइड",
+  "assessment-support": "आकलन और सहायता",
+  "resources": "संसाधन"
+ }
+}

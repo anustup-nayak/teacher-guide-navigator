@@ -1,0 +1,129 @@
+{
+ "$id": "guide.schema.json",
+ "type": "object",
+ "required": [
+  "pack",
+  "grade",
+  "sections"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "pack": {
+   "$ref": "common.schema.json#/$defs/slug"
+  },
+  "grade": {
+   "$ref": "common.schema.json#/$defs/grade"
+  },
+  "sections": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "kind",
+     "area",
+     "title",
+     "pdf",
+     "passages",
+     "provenance"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "kind": {
+      "enum": [
+       "admin",
+       "program",
+       "article",
+       "plans",
+       "routines",
+       "assessment",
+       "resources",
+       "tracker"
+      ]
+     },
+     "area": {
+      "enum": [
+       "at-a-glance",
+       "how-we-teach",
+       "activity-guide",
+       "assessment-support",
+       "resources",
+       "none"
+      ]
+     },
+     "title": {
+      "$ref": "common.schema.json#/$defs/text"
+     },
+     "pdf": {
+      "type": "array",
+      "items": {
+       "type": "integer"
+      },
+      "minItems": 2
+     },
+     "passages": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "id",
+        "order",
+        "sourceText",
+        "provenance"
+       ],
+       "additionalProperties": false,
+       "properties": {
+        "id": {
+         "type": "string"
+        },
+        "order": {
+         "type": "integer"
+        },
+        "heading": {
+         "$ref": "common.schema.json#/$defs/text"
+        },
+        "sourceText": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/text"
+         },
+         "minItems": 1
+        },
+        "summary": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/text"
+         }
+        },
+        "classroomActions": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/text"
+         }
+        },
+        "source": {
+         "$ref": "common.schema.json#/$defs/sourceRef"
+        },
+        "provenance": {
+         "$ref": "common.schema.json#/$defs/provenance"
+        }
+       }
+      }
+     },
+     "links": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/link"
+      }
+     },
+     "provenance": {
+      "$ref": "common.schema.json#/$defs/provenance"
+     }
+    }
+   }
+  }
+ }
+}

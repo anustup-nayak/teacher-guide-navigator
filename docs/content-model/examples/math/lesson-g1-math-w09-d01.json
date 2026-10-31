@@ -1,0 +1,323 @@
+{
+ "id": "g1-math-w09-d01",
+ "grade": 1,
+ "week": 9,
+ "day": 1,
+ "unit": {
+  "to": "unit:g1-u-w09-11",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "guide-g1-167f09e3bf58",
+   "pdf": 17,
+   "printed": 15
+  }
+ },
+ "dayPurpose": "new-skills",
+ "title": "दूर-पास और ऊपर-नीचे की अवधारणा को समझना",
+ "outcomes": [
+  {
+   "to": "lo:M101.1",
+   "assertion": "stated",
+   "review": "unreviewed",
+   "source": {
+    "doc": "guide-g1-167f09e3bf58",
+    "pdf": 18,
+    "printed": 16
+   }
+  }
+ ],
+ "objectives": [
+  {
+   "to": "objective:g1-w09-o1",
+   "assertion": "derived",
+   "review": "unreviewed",
+   "rule": "objective-matches-lesson-title"
+  }
+ ],
+ "periods": [
+  {
+   "number": [
+    1
+   ],
+   "steps": [
+    {
+     "id": "conversation",
+     "title": "बातचीत",
+     "minutes": 10,
+     "routine": {
+      "to": "routine:math-conversation",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "v1-phase-id-to-routine"
+     },
+     "actions": [
+      "पाठ्यपुस्तक के पृष्ठ 1 और 2 पर दी गई कविता “मेरी प्यारी बिल्ली ढूँढो” बच्चों से हाव-भाव के साथ वाचन करवाएँ।",
+      "आप सभी जमीन के ऊपर बैठे हैं या नीचे?",
+      "आपका दोस्त आपके पास बैठा है या दूर?",
+      "किताब में पहले चित्र को देखकर बताएँ कि घर की छत पर क्या दिख रहा है?"
+     ],
+     "questions": [
+      "आप सभी जमीन के ऊपर बैठे हैं या नीचे?",
+      "आपका दोस्त आपके पास बैठा है या दूर?",
+      "किताब में पहले चित्र को देखकर बताएँ कि घर की छत पर क्या दिख रहा है?"
+     ],
+     "source": {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 18,
+      "printed": 16,
+      "rect": [
+       0.05,
+       0.2143392176606028,
+       0.95,
+       0.31643096472587745
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "source-compared"
+     }
+    },
+    {
+     "id": "i-do",
+     "title": "I do",
+     "minutes": 7,
+     "routine": {
+      "to": "routine:math-grr",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "v1-phase-id-to-routine"
+     },
+     "actions": [
+      "मेज के पास एक कुर्सी रखें और उसी दिशा में थोड़ी दूर पर एक बैग रखें।",
+      "समझाएँ कि कुर्सी मेज के पास है और बैग मेज से दूर है।",
+      "आपके पास क्या है—मेज या बोर्ड?",
+      "आपसे दूर कौन है—मैं या दरवाजा?",
+      "मेज पर एक किताब और मेज के नीचे एक बोतल रखें। समझाएँ कि किताब ऊपर है और बोतल नीचे है।",
+      "पंखा कहाँ है—मेज के ऊपर या नीचे?",
+      "बोर्ड और पंखे में कौन ऊपर है और कौन नीचे? क्यों?"
+     ],
+     "questions": [
+      "आपके पास क्या है—मेज या बोर्ड?",
+      "आपसे दूर कौन है—मैं या दरवाजा?",
+      "पंखा कहाँ है—मेज के ऊपर या नीचे?",
+      "बोर्ड और पंखे में कौन ऊपर है और कौन नीचे? क्यों?"
+     ],
+     "source": {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 18,
+      "printed": 16,
+      "rect": [
+       0.05,
+       0.31643096472587745,
+       0.95,
+       0.46021462944084535
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "source-compared"
+     }
+    },
+    {
+     "id": "we-do",
+     "title": "We do",
+     "minutes": 13,
+     "routine": {
+      "to": "routine:math-grr",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "v1-phase-id-to-routine"
+     },
+     "actions": [
+      "तीन-तीन बच्चों के समूह बनाएँ। एक बच्चा दूर-पास और ऊपर-नीचे की शब्दावली का प्रयोग करके निर्देश देगा।",
+      "बाकी बच्चे निर्देशों का पालन करें: “पेंसिल मेज के ऊपर रखो”, “बैग कुर्सी के पास रखो”।",
+      "पाँच बार अभ्यास करने के बाद बच्चे भूमिकाएँ बदल लें।",
+      "खिड़की दरवाजे के पास है या दूर?",
+      "मेज के नीचे क्या रखा है?"
+     ],
+     "questions": [
+      "खिड़की दरवाजे के पास है या दूर?",
+      "मेज के नीचे क्या रखा है?"
+     ],
+     "source": {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 18,
+      "printed": 16,
+      "rect": [
+       0.05,
+       0.46021462944084535,
+       0.95,
+       0.5772727059188304
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "source-compared"
+     }
+    },
+    {
+     "id": "you-do",
+     "title": "You do",
+     "minutes": 10,
+     "routine": {
+      "to": "routine:math-grr",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "v1-phase-id-to-routine"
+     },
+     "actions": [
+      "पेड़ और उसके ऊपर-नीचे, दूर-पास जानवरों वाला पोस्टर बोर्ड पर लगाएँ।",
+      "बच्चों के दो समूह बनाएँ। एक समूह सवाल करे, दूसरा उत्तर दे।",
+      "पेड़ के पास कौन-कौन से जानवर हैं?",
+      "पेड़ के नीचे कौन-कौन से जानवर हैं? क्यों?",
+      "क्या 70% बच्चों ने प्रश्नों का सही उत्तर दिया? मदद की जरूरत वाले बच्चों को पहचानें।"
+     ],
+     "questions": [
+      "पेड़ के पास कौन-कौन से जानवर हैं?",
+      "पेड़ के नीचे कौन-कौन से जानवर हैं? क्यों?"
+     ],
+     "source": {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 18,
+      "printed": 16,
+      "rect": [
+       0.05,
+       0.5772727059188304,
+       0.95,
+       0.728005023575414
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "source-compared"
+     }
+    }
+   ]
+  },
+  {
+   "number": [
+    2
+   ],
+   "steps": [
+    {
+     "id": "practice",
+     "title": "अभ्यास",
+     "minutes": 40,
+     "routine": {
+      "to": "routine:math-practice",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "v1-phase-id-to-routine"
+     },
+     "actions": [
+      "बच्चों को नीचे दिया इसी सप्ताह और अभ्यास क्रमांक का कार्यपत्रक दें।",
+      "हर प्रश्न का एक उदाहरण संख्या या वस्तु बदलकर बोर्ड पर समझाएँ, फिर बच्चों को स्वतंत्र काम करने दें।",
+      "बच्चों के काम को देखें। जहाँ गलती हो, उसी उदाहरण को वस्तुओं या चित्रों से फिर समझाएँ।"
+     ],
+     "workbook": [
+      {
+       "to": "workbook:workbook-g1-87d1e0f42ce2/p9",
+       "assertion": "stated",
+       "review": "unreviewed",
+       "source": {
+        "doc": "guide-g1-167f09e3bf58",
+        "pdf": 18,
+        "printed": 16
+       }
+      }
+     ],
+     "source": {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 18,
+      "printed": 16,
+      "rect": [
+       0.05,
+       0.728005023575414,
+       0.95,
+       0.764005023575414
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "unreviewed"
+     }
+    }
+   ]
+  },
+  {
+   "number": [
+    3
+   ],
+   "steps": [
+    {
+     "id": "support",
+     "title": "खेल और रिमीडियल",
+     "minutes": 40,
+     "routine": {
+      "to": "routine:math-game-support",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "v1-phase-id-to-routine"
+     },
+     "actions": [
+      "गणित खेल: पाठ्यपुस्तक पृष्ठ 3 देखें। दो समूह बनाकर दूर/पास, ऊपर/नीचे के निर्देश दें; जैसे बोर्ड के पास छिपी सफेद वस्तु ढूँढ़ना।",
+      "70% से कम: मदद वाले समूह के साथ आज की “हम करें” गतिविधि दोबारा करवाएँ और सक्रिय सहयोग दें।",
+      "70% से अधिक: दूर, पास, ऊपर और नीचे पर मूल उदाहरण जैसे 8–9 नए प्रश्न बनाकर नोटबुक में हल करने दें।"
+     ],
+     "source": {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 18,
+      "printed": 16,
+      "rect": [
+       0.05,
+       0.763005023575414,
+       0.95,
+       0.96
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "source-compared"
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": [],
+ "guideLinks": [
+  {
+   "to": "section:g1/weekly-overview",
+   "assertion": "derived",
+   "review": "unreviewed",
+   "rule": "every-lesson-weekly-cycle"
+  }
+ ],
+ "source": {
+  "doc": "guide-g1-167f09e3bf58",
+  "pdf": 18,
+  "printed": 16
+ },
+ "v1": {
+  "structure": "source-grr",
+  "phaseIds": [
+   "conversation",
+   "i-do",
+   "we-do",
+   "you-do",
+   "practice",
+   "support"
+  ]
+ },
+ "provenance": {
+  "assertion": "stated",
+  "review": "source-compared",
+  "sources": [
+   {
+    "doc": "guide-g1-167f09e3bf58",
+    "pdf": 18,
+    "printed": 16
+   }
+  ]
+ }
+}

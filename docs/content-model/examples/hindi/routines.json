@@ -1,0 +1,80 @@
+{
+ "pack": "up-hindi-2026",
+ "routines": [
+  {
+   "id": "hi-picture-chart",
+   "type": "oral-language",
+   "name": "चित्र चार्ट",
+   "aliases": [
+    "चित्र चार्ट पर शिक्षक द्वारा चर्चा",
+    "चित्र चार्ट पर समृद्ध चर्चा",
+    "लेखन कार्य"
+   ],
+   "grades": [
+    1
+   ],
+   "period": 1,
+   "section": "g1/routines-period-1",
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 111,
+      "printed": 109
+     }
+    ]
+   }
+  },
+  {
+   "id": "hi-big-book",
+   "type": "reading",
+   "name": "बिग बुक पर कार्य",
+   "aliases": [
+    "आदर्श वाचन और लोगोग्राफिक पठन",
+    "साझा पठन और लोगोग्राफिक पठन"
+   ],
+   "grades": [
+    1
+   ],
+   "period": 3,
+   "section": "g1/routines-period-3",
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 131,
+      "printed": 129
+     }
+    ]
+   }
+  },
+  {
+   "id": "hi-remedial-group-a",
+   "type": "remediation",
+   "name": "समूह-A के साथ रिमीडियल कार्य",
+   "grades": [
+    1,
+    2,
+    3
+   ],
+   "period": 3,
+   "minutes": "20",
+   "section": "g1/remedial-strategy",
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 135,
+      "printed": 133
+     }
+    ]
+   }
+  }
+ ]
+}
