@@ -63,7 +63,8 @@ npm run verify:content
 
 Use preflight's `--require-program` alongside existing source/review flags for
 new source work. The Node gate validates the full schema, exact metadata pointers,
-nine unique dimensions, nonempty rationale, available document/page references,
+nine unique dimensions, evidence covering every program grade, nonempty rationale,
+available document/page references,
 profile and blocking questions. Compiler validation also checks the actual
 calendar/day types and all model relationships; a prose checklist cannot replace it.
 

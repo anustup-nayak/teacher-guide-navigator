@@ -47,3 +47,16 @@ intake understands the whole guide before lessons. Folder ownership and raw → 
 The first complete preservation scan took about 16 minutes in the fresh worktree;
 after asset reads completed, the final full Node run took 4.2 seconds.
 No browser UI was changed; no live deployment or v2 cutover is part of this task.
+
+Program metadata also requires source evidence covering every declared program
+grade, so extending an existing pack cannot silently reuse metadata with no
+understanding evidence for the new grade. Added to the negative gate regression.
+
+## Integration and completion
+
+[PR #17](https://github.com/anustup-nayak/teacher-guide-navigator/pull/17) targets
+next and depends on open compiler PR #16. All local gates pass; final PR head CI
+must pass before integration. No merge or production deployment performed. Core
+skill, metadata schema/gate, compiler/query and canonical documentation describe
+the same structure. Remaining academic and physical-device/teacher checks are
+unchanged and are not claimed as completed here.

@@ -18,7 +18,7 @@ for(const pack of packs)test(`${pack}: full program understanding is metadata, e
 });
 test('metadata readiness blocks missing structure, uninspected dimensions, empty evidence and unresolved blocking questions',()=>{
  const base=loadPack(packs[0]);
- for(const edit of [d=>delete d.program.structure,d=>d.understanding.status='not-started',d=>d.understanding.dimensions.pop(),d=>d.understanding.dimensions.push(d.understanding.dimensions[0]),d=>d.understanding.dimensions[0].status='not-inspected',d=>d.understanding.dimensions[0].sourceRefs=[],d=>d.understanding.dimensions[0].sourceRefs[0].pdf=9999,d=>d.understanding.questions[0].blocking=true,d=>d.profileText='']){
+ for(const edit of [d=>delete d.program.structure,d=>d.program.grades.push(4),d=>d.understanding.status='not-started',d=>d.understanding.dimensions.pop(),d=>d.understanding.dimensions.push(d.understanding.dimensions[0]),d=>d.understanding.dimensions[0].status='not-inspected',d=>d.understanding.dimensions[0].sourceRefs=[],d=>d.understanding.dimensions[0].sourceRefs[0].pdf=9999,d=>d.understanding.questions[0].blocking=true,d=>d.profileText='']){
   const d=structuredClone(base);edit(d);assert(validateProgramMetadata(d).length);assert.throws(()=>buildRelease(d,{version:'1.1.0'}));
  }
 });

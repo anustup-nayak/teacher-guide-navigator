@@ -15,6 +15,9 @@ export function validateProgramMetadata(data){
   if(!data.profileText?.trim())errors.push('Program profile is empty');
   const pages=new Set((data.assets||[]).map(a=>`${a.source.doc}:${a.source.pdf}`));
   for(const ref of [...u.dimensions.flatMap(d=>d.sourceRefs),...u.questions.flatMap(q=>q.sourceRefs)])if(!data.program.documents.some(d=>d.id===ref.doc)||!pages.has(`${ref.doc}:${ref.pdf}`))errors.push('Program understanding cites an unavailable document/page');
+  const documentGrades=new Map(data.program.documents.map(d=>[d.id,d.grade]));
+  const understoodGrades=new Set(u.dimensions.flatMap(d=>d.sourceRefs.map(ref=>documentGrades.get(ref.doc))));
+  for(const grade of data.program.grades)if(!understoodGrades.has(grade))errors.push(`Grade ${grade}: program understanding needs source evidence for this grade`);
   const ids=u.dimensions.map(d=>d.id);
   if(new Set(ids).size!==ids.length||DIMENSIONS.some(id=>!ids.includes(id)))errors.push('Every program-understanding dimension must appear exactly once');
   for(const d of u.dimensions){

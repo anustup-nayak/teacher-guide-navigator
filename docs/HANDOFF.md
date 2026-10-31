@@ -57,7 +57,8 @@ v2 integration remains on `next`. No v2 runtime or content endpoint was deployed
    (owner's ontology decisions) merged as `7c9556a` while the compiler handoff was
    being finalized. [PR #16](https://github.com/anustup-nayak/teacher-guide-navigator/pull/16)
    is synced with that `next` head; review/merge #16 next. Implementation checks passed
-   on its final head. Then integrate the program-metadata-layout task (dependent on #16).
+   on its final head. Then integrate [PR #17](https://github.com/anustup-nayak/teacher-guide-navigator/pull/17)
+   (program metadata and layout; dependent on #16).
    See [metadata task evidence](tasks/program-metadata-layout.md).
 2. **Phase 3 is implemented:** [compiler contract](CONTENT_COMPILER.md),
    [task evidence](tasks/content-compiler.md). Both v1 catalogs reconstruct byte for byte
@@ -83,7 +84,6 @@ old exhaustive live-QA task in this session; earlier r56 evidence is not current
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Codex | `task/program-metadata-layout` (isolated; builds on PR #16) | program-understanding metadata/schema/gates, pack tooling layout, core skill/templates, canonical folder docs and tests | in progress | User requested ontology-aligned cleanup and program understanding as core metadata. Implemented metadata/schema/gates, two 1.1.0 snapshots, isolated legacy tooling and program-first skill/docs. Python ingestion 16/16 and skill helpers 5/5 pass. All local gates PASS: Node 116, ingestion 16, helper 5, 13 source PDFs, both compiler/parity and publication/design preservation. Review fix included. Next: push final query fix, PR and GitHub CI. |
 | Claude Code | `task/ontology-decisions` (from `next`) | `docs/CONTENT_MODEL.md` §3/§6, `schemas/content-model/{vocabularies,common,outcomes}`, `curricula/*/model/structure.json`, `scripts/content/build_examples.mjs`, examples, profiles | Merged as PR #15 | Owner decided all 7 open points; ontology is v1.0 release candidate. Next: Phase 3 compiler (byte-for-byte v1 parity) freezes v1.0. |
 | Claude Code | `task/content-platform` (from `next`) | `docs/CONTENT_PLATFORM.md`; links in `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/ARCHITECTURE.md`, `docs/PRD.md` | Merged as PR #12 (`9ce00b1`) | Owner: build only the website now; design the content repository so other products can come later. Next: Phase 3 builds the website's content release and query library. |
 | Claude Code | `task/lesson-link-pack` (from `main`) | `dist/domain/selection.mjs`, `dist/app.mjs` (render), `tests/hindi-pack.test.mjs`, r61 bumps, `docs/ARCHITECTURE.md` | Merged as PR #14 (`49f873c`); live r61, tag `v1.0.4` | Done, and branches synced. Left: lazy subject loading. |
@@ -96,6 +96,26 @@ old exhaustive live-QA task in this session; earlier r56 evidence is not current
 | Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
 
 ## Change log
+
+### 2026-10-31 · Codex · `task/program-metadata-layout` ([PR #17](https://github.com/anustup-nayak/teacher-guide-navigator/pull/17) to `next`)
+
+- Required whole-program metadata: nine evidence-backed dimensions, per-grade
+  source coverage, explicit readiness/review/questions and pack/program/release
+  pointers. New-pack scaffolds cannot pass until inspected and documented.
+- Additive 1.1.0 releases snapshot profiles, understanding and section/page maps;
+  shared query accessor preserves calendars and hides unapproved editorial/link
+  assertions. Existing 1.0.0 releases and all 732 v1 lessons remain unchanged.
+- Isolated historical Math tooling under its pack, preserved shared font decoder
+  and Hindi integration. Reworked core skill/templates and canonical folder,
+  program-metadata, product/architecture/compiler/agent documentation together.
+- Local checks PASS: Node 116, ingestion 16, skill helpers 5, both strict pack
+  preflights, complete 13-PDF archive, both compiler/parity gates, publication
+  preservation (1,962 page assets), design lock, module/worker/tool syntax,
+  skill validation and diff checks. GitHub CI runs on the final PR head; consult
+  PR checks before merging. No live UI/deploy, baseline, IDs or namespace changes.
+- Review/merge #16 before #17. Full LO/sequence/routine/material/assessment/guide
+  authoring remains Phases 4–5; existing profiles remain editorial/unreviewed.
+  Details: [task note](tasks/program-metadata-layout.md).
 
 ### 2026-10-31 · Codex · `task/content-compiler` ([PR #16](https://github.com/anustup-nayak/teacher-guide-navigator/pull/16) to `next`)
 
