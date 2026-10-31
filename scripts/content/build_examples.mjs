@@ -39,12 +39,17 @@ const hindiProgram = {
   provenance: {assertion: 'stated', review: 'unreviewed', sources: [at(HG, 3)]}
 };
 const hindiOutcomes = {pack: 'up-hindi-2026', outcomes: [
-  {id: 'H101', grade: 1, strand: 'oral-language', code: 'H101', nipun: true, statement: nipun(HW, 2, 'H101'), provenance: stated(HW, 2)},
-  {id: 'H104.2', grade: 1, strand: 'oral-language', code: 'H104.2', parent: 'H104', nipun: true, statement: nipun(HW, 2, 'H104.2'), provenance: stated(HW, 2)},
-  {id: 'g1-oral-language-1', grade: 1, strand: 'oral-language', code: null, nipun: true, statement: 'अपनी आवश्यकताओं, परिचित व्यक्तियों एवं परिवेश के बारे में मित्रों, कक्षा शिक्षकों के साथ बातचीत करना और प्रश्न करना।', provenance: {...stated(HG, 2), note: 'guide list (uncoded); which list is authoritative is an open question'}}]};
+  // Owner decision (31 Oct 2026): the guide's own list is primary for linking; the workbook's
+  // coded list is kept alongside and joined only by reviewed crosswalk (`equivalent`) links.
+  {id: 'g1-oral-language-1', grade: 1, list: 'guide', strand: 'oral-language', code: null, nipun: true, statement: 'अपनी आवश्यकताओं, परिचित व्यक्तियों एवं परिवेश के बारे में मित्रों, कक्षा शिक्षकों के साथ बातचीत करना और प्रश्न करना।',
+    equivalent: [link('lo:H101', 'editorial')], provenance: {...stated(HG, 2), note: 'guide list (uncoded), primary; crosswalk to H101 is a project proposal awaiting review'}},
+  {id: 'H101', grade: 1, list: 'workbook', strand: 'oral-language', code: 'H101', nipun: true, statement: nipun(HW, 2, 'H101'), provenance: stated(HW, 2)},
+  {id: 'H104.2', grade: 1, list: 'workbook', strand: 'oral-language', code: 'H104.2', parent: 'H104', nipun: true, statement: nipun(HW, 2, 'H104.2'), provenance: stated(HW, 2)}]};
 const hindiRoutines = {pack: 'up-hindi-2026', routines: [
   {id: 'hi-picture-chart', type: 'oral-language', name: 'चित्र चार्ट', aliases: ['चित्र चार्ट पर शिक्षक द्वारा चर्चा', 'चित्र चार्ट पर समृद्ध चर्चा', 'लेखन कार्य'], grades: [1], period: 1, section: 'g1/routines-period-1', provenance: stated(HG, 111)},
   {id: 'hi-big-book', type: 'reading', name: 'बिग बुक पर कार्य', aliases: ['आदर्श वाचन और लोगोग्राफिक पठन', 'साझा पठन और लोगोग्राफिक पठन'], grades: [1], period: 3, section: 'g1/routines-period-3', provenance: stated(HG, 131)},
+  // Owner decision (31 Oct 2026): generic workbook steps share one practice routine.
+  {id: 'hi-workbook-practice', type: 'practice', name: 'कार्यपुस्तिका (भाग-1) पर कार्य', aliases: ['कार्यपुस्तिका पर कार्य', 'गतिविधियों की संकल्पना पर कार्य'], grades: [1, 2, 3], period: 2, section: 'g1/period-outline', provenance: stated(HG, 18)},
   {id: 'hi-remedial-group-a', type: 'remediation', name: 'समूह-A के साथ रिमीडियल कार्य', grades: [1, 2, 3], period: 3, minutes: '20', section: 'g1/remedial-strategy', provenance: stated(HG, 135)}]};
 const ROUTINE_BY_TITLE = {};
 for (const r of hindiRoutines.routines) for (const t of [r.name, ...(r.aliases || [])]) ROUTINE_BY_TITLE[t] = r.id;
@@ -56,7 +61,8 @@ const structureOf = (pack, l) => {
 const hl = hindi.lessons.find(l => l.id === 'g1-hindi-w09-d02');
 const hindiLesson = lessonFromV1(hl, {
   docs: {guide: HG, workbook: HW},
-  routineFor: p => ROUTINE_BY_TITLE[p.title] && link(`routine:${ROUTINE_BY_TITLE[p.title]}`, 'derived', {rule: 'step-title-matches-routine'}),
+  routineFor: p => ROUTINE_BY_TITLE[p.title] ? link(`routine:${ROUTINE_BY_TITLE[p.title]}`, 'derived', {rule: 'step-title-matches-routine'})
+    : /^गतिविधि[-\s]?\d/.test(p.title) && p.period?.startsWith('2') ? link('routine:hi-workbook-practice', 'derived', {rule: 'workbook-activity-title'}) : undefined,
   unit: link('unit:g1-u-w09-12', 'stated', {source: at(HG, 15)}),
   ...structureOf('up-hindi-2026', hl),
   guideLinks: [link('section:g1/weekly-cycle', 'derived', {rule: 'every-lesson-weekly-cycle'}),
@@ -75,7 +81,8 @@ const hindiGuide = {pack: 'up-hindi-2026', grade: 1, sections: [{
 
 // ---- Math --------------------------------------------------------------------------------
 const mathOutcomes = {pack: 'up-math-2026',
-  outcomes: [{id: 'M101.1', grade: 1, strand: 'shapes-space', code: 'M101.1', nipun: true, statement: math.lessons.find(l => l.loCode === 'M101.1').loStatement, provenance: {...stated(MG, 2, 'source-compared'), note: 'statement as published in v1 (source-compared); strand is the project’s unreviewed proposal'}}],
+  // Owner decision (31 Oct 2026): Math outcomes group by printed code family, not strand names.
+  outcomes: [{id: 'M101.1', grade: 1, family: 'M101', code: 'M101.1', parent: 'M101', nipun: true, statement: math.lessons.find(l => l.loCode === 'M101.1').loStatement, provenance: {...stated(MG, 2, 'source-compared'), note: 'statement as published in v1 (source-compared)'}}],
   objectives: [{id: 'g1-w09-o1', grade: 1, week: 9, statement: 'दूर-पास और ऊपर-नीचे की अवधारणा को समझना', outcomes: [link('lo:M101.1', 'stated', {source: at(MG, 8)})], provenance: stated(MG, 8)}]};
 const mathRoutines = {pack: 'up-math-2026', routines: [
   {id: 'math-conversation', type: 'instruction', name: 'गणितीय बातचीत', grades: [1, 2, 3], period: 1, section: 'g1/teaching-process', provenance: stated(MG, 18)},

@@ -39,3 +39,7 @@ stated link from worksheet to plan type (अभ्यास, प्रक्र�
 2. G3 weekly tracker (pdf 4) prints 2025-2026 and its credits differ from G1/G2; current edition?
 3. Weekly objectives are numbered per week, not coded; agree an ID rule (e.g. `g1-w09-o1`).
 4. Unit-opener pages (pagemap `planPagesWithoutLesson`) carry unit goals; model them as units?
+
+**Decisions (owner, 31 Oct 2026):** outcomes grouped by printed code family (M101…), no strand
+names; weeks 1–8 of G1 recorded as school readiness; day types accepted. See
+[CONTENT_MODEL.md §6](../../../docs/CONTENT_MODEL.md).

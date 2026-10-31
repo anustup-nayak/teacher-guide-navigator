@@ -8,7 +8,8 @@
  "review": {
   "unreviewed": "machine-extracted or drafted; not checked",
   "source-compared": "checked against the page image by the project",
-  "reviewed": "approved by a reviewer with curriculum authority"
+  "reviewed": "approved by a reviewer with curriculum authority",
+  "owner-approved": "approved by the product owner (31 Oct 2026 decision); not an academic review"
  },
  "strand": {
   "oral-language": "मौखिक भाषा / Oral language",
@@ -20,6 +21,10 @@
   "shapes-space": "आकृतियाँ और स्थानिक समझ / Shapes and space",
   "measurement": "मापन / Measurement",
   "data-patterns": "पैटर्न और आँकड़े / Patterns and data"
+ },
+ "outcomeList": {
+  "guide": "the 2026–27 Teacher Guide’s own list (primary for linking)",
+  "workbook": "the workbook’s coded NIPUN list (H101…); kept alongside, joined only by reviewed crosswalk links"
  },
  "dayPurpose": {
   "new-skills": "नई दक्षताओं का शिक्षण",

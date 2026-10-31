@@ -297,8 +297,8 @@ rollback path for a term. Gate ✋: owner go-live decision.
 ## 9. Decisions needed from the owner before Phase 0
 
 1. ~~Preview hosting~~ **Decided 31 Oct 2026: separate origin on a second GitHub Pages site** (see Phase 0).
-2. LO linking: allow reviewed `derived` links, or only links printed in the guide?
-3. Who reviews the program profiles and content model (✋ gates)?
+2. ~~LO linking~~ **Decided 31 Oct 2026: reviewed `derived` links allowed** ([CONTENT_MODEL.md §6](CONTENT_MODEL.md)).
+3. ~~Reviewer~~ **Decided 31 Oct 2026: the owner approves** (`owner-approved`; no academic review claimed).
 4. Which v2 additions to explore in Phase 6 (LO view, routine guide, remediation view)?
 5. Where the program guide lives in the app (fourth header link, inside Help, or only via
    lesson links), decided in Phase 6 with screens.

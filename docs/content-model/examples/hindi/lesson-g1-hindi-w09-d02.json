@@ -135,6 +135,12 @@
      "id": "p2-1",
      "title": "गतिविधियों की संकल्पना पर कार्य",
      "minutes": "12–15",
+     "routine": {
+      "to": "routine:hi-workbook-practice",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "step-title-matches-routine"
+     },
      "actions": [
       "वर्ण पहचान पर कार्य",
       "बच्चों से ‘क’ की ध्वनि से शुरू होने वाले 4-5 नए शब्द पूछकर बोर्ड पर लिखें। शब्द को तोड़कर पहली ध्वनि पर बल दें, जैसे- /क/ /र/ /न/ - ‘करन’",
@@ -162,6 +168,12 @@
      "id": "p2-2",
      "title": "कार्यपुस्तिका पर कार्य",
      "minutes": "20–22",
+     "routine": {
+      "to": "routine:hi-workbook-practice",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "step-title-matches-routine"
+     },
      "actions": [
       "कार्यपुस्तिका की गतिविधियों के निर्देश बच्चों को एक-एक करके समझाएँ और कार्य करने को कहें।",
       "आवश्यकतानुसार बोर्ड पर उदाहरण देकर गतिविधि समझाएँ और बच्चों की मदद करें।"

@@ -801,7 +801,7 @@
    "remediation": true,
    "provenance": {
     "assertion": "stated",
-    "review": "unreviewed",
+    "review": "owner-approved",
     "sources": [
      {
       "doc": "guide-g1-00970fd3c1e8",
@@ -833,7 +833,8 @@
       "pdf": 18,
       "printed": 16
      }
-    ]
+    ],
+    "note": "Day type confirmed by the owner on 31 Oct 2026."
    }
   },
   {
@@ -888,7 +889,7 @@
    "remediation": true,
    "provenance": {
     "assertion": "stated",
-    "review": "unreviewed",
+    "review": "owner-approved",
     "sources": [
      {
       "doc": "guide-g1-00970fd3c1e8",
@@ -911,7 +912,7 @@
       "printed": 22
      }
     ],
-    "note": "Day 5 every week. In G1 weeks 9–12 day 6 is also a revision day with three periods (day pages, e.g. pdf 24), because the weekly assessment starts in week 14 (pdf 7, 18)."
+    "note": "Day 5 every week. In G1 weeks 9–12 day 6 is also a revision day with three periods (day pages, e.g. pdf 24), because the weekly assessment starts in week 14 (pdf 7, 18). Day type confirmed by the owner on 31 Oct 2026."
    }
   },
   {
@@ -982,7 +983,7 @@
    ],
    "provenance": {
     "assertion": "stated",
-    "review": "unreviewed",
+    "review": "owner-approved",
     "sources": [
      {
       "doc": "guide-g1-00970fd3c1e8",
@@ -1020,7 +1021,7 @@
       "printed": 16
      }
     ],
-    "note": "Remedial work is only on the first five days, so day 6 has no remedial slot."
+    "note": "Remedial work is only on the first five days, so day 6 has no remedial slot. Day type confirmed by the owner on 31 Oct 2026."
    }
   }
  ],
@@ -1231,6 +1232,6 @@
  "provenance": {
   "assertion": "stated",
   "review": "unreviewed",
-  "note": "From each guide's usage (G1 pdf 7), annual objectives (pdf 15), weekly cycle (pdf 16) and period outline (pdf 18) pages, read on 31 Oct 2026. Exceptions were checked against the day page images."
+  "note": "From each guide's usage (G1 pdf 7), annual objectives (pdf 15), weekly cycle (pdf 16) and period outline (pdf 18) pages, read on 31 Oct 2026. Exceptions were checked against the day page images. Day types and calendar approved by the owner on 31 Oct 2026 (not an academic review)."
  }
 }

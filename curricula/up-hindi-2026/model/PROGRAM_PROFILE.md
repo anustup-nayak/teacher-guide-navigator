@@ -67,6 +67,7 @@ with understanding through ‘मैंने सीख लिया’ read alo
 
 ## Open questions for the curriculum team
 0. Which NIPUN list is authoritative for G1/G2 — the coded workbook list or the uncoded guide list?
+   **Decided 31 Oct 2026 (owner): the guide list; workbook codes kept with a reviewed crosswalk** ([CONTENT_MODEL.md §6](../../../docs/CONTENT_MODEL.md)).
 1. G2/G3 contents list बहुकक्षीय शिक्षण 185–186, but those pages are stories; is a multigrade
    section missing from the print?
 2. G2 contents puts poems at printed 190–191; the heading is on printed 189.

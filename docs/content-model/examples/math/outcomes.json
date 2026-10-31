@@ -4,8 +4,9 @@
   {
    "id": "M101.1",
    "grade": 1,
-   "strand": "shapes-space",
+   "family": "M101",
    "code": "M101.1",
+   "parent": "M101",
    "nipun": true,
    "statement": "दैनिक जीवन में स्थानिक समझ (दूर-पास, ऊपर-नीचे, दाएं-बाएं, आगे -पीछे) का उपयोग करना।",
    "provenance": {
@@ -18,7 +19,7 @@
       "printed": 0
      }
     ],
-    "note": "statement as published in v1 (source-compared); strand is the project’s unreviewed proposal"
+    "note": "statement as published in v1 (source-compared)"
    }
   }
  ],

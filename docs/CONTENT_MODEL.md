@@ -116,15 +116,18 @@ Every entity and link says where it came from:
   allowed only if the owner decides plan §9.2 that way; until then they are shown as unreviewed.
 - **editorial**: written by the project (summaries, short titles). Never shown as source text.
 
-`review` is `unreviewed`, `source-compared` (checked against the page image by the project) or
-`reviewed` (approved by someone with curriculum authority). The app shows only `reviewed`
-editorial text (plan §4a).
+`review` is `unreviewed`, `source-compared` (checked against the page image by the project),
+`reviewed` (approved by someone with curriculum authority) or `owner-approved` (approved by the
+product owner, not an academic review). The app shows editorial text and derived links only
+when `reviewed` or `owner-approved`, and labels owner-approved items as not academically
+reviewed (plan §4a).
 
 ### Derivation rules
 
 | Rule | Meaning | Used for |
 |---|---|---|
 | `step-title-matches-routine` | step title equals a routine's name or a listed alias from the activity guide | Hindi step → routine |
+| `workbook-activity-title` | a period-2 step titled “गतिविधि N” (N = number) is workbook practice | Hindi step → `hi-workbook-practice` |
 | `v1-phase-id-to-routine` | Math GRR phase ids map to the plan types in the weekly overview | Math step → routine |
 | `every-lesson-weekly-cycle` | every lesson links to its grade's weekly-cycle section | guide links |
 | `objective-matches-lesson-title` | Math lesson title equals a weekly objective of its week | lesson → objective |
@@ -137,7 +140,7 @@ and lets each program fill only what its guide states:
 
 | Concept | Hindi | Math |
 |---|---|---|
-| Outcomes | coded in workbooks for all grades; G3 guide coded; G1/G2 guides uncoded (both kept, open question) | 14 coded NIPUN LOs per grade, with sub-codes |
+| Outcomes | guide list primary (`list: guide`; G3 coded, G1/G2 uncoded); workbook codes kept as `list: workbook` with reviewed crosswalk | 14 coded NIPUN LOs per grade, with sub-codes, grouped by code `family` |
 | Weekly objectives | none; units carry objectives as text | yes, 3 per week, each linked to a code (stated) |
 | Periods | three 40-minute कालांश with stated roles; day 6 combines 2 and 3 (`number: [2, 3]`) | three periods; phases tagged by कालांश |
 | Steps | numbered 1.1, 2.1 … with minute ranges (“5–7”) | GRR phases with whole minutes |
@@ -154,25 +157,34 @@ Fields a program does not state stay absent; nothing is filled in to make the tw
 unit `g1-u-w09-12` (stated, annual objectives p15); day type `hi-new-skills` (structure.json);
 three periods with labels and roles; step 3.2 fills slot `remedial-group-a`; steps 1.1–1.3 typed as `hi-picture-chart` and 3.1 as `hi-big-book`
 by `step-title-matches-routine`; 3.2 as `hi-remedial-group-a`. Steps 2.1 “गतिविधियों की
-संकल्पना पर कार्य” and 2.2 “कार्यपुस्तिका पर कार्य” match no routine name: they stay unlinked
-and go to the review list (Phase 4 decides whether they are routines of their own). Step 2.2
-links to workbook page 8 (stated). The [guide section](content-model/examples/hindi/guide-g1.json)
+संकल्पना पर कार्य” and 2.2 “कार्यपुस्तिका पर कार्य” link to `hi-workbook-practice` (decision 4).
+Step 2.2 links to workbook page 8 (stated). Outcome `g1-oral-language-1` (guide list) carries a
+proposed crosswalk to workbook code H101, not shown until reviewed. The [guide section](content-model/examples/hindi/guide-g1.json)
 `g1/weekly-cycle` shows the decoded source text with an unreviewed editorial summary.
 
 **Math, `g1-math-w09-d01`** ([lesson](content-model/examples/math/lesson-g1-math-w09-d01.json)):
-LO `M101.1` (stated on the lesson page), objective `g1-w09-o1` (derived by title), unit
+LO `M101.1` (stated on the lesson page; family `M101`), objective `g1-w09-o1` (derived by title), unit
 `g1-u-w09-11` (unit opener p17), conversation and GRR phases typed by `v1-phase-id-to-routine`,
 practice linked to workbook page 9.
 
 Both examples are generated from the published v1 records; the test checks that ids, titles
 and actions are unchanged.
 
-## 6. Open points for the review gate
+## 6. Decisions (owner, 31 October 2026)
 
-1. Authoritative Hindi G1/G2 outcome list (workbook codes or guide numbering), and LO linking
-   policy for derived links (plan §9.2).
-2. Program structure (§1a): confirm the day types, and whether Math G1 weeks 1–8 are school
-   readiness (the Math guide does not say).
-3. Whether Hindi steps such as “कार्यपुस्तिका पर कार्य” become routines (`practice` type).
-4. Strand assignment for Math codes (the guides do not name strands; current values are the
-   project's proposal, noted as unreviewed in each outcome's provenance note).
+The owner reviewed the open points and approved the model as owner (not an academic review;
+recorded as `review: owner-approved`, see §3).
+
+| # | Question | Decision |
+|---|---|---|
+| 1 | Which Hindi G1/G2 outcome list do lessons link to? | **The 2026–27 guide's own list** (`list: guide`). The workbook's coded list (H101…) is kept as `list: workbook`; the two are joined only by `equivalent` crosswalk links, shown when reviewed. |
+| 2 | May outcome links come from a named rule? | **Yes, after review.** Stored as `derived` with the rule; shown in the app only once reviewed or owner-approved (plan §9.2). |
+| 3 | How are Math outcomes grouped? | **By printed code family** (`family: M101` …). No strand names are invented; the math values in the `strand` vocabulary stay unused (never renamed). |
+| 4 | Generic Hindi workbook steps (गतिविधि 1, कार्यपुस्तिका पर कार्य, गतिविधियों की संकल्पना पर कार्य)? | **One routine, `hi-workbook-practice`** (type `practice`), linked by `step-title-matches-routine` (listed aliases) or `workbook-activity-title` (period-2 “गतिविधि N”). Titles stay as printed. |
+| 5 | Math G1 weeks 1–8? | **School readiness**, `editorial`, owner-approved (the Math guide does not say). |
+| 6 | Day types (§1a)? | **Accepted** as listed for both subjects. |
+| 7 | Who signs off (plan §9.3)? | **The owner.** Academic review is not claimed; an academic reviewer can later raise items to `reviewed`. |
+
+**Status:** ontology **v1.0 release candidate**. It freezes as v1.0 when the Phase 3 compiler
+rebuilds today's v1 catalogs byte for byte from the model. After that, changes are additive
+only (new fields, values or entities); nothing published is renamed or removed.

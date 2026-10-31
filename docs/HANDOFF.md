@@ -70,6 +70,7 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Claude Code | `task/ontology-decisions` (from `next`) | `docs/CONTENT_MODEL.md` §3/§6, `schemas/content-model/{vocabularies,common,outcomes}`, `curricula/*/model/structure.json`, `scripts/content/build_examples.mjs`, examples, profiles | Drafted; PR to `next` open | Owner decided all 7 open points; ontology is v1.0 release candidate. Next: Phase 3 compiler (byte-for-byte v1 parity) freezes v1.0. |
 | Claude Code | `task/lesson-link-pack` (from `main`) | `dist/domain/selection.mjs`, `dist/app.mjs` (render), `tests/hindi-pack.test.mjs`, r61 bumps, `docs/ARCHITECTURE.md` | Merged as PR #14 (`49f873c`); live r61, tag `v1.0.4` | Done, and branches synced. Left: lazy subject loading. |
 | Claude Code | `task/v1-fixes` (from `main`) | Hindi `repairs.json`, `build_pack.py`, reviewed/dist catalog and worksheets, `curricula/published-baseline.json`, `tests/hindi-pack.test.mjs`, r60 bumps | Merged as PR #13 (`4be3376`); live r60, tag `v1.0.3` | Done, and branches synced. Left: pack-less lesson links, lazy subject loading. Task note: [v1 fixes](tasks/v1-fixes.md). |
 | Claude Code | `task/hindi-grid-columns` (from `main`) | `curricula/up-hindi-2026/tools/parse_guides.py`, Hindi reviewed/dist catalog, `curricula/published-baseline.json`, `tests/test_hindi_grids.py`, `tests/hindi-pack.test.mjs`, r59 bumps | Merged as PR #11 (`cb6075b`); live r59, tag `v1.0.2` | Done, and branches synced (`release/v1`, `next`). Task note: [grid](tasks/hindi-grid-columns.md). |
@@ -83,6 +84,18 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `task/ontology-decisions` (PR to `next`)
+
+- Owner walked through the content model's open points and decided: guide list primary for Hindi
+  outcomes (workbook codes kept with a reviewed crosswalk); reviewed rule-derived links allowed;
+  Math grouped by code family (no strand names); generic Hindi workbook steps → `hi-workbook-practice`;
+  Math G1 weeks 1–8 school readiness; day types accepted; owner signs off (new review value
+  `owner-approved`, not an academic review). Recorded in [CONTENT_MODEL.md §6](CONTENT_MODEL.md).
+- Schemas: `owner-approved`, `outcomeList` vocabulary, outcome `list`/`family`/`equivalent`. New rule
+  `workbook-activity-title`. Examples regenerated (all 7 Hindi example steps now linked).
+- Ontology is a v1.0 release candidate; it freezes when Phase 3 reproduces the v1 catalogs.
+  npm test 97/97.
 
 ### 2026-10-31 · Claude Code · `next` (merge of `main` after r61)
 
