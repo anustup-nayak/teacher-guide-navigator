@@ -41,6 +41,7 @@ Browser storage/service worker are origin-scoped infrastructure, not cloud sync.
 | `dist/services/worker-client.mjs` | Browser worker request/progress protocol. Selected lesson assets are passed explicitly |
 | `dist/features/reader.mjs` | `createReader(...)` → openReader/openVisual/bookButtons/previewPrint. Owns reader state, history, print and reader listeners. Injects resource repository, current lesson and media helpers |
 | `dist/features/offline.mjs` | `createOfflineController(...)` → check/keep/remove/controls/reset. Owns readiness checks; injects selected pack, ledger/store callbacks, UI callbacks and optional request transport for tests |
+| `dist/views/program-guide.mjs` | `createProgramGuide({data,pack,e,t,lang,gradeLabel,subjectLabel})` → `render(section,{grade,week,lessonIds})`, `title(section)`; pure HTML from `dist/program-guide-data.mjs` (generated from the content release); imported on demand by app.mjs for `#/guide…` |
 | `dist/views/lesson-media.mjs` | `createLessonMedia({curriculum,prefs,t,e,stage,list})` → crop/caption/alt/artwork/worksheet rendering; no fetching or persistence |
 | `dist/lesson-navigation.mjs`, `lesson-visuals.mjs` | Pure section tracking, crop geometry, source palette and asset dependency calculations |
 | `dist/sw.js` | Shared shell/image cache and message implementation; integrity-preserving upgrade and server/network fallback |

@@ -27,7 +27,8 @@ a fresh port or clear the site's cache when checking.
 |---|---|
 | `dist/` | The website (only this is deployed): `app.mjs` (UI, routes), `core.mjs`, `ux.mjs`, `domain/`, `services/`, `features/`, `views/`, `sw.js` (offline), `styles.css` + `guide-cards.css` (protected) |
 | `dist/catalog.mjs`, `dist/packs/up-hindi-2026/catalog.mjs` | Lesson catalogs (Math at its legacy path, Hindi under its pack); on `next` copied from the pinned content release |
-| `dist/day-types.mjs` | Generated day-type calendar and labels for cards (do not edit) |
+| `dist/day-types.mjs`, `dist/program-guide-data.mjs` | Generated from the pinned release by `site:publish` (do not edit): card day labels; program-guide calendar, day types, periods and section pages |
+| `dist/views/program-guide.mjs` | Program guide screens (`#/guide…`), loaded on demand |
 | `dist/source`, `workbook`, `textbook`, `packs/*/` | Original page images (WebP), loaded on demand |
 | `curricula/<pack>/` | One curriculum pack: `originals/` (PDFs + checksums), `extracted/` (unreviewed), `tools/` (adapters), `model/` (canonical model), `compat/` (v1 bridge), `reviewed/` (v1 snapshot) |
 | `content/<pack>/<version>/`, `content/query.mjs`, `content/website.json` | Compiled content releases, the shared query library, and the website's pinned versions |

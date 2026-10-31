@@ -1,6 +1,7 @@
 # Program guide in the app — plan and design proposal
 
-Status: **proposal for the owner's design approval**, revision 2 (31 October 2026). Nothing is built.
+Status: revision 2 **approved by the owner** (31 October 2026, “Approve and build A”). **Slice A is built** on `next` (see §7);
+the other slices wait for the approvals listed there.
 Mockups: [docs/design/program-guide/index.html](design/program-guide/index.html) (serve the repository
 root, e.g. `python3 -m http.server 8766`, then open `http://localhost:8766/docs/design/program-guide/`).
 This is the program-guide slice of plan Phase 6 ([CONTENT_ARCHITECTURE_PLAN.md §4a](CONTENT_ARCHITECTURE_PLAN.md)).
@@ -89,7 +90,7 @@ Sections 3–5 keep the three reading depths of plan §4a as tabs: **सार**
 
 | Slice | What | Ready when |
 |---|---|---|
-| **A** | Screens 1–4 (entry, home, week, periods) and original pages for every front-matter section | Now (data in release 1.1.0) |
+| **A** | Screens 1–4 (entry, home, week, periods) and original pages for every guide section | **Built** (31 Oct 2026): `dist/views/program-guide.mjs`, `dist/program-guide-data.mjs`, routes `#/guide`, `#/guide/week`, `#/guide/periods`, `#/guide/pages`; the goals box opens the NIPUN list page until slice G |
 | **G-Math** | Screens 6–7 for Math: goals, week strips, lesson links from stated codes; progress | After you approve the short goal titles and the “same week” rule |
 | **B** | Screen 5 (how to read a lesson plan) | After you approve the call-out wording |
 | **G-Hindi** | Screens 6–7 for Hindi | After the Hindi goal-to-week map (Phase 4 task) is drafted and approved |

@@ -20,7 +20,9 @@ feature here, not a matter of taste.
    grade/subject → week → day card → the same lesson. No mandatory entrance,
    onboarding, login, sub-topic or Prepare/Teach gate. Routes `#/find`,
    `#/lesson/<id>`, `#/saved`, `#/help` and legacy `#/lesson/<id>/teach/<n>`
-   keep working.
+   keep working. The program guide `#/guide`, `#/guide/week|periods|pages` is a separate
+   way in, never a gate before a lesson (owner-approved 31 Oct 2026; see
+   [PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md)).
 2. **Shell.** Header with brand, then the three links पाठ चुनें · मेरी सूची ·
    मदद (in this order; `#find-link`, `#saved-link`, `#help-link`), then the
    language menu (हिन्दी first and default). Below it, the
@@ -32,6 +34,9 @@ feature here, not a matter of taste.
    type's name on days other than new teaching (e.g. “· साप्ताहिक आकलन”), from
    `dist/day-types.mjs`; the summary is the workbook page, then the first material
    without its preparation note. (Owner-approved 31 Oct 2026; no style change.)
+   Below the browse tabs, one card “📘 संदर्शिका को समझें” opens the program guide; lessons show a
+   “सप्ताह कैसे चलता है” link under the section chips and Help links to the guide (owner-approved
+   31 Oct 2026, slice A).
 4. **Lesson anatomy, in order.** Blue lesson banner with week/day badge;
    wrapping sticky section chips (preparation, every source phase with its
    minutes, my note, original pages); preparation blocks; one card per source
