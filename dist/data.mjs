@@ -1,1 +1,1 @@
-export {LESSONS,SUBJECTS} from './catalog.mjs?v=r60';
+export {LESSONS,SUBJECTS} from './catalog.mjs?v=r61';

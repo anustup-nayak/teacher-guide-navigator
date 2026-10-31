@@ -70,7 +70,8 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/v1-fixes` (from `main`) | Hindi `repairs.json`, `build_pack.py`, reviewed/dist catalog and worksheets, `curricula/published-baseline.json`, `tests/hindi-pack.test.mjs`, r60 bumps | r60 drafted; PR to `main` open | Done: 390 px, keyboard and offline checks pass; restored 21 vowel signs in 13 lessons. Next: owner merges; sync branches. Left: pack-less lesson links, lazy subject loading. Task note: [v1 fixes](tasks/v1-fixes.md). |
+| Claude Code | `task/lesson-link-pack` (from `main`) | `dist/domain/selection.mjs`, `dist/app.mjs` (render), `tests/hindi-pack.test.mjs`, r61 bumps, `docs/ARCHITECTURE.md` | r61 drafted; PR to `main` open | Done: lesson links without `?curriculum=` open the right subject; tests and browser checks. Next: owner merges; sync branches. Left: lazy subject loading. |
+| Claude Code | `task/v1-fixes` (from `main`) | Hindi `repairs.json`, `build_pack.py`, reviewed/dist catalog and worksheets, `curricula/published-baseline.json`, `tests/hindi-pack.test.mjs`, r60 bumps | Merged as PR #13 (`4be3376`); live r60, tag `v1.0.3` | Done, and branches synced. Left: pack-less lesson links, lazy subject loading. Task note: [v1 fixes](tasks/v1-fixes.md). |
 | Claude Code | `task/hindi-grid-columns` (from `main`) | `curricula/up-hindi-2026/tools/parse_guides.py`, Hindi reviewed/dist catalog, `curricula/published-baseline.json`, `tests/test_hindi_grids.py`, `tests/hindi-pack.test.mjs`, r59 bumps | Merged as PR #11 (`cb6075b`); live r59, tag `v1.0.2` | Done, and branches synced. Task note: [grid](tasks/hindi-grid-columns.md). |
 | Claude Code | `task/repair-g2-hindi-w19-d03` (from `main`) | `curricula/up-hindi-2026/tools/{repairs.json,build_pack.py}`, `curricula/up-hindi-2026/reviewed/catalog.mjs`, `dist/packs/up-hindi-2026/catalog.mjs`, `curricula/published-baseline.json`, r58 version bumps in `dist/` | Merged as PR #10 (`181a840`); live r58, tag `v1.0.1` | Done, and branches synced (`release/v1`, `next`). Task note: [repair](tasks/repair-g2-hindi-w19-d03.md). |
 | Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
@@ -79,6 +80,15 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `task/lesson-link-pack` (PR to `main`, release r61)
+
+- A lesson link without `?curriculum=` (e.g. `#/lesson/g2-hindi-w19-d03`) showed "lesson not
+  found". The app now reads grade and subject from the lesson id (`packForLessonId`), flushes
+  notes and replaces the URL with that pack's, keeping route and step. No loop for ids with no
+  lesson; the query-less Math default is unchanged.
+- Checks: npm test 83/83, check, design:check, sw.js, verify:publication, ingestion 15/15,
+  verify:sources, skill tests; browser checks. Task note: [v1 fixes](tasks/v1-fixes.md).
 
 ### 2026-10-31 · Claude Code · `task/v1-fixes` (PR to `main`, release r60)
 
