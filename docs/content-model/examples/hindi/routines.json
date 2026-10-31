@@ -53,6 +53,33 @@
    }
   },
   {
+   "id": "hi-workbook-practice",
+   "type": "practice",
+   "name": "कार्यपुस्तिका (भाग-1) पर कार्य",
+   "aliases": [
+    "कार्यपुस्तिका पर कार्य",
+    "गतिविधियों की संकल्पना पर कार्य"
+   ],
+   "grades": [
+    1,
+    2,
+    3
+   ],
+   "period": 2,
+   "section": "g1/period-outline",
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 18,
+      "printed": 16
+     }
+    ]
+   }
+  },
+  {
    "id": "hi-remedial-group-a",
    "type": "remediation",
    "name": "समूह-A के साथ रिमीडियल कार्य",

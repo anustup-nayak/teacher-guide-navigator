@@ -10,8 +10,8 @@
    "inApp": false,
    "provenance": {
     "assertion": "editorial",
-    "review": "unreviewed",
-    "note": "The G1 guide plans weeks 9–25 only (contents, pdf 7). Calling weeks 1–8 school readiness follows the Hindi guide (pdf 15 there); confirm for Math."
+    "review": "owner-approved",
+    "note": "The G1 guide plans weeks 9–25 only (contents, pdf 7). Recorded as school readiness, following the Hindi guide (pdf 15 there), by owner decision on 31 Oct 2026."
    }
   },
   {
@@ -928,7 +928,7 @@
    "remediation": true,
    "provenance": {
     "assertion": "stated",
-    "review": "unreviewed",
+    "review": "owner-approved",
     "sources": [
      {
       "doc": "guide-g1-167f09e3bf58",
@@ -961,7 +961,7 @@
       "printed": 17
      }
     ],
-    "note": "one teaching objective a day, three a week; period numbers are printed on each day plan"
+    "note": "one teaching objective a day, three a week; period numbers are printed on each day plan Day type confirmed by the owner on 31 Oct 2026."
    }
   },
   {
@@ -1023,7 +1023,7 @@
    ],
    "provenance": {
     "assertion": "stated",
-    "review": "unreviewed",
+    "review": "owner-approved",
     "sources": [
      {
       "doc": "guide-g1-167f09e3bf58",
@@ -1040,7 +1040,8 @@
       "pdf": 14,
       "printed": 12
      }
-    ]
+    ],
+    "note": "Day type confirmed by the owner on 31 Oct 2026."
    }
   },
   {
@@ -1078,7 +1079,7 @@
    ],
    "provenance": {
     "assertion": "stated",
-    "review": "unreviewed",
+    "review": "owner-approved",
     "sources": [
      {
       "doc": "guide-g3-186da9c8f52a",
@@ -1086,7 +1087,7 @@
       "printed": 11
      }
     ],
-    "note": "G3 prints day 4 as a flow without कालांश"
+    "note": "G3 prints day 4 as a flow without कालांश Day type confirmed by the owner on 31 Oct 2026."
    }
   },
   {
@@ -1167,7 +1168,7 @@
    ],
    "provenance": {
     "assertion": "stated",
-    "review": "unreviewed",
+    "review": "owner-approved",
     "sources": [
      {
       "doc": "guide-g1-167f09e3bf58",
@@ -1184,7 +1185,8 @@
       "pdf": 14,
       "printed": 12
      }
-    ]
+    ],
+    "note": "Day type confirmed by the owner on 31 Oct 2026."
    }
   },
   {
@@ -1248,7 +1250,7 @@
    ],
    "provenance": {
     "assertion": "stated",
-    "review": "unreviewed",
+    "review": "owner-approved",
     "sources": [
      {
       "doc": "guide-g3-186da9c8f52a",
@@ -1256,7 +1258,7 @@
       "printed": 12
      }
     ],
-    "note": "G3 prints day 5 as a flow without कालांश"
+    "note": "G3 prints day 5 as a flow without कालांश Day type confirmed by the owner on 31 Oct 2026."
    }
   },
   {
@@ -1329,7 +1331,7 @@
    ],
    "provenance": {
     "assertion": "stated",
-    "review": "unreviewed",
+    "review": "owner-approved",
     "sources": [
      {
       "doc": "guide-g1-167f09e3bf58",
@@ -1346,7 +1348,8 @@
       "pdf": 14,
       "printed": 12
      }
-    ]
+    ],
+    "note": "Day type confirmed by the owner on 31 Oct 2026."
    }
   },
   {
@@ -1402,7 +1405,7 @@
    ],
    "provenance": {
     "assertion": "stated",
-    "review": "unreviewed",
+    "review": "owner-approved",
     "sources": [
      {
       "doc": "guide-g3-186da9c8f52a",
@@ -1410,7 +1413,7 @@
       "printed": 12
      }
     ],
-    "note": "G3 prints day 6 as a flow without कालांश"
+    "note": "G3 prints day 6 as a flow without कालांश Day type confirmed by the owner on 31 Oct 2026."
    }
   }
  ],
@@ -1645,6 +1648,6 @@
  "provenance": {
   "assertion": "stated",
   "review": "unreviewed",
-  "note": "From each guide's weekly overview (साप्ताहिक कार्य का अवलोकन: G1 pdf 11–14, G2/G3 pdf 12–15; day pages are image-only and were read from the page images) and the day-1 plans. G1 and G2 print periods for days 4–6; G3 prints them as a flow without कालांश, with teacher-made consolidation and remedial plans, so G3 has its own day types."
+  "note": "From each guide's weekly overview (साप्ताहिक कार्य का अवलोकन: G1 pdf 11–14, G2/G3 pdf 12–15; day pages are image-only and were read from the page images) and the day-1 plans. G1 and G2 print periods for days 4–6; G3 prints them as a flow without कालांश, with teacher-made consolidation and remedial plans, so G3 has its own day types. Day types and calendar approved by the owner on 31 Oct 2026 (not an academic review)."
  }
 }

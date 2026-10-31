@@ -8,7 +8,7 @@
   "bilingual": {"type": "object", "required": ["hi"], "additionalProperties": false,
    "properties": {"hi": {"$ref": "#/$defs/text"}, "en": {"$ref": "#/$defs/text"}}},
   "assertion": {"enum": ["stated", "derived", "editorial"]},
-  "review": {"enum": ["unreviewed", "source-compared", "reviewed"]},
+  "review": {"enum": ["unreviewed", "source-compared", "reviewed", "owner-approved"]},
   "sourceRef": {"type": "object", "required": ["doc", "pdf"], "additionalProperties": false,
    "properties": {
     "doc": {"type": "string", "pattern": "^(guide|workbook|textbook)-g[0-9]+-[0-9a-f]{12}$"},

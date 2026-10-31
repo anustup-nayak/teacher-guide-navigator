@@ -19,6 +19,7 @@ test('schema enums are exactly the shared vocabularies', () => {
   assert.deepEqual(common.assertion.enum, keys('assertion'));
   assert.deepEqual(common.review.enum, keys('review'));
   assert.deepEqual(loadSchema('routines').properties.routines.items.properties.type.enum, keys('routineType'));
+  assert.deepEqual(loadSchema('outcomes').properties.outcomes.items.properties.list.enum, keys('outcomeList'));
   assert.deepEqual(loadSchema('materials').properties.materials.items.properties.type.enum, keys('materialType'));
   assert.deepEqual(loadSchema('assessments').properties.assessments.items.properties.type.enum, keys('assessmentType'));
   const structure = loadSchema('structure').properties, dayType = structure.dayTypes.items.properties;
