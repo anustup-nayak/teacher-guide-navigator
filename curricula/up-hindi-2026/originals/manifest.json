@@ -1,0 +1,52 @@
+{
+  "documents": [
+    {
+      "id": "guide-g1-00970fd3c1e8",
+      "kind": "guide",
+      "grade": 1,
+      "file": "guide-g1-00970fd3c1e8.pdf",
+      "sha256": "00970fd3c1e84d714cad732f26c8c2aa42863c494b12595ac7dd25d9097f8b37",
+      "originalFilename": "UP Literacy TG Grade-1 with Grid.pdf"
+    },
+    {
+      "id": "guide-g2-d86262b7a94c",
+      "kind": "guide",
+      "grade": 2,
+      "file": "guide-g2-d86262b7a94c.pdf",
+      "sha256": "d86262b7a94c50a662055e1777eae2b7c3d31ea039d8cd2bb8d3c4d2e2a22ad8",
+      "originalFilename": "UP Literacy TG Grade-2.pdf"
+    },
+    {
+      "id": "guide-g3-ab99c837f781",
+      "kind": "guide",
+      "grade": 3,
+      "file": "guide-g3-ab99c837f781.pdf",
+      "sha256": "ab99c837f7813b14fbb31abbb3b68d11aa3d63a868556b9ca8edfd30bcd98114",
+      "originalFilename": "UP Literacy TG Grade-3 (1).pdf"
+    },
+    {
+      "id": "workbook-g1-04678c7d6792",
+      "kind": "workbook",
+      "grade": 1,
+      "file": "workbook-g1-04678c7d6792.pdf",
+      "sha256": "04678c7d67925af30515127de2796d9fd733e4be13cb3cbd09293a21cb5fbcd2",
+      "originalFilename": "WB Sarangi Grade-1.pdf"
+    },
+    {
+      "id": "workbook-g2-b7aee36aedf3",
+      "kind": "workbook",
+      "grade": 2,
+      "file": "workbook-g2-b7aee36aedf3.pdf",
+      "sha256": "b7aee36aedf360ee6c16b92c35488aa3c8f047207caf4a75afa6e4c8690171ef",
+      "originalFilename": "WB Grade-2 Sarangi.pdf"
+    },
+    {
+      "id": "workbook-g3-e0e75877c246",
+      "kind": "workbook",
+      "grade": 3,
+      "file": "workbook-g3-e0e75877c246.pdf",
+      "sha256": "e0e75877c2463b963a56d0e498d3142c9db1e2b9dc500866b2d0ec6e353951ff",
+      "originalFilename": "WB Grade-3 Veena 1 (18 march 25).pdf"
+    }
+  ]
+}
