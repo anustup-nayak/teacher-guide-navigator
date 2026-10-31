@@ -7,7 +7,8 @@
 Writes curricula/up-hindi-2026/reviewed/{catalog.mjs,resources.json,worksheets.json,sources.json}
 and renders dist/packs/up-hindi-2026/{source,workbook}/gN-pNNN.webp. Topics come from each
 guide's “वार्षिक शिक्षण उद्देश्य” page (printed p13); repairs.json holds source-compared
-replacements for text the parser cannot recover. Text is decoded from the PDFs, never rewritten.
+replacements for text the parser cannot recover (a repair replaces a period, or adds one the
+parser dropped). Text is decoded from the PDFs, never rewritten.
 """
 import hashlib
 import io
@@ -124,7 +125,10 @@ def main(repo, images=True):
             key = f"g{g}-w{d['week']}-d{d['day']}"
             periods = d['periods']
             for fix in repairs.get(key, {}).get('periods', []):
-                periods = [fix['replace'] if p['period'] == fix['period'] else p for p in periods]
+                if any(p['period'] == fix['period'] for p in periods):
+                    periods = [fix['replace'] if p['period'] == fix['period'] else p for p in periods]
+                else:   # the parser dropped the whole period
+                    periods = sorted(periods + [fix['replace']], key=lambda p: p['period'])
             lid = f"g{g}-hindi-w{d['week']:02}-d{d['day']:02}"
             pdf_page = d['pdfPages'][0]
             image = guide_res['pages'][pdf_page - 1]

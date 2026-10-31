@@ -75,6 +75,9 @@ rewrite an old baseline to hide accidental changes. Do not delete/regenerate the
 baseline to get green checks. An intentional source repair is a separate documented
 change requiring source comparison and an explicitly reviewed baseline amendment;
 it is never bundled silently into a new-grade/subject ingestion.
+Record such an amendment in the baseline's `amendments` list (date, release, pack, lesson
+ids, reason, evidence, and each changed hash `from`/`to`), change only those records, and
+link the task note; the PR is the review. First case: r58, `g2-hindi-w19-d03`.
 
 This is a regression guard, not a guarantee that software has no defects. Keep
 previous UI/storage/offline journeys and source comparisons as separate gates.
