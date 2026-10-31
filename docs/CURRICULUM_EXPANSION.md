@@ -2,7 +2,8 @@
 
 Product requirement: UP is one coherent teacher app. Its target coverage includes
 Balvatika and Grades 1–5, Hindi, Math and further supplied subjects. Current shipped
-content is still the reviewed Math Grades 1–3 corpus; targets are not availability
+content: Math Grades 1–3 (`up-math-2026`) and Hindi Grades 1–3 (`up-hindi-2026`, added
+31 October 2026 as a separate delivery in the same group); targets are not availability
 claims. New options appear when authorized PDFs have been ingested, reviewed,
 published and registered. Never create placeholder lessons to fill a selector.
 

@@ -36,6 +36,11 @@ Use the existing lesson schema: stable id, nonnegative integer grade (0 = Balvat
 subject, topic/subtopic and ordering, title/shortTitle/summary, outcome, materials,
 assessment, phases, source and references. Each phase needs a title and actions;
 optional instructions/questions, minutes and period preserve source structure.
+`minutes` may be a source range such as `"5–7"`; lesson-duration totals are only checked
+when every phase uses whole numbers. Source-native phase ids keep their own titles; an
+optional `role` (`teaching`, `practice`, `support`) gives them the shared colour roles, and
+`worksheetPreview: true` shows the lesson's workbook page on the step that uses it
+(UP Hindi, added 31 October 2026). Without these fields the UP Math behaviour is unchanged.
 A source supplies image and one-based pdfPage. Use `weekly-template` only for
 actual source templates; other structures appear in topic browsing.
 

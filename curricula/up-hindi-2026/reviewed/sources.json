@@ -1,0 +1,37 @@
+{
+ "receivedDate": "2026-10-31",
+ "from": "Renu Chauhan (Drive folder “Literacy TGs and WBs”, UP AY 2026-2027)",
+ "academicYear": "2026-2027",
+ "sources": [
+  {
+   "grade": 1,
+   "subject": "hindi",
+   "document": "UP Literacy TG Grade-1 with Grid.pdf",
+   "sha256": "00970fd3c1e84d714cad732f26c8c2aa42863c494b12595ac7dd25d9097f8b37",
+   "pdfPages": 152,
+   "workbook": "WB Sarangi Grade-1.pdf",
+   "workbookSha256": "04678c7d67925af30515127de2796d9fd733e4be13cb3cbd09293a21cb5fbcd2",
+   "workbookPdfPages": 120
+  },
+  {
+   "grade": 2,
+   "subject": "hindi",
+   "document": "UP Literacy TG Grade-2.pdf",
+   "sha256": "d86262b7a94c50a662055e1777eae2b7c3d31ea039d8cd2bb8d3c4d2e2a22ad8",
+   "pdfPages": 200,
+   "workbook": "WB Grade-2 Sarangi.pdf",
+   "workbookSha256": "b7aee36aedf360ee6c16b92c35488aa3c8f047207caf4a75afa6e4c8690171ef",
+   "workbookPdfPages": 152
+  },
+  {
+   "grade": 3,
+   "subject": "hindi",
+   "document": "UP Literacy TG Grade-3 (1).pdf",
+   "sha256": "ab99c837f7813b14fbb31abbb3b68d11aa3d63a868556b9ca8edfd30bcd98114",
+   "pdfPages": 200,
+   "workbook": "WB Grade-3 Veena 1 (18 march 25).pdf",
+   "workbookSha256": "e0e75877c2463b963a56d0e498d3142c9db1e2b9dc500866b2d0ec6e353951ff",
+   "workbookPdfPages": 148
+  }
+ ]
+}

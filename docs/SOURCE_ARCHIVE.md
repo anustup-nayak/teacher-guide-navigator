@@ -47,7 +47,17 @@ to the runtime WebPs or module payloads needed by Pages. See
 [GitHub file limits](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
 and [LFS limitations](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage).
 
+In this repository oversized originals use Git LFS, tracked by exact path in
+`.gitattributes` (first case: the 134.7 MB UP Hindi Grade 3 workbook, 31 October 2026).
+`verify:sources` accepts a file over 100 MiB only when it is LFS-tracked. CI checks
+out without LFS content, so the verifier checks the LFS pointer's SHA-256 against the
+manifest instead of downloading the file; this keeps GitHub's free LFS bandwidth for
+people who restore sources. To restore locally: install Git LFS, run
+`git lfs install --local`, then `git lfs pull`.
+
 ## Current UP coverage
+
+Math (`up-math-2026`):
 
 The expected archive includes three Teacher Guides, three Workbooks and the Grade 3
 textbook used to produce the current 990 page images. The manifest reports exact
@@ -57,3 +67,8 @@ reproduce its published images. Their recorded sources exceed the connector retr
 limit (about 357/404 MB); the app intentionally retains printed-book references.
 Source acquisition links remain in the existing reviewed `sources.json`; private
 emails, sender contact information and authentication material are not archived.
+
+UP Hindi (`up-hindi-2026`, added 31 October 2026): Teacher Guides for Grades 1–3
+(2026–27) and the सारंगी Grade 1/2 and वीणा-1 Grade 3 workbooks (cover editions
+2024–25, 2025–26, 2025–26), received from Renu Chauhan's Drive folder. No Hindi
+textbooks were supplied. Status: discovery; nothing published yet.

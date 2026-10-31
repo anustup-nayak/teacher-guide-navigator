@@ -42,3 +42,25 @@ class ArchiveTests(unittest.TestCase):
         self.record['file'] = '../guide.pdf'
         self.manifest([self.record])
         self.assertFalse(archive.verify(self.root)['ok'])
+
+    def track_with_lfs(self):
+        (self.root / '.gitattributes').write_text('*.pdf binary\ncurricula/example/originals/guide.pdf filter=lfs diff=lfs merge=lfs -text\n')
+
+    def test_oversized_original_requires_lfs_tracking(self):
+        self.manifest([self.record])
+        limit, archive.GIT_LIMIT = archive.GIT_LIMIT, 4
+        self.addCleanup(setattr, archive, 'GIT_LIMIT', limit)
+        self.assertFalse(archive.verify(self.root)['ok'])
+        self.track_with_lfs()
+        self.assertTrue(archive.verify(self.root, True)['ok'])
+
+    def test_lfs_pointer_checked_against_manifest_without_download(self):
+        self.manifest([self.record])
+        self.pdf.write_text(f"version https://git-lfs.github.com/spec/v1\noid sha256:{self.record['sha256']}\nsize 16\n")
+        self.assertFalse(archive.verify(self.root)['ok'], 'pointer for an untracked path')
+        self.track_with_lfs()
+        result = archive.verify(self.root, True)
+        self.assertTrue(result['ok'])
+        self.assertEqual(result['lfsPointersVerified'], 1)
+        self.pdf.write_text('version https://git-lfs.github.com/spec/v1\noid sha256:' + '0' * 64 + '\nsize 16\n')
+        self.assertFalse(archive.verify(self.root)['ok'], 'pointer with a different checksum')
