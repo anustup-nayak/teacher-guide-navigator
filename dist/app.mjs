@@ -1,19 +1,20 @@
-import {describeCurrentContext} from './views/current-context.mjs?v=r61';
-import {groupKey,selectionForGroup,packForSelection,selectionURL,gradeLabel,packForLessonId,lessonURL} from './domain/selection.mjs?v=r61';
-import {renderCurriculumSwitcher} from './views/curriculum-switcher.mjs?v=r61';
-import {createAppContext,browserStorage} from './domain/app-context.mjs?v=r61';
-import {createResourceRepository} from './services/resources.mjs?v=r61';
-import {createReader} from './features/reader.mjs?v=r61';
-import {createOfflineController} from './features/offline.mjs?v=r61';
-import {createLessonMedia} from './views/lesson-media.mjs?v=r61';
-import {resumeForGrade,searchLessons,teachingInstructions,displayText,lessonTitle,lessonSummary,notesExportText} from './ux.mjs?v=r61';
-import {phaseVisual,lessonPalette} from './lesson-visuals.mjs?v=r61';
-import {lessonSections,sectionAtOffset,canTrackLesson} from './lesson-navigation.mjs?v=r61';
-import {CURRICULA,reviewWeeksFor} from './curricula.mjs?v=r61';
-import {escapeHTML,findLessons,getLesson,groupTopics,neighbours,parseRoute,mergeNotes} from './core.mjs?v=r61';
+import {describeCurrentContext} from './views/current-context.mjs?v=r62';
+import {groupKey,selectionForGroup,packForSelection,selectionURL,gradeLabel,packForLessonId,lessonURL} from './domain/selection.mjs?v=r62';
+import {renderCurriculumSwitcher} from './views/curriculum-switcher.mjs?v=r62';
+import {createAppContext,browserStorage} from './domain/app-context.mjs?v=r62';
+import {createResourceRepository} from './services/resources.mjs?v=r62';
+import {createReader} from './features/reader.mjs?v=r62';
+import {createOfflineController} from './features/offline.mjs?v=r62';
+import {createLessonMedia} from './views/lesson-media.mjs?v=r62';
+import {resumeForGrade,searchLessons,teachingInstructions,displayText,lessonTitle,lessonSummary,dayLabel,notesExportText} from './ux.mjs?v=r62';
+import {DAY_TYPES} from './day-types.mjs?v=r62';
+import {phaseVisual,lessonPalette} from './lesson-visuals.mjs?v=r62';
+import {lessonSections,sectionAtOffset,canTrackLesson} from './lesson-navigation.mjs?v=r62';
+import {CURRICULA,reviewWeeksFor} from './curricula.mjs?v=r62';
+import {escapeHTML,findLessons,getLesson,groupTopics,neighbours,parseRoute,mergeNotes} from './core.mjs?v=r62';
 const context=createAppContext({packs:CURRICULA,search:location.search,storage:browserStorage()});
 const {curriculum,grades,store,prefs,readObj,persist}=context;
-const LESSONS=curriculum.lessons,KEY=curriculum.storageKey,VERSION='2026-10-31-r61';
+const LESSONS=curriculum.lessons,KEY=curriculum.storageKey,VERSION='2026-10-31-r62';
 const e=value=>escapeHTML(displayText(value));
 const $=s=>document.querySelector(s),main=$('#main');
 const t=(hi,en)=>prefs.lang==='en'?en:hi;
@@ -29,7 +30,7 @@ const list=xs=>`<ul>${xs.map(s=>`<li>${e(s)}</li>`).join('')}</ul>`;
 function notify(s){$('#toast').textContent=s;$('#toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),4000);}
 function flushNotes(){if(!dirty.size)return true;const r=mergeNotes(store,KEY+'-notes',Object.fromEntries([...dirty].map(id=>[id,notes[id]||''])));notes=r.data;dirty.clear();return r.saved;}
 function saveNote(){const field=$('#lesson-note');if(!field)return;notes[field.dataset.note]=field.value;dirty.add(field.dataset.note);const ok=flushNotes();$('#note-status').textContent=ok?t('नोट इसी उपकरण पर सहेजा गया।','Note saved on this device.'):t('नोट केवल इस खुले सत्र तक रखा गया है।','Note kept for this open session only.');return ok;}
-function card(l){const isTemplate=l.structure==='weekly-template';return `<a class="lesson-card ${isTemplate?'weekly-card':''}" href="${path(l)}" data-open="${e(l.id)}"><div class="card-meta"><span>${t('सप्ताह','Week')} ${l.week} · ${t('दिन','Day')} ${l.day}</span>${completed[l.id]?`<span class="done-badge">✓ ${t('पढ़ाया','Taught')}</span>`:''}</div><h3>${e(lessonTitle(l))}</h3><p class="card-summary">${e(lessonSummary(l,prefs.lang))}</p><div class="card-footer"><span>${e(isTemplate?t('साप्ताहिक योजना · तैयारी देखें','Weekly plan · check preparation'):duration(l))}</span><span class="card-open">${isTemplate?t('साप्ताहिक रूपरेखा खोलें','Open weekly outline'):t('पाठयोजना खोलें','Open lesson overview')} →</span></div></a>`;}
+function card(l){const isTemplate=l.structure==='weekly-template';return `<a class="lesson-card ${isTemplate?'weekly-card':''}" href="${path(l)}" data-open="${e(l.id)}"><div class="card-meta"><span>${t('सप्ताह','Week')} ${l.week} · ${t('दिन','Day')} ${l.day}${(label=>label?' · '+e(label):'')(dayLabel(DAY_TYPES[curriculum.id],l,prefs.lang))}</span>${completed[l.id]?`<span class="done-badge">✓ ${t('पढ़ाया','Taught')}</span>`:''}</div><h3>${e(lessonTitle(l))}</h3><p class="card-summary">${e(lessonSummary(l,prefs.lang))}</p><div class="card-footer"><span>${e(isTemplate?t('साप्ताहिक योजना · तैयारी देखें','Weekly plan · check preparation'):duration(l))}</span><span class="card-open">${isTemplate?t('साप्ताहिक रूपरेखा खोलें','Open weekly outline'):t('पाठयोजना खोलें','Open lesson overview')} →</span></div></a>`;}
 function coverage(){return `<details class="about"><summary>${t('कौन-से पाठ उपलब्ध हैं?','Guide coverage and sources')}</summary><p>${e(curriculum.coverage[prefs.lang])}</p><p>${t('मूल संदर्शिका और कार्यपुस्तिका के पृष्ठ ऐप में खुलते हैं। कुछ साप्ताहिक योजनाओं में शिक्षक को तैयारी करनी है। पूरा पाठ्य-संग्रह स्वतंत्र अकादमिक समीक्षा से अभी नहीं गुजरा है।','Original guide and workbook pages open inside the app. Some weekly plans require teacher preparation. The complete corpus has not yet received independent academic review.')}</p></details>`;}
 function findScreen(){const available=findLessons(LESSONS,{grade:prefs.grade});const weeks=[...new Set([...available.map(l=>l.week),...reviewWeeksFor(curriculum,prefs.grade)])].sort((a,b)=>a-b);if(!weeks.includes(prefs.week))prefs.week=weeks[0];const resume=resumeForGrade(LESSONS,store.get(KEY+'-last',null),readObj('-last-by-grade'),prefs.grade);const lastLesson=resume?.lesson;const query=prefs.query.trim().toLocaleLowerCase();const matches=searchLessons(available,query);
 return `<div class="screen-heading"><h1>${t('अपना पाठ चुनें','Choose your lesson')}</h1><span class="year">${e(curriculum.stateLabel)} · ${e(curriculum.academicYear)}</span></div>${lastLesson?`<a class="resume-card" href="${path(lastLesson,resume.step)}" data-open="${e(lastLesson.id)}"><span class="eyebrow">${t('पिछला खुला पाठ','Last opened lesson')} · ${e(gradeLabel(curriculum,lastLesson.grade,prefs.lang))} · ${t('सप्ताह','Week')} ${lastLesson.week} · ${t('दिन','Day')} ${lastLesson.day}</span><strong>${e(lessonTitle(lastLesson))}</strong><span>${stage(lastLesson.phases[Math.min(resume.step,lastLesson.phases.length-1)])} →</span></a>`:''}

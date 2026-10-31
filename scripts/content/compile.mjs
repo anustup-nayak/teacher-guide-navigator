@@ -34,6 +34,9 @@ export function loadPack(pack,root=ROOT){
   const dir=path.join(root,'curricula',pack), model=path.join(dir,'model');
   const config=read(path.join(dir,'pack.json'));
   if(config.status!=='reviewed-snapshot')throw Error(`${pack}: pack not reviewed for publication`);
+  // File-sync tools (iCloud, Dropbox) leave copies such as "1 2.json" that would double lessons.
+  const stray=[...walk(model),...walk(path.join(dir,'compat'))].filter(p=>/\s/.test(path.basename(p))||(path.dirname(p)===path.join(model,'lessons')&&!/^\d+\.json$/.test(path.basename(p))));
+  if(stray.length)throw Error(`${pack}: unexpected model files (sync copies?): ${stray.map(p=>path.relative(root,p)).join(', ')}`);
   const inputFiles=[...walk(model).filter(p=>p.endsWith('.json')),path.join(dir,'compat/v1.json')];
   const inputs=Object.fromEntries(inputFiles.map(p=>[path.relative(root,p).split(path.sep).join('/'),sha256(fs.readFileSync(p))]));
   const optional=name=>fs.existsSync(path.join(model,name))?read(path.join(model,name)):null;

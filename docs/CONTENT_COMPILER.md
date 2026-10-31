@@ -120,7 +120,10 @@ differs. So on `next` the website's lessons come from the compiled release, not 
 hand-published copy. The same test checks that `views/app/grade-N.json` carries every teaching
 field the current website shows (titles, step ids/order, actions, questions, minutes, source
 pages, every cited workbook page) for all 732 lessons, so a v2 front end can switch to the app
-bundles without losing content. `reviewed/catalog.mjs` → `publish_curriculum.mjs` stays the v1
+bundles without losing content. `site:publish` also writes `dist/day-types.mjs` (each pack's
+calendar and day-type labels, from the hash-checked release `structure.json`), which the week
+and topic cards use to name revision, assessment and weekly-plan days the same way in every
+subject; `verify:site` checks it too. `reviewed/catalog.mjs` → `publish_curriculum.mjs` stays the v1
 ingestion path; the parity gate keeps both identical.
 
 **1.0.1 (31 Oct 2026):** adds lesson-level `workbook` links (every page the day cites, in order;

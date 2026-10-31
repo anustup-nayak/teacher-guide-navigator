@@ -1,4 +1,4 @@
-import {gradesFor} from './curriculum.mjs?v=r61';
+import {gradesFor} from './curriculum.mjs?v=r62';
 export const groupKey=pack=>JSON.stringify([pack.state,pack.academicYear]);
 export function curriculumGroups(packs){return [...new Map(packs.filter(p=>p.lessons?.length).map(p=>[groupKey(p),{id:groupKey(p),state:p.state,stateLabel:p.stateLabel,academicYear:p.academicYear}])).values()];}
 export const packsInGroup=(packs,group)=>packs.filter(p=>groupKey(p)===group&&p.lessons?.length);
