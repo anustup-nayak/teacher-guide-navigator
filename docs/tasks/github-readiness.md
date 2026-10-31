@@ -30,3 +30,27 @@ skill entry/ingestion/release/intake. Canonical SOURCE_ARCHIVE and GITHUB_PAGES
 explain the split between full repo and dist-only website. Historical transfer
 manifest moved to docs/TRANSFER_MANIFEST.original.json to avoid implying current
 checksums. Current PRD/runtime behavior and immutable baseline are unchanged.
+
+## Published evidence
+
+- Initial implementation commit: `86aa0e2`.
+- Repository: https://github.com/anustup-nayak/teacher-guide-navigator
+- Live app: https://anustup-nayak.github.io/teacher-guide-navigator/
+- Initial Checks run: https://github.com/anustup-nayak/teacher-guide-navigator/actions/runs/41171644439 — PASS.
+- Initial Pages validation/deployment: https://github.com/anustup-nayak/teacher-guide-navigator/actions/runs/41171644433 — PASS.
+- A clean local clone passed Node/syntax, publication/preservation, strict source
+  integrity and the skill preflight with no warnings.
+- Browser smoke: Hindi/English Find, grade switching, legacy Grade 1 phase link,
+  original-page reader and Escape return, all visible lesson images, and explicit
+  offline preparation verified at the public project-prefix URL. No captured
+  warning/error console entries or desktop horizontal overflow. Local prefix
+  server independently passed lesson images and offline preparation.
+- Production index, app module, worker and sampled guide image match local bytes.
+- All seven PDFs were accepted by GitHub. Three trigger recommended-size warnings
+  above 50 MiB; none exceeds the regular-Git 100 MiB limit. No LFS is currently used.
+
+This evidence update changes documentation only; runtime remains r56. Remote
+workflow results are also available in Actions for each subsequent commit.
+Physical-device airplane mode, physical printing, screen-reader speech, teacher
+observation and full independent academic review were not performed in this task.
+The app-origin change does not migrate existing Sites/localhost notes.
