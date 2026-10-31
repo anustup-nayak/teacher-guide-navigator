@@ -60,7 +60,7 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/agent-continuity-design-lock` | Files listed in [its task note](tasks/agent-continuity-design-lock.md) | done, uncommitted | All checks pass. Next: owner approves → commit, push branch, open PR to `main`, confirm CI, merge, then clear this row. |
+| Claude Code | `task/agent-continuity-design-lock` | Files listed in [its task note](tasks/agent-continuity-design-lock.md) | PR open | Committed and pushed; [PR #1](https://github.com/anustup-nayak/teacher-guide-navigator/pull/1) to `main`. Next: CI green → owner merges → clear this row and move the log status to merged. |
 
 ## Change log
 
@@ -84,8 +84,8 @@ task note, and anything left undone.
   `npm run test:ingestion` 7/7, skill tests 4/4, `npm run verify:sources --
   --require-complete`, skill preflight: all pass. Lock verified to fail on a
   palette change and to ignore a release-version bump.
-- Status: changes on the branch, not yet committed or pushed; waiting for the
-  owner's go-ahead to commit and open a PR.
+- Status: committed and pushed with the owner's go-ahead;
+  [PR #1](https://github.com/anustup-nayak/teacher-guide-navigator/pull/1) awaits merge.
 - Task note: [agent-continuity-design-lock](tasks/agent-continuity-design-lock.md).
 
 ### 2026-10-31 · earlier agent session (agent not recorded) · `main` @ `e838c78`
