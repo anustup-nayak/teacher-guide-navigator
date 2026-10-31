@@ -41,7 +41,7 @@ mid-task. It is the first file to read and the last file to update.
 | Release | r61 (live, tag `v1.0.4`, `main` @ `49f873c`; `release/v1` mirrors it). `next` has `main` merged in |
 | Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
-| Checks | `npm test` (111 on compiler task branch, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (15), skill script tests, `npm run verify:sources -- --require-complete` |
+| Checks | `npm test` (112 on compiler task branch, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (15), skill script tests, `npm run verify:sources -- --require-complete` |
 | Content compiler | Phase 3 implemented in PR #16 (not merged); ontology/release 1.0.0, 732 lessons, both v1 byte-parity gates PASS. PR #15 merged as `7c9556a`; compiler branch synced. |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
 | Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
@@ -103,7 +103,7 @@ old exhaustive live-QA task in this session; earlier r56 evidence is not current
   Synced the compiler branch with next and retained both the owner decisions and
   the proven v1.0.0 parity freeze while resolving two documentation conflicts.
 - Local and both GitHub check runs PASS on `92663b9` (PR #16 is mergeable).
-- 111 Node, 15 Python ingestion, 4 skill helper; content reproducibility/parity,
+- 112 Node, 15 Python ingestion, 4 skill helper; content reproducibility/parity,
   design lock, syntax, source integrity and publication/preservation all PASS locally.
 - No dist/design/storage/baseline/production deployment change. Static releases
   remain repo artifacts; no retrieval/bot/v2 UI or public content endpoint added.

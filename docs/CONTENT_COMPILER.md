@@ -75,7 +75,8 @@ All validation/parity checks run before output is written. A new directory is
 staged then renamed. Repeating identical output is a no-op (no timestamp rewrite).
 An existing version that differs, an extra output file, an unsafe path or a symlink
 fails. `--check` is read-only and fails on missing/stale output. A previous release
-cannot belong to another pack or have the same version; deleting stable entities
+cannot belong to another pack; the new semantic version must be strictly higher
+(including prerelease ordering); deleting stable entities
 is rejected. Deprecate a record rather than dropping its ID.
 
 The compiler validates schemas, day-type/period/slot and grade coverage, duplicate

@@ -12,7 +12,20 @@ const json=x=>JSON.stringify(x,null,1)+'\n';
 export const sha256=x=>crypto.createHash('sha256').update(x).digest('hex');
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const safeId=s=>typeof s==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(s);
-const versionOK=s=>typeof s==='string'&&/^\d+\.\d+\.\d+(?:-[a-z0-9.-]+)?$/.test(s);
+const versionOK=s=>typeof s==='string'&&/^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-[a-z0-9-]+(?:\.[a-z0-9-]+)*)?$/.test(s)&&!(s.split('-').slice(1).join('-').split('.').some(v=>/^0\d+$/.test(v)));
+function compareVersions(a,b){
+  const [av,ap]=a.split(/-(.*)/s),[bv,bp]=b.split(/-(.*)/s);
+  const aa=av.split('.').map(Number),bb=bv.split('.').map(Number);
+  for(let i=0;i<3;i++)if(aa[i]!==bb[i])return aa[i]>bb[i]?1:-1;
+  if(ap===bp)return 0;if(ap===undefined)return 1;if(bp===undefined)return -1;
+  const ax=ap.split('.'),bx=bp.split('.');
+  for(let i=0;i<Math.max(ax.length,bx.length);i++){
+    if(ax[i]===bx[i])continue;if(ax[i]===undefined)return -1;if(bx[i]===undefined)return 1;
+    const an=/^\d+$/.test(ax[i]),bn=/^\d+$/.test(bx[i]);
+    if(an&&bn)return BigInt(ax[i])>BigInt(bx[i])?1:-1;
+    if(an!==bn)return an?-1:1;return ax[i]>bx[i]?1:-1;
+  }return 0;
+}
 const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name,'en')).flatMap(e=>{
   const p=path.join(dir,e.name);if(e.isSymbolicLink())throw Error(`Symlink not allowed: ${p}`);return e.isDirectory()?walk(p):[p];
 });
@@ -40,7 +53,7 @@ function eachSource(value,visit){
 }
 export function buildRelease(data,{version,previous=null}={}){
   if(!versionOK(version))throw Error('Version must be a safe semantic version');
-  if(previous&&(previous.pack!==data.pack||previous.version===version))throw Error('Previous release pack/version mismatch');
+  if(previous&&(previous.pack!==data.pack||!versionOK(previous.version)||compareVersions(version,previous.version)<=0))throw Error('Previous release pack/version mismatch');
   assertSchema('assets',{pack:data.pack,assets:data.assets});
   assertSchema('program',data.program);assertSchema('structure',data.structure);assertSchema('sections',data.sections);
   if(data.pack!==data.program.pack||data.sections.pack!==data.pack||data.structure.pack!==data.pack)throw Error('Pack identity mismatch');

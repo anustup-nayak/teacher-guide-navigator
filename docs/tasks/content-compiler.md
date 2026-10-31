@@ -31,7 +31,7 @@ No dist, page images, design lock, storage, production workflow or baseline chan
 The 33 MiB static releases remain repository artifacts; no new content endpoint is
 served publicly.
 
-Validation so far: 111 Node tests; 15 Python ingestion; 4 skill helper; syntax, design
+Validation so far: 112 Node tests; 15 Python ingestion; 4 skill helper; syntax, design
 lock, source integrity (13 originals), both reviewed publications and preservation
 all pass. Manifest/output check is deterministic/read-only. Final CI/PR evidence
 will be recorded below.
@@ -42,7 +42,7 @@ PR #15; it must be integrated before, or with, this compiler.
 
 ## Final local validation
 
-111/111 Node tests, 15/15 Python ingestion tests and 4/4 skill-helper tests PASS.
+112/112 Node tests, 15/15 Python ingestion tests and 4/4 skill-helper tests PASS.
 `verify:content`, `check`, `design:check`, worker syntax, `verify:publication`,
 strict source archive and `git diff --check` PASS. Both 1.0.0 releases rebuild
 without rewriting any file. Output: 732 lessons, 4,036 qualified steps, 1,962 page
@@ -77,5 +77,7 @@ restored, and the live-test tab closed before compiler work.
 PR #15 merged during close-out as `7c9556a`. Merged the new next head into this
 branch; resolved only HANDOFF and CONTENT_MODEL documentation conflicts, preserving
 all seven owner decisions and the compiler's tested v1.0.0 freeze. No runtime/model
-source conflict. PR #16 is now the next integration step; rerun full gates on the
-synchronized branch before sign-off.
+source conflict. All local gates were rerun successfully on the synchronized branch.
+PR #16 is the next integration step; its final head must pass GitHub checks.
+Semantic versions now reject malformed or non-advancing previous/version pairs,
+including prerelease numeric ordering.

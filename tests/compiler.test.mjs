@@ -66,7 +66,7 @@ test('changelog tracks entities by stable id; removal and previous-pack misuse f
   const fake=clone(first.manifest);fake.entityHashes['routine:deleted']='0'.repeat(64);
   assert.throws(()=>buildRelease(data[0],{version:'1.0.1',previous:fake}),/removed/);
   assert.throws(()=>buildRelease(data[1],{version:'1.0.1',previous:first.manifest}),/pack\/version/);
-  for(const version of ['../bad','1.0','1/2/3'])assert.throws(()=>buildRelease(data[0],{version}),/version/);
+  for(const version of ['../bad','1.0','1/2/3','01.0.0','1.0.0-.','1.0.0-rc.01'])assert.throws(()=>buildRelease(data[0],{version}),/version/);
 });
 
 test('legacy-only metadata changes appear against the lesson id and changed files',()=>{
@@ -89,4 +89,13 @@ test('independent instruction variants are canonical and unsafe release paths ca
   assert(step);step.instructions[0]+=' TEST';assert.throws(()=>buildRelease(d,{version:'1.0.1'}),/byte parity/);
   const dir=fs.mkdtempSync(path.join(os.tmpdir(),'teacher-release-path-'));
   try{assert.throws(()=>writeRelease({files:new Map([['../escape','bad']])},path.join(dir,'release')),/Unsafe/);assert.deepEqual(fs.readdirSync(dir),[]);}finally{fs.rmSync(dir,{recursive:true,force:true});}
+});
+
+test('new releases advance semantic versions and prerelease identifiers in order',()=>{
+  const first=buildRelease(data[0],{version:'1.0.0'});
+  assert.throws(()=>buildRelease(data[0],{version:'0.9.0',previous:first.manifest}),/pack\/version/);
+  const rc=buildRelease(data[0],{version:'1.0.1-rc.9',previous:first.manifest});
+  assert.doesNotThrow(()=>buildRelease(data[0],{version:'1.0.1-rc.10',previous:rc.manifest}));
+  assert.throws(()=>buildRelease(data[0],{version:'1.0.1-rc.8',previous:rc.manifest}),/pack\/version/);
+  assert.doesNotThrow(()=>buildRelease(data[0],{version:'1.0.1',previous:rc.manifest}));
 });
