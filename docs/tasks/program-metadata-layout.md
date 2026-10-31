@@ -28,8 +28,22 @@ intake understands the whole guide before lessons. Folder ownership and raw → 
   Added canonical repository-layout/program-metadata docs and updated active
   contracts, discovery, requirements template and compiler instructions.
 
-## Verification underway
+## Verification
 
-Python ingestion: 16/16. Skill helper: 5/5. Skill format validation PASS.
-Full Node/compiler/source/publication/design checks and final diff review pending.
+- Full final Node suite: 116/116 PASS. The first full run caught outcome links
+  leaking through an overly narrow graph-edge predicate; fixed typed-string link
+  recognition while preserving numeric calendar ranges, then reran all tests.
+- Program readiness: both packs PASS, nine dimensions each; strict preflight with
+  source/review/program flags PASS for both packs.
+- Immutable 1.1.0 compiler verification and 732-lesson v1 byte parity PASS.
+  Retained 1.0.0 release file hashes pass the new regression test.
+- Published payloads and all 1,962 prior page assets preserved; publication gate PASS.
+- Python ingestion 16/16; skill helpers 5/5; skill format validation PASS.
+- Source archive complete: 13 PDFs verified, no missing files or checksum errors.
+- Protected design lock, module graph, worker syntax, moved Python/JS syntax PASS.
+  Shared font mapping/function body unchanged; no obsolete active tool references.
+- Staged diff check PASS; no dist, design-lock, preservation-baseline or 1.0.0 edits.
+
+The first complete preservation scan took about 16 minutes in the fresh worktree;
+after asset reads completed, the final full Node run took 4.2 seconds.
 No browser UI was changed; no live deployment or v2 cutover is part of this task.

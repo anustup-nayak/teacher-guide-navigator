@@ -41,14 +41,14 @@ mid-task. It is the first file to read and the last file to update.
 | Release | r61 (live, tag `v1.0.4`, `main` @ `49f873c`; `release/v1` mirrors it). `next` has `main` merged in |
 | Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
-| Checks | `npm test` (112 on compiler task branch, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (15), skill script tests, `npm run verify:sources -- --require-complete` |
-| Content compiler | Phase 3 implemented in PR #16 (not merged); ontology/release 1.0.0, 732 lessons, both v1 byte-parity gates PASS. PR #15 merged as `7c9556a`; compiler branch synced. |
+| Checks | `npm test` (116 on metadata task branch, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (16), skill script tests, `npm run verify:sources -- --require-complete` |
+| Content compiler | Phase 3 in PR #16 (not merged); metadata task builds on it with additive 1.1.0 releases, required program understanding and shared query accessor. Retained 1.0.0 unchanged; 732 lessons, both v1 byte-parity gates PASS. |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
 | Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
 
 ## Next up
 
-*Refreshed 31 Oct 2026 after Phase 3 implementation; read AGENTS.md first.*
+*Refreshed 31 Oct 2026 after program-metadata cleanup; read AGENTS.md first.*
 
 v1 remains live at r61 (`main` @ `49f873c`, tag `v1.0.4`; `release/v1` mirrors it).
 v2 integration remains on `next`. No v2 runtime or content endpoint was deployed.
@@ -57,12 +57,16 @@ v2 integration remains on `next`. No v2 runtime or content endpoint was deployed
    (owner's ontology decisions) merged as `7c9556a` while the compiler handoff was
    being finalized. [PR #16](https://github.com/anustup-nayak/teacher-guide-navigator/pull/16)
    is synced with that `next` head; review/merge #16 next. Implementation checks passed
-   on `92663b9`; final branch checks also run after the synchronization.
+   on its final head. Then integrate the program-metadata-layout task (dependent on #16).
+   See [metadata task evidence](tasks/program-metadata-layout.md).
 2. **Phase 3 is implemented:** [compiler contract](CONTENT_COMPILER.md),
    [task evidence](tasks/content-compiler.md). Both v1 catalogs reconstruct byte for byte
    from 732 model lessons; ontology v1.0.0 frozen in the compiler branch. Static releases,
    qualified graph, per-grade views, changelog and shared query API are present. No
    remaining compiler implementation is claimed for the next agent; integrate/review first.
+   The metadata task adds schema/release 1.1.0 and program-understanding readiness
+   without changing the frozen 1.0.0 releases. Follow [PROGRAM_METADATA.md](PROGRAM_METADATA.md)
+   and [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md) for all future source work.
 3. **Phases 4–5 next** (task branch from the updated `next`): populate the full per-pack
    model (outcomes, sequence, routines, materials, assessments and guide passages), using
    [CONTENT_MODEL.md §6](CONTENT_MODEL.md) decisions. Manifests honestly mark those families
@@ -79,7 +83,7 @@ old exhaustive live-QA task in this session; earlier r56 evidence is not current
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Codex | `task/program-metadata-layout` (isolated; builds on PR #16) | program-understanding metadata/schema/gates, pack tooling layout, core skill/templates, canonical folder docs and tests | in progress | User requested ontology-aligned cleanup and program understanding as core metadata. Implemented metadata/schema/gates, two 1.1.0 snapshots, isolated legacy tooling and program-first skill/docs. Python ingestion 16/16 and skill helpers 5/5 pass. Full compiler/Node/source gates running; then diff review and PR. |
+| Codex | `task/program-metadata-layout` (isolated; builds on PR #16) | program-understanding metadata/schema/gates, pack tooling layout, core skill/templates, canonical folder docs and tests | in progress | User requested ontology-aligned cleanup and program understanding as core metadata. Implemented metadata/schema/gates, two 1.1.0 snapshots, isolated legacy tooling and program-first skill/docs. Python ingestion 16/16 and skill helpers 5/5 pass. All local gates PASS: Node 116, ingestion 16, helper 5, 13 source PDFs, both compiler/parity and publication/design preservation. Review fix included. Next: push final query fix, PR and GitHub CI. |
 | Claude Code | `task/ontology-decisions` (from `next`) | `docs/CONTENT_MODEL.md` §3/§6, `schemas/content-model/{vocabularies,common,outcomes}`, `curricula/*/model/structure.json`, `scripts/content/build_examples.mjs`, examples, profiles | Merged as PR #15 | Owner decided all 7 open points; ontology is v1.0 release candidate. Next: Phase 3 compiler (byte-for-byte v1 parity) freezes v1.0. |
 | Claude Code | `task/content-platform` (from `next`) | `docs/CONTENT_PLATFORM.md`; links in `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/ARCHITECTURE.md`, `docs/PRD.md` | Merged as PR #12 (`9ce00b1`) | Owner: build only the website now; design the content repository so other products can come later. Next: Phase 3 builds the website's content release and query library. |
 | Claude Code | `task/lesson-link-pack` (from `main`) | `dist/domain/selection.mjs`, `dist/app.mjs` (render), `tests/hindi-pack.test.mjs`, r61 bumps, `docs/ARCHITECTURE.md` | Merged as PR #14 (`49f873c`); live r61, tag `v1.0.4` | Done, and branches synced. Left: lazy subject loading. |

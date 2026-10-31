@@ -7,7 +7,7 @@ export function createContentQuery(release,{includeUnreviewedLinks=false}={}){
   const visibleLink=l=>includeUnreviewedLinks||visible(l);
   function project(v){
     if(!v||typeof v!=='object')return v;
-    if(typeof v.from==='string'&&typeof v.to==='string'&&typeof v.relation==='string'&&!visibleLink(v))return undefined;
+    if(typeof v.to==='string'&&!visibleLink(v))return undefined;
     if(Array.isArray(v))return v.map(project).filter(x=>x!==undefined);
     const out={};for(const [key,value]of Object.entries(v)){
       // Legacy guide drafts mixed stated sourceText with explicitly editorial summaries.
