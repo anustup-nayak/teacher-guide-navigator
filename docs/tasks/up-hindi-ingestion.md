@@ -96,7 +96,49 @@ authenticated browser or a local copy.
   120-dpi render: 1.1 शिक्षक द्वारा अनुभव सुनाना (7–10), 1.2 बच्चों द्वारा अनुभव साझा
   करना (10–15), 1.3 लेखन कार्य (10–12); 1.3 names ‘मेरा प्यारा मित्र’ as printed.
 - Review list: G3 w4 d3 period 2 objective loses a bare vowel sign inside quotes.
-- [ ] Workbook mapping, topics, build reviewed files, renders, register, checks, PR.
+- [x] Workbook mapping (`tools/parse_workbooks.py`): workbooks have 5 days/week against
+  the guide's 6, so the guide's printed page-number icons decide the page; the icon's
+  line says workbook or textbook. All cited workbook pages exist; textbook refs are kept
+  as printed-book references (no Hindi textbooks supplied). This also answers the edition
+  question provisionally: the 2024–25/2025–26 workbooks match the 2026–27 guide citations.
+- [x] Built (`tools/build_pack.py`): 366 lessons, 2,752 steps, 332 workbook links, 175 grid
+  crops, 972 WebP pages (125 MB) in `dist/packs/up-hindi-2026/`. Topics = annual-objective
+  week blocks (printed p13). Registered after Math in `dist/curricula.mjs`; storage
+  namespace `up-hindi-sandarshika-2026-v1`. Release r57 (record:additions, manifest,
+  release:assets).
+- [x] Generic app edits (no protected file, Math unchanged): phase `role` drives card/chip
+  colour; `worksheetPreview` shows the workbook page on the step that uses it;
+  `validateCatalog` totals minutes only when all are whole numbers (Hindi keeps ranges).
+
+## Checks (31 October 2026)
+
+npm test 80/80 (5 new Hindi-pack tests, design lock 6/6); npm run check; design:check;
+sw.js syntax; verify:publication (both packs, all prior payloads/pages preserved);
+test:ingestion 12/12; skill tests 4/4; verify:sources --require-complete; publish --check
+for both packs. Browser (localhost): Math default and legacy query-less deep link
+unchanged; subject switch to हिन्दी; 4 Grade 1 topics (90 lessons); G1 w9 d2 lesson
+(7 steps, period colours, workbook page 6 preview); grid crop G1 w17 d5; combined
+कालांश 2 एवं 3 on G2 w1 d6; repaired G3 w19 d6; week route incl. सप्ताह 13 review;
+English UI; 360 px no horizontal overflow; separate storage namespaces; no console errors.
+Not run: 390 px, keyboard-only pass, offline download of a Hindi lesson, real phones.
+
+## Known limits / follow-ups
+
+- Text is decoded, audited for all 366 days and compared on sampled lessons (G1 w9 d2,
+  G2 w1 d5–6, G3 w3 d4, w4 d3, w19 d6, G1 w10 d6, w17 d5); not proofread line by line.
+  Lessons carry contentStatus `decoded-unreviewed` and a visible extraction notice.
+- Review list: G3 w4 d3 objective loses a bare vowel sign in quotes; G3 w19 d6 cites
+  workbook p82 (labelled week 18 day 5); 8 source step-number misprints kept.
+- Both subjects' catalogs load at startup (Hindi 6.4 MB, ~455 KB compressed). Loading a
+  subject's lessons only when selected would halve first-visit download (follow-up).
+- Repository is ~0.85 GB on GitHub plus 135 MB in LFS; future packs should consider
+  LFS or an external archive for originals.
+
+## Documentation impact
+
+README, CURRICULUM_EXPANSION (current coverage), CURRICULUM_PACKS (phase `role`,
+`worksheetPreview`, minute ranges), MVP_ACCEPTANCE note, SOURCE_ARCHIVE (LFS),
+skill ingestion reference (lessons from the Hindi adapter), HANDOFF.
 
 ## Unresolved
 

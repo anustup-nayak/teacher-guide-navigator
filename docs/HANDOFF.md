@@ -38,16 +38,16 @@ mid-task. It is the first file to read and the last file to update.
 |---|---|
 | Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`) |
 | Repository | github.com/anustup-nayak/teacher-guide-navigator (public), default branch `main` |
-| Release | r56 (app, worker and import URLs) |
-| Published content | UP Mathematics Grades 1–3, pack `up-math-2026`: 366 day plans (183 direct, 183 weekly), 990 page images |
-| Teacher-data namespace | `up-sandarshika-2026-v1` (permanent) |
+| Release | r57 on branch `task/up-hindi-ingestion` (live site still r56 until merged) |
+| Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026` (on branch until merged): 366 day plans, 972 page images |
+| Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
 | Checks | `npm test` (75, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (9), skill script tests, `npm run verify:sources -- --require-complete` |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
 | Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
 
 ## Next up
 
-**UP Hindi (language subject), Grades 1–3.** Discovery in progress (see *Active work*). Sources: Renu Chauhan's Drive folder “UP Literacy TG & WB” (TG G1–G3, Workbooks Sarangi G1–G2 and Veena 1 G3).
+**UP Hindi Grades 1–3 built** (see *Active work* and the change log); after merge: proofreading of the review list, optional per-subject lazy loading. Sources: Renu Chauhan's Drive folder “UP Literacy TG & WB” (TG G1–G3, Workbooks Sarangi G1–G2 and Veena 1 G3).
 Follow [skills/teacher-guide-to-app/SKILL.md](../skills/teacher-guide-to-app/SKILL.md)
 from its discovery step: obtain the Hindi Teacher Guide and Workbook PDFs,
 inspect them, agree a requirements brief with the owner, then build a **new,
@@ -60,12 +60,27 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/up-hindi-ingestion` | `curricula/up-hindi-2026/`, `dist/packs/up-hindi-2026*`, `dist/curricula.mjs`, small generic edits in `dist/app.mjs` (phase `role`, `worksheetPreview`), `dist/lesson-visuals.mjs`, `dist/core.mjs` (minutes ranges), `tests/hindi-pack.test.mjs`, `tests/test_hindi_decoder.py`, docs listed in task note, this file | in progress: build | Builder `tools/build_pack.py` renders 972 WebPs into dist/packs/up-hindi-2026/ and writes reviewed/. Pack registered in curricula.mjs (Math first). If interrupted: rerun parse_guides → parse_workbooks → build_pack (it skips existing images), then `node scripts/publish_curriculum.mjs up-hindi-2026`, `npm run record:additions`, `npm run manifest`, `npm run release:assets -- r57`, full checks, browser test Hindi/English 360/390. tests/hindi-pack.test.mjs fails until publish. |
+| Claude Code | `task/up-hindi-ingestion` | see task note | done locally; PR next | All checks pass; browser-tested. Next: push (includes 135 MB LFS object) and open PR to `main`; owner merges; then clear this row. |
 
 ## Change log
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `task/up-hindi-ingestion`
+
+- Added UP Hindi Grades 1–3 as pack `up-hindi-2026` beside Math in the same app (Subject
+  menu: गणित / हिन्दी): 366 lessons, 2,752 timed steps, 332 workbook links, 175 grid
+  crops, 972 page images; release r57. Math payloads, IDs, images and storage unchanged
+  (preservation gate passes).
+- Pack adapter in `curricula/up-hindi-2026/tools/` (legacy-font decoder, glyph-order
+  rebuild, hidden-edit filter, grid/tip handling, workbook citation mapping, builder,
+  one source-compared repair). Originals archived; G3 workbook via Git LFS.
+- Small generic app edits (phase `role`, `worksheetPreview`, minute ranges); no protected
+  design file changed. Checks: npm test 80/80, all gates; browser QA listed in task note.
+- Left: line-by-line proofreading; review list; 390 px/keyboard/offline-Hindi/real-device
+  checks; possible per-subject lazy loading. Task note:
+  [up-hindi-ingestion](tasks/up-hindi-ingestion.md).
 
 ### 2026-10-31 · Claude Code · `main` @ `145d49d` (PR #1, squash-merged)
 

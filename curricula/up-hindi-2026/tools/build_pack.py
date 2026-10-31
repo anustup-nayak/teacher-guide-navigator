@@ -144,7 +144,9 @@ def main(repo, images=True):
                     questions = [clean(q) for q in s['questions'] if clean(q)]
                     phase = {'id': pid, 'title': clean(s['title']) or clean(p['title']),
                              'period': f"{label} · {clean(p['title'])}", 'role': ROLES.get(p['period'], 'teaching'),
-                             'minutes': dash(s['minutes']), 'actions': actions + questions,
+                             # actions = instructions (the app shows instructions, then questions);
+                             # a question-only step keeps its questions as actions.
+                             'minutes': dash(s['minutes']), 'actions': actions or questions,
                              'instructions': actions, 'questions': questions,
                              'image': guide_res['pages'][s['pdfPage'] - 1],
                              'sourceRect': [0.05, round(max(0, s['top'] - 0.01), 4), 0.95, round(min(1, s['bottom'] + 0.01), 4)],
