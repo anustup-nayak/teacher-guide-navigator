@@ -47,7 +47,7 @@ mid-task. It is the first file to read and the last file to update.
 
 ## Next up
 
-**UP Hindi Grades 1–3 is live.** Possible next steps: proofread the review list in `docs/tasks/up-hindi-ingestion.md`; 390 px, keyboard-only, offline-Hindi and real-phone checks; load each subject's lessons only when selected. Sources: Renu Chauhan's Drive folder “UP Literacy TG & WB” (TG G1–G3, Workbooks Sarangi G1–G2 and Veena 1 G3).
+**Ontology-led content system and app v2** — plan in [CONTENT_ARCHITECTURE_PLAN.md](CONTENT_ARCHITECTURE_PLAN.md), awaiting owner approval. Earlier possible next steps: proofread the review list in `docs/tasks/up-hindi-ingestion.md`; 390 px, keyboard-only, offline-Hindi and real-phone checks; load each subject's lessons only when selected. Sources: Renu Chauhan's Drive folder “UP Literacy TG & WB” (TG G1–G3, Workbooks Sarangi G1–G2 and Veena 1 G3).
 Follow [skills/teacher-guide-to-app/SKILL.md](../skills/teacher-guide-to-app/SKILL.md)
 from its discovery step: obtain the Hindi Teacher Guide and Workbook PDFs,
 inspect them, agree a requirements brief with the owner, then build a **new,
@@ -60,7 +60,7 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| — | — | — | — | — |
+| Claude Code | `task/ontology-plan` | `docs/CONTENT_ARCHITECTURE_PLAN.md`, this file | plan written, awaiting owner approval | No code changed. Next: owner answers the 4 decisions in §9 of the plan, then Phase 0 (tag v1.0.0, release/v1, next branch). |
 
 ## Change log
 
