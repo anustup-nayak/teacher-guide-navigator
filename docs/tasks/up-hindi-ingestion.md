@@ -70,8 +70,17 @@ authenticated browser or a local copy.
   >100 MiB only when LFS-tracked and verifies LFS pointers against the manifest, so
   CI does not download LFS content. Tests: 9/9 ingestion. Simulated CI clone
   (`GIT_LFS_SKIP_SMUDGE=1`): verify:sources ok (13 documents, 1 pointer), npm test 75/75.
-- [ ] Then: decoder adapter, lesson mapping, source comparison, publish, register
-  Hindi as a subject, full checks, PR.
+- [x] Decoder `tools/hindi_text.py`: per-family glyph fixes before the shared Kruti
+  mapping (क/फ hook glyphs, Chanakya \x01 spaces, Ú ¢ Û Ç ý õ É ä ± » ¤ £). Words with
+  the ळ mis-decode: 8,978 → 10 across all 972 pages. `tests/test_hindi_decoder.py`
+  covers 20 real words checked against page images.
+- Build design (keeps existing screens): every TG day 1–6 is a full 3-period plan,
+  so no weekly-template records. One phase per source step (1.1, 1.2 …) with
+  `period` "N · <period title>" and source minutes; period colours via a generic
+  phase `role` (period 1 teaching/amber, 2 practice/pink, 3 support/purple, as on the
+  printed pages). Weeks 13/20 are one-page review tables → `reviewPages`. Topics =
+  the TG's own annual objectives by week block (G1 p15).
+- [ ] TG parser, workbook mapping, renders, publish, register, checks, PR.
 
 ## Unresolved
 

@@ -60,7 +60,7 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/up-hindi-ingestion` | `curricula/up-hindi-2026/`, `scripts/verify_source_archive.py`, `tests/test_source_archive.py`, `docs/SOURCE_ARCHIVE.md`, `docs/tasks/up-hindi-ingestion.md`, this file | in progress: discovery done; branch local, not pushed | Originals committed (G3 workbook in Git LFS; verifier checks LFS pointers so CI needs no download). Owner: use these workbooks for now; a reply to Renu asking about editions is drafted in Gmail; the owner is editing and will send it (agents: do not send it). Next: build decoder adapter (per-font fixes, checked against page images) → map lessons/workbook pages → publish as subject Hindi → checks → PR. |
+| Claude Code | `task/up-hindi-ingestion` | `curricula/up-hindi-2026/`, `tests/test_hindi_decoder.py`, `scripts/verify_source_archive.py`, `tests/test_source_archive.py`, `docs/SOURCE_ARCHIVE.md`, `docs/tasks/up-hindi-ingestion.md`, this file | in progress: build (owner said start building) | Done: decoder `curricula/up-hindi-2026/tools/hindi_text.py` (+ tests) cuts ळ-errors 8,978→10 across 972 pages. Next: TG parser (periods by कालांश header bands, two columns left→right, steps N.N with minutes, bullets = leading-space spans, questions = •), workbook week/day mapping, WebP renders, publish, register subject. Design notes in task note. Renu email: owner sends. |
 
 ## Change log
 
