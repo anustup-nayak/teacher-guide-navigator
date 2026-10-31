@@ -38,34 +38,57 @@ mid-task. It is the first file to read and the last file to update.
 |---|---|
 | Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`) |
 | Repository | github.com/anustup-nayak/teacher-guide-navigator (public). Branches: `main` (v1 live), `release/v1`, `next` (v2) — see [VERSIONING.md](VERSIONING.md). Tag `v1.0.0` = r57 |
-| Release | r57 (live; deployed from `main` @ `4e7065d`) |
+| Release | r57 (live). `main`, `release/v1` and `next` all at `25c50ac` (docs-only commits after r57; live worker still r57) |
 | Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
-| Checks | `npm test` (75, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (9), skill script tests, `npm run verify:sources -- --require-complete` |
+| Checks | `npm test` (80, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (12), skill script tests, `npm run verify:sources -- --require-complete` |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
 | Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
 
 ## Next up
 
-**Ontology-led content system and app v2** — plan in [CONTENT_ARCHITECTURE_PLAN.md](CONTENT_ARCHITECTURE_PLAN.md), awaiting owner approval. Earlier possible next steps: proofread the review list in `docs/tasks/up-hindi-ingestion.md`; 390 px, keyboard-only, offline-Hindi and real-phone checks; load each subject's lessons only when selected. Sources: Renu Chauhan's Drive folder “UP Literacy TG & WB” (TG G1–G3, Workbooks Sarangi G1–G2 and Veena 1 G3).
-Follow [skills/teacher-guide-to-app/SKILL.md](../skills/teacher-guide-to-app/SKILL.md)
-from its discovery step: obtain the Hindi Teacher Guide and Workbook PDFs,
-inspect them, agree a requirements brief with the owner, then build a **new,
-separate pack** under the rules in [CURRICULUM_EXPANSION.md](CURRICULUM_EXPANSION.md).
-The Math pack, its paths, images, IDs and storage keys must stay byte-identical.
-The new subject must reuse the existing screens and lesson card components; any
-new visual component needs owner approval under the design contract.
+**Ontology-led content system and app v2**, plan in [CONTENT_ARCHITECTURE_PLAN.md](CONTENT_ARCHITECTURE_PLAN.md)
+(approved by the owner; branch rules in [VERSIONING.md](VERSIONING.md)). Do the phases in
+order and stop at every ✋ gate for the owner.
+
+1. **Finish Phase 0 (blocked on the owner).** The owner creates a free GitHub organisation
+   and tells you its name (suggested `sandarshika-preview`). Then, with the owner's go-ahead:
+   create the public repo `<org>/<org>.github.io`, add `docs/preview/pages-preview.yml` as
+   `.github/workflows/pages-preview.yml`, set Pages source to GitHub Actions, run the
+   workflow once, and confirm `https://<org>.github.io/` serves the `next` build. Record the
+   URL in *Current state* and the plan §9.
+2. **Phase 1** (read all front and back matter of both programs; program profiles, section
+   map, page map). Work on `task/*` branches from `next`; PRs go to `next`, never `main`.
+3. Open plan decisions §9.2–5 (derived LO links, reviewers, v2 additions, program-guide
+   placement) need the owner's answers before the phases that use them.
+
+v1 follow-ups (on `main`, then fast-forward `release/v1` and merge `main` into `next`):
+proofread the review list in `docs/tasks/up-hindi-ingestion.md`; 390 px, keyboard-only,
+offline-Hindi and real-phone checks; load each subject's lessons only when selected.
 
 ## Active work
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/ontology-plan` | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml`, `AGENTS.md`, this file | Phase 0 in progress | Done: tag `v1.0.0` (=5ae263b, r57), branches `release/v1` and `next` pushed; branch rules written. Waiting: owner creates the preview GitHub organisation, then create `<org>.github.io` repo with docs/preview/pages-preview.yml and enable Pages (Actions). Then Phase 1. |
+| Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
 
 ## Change log
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `main` @ `25c50ac` (PR #5, squash-merged)
+
+- Added the [content architecture plan](CONTENT_ARCHITECTURE_PLAN.md) for an ontology-led
+  content model (program, outcomes, sequence, routines, materials, assessments, lessons,
+  program guide from the front matter, page map, provenance) and app v2, phases 0–9 with
+  owner gates; the owner approved it and chose a second GitHub Pages site for previews.
+- Phase 0: [VERSIONING.md](VERSIONING.md) (branches `main`/`release/v1`/`next`, tags,
+  rollback, teacher-data contract, cutover), tag `v1.0.0`, preview workflow template
+  `docs/preview/pages-preview.yml`, branch rule in AGENTS.md. `release/v1` and `next`
+  fast-forwarded to `25c50ac`.
+- Checks: Checks and GitHub Pages workflows green; live worker still `r57`.
+- Left: preview organisation and site (owner action first), then Phase 1.
 
 ### 2026-10-31 · Claude Code · `main` @ `4e7065d` (PR #3, squash-merged; live as r57)
 
