@@ -126,6 +126,7 @@ Not run: 390 px, keyboard-only pass, offline download of a Hindi lesson, real ph
 
 - 2026-10-31 r58: G2 w19 d3 repaired (periods 2–3); see [repair task](repair-g2-hindi-w19-d03.md).
 - 2026-10-31 r59: grid crops now follow the step's column (133 moved); see [grid task](hindi-grid-columns.md).
+- 2026-10-31 r60: empty quoted vowel signs restored in 13 lessons (incl. G3 w4 d3); see [v1 fixes](v1-fixes.md).
 
 - Text is decoded, audited for all 366 days and compared on sampled lessons (G1 w9 d2,
   G2 w1 d5–6, G3 w3 d4, w4 d3, w19 d6, G1 w10 d6, w17 d5); not proofread line by line.

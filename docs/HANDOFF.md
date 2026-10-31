@@ -70,7 +70,8 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/hindi-grid-columns` (from `main`) | `curricula/up-hindi-2026/tools/parse_guides.py`, Hindi reviewed/dist catalog, `curricula/published-baseline.json`, `tests/test_hindi_grids.py`, `tests/hindi-pack.test.mjs`, r59 bumps | r59 drafted; PR to `main` open | Done: parser fix, rebuild (only grid crops move), amendment, tests, browser check. Next: owner merges; then sync branches. Task note: [grid](tasks/hindi-grid-columns.md). |
+| Claude Code | `task/v1-fixes` (from `main`) | Hindi `repairs.json`, `build_pack.py`, reviewed/dist catalog and worksheets, `curricula/published-baseline.json`, `tests/hindi-pack.test.mjs`, r60 bumps | r60 drafted; PR to `main` open | Done: 390 px, keyboard and offline checks pass; restored 21 vowel signs in 13 lessons. Next: owner merges; sync branches. Left: pack-less lesson links, lazy subject loading. Task note: [v1 fixes](tasks/v1-fixes.md). |
+| Claude Code | `task/hindi-grid-columns` (from `main`) | `curricula/up-hindi-2026/tools/parse_guides.py`, Hindi reviewed/dist catalog, `curricula/published-baseline.json`, `tests/test_hindi_grids.py`, `tests/hindi-pack.test.mjs`, r59 bumps | Merged as PR #11 (`cb6075b`); live r59, tag `v1.0.2` | Done, and branches synced. Task note: [grid](tasks/hindi-grid-columns.md). |
 | Claude Code | `task/repair-g2-hindi-w19-d03` (from `main`) | `curricula/up-hindi-2026/tools/{repairs.json,build_pack.py}`, `curricula/up-hindi-2026/reviewed/catalog.mjs`, `dist/packs/up-hindi-2026/catalog.mjs`, `curricula/published-baseline.json`, r58 version bumps in `dist/` | Merged as PR #10 (`181a840`); live r58, tag `v1.0.1` | Done, and branches synced (`release/v1`, `next`). Task note: [repair](tasks/repair-g2-hindi-w19-d03.md). |
 | Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
 
@@ -78,6 +79,17 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `task/v1-fixes` (PR to `main`, release r60)
+
+- v1 checks: 390 px (no overflow), keyboard-only (logical order, visible focus), offline Hindi
+  lesson (loads from cache with the server stopped) all pass.
+- Fixed: bare vowel signs in quotes are drawings, not text, so 21 places in 13 Hindi lessons
+  (several lesson titles) showed ‘ ’. Each sign read from the page image and restored via a
+  `sign` repair; nothing else changes. Third recorded baseline amendment; new pack test.
+- Checks: npm test 82/82, check, design:check, sw.js, verify:publication, ingestion 15/15,
+  verify:sources, skill tests. Left: lesson links without `?curriculum=`; lazy subject loading.
+  Task note: [v1 fixes](tasks/v1-fixes.md).
 
 ### 2026-10-31 · Claude Code · `task/hindi-grid-columns` (PR to `main`, release r59)
 

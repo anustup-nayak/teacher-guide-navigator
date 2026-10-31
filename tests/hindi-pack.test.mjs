@@ -61,6 +61,15 @@ test('decoded text matches page images on checked lessons, including the reviewe
  const grid=byId('g1-hindi-w17-d05').phases.find(p=>p.title.includes('समूह-A'));assert.ok(grid.actions[0].includes('बच्चों को वर्ण एवं अक्षर पहचानने'),'grid letters kept out of instructions');
 });
 
+test('quoted vowel signs are restored, never left blank (r60)',()=>{
+ const blank=/‘\s*’/,text=JSON.stringify(hindi.lessons);
+ assert.ok(!blank.test(text),'no empty ‘ ’ in Hindi lessons or their worksheets');
+ assert.equal(byId('g1-hindi-w17-d01').title,'‘ े ’ मात्रा की पहचान करना');
+ assert.ok(byId('g1-hindi-w24-d01').title.includes('अनुस्वर ‘ ं ’'));
+ assert.ok(byId('g3-hindi-w04-d04').title.includes('मात्रा ‘ ँ ’'));
+ assert.equal(byId('g1-hindi-w17-d01').contentStatus,'decoded-unreviewed','a sign repair does not mark the whole lesson compared');
+});
+
 test('grid crops sit on the step printed in the same column (r59)',()=>{
  const overrides=hindi.visualStyle.overrides,steps=id=>Object.keys(overrides[id]||{});
  // 3.2 (remedial, right column) sits beside 3.1 (left column); the grid belongs to 3.2.
