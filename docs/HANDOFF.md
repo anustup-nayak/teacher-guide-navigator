@@ -37,7 +37,7 @@ mid-task. It is the first file to read and the last file to update.
 | Item | Value |
 |---|---|
 | Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`) |
-| Repository | github.com/anustup-nayak/teacher-guide-navigator (public), default branch `main` |
+| Repository | github.com/anustup-nayak/teacher-guide-navigator (public). Branches: `main` (v1 live), `release/v1`, `next` (v2) — see [VERSIONING.md](VERSIONING.md). Tag `v1.0.0` = r57 |
 | Release | r57 (live; deployed from `main` @ `4e7065d`) |
 | Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
@@ -47,7 +47,7 @@ mid-task. It is the first file to read and the last file to update.
 
 ## Next up
 
-**UP Hindi Grades 1–3 is live.** Possible next steps: proofread the review list in `docs/tasks/up-hindi-ingestion.md`; 390 px, keyboard-only, offline-Hindi and real-phone checks; load each subject's lessons only when selected. Sources: Renu Chauhan's Drive folder “UP Literacy TG & WB” (TG G1–G3, Workbooks Sarangi G1–G2 and Veena 1 G3).
+**Ontology-led content system and app v2** — plan in [CONTENT_ARCHITECTURE_PLAN.md](CONTENT_ARCHITECTURE_PLAN.md), awaiting owner approval. Earlier possible next steps: proofread the review list in `docs/tasks/up-hindi-ingestion.md`; 390 px, keyboard-only, offline-Hindi and real-phone checks; load each subject's lessons only when selected. Sources: Renu Chauhan's Drive folder “UP Literacy TG & WB” (TG G1–G3, Workbooks Sarangi G1–G2 and Veena 1 G3).
 Follow [skills/teacher-guide-to-app/SKILL.md](../skills/teacher-guide-to-app/SKILL.md)
 from its discovery step: obtain the Hindi Teacher Guide and Workbook PDFs,
 inspect them, agree a requirements brief with the owner, then build a **new,
@@ -60,7 +60,7 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| — | — | — | — | — |
+| Claude Code | `task/ontology-plan` | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml`, `AGENTS.md`, this file | Phase 0 in progress | Done: tag `v1.0.0` (=5ae263b, r57), branches `release/v1` and `next` pushed; branch rules written. Waiting: owner creates the preview GitHub organisation, then create `<org>.github.io` repo with docs/preview/pages-preview.yml and enable Pages (Actions). Then Phase 1. |
 
 ## Change log
 

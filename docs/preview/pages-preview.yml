@@ -1,0 +1,47 @@
+# Copy to .github/workflows/pages-preview.yml in the preview repository <org>/<org>.github.io.
+# Publishes the v2 integration branch of the main repository on a separate origin, so the
+# preview never shares the live app's offline worker or browser storage. No secrets needed:
+# the source repository is public.
+name: Preview (next)
+on:
+  schedule:
+    - cron: '17 */3 * * *'     # every 3 hours
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: preview
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: anustup-nayak/teacher-guide-navigator
+          ref: next
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      # Phase 3 adds the v2 build (dist-next/); until then the preview shows next's dist/.
+      - name: Choose site folder
+        id: site
+        run: |
+          if [ -f package.json ] && node -e "process.exit(require('./package.json').scripts?.['build:next']?0:1)"; then npm run build:next; fi
+          if [ -d dist-next ]; then echo "dir=dist-next" >> "$GITHUB_OUTPUT"; else echo "dir=dist" >> "$GITHUB_OUTPUT"; fi
+      - run: echo "$(git rev-parse --short HEAD)" > ${{ steps.site.outputs.dir }}/preview-commit.txt
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ steps.site.outputs.dir }}
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
