@@ -19,6 +19,9 @@ LEGACY = re.compile(r'Kruti|BHARTIYA|SuperHindi|Chanakya|AAText', re.I)
 PERCENT = ''  # placeholder: Kruti maps '%' to visarga, so a real percent sign is carried through
 
 
+DINGBATS = str.maketrans({'3': '✓', '4': '✔', '7': '✗', '8': '✘'})   # workbook tick/cross marks
+
+
 def family(font):
     for name in ('SuperHindi', 'BHARTIYA', 'Chanakya', 'Kruti'):
         if name.lower() in font.lower():
@@ -85,15 +88,20 @@ def ordered_text(chars):
 
 def decode(text, font):
     fam = family(font)
+    if 'zapfdingbats' in font.lower():
+        return text.translate(DINGBATS)
+    if 'wingdings2' in font.lower():
+        return text.replace('P', '✓').replace('O', '✗')
     if fam is None:
         return text.replace('\xa0', ' ')
     if fam == 'Chanakya':
         text = text.replace('\x01', ' ')
     for old, new in COMMON:
         text = text.replace(old, new)
-    # Real parentheses are ¼ ½ in these fonts; a raw ')' is the conjunct द्ध (le`) = समृद्ध).
-    # The shared Kruti mapping keeps ')' for the Math guides, so convert it here.
-    text = text.replace(')', 'द्ध')
+    if fam == 'SuperHindi':
+        # SuperHindi encodes real parentheses as ¼ ½ and द्ध as ')' (le`) = समृद्ध); BHARTIYA and
+        # Chanakya use real parentheses. The shared Kruti mapping keeps ')', so convert here.
+        text = text.replace(')', 'द्ध')
     hook = HOOK.get(fam)
     if hook:
         text = re.sub('o' + BETWEEN + hook, r'd\1', text)
