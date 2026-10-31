@@ -1,120 +1,128 @@
 # Program guide in the app — plan and design proposal
 
-Status: **proposal for the owner's design approval**, 31 October 2026. Nothing is built.
-Mockups: [docs/design/program-guide/index.html](design/program-guide/index.html) (open through a
-local server from the repository root, e.g. `python3 -m http.server 8766`, then
-`http://localhost:8766/docs/design/program-guide/`). This is the program-guide slice of plan
-Phase 6 ([CONTENT_ARCHITECTURE_PLAN.md §4a](CONTENT_ARCHITECTURE_PLAN.md)).
+Status: **proposal for the owner's design approval**, revision 2 (31 October 2026). Nothing is built.
+Mockups: [docs/design/program-guide/index.html](design/program-guide/index.html) (serve the repository
+root, e.g. `python3 -m http.server 8766`, then open `http://localhost:8766/docs/design/program-guide/`).
+This is the program-guide slice of plan Phase 6 ([CONTENT_ARCHITECTURE_PLAN.md §4a](CONTENT_ARCHITECTURE_PLAN.md)).
+
+Revision 2 (owner, 31 Oct 2026): **the year's learning goals come first**, each with its week-by-week path
+and deep links to the lessons that build it.
 
 ## 1. The problem
 
-Each Teacher Guide opens with about 18 pages that explain the whole program: the NIPUN learning
-outcomes (p2), how to use the guide (p7–8), the year plan by week blocks (p15), the weekly cycle
-(p16), materials (p17) and the three periods (p18), plus teacher articles; the back has the
-activity library, weekly assessment and remediation. Today the app shows only the day plans.
-A teacher can follow a day without knowing why day 6 is different, what “कालांश 2 एवं 3” means,
-which outcome the week builds, or how to read a plan's steps, timings and colours.
+Teachers do not use the Teacher Guide because they do not see how it helps them reach their learning
+goals, or how its weeks and days add up to those goals; the whole guide feels overwhelming. The guide's
+front matter does hold that answer (NIPUN outcomes p2, the year plan by week blocks, the weekly cycle,
+the periods) but it is 18 dense pages, and the app today shows only the day plans.
+
+So the guide layer starts from the teacher's goal, not from the guide's chapters: **“what must my
+children be able to do by the end of the year, and which weeks and lessons get them there?”**
 
 ## 2. What a teacher should be able to answer
 
-In the order a teacher asks (plan principle 7):
-
-1. **How does my week run?** Which days teach new skills, which revise, which assess; which weeks
-   are revision weeks or school readiness.
-2. **How does my day run?** The three कालांश, what each is for, how long, with what materials.
-3. **How do I read a lesson plan?** Badge, section chips, period bands and their colours, step
-   numbers, minutes, “बच्चों से पूछें”, worksheet, remedial time, weekly templates (Math days 4–6).
-4. **What are the children learning?** The grade's outcomes by strand (Hindi) or code family
-   (Math), and in which weeks they are taught, revised and assessed.
-5. **How do I check, and what if a child is behind?** The weekly assessment, groups A and B,
-   remedial work.
+1. **What are my goals this year?** A short list of the grade's key outcomes in plain words.
+2. **How does the guide get my class there?** For each goal: the weeks that teach it, the days that
+   check it (weekly assessment) and revise it, and the lessons, one tap away. What is next for me.
+3. **How does my week run?** New-skill, revision and assessment days; revision weeks.
+4. **How does my day run?** The three कालांश and their purpose.
+5. **How do I read a lesson plan?** Steps, minutes, colours, questions, worksheet, remedial time.
+6. **How do I check, and what if a child is behind?** Weekly assessment, groups A and B, remedial work.
 
 ## 3. Principles (unchanged contract)
 
-- **Never a gate.** No screen is put in front of a lesson. Topic → summary → lesson and
-  week → day → lesson stay exactly as they are.
-- **Source first.** Every section shows the guide's own text and its original page. Plain-language
-  summaries are editorial: shown only when owner-approved (`review: owner-approved`), always labelled
-  “सार · संदर्शिका से” and citing the source page.
-- **Same components.** Banner, cards, chips, period colours (amber teaching, pink practice, purple
-  support), source pages in the reader. One shared view for every subject and grade; the content
-  comes from the pinned content release, never typed into the app.
-- **Honest gaps.** Where the model does not yet hold something (outcome→week links for Hindi,
-  activity library, assessment details), the section shows the original pages only.
+- **Never a gate.** Nothing is put in front of a lesson; topic → summary → lesson and week → day →
+  lesson stay exactly as they are. Goals are a third way in, not a replacement.
+- **Small first, depth on demand.** A goal is one line and a strip of weeks; the guide's full text and
+  original pages are one tap further, never the first thing shown.
+- **Source first.** Goal statements and codes are the guide's own. Short goal titles and summaries are
+  editorial: shown only when owner-approved, always labelled and citing the source page.
+- **Honest links.** A lesson is linked to a goal only where the guide prints it (stated) or by a named,
+  approved rule (derived); otherwise the goal shows its original page and no invented lessons.
+- **Same components and data path.** Existing cards, chips, colours and reader; content comes from the
+  pinned content release, never typed into the app. The teacher's progress reuses the device's existing
+  “पढ़ा दिया है” marks (read-only; no new storage).
 
-## 4. Where the guide appears (entry points)
+## 4. Where it appears (entry points)
 
 | Entry | What the teacher sees | Proposal |
 |---|---|---|
-| Find page | One card below the two browse tabs: “📘 संदर्शिका को समझें — सप्ताह, कालांश, पाठ योजना और सीखने के प्रतिफल” | **Recommended** |
-| Lesson | The day label added on 31 Oct (“· साप्ताहिक आकलन”) becomes a link to that day type in the guide; a small “यह पाठ योजना कैसे पढ़ें?” link under the chips | **Recommended** |
-| Help (मदद) | A line linking to the guide | **Recommended** |
-| Header | A fourth header link “संदर्शिका” | **Not recommended** (header is frozen, phones are narrow) |
+| Find page | One card below the browse tabs: **“🎯 इस साल के लक्ष्य — बच्चे क्या सीखेंगे, और कौन-से सप्ताह व पाठ उन्हें वहाँ पहुँचाते हैं”** | **Recommended** |
+| Lesson | A goal chip near the banner (“🎯 लक्ष्य: दो अंकों का जोड़”) back to its goal; the day label (“· साप्ताहिक आकलन”) links to the week section; “यह पाठ योजना कैसे पढ़ें?” under the chips | **Recommended** |
+| Help (मदद) | One line linking to the guide | **Recommended** |
+| Header | A fourth link | **Not recommended** (frozen, narrow phones) |
 
-New route: `#/guide` (and `#/guide/<section>`), carrying the current grade and subject.
+Routes: `#/guide` (home), `#/guide/goals`, `#/guide/goal/<id>`, `#/guide/<section>`, each carrying grade
+and subject like other routes.
 
-## 5. Screens (mockups 1–6)
+## 5. Screens (mockups 1–7)
 
-1. **Guide home** (`#/guide`): banner “कक्षा 2 · हिन्दी · संदर्शिका को समझें”; five section cards in the
-   question order: सप्ताह कैसे चलता है · हर दिन के कालांश · पाठ योजना कैसे पढ़ें · सीखने के प्रतिफल ·
-   आकलन और सहायता. Each card says which guide pages it comes from.
-2. **सप्ताह कैसे चलता है:** a six-day strip coloured by day type (दिन 1–4 नई दक्षताएँ, दिन 5 पुनरावृत्ति,
-   दिन 6 साप्ताहिक आकलन, with “कालांश 2 एवं 3 मिलाकर” on day 6) and a 25-week year strip (कक्षा-1 की
-   पुनरावृत्ति 1–4, शिक्षण, सावधिक पुनरावृत्ति 13 और 20). Tapping a day opens that day's lesson in the
-   teacher's current week. Data: `structure.json` (exists).
-3. **हर दिन के कालांश:** three period cards in the period colours: number, 40 मिनट, focus, materials,
-   and the “अंतिम 20 मिनट रिमीडियल (दिन 1–5)” note. Math shows its कालांश and the weekly phases
-   (अनुदेशात्मक कार्य, समेकन और आकलन, रिमीडियल और पुनरावृत्ति). Data: `periodOutline`, day types (exist).
-4. **पाठ योजना कैसे पढ़ें:** a real day plan from the teacher's grade, shown with numbered call-outs:
-   ① सप्ताह/दिन badge ② section chips ③ period band and colour ④ step and minutes ⑤ “क्या करें”
-   ⑥ “बच्चों से पूछें” ⑦ worksheet ⑧ remedial step ⑨ मूल पृष्ठ. Math adds बातचीत → मैं करूँ → हम करें
-   → आप करो → अभ्यास → खेल, and explains weekly templates. Data: lesson views (exist); the call-out
-   wording is editorial (needs owner approval once).
-5. **सीखने के प्रतिफल:** the grade's list by strand (Hindi: मौखिक भाषा, पढ़ना, लेखन, from the guide's own
-   list per decision 1) or code family (Math: M201…); each outcome shows “इन सप्ताहों में” chips that
-   open the week view. Data: outcomes and outcome links — **Phases 4–5** (Math codes on lessons are
-   already stated; Hindi week links are rule-derived and need approval).
-6. **आकलन और सहायता:** the weekly assessment (Hindi day 6, Math day 5), how groups A and B are formed,
-   and the remedial plan; original pages. Data: assessments — **Phases 4–5**; until then original pages.
+1. **Entry** (find page card, lesson goal chip and links).
+2. **Guide home** (`#/guide`): **इस साल के लक्ष्य** on top with the first goals and their week strips, then
+   “संदर्शिका कैसे काम करती है”: week, periods, reading a lesson plan, assessment and support.
+3. **सप्ताह कैसे चलता है:** six-day strip by day type and the 25-week year strip (from `structure.json`).
+4. **हर दिन के कालांश:** three period cards in the lesson colours (from `periodOutline`).
+5. **पाठ योजना कैसे पढ़ें:** a real day plan with numbered call-outs (editorial wording, needs approval).
+6. **इस साल के लक्ष्य** (`#/guide/goals`): 5–10 key goals for the grade (Math: by code family M201–M207;
+   Hindi: by strand, from the guide's own list per decision 1). Each card: short title, codes, number of
+   lessons, a 25-week strip with the teaching weeks in green and revision weeks 13/20 in purple, and
+   “आपने N पढ़ाए” from the teacher's own marks. “पूरी निपुण सूची” opens every code and statement.
+7. **एक लक्ष्य** (`#/guide/goal/<id>`): the guide's statements; the year strip; one line on how the guide
+   gets there (days 1–3 teach, 4 practise/explore, 5 check with ‘मैंने सीख लिया’, 6 remedial; revision
+   week); **“अगला पाठ”** (the first lesson for this goal not yet marked taught); then week rows, each with
+   day chips that open the lessons and the week's objective line. Sub-goals (e.g. addition, subtraction)
+   are listed in teaching order.
 
-Every section has the three reading depths of plan §4a, as tabs: **सार** (owner-approved summary),
-**पूरा पढ़ें** (the guide's text, source-compared), **मूल पृष्ठ** (page images in the existing reader).
+Sections 3–5 keep the three reading depths of plan §4a as tabs: **सार** (owner-approved summary),
+**पूरा पढ़ें** (the guide's text), **मूल पृष्ठ** (page images in the existing reader).
 
-## 6. Data and build plan
+## 6. Data: what exists, what needs approval, what needs Phases 4–5
 
-| Slice | Screens | Needs | Ready? |
-|---|---|---|---|
-| A | 1, 2, 3 and the original pages of every front-matter section | `structure.json`, `sections.json`, page images | Yes, in release 1.1.0 |
-| B | 4 | Lesson views (exist) + editorial call-outs | Needs owner approval of the call-out text |
-| C | 5, 6 and “पूरा पढ़ें” text | `outcomes.json`, `assessments.json`, `guide/<grade>.json` passages (source-compared) | **Phases 4–5** |
-| D | Activity guide (routine library), stories/poems | `routines.json`, resources | Later |
+| Need | Math | Hindi |
+|---|---|---|
+| Goal list and statements | Stated: NIPUN codes on guide p2 and on the lessons (`loCode`, `loStatement`) | Stated: the guide's own uncoded list p2 (decision 1); needs source-compared text |
+| Goal → teaching days | **Stated** on each teaching day: e.g. G2 M202.1 = weeks 14–17, 10 lessons; 68 of 138 G2 days coded | **Not printed.** Needs a goal-to-week-block map drafted from the year plan (p15) and lesson titles, approved by the owner (Phase 4) |
+| Goal → days 4–6, assessment, revision weeks | Rule “same week” (template days and the week's assessment belong to that week's goals); revision weeks 13/20 cover earlier blocks | Same rules, after the map exists |
+| Short goal titles (“दो अंकों का जोड़ और घटाव”) | Editorial, owner approval | Editorial, owner approval |
+| Week/day structure, periods, original pages | In release 1.1.0 | In release 1.1.0 |
 
-Build route: `site:publish` generates a small per-pack guide bundle (`dist/packs/<pack>/guide.json`)
-from the pinned release (as it already does for `day-types.mjs`); a new view `dist/views/program-guide.mjs`
-renders it and loads only on `#/guide`. Offline: the guide bundle is cached with the shell; page images
-follow the existing “बिना इंटरनेट के लिए रखें” rule. No new dependency or build step.
+## 7. Build order
 
-## 7. Contract changes this asks you to approve
+| Slice | What | Ready when |
+|---|---|---|
+| **A** | Screens 1–4 (entry, home, week, periods) and original pages for every front-matter section | Now (data in release 1.1.0) |
+| **G-Math** | Screens 6–7 for Math: goals, week strips, lesson links from stated codes; progress | After you approve the short goal titles and the “same week” rule |
+| **B** | Screen 5 (how to read a lesson plan) | After you approve the call-out wording |
+| **G-Hindi** | Screens 6–7 for Hindi | After the Hindi goal-to-week map (Phase 4 task) is drafted and approved |
+| **C** | Full guide text (पूरा पढ़ें), assessment and support details, activity guide | Phases 4–5 |
 
-1. New route `#/guide` and `#/guide/<section>` (design contract §1 route list).
-2. The find-page entry card, the lesson's day-label link and “पाठ योजना कैसे पढ़ें?” link, and a Help line
-   (contract §3, §4).
-3. New screens built from existing components, plus small new styles for the week strip, the period
-   cards and the numbered call-outs (protected `dist/guide-cards.css`; recorded with `design:approve`).
-4. Editorial text: the section card blurbs and the lesson-plan call-outs, labelled as summaries.
+Build route: `site:publish` generates a small per-pack guide bundle (`dist/packs/<pack>/guide.json`: goals,
+goal→lesson links with their assertion and review status, structure, section page refs) from the pinned
+release, like `day-types.mjs`; a new view `dist/views/program-guide.mjs` loads it only on `#/guide…`.
+Progress reads the existing completion key. Offline: the bundle is cached with the shell.
 
-Unchanged: header, browse tabs, lesson anatomy, palette, type, touch sizes, storage keys, routes.
+## 8. Contract changes this asks you to approve
 
-## 8. Acceptance (when built)
+1. New routes `#/guide…` (design contract §1).
+2. Find-page goal card, lesson goal chip, day-label and “how to read” links, Help line (§3, §4).
+3. New screens from existing components, with small new styles (goal cards, week strips, period cards,
+   call-outs) in the protected `dist/guide-cards.css`, recorded with `design:approve`.
+4. Editorial text: short goal titles, section blurbs, call-outs, labelled as summaries.
 
-Every screen in Hindi and English at 320, 360 and 390 px without horizontal scroll; keyboard-only;
-no lesson reachable only through the guide; guide never shown before a lesson; every text block cites
-its page; unapproved summaries hidden; offline guide after first visit; old routes and deep links
-unchanged; tests for the guide bundle (generated from the release, hash-checked) and the view.
+Unchanged: header, browse tabs, lesson anatomy, palette, type, touch sizes, storage keys, existing routes.
 
-## 9. Decisions for you
+## 9. Acceptance (when built)
 
-1. Approve the entry points (§4) and route `#/guide`.
-2. Approve the five sections and their order (§5).
-3. Approve building slice A now, B after you approve the call-out text, C after Phases 4–5.
-4. Who signs off editorial summaries and call-outs (you, as for the ontology?).
+Every screen in Hindi and English at 320, 360 and 390 px without horizontal scroll; keyboard-only; no
+lesson reachable only through the guide; nothing shown before a lesson; every goal link carries its
+assertion and is hidden unless stated or approved; “अगला पाठ” and progress match the device's marks; old
+routes and deep links unchanged; tests that the guide bundle is generated from the release and that each
+goal's lessons equal the release's stated/approved links.
+
+## 10. Decisions for you
+
+1. Approve the entry points (§4) and the goals-first home (§5).
+2. Approve slice A now, and the order of the remaining slices (§7).
+3. Approve the short goal titles for Math G1–G3 (I will draft them from the guide's statements) and the
+   “same week” rule for days 4–6 and the weekly assessment.
+4. Approve starting the Hindi goal-to-week map (Phase 4 task) for your review.
+5. Sign-off for editorial text: you, as for the ontology?

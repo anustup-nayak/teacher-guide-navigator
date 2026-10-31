@@ -97,7 +97,8 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
   pinning, release tokens on `next`, sync copies); placeholder links in the skill's history record
   fixed. New `tests/docs.test.mjs`: every relative doc/skill link resolves and no `… 2.*` sync copies.
   It immediately caught three more iCloud copies, moved to the duplicates folder.
-- Program guide: [PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md) and six phone mockups in
+- Program guide (revision 2 after owner feedback: the year's learning goals first, each with its
+  week-by-week path and deep links to lessons): [PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md) and seven phone mockups in
   `docs/design/program-guide/` (built with the app's own CSS). Awaiting owner approval; nothing built.
 - Checks: npm test 121/121, verify:program, verify:content, verify:site, check, design lock,
   publication, ingestion 16, sources, skill tests, diff check. Not done: deleting the merged remote
