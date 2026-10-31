@@ -1,0 +1,101 @@
+{
+ "pack": "up-math-2026",
+ "routines": [
+  {
+   "id": "math-conversation",
+   "type": "instruction",
+   "name": "गणितीय बातचीत",
+   "grades": [
+    1,
+    2,
+    3
+   ],
+   "period": 1,
+   "section": "g1/teaching-process",
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 18,
+      "printed": 16
+     }
+    ]
+   }
+  },
+  {
+   "id": "math-grr",
+   "type": "instruction",
+   "name": "मैं करूँ · हम करें · आप करो (GRR)",
+   "aliases": [
+    "I do",
+    "We do",
+    "You do"
+   ],
+   "grades": [
+    1,
+    2,
+    3
+   ],
+   "period": 1,
+   "section": "g1/teaching-process",
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 87,
+      "printed": 85
+     }
+    ],
+    "note": "GRR page has a text layer only in parts; check the image"
+   }
+  },
+  {
+   "id": "math-practice",
+   "type": "practice",
+   "name": "अभ्यास (कार्यपत्रक) + प्रक्रियात्मक प्रवाह",
+   "grades": [
+    1,
+    2,
+    3
+   ],
+   "period": 2,
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 13,
+      "printed": 11
+     }
+    ]
+   }
+  },
+  {
+   "id": "math-game-support",
+   "type": "game",
+   "name": "गणित खेल और रिमीडियल",
+   "grades": [
+    1,
+    2,
+    3
+   ],
+   "period": 3,
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 13,
+      "printed": 11
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,321 @@
+{
+ "id": "g1-hindi-w09-d02",
+ "grade": 1,
+ "week": 9,
+ "day": 2,
+ "unit": {
+  "to": "unit:g1-u-w09-12",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 15,
+   "printed": 13
+  }
+ },
+ "dayPurpose": "new-skills",
+ "title": "‘क’ वर्ण की ध्वनि और प्रतीक को पहचानना और लिखने का अभ्यास करना",
+ "outcomes": [],
+ "objectives": [],
+ "periods": [
+  {
+   "number": [
+    1
+   ],
+   "label": "मौखिक भाषा विकास पर कार्य",
+   "role": "teaching",
+   "steps": [
+    {
+     "id": "p1-1",
+     "title": "चित्र चार्ट पर शिक्षक द्वारा चर्चा",
+     "minutes": "5–7",
+     "routine": {
+      "to": "routine:hi-picture-chart",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "step-title-matches-routine"
+     },
+     "actions": [
+      "बच्चों को चित्र चार्ट ध्यान से देखने के लिए कहें।",
+      "चित्र चार्ट से संबंधित कुछ बंद छोर के प्रश्न पूछें। प्रत्येक प्रश्न पर कुछ बच्चों की प्रतिक्रियाएँ लें, जैसे-"
+     ],
+     "questions": [
+      "यह चित्र कहाँ का है?",
+      "चित्र में क्या हो रहा है? आदि।"
+     ],
+     "source": {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 20,
+      "printed": 18,
+      "rect": [
+       0.05,
+       0.1826,
+       0.95,
+       0.3234
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "unreviewed"
+     }
+    },
+    {
+     "id": "p1-2",
+     "title": "चित्र चार्ट पर समृद्ध चर्चा",
+     "minutes": "10–15",
+     "routine": {
+      "to": "routine:hi-picture-chart",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "step-title-matches-routine"
+     },
+     "actions": [
+      "चर्चा को आगे बढ़ाते हुए कुछ खुले छोर के प्रश्न पूछें। इन प्रश्नों को चित्र पर केंद्रित रखें, जैसे-",
+      "बच्चों की प्रतिक्रियाओं का सम्मान करते हुए उन्हें प्रोत्साहित करें।"
+     ],
+     "questions": [
+      "कंचे खेलते हुए बच्चे आपस में क्या बात कर रहे होंगे?",
+      "बच्चा पहिया चलाने के लिए, पहिया कहाँ से लाया होगा? आदि।"
+     ],
+     "source": {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 20,
+      "printed": 18,
+      "rect": [
+       0.05,
+       0.3176,
+       0.95,
+       0.3794
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "unreviewed"
+     }
+    },
+    {
+     "id": "p1-3",
+     "title": "लेखन कार्य",
+     "minutes": "10–15",
+     "routine": {
+      "to": "routine:hi-picture-chart",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "step-title-matches-routine"
+     },
+     "actions": [
+      "बच्चों से चित्र चार्ट पर हुई चर्चा से जुड़ा कोई चित्र बनाने को कहें। फिर जोड़ियों में बाँटकर, आपस में चर्चा करने को कहें। अंत में, किन्हीं 3-4 बच्चों को अपना चित्र दिखाने एवं सभी बच्चों के साथ साझा करने को कहें।"
+     ],
+     "source": {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 20,
+      "printed": 18,
+      "rect": [
+       0.05,
+       0.2275,
+       0.95,
+       0.3445
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "unreviewed"
+     }
+    }
+   ]
+  },
+  {
+   "number": [
+    2
+   ],
+   "label": "कार्यपुस्तिका (भाग-1) पर कार्य",
+   "role": "practice",
+   "steps": [
+    {
+     "id": "p2-1",
+     "title": "गतिविधियों की संकल्पना पर कार्य",
+     "minutes": "12–15",
+     "actions": [
+      "वर्ण पहचान पर कार्य",
+      "बच्चों से ‘क’ की ध्वनि से शुरू होने वाले 4-5 नए शब्द पूछकर बोर्ड पर लिखें। शब्द को तोड़कर पहली ध्वनि पर बल दें, जैसे- /क/ /र/ /न/ - ‘करन’",
+      "बोर्ड पर लिखे किसी एक शब्द, जैसे- ‘करन’ की पहली ध्वनि ‘क’ पर गोला लगाएँ, फिर उसे अलग करके लिखें और ‘क’ वर्ण का 3-4 बार स्पष्ट उच्चारण करें।",
+      "बच्चों को कक्षा में प्रदर्शित सामग्रियों (कविता, कहानी पोस्टर आदि) और पाठ्यपुस्तक ‘सारंगी-1’ से ‘क’ वर्ण ढूँढकर गोला लगाने को कहें।",
+      "अब अलग-अलग तरीकों से बच्चों द्वारा ‘क’ वर्ण के लेखन का अभ्यास करवाएँ, जैसे- अपनी अंगुली से साथी की पीठ पर लिखना, हवा में कोहनी या पैर से लिखना आदि।"
+     ],
+     "source": {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 20,
+      "printed": 18,
+      "rect": [
+       0.05,
+       0.5136,
+       0.95,
+       0.6825
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "unreviewed"
+     }
+    },
+    {
+     "id": "p2-2",
+     "title": "कार्यपुस्तिका पर कार्य",
+     "minutes": "20–22",
+     "actions": [
+      "कार्यपुस्तिका की गतिविधियों के निर्देश बच्चों को एक-एक करके समझाएँ और कार्य करने को कहें।",
+      "आवश्यकतानुसार बोर्ड पर उदाहरण देकर गतिविधि समझाएँ और बच्चों की मदद करें।"
+     ],
+     "workbook": [
+      {
+       "to": "workbook:workbook-g1-04678c7d6792/p8",
+       "assertion": "stated",
+       "review": "unreviewed",
+       "source": {
+        "doc": "guide-g1-00970fd3c1e8",
+        "pdf": 20,
+        "printed": 18
+       }
+      }
+     ],
+     "source": {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 20,
+      "printed": 18,
+      "rect": [
+       0.05,
+       0.5324,
+       0.95,
+       0.6503
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "unreviewed"
+     }
+    }
+   ]
+  },
+  {
+   "number": [
+    3
+   ],
+   "label": "बिग बुक पर कार्य",
+   "role": "support",
+   "steps": [
+    {
+     "id": "p3-1",
+     "title": "आदर्श वाचन और लोगोग्राफिक पठन",
+     "minutes": "15–17",
+     "routine": {
+      "to": "routine:hi-big-book",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "step-title-matches-routine"
+     },
+     "actions": [
+      "कल की चर्चा को दोहराएँ और कहानी का आदर्श वाचन करें।",
+      "प्रत्येक शब्द पर अँगुली रखते हुए एक बार फिर से कहानी पढ़ें।",
+      "बच्चों से कहानी और चित्रों पर आधारित कुछ खुले छोर के प्रश्न पूछें, जैसे-",
+      "कहानी के कुछ मुख्य शब्दों (मुर्गी, बच्चे, चूजे, खेल आदि) को बोर्ड पर लिखकर लोगोग्राफिक तरीके से पढ़वाएँ।"
+     ],
+     "questions": [
+      "मुर्गी और चूजों को आगे क्या मिल सकता है? आदि।"
+     ],
+     "source": {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 20,
+      "printed": 18,
+      "rect": [
+       0.05,
+       0.8132,
+       0.95,
+       0.9288
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "unreviewed"
+     }
+    },
+    {
+     "id": "p3-2",
+     "title": "समूह-A के साथ रिमीडियल कार्य",
+     "minutes": "20",
+     "routine": {
+      "to": "routine:hi-remedial-group-a",
+      "assertion": "derived",
+      "review": "unreviewed",
+      "rule": "step-title-matches-routine"
+     },
+     "actions": [
+      "पिछले 8 सप्ताह के अवलोकन के आधार पर समूह-A के बच्चों के साथ रिमीडियल कार्य करें।",
+      "समूह-B के बच्चों को स्वतंत्र रूप से पढ़ने एवं लिखने को कहें।"
+     ],
+     "source": {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 20,
+      "printed": 18,
+      "rect": [
+       0.05,
+       0.7915,
+       0.95,
+       0.8922
+      ]
+     },
+     "provenance": {
+      "assertion": "stated",
+      "review": "unreviewed"
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": [],
+ "guideLinks": [
+  {
+   "to": "section:g1/weekly-cycle",
+   "assertion": "derived",
+   "review": "unreviewed",
+   "rule": "every-lesson-weekly-cycle"
+  },
+  {
+   "to": "section:g1/article-checking-understanding",
+   "assertion": "stated",
+   "review": "unreviewed",
+   "source": {
+    "doc": "guide-g1-00970fd3c1e8",
+    "pdf": 20,
+    "printed": 18
+   }
+  }
+ ],
+ "source": {
+  "doc": "guide-g1-00970fd3c1e8",
+  "pdf": 20,
+  "printed": 18
+ },
+ "v1": {
+  "structure": "source-periods",
+  "phaseIds": [
+   "p1-1",
+   "p1-2",
+   "p1-3",
+   "p2-1",
+   "p2-2",
+   "p3-1",
+   "p3-2"
+  ]
+ },
+ "provenance": {
+  "assertion": "stated",
+  "review": "unreviewed",
+  "sources": [
+   {
+    "doc": "guide-g1-00970fd3c1e8",
+    "pdf": 20,
+    "printed": 18
+   }
+  ]
+ }
+}
