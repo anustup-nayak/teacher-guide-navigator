@@ -76,11 +76,23 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Claude Code | `task/math-goal-titles` (from `next`) | `docs/review/math-goal-titles.md` | Draft for owner approval | Short Math goal titles (one per code family) and the “same week” rule; nothing built until approved. |
 | Claude Code (took over from Codex) | `task/program-metadata-layout` ([PR #17](https://github.com/anustup-nayak/teacher-guide-navigator/pull/17)) | Program metadata, layout, skill, docs cleanup, release 1.1.0 | Integrated with `next`; cleanup added; PR open | Next: owner merges PR #17. |
-| Claude Code | `task/program-guide-a` (from PR #17's branch) | `dist/views/program-guide.mjs`, `dist/program-guide-data.mjs`, `dist/app.mjs` (guide screen, entry links), `dist/core.mjs` (route), `dist/views/current-context.mjs`, `dist/guide-cards.css`, `scripts/content/publish_site.mjs`, `tests/program-guide.test.mjs`, r63 | Slice A built; PR to `next` | Owner approved design rev 2 and slice A. Next: merge PR #17, then this PR; slice G-Math needs the owner's approval of short goal titles and the “same week” rule. |
+| Claude Code | `task/program-guide-a` (from PR #17's branch) | `dist/views/program-guide.mjs`, `dist/program-guide-data.mjs`, `dist/app.mjs` (guide screen, entry links), `dist/core.mjs` (route), `dist/views/current-context.mjs`, `dist/guide-cards.css`, `scripts/content/publish_site.mjs`, `tests/program-guide.test.mjs`, r63 | Merged (PR #19, `00420fb`) | Slice A live on `next`. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused (out of credits) | Not on GitHub; do not touch without the owner. |
 
 ## Change log
+
+### 2026-10-31 · Claude Code · `task/math-goal-titles` (draft for approval)
+
+- Drafted [review/math-goal-titles.md](review/math-goal-titles.md): one goal per printed code family (G1 6,
+  G2 8 incl. Class 1 review, G3 9 incl. Class 2 review), short Hindi and English titles written only from the
+  guide's statements, the weeks and teaching days each is stated on, and the verbatim statements. Also the
+  “same week” rule (days 4–6 link to the week's day 1–3 goals): all 183 template days, 18 mixed weeks.
+  Flagged three teaching days without a printed code for a page check.
+- iCloud made a third round of copies (43 files incl. `.git/index 2`), all identical or empty except an older
+  `docs/README 2.md`; moved to `../teacher-guide-navigator-duplicates-2026-10-31b/round3/`. The docs test
+  caught them.
 
 ### 2026-10-31 · Claude Code · `task/program-guide-a` (program guide slice A)
 

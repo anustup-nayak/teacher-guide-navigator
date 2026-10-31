@@ -20,7 +20,7 @@ first table wins and the other should be corrected in the same change.
 | [PRD.md](PRD.md) | Users, requirements, priorities, exclusions |
 | [DESIGN_CONTRACT.md](DESIGN_CONTRACT.md) | Frozen look, feel and flow (owner approval to change) |
 | [VISUAL_DESIGN.md](VISUAL_DESIGN.md) | Source-led card geometry and palettes |
-| [PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md) | Proposed program guide: year goals with lesson paths, week/day structure (awaiting approval) |
+| [PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md), [review/math-goal-titles.md](review/math-goal-titles.md) | Proposed program guide: year goals with lesson paths, week/day structure (awaiting approval) |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Runtime modules, data flow, curriculum instances |
 
 ## Content system
