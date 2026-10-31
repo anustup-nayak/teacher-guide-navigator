@@ -38,7 +38,7 @@ mid-task. It is the first file to read and the last file to update.
 |---|---|
 | Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`) |
 | Repository | github.com/anustup-nayak/teacher-guide-navigator (public). Branches: `main` (v1 live), `release/v1`, `next` (v2) — see [VERSIONING.md](VERSIONING.md). Tag `v1.0.0` = r57 |
-| Release | r58 (live, tag `v1.0.1`, `main` @ `181a840`; `release/v1` mirrors it). `next` has `main` merged in |
+| Release | r59 (live, tag `v1.0.2`, `main` @ `cb6075b`; `release/v1` mirrors it). `next` has `main` merged in |
 | Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
 | Checks | `npm test` (94 on `next`, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (12), skill script tests, `npm run verify:sources -- --require-complete` |
@@ -70,6 +70,7 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Claude Code | `task/hindi-grid-columns` (from `main`) | `curricula/up-hindi-2026/tools/parse_guides.py`, Hindi reviewed/dist catalog, `curricula/published-baseline.json`, `tests/test_hindi_grids.py`, `tests/hindi-pack.test.mjs`, r59 bumps | Merged as PR #11 (`cb6075b`); live r59, tag `v1.0.2` | Done, and branches synced (`release/v1`, `next`). Task note: [grid](tasks/hindi-grid-columns.md). |
 | Claude Code | `task/repair-g2-hindi-w19-d03` (from `main`) | `curricula/up-hindi-2026/tools/{repairs.json,build_pack.py}`, `curricula/up-hindi-2026/reviewed/catalog.mjs`, `dist/packs/up-hindi-2026/catalog.mjs`, `curricula/published-baseline.json`, r58 version bumps in `dist/` | Merged as PR #10 (`181a840`); live r58, tag `v1.0.1` | Done: repair, publish, reviewed baseline amendment, r58, all checks, browser check. Done after merge: `release/v1` fast-forwarded, `v1.0.1` tagged, `main` merged into `next`, exception dropped. Left: check grid attachment on G2 w19 d2. Task note: [repair](tasks/repair-g2-hindi-w19-d03.md). |
 | Claude Code | `task/program-structure` (from `next`) | `schemas/content-model/{structure,lesson,program}.schema.json`, `vocabularies.json`, `curricula/*/model/structure.json`, `scripts/content/{structure,v1_lesson,build_examples}.mjs`, `tests/structure.test.mjs`, `tests/content-model.test.mjs`, `docs/CONTENT_MODEL.md` | Merged as PR #9 (`78e5e24`) | Done: program structure (calendar, day types, exceptions) for both packs; all 732 lessons classified; npm test 94/94. Next: review gate ✋ (CONTENT_MODEL.md §1a, §6), then Phase 3. Task note: [program-structure](tasks/program-structure.md). |
 | Claude Code | `task/phase2-content-model` (merged as PR #8, `bb39abe`) | — | Merged into `next` | Review gate ✋ still open (CONTENT_MODEL.md §6). |
@@ -80,6 +81,21 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `next` (merge of `main` after r59)
+
+- r59 is live (PR #11, `cb6075b`): Hindi grid crops on the step printed in the same column.
+  `release/v1` fast-forwarded and tagged `v1.0.2`; `main` merged into `next` (HANDOFF.md
+  conflict resolved by keeping both sides).
+
+### 2026-10-31 · Claude Code · `task/hindi-grid-columns` (PR to `main`, release r59)
+
+- Owner approved after checking G2 w19 d2: the parser gave grids to the first step at their height,
+  ignoring columns, so 132 grids printed in 3.2 showed on 3.1 (and one 2.2 grid on 2.1). Steps now
+  record their column; 133 crops move, every lesson's text and steps are unchanged.
+- Second recorded baseline amendment (r59). New tests: `tests/test_hindi_grids.py`, pack test.
+- Checks: npm test 81/81, check, design:check, sw.js, verify:publication, ingestion 15/15,
+  verify:sources, skill tests; browser 360/390 px, Hindi/English. Task note: [grid](tasks/hindi-grid-columns.md).
 
 ### 2026-10-31 · Claude Code · `next` (merge of `main` after r58)
 
