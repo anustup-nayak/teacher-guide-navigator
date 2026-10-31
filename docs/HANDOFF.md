@@ -70,6 +70,7 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Claude Code | `task/content-platform` (from `next`) | `docs/CONTENT_PLATFORM.md`; links in `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/ARCHITECTURE.md`, `docs/PRD.md` | Proposal; PR to `next` open | Done: design for one content back end serving many products (content release + query library). Next: owner decisions in CONTENT_PLATFORM.md §8; Phase 3 builds the content release. |
 | Claude Code | `task/hindi-grid-columns` (from `main`) | `curricula/up-hindi-2026/tools/parse_guides.py`, Hindi reviewed/dist catalog, `curricula/published-baseline.json`, `tests/test_hindi_grids.py`, `tests/hindi-pack.test.mjs`, r59 bumps | Merged as PR #11 (`cb6075b`); live r59, tag `v1.0.2` | Done, and branches synced (`release/v1`, `next`). Task note: [grid](tasks/hindi-grid-columns.md). |
 | Claude Code | `task/repair-g2-hindi-w19-d03` (from `main`) | `curricula/up-hindi-2026/tools/{repairs.json,build_pack.py}`, `curricula/up-hindi-2026/reviewed/catalog.mjs`, `dist/packs/up-hindi-2026/catalog.mjs`, `curricula/published-baseline.json`, r58 version bumps in `dist/` | Merged as PR #10 (`181a840`); live r58, tag `v1.0.1` | Done: repair, publish, reviewed baseline amendment, r58, all checks, browser check. Done after merge: `release/v1` fast-forwarded, `v1.0.1` tagged, `main` merged into `next`, exception dropped. Left: check grid attachment on G2 w19 d2. Task note: [repair](tasks/repair-g2-hindi-w19-d03.md). |
 | Claude Code | `task/program-structure` (from `next`) | `schemas/content-model/{structure,lesson,program}.schema.json`, `vocabularies.json`, `curricula/*/model/structure.json`, `scripts/content/{structure,v1_lesson,build_examples}.mjs`, `tests/structure.test.mjs`, `tests/content-model.test.mjs`, `docs/CONTENT_MODEL.md` | Merged as PR #9 (`78e5e24`) | Done: program structure (calendar, day types, exceptions) for both packs; all 732 lessons classified; npm test 94/94. Next: review gate ✋ (CONTENT_MODEL.md §1a, §6), then Phase 3. Task note: [program-structure](tasks/program-structure.md). |
@@ -81,6 +82,17 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `task/content-platform` (PR to `next`)
+
+- Owner asked to structure the product so the content back end serves several front ends
+  (website, chatbot) and new products (remedial plans, teacher tools). Wrote
+  [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md): content core → versioned, static content release
+  (manifest, entities, graph, app/v1/retrieval views, changelog) → shared query library →
+  products; contract (stable ids, pinned versions, provenance, review gates), generated-content
+  rules, and owner decisions (content rights, first product, chatbot hosting, policy).
+- Plan: Phase 3 now emits the content release and query library; new Phase 10 product pilots.
+  Docs only; npm test 95/95.
 
 ### 2026-10-31 · Claude Code · `next` (merge of `main` after r59)
 
