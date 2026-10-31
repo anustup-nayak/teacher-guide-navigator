@@ -27,6 +27,7 @@ cutover is approved by the owner.
 - v1 patches: `v1.0.1`, `v1.0.2` … (each still bumps the rNN release with `npm run release:assets`).
 - `v1.0.1` = `main` @ `181a840`, release r58 (source repair of Hindi `g2-hindi-w19-d03`).
 - `v1.0.2` = `main` @ `cb6075b`, release r59 (Hindi grid crops on the step printed in the same column).
+- `v1.0.3` = `main` @ `4be3376`, release r60 (restored quoted vowel signs in 13 Hindi lessons).
 - v2 previews: `v2.0.0-alpha.N`; release candidates `v2.0.0-rc.N`; cutover `v2.0.0`.
 
 Rollback at any time: revert the offending merge on `main` by PR (Pages redeploys the

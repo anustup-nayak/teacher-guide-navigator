@@ -188,5 +188,61 @@
     }
    }
   ]
+ },
+ "g1-w17-d1": {
+  "evidence": "TG G1 PDF p62 (printed p60): the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a 220-dpi render by Claude Code on 2026-10-31. Only the sign is compared, not the whole lesson.",
+  "sign": "े"
+ },
+ "g1-w17-d2": {
+  "evidence": "TG G1 PDF p63 (printed p61): the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a 220-dpi render by Claude Code on 2026-10-31. Only the sign is compared, not the whole lesson.",
+  "sign": "े"
+ },
+ "g1-w24-d1": {
+  "evidence": "TG G1 PDF p99 (printed p97): the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a 220-dpi render by Claude Code on 2026-10-31. Only the sign is compared, not the whole lesson.",
+  "sign": "ं"
+ },
+ "g1-w24-d2": {
+  "evidence": "TG G1 PDF p100 (printed p98): the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a 220-dpi render by Claude Code on 2026-10-31. Only the sign is compared, not the whole lesson.",
+  "sign": "ं"
+ },
+ "g1-w25-d4": {
+  "evidence": "TG G1 PDF p108 (printed p106): the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a 220-dpi render by Claude Code on 2026-10-31. Only the sign is compared, not the whole lesson.",
+  "sign": "ै"
+ },
+ "g2-w2-d2": {
+  "evidence": "TG G2 PDF p26 (printed p24): the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a 220-dpi render by Claude Code on 2026-10-31. Only the sign is compared, not the whole lesson.",
+  "sign": "े"
+ },
+ "g2-w4-d1": {
+  "evidence": "TG G2 PDF p37 (printed p35): the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a 220-dpi render by Claude Code on 2026-10-31. Only the sign is compared, not the whole lesson.",
+  "sign": "े"
+ },
+ "g2-w4-d4": {
+  "evidence": "TG G2 PDF p40 (printed p38): the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a 220-dpi render by Claude Code on 2026-10-31. Only the sign is compared, not the whole lesson.",
+  "sign": "ं"
+ },
+ "g3-w2-d2": {
+  "evidence": "TG G3 PDF p26 (printed p24): the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a 220-dpi render by Claude Code on 2026-10-31. Only the sign is compared, not the whole lesson.",
+  "sign": "े"
+ },
+ "g3-w4-d2": {
+  "evidence": "TG G3 PDF p38 (printed p36): the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a 220-dpi render by Claude Code on 2026-10-31. Only the sign is compared, not the whole lesson.",
+  "sign": "े"
+ },
+ "g3-w4-d3": {
+  "evidence": "TG G3 PDF p39 (printed p37): the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a 220-dpi render by Claude Code on 2026-10-31. Only the sign is compared, not the whole lesson.",
+  "sign": "ं"
+ },
+ "g3-w4-d4": {
+  "evidence": "TG G3 PDF p40 (printed p38): the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a 220-dpi render by Claude Code on 2026-10-31. Only the sign is compared, not the whole lesson.",
+  "sign": "ँ"
+ },
+ "workbook-g1-p47": {
+  "evidence": "Workbook G1 PDF p47: the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a render by Claude Code on 2026-10-31.",
+  "sign": "े"
+ },
+ "workbook-g1-p49": {
+  "evidence": "Workbook G1 PDF p49: the quoted vowel sign is drawn outside the text layer and decodes as ‘ ’; read from a render by Claude Code on 2026-10-31.",
+  "sign": "े"
  }
 }
