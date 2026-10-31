@@ -220,7 +220,7 @@ rollback path for a term. Gate ✋: owner go-live decision.
 
 ## 9. Decisions needed from the owner before Phase 0
 
-1. Preview hosting: separate preview origin (A, recommended) or `/next/` subpath (B)?
+1. ~~Preview hosting~~ **Decided 31 Oct 2026: separate preview origin (A).** Host to choose.
 2. LO linking: allow reviewed `derived` links, or only links printed in the guide?
 3. Who reviews the program profiles and content model (✋ gates)?
 4. Which v2 additions to explore in Phase 6 (LO view, routine guide, remediation view)?

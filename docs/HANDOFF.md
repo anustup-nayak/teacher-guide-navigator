@@ -60,7 +60,7 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/ontology-plan` | `docs/CONTENT_ARCHITECTURE_PLAN.md`, this file | plan written, awaiting owner approval | No code changed. Next: owner answers the 4 decisions in §9 of the plan, then Phase 0 (tag v1.0.0, release/v1, next branch). |
+| Claude Code | `task/ontology-plan` | `docs/CONTENT_ARCHITECTURE_PLAN.md`, this file | plan written, awaiting owner approval | No code changed. Owner chose a separate preview origin (§9.1); host not yet chosen. Next: host choice, then Phase 0 (tag v1.0.0, release/v1, next branch). |
 
 ## Change log
 
