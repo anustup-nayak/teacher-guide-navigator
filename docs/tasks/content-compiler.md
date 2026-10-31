@@ -71,3 +71,11 @@ without the separate hosting/design decisions. Full live-site QA from the earlie
 chat was superseded by the user's explicit choice to resume Phase 3; no stale r56
 asset results were used as r61 release approval. Temporary browser preferences were
 restored, and the live-test tab closed before compiler work.
+
+## Dependency synchronized
+
+PR #15 merged during close-out as `7c9556a`. Merged the new next head into this
+branch; resolved only HANDOFF and CONTENT_MODEL documentation conflicts, preserving
+all seven owner decisions and the compiler's tested v1.0.0 freeze. No runtime/model
+source conflict. PR #16 is now the next integration step; rerun full gates on the
+synchronized branch before sign-off.

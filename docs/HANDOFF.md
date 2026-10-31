@@ -41,8 +41,8 @@ mid-task. It is the first file to read and the last file to update.
 | Release | r61 (live, tag `v1.0.4`, `main` @ `49f873c`; `release/v1` mirrors it). `next` has `main` merged in |
 | Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
-| Checks | `npm test` (111 on compiler task branch, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (12), skill script tests, `npm run verify:sources -- --require-complete` |
-| Content compiler | Phase 3 implemented in PR #16 (not merged); ontology/release 1.0.0, 732 lessons, both v1 byte-parity gates PASS. PR #15 is an open dependency. |
+| Checks | `npm test` (111 on compiler task branch, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (15), skill script tests, `npm run verify:sources -- --require-complete` |
+| Content compiler | Phase 3 implemented in PR #16 (not merged); ontology/release 1.0.0, 732 lessons, both v1 byte-parity gates PASS. PR #15 merged as `7c9556a`; compiler branch synced. |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
 | Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
 
@@ -54,10 +54,10 @@ v1 remains live at r61 (`main` @ `49f873c`, tag `v1.0.4`; `release/v1` mirrors i
 v2 integration remains on `next`. No v2 runtime or content endpoint was deployed.
 
 1. **Integration/review:** [PR #15](https://github.com/anustup-nayak/teacher-guide-navigator/pull/15)
-   (owner's ontology decisions) is still OPEN on GitHub; earlier "merged" wording
-   below was premature. [PR #16](https://github.com/anustup-nayak/teacher-guide-navigator/pull/16)
-   implements the compiler and includes #15 locally as its dependency. Review/merge
-   #15 before #16. Both compiler check runs passed on implementation commit `92663b9`.
+   (owner's ontology decisions) merged as `7c9556a` while the compiler handoff was
+   being finalized. [PR #16](https://github.com/anustup-nayak/teacher-guide-navigator/pull/16)
+   is synced with that `next` head; review/merge #16 next. Implementation checks passed
+   on `92663b9`; final branch checks also run after the synchronization.
 2. **Phase 3 is implemented:** [compiler contract](CONTENT_COMPILER.md),
    [task evidence](tasks/content-compiler.md). Both v1 catalogs reconstruct byte for byte
    from 732 model lessons; ontology v1.0.0 frozen in the compiler branch. Static releases,
@@ -99,8 +99,9 @@ old exhaustive live-QA task in this session; earlier r56 evidence is not current
   migration keeps canonical teaching fields in model JSON and legacy-only export
   fields in pack compat/. Both catalogs reconstruct byte for byte (732 lessons);
   ontology v1.0.0 frozen in this task branch. Full model population is still Phases 4–5.
-- Correction to earlier handoff: PR #15 is OPEN (verified via GitHub), not merged.
-  Its owner-approved decisions are a local dependency of this compiler branch.
+- At implementation start PR #15 was OPEN; it merged as `7c9556a` during close-out.
+  Synced the compiler branch with next and retained both the owner decisions and
+  the proven v1.0.0 parity freeze while resolving two documentation conflicts.
 - Local and both GitHub check runs PASS on `92663b9` (PR #16 is mergeable).
 - 111 Node, 15 Python ingestion, 4 skill helper; content reproducibility/parity,
   design lock, syntax, source integrity and publication/preservation all PASS locally.
