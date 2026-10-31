@@ -38,7 +38,7 @@ mid-task. It is the first file to read and the last file to update.
 |---|---|
 | Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`) |
 | Repository | github.com/anustup-nayak/teacher-guide-navigator (public). Branches: `main` (v1 live), `release/v1`, `next` (v2) — see [VERSIONING.md](VERSIONING.md). Tag `v1.0.0` = r57 |
-| Release | r57 (live). `main`, `release/v1` and `next` all at `25c50ac` (docs-only commits after r57; live worker still r57) |
+| Release | r57 (live). r58 (source repair of `g2-hindi-w19-d03`) is on PR to `main`; after it merges, fast-forward `release/v1` and merge `main` into `next` |
 | Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
 | Checks | `npm test` (80, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (12), skill script tests, `npm run verify:sources -- --require-complete` |
@@ -70,12 +70,25 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Claude Code | `task/repair-g2-hindi-w19-d03` (from `main`) | `curricula/up-hindi-2026/tools/{repairs.json,build_pack.py}`, `curricula/up-hindi-2026/reviewed/catalog.mjs`, `dist/packs/up-hindi-2026/catalog.mjs`, `curricula/published-baseline.json`, r58 version bumps in `dist/` | r58 drafted; PR to `main` open | Done: repair, publish, reviewed baseline amendment, r58, all checks, browser check. Next: owner merges; then fast-forward `release/v1`, merge `main` into `next` and drop the structure.json exception. Task note: [repair](tasks/repair-g2-hindi-w19-d03.md). |
 | Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
 
 ## Change log
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.
+
+### 2026-10-31 · Claude Code · `task/repair-g2-hindi-w19-d03` (PR to `main`, release r58)
+
+- Source repair approved by the owner: `g2-hindi-w19-d03` had lost step 2.3 and all of period 3, and
+  showed period 3's word grid on 2.1. Periods 2–3 transcribed from TG G2 PDF p124 into `repairs.json`;
+  `build_pack.py` can now add a dropped period. Only this lesson changed; existing step ids kept.
+- Reviewed baseline amendment (first use of the procedure, now in
+  [CURRICULUM_EXPANSION.md](CURRICULUM_EXPANSION.md)): two hashes, recorded in `amendments`.
+- Checks: npm test 80/80, check, design:check, sw.js, verify:publication, ingestion 12/12,
+  verify:sources, skill tests; browser 360/390 px, Hindi/English, legacy link, Math unchanged.
+  Task note: [repair](tasks/repair-g2-hindi-w19-d03.md). Left: deploy via merge; possible grid
+  mis-attachment on other days (G2 w19 d2) needs a review.
 
 ### 2026-10-31 · Claude Code · `main` @ `25c50ac` (PR #5, squash-merged)
 
