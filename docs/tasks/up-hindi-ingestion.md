@@ -20,6 +20,9 @@ Branch / agent: `task/up-hindi-ingestion` · Claude Code.
 | WB Grade-3 Veena 1 (18 march 25).pdf | workbook | 3 | 134,741,977 B |
 
 Owner decisions so far: include Grades 1–3; download through the in-app browser.
+Owner direction (31 Oct 2026): keep it simple. Hindi is added as a subject inside the
+existing Math app (same screens, same flow, a Hindi option in the Subject selector).
+No separate app, no new design; minimise questions and reuse existing components.
 
 Drive file IDs (folder 1KQa4pH58nRBC00VGItfbpx9JhBfJtKbK): TG G1 1AwGjmuTeYGVovRhLLOp39v0GGFOGTrz3,
 TG G2 1Bvf5r9EqhHh8NCLt64Opeg2cuNGNJLMJ, TG G3 1EZTc_ZcLekvqczG2hjUDR8UzaTBLpfK8,
