@@ -1,0 +1,100 @@
+{
+ "$id": "assessments.schema.json",
+ "type": "object",
+ "required": [
+  "pack",
+  "assessments"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "pack": {
+   "$ref": "common.schema.json#/$defs/slug"
+  },
+  "assessments": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "type",
+     "name",
+     "when",
+     "provenance"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "$ref": "common.schema.json#/$defs/slug"
+     },
+     "type": {
+      "enum": [
+       "checking-understanding",
+       "weekly",
+       "periodic",
+       "oral-language-observation",
+       "fluency"
+      ]
+     },
+     "name": {
+      "$ref": "common.schema.json#/$defs/text"
+     },
+     "when": {
+      "$ref": "common.schema.json#/$defs/text"
+     },
+     "grades": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/grade"
+      }
+     },
+     "instrument": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/link"
+      }
+     },
+     "recording": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/link"
+      }
+     },
+     "groups": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "id",
+        "rule"
+       ],
+       "additionalProperties": false,
+       "properties": {
+        "id": {
+         "enum": [
+          "A",
+          "B"
+         ]
+        },
+        "rule": {
+         "$ref": "common.schema.json#/$defs/text"
+        },
+        "plan": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/link"
+         }
+        }
+       }
+      }
+     },
+     "section": {
+      "type": "string"
+     },
+     "provenance": {
+      "$ref": "common.schema.json#/$defs/provenance"
+     }
+    }
+   }
+  }
+ }
+}

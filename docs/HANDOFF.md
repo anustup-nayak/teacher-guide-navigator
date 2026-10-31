@@ -70,6 +70,7 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Claude Code | `task/phase2-content-model` (from `next`) | `docs/CONTENT_MODEL.md`, `schemas/content-model/`, `scripts/content/schema.mjs`, `scripts/content/v1_lesson.mjs`, `docs/content-model/examples/`, `tests/content-model.test.mjs` | Phase 2 in progress | Done: vocabularies, common + 9 entity schemas, dependency-free validator. Next: worked examples (Hindi g1-hindi-w09-d02, Math g1-math-w09-d01), CONTENT_MODEL.md, test, PR to `next`. Owner said “Start work” after Phase 1 merge; the profile review gate is still open. |
 | Claude Code | `task/phase1-program-profiles` (from `next`) | `scripts/content/*`, `curricula/*/extracted/matter/`, `curricula/*/model/*`, `tests/pagemap.test.mjs`, `docs/tasks/phase1-program-profiles.md` | Phase 1 drafted; PR to `next` open | Done: extractor, section maps, page maps + coverage test (npm test 83/83), both PROGRAM_PROFILE.md drafts, workbook matter. Next: owner/academic review gate ✋ of both profiles; then Phase 2. Any agent may take over. |
 | Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
 

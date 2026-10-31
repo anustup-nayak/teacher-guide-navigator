@@ -1,0 +1,81 @@
+{
+ "$id": "materials.schema.json",
+ "type": "object",
+ "required": [
+  "pack",
+  "materials"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "pack": {
+   "$ref": "common.schema.json#/$defs/slug"
+  },
+  "materials": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "type",
+     "title",
+     "grades",
+     "provenance"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "$ref": "common.schema.json#/$defs/slug"
+     },
+     "type": {
+      "enum": [
+       "textbook",
+       "workbook",
+       "teacher-guide",
+       "picture-chart",
+       "poster",
+       "big-book",
+       "library-book",
+       "grid",
+       "kit",
+       "picture-story-book",
+       "local"
+      ]
+     },
+     "title": {
+      "$ref": "common.schema.json#/$defs/text"
+     },
+     "grades": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/grade"
+      }
+     },
+     "count": {
+      "type": "integer"
+     },
+     "periods": {
+      "type": "array",
+      "items": {
+       "type": "integer"
+      }
+     },
+     "weeks": {
+      "type": "array",
+      "items": {
+       "type": "integer"
+      }
+     },
+     "document": {
+      "type": "string"
+     },
+     "pages": {
+      "type": "string"
+     },
+     "provenance": {
+      "$ref": "common.schema.json#/$defs/provenance"
+     }
+    }
+   }
+  }
+ }
+}
