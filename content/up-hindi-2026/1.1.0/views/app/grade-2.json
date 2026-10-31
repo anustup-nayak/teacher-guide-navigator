@@ -6557,6 +6557,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p7",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 7,
+      "printed": 5
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -6826,6 +6838,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p8",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 8,
+      "printed": 6
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -7096,6 +7120,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p9",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 9,
+      "printed": 7
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -7362,6 +7398,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p10",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 10,
+      "printed": 8
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -7636,6 +7684,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p11",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 11,
+      "printed": 9
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -7859,6 +7919,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p11",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 11,
+      "printed": 9
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -8128,6 +8200,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p12",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 12,
+      "printed": 10
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -8403,6 +8487,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p13",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 13,
+      "printed": 11
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -8676,6 +8772,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p14",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 14,
+      "printed": 12
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -8942,6 +9050,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p15",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 15,
+      "printed": 13
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -9213,6 +9333,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p16",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 16,
+      "printed": 14
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -9436,6 +9568,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p16",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 16,
+      "printed": 14
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -9703,6 +9847,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p17",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 17,
+      "printed": 15
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -9978,6 +10134,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p18",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 18,
+      "printed": 16
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -10251,6 +10419,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p19",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 19,
+      "printed": 17
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -10517,6 +10697,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p20",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 20,
+      "printed": 18
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -10790,6 +10982,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p21",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 21,
+      "printed": 19
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -11017,6 +11221,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p21",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 21,
+      "printed": 19
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -11285,6 +11501,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p22",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 22,
+      "printed": 20
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -11558,6 +11786,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p23",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 23,
+      "printed": 21
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -11834,6 +12074,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p24",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 24,
+      "printed": 22
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -12108,6 +12360,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p25",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 25,
+      "printed": 23
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -12383,6 +12647,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p26",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 26,
+      "printed": 24
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -12610,6 +12886,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p26",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 26,
+      "printed": 24
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -12882,6 +13170,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p27",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 27,
+      "printed": 25
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -13148,6 +13448,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p28",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 28,
+      "printed": 26
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -13423,6 +13735,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p29",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 29,
+      "printed": 27
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -13676,6 +14000,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p30",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 30,
+      "printed": 28
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -13944,6 +14280,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p31",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 31,
+      "printed": 29
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -14172,6 +14520,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p31",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 31,
+      "printed": 29
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -14441,6 +14801,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p32",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 32,
+      "printed": 30
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -14713,6 +15085,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p33",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 33,
+      "printed": 31
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -14989,6 +15373,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p34",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 34,
+      "printed": 32
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -15263,6 +15659,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p35",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 35,
+      "printed": 33
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -15532,6 +15940,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p36",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 36,
+      "printed": 34
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -15760,6 +16180,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p36",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 36,
+      "printed": 34
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -16027,6 +16459,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p37",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 37,
+      "printed": 35
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -16292,6 +16736,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p38",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 38,
+      "printed": 36
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -16562,6 +17018,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p39",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 39,
+      "printed": 37
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -16829,6 +17297,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p40",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 40,
+      "printed": 38
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -17098,6 +17578,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p41",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 41,
+      "printed": 39
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -17326,6 +17818,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p41",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 41,
+      "printed": 39
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -17595,6 +18099,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p42",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 42,
+      "printed": 40
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -17864,6 +18380,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p43",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 43,
+      "printed": 41
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -18138,6 +18666,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p44",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 44,
+      "printed": 42
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -18391,6 +18931,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p45",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 45,
+      "printed": 43
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -18662,6 +19214,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p46",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 46,
+      "printed": 44
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -18886,6 +19450,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p46",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 46,
+      "printed": 44
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -19158,6 +19734,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p52",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 52,
+      "printed": 50
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -19430,6 +20018,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p53",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 53,
+      "printed": 51
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -19709,6 +20309,28 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p54",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 54,
+      "printed": 52
+     }
+    },
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p55",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 55,
+      "printed": 53
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -19965,6 +20587,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p56",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 56,
+      "printed": 54
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -20237,6 +20871,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p57",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 57,
+      "printed": 55
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -20460,6 +21106,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p57",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 57,
+      "printed": 55
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -20733,6 +21391,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p58",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 58,
+      "printed": 56
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -21012,6 +21682,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p59",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 59,
+      "printed": 57
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -21292,6 +21974,28 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p60",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 60,
+      "printed": 58
+     }
+    },
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p61",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 61,
+      "printed": 59
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -21572,6 +22276,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p62",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 62,
+      "printed": 60
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -21840,6 +22556,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p63",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 63,
+      "printed": 61
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -22068,6 +22796,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p63",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 63,
+      "printed": 61
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -22339,6 +23079,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p64",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 64,
+      "printed": 62
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -22609,6 +23361,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p65",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 65,
+      "printed": 63
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -22884,6 +23648,28 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p66",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 66,
+      "printed": 64
+     }
+    },
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p67",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 67,
+      "printed": 65
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -23155,6 +23941,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p68",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 68,
+      "printed": 66
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -23428,6 +24226,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p69",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 69,
+      "printed": 67
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -23651,6 +24461,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p69",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 69,
+      "printed": 67
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -23923,6 +24745,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p70",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 70,
+      "printed": 68
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -24196,6 +25030,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p71",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 71,
+      "printed": 69
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -24475,6 +25321,28 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p72",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 72,
+      "printed": 70
+     }
+    },
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p73",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 73,
+      "printed": 71
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -24745,6 +25613,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p74",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 74,
+      "printed": 72
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -25018,6 +25898,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p75",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 75,
+      "printed": 73
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -25241,6 +26133,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p75",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 75,
+      "printed": 73
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -25514,6 +26418,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p76",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 76,
+      "printed": 74
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -25788,6 +26704,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p77",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 77,
+      "printed": 75
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -26066,6 +26994,28 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p78",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 78,
+      "printed": 76
+     }
+    },
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p79",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 79,
+      "printed": 77
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -26320,6 +27270,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p80",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 80,
+      "printed": 78
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -26590,6 +27552,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p81",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 81,
+      "printed": 79
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -26811,6 +27785,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p81",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 81,
+      "printed": 79
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -27082,6 +28068,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p82",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 82,
+      "printed": 80
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -27352,6 +28350,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p83",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 83,
+      "printed": 81
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -27628,6 +28638,28 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p84",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 84,
+      "printed": 82
+     }
+    },
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p85",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 85,
+      "printed": 83
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -27884,6 +28916,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p86",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 86,
+      "printed": 84
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -28156,6 +29200,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p87",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 87,
+      "printed": 85
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -28379,6 +29435,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p87",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 87,
+      "printed": 85
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -28649,6 +29717,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p93",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 93,
+      "printed": 91
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -28918,6 +29998,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p94",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 94,
+      "printed": 92
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -29193,6 +30285,28 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p95",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 95,
+      "printed": 93
+     }
+    },
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p96",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 96,
+      "printed": 94
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -29463,6 +30577,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p97",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 97,
+      "printed": 95
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -29735,6 +30861,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p98",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 98,
+      "printed": 96
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -29956,6 +31094,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p98",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 98,
+      "printed": 96
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -30227,6 +31377,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p99",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 99,
+      "printed": 97
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -30505,6 +31667,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p100",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 100,
+      "printed": 98
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -30789,6 +31963,28 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p101",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 101,
+      "printed": 99
+     }
+    },
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p102",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 102,
+      "printed": 100
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -31068,6 +32264,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p103",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 103,
+      "printed": 101
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -31335,6 +32543,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p104",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 104,
+      "printed": 102
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -31556,6 +32776,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p104",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 104,
+      "printed": 102
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -31827,6 +33059,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p105",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 105,
+      "printed": 103
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -32097,6 +33341,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p106",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 106,
+      "printed": 104
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -32657,6 +33913,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p109",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 109,
+      "printed": 107
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -32930,6 +34198,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p110",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 110,
+      "printed": 108
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -33151,6 +34431,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p110",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 110,
+      "printed": 108
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -33422,6 +34714,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p111",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 111,
+      "printed": 109
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -33692,6 +34996,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p112",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 112,
+      "printed": 110
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -34239,6 +35555,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p115",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 115,
+      "printed": 113
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -34510,6 +35838,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p116",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 116,
+      "printed": 114
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -34731,6 +36071,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p116",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 116,
+      "printed": 114
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -35004,6 +36356,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p117",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 117,
+      "printed": 115
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -35275,6 +36639,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p118",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 118,
+      "printed": 116
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -35823,6 +37199,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p121",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 121,
+      "printed": 119
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -36095,6 +37483,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p122",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 122,
+      "printed": 120
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",
@@ -36316,6 +37716,18 @@
     }
    ],
    "assessment": [],
+   "workbook": [
+    {
+     "to": "workbook:workbook-g2-b7aee36aedf3/p122",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "workbook-g2-b7aee36aedf3",
+      "pdf": 122,
+      "printed": 120
+     }
+    }
+   ],
    "guideLinks": [],
    "source": {
     "doc": "guide-g2-d86262b7a94c",

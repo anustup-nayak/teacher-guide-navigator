@@ -28,6 +28,10 @@ feature here, not a matter of taste.
 3. **Browse screen.** Two side-by-side route tabs, “पाठ के विषय से” and
    “सप्ताह / दिन से”; topic groups expand to summary cards; cards end with
    “पाठयोजना खोलें →” (or “साप्ताहिक रूपरेखा खोलें →” for weekly plans).
+   Every subject's card uses one rule: the top line is “सप्ताह N · दिन N”, plus the day
+   type's name on days other than new teaching (e.g. “· साप्ताहिक आकलन”), from
+   `dist/day-types.mjs`; the summary is the workbook page, then the first material
+   without its preparation note. (Owner-approved 31 Oct 2026; no style change.)
 4. **Lesson anatomy, in order.** Blue lesson banner with week/day badge;
    wrapping sticky section chips (preparation, every source phase with its
    minutes, my note, original pages); preparation blocks; one card per source

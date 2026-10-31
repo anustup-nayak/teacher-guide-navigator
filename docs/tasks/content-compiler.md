@@ -81,3 +81,26 @@ source conflict. All local gates were rerun successfully on the synchronized bra
 PR #16 is the next integration step; its final head must pass GitHub checks.
 Semantic versions now reject malformed or non-advancing previous/version pairs,
 including prerelease numeric ordering.
+
+## Taken over by Claude Code (31 Oct 2026)
+
+Codex ran out of credits after `bcd106e`; its worktree was clean and pushed. The owner asked
+Claude Code to continue and make sure the architecture-driven website works. Worked on a local
+branch tracking `origin/task/content-compiler` (Codex's worktree untouched). Reran every gate on
+`bcd106e`: 112/112 tests, `verify:content`, check, design lock, publication, ingestion 15/15, CI.
+
+- **Gap found:** the app bundles lacked 412 of the 650 workbook pages the website shows (Math days
+  4–6 and most Hindi days); they lived only in `compat/v1.json`. Fixed in the model: lesson-level
+  `workbook` links (schema field, `v1_codec` importer, one-off model edit); nothing else in any
+  lesson changed (checked field by field). Release **1.0.1** built with `--previous 1.0.0`; v1 views
+  unchanged byte for byte; 1.0.0 untouched.
+- **Website reads the release:** `content/website.json` pins 1.0.1; `scripts/content/publish_site.mjs`
+  (`site:publish`, `verify:site`) copies hash-checked `views/v1` catalogs to `dist/`.
+  `tests/site-from-release.test.mjs`: dist equals the pinned releases; app bundles carry every
+  displayed field for all 732 lessons (4,036 steps).
+- **Query library in a real browser:** loaded 1.0.1 over HTTP, all 16 files hash-verified with
+  SubtleCrypto; `lesson`, `day`, `dayType`, `search` (Hindi), `cite` correct; routine/outcome
+  queries empty (Phases 4–5); no globals touched.
+- **Website QA on the release-driven build (localhost, 390 px):** every 3rd Math lesson (122) and
+  all 366 Hindi lessons open with the right title and step count, no overflow; no empty ‘ ’;
+  images load; no console errors.

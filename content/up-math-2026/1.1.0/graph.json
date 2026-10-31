@@ -349,6 +349,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w09-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p9",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 9,
+   "printed": 7
+  }
+ },
+ {
   "from": "lesson:g1-math-w09-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -479,6 +491,18 @@
     0.95,
     0.728005023575414
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w09-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p10",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 10,
+   "printed": 8
   }
  },
  {
@@ -615,6 +639,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w09-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p11",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 11,
+   "printed": 9
+  }
+ },
+ {
   "from": "lesson:g1-math-w09-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -655,6 +691,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w09-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p12",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 12,
+   "printed": 10
   }
  },
  {
@@ -701,6 +749,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w09-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p13",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 13,
+   "printed": 11
+  }
+ },
+ {
   "from": "lesson:g1-math-w09-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -741,6 +801,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w09-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p14",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 14,
+   "printed": 12
   }
  },
  {
@@ -877,6 +949,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w10-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p15",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 15,
+   "printed": 13
+  }
+ },
+ {
   "from": "lesson:g1-math-w10-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -1007,6 +1091,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w10-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p16",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 16,
+   "printed": 14
   }
  },
  {
@@ -1143,6 +1239,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w10-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p17",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 17,
+   "printed": 15
+  }
+ },
+ {
   "from": "lesson:g1-math-w10-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -1183,6 +1291,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w10-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p18",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 18,
+   "printed": 16
   }
  },
  {
@@ -1229,6 +1349,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w10-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p19",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 19,
+   "printed": 17
+  }
+ },
+ {
   "from": "lesson:g1-math-w10-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -1269,6 +1401,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w10-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p20",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 20,
+   "printed": 18
   }
  },
  {
@@ -1405,6 +1549,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w11-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p21",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 21,
+   "printed": 19
+  }
+ },
+ {
   "from": "lesson:g1-math-w11-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -1535,6 +1691,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w11-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p22",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 22,
+   "printed": 20
   }
  },
  {
@@ -1671,6 +1839,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w11-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p23",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 23,
+   "printed": 21
+  }
+ },
+ {
   "from": "lesson:g1-math-w11-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -1711,6 +1891,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w11-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p24",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 24,
+   "printed": 22
   }
  },
  {
@@ -1757,6 +1949,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w11-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p25",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 25,
+   "printed": 23
+  }
+ },
+ {
   "from": "lesson:g1-math-w11-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -1797,6 +2001,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w11-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p26",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 26,
+   "printed": 24
   }
  },
  {
@@ -1933,6 +2149,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w12-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p27",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 27,
+   "printed": 25
+  }
+ },
+ {
   "from": "lesson:g1-math-w12-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -2063,6 +2291,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w12-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p28",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 28,
+   "printed": 26
   }
  },
  {
@@ -2199,6 +2439,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w12-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p29",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 29,
+   "printed": 27
+  }
+ },
+ {
   "from": "lesson:g1-math-w12-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -2239,6 +2491,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w12-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p30",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 30,
+   "printed": 28
   }
  },
  {
@@ -2285,6 +2549,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w12-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p31",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 31,
+   "printed": 29
+  }
+ },
+ {
   "from": "lesson:g1-math-w12-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -2325,6 +2601,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w12-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p32",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 32,
+   "printed": 30
   }
  },
  {
@@ -2461,6 +2749,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w14-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p39",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 39,
+   "printed": 37
+  }
+ },
+ {
   "from": "lesson:g1-math-w14-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -2591,6 +2891,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w14-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p40",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 40,
+   "printed": 38
   }
  },
  {
@@ -2727,6 +3039,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w14-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p41",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 41,
+   "printed": 39
+  }
+ },
+ {
   "from": "lesson:g1-math-w14-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -2767,6 +3091,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w14-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p42",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 42,
+   "printed": 40
   }
  },
  {
@@ -2813,6 +3149,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w14-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p43",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 43,
+   "printed": 41
+  }
+ },
+ {
   "from": "lesson:g1-math-w14-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -2853,6 +3201,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w14-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p44",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 44,
+   "printed": 42
   }
  },
  {
@@ -2989,6 +3349,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w15-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p45",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 45,
+   "printed": 43
+  }
+ },
+ {
   "from": "lesson:g1-math-w15-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -3119,6 +3491,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w15-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p46",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 46,
+   "printed": 44
   }
  },
  {
@@ -3255,6 +3639,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w15-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p47",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 47,
+   "printed": 45
+  }
+ },
+ {
   "from": "lesson:g1-math-w15-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -3295,6 +3691,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w15-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p48",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 48,
+   "printed": 46
   }
  },
  {
@@ -3341,6 +3749,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w15-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p49",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 49,
+   "printed": 47
+  }
+ },
+ {
   "from": "lesson:g1-math-w15-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -3381,6 +3801,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w15-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p50",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 50,
+   "printed": 48
   }
  },
  {
@@ -3517,6 +3949,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w16-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p51",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 51,
+   "printed": 49
+  }
+ },
+ {
   "from": "lesson:g1-math-w16-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -3647,6 +4091,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w16-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p52",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 52,
+   "printed": 50
   }
  },
  {
@@ -3783,6 +4239,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w16-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p53",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 53,
+   "printed": 51
+  }
+ },
+ {
   "from": "lesson:g1-math-w16-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -3823,6 +4291,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w16-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p54",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 54,
+   "printed": 52
   }
  },
  {
@@ -3869,6 +4349,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w16-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p55",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 55,
+   "printed": 53
+  }
+ },
+ {
   "from": "lesson:g1-math-w16-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -3909,6 +4401,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w16-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p56",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 56,
+   "printed": 54
   }
  },
  {
@@ -4045,6 +4549,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w17-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p57",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 57,
+   "printed": 55
+  }
+ },
+ {
   "from": "lesson:g1-math-w17-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -4175,6 +4691,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w17-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p58",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 58,
+   "printed": 56
   }
  },
  {
@@ -4311,6 +4839,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w17-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p59",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 59,
+   "printed": 57
+  }
+ },
+ {
   "from": "lesson:g1-math-w17-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -4351,6 +4891,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w17-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p60",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 60,
+   "printed": 58
   }
  },
  {
@@ -4397,6 +4949,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w17-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p61",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 61,
+   "printed": 59
+  }
+ },
+ {
   "from": "lesson:g1-math-w17-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -4437,6 +5001,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w17-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p62",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 62,
+   "printed": 60
   }
  },
  {
@@ -4573,6 +5149,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w18-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p63",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 63,
+   "printed": 61
+  }
+ },
+ {
   "from": "lesson:g1-math-w18-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -4703,6 +5291,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w18-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p64",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 64,
+   "printed": 62
   }
  },
  {
@@ -4839,6 +5439,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w18-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p65",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 65,
+   "printed": 63
+  }
+ },
+ {
   "from": "lesson:g1-math-w18-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -4879,6 +5491,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w18-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p66",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 66,
+   "printed": 64
   }
  },
  {
@@ -4925,6 +5549,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w18-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p67",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 67,
+   "printed": 65
+  }
+ },
+ {
   "from": "lesson:g1-math-w18-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -4965,6 +5601,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w18-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p68",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 68,
+   "printed": 66
   }
  },
  {
@@ -5101,6 +5749,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w19-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p69",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 69,
+   "printed": 67
+  }
+ },
+ {
   "from": "lesson:g1-math-w19-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -5231,6 +5891,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w19-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p70",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 70,
+   "printed": 68
   }
  },
  {
@@ -5367,6 +6039,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w19-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p71",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 71,
+   "printed": 69
+  }
+ },
+ {
   "from": "lesson:g1-math-w19-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -5407,6 +6091,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w19-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p72",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 72,
+   "printed": 70
   }
  },
  {
@@ -5453,6 +6149,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w19-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p73",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 73,
+   "printed": 71
+  }
+ },
+ {
   "from": "lesson:g1-math-w19-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -5493,6 +6201,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w19-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p74",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 74,
+   "printed": 72
   }
  },
  {
@@ -5629,6 +6349,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w21-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p81",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 81,
+   "printed": 79
+  }
+ },
+ {
   "from": "lesson:g1-math-w21-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -5759,6 +6491,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w21-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p82",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 82,
+   "printed": 80
   }
  },
  {
@@ -5895,6 +6639,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w21-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p83",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 83,
+   "printed": 81
+  }
+ },
+ {
   "from": "lesson:g1-math-w21-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -5935,6 +6691,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w21-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p84",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 84,
+   "printed": 82
   }
  },
  {
@@ -5981,6 +6749,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w21-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p85",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 85,
+   "printed": 83
+  }
+ },
+ {
   "from": "lesson:g1-math-w21-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -6021,6 +6801,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w21-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p86",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 86,
+   "printed": 84
   }
  },
  {
@@ -6157,6 +6949,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w22-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p87",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 87,
+   "printed": 85
+  }
+ },
+ {
   "from": "lesson:g1-math-w22-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -6287,6 +7091,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w22-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p88",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 88,
+   "printed": 86
   }
  },
  {
@@ -6423,6 +7239,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w22-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p89",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 89,
+   "printed": 87
+  }
+ },
+ {
   "from": "lesson:g1-math-w22-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -6463,6 +7291,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w22-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p90",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 90,
+   "printed": 88
   }
  },
  {
@@ -6509,6 +7349,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w22-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p91",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 91,
+   "printed": 89
+  }
+ },
+ {
   "from": "lesson:g1-math-w22-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -6549,6 +7401,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w22-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p92",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 92,
+   "printed": 90
   }
  },
  {
@@ -6685,6 +7549,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w23-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p93",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 93,
+   "printed": 91
+  }
+ },
+ {
   "from": "lesson:g1-math-w23-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -6815,6 +7691,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w23-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p94",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 94,
+   "printed": 92
   }
  },
  {
@@ -6951,6 +7839,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w23-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p95",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 95,
+   "printed": 93
+  }
+ },
+ {
   "from": "lesson:g1-math-w23-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -6991,6 +7891,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w23-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p96",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 96,
+   "printed": 94
   }
  },
  {
@@ -7037,6 +7949,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w23-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p97",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 97,
+   "printed": 95
+  }
+ },
+ {
   "from": "lesson:g1-math-w23-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -7077,6 +8001,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w23-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p98",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 98,
+   "printed": 96
   }
  },
  {
@@ -7213,6 +8149,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w24-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p99",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 99,
+   "printed": 97
+  }
+ },
+ {
   "from": "lesson:g1-math-w24-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -7343,6 +8291,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w24-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p100",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 100,
+   "printed": 98
   }
  },
  {
@@ -7479,6 +8439,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w24-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p101",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 101,
+   "printed": 99
+  }
+ },
+ {
   "from": "lesson:g1-math-w24-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -7519,6 +8491,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w24-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p102",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 102,
+   "printed": 100
   }
  },
  {
@@ -7565,6 +8549,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w24-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p103",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 103,
+   "printed": 101
+  }
+ },
+ {
   "from": "lesson:g1-math-w24-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -7605,6 +8601,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w24-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p104",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 104,
+   "printed": 102
   }
  },
  {
@@ -7741,6 +8749,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w25-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p105",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 105,
+   "printed": 103
+  }
+ },
+ {
   "from": "lesson:g1-math-w25-d02",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -7871,6 +8891,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w25-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p106",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 106,
+   "printed": 104
   }
  },
  {
@@ -8007,6 +9039,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w25-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p107",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 107,
+   "printed": 105
+  }
+ },
+ {
   "from": "lesson:g1-math-w25-d04",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -8047,6 +9091,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w25-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p108",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 108,
+   "printed": 106
   }
  },
  {
@@ -8093,6 +9149,18 @@
   }
  },
  {
+  "from": "lesson:g1-math-w25-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p109",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 109,
+   "printed": 107
+  }
+ },
+ {
   "from": "lesson:g1-math-w25-d06",
   "relation": "cites",
   "to": "document:guide-g1-167f09e3bf58",
@@ -8133,6 +9201,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g1-math-w25-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g1-87d1e0f42ce2/p110",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 110,
+   "printed": 108
   }
  },
  {
@@ -10381,6 +11461,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w05-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p9",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 9,
+   "printed": 7
+  }
+ },
+ {
   "from": "lesson:g2-math-w05-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -10511,6 +11603,18 @@
     0.95,
     0.7298469751279775
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w05-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p10",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 10,
+   "printed": 8
   }
  },
  {
@@ -10647,6 +11751,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w05-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p11",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 11,
+   "printed": 9
+  }
+ },
+ {
   "from": "lesson:g2-math-w05-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -10687,6 +11803,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w05-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p12",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 12,
+   "printed": 10
   }
  },
  {
@@ -10733,6 +11861,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w05-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p13",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 13,
+   "printed": 11
+  }
+ },
+ {
   "from": "lesson:g2-math-w05-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -10773,6 +11913,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w05-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p14",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 14,
+   "printed": 12
   }
  },
  {
@@ -10909,6 +12061,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w06-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p15",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 15,
+   "printed": 13
+  }
+ },
+ {
   "from": "lesson:g2-math-w06-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -11039,6 +12203,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w06-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p16",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 16,
+   "printed": 14
   }
  },
  {
@@ -11175,6 +12351,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w06-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p17",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 17,
+   "printed": 15
+  }
+ },
+ {
   "from": "lesson:g2-math-w06-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -11215,6 +12403,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w06-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p18",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 18,
+   "printed": 16
   }
  },
  {
@@ -11261,6 +12461,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w06-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p19",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 19,
+   "printed": 17
+  }
+ },
+ {
   "from": "lesson:g2-math-w06-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -11301,6 +12513,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w06-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p20",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 20,
+   "printed": 18
   }
  },
  {
@@ -11437,6 +12661,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w07-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p21",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 21,
+   "printed": 19
+  }
+ },
+ {
   "from": "lesson:g2-math-w07-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -11567,6 +12803,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w07-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p22",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 22,
+   "printed": 20
   }
  },
  {
@@ -11703,6 +12951,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w07-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p23",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 23,
+   "printed": 21
+  }
+ },
+ {
   "from": "lesson:g2-math-w07-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -11743,6 +13003,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w07-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p24",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 24,
+   "printed": 22
   }
  },
  {
@@ -11789,6 +13061,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w07-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p25",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 25,
+   "printed": 23
+  }
+ },
+ {
   "from": "lesson:g2-math-w07-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -11829,6 +13113,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w07-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p26",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 26,
+   "printed": 24
   }
  },
  {
@@ -11965,6 +13261,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w08-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p27",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 27,
+   "printed": 25
+  }
+ },
+ {
   "from": "lesson:g2-math-w08-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -12095,6 +13403,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w08-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p28",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 28,
+   "printed": 26
   }
  },
  {
@@ -12231,6 +13551,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w08-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p29",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 29,
+   "printed": 27
+  }
+ },
+ {
   "from": "lesson:g2-math-w08-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -12271,6 +13603,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w08-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p30",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 30,
+   "printed": 28
   }
  },
  {
@@ -12317,6 +13661,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w08-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p31",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 31,
+   "printed": 29
+  }
+ },
+ {
   "from": "lesson:g2-math-w08-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -12357,6 +13713,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w08-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p32",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 32,
+   "printed": 30
   }
  },
  {
@@ -12493,6 +13861,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w09-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p33",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 33,
+   "printed": 31
+  }
+ },
+ {
   "from": "lesson:g2-math-w09-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -12623,6 +14003,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w09-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p34",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 34,
+   "printed": 32
   }
  },
  {
@@ -12759,6 +14151,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w09-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p35",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 35,
+   "printed": 33
+  }
+ },
+ {
   "from": "lesson:g2-math-w09-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -12799,6 +14203,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w09-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p36",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 36,
+   "printed": 34
   }
  },
  {
@@ -12845,6 +14261,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w09-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p37",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 37,
+   "printed": 35
+  }
+ },
+ {
   "from": "lesson:g2-math-w09-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -12885,6 +14313,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w09-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p38",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 38,
+   "printed": 36
   }
  },
  {
@@ -13021,6 +14461,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w10-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p39",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 39,
+   "printed": 37
+  }
+ },
+ {
   "from": "lesson:g2-math-w10-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -13151,6 +14603,18 @@
     0.95,
     0.7298469751279775
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w10-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p40",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 40,
+   "printed": 38
   }
  },
  {
@@ -13287,6 +14751,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w10-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p41",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 41,
+   "printed": 39
+  }
+ },
+ {
   "from": "lesson:g2-math-w10-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -13327,6 +14803,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w10-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p42",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 42,
+   "printed": 40
   }
  },
  {
@@ -13373,6 +14861,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w10-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p43",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 43,
+   "printed": 41
+  }
+ },
+ {
   "from": "lesson:g2-math-w10-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -13413,6 +14913,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w10-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p44",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 44,
+   "printed": 42
   }
  },
  {
@@ -13549,6 +15061,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w11-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p45",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 45,
+   "printed": 43
+  }
+ },
+ {
   "from": "lesson:g2-math-w11-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -13679,6 +15203,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w11-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p46",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 46,
+   "printed": 44
   }
  },
  {
@@ -13815,6 +15351,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w11-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p47",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 47,
+   "printed": 45
+  }
+ },
+ {
   "from": "lesson:g2-math-w11-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -13855,6 +15403,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w11-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p48",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 48,
+   "printed": 46
   }
  },
  {
@@ -13901,6 +15461,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w11-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p49",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 49,
+   "printed": 47
+  }
+ },
+ {
   "from": "lesson:g2-math-w11-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -13941,6 +15513,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w11-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p50",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 50,
+   "printed": 48
   }
  },
  {
@@ -14077,6 +15661,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w12-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p51",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 51,
+   "printed": 49
+  }
+ },
+ {
   "from": "lesson:g2-math-w12-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -14207,6 +15803,18 @@
     0.95,
     0.7298469751279775
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w12-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p52",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 52,
+   "printed": 50
   }
  },
  {
@@ -14343,6 +15951,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w12-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p53",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 53,
+   "printed": 51
+  }
+ },
+ {
   "from": "lesson:g2-math-w12-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -14383,6 +16003,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w12-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p54",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 54,
+   "printed": 52
   }
  },
  {
@@ -14429,6 +16061,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w12-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p55",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 55,
+   "printed": 53
+  }
+ },
+ {
   "from": "lesson:g2-math-w12-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -14469,6 +16113,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w12-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p56",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 56,
+   "printed": 54
   }
  },
  {
@@ -14605,6 +16261,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w14-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p63",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 63,
+   "printed": 61
+  }
+ },
+ {
   "from": "lesson:g2-math-w14-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -14735,6 +16403,18 @@
     0.95,
     0.7298469751279775
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w14-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p64",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 64,
+   "printed": 62
   }
  },
  {
@@ -14871,6 +16551,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w14-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p65",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 65,
+   "printed": 63
+  }
+ },
+ {
   "from": "lesson:g2-math-w14-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -14911,6 +16603,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w14-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p66",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 66,
+   "printed": 64
   }
  },
  {
@@ -14957,6 +16661,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w14-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p67",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 67,
+   "printed": 65
+  }
+ },
+ {
   "from": "lesson:g2-math-w14-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -14997,6 +16713,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w14-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p68",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 68,
+   "printed": 66
   }
  },
  {
@@ -15133,6 +16861,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w15-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p69",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 69,
+   "printed": 67
+  }
+ },
+ {
   "from": "lesson:g2-math-w15-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -15263,6 +17003,18 @@
     0.95,
     0.7298469751279775
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w15-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p70",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 70,
+   "printed": 68
   }
  },
  {
@@ -15399,6 +17151,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w15-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p71",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 71,
+   "printed": 69
+  }
+ },
+ {
   "from": "lesson:g2-math-w15-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -15439,6 +17203,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w15-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p72",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 72,
+   "printed": 70
   }
  },
  {
@@ -15485,6 +17261,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w15-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p73",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 73,
+   "printed": 71
+  }
+ },
+ {
   "from": "lesson:g2-math-w15-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -15525,6 +17313,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w15-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p74",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 74,
+   "printed": 72
   }
  },
  {
@@ -15661,6 +17461,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w16-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p75",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 75,
+   "printed": 73
+  }
+ },
+ {
   "from": "lesson:g2-math-w16-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -15791,6 +17603,18 @@
     0.95,
     0.7298469751279775
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w16-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p76",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 76,
+   "printed": 74
   }
  },
  {
@@ -15927,6 +17751,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w16-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p77",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 77,
+   "printed": 75
+  }
+ },
+ {
   "from": "lesson:g2-math-w16-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -15967,6 +17803,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w16-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p78",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 78,
+   "printed": 76
   }
  },
  {
@@ -16013,6 +17861,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w16-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p79",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 79,
+   "printed": 77
+  }
+ },
+ {
   "from": "lesson:g2-math-w16-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -16053,6 +17913,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w16-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p80",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 80,
+   "printed": 78
   }
  },
  {
@@ -16189,6 +18061,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w17-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p81",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 81,
+   "printed": 79
+  }
+ },
+ {
   "from": "lesson:g2-math-w17-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -16319,6 +18203,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w17-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p82",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 82,
+   "printed": 80
   }
  },
  {
@@ -16455,6 +18351,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w17-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p83",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 83,
+   "printed": 81
+  }
+ },
+ {
   "from": "lesson:g2-math-w17-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -16495,6 +18403,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w17-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p84",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 84,
+   "printed": 82
   }
  },
  {
@@ -16541,6 +18461,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w17-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p85",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 85,
+   "printed": 83
+  }
+ },
+ {
   "from": "lesson:g2-math-w17-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -16581,6 +18513,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w17-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p86",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 86,
+   "printed": 84
   }
  },
  {
@@ -16717,6 +18661,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w18-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p87",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 87,
+   "printed": 85
+  }
+ },
+ {
   "from": "lesson:g2-math-w18-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -16847,6 +18803,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w18-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p88",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 88,
+   "printed": 86
   }
  },
  {
@@ -16983,6 +18951,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w18-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p89",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 89,
+   "printed": 87
+  }
+ },
+ {
   "from": "lesson:g2-math-w18-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -17023,6 +19003,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w18-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p90",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 90,
+   "printed": 88
   }
  },
  {
@@ -17069,6 +19061,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w18-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p91",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 91,
+   "printed": 89
+  }
+ },
+ {
   "from": "lesson:g2-math-w18-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -17109,6 +19113,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w18-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p92",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 92,
+   "printed": 90
   }
  },
  {
@@ -17245,6 +19261,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w19-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p93",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 93,
+   "printed": 91
+  }
+ },
+ {
   "from": "lesson:g2-math-w19-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -17375,6 +19403,18 @@
     0.95,
     0.7298469751279775
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w19-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p94",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 94,
+   "printed": 92
   }
  },
  {
@@ -17511,6 +19551,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w19-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p95",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 95,
+   "printed": 93
+  }
+ },
+ {
   "from": "lesson:g2-math-w19-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -17551,6 +19603,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w19-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p96",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 96,
+   "printed": 94
   }
  },
  {
@@ -17597,6 +19661,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w19-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p97",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 97,
+   "printed": 95
+  }
+ },
+ {
   "from": "lesson:g2-math-w19-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -17637,6 +19713,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w19-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p98",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 98,
+   "printed": 96
   }
  },
  {
@@ -17773,6 +19861,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w21-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p105",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 105,
+   "printed": 103
+  }
+ },
+ {
   "from": "lesson:g2-math-w21-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -17903,6 +20003,18 @@
     0.95,
     0.7298469751279775
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w21-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p106",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 106,
+   "printed": 104
   }
  },
  {
@@ -18039,6 +20151,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w21-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p107",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 107,
+   "printed": 105
+  }
+ },
+ {
   "from": "lesson:g2-math-w21-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -18079,6 +20203,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w21-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p108",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 108,
+   "printed": 106
   }
  },
  {
@@ -18125,6 +20261,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w21-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p109",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 109,
+   "printed": 107
+  }
+ },
+ {
   "from": "lesson:g2-math-w21-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -18165,6 +20313,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w21-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p110",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 110,
+   "printed": 108
   }
  },
  {
@@ -18301,6 +20461,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w22-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p111",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 111,
+   "printed": 109
+  }
+ },
+ {
   "from": "lesson:g2-math-w22-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -18431,6 +20603,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w22-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p112",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 112,
+   "printed": 110
   }
  },
  {
@@ -18567,6 +20751,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w22-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p113",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 113,
+   "printed": 111
+  }
+ },
+ {
   "from": "lesson:g2-math-w22-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -18607,6 +20803,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w22-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p114",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 114,
+   "printed": 112
   }
  },
  {
@@ -18653,6 +20861,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w22-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p115",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 115,
+   "printed": 113
+  }
+ },
+ {
   "from": "lesson:g2-math-w22-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -18693,6 +20913,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w22-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p116",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 116,
+   "printed": 114
   }
  },
  {
@@ -18829,6 +21061,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w23-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p117",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 117,
+   "printed": 115
+  }
+ },
+ {
   "from": "lesson:g2-math-w23-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -18959,6 +21203,18 @@
     0.95,
     0.7298469751279775
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w23-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p118",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 118,
+   "printed": 116
   }
  },
  {
@@ -19095,6 +21351,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w23-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p119",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 119,
+   "printed": 117
+  }
+ },
+ {
   "from": "lesson:g2-math-w23-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -19135,6 +21403,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w23-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p120",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 120,
+   "printed": 118
   }
  },
  {
@@ -19181,6 +21461,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w23-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p121",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 121,
+   "printed": 119
+  }
+ },
+ {
   "from": "lesson:g2-math-w23-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -19221,6 +21513,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w23-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p122",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 122,
+   "printed": 120
   }
  },
  {
@@ -19357,6 +21661,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w24-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p123",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 123,
+   "printed": 121
+  }
+ },
+ {
   "from": "lesson:g2-math-w24-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -19487,6 +21803,18 @@
     0.95,
     0.7298469751279775
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w24-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p124",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 124,
+   "printed": 122
   }
  },
  {
@@ -19623,6 +21951,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w24-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p125",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 125,
+   "printed": 123
+  }
+ },
+ {
   "from": "lesson:g2-math-w24-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -19663,6 +22003,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w24-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p126",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 126,
+   "printed": 124
   }
  },
  {
@@ -19709,6 +22061,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w24-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p127",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 127,
+   "printed": 125
+  }
+ },
+ {
   "from": "lesson:g2-math-w24-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -19749,6 +22113,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w24-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p128",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 128,
+   "printed": 126
   }
  },
  {
@@ -19885,6 +22261,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w25-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p129",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 129,
+   "printed": 127
+  }
+ },
+ {
   "from": "lesson:g2-math-w25-d02",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -20015,6 +22403,18 @@
     0.95,
     0.7298472100208429
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w25-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p130",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 130,
+   "printed": 128
   }
  },
  {
@@ -20151,6 +22551,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w25-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p131",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 131,
+   "printed": 129
+  }
+ },
+ {
   "from": "lesson:g2-math-w25-d04",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -20191,6 +22603,18 @@
     0.95,
     0.31
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w25-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p132",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 132,
+   "printed": 130
   }
  },
  {
@@ -20237,6 +22661,18 @@
   }
  },
  {
+  "from": "lesson:g2-math-w25-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p133",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 133,
+   "printed": 131
+  }
+ },
+ {
   "from": "lesson:g2-math-w25-d06",
   "relation": "cites",
   "to": "document:guide-g2-9b3436f6e0f7",
@@ -20277,6 +22713,18 @@
     0.95,
     0.96
    ]
+  }
+ },
+ {
+  "from": "lesson:g2-math-w25-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g2-9a90832e59d1/p134",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 134,
+   "printed": 132
   }
  },
  {
@@ -22525,6 +24973,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w05-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p9",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 9,
+   "printed": 7
+  }
+ },
+ {
   "from": "lesson:g3-math-w05-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -22655,6 +25115,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w05-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p10",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 10,
+   "printed": 8
   }
  },
  {
@@ -22791,6 +25263,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w05-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p11",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 11,
+   "printed": 9
+  }
+ },
+ {
   "from": "lesson:g3-math-w05-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -22831,6 +25315,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w05-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p12",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 12,
+   "printed": 10
   }
  },
  {
@@ -22877,6 +25373,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w05-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p13",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 13,
+   "printed": 11
+  }
+ },
+ {
   "from": "lesson:g3-math-w05-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -22917,6 +25425,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w05-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p14",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 14,
+   "printed": 12
   }
  },
  {
@@ -23053,6 +25573,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w06-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p15",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 15,
+   "printed": 13
+  }
+ },
+ {
   "from": "lesson:g3-math-w06-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -23183,6 +25715,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w06-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p16",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 16,
+   "printed": 14
   }
  },
  {
@@ -23319,6 +25863,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w06-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p17",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 17,
+   "printed": 15
+  }
+ },
+ {
   "from": "lesson:g3-math-w06-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -23359,6 +25915,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w06-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p18",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 18,
+   "printed": 16
   }
  },
  {
@@ -23405,6 +25973,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w06-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p19",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 19,
+   "printed": 17
+  }
+ },
+ {
   "from": "lesson:g3-math-w06-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -23445,6 +26025,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w06-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p20",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 20,
+   "printed": 18
   }
  },
  {
@@ -23581,6 +26173,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w07-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p21",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 21,
+   "printed": 19
+  }
+ },
+ {
   "from": "lesson:g3-math-w07-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -23711,6 +26315,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w07-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p22",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 22,
+   "printed": 20
   }
  },
  {
@@ -23847,6 +26463,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w07-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p23",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 23,
+   "printed": 21
+  }
+ },
+ {
   "from": "lesson:g3-math-w07-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -23887,6 +26515,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w07-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p24",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 24,
+   "printed": 22
   }
  },
  {
@@ -23933,6 +26573,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w07-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p25",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 25,
+   "printed": 23
+  }
+ },
+ {
   "from": "lesson:g3-math-w07-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -23973,6 +26625,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w07-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p26",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 26,
+   "printed": 24
   }
  },
  {
@@ -24109,6 +26773,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w08-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p27",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 27,
+   "printed": 25
+  }
+ },
+ {
   "from": "lesson:g3-math-w08-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -24239,6 +26915,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w08-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p28",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 28,
+   "printed": 26
   }
  },
  {
@@ -24375,6 +27063,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w08-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p29",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 29,
+   "printed": 27
+  }
+ },
+ {
   "from": "lesson:g3-math-w08-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -24415,6 +27115,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w08-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p30",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 30,
+   "printed": 28
   }
  },
  {
@@ -24461,6 +27173,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w08-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p31",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 31,
+   "printed": 29
+  }
+ },
+ {
   "from": "lesson:g3-math-w08-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -24501,6 +27225,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w08-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p32",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 32,
+   "printed": 30
   }
  },
  {
@@ -24637,6 +27373,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w09-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p33",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 33,
+   "printed": 31
+  }
+ },
+ {
   "from": "lesson:g3-math-w09-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -24767,6 +27515,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w09-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p34",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 34,
+   "printed": 32
   }
  },
  {
@@ -24903,6 +27663,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w09-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p35",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 35,
+   "printed": 33
+  }
+ },
+ {
   "from": "lesson:g3-math-w09-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -24943,6 +27715,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w09-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p36",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 36,
+   "printed": 34
   }
  },
  {
@@ -24989,6 +27773,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w09-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p37",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 37,
+   "printed": 35
+  }
+ },
+ {
   "from": "lesson:g3-math-w09-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -25029,6 +27825,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w09-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p38",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 38,
+   "printed": 36
   }
  },
  {
@@ -25165,6 +27973,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w10-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p39",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 39,
+   "printed": 37
+  }
+ },
+ {
   "from": "lesson:g3-math-w10-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -25295,6 +28115,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w10-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p40",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 40,
+   "printed": 38
   }
  },
  {
@@ -25431,6 +28263,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w10-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p41",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 41,
+   "printed": 39
+  }
+ },
+ {
   "from": "lesson:g3-math-w10-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -25471,6 +28315,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w10-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p42",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 42,
+   "printed": 40
   }
  },
  {
@@ -25517,6 +28373,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w10-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p43",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 43,
+   "printed": 41
+  }
+ },
+ {
   "from": "lesson:g3-math-w10-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -25557,6 +28425,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w10-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p44",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 44,
+   "printed": 42
   }
  },
  {
@@ -25693,6 +28573,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w11-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p45",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 45,
+   "printed": 43
+  }
+ },
+ {
   "from": "lesson:g3-math-w11-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -25823,6 +28715,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w11-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p46",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 46,
+   "printed": 44
   }
  },
  {
@@ -25959,6 +28863,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w11-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p47",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 47,
+   "printed": 45
+  }
+ },
+ {
   "from": "lesson:g3-math-w11-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -25999,6 +28915,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w11-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p48",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 48,
+   "printed": 46
   }
  },
  {
@@ -26045,6 +28973,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w11-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p49",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 49,
+   "printed": 47
+  }
+ },
+ {
   "from": "lesson:g3-math-w11-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -26085,6 +29025,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w11-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p50",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 50,
+   "printed": 48
   }
  },
  {
@@ -26221,6 +29173,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w12-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p51",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 51,
+   "printed": 49
+  }
+ },
+ {
   "from": "lesson:g3-math-w12-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -26351,6 +29315,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w12-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p52",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 52,
+   "printed": 50
   }
  },
  {
@@ -26487,6 +29463,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w12-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p53",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 53,
+   "printed": 51
+  }
+ },
+ {
   "from": "lesson:g3-math-w12-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -26527,6 +29515,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w12-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p54",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 54,
+   "printed": 52
   }
  },
  {
@@ -26573,6 +29573,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w12-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p55",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 55,
+   "printed": 53
+  }
+ },
+ {
   "from": "lesson:g3-math-w12-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -26613,6 +29625,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w12-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p56",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 56,
+   "printed": 54
   }
  },
  {
@@ -26749,6 +29773,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w14-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p63",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 63,
+   "printed": 61
+  }
+ },
+ {
   "from": "lesson:g3-math-w14-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -26879,6 +29915,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w14-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p64",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 64,
+   "printed": 62
   }
  },
  {
@@ -27015,6 +30063,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w14-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p65",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 65,
+   "printed": 63
+  }
+ },
+ {
   "from": "lesson:g3-math-w14-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -27055,6 +30115,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w14-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p66",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 66,
+   "printed": 64
   }
  },
  {
@@ -27101,6 +30173,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w14-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p67",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 67,
+   "printed": 65
+  }
+ },
+ {
   "from": "lesson:g3-math-w14-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -27141,6 +30225,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w14-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p68",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 68,
+   "printed": 66
   }
  },
  {
@@ -27277,6 +30373,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w15-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p69",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 69,
+   "printed": 67
+  }
+ },
+ {
   "from": "lesson:g3-math-w15-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -27407,6 +30515,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w15-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p70",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 70,
+   "printed": 68
   }
  },
  {
@@ -27543,6 +30663,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w15-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p71",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 71,
+   "printed": 69
+  }
+ },
+ {
   "from": "lesson:g3-math-w15-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -27583,6 +30715,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w15-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p72",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 72,
+   "printed": 70
   }
  },
  {
@@ -27629,6 +30773,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w15-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p73",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 73,
+   "printed": 71
+  }
+ },
+ {
   "from": "lesson:g3-math-w15-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -27669,6 +30825,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w15-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p74",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 74,
+   "printed": 72
   }
  },
  {
@@ -27805,6 +30973,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w16-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p75",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 75,
+   "printed": 73
+  }
+ },
+ {
   "from": "lesson:g3-math-w16-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -27935,6 +31115,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w16-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p76",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 76,
+   "printed": 74
   }
  },
  {
@@ -28071,6 +31263,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w16-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p77",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 77,
+   "printed": 75
+  }
+ },
+ {
   "from": "lesson:g3-math-w16-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -28111,6 +31315,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w16-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p78",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 78,
+   "printed": 76
   }
  },
  {
@@ -28157,6 +31373,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w16-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p79",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 79,
+   "printed": 77
+  }
+ },
+ {
   "from": "lesson:g3-math-w16-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -28197,6 +31425,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w16-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p80",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 80,
+   "printed": 78
   }
  },
  {
@@ -28333,6 +31573,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w17-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p81",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 81,
+   "printed": 79
+  }
+ },
+ {
   "from": "lesson:g3-math-w17-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -28463,6 +31715,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w17-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p82",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 82,
+   "printed": 80
   }
  },
  {
@@ -28599,6 +31863,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w17-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p83",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 83,
+   "printed": 81
+  }
+ },
+ {
   "from": "lesson:g3-math-w17-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -28639,6 +31915,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w17-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p84",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 84,
+   "printed": 82
   }
  },
  {
@@ -28685,6 +31973,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w17-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p85",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 85,
+   "printed": 83
+  }
+ },
+ {
   "from": "lesson:g3-math-w17-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -28725,6 +32025,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w17-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p86",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 86,
+   "printed": 84
   }
  },
  {
@@ -28861,6 +32173,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w18-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p87",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 87,
+   "printed": 85
+  }
+ },
+ {
   "from": "lesson:g3-math-w18-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -28991,6 +32315,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w18-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p88",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 88,
+   "printed": 86
   }
  },
  {
@@ -29127,6 +32463,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w18-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p89",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 89,
+   "printed": 87
+  }
+ },
+ {
   "from": "lesson:g3-math-w18-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -29167,6 +32515,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w18-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p90",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 90,
+   "printed": 88
   }
  },
  {
@@ -29213,6 +32573,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w18-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p91",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 91,
+   "printed": 89
+  }
+ },
+ {
   "from": "lesson:g3-math-w18-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -29253,6 +32625,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w18-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p92",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 92,
+   "printed": 90
   }
  },
  {
@@ -29389,6 +32773,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w19-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p93",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 93,
+   "printed": 91
+  }
+ },
+ {
   "from": "lesson:g3-math-w19-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -29519,6 +32915,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w19-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p94",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 94,
+   "printed": 92
   }
  },
  {
@@ -29655,6 +33063,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w19-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p95",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 95,
+   "printed": 93
+  }
+ },
+ {
   "from": "lesson:g3-math-w19-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -29695,6 +33115,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w19-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p96",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 96,
+   "printed": 94
   }
  },
  {
@@ -29741,6 +33173,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w19-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p97",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 97,
+   "printed": 95
+  }
+ },
+ {
   "from": "lesson:g3-math-w19-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -29781,6 +33225,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w19-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p98",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 98,
+   "printed": 96
   }
  },
  {
@@ -29917,6 +33373,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w21-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p105",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 105,
+   "printed": 103
+  }
+ },
+ {
   "from": "lesson:g3-math-w21-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -30047,6 +33515,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w21-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p106",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 106,
+   "printed": 104
   }
  },
  {
@@ -30183,6 +33663,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w21-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p107",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 107,
+   "printed": 105
+  }
+ },
+ {
   "from": "lesson:g3-math-w21-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -30223,6 +33715,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w21-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p108",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 108,
+   "printed": 106
   }
  },
  {
@@ -30269,6 +33773,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w21-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p109",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 109,
+   "printed": 107
+  }
+ },
+ {
   "from": "lesson:g3-math-w21-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -30309,6 +33825,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w21-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p110",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 110,
+   "printed": 108
   }
  },
  {
@@ -30445,6 +33973,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w22-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p111",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 111,
+   "printed": 109
+  }
+ },
+ {
   "from": "lesson:g3-math-w22-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -30575,6 +34115,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w22-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p112",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 112,
+   "printed": 110
   }
  },
  {
@@ -30711,6 +34263,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w22-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p113",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 113,
+   "printed": 111
+  }
+ },
+ {
   "from": "lesson:g3-math-w22-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -30751,6 +34315,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w22-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p114",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 114,
+   "printed": 112
   }
  },
  {
@@ -30797,6 +34373,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w22-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p115",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 115,
+   "printed": 113
+  }
+ },
+ {
   "from": "lesson:g3-math-w22-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -30837,6 +34425,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w22-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p116",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 116,
+   "printed": 114
   }
  },
  {
@@ -30973,6 +34573,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w23-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p117",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 117,
+   "printed": 115
+  }
+ },
+ {
   "from": "lesson:g3-math-w23-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -31103,6 +34715,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w23-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p118",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 118,
+   "printed": 116
   }
  },
  {
@@ -31239,6 +34863,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w23-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p119",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 119,
+   "printed": 117
+  }
+ },
+ {
   "from": "lesson:g3-math-w23-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -31279,6 +34915,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w23-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p120",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 120,
+   "printed": 118
   }
  },
  {
@@ -31325,6 +34973,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w23-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p121",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 121,
+   "printed": 119
+  }
+ },
+ {
   "from": "lesson:g3-math-w23-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -31365,6 +35025,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w23-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p122",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 122,
+   "printed": 120
   }
  },
  {
@@ -31501,6 +35173,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w24-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p123",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 123,
+   "printed": 121
+  }
+ },
+ {
   "from": "lesson:g3-math-w24-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -31631,6 +35315,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w24-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p124",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 124,
+   "printed": 122
   }
  },
  {
@@ -31767,6 +35463,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w24-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p125",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 125,
+   "printed": 123
+  }
+ },
+ {
   "from": "lesson:g3-math-w24-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -31807,6 +35515,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w24-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p126",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 126,
+   "printed": 124
   }
  },
  {
@@ -31853,6 +35573,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w24-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p127",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 127,
+   "printed": 125
+  }
+ },
+ {
   "from": "lesson:g3-math-w24-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -31893,6 +35625,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w24-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p128",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 128,
+   "printed": 126
   }
  },
  {
@@ -32029,6 +35773,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w25-d01",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p129",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 129,
+   "printed": 127
+  }
+ },
+ {
   "from": "lesson:g3-math-w25-d02",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -32159,6 +35915,18 @@
     0.95,
     0.754
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w25-d02",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p130",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 130,
+   "printed": 128
   }
  },
  {
@@ -32295,6 +36063,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w25-d03",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p131",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 131,
+   "printed": 129
+  }
+ },
+ {
   "from": "lesson:g3-math-w25-d04",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -32335,6 +36115,18 @@
     0.95,
     0.318
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w25-d04",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p132",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 132,
+   "printed": 130
   }
  },
  {
@@ -32381,6 +36173,18 @@
   }
  },
  {
+  "from": "lesson:g3-math-w25-d05",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p133",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 133,
+   "printed": 131
+  }
+ },
+ {
   "from": "lesson:g3-math-w25-d06",
   "relation": "cites",
   "to": "document:guide-g3-186da9c8f52a",
@@ -32421,6 +36225,18 @@
     0.95,
     0.945
    ]
+  }
+ },
+ {
+  "from": "lesson:g3-math-w25-d06",
+  "relation": "workbook",
+  "to": "workbook:workbook-g3-057d687b6500/p134",
+  "assertion": "stated",
+  "review": "unreviewed",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 134,
+   "printed": 132
   }
  },
  {

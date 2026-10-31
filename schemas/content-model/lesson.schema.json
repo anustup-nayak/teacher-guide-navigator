@@ -182,6 +182,13 @@
     "$ref": "common.schema.json#/$defs/link"
    }
   },
+  "workbook": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/link"
+   },
+   "$comment": "every workbook page the day cites, in the guide's order (steps may also link the page they use)"
+  },
   "guideLinks": {
    "type": "array",
    "items": {

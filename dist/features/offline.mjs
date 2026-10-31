@@ -1,6 +1,6 @@
-import {getLesson} from '../core.mjs?v=r61';
-import {lessonVisualAssets} from '../lesson-visuals.mjs?v=r61';
-import {workerRequest} from '../services/worker-client.mjs?v=r61';
+import {getLesson} from '../core.mjs?v=r62';
+import {lessonVisualAssets} from '../lesson-visuals.mjs?v=r62';
+import {workerRequest} from '../services/worker-client.mjs?v=r62';
 
 export function createOfflineController({LESSONS,curriculum,CURRICULA,store,readObj,t,main,notify,render,version,getOffline,setOffline,request=workerRequest}){
 const KEY=curriculum.storageKey,VERSION=version;let offline=getOffline();
