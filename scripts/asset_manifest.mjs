@@ -1,0 +1,2 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';
+const files={};function walk(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const full=path.join(dir,entry.name);if(entry.isDirectory())walk(full);else if(full.endsWith('.webp'))files[path.relative('dist',full).split(path.sep).join('/')]=crypto.createHash('sha256').update(fs.readFileSync(full)).digest('hex');}}walk('dist');fs.writeFileSync('dist/asset-manifest.json',JSON.stringify(files));console.log(Object.keys(files).length+' source asset hashes');

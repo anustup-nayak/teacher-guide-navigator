@@ -1,0 +1,37 @@
+[
+  {
+    "documentId": "workbook-g1-87d1e0f42ce2",
+    "pages": 112,
+    "pagesNeedingOCR": 0
+  },
+  {
+    "documentId": "workbook-g3-057d687b6500",
+    "pages": 136,
+    "pagesNeedingOCR": 0
+  },
+  {
+    "documentId": "workbook-g2-9a90832e59d1",
+    "pages": 136,
+    "pagesNeedingOCR": 0
+  },
+  {
+    "documentId": "textbook-g3-0ecea86290ba",
+    "pages": 206,
+    "pagesNeedingOCR": 0
+  },
+  {
+    "documentId": "guide-g3-186da9c8f52a",
+    "pages": 144,
+    "pagesNeedingOCR": 0
+  },
+  {
+    "documentId": "guide-g2-9b3436f6e0f7",
+    "pages": 144,
+    "pagesNeedingOCR": 4
+  },
+  {
+    "documentId": "guide-g1-167f09e3bf58",
+    "pages": 112,
+    "pagesNeedingOCR": 14
+  }
+]

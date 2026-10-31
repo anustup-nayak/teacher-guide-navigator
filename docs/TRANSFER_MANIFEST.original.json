@@ -1,0 +1,5120 @@
+{
+  "commit": "e5941daf1685705705a3c6c9e4dfa27dcfb26d7b",
+  "files": [
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 365,
+      "sha256": "f490d48ccd72834ea6a696378b786da300c7c2d56cd95c12cd3398fd94e6cbe5"
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "bytes": 319,
+      "sha256": "b03749ee5268b0b09929e096c843c185e9b8e4d6df199a7399c6a2ce2e274d6b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 51,
+      "sha256": "9d3b53b2ad58fdab271186058344bc4e2846c507d2ab5f79f5998394ba9e7bc9"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 106,
+      "sha256": "09e090e18c48cf596c2d4db75d655b244ca39db88198b268ebf60171f90179e7"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1828,
+      "sha256": "6949558acde204105accf2dfd3f87dcde6843410207309801b8579b3f2c0734d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4188,
+      "sha256": "32cfe29273e11420aa9c81b474794b11b9f7ae31558351cbb11fb11f9d5479ea"
+    },
+    {
+      "path": "dist/app.mjs",
+      "bytes": 36163,
+      "sha256": "f6726a1e8208de2adf58bde2681370d54a7171c8d306b59a15bb6df2a085377e"
+    },
+    {
+      "path": "dist/catalog.mjs",
+      "bytes": 3964816,
+      "sha256": "1ecec70048e54b8b3f5100d9574769ebd91f56f4c903ca4e3ff4667ae364aa92"
+    },
+    {
+      "path": "dist/core.mjs",
+      "bytes": 3622,
+      "sha256": "9881cf9d854f68c01749309b7bd24bb6d79c172de51ac1b76227083eb5d8c43b"
+    },
+    {
+      "path": "dist/data.mjs",
+      "bytes": 48,
+      "sha256": "758cfd26f30059864542c96cf1c99c24915e801a2f86efe10de3a725f4057c22"
+    },
+    {
+      "path": "dist/i18n.mjs",
+      "bytes": 12966,
+      "sha256": "541c6591c216e9297da80b1251456118d566fbb195567253b55491317eb785be"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 1991,
+      "sha256": "cec1a6ff740c201d9d22f0d1da08808c8a6f11020bc35a74428f9fe6b1bac88a"
+    },
+    {
+      "path": "dist/resources.json",
+      "bytes": 23753,
+      "sha256": "3877c8af334b9db674e72035e4fa15b68c058398ba52f24edf848e6468d37d10"
+    },
+    {
+      "path": "dist/source/g1-p001.webp",
+      "bytes": 190082,
+      "sha256": "cc4968346002a096b43331164ac1c22d3663b55a44d3076b935de3ecadfbb619"
+    },
+    {
+      "path": "dist/source/g1-p002.webp",
+      "bytes": 154904,
+      "sha256": "0f97e6c18a4d1ca10e04cd7e24648a82160a1a6862786a20ae9e1269f8ccdd20"
+    },
+    {
+      "path": "dist/source/g1-p003.webp",
+      "bytes": 66362,
+      "sha256": "1f87f61873707f5038fad4ff4b6d86311bc1a0f7c05aa5c937097cf79a5c514c"
+    },
+    {
+      "path": "dist/source/g1-p004.webp",
+      "bytes": 166654,
+      "sha256": "e829e55cb4054dfe5e08004748a710b830eae8020c41603ed3aff1f5fa10b6c1"
+    },
+    {
+      "path": "dist/source/g1-p005.webp",
+      "bytes": 286418,
+      "sha256": "4f1b2b3125a75308a331064301bb146f4afb170315c0fe20d904abb2d0659393"
+    },
+    {
+      "path": "dist/source/g1-p006.webp",
+      "bytes": 163054,
+      "sha256": "77b5ea853840a2567108aaf65ec73e9c18971623684828d9425f94f6447b66b6"
+    },
+    {
+      "path": "dist/source/g1-p007.webp",
+      "bytes": 95860,
+      "sha256": "444a6dc509f2bd4cbc02dcf0b1df7f8625833c24db3a9c7c6256c1ff37a803dc"
+    },
+    {
+      "path": "dist/source/g1-p008.webp",
+      "bytes": 128506,
+      "sha256": "8f8b423c066d295fa5ef6d1d4d3f96127c08eab0a9431ec034c127cd33566977"
+    },
+    {
+      "path": "dist/source/g1-p009.webp",
+      "bytes": 129430,
+      "sha256": "2ff316385f8a7aef985b65fee3f3f1bcd9efc204dc18da7af8e02d730a6181c8"
+    },
+    {
+      "path": "dist/source/g1-p010.webp",
+      "bytes": 119312,
+      "sha256": "8e385bb0cb4b0eda7aeb685d8df6c068a4cb4c819f16f47dfae6009f851871d8"
+    },
+    {
+      "path": "dist/source/g1-p011.webp",
+      "bytes": 138078,
+      "sha256": "51cbfff051a1b3be30a95800d1ed581596011a7dcf5153cfddc3badd909fece6"
+    },
+    {
+      "path": "dist/source/g1-p012.webp",
+      "bytes": 158784,
+      "sha256": "6529bb0cbfa62f58eea5872c78ffe39ecc9a45c24d74c99430920a1a0cfdbeb0"
+    },
+    {
+      "path": "dist/source/g1-p013.webp",
+      "bytes": 149552,
+      "sha256": "2f0672fdb2a173c10a0bee3ec4ee7da87a63ac046b076883953cc2be5e1ef605"
+    },
+    {
+      "path": "dist/source/g1-p014.webp",
+      "bytes": 191008,
+      "sha256": "b1be2c325d88ebb009235666f26ce453703209ac221cf3fefe22d88c40e3cc3d"
+    },
+    {
+      "path": "dist/source/g1-p015.webp",
+      "bytes": 136998,
+      "sha256": "85c74382832b3d1818d754478c75a6bf281814decb72a05f5e9f45c9dc996f87"
+    },
+    {
+      "path": "dist/source/g1-p016.webp",
+      "bytes": 137080,
+      "sha256": "6010c3074340b20f9aa1e98e31c54050c7d37a4606ea67fe58f1a0e8fb7aa903"
+    },
+    {
+      "path": "dist/source/g1-p017.webp",
+      "bytes": 67616,
+      "sha256": "e7340cae8af099ef71f3d296389ab914e2567cc2dd0e8dc63c607a3275c19dd3"
+    },
+    {
+      "path": "dist/source/g1-p018.webp",
+      "bytes": 177546,
+      "sha256": "1d0b1e707e8a2657a8419c20a7912e847fde60b4bed88242453b457e04596e0c"
+    },
+    {
+      "path": "dist/source/g1-p019.webp",
+      "bytes": 179030,
+      "sha256": "417e24e0c1090c8b7244f6e6f0d9a93ee9c1ec1e4d6144ae3d0cfdf050b75cab"
+    },
+    {
+      "path": "dist/source/g1-p020.webp",
+      "bytes": 207718,
+      "sha256": "6c8ab714fca6313160703b6947a855a9d7efb76b484853d07363ca20484f44c9"
+    },
+    {
+      "path": "dist/source/g1-p021.webp",
+      "bytes": 126480,
+      "sha256": "f4d95535ac1c942dc71c1dec64933dca0486c3f0c371e586331089aff41df810"
+    },
+    {
+      "path": "dist/source/g1-p022.webp",
+      "bytes": 196406,
+      "sha256": "f5a3ff1dcc5a2b89ffd97909a650cd2d9deb4ed4838df67197a47af9ad85b755"
+    },
+    {
+      "path": "dist/source/g1-p023.webp",
+      "bytes": 213042,
+      "sha256": "1370165c2df8019c075465d53db3000ac8d24dba7c184fe6db6b0bb1542e0eca"
+    },
+    {
+      "path": "dist/source/g1-p024.webp",
+      "bytes": 213418,
+      "sha256": "30865392725346af315f2ead81757a6d1bbb9834ad0089c54be4569c8fd2c917"
+    },
+    {
+      "path": "dist/source/g1-p025.webp",
+      "bytes": 143336,
+      "sha256": "917a4246000622f8562b393017abb9f023aaa977129498e83bfd77d5aeb98d44"
+    },
+    {
+      "path": "dist/source/g1-p026.webp",
+      "bytes": 205502,
+      "sha256": "9e83201cc729c5ea3599cf8954cdae275d11439c8a14d292542da6c50a2deb92"
+    },
+    {
+      "path": "dist/source/g1-p027.webp",
+      "bytes": 214542,
+      "sha256": "627a51614683dfa3a84bcfe2eef82ff11209846bcbf1df046aab769e473c093f"
+    },
+    {
+      "path": "dist/source/g1-p028.webp",
+      "bytes": 183112,
+      "sha256": "5e75d42f56cf32c9cd5605be893cb2224700af99d7e3d21651ad521f162f5904"
+    },
+    {
+      "path": "dist/source/g1-p029.webp",
+      "bytes": 138934,
+      "sha256": "97808dbfd883581fd8dfd26a7b07ec453290c6f2eef45eea3108614eaedca27c"
+    },
+    {
+      "path": "dist/source/g1-p030.webp",
+      "bytes": 56994,
+      "sha256": "ff0fb6b8ab5118df941a746c17aea131666f3c1ac7f442e4bdc3a369644c3e30"
+    },
+    {
+      "path": "dist/source/g1-p031.webp",
+      "bytes": 186772,
+      "sha256": "124c9b42147f5845e62c3e405ef8a0168687eacfcea058a227da089492e1f7c1"
+    },
+    {
+      "path": "dist/source/g1-p032.webp",
+      "bytes": 193306,
+      "sha256": "78167eb15fe2fc006f4632cb285a3a1704570c9fd27b9f6bb47f68e36bc4b7a7"
+    },
+    {
+      "path": "dist/source/g1-p033.webp",
+      "bytes": 182410,
+      "sha256": "b30fd7fde6f0da79d1f864620327410c3bb8952d19b3aded1ff14f9629ec44c9"
+    },
+    {
+      "path": "dist/source/g1-p034.webp",
+      "bytes": 122682,
+      "sha256": "2ecda957bc0cff376ccb138367e825f8427247ce6087a14092287e6c32e87b54"
+    },
+    {
+      "path": "dist/source/g1-p035.webp",
+      "bytes": 99528,
+      "sha256": "8edb8adf1254a2c388c75818391d484d962c4b1f8243660e328283e3e7806ba8"
+    },
+    {
+      "path": "dist/source/g1-p036.webp",
+      "bytes": 203526,
+      "sha256": "38514f38b5b76a3d297ab06516db8d517f060dc56aa893be1c6adef2b926e475"
+    },
+    {
+      "path": "dist/source/g1-p037.webp",
+      "bytes": 215078,
+      "sha256": "0acaafd1a35ffc4589a273ab2f86feac0dca646035878853b8bde93588be46c3"
+    },
+    {
+      "path": "dist/source/g1-p038.webp",
+      "bytes": 217718,
+      "sha256": "f26722ada2ff20d4d0223300921deb0301ae3260f7e19715caff105ad9daf885"
+    },
+    {
+      "path": "dist/source/g1-p039.webp",
+      "bytes": 143362,
+      "sha256": "cb85ac3190023639a50684eaa0240f880fa042221e704c6d38be7fa424d1c723"
+    },
+    {
+      "path": "dist/source/g1-p040.webp",
+      "bytes": 68064,
+      "sha256": "c3754c19b45cacd5a42bbcb4f6b5aebe906932a649ce7002aa997f409b80ad2a"
+    },
+    {
+      "path": "dist/source/g1-p041.webp",
+      "bytes": 203736,
+      "sha256": "acfc4e9facf4ff4619043c59c953a8723e59ecc17cba4c6569483a7c6dd35adf"
+    },
+    {
+      "path": "dist/source/g1-p042.webp",
+      "bytes": 205660,
+      "sha256": "4e8bc407f85f1ad527a4158c81d200665e7616c586a0549cb87bb58ef600dfe2"
+    },
+    {
+      "path": "dist/source/g1-p043.webp",
+      "bytes": 199816,
+      "sha256": "410298f1a6baaa9ddfe44e731e16b2ddb6f594b3fd78616bb46efe63e3ff088f"
+    },
+    {
+      "path": "dist/source/g1-p044.webp",
+      "bytes": 147410,
+      "sha256": "2b655a0800d130ff075b7cd1a17f7ada59df75bb3aae965ded9593137b120d70"
+    },
+    {
+      "path": "dist/source/g1-p045.webp",
+      "bytes": 198354,
+      "sha256": "e28211fcbc33892654216dc560e1da2bc7a1cd800145f8efcc81608e7636decf"
+    },
+    {
+      "path": "dist/source/g1-p046.webp",
+      "bytes": 208848,
+      "sha256": "328d542bb5b88134d7562fff807a51d74faceab6f49e045715970a89f94dc100"
+    },
+    {
+      "path": "dist/source/g1-p047.webp",
+      "bytes": 199806,
+      "sha256": "f8129015b7b0b007b9907a320914c9ddaf43deecff6f9164e0e9ee8c4e8b516f"
+    },
+    {
+      "path": "dist/source/g1-p048.webp",
+      "bytes": 137258,
+      "sha256": "0db3d77d5e967132cac9c05e8f44cc120e717954d3f976d87e340e1adf8028cc"
+    },
+    {
+      "path": "dist/source/g1-p049.webp",
+      "bytes": 199138,
+      "sha256": "f415cbdb547ff090bc01580c6d518c3ae658531f0be94d0267bda91708475782"
+    },
+    {
+      "path": "dist/source/g1-p050.webp",
+      "bytes": 213782,
+      "sha256": "5578e0321ea29ad0c54022a23ecfb1d7284fc8bc38cb844c344037277289ad76"
+    },
+    {
+      "path": "dist/source/g1-p051.webp",
+      "bytes": 198204,
+      "sha256": "bd01c12a8d250d9bb7737ad004bb5fe73bda90de9ff8f6c260543bd8cf86fb9a"
+    },
+    {
+      "path": "dist/source/g1-p052.webp",
+      "bytes": 137596,
+      "sha256": "0c713658806df945569750398c639d7fdc583de9ca5b48b3a7cf0a49d4e1664c"
+    },
+    {
+      "path": "dist/source/g1-p053.webp",
+      "bytes": 56880,
+      "sha256": "81b5c57cf638da31ee9463d64f27455332cb3bc9414fd606ee29ad3c59bad907"
+    },
+    {
+      "path": "dist/source/g1-p054.webp",
+      "bytes": 197488,
+      "sha256": "e65c8f984dec487e550982c6282f41b9b675ddfd4beae96a45cbf7c26ead2885"
+    },
+    {
+      "path": "dist/source/g1-p055.webp",
+      "bytes": 202812,
+      "sha256": "891f7eda884b2fe67482228dec0d1ef3f0e4db802d7002ebe0693d4ac998c15a"
+    },
+    {
+      "path": "dist/source/g1-p056.webp",
+      "bytes": 197472,
+      "sha256": "bbc21a93134ae8939d8dfd1f28163519d0ca2d1d8058a92b1f39d0f6a050d399"
+    },
+    {
+      "path": "dist/source/g1-p057.webp",
+      "bytes": 133272,
+      "sha256": "2f7710d453a399ea433058f7960f69a8fcf3cd351aa89a7370f55aeb1413868b"
+    },
+    {
+      "path": "dist/source/g1-p058.webp",
+      "bytes": 208568,
+      "sha256": "29bcb691e4ede0ead719c4f68d06c34bcc672e98345669ebb5e5d38ab7312a26"
+    },
+    {
+      "path": "dist/source/g1-p059.webp",
+      "bytes": 208704,
+      "sha256": "b27dfdce581623ed684a8e7b657e0bd197f2b5ef1da7109727b89372f136335e"
+    },
+    {
+      "path": "dist/source/g1-p060.webp",
+      "bytes": 206986,
+      "sha256": "7b39999da5128b16140572271f545cb8d30879e1ad3701f29fef4c6ba6db7a00"
+    },
+    {
+      "path": "dist/source/g1-p061.webp",
+      "bytes": 143438,
+      "sha256": "8e484136795f7c198ad7647973f80808f95f887c512d1927550a66e62ec16035"
+    },
+    {
+      "path": "dist/source/g1-p062.webp",
+      "bytes": 128256,
+      "sha256": "78a2b0505d1d0253f8eeae125533c33226de63c532fd7fffc7503fb9549bfbc5"
+    },
+    {
+      "path": "dist/source/g1-p063.webp",
+      "bytes": 63110,
+      "sha256": "54dac6036151ebc5719d174f08b690b4ffabc34273a60dfe726bee07e8ed64b0"
+    },
+    {
+      "path": "dist/source/g1-p064.webp",
+      "bytes": 201364,
+      "sha256": "ae74946083783dad141725a7cd8df84df06a3d0415174a2046a67569ff331584"
+    },
+    {
+      "path": "dist/source/g1-p065.webp",
+      "bytes": 211196,
+      "sha256": "1bca9f92f040f1800cc409458a7a05a02f9bbe058adb6a331b8781fc0a4b1fd4"
+    },
+    {
+      "path": "dist/source/g1-p066.webp",
+      "bytes": 205448,
+      "sha256": "a064d905535b2331548e652a868e0328b3d0b0c8f47b896f0103898b1325cf26"
+    },
+    {
+      "path": "dist/source/g1-p067.webp",
+      "bytes": 139842,
+      "sha256": "87ad4b6d43cdbab4c39df942d557efd89386c8e8d1a20bbc7e0cffe077e25bf1"
+    },
+    {
+      "path": "dist/source/g1-p068.webp",
+      "bytes": 217524,
+      "sha256": "3c95369330e075f3b6b18bd0964ccd6eade1390981fd1bc455d87c65dbd46614"
+    },
+    {
+      "path": "dist/source/g1-p069.webp",
+      "bytes": 208948,
+      "sha256": "f787dad2d4643985550c0c095630f85a5837fafee6af3ad423e96df92ac0f7bf"
+    },
+    {
+      "path": "dist/source/g1-p070.webp",
+      "bytes": 201966,
+      "sha256": "ff40e2eaa61863462be145a154f4ec2015ffef4729988d24439fa8a6fdeffc0f"
+    },
+    {
+      "path": "dist/source/g1-p071.webp",
+      "bytes": 142680,
+      "sha256": "2c524dc246c63feceb0df01c67c8407567266a5c2cf6af45ad99e1520d41b205"
+    },
+    {
+      "path": "dist/source/g1-p072.webp",
+      "bytes": 212534,
+      "sha256": "65cac3d22e6f37c30907f897b7500bd707dc8e55419b60460899f8766797b85a"
+    },
+    {
+      "path": "dist/source/g1-p073.webp",
+      "bytes": 204360,
+      "sha256": "267a3f96ac2838e8079cf565af59daa389f350e73498fe551671e5970caa1e9a"
+    },
+    {
+      "path": "dist/source/g1-p074.webp",
+      "bytes": 197860,
+      "sha256": "e95bfe91d48a97bb90f1fbaf563a59298f37837312939e90f2060fae8b5f2def"
+    },
+    {
+      "path": "dist/source/g1-p075.webp",
+      "bytes": 143652,
+      "sha256": "82fb271a92ec5dbc7def8125f0855fccb86094f2e4e201020edbfd0a86bac9c6"
+    },
+    {
+      "path": "dist/source/g1-p076.webp",
+      "bytes": 52504,
+      "sha256": "5b73ae40acaa182d25f9ab0661a5d7ec51cb9eeec7aa495cde5ab6c5d2902b52"
+    },
+    {
+      "path": "dist/source/g1-p077.webp",
+      "bytes": 218894,
+      "sha256": "0a9c674cbcfd61d45992485a940bb926ac8e47137ff5edba4a4d851be075bdc3"
+    },
+    {
+      "path": "dist/source/g1-p078.webp",
+      "bytes": 231956,
+      "sha256": "1cead90f45efb36b9b8c17cd64369b2610e998e24f00984824b9bff89ad03464"
+    },
+    {
+      "path": "dist/source/g1-p079.webp",
+      "bytes": 210782,
+      "sha256": "a9e64595541a842bad8142c130ad7dbef877fc11566095f62841445c7d39fbc2"
+    },
+    {
+      "path": "dist/source/g1-p080.webp",
+      "bytes": 148236,
+      "sha256": "8d51eb17ae74dd6d71ef6842aea074229574e1aac79b57f7f84f5c790b553ee0"
+    },
+    {
+      "path": "dist/source/g1-p081.webp",
+      "bytes": 189826,
+      "sha256": "fe473b6b551b70f0e8901f75f1014826940cd448b63b5aadbecc8e8134f9f14e"
+    },
+    {
+      "path": "dist/source/g1-p082.webp",
+      "bytes": 204716,
+      "sha256": "a968f1dc97deba39bdb9cfc5a76b6826d6b0fe1ca9178616e44c7a79e5cc30e4"
+    },
+    {
+      "path": "dist/source/g1-p083.webp",
+      "bytes": 195520,
+      "sha256": "232d16cad41e0f44775fd71f280bd4144ac8f4b0e153e6685be114c3ee4afdfc"
+    },
+    {
+      "path": "dist/source/g1-p084.webp",
+      "bytes": 128884,
+      "sha256": "f08cf0b06f5afef7ce9bfe58467d25a0178b0e7bdeab378c0e20c8c2caf9eeec"
+    },
+    {
+      "path": "dist/source/g1-p085.webp",
+      "bytes": 143156,
+      "sha256": "9e6af22c9db4ca1ce955ccd7b98090ef96628f3f032be18098173f7928dc6bf9"
+    },
+    {
+      "path": "dist/source/g1-p086.webp",
+      "bytes": 131788,
+      "sha256": "b40b7aa878d1dfaf1e1c53446e444d15fb84798cdc97acc80727c596c8e53a1d"
+    },
+    {
+      "path": "dist/source/g1-p087.webp",
+      "bytes": 103948,
+      "sha256": "4421ea8110ee259afdcd514d5e66a71905f2cc7c19f5ae52b73445155adbf1a4"
+    },
+    {
+      "path": "dist/source/g1-p088.webp",
+      "bytes": 116522,
+      "sha256": "8b7bb4f578a6e6159d34e6efdabcc6edd6a1d85fe4551b857acb488323540d18"
+    },
+    {
+      "path": "dist/source/g1-p089.webp",
+      "bytes": 117762,
+      "sha256": "393700506b1e18d06ae2098b5d17d4d52e686af3b4d3c0135dbf5d92b1ce70b9"
+    },
+    {
+      "path": "dist/source/g1-p090.webp",
+      "bytes": 200888,
+      "sha256": "6cbece69871c7ecd6cb381d9a9db37a3fe8ec725aed47cb25de4cbe62748e810"
+    },
+    {
+      "path": "dist/source/g1-p091.webp",
+      "bytes": 146190,
+      "sha256": "c6bfe9c01d544911243f2d38e83861f5be654ca0ea1c60f1ce0290cf032b69a0"
+    },
+    {
+      "path": "dist/source/g1-p092.webp",
+      "bytes": 94012,
+      "sha256": "adb94b3e82323a41d955a8525c43565dee7475211966ce6259872300ebb25248"
+    },
+    {
+      "path": "dist/source/g1-p093.webp",
+      "bytes": 78482,
+      "sha256": "e63e84cd86b5008e1a897b10c4c72d948cd8c3136a81fcb163c88a645555c27e"
+    },
+    {
+      "path": "dist/source/g1-p094.webp",
+      "bytes": 168878,
+      "sha256": "999af622893c7778745e1a7231e2e26add4133b59cc7d9f67e93b273a15ae5e7"
+    },
+    {
+      "path": "dist/source/g1-p095.webp",
+      "bytes": 113234,
+      "sha256": "c11178a7e28450346a70602363b49251bd4b04f9fa46a730a265d1a9bd67989c"
+    },
+    {
+      "path": "dist/source/g1-p096.webp",
+      "bytes": 140874,
+      "sha256": "77c6740280542779a8d4f9ad73ae4ab659c622eeb6fe0ece71d0d5d713820e6a"
+    },
+    {
+      "path": "dist/source/g1-p097.webp",
+      "bytes": 94288,
+      "sha256": "c71a9466783aeced1aca66d1ea4b4793478267fadc2f333b44d5d1c8d5a8b355"
+    },
+    {
+      "path": "dist/source/g1-p098.webp",
+      "bytes": 145364,
+      "sha256": "56f67649e8e7594ae832594260b00605de9334c6612f347d6daee5bf417d279c"
+    },
+    {
+      "path": "dist/source/g1-p099.webp",
+      "bytes": 110804,
+      "sha256": "eb6d6a054902cc1c7c331ed099c9bea622a66347a7f0da4819425ca952eb4029"
+    },
+    {
+      "path": "dist/source/g1-p100.webp",
+      "bytes": 119804,
+      "sha256": "7f8ed00325fda72201d869f4557daeb2f00b12a151965862ba05fd12a00580f7"
+    },
+    {
+      "path": "dist/source/g1-p101.webp",
+      "bytes": 73558,
+      "sha256": "dbd92c03004e0ebcc00e25485f8d691e4995c124b14b4f4f75a2f89910376bac"
+    },
+    {
+      "path": "dist/source/g1-p102.webp",
+      "bytes": 58206,
+      "sha256": "2ef17d6601d2538cd3086d21de0139ebe73c584035e0e68248db0f334da8cbe6"
+    },
+    {
+      "path": "dist/source/g1-p103.webp",
+      "bytes": 96934,
+      "sha256": "8acda1bc2e528fd28c19c5473bb635347b6deccac749b24e767907119798f7cc"
+    },
+    {
+      "path": "dist/source/g1-p104.webp",
+      "bytes": 131186,
+      "sha256": "29370e011d1900064027d30691ee799cf8583c347b3510354621b09ac19aca94"
+    },
+    {
+      "path": "dist/source/g1-p105.webp",
+      "bytes": 128266,
+      "sha256": "631ecc2fdbdb885c3d09f88c27bd5a8e0dcd0209c4f41d49c2a817c1dab8b152"
+    },
+    {
+      "path": "dist/source/g1-p106.webp",
+      "bytes": 119522,
+      "sha256": "0b47e2da07a1941d02ecf960914f5bc980fa4ac5576e8f97c87ee082bde2eff2"
+    },
+    {
+      "path": "dist/source/g1-p107.webp",
+      "bytes": 120986,
+      "sha256": "e3658ced0dc6dde3326cc41e20336d74fffd16359db3d630c20bc0e57440ce92"
+    },
+    {
+      "path": "dist/source/g1-p108.webp",
+      "bytes": 127422,
+      "sha256": "2c77e82e4eb8e3282360bd4789205615c99be383238f35ea5c3d7ca92b44ba34"
+    },
+    {
+      "path": "dist/source/g1-p109.webp",
+      "bytes": 95420,
+      "sha256": "76d58988ec526b9446a4735f5f2afcf6aea0a480a947a34022cf84e234f5121f"
+    },
+    {
+      "path": "dist/source/g1-p110.webp",
+      "bytes": 125698,
+      "sha256": "58f0d6b48f5e452ad49b2c4ea6d7ef1865b02fbff25d4a1a64a988e27046b5e5"
+    },
+    {
+      "path": "dist/source/g1-p111.webp",
+      "bytes": 128170,
+      "sha256": "a8166767d64f61b69c2c2390345613390c68402acb422da0f1b2817424f151d9"
+    },
+    {
+      "path": "dist/source/g1-p112.webp",
+      "bytes": 197996,
+      "sha256": "5e95e47fbbeeb8f99fbb7d73e68cec863bc7eee47096cbe74aa257892b13c99f"
+    },
+    {
+      "path": "dist/source/g2-p001.webp",
+      "bytes": 189860,
+      "sha256": "385166ed918503a272258c1c914fd1000a40baf0899dc4ecaa6956d992dcf2a1"
+    },
+    {
+      "path": "dist/source/g2-p002.webp",
+      "bytes": 156710,
+      "sha256": "b3d76bfe0b9adc9c4daea92b621d15de41d003c7cd9e0f8a6a0cf65869f537fb"
+    },
+    {
+      "path": "dist/source/g2-p003.webp",
+      "bytes": 66396,
+      "sha256": "cfae57afa1f6d05c79a89bb8e152cb01dd29e494fd511621d37b736d5c0c305a"
+    },
+    {
+      "path": "dist/source/g2-p004.webp",
+      "bytes": 225390,
+      "sha256": "583bbb0a59f47843870a65856f68844c8c5cccff462a742a45275d86a61f0053"
+    },
+    {
+      "path": "dist/source/g2-p005.webp",
+      "bytes": 286450,
+      "sha256": "d3e4140c1443be5e65b2b8cb3a13707ee650b5f25595051861ec0fb6afc4552a"
+    },
+    {
+      "path": "dist/source/g2-p006.webp",
+      "bytes": 168238,
+      "sha256": "167ee6cb56d6f3cd9a683b1e783a6062d2da0555f7053049e8e6e5838726e65e"
+    },
+    {
+      "path": "dist/source/g2-p007.webp",
+      "bytes": 95546,
+      "sha256": "c5259052852baaf05d4d4e71978bb5b17b6c3fb09384b5c1c999ead414b3d99a"
+    },
+    {
+      "path": "dist/source/g2-p008.webp",
+      "bytes": 140688,
+      "sha256": "25cc25c29678207417e01a04e10db9f9ea1d809b4238f13bf135e9e32214b476"
+    },
+    {
+      "path": "dist/source/g2-p009.webp",
+      "bytes": 157390,
+      "sha256": "82a387b1dfe2508bca04370fd0d705c751ae39cdbf29b21cbb512af77bb2c6ab"
+    },
+    {
+      "path": "dist/source/g2-p010.webp",
+      "bytes": 154920,
+      "sha256": "a9570a28d5465f3fb68e2519708d769cc310aabef803ee1deb17e6d64a67b9ef"
+    },
+    {
+      "path": "dist/source/g2-p011.webp",
+      "bytes": 126538,
+      "sha256": "95f1875840b84f3ca74ce5183c7e4c57774b7ba2a3927eb471a065ebb9be28c2"
+    },
+    {
+      "path": "dist/source/g2-p012.webp",
+      "bytes": 139252,
+      "sha256": "f9d3d36657c1ad8c46577375c4b055b53d007f1aa0172f015f8b564316388fea"
+    },
+    {
+      "path": "dist/source/g2-p013.webp",
+      "bytes": 171500,
+      "sha256": "d183f473eb4e268bd77df6190401d9c29d5c34081521a9cd0f023aa1681f3db4"
+    },
+    {
+      "path": "dist/source/g2-p014.webp",
+      "bytes": 151028,
+      "sha256": "424a55dfaf83cab2c4844e66df5ffef3ba106fe59fbc2a49e8c19d8a85314464"
+    },
+    {
+      "path": "dist/source/g2-p015.webp",
+      "bytes": 191498,
+      "sha256": "2cdd14018fb0c43c639cf95696707c64657453a97f135b30489fc3a0ea48e2d3"
+    },
+    {
+      "path": "dist/source/g2-p016.webp",
+      "bytes": 143146,
+      "sha256": "7be537196c412251a0aa8cf95b95ae579b1e15e6e36baeadfc7a460070478980"
+    },
+    {
+      "path": "dist/source/g2-p017.webp",
+      "bytes": 133382,
+      "sha256": "f8f7b9bfb9ff6f855f2d3f5eae05a6668dc3afc8817b16424a6d9afd28bc868f"
+    },
+    {
+      "path": "dist/source/g2-p018.webp",
+      "bytes": 123268,
+      "sha256": "96be664d415872aab75c11ed600b428654efc974bc2293f0e3d8c0a0f468c3d4"
+    },
+    {
+      "path": "dist/source/g2-p019.webp",
+      "bytes": 178106,
+      "sha256": "6d3aa67866db1bac277bb5096f0db0da4be5f72b0de0dd8a5232c1512f5d6ca7"
+    },
+    {
+      "path": "dist/source/g2-p020.webp",
+      "bytes": 179738,
+      "sha256": "7a445edfd9eb647634adc86a8e713b105cdeeafeb848b8752725e472e7f708b3"
+    },
+    {
+      "path": "dist/source/g2-p021.webp",
+      "bytes": 208506,
+      "sha256": "12166bbfb678d9311fa190f6d043da45064a36b2950c807c2929f9fec8bfa1f7"
+    },
+    {
+      "path": "dist/source/g2-p022.webp",
+      "bytes": 127048,
+      "sha256": "935416649e87ced256731f0934fae18c57ac9b8488d2cb2cd4c08bfd7ed9a175"
+    },
+    {
+      "path": "dist/source/g2-p023.webp",
+      "bytes": 204382,
+      "sha256": "608aa281118f9687a061429ed996f22dcd2c5ca6dbf4787a12c8210b3bae9a8a"
+    },
+    {
+      "path": "dist/source/g2-p024.webp",
+      "bytes": 216066,
+      "sha256": "f3bbbebe8fcca5f41fa10d95d415ace570f782bb086668b800c62e692d9fcf62"
+    },
+    {
+      "path": "dist/source/g2-p025.webp",
+      "bytes": 218518,
+      "sha256": "3375585094c6a8f605e4d04e16325cff139d8c17f5a53bdcaedc321c00156af9"
+    },
+    {
+      "path": "dist/source/g2-p026.webp",
+      "bytes": 144314,
+      "sha256": "989bc3abbcaa4bc0832a1ede31b0da92074be225c4dc542cc322abeb82d1d008"
+    },
+    {
+      "path": "dist/source/g2-p027.webp",
+      "bytes": 200294,
+      "sha256": "33eb758c1c6367ed3acadc1a5b8dae1064756a5bb1f1a7716b4ddfb3cd7d1ccc"
+    },
+    {
+      "path": "dist/source/g2-p028.webp",
+      "bytes": 214598,
+      "sha256": "ed79a480cde1f1fa21bb37f018ada023e9b4f47e8221203118ed58f8034500bc"
+    },
+    {
+      "path": "dist/source/g2-p029.webp",
+      "bytes": 199272,
+      "sha256": "e07c4f1bead8c38383e2392e8e587ed480ce0d6bd317f47302661b82b3c0ae4a"
+    },
+    {
+      "path": "dist/source/g2-p030.webp",
+      "bytes": 138448,
+      "sha256": "06f1f3703481200db4ffb3c8f063f5acab718c4844df487c619625124c8d4241"
+    },
+    {
+      "path": "dist/source/g2-p031.webp",
+      "bytes": 198552,
+      "sha256": "262cb01732610008ff8d786dcfb196e19dbf97433b0d13cc85faeefa5454c851"
+    },
+    {
+      "path": "dist/source/g2-p032.webp",
+      "bytes": 203714,
+      "sha256": "93b5f2f62be5c51b969e883c94c66385f90c1f27677b321052ce86d2313b7356"
+    },
+    {
+      "path": "dist/source/g2-p033.webp",
+      "bytes": 198406,
+      "sha256": "6a6a620b0a8c2ca0ddca4a479c5ac1c61079aa36a24101df9fedb96700829f31"
+    },
+    {
+      "path": "dist/source/g2-p034.webp",
+      "bytes": 134118,
+      "sha256": "df99d455d21ec5451223a1e059be29461a524dc9a4cacb34f2712f7eda199689"
+    },
+    {
+      "path": "dist/source/g2-p035.webp",
+      "bytes": 215238,
+      "sha256": "d34f25a02d030f473b7632ecf971d2b2c76cf200a75392ed817f1c0184c6aaef"
+    },
+    {
+      "path": "dist/source/g2-p036.webp",
+      "bytes": 219206,
+      "sha256": "43a88dbcd4dec43dc9c2a88871d0c972faf35ac9e04fb15f549cf2fd48df15a4"
+    },
+    {
+      "path": "dist/source/g2-p037.webp",
+      "bytes": 206208,
+      "sha256": "55dcd9b93a3aea2bc04656d6e4bbf2111712cb6b5fb0779851b105919d43de51"
+    },
+    {
+      "path": "dist/source/g2-p038.webp",
+      "bytes": 142464,
+      "sha256": "02d2769f89b3a9dd4711a4a040617aa5a278017a5264d90eee267a05bc1b78f7"
+    },
+    {
+      "path": "dist/source/g2-p039.webp",
+      "bytes": 211914,
+      "sha256": "f3767d4b3e4d9f50f7406576549c4ba4f6f02a65862c7d15ff76b937a7754eee"
+    },
+    {
+      "path": "dist/source/g2-p040.webp",
+      "bytes": 208424,
+      "sha256": "e3d4d323a82e3e6e0058f1fdb8b3cd9eba675a40ade73df98fa9334c1ef2a423"
+    },
+    {
+      "path": "dist/source/g2-p041.webp",
+      "bytes": 203730,
+      "sha256": "8bfc7dadd74aebe89199968feec3f0593ead3084a66679f96be571173b109182"
+    },
+    {
+      "path": "dist/source/g2-p042.webp",
+      "bytes": 139340,
+      "sha256": "4d4a6d9378bc59873a251e60770f75ad6862cd0ad596c0975adf7e5e0023d3ae"
+    },
+    {
+      "path": "dist/source/g2-p043.webp",
+      "bytes": 144140,
+      "sha256": "1d503fa2b3ba93e69496733a2c9ca698947c69e82732715f5046326514930218"
+    },
+    {
+      "path": "dist/source/g2-p044.webp",
+      "bytes": 211978,
+      "sha256": "b54884e88adf7b908ce42eb47d25aa7a8cf4e19e605d9b3d07245efe8df977a5"
+    },
+    {
+      "path": "dist/source/g2-p045.webp",
+      "bytes": 211922,
+      "sha256": "ba3b78ca5c7ccbc82f31f24d222255edeb397bc965ce722d6086b2d38033ffb0"
+    },
+    {
+      "path": "dist/source/g2-p046.webp",
+      "bytes": 214586,
+      "sha256": "8a266611db6c6c1bfab0d93f76a103405b930b0d3c45995dde6707d022dca0ea"
+    },
+    {
+      "path": "dist/source/g2-p047.webp",
+      "bytes": 139906,
+      "sha256": "79ae6169234afbf0f75c137b266bd573da3d64799b3e924659aaaa9d13e3560c"
+    },
+    {
+      "path": "dist/source/g2-p048.webp",
+      "bytes": 217916,
+      "sha256": "cf4de1c464318a055b4a8bcd3c5b0d8474a5a3f6a7fc0a3031d7201e7d946b04"
+    },
+    {
+      "path": "dist/source/g2-p049.webp",
+      "bytes": 206552,
+      "sha256": "a157dd07ba891df3e0a59a13fcb697b9b0a1e91ba1eb4428c2d85409eab8284e"
+    },
+    {
+      "path": "dist/source/g2-p050.webp",
+      "bytes": 210696,
+      "sha256": "8e3948ea8f5293f612f3eb6318bc2f85eaecafd6d801b29abb8461d5f548f175"
+    },
+    {
+      "path": "dist/source/g2-p051.webp",
+      "bytes": 141802,
+      "sha256": "6a1e3ebbda9ca470e018e7ecc50a55913c753042f3409323629a14b666ffe757"
+    },
+    {
+      "path": "dist/source/g2-p052.webp",
+      "bytes": 195276,
+      "sha256": "f85b26d93d084b137f34261b2728eb65c976c7fea72fed498586fac1377e4480"
+    },
+    {
+      "path": "dist/source/g2-p053.webp",
+      "bytes": 212270,
+      "sha256": "28bf5a9022c5644d8f454f04a8dc7901d217762388c6460a2092266c645de3d0"
+    },
+    {
+      "path": "dist/source/g2-p054.webp",
+      "bytes": 206468,
+      "sha256": "221fe4e8304914af485ae2a7d4c9cc61154f32122ff05fa82e3ca4da3aaa7472"
+    },
+    {
+      "path": "dist/source/g2-p055.webp",
+      "bytes": 138186,
+      "sha256": "dde937d6916e21a9894b926fae70d6f35924f9fd78a7a1ac13fcb352798a46ab"
+    },
+    {
+      "path": "dist/source/g2-p056.webp",
+      "bytes": 204988,
+      "sha256": "48e0d1024ffd7591a6c085d1baa667578138bca2e5880fd61286df55e44bfbf3"
+    },
+    {
+      "path": "dist/source/g2-p057.webp",
+      "bytes": 214660,
+      "sha256": "26d4fb478f2676edd7b67cf7b84d4ad29b811232713265057bd7211b7f9520dc"
+    },
+    {
+      "path": "dist/source/g2-p058.webp",
+      "bytes": 198936,
+      "sha256": "dc9a65c12f1dd747fb3ad3d9d5513295dc0774bff3b7ee87bcf4658a1cc397d8"
+    },
+    {
+      "path": "dist/source/g2-p059.webp",
+      "bytes": 133964,
+      "sha256": "6b762fea77bc0173807eb707829d200bf4ea05e425bc80bad279a813b96fc549"
+    },
+    {
+      "path": "dist/source/g2-p060.webp",
+      "bytes": 206948,
+      "sha256": "580d01bb8fcc802cbc6e22a1f5d57bed4e20c66c38aa9aa3f6aaed6c45ad9535"
+    },
+    {
+      "path": "dist/source/g2-p061.webp",
+      "bytes": 217248,
+      "sha256": "53fb441eb4cb90dd9a2346c5648af4c8e0a01e70e24cff883e7bb4adb767d429"
+    },
+    {
+      "path": "dist/source/g2-p062.webp",
+      "bytes": 191804,
+      "sha256": "75ad7d8f47683ba4b32a70434df04ca8aa2f5d19722c743dd919781c6652e213"
+    },
+    {
+      "path": "dist/source/g2-p063.webp",
+      "bytes": 146132,
+      "sha256": "3ee0313531cdea8b6db23ab736958c25004faa3d08f89ac57b35086d4caaa29e"
+    },
+    {
+      "path": "dist/source/g2-p064.webp",
+      "bytes": 213502,
+      "sha256": "14a72d5cf98b49dc1e5110cf4989369e16ad3aee5a0f52569bd23fc4f0dd781d"
+    },
+    {
+      "path": "dist/source/g2-p065.webp",
+      "bytes": 207166,
+      "sha256": "795cd92f4c8989543fc5eef015c7f0f98fa9353aca5323f4d2831c7535ac68b9"
+    },
+    {
+      "path": "dist/source/g2-p066.webp",
+      "bytes": 210130,
+      "sha256": "c1d91df9e8754a55682e4a55e4e64cb2c50f9fb05f307b3717d1fdb0b077275d"
+    },
+    {
+      "path": "dist/source/g2-p067.webp",
+      "bytes": 136098,
+      "sha256": "b7ae1489ccef1aad7165db0f094ea68629955ff0736752e557bafec7591afcf8"
+    },
+    {
+      "path": "dist/source/g2-p068.webp",
+      "bytes": 148124,
+      "sha256": "c971f6117e252fc65462966bb6d9b8bf1a23bfa49e6f68ef0eab7f0e7706b30e"
+    },
+    {
+      "path": "dist/source/g2-p069.webp",
+      "bytes": 150074,
+      "sha256": "b6536799a64c2701bbc2f4a7de588a66d362ba4e89c16e0c4d8b8f86cdc66307"
+    },
+    {
+      "path": "dist/source/g2-p070.webp",
+      "bytes": 221008,
+      "sha256": "73d7dbd9ecf7a075de926ae389eaffc2f7e67c54dda2172ac3bcf227d84cb14b"
+    },
+    {
+      "path": "dist/source/g2-p071.webp",
+      "bytes": 218526,
+      "sha256": "a779f64c2e15061dfa7eea1a8d6b59dce391c0e33c2595769112b4e2bba10b14"
+    },
+    {
+      "path": "dist/source/g2-p072.webp",
+      "bytes": 206234,
+      "sha256": "9a910b404ab3c7cb064712fd9a5d2c4e0f3b1c63f3d2ee159c2b8dac408b3689"
+    },
+    {
+      "path": "dist/source/g2-p073.webp",
+      "bytes": 130962,
+      "sha256": "953644539857f9fc60a0da8dd987e3420f8b1bcf39212b0675f2540045a8fa54"
+    },
+    {
+      "path": "dist/source/g2-p074.webp",
+      "bytes": 212706,
+      "sha256": "644fec6aa268864748173f70ef5d475082281c4ed98134e3e1615f218c44ae8d"
+    },
+    {
+      "path": "dist/source/g2-p075.webp",
+      "bytes": 199764,
+      "sha256": "95eeabbc6822f5a21c40f28a37e98f9f7a911ffa051f63e69b717552fbc3e96a"
+    },
+    {
+      "path": "dist/source/g2-p076.webp",
+      "bytes": 202654,
+      "sha256": "d5d1b7febbacd57591fdcccb1eb48c380d46952184a35f4f2ee27d4bbf44c352"
+    },
+    {
+      "path": "dist/source/g2-p077.webp",
+      "bytes": 133470,
+      "sha256": "68994bfc24bacb14f9a019f2ac51860b7b7213b0e63b086845a76b62ead052f7"
+    },
+    {
+      "path": "dist/source/g2-p078.webp",
+      "bytes": 202666,
+      "sha256": "f352359f4bf18bb0eee634ee36c9955cd9a5132a6b4b5216d9c1556f14aad069"
+    },
+    {
+      "path": "dist/source/g2-p079.webp",
+      "bytes": 191864,
+      "sha256": "078712550542a37a1fe46efcdbd3496b7c2b056cc2df6a66772de2f4846ef2c7"
+    },
+    {
+      "path": "dist/source/g2-p080.webp",
+      "bytes": 210068,
+      "sha256": "0b6116ad756d30679ca4ac996cb1c6510ced5ec5b43f35d6bb0797cc50499b7e"
+    },
+    {
+      "path": "dist/source/g2-p081.webp",
+      "bytes": 141570,
+      "sha256": "646d40389fd65bf28b6e565287e2262da666cb0e1a68751202231028f6f831c3"
+    },
+    {
+      "path": "dist/source/g2-p082.webp",
+      "bytes": 202900,
+      "sha256": "977c96abd5b1ff53d57d0f414baa7a1f58fef648f92489c3bb6f78225c467cd1"
+    },
+    {
+      "path": "dist/source/g2-p083.webp",
+      "bytes": 213910,
+      "sha256": "40f49ea0015c9aa03bfb068bbb2d3256ff4a7c62179910977409a885c2ead30b"
+    },
+    {
+      "path": "dist/source/g2-p084.webp",
+      "bytes": 208304,
+      "sha256": "a625574c65a94b651b542c7c3044c6033c82d5e313051d668eacabee92a8a082"
+    },
+    {
+      "path": "dist/source/g2-p085.webp",
+      "bytes": 138390,
+      "sha256": "c5b9631aed70fad48a6bf7c309140ee0dfe5983a2c880ed3613519d73ac992a8"
+    },
+    {
+      "path": "dist/source/g2-p086.webp",
+      "bytes": 214228,
+      "sha256": "54d4cb07fc842a7302dd46f4b225b923dbd4894159b895f3dc0552ae551de2bc"
+    },
+    {
+      "path": "dist/source/g2-p087.webp",
+      "bytes": 209906,
+      "sha256": "5dd4512d32f5cb479442fc81c46c3876ddd5207f4e906ad9d5074e81aeab4cdd"
+    },
+    {
+      "path": "dist/source/g2-p088.webp",
+      "bytes": 201642,
+      "sha256": "46abb73c502833e7436ce92c4f3a0afd6c33a02fbf74ba353e017a1e23705f0e"
+    },
+    {
+      "path": "dist/source/g2-p089.webp",
+      "bytes": 135130,
+      "sha256": "7564e76c55bae3b5a539ea9fd0e15fd054d913154a66c2f1be05baeb62d2a903"
+    },
+    {
+      "path": "dist/source/g2-p090.webp",
+      "bytes": 217156,
+      "sha256": "ee304e7f836a545637213b90ea7dc7b94d79fc0fedcb8509ad1f96763d26d53c"
+    },
+    {
+      "path": "dist/source/g2-p091.webp",
+      "bytes": 212140,
+      "sha256": "91423eeb0f0f6395d58e133312936ef65267f9d82fdf8384122d985c3d148487"
+    },
+    {
+      "path": "dist/source/g2-p092.webp",
+      "bytes": 205172,
+      "sha256": "8b8fbec6723ff11b6b8909c1f7ae38a05ba75f14589441d3dc74480c590d64e2"
+    },
+    {
+      "path": "dist/source/g2-p093.webp",
+      "bytes": 136680,
+      "sha256": "a30a67debea228075fa6e488fa28bc0bb1a2470cb8a170fa030539e6e56bd145"
+    },
+    {
+      "path": "dist/source/g2-p094.webp",
+      "bytes": 152054,
+      "sha256": "95634403678149238f388dcbbf875e5be50b9461bb4c495b0264e9e38a723f3f"
+    },
+    {
+      "path": "dist/source/g2-p095.webp",
+      "bytes": 109692,
+      "sha256": "3171bccde5a15a850e2afd825d6d4cc47620d1c81f678c51d7e871539ec2c1f7"
+    },
+    {
+      "path": "dist/source/g2-p096.webp",
+      "bytes": 199216,
+      "sha256": "d9b7f7702e88131e04185082e1ea6aef02a549e90039e43b1c283c165e8b8890"
+    },
+    {
+      "path": "dist/source/g2-p097.webp",
+      "bytes": 210336,
+      "sha256": "895a96709845614f2f65a945fe4d592fc53060fff1627694fc5afed34e56bbfc"
+    },
+    {
+      "path": "dist/source/g2-p098.webp",
+      "bytes": 197662,
+      "sha256": "429c1e966b74022933ce636a899a49ddd039ec60a41ae5c3ceb8b1bba5bcc412"
+    },
+    {
+      "path": "dist/source/g2-p099.webp",
+      "bytes": 137274,
+      "sha256": "4bf7de4da051525d35ba6a882bfd5a6af8adf38f9c288652c87c30d5af70e527"
+    },
+    {
+      "path": "dist/source/g2-p100.webp",
+      "bytes": 197356,
+      "sha256": "72bc928eb0dd54ef9f1d787254171c0de4baeff2172c001c1477a9d0fc411c61"
+    },
+    {
+      "path": "dist/source/g2-p101.webp",
+      "bytes": 207538,
+      "sha256": "6d0ef229b25ee3577d286404c1372ea23a3de53f9fcbe66392056bc4bef4be0d"
+    },
+    {
+      "path": "dist/source/g2-p102.webp",
+      "bytes": 198998,
+      "sha256": "20e3671353676cd5c4878b08931902d4f07cddde2eb28c492f4ad83db502504d"
+    },
+    {
+      "path": "dist/source/g2-p103.webp",
+      "bytes": 130750,
+      "sha256": "ea6166eaff8ba910b7766b3aa12fe82744d6f3e3e2cc5dbb61b07327ce58aa2d"
+    },
+    {
+      "path": "dist/source/g2-p104.webp",
+      "bytes": 200570,
+      "sha256": "e0db18773f5b69a1956f6e74c001099c6ae4435198d41aeec088884afa208cff"
+    },
+    {
+      "path": "dist/source/g2-p105.webp",
+      "bytes": 210998,
+      "sha256": "03aa26e1eb623b15ea166e5ad230168b169a6cba00508eb30b102d630486ac6a"
+    },
+    {
+      "path": "dist/source/g2-p106.webp",
+      "bytes": 218046,
+      "sha256": "87e63ca5a4208371174889778754063e1a5342c681766c423262d3bced265647"
+    },
+    {
+      "path": "dist/source/g2-p107.webp",
+      "bytes": 154092,
+      "sha256": "349e58770264bd73b96f06114d0223db83b268fd1adbbe6911da6131ae6544b4"
+    },
+    {
+      "path": "dist/source/g2-p108.webp",
+      "bytes": 219266,
+      "sha256": "425f4ed0d8c8cca71a9fc1b5d81a03e5ca210c065af052276f41ef220fe6708c"
+    },
+    {
+      "path": "dist/source/g2-p109.webp",
+      "bytes": 207506,
+      "sha256": "52234abe343f737f2939027a3ba0086d82dec129570cf306f8791a4b4a94739b"
+    },
+    {
+      "path": "dist/source/g2-p110.webp",
+      "bytes": 216886,
+      "sha256": "304c15465c0f6ce81360e1d62c9ae7963e2fd524937aa254c16b8eda388c8e6a"
+    },
+    {
+      "path": "dist/source/g2-p111.webp",
+      "bytes": 145050,
+      "sha256": "405387113ccdda15c8bbb7227d863ead7dc5aaf20d265872ee49b060cdc38805"
+    },
+    {
+      "path": "dist/source/g2-p112.webp",
+      "bytes": 210320,
+      "sha256": "c7ca8200c966db14b8b372d1db306e501b3639c30723a59f709078c573fba90a"
+    },
+    {
+      "path": "dist/source/g2-p113.webp",
+      "bytes": 208874,
+      "sha256": "33e10d3c38ec040b76c1a0c476dd68ade9a113de2f586c7b7259dc713fd27d2f"
+    },
+    {
+      "path": "dist/source/g2-p114.webp",
+      "bytes": 213344,
+      "sha256": "216e330b3c534b048740f6d4c31a5fa3c6de966496cf8111b36c20b3d9702be2"
+    },
+    {
+      "path": "dist/source/g2-p115.webp",
+      "bytes": 141682,
+      "sha256": "f32641f4cff60db01ce32eb9555eb606f43812cf8328e1669d7cc21b22c833a5"
+    },
+    {
+      "path": "dist/source/g2-p116.webp",
+      "bytes": 150432,
+      "sha256": "26fb7cfb294a35f7a49efd94fd325098a8dff89551f1b5fb129e88680061439e"
+    },
+    {
+      "path": "dist/source/g2-p117.webp",
+      "bytes": 133268,
+      "sha256": "71f858c7d1a7f5ef2bdd8972401ff87c33a4835fe695ee8fa009d7e398a1bcfc"
+    },
+    {
+      "path": "dist/source/g2-p118.webp",
+      "bytes": 104820,
+      "sha256": "7780183b11a04ab3441a8503025c7e2a26e24899f671f38740c51e8ed21a219a"
+    },
+    {
+      "path": "dist/source/g2-p119.webp",
+      "bytes": 125258,
+      "sha256": "c9ecc6d0da679a150a4a2d29dcdbfdc6a765e4caf6c46232251fe83746d93401"
+    },
+    {
+      "path": "dist/source/g2-p120.webp",
+      "bytes": 119196,
+      "sha256": "1f4f01f9123d40d72a24becc62f2d01abde3a1ba48af8f099b130b22ca83a2b7"
+    },
+    {
+      "path": "dist/source/g2-p121.webp",
+      "bytes": 199492,
+      "sha256": "0ddd28259f4415c8b1e53e93d123c3e86da57f9b90af8487e904db2706f5b1bf"
+    },
+    {
+      "path": "dist/source/g2-p122.webp",
+      "bytes": 145654,
+      "sha256": "ade866ce4b0b9bf3a8a2d776604d6dfb87e2676f28e82c24f0af92ccbe733f48"
+    },
+    {
+      "path": "dist/source/g2-p123.webp",
+      "bytes": 112120,
+      "sha256": "c95b7185bf6688b8f9cb07c6bf730f12d35611a424c97167e0f6bd3c82c9150f"
+    },
+    {
+      "path": "dist/source/g2-p124.webp",
+      "bytes": 174338,
+      "sha256": "1ccd54b7aa7a6d6dad91929301d8a31b065dd4c1db766b1dc3325d8edac023fb"
+    },
+    {
+      "path": "dist/source/g2-p125.webp",
+      "bytes": 112384,
+      "sha256": "28376e95c7c6c98cbad0a61187cf0b89972790b8c5d1940b8b2d64cbfc3abe89"
+    },
+    {
+      "path": "dist/source/g2-p126.webp",
+      "bytes": 133212,
+      "sha256": "98670f1280cedfe2b1c24f39ea0eb6e5fd47cfba279eb944acf4093cdcadf0a5"
+    },
+    {
+      "path": "dist/source/g2-p127.webp",
+      "bytes": 116694,
+      "sha256": "cc7c193b3feadf236935c56dde816f14c0aed99282e86542c9e58a70d00d1069"
+    },
+    {
+      "path": "dist/source/g2-p128.webp",
+      "bytes": 110252,
+      "sha256": "4b205fad305bb86de9d400aa66e12c427466a74e05e465255f51688cc1d98ed9"
+    },
+    {
+      "path": "dist/source/g2-p129.webp",
+      "bytes": 99654,
+      "sha256": "ceb7fe52c74fe13d16cbab4229c6fc53c9e5bfd9a8d8affcc90aad52c93a556f"
+    },
+    {
+      "path": "dist/source/g2-p130.webp",
+      "bytes": 95630,
+      "sha256": "47e13ba3b1d27abf183c4802688cded6fd7d12ac43c8a6ab001f095340e3589d"
+    },
+    {
+      "path": "dist/source/g2-p131.webp",
+      "bytes": 114374,
+      "sha256": "91c4dc655723183525b5afd7aecd619a12aeed98b7a8ca7b730383c2fedc0a41"
+    },
+    {
+      "path": "dist/source/g2-p132.webp",
+      "bytes": 104072,
+      "sha256": "1b448c55e8f5369c39388dab0a3c6c19dec664d348c6015272b5126e6f98a060"
+    },
+    {
+      "path": "dist/source/g2-p133.webp",
+      "bytes": 123308,
+      "sha256": "0eb9d15026b59ba25d4b9ed3e00ed189f23da7082d61a393eac0a0d2d9b1c6da"
+    },
+    {
+      "path": "dist/source/g2-p134.webp",
+      "bytes": 98950,
+      "sha256": "95fb8401ba882d9c76d9b44cff309919569c78a914d14d87ce20850cd93b92e0"
+    },
+    {
+      "path": "dist/source/g2-p135.webp",
+      "bytes": 131686,
+      "sha256": "094cf1783c728a7999c24e7faff9a463ccead07ae1955fc8edc2341cc83d1729"
+    },
+    {
+      "path": "dist/source/g2-p136.webp",
+      "bytes": 129072,
+      "sha256": "e0e80dd0350455b6aed98f909e3e0484ae87d655c97b6f92fc6c0179c7aafdf9"
+    },
+    {
+      "path": "dist/source/g2-p137.webp",
+      "bytes": 136110,
+      "sha256": "e3d8714ee04abdf582d8b47d425e7412c36c6e155e8026984bae41a57d51969d"
+    },
+    {
+      "path": "dist/source/g2-p138.webp",
+      "bytes": 135644,
+      "sha256": "7c9de0a67cc47143b0aeeaee72ae97d3c7aa28cdada95af6372b197ab720b654"
+    },
+    {
+      "path": "dist/source/g2-p139.webp",
+      "bytes": 130744,
+      "sha256": "4fc09fc06f3d55c5a8b9baf697184fbe5d361116c99b29aa6968c1518860ebd3"
+    },
+    {
+      "path": "dist/source/g2-p140.webp",
+      "bytes": 133534,
+      "sha256": "47d4f96428ae30e8989811f5d72e640b0910627875414a27d44351e45a9f5271"
+    },
+    {
+      "path": "dist/source/g2-p141.webp",
+      "bytes": 95846,
+      "sha256": "aadd2e6890bdc4099c689c179916517d50b133da17fdac3a7d4d53f7d7386f2c"
+    },
+    {
+      "path": "dist/source/g2-p142.webp",
+      "bytes": 125880,
+      "sha256": "f2cbef26b9ae2b48b5dcafcf4499cdadc650663b6c9c9277ecba0befea83fb70"
+    },
+    {
+      "path": "dist/source/g2-p143.webp",
+      "bytes": 136466,
+      "sha256": "9a936a8ed059859ec8a0176c8634ab00c57a80552d7971e48bb1ba11745fc593"
+    },
+    {
+      "path": "dist/source/g2-p144.webp",
+      "bytes": 203570,
+      "sha256": "64b5233c5272be022a6862e10ee14d6c1afb317baf29e5658bdbf6cce3773a82"
+    },
+    {
+      "path": "dist/source/g3-p001.webp",
+      "bytes": 132638,
+      "sha256": "93885724d7c62e2f6761bea5881ee1867a97fa9ae6d1e23723395520d46ba593"
+    },
+    {
+      "path": "dist/source/g3-p002.webp",
+      "bytes": 112340,
+      "sha256": "4ea2f1f9ecc1e344cc9a1e56605a121979aa77a47e1652e824d0748ec6657f8b"
+    },
+    {
+      "path": "dist/source/g3-p003.webp",
+      "bytes": 54262,
+      "sha256": "0dddaa145c7de24c46184caa42981f5f1c5fbebe9caa97f1c3952a258c209c54"
+    },
+    {
+      "path": "dist/source/g3-p004.webp",
+      "bytes": 185814,
+      "sha256": "e9bc7b8c3bf537dc567733afd31566f431812a7d2a38d165b5534004e010091b"
+    },
+    {
+      "path": "dist/source/g3-p005.webp",
+      "bytes": 206740,
+      "sha256": "a9b4ec1e7b6d771a93673f2261dd8750e1b3ef3a66a3b8544b26878140390502"
+    },
+    {
+      "path": "dist/source/g3-p006.webp",
+      "bytes": 139842,
+      "sha256": "6801e5ffa2105012d348d72c90bdc49589e028bc6610fc69dc92d5e134ec9852"
+    },
+    {
+      "path": "dist/source/g3-p007.webp",
+      "bytes": 85754,
+      "sha256": "f33192440a27cffef961925f3376c39188a5650c6ac54088848c76fffd3af350"
+    },
+    {
+      "path": "dist/source/g3-p008.webp",
+      "bytes": 125116,
+      "sha256": "2a8f1e8f77c946f2336c15a49c03e0727a74f7620c0d8aa582600f5ae57fe5a0"
+    },
+    {
+      "path": "dist/source/g3-p009.webp",
+      "bytes": 122594,
+      "sha256": "cb33018b6fb0044333bd4254c8aee704eac68c4b0bd3cf835707117de89c8a91"
+    },
+    {
+      "path": "dist/source/g3-p010.webp",
+      "bytes": 123526,
+      "sha256": "e65765b4380c54b521e934dd8ff163c4a24a117b55692e34b9641fa363282f2e"
+    },
+    {
+      "path": "dist/source/g3-p011.webp",
+      "bytes": 113270,
+      "sha256": "096753c36dbc02fa8dd6e3fb30bc3ba2daf7c006734949df6bb6634912697409"
+    },
+    {
+      "path": "dist/source/g3-p012.webp",
+      "bytes": 114866,
+      "sha256": "30305ac4c1a94ae6cbf48d94b6f2ab231f935a76092066c665454dc1d7ed6532"
+    },
+    {
+      "path": "dist/source/g3-p013.webp",
+      "bytes": 119264,
+      "sha256": "38ccbe1cb643ca3565b0112be05adea5faae124e2846df8ab1b4f5d9f9263ec3"
+    },
+    {
+      "path": "dist/source/g3-p014.webp",
+      "bytes": 106292,
+      "sha256": "a93452f9ae69074f5f95ccbc08fb7e50566bcb911312f14849a6175b37486422"
+    },
+    {
+      "path": "dist/source/g3-p015.webp",
+      "bytes": 174730,
+      "sha256": "4ca0dca241ccce20fbfed5c5c451da5a2481791ca3291a5a6daf99aa52cc612f"
+    },
+    {
+      "path": "dist/source/g3-p016.webp",
+      "bytes": 141192,
+      "sha256": "388a34d33953755f4fbce60ff3e0d4cf44b696ebffba7c3ad49edb9b2c327372"
+    },
+    {
+      "path": "dist/source/g3-p017.webp",
+      "bytes": 109008,
+      "sha256": "f945f4e16a9ca9fe500227dded7440bdacbe886468901552e97cb7b4690f2514"
+    },
+    {
+      "path": "dist/source/g3-p018.webp",
+      "bytes": 142886,
+      "sha256": "1992cfad6880e8d2bc8f8602d14e833cf2dd01da07abe4da769d5edd6c283b9e"
+    },
+    {
+      "path": "dist/source/g3-p019.webp",
+      "bytes": 175078,
+      "sha256": "d76c254e79db9bb5dac797d05483f1d31c48542ed1c7158ab825535865b46bd7"
+    },
+    {
+      "path": "dist/source/g3-p020.webp",
+      "bytes": 178172,
+      "sha256": "d206692543314ceca2403cd4e3550d753f2cf8a07024fd3f1ff90da6876a4038"
+    },
+    {
+      "path": "dist/source/g3-p021.webp",
+      "bytes": 184346,
+      "sha256": "278c94f83cbeeec0717c400b212a94e1db5e03127277f28c56c7e170e197d379"
+    },
+    {
+      "path": "dist/source/g3-p022.webp",
+      "bytes": 94908,
+      "sha256": "16590eb66fbbb20c0ab30868934877b3e9290ea6bdc98adc595533913bb5d415"
+    },
+    {
+      "path": "dist/source/g3-p023.webp",
+      "bytes": 170224,
+      "sha256": "e9cb3529c069e4384c4dc35171e11a7f7978fb2af22476ad960665860b006540"
+    },
+    {
+      "path": "dist/source/g3-p024.webp",
+      "bytes": 178944,
+      "sha256": "824a66f047219f5dc472533d6765db9705b4f8b42a597f62eb431d52ad380c30"
+    },
+    {
+      "path": "dist/source/g3-p025.webp",
+      "bytes": 172226,
+      "sha256": "45ee2325ba75438aa85156ef219ccb8e11a24dd28d651a86b675776475309212"
+    },
+    {
+      "path": "dist/source/g3-p026.webp",
+      "bytes": 95822,
+      "sha256": "0466528ed6bad751381dbe44a461248b5f22ce95c90c4e26fdf4e010a7aed9a6"
+    },
+    {
+      "path": "dist/source/g3-p027.webp",
+      "bytes": 169856,
+      "sha256": "4452672553d1f547c1ed12908a8d98d0da3fcb59f18daf6eeb94801feb932ee2"
+    },
+    {
+      "path": "dist/source/g3-p028.webp",
+      "bytes": 170810,
+      "sha256": "3ca734f02439edb8154cac6de7838b0e1fdf82c7c060bbbb51ec427576e48661"
+    },
+    {
+      "path": "dist/source/g3-p029.webp",
+      "bytes": 179332,
+      "sha256": "53198e65692ea2ba25c54fc6e4af694280ad0b110cfe44ce7951ac487b3601f5"
+    },
+    {
+      "path": "dist/source/g3-p030.webp",
+      "bytes": 96180,
+      "sha256": "b86d3c5c1a9561564f8199858c9e9217a196ceacf1910423ab6f83691e6f9872"
+    },
+    {
+      "path": "dist/source/g3-p031.webp",
+      "bytes": 175236,
+      "sha256": "9fd8796f441388e722a405b6579939a6fce27874c5172a93eae901527b6005b8"
+    },
+    {
+      "path": "dist/source/g3-p032.webp",
+      "bytes": 180798,
+      "sha256": "4dbb506587ede276b9ede15bfd80cc22f87b11928e9cd97cd1ff61f969704c64"
+    },
+    {
+      "path": "dist/source/g3-p033.webp",
+      "bytes": 172272,
+      "sha256": "dfeabf704b34d888990fef568eb88a1a9dd6a57476336def70b96c0e93eb665d"
+    },
+    {
+      "path": "dist/source/g3-p034.webp",
+      "bytes": 94164,
+      "sha256": "5678801308fb81c314027fe6c162386bfd6b0948b898ffe0d258a26eae35abfe"
+    },
+    {
+      "path": "dist/source/g3-p035.webp",
+      "bytes": 186564,
+      "sha256": "afac31f4d7ed8794361877a33b1cc69975b9d03b240448f47f896887846e734b"
+    },
+    {
+      "path": "dist/source/g3-p036.webp",
+      "bytes": 180042,
+      "sha256": "2df3c019d12f1803d4b19b9cffc93ec0247b59e6f74389d3cc6c6cea3cbf23e0"
+    },
+    {
+      "path": "dist/source/g3-p037.webp",
+      "bytes": 181094,
+      "sha256": "cb090f8ad9978c468b540ff86bd243e19f94ae10edb7684013f3f6e604c19c2d"
+    },
+    {
+      "path": "dist/source/g3-p038.webp",
+      "bytes": 92012,
+      "sha256": "0a43d32f3d4bbdf2b77e68aa8483f49abd67f011fea8a759ca6dc25deffe0f9d"
+    },
+    {
+      "path": "dist/source/g3-p039.webp",
+      "bytes": 186918,
+      "sha256": "60224ea18a447e3d6b6008e8ab7b2d3a5c16c6394a3a388a47a34e379cc04c7e"
+    },
+    {
+      "path": "dist/source/g3-p040.webp",
+      "bytes": 179638,
+      "sha256": "c9997e73afef6e31c4b1095e0e6f13468cd983e2cd46b97c31685d350c72b7af"
+    },
+    {
+      "path": "dist/source/g3-p041.webp",
+      "bytes": 174448,
+      "sha256": "2750813ef8b904ec0a213057cad5eb47dc05dfd6afd9a48923bd90e4019ff5e7"
+    },
+    {
+      "path": "dist/source/g3-p042.webp",
+      "bytes": 95246,
+      "sha256": "d4231b70e7701fe347df73f81c317e4ac528b0340a1b04f018d6985cda48d82a"
+    },
+    {
+      "path": "dist/source/g3-p043.webp",
+      "bytes": 173456,
+      "sha256": "e7a2658b97c733722f507ac17b3ec09c0951bc0e62e98c8858267c446a6797e4"
+    },
+    {
+      "path": "dist/source/g3-p044.webp",
+      "bytes": 169826,
+      "sha256": "0d3bbe8bea6b14fb59de4d20f17275160ac471c68ce8a35acab2dc07aa0ff5e4"
+    },
+    {
+      "path": "dist/source/g3-p045.webp",
+      "bytes": 185056,
+      "sha256": "748cb295d5454930af058e66cd1bb6f3deb2ffe65e83672fc075b14cea474cda"
+    },
+    {
+      "path": "dist/source/g3-p046.webp",
+      "bytes": 93150,
+      "sha256": "108dfcd6c204864e43c04ce3767c9ba90e8fec3be3927e894bbcdf94d353fddf"
+    },
+    {
+      "path": "dist/source/g3-p047.webp",
+      "bytes": 171744,
+      "sha256": "e3b3e617eade6f5cdb735e997cbb9a22875fe35b603a1dd29605d1f0ce8c391b"
+    },
+    {
+      "path": "dist/source/g3-p048.webp",
+      "bytes": 176690,
+      "sha256": "dc8324cabd39b3cb04e181aeb53911e33b99c192996919367af107e485d6d599"
+    },
+    {
+      "path": "dist/source/g3-p049.webp",
+      "bytes": 185424,
+      "sha256": "3dd186cdf93eacb4b3c4a52ada7e5b8a1982890b48d43d084e2220a22de6f3a4"
+    },
+    {
+      "path": "dist/source/g3-p050.webp",
+      "bytes": 93982,
+      "sha256": "9c19c089d90bb606f1c9866ed38cc64d054c36e3e0eda1a3cb31dfc6caee9351"
+    },
+    {
+      "path": "dist/source/g3-p051.webp",
+      "bytes": 176206,
+      "sha256": "64b9dafe1ff7ce5742ed0cb21ddf4d0a8dd2049271b937a4be2bf7f185383b08"
+    },
+    {
+      "path": "dist/source/g3-p052.webp",
+      "bytes": 181990,
+      "sha256": "ae8651ba8d6e555cee02fcf009f5f8da1e55f56a9024cd7043212495a1eb7fa8"
+    },
+    {
+      "path": "dist/source/g3-p053.webp",
+      "bytes": 178794,
+      "sha256": "6df36f082047203c4909d771d4dcf4405b298594527389513ee69778351b58ba"
+    },
+    {
+      "path": "dist/source/g3-p054.webp",
+      "bytes": 98492,
+      "sha256": "d089a22b6c14697fb8d49c54ddb6cc6d1fbed5977ef094c7fa217f38e2377f94"
+    },
+    {
+      "path": "dist/source/g3-p055.webp",
+      "bytes": 180488,
+      "sha256": "a60e545d11e267e833d38cee599184762d9910e9713f4c9f581d88a397a660f9"
+    },
+    {
+      "path": "dist/source/g3-p056.webp",
+      "bytes": 175060,
+      "sha256": "21e579d951d6de36e413757a5104e9808f997a11ff42e5d0046c35b29a803241"
+    },
+    {
+      "path": "dist/source/g3-p057.webp",
+      "bytes": 179168,
+      "sha256": "7e06841fc6b59c8d31029e5aa815f7c7c67deb7e2a3d17a20b73cf40385ae788"
+    },
+    {
+      "path": "dist/source/g3-p058.webp",
+      "bytes": 95422,
+      "sha256": "eb0f3f62aae22755e5749222b1aa85290accded801c0800aac9b3760bb687eba"
+    },
+    {
+      "path": "dist/source/g3-p059.webp",
+      "bytes": 176698,
+      "sha256": "94ad44c19963e7af0905de20531720265cf1e29b015fb53b755038324acda67f"
+    },
+    {
+      "path": "dist/source/g3-p060.webp",
+      "bytes": 165672,
+      "sha256": "d803c6335e2491d8c03065182102d5fc28eee0adf760fee4a8dedc562d3dda71"
+    },
+    {
+      "path": "dist/source/g3-p061.webp",
+      "bytes": 178886,
+      "sha256": "4ea00b35528994519826151b35b62b235d39ddf70bcd83ea2d61f620a4646ec0"
+    },
+    {
+      "path": "dist/source/g3-p062.webp",
+      "bytes": 93038,
+      "sha256": "6b1e07e0cb79a0b5379094e308e70984ec5dd7ab73d501241ba2da7e41f14873"
+    },
+    {
+      "path": "dist/source/g3-p063.webp",
+      "bytes": 172206,
+      "sha256": "764816ef3cb92f9610e81601c8a80552f2e2c077260566768df8ed149d63c6f6"
+    },
+    {
+      "path": "dist/source/g3-p064.webp",
+      "bytes": 172424,
+      "sha256": "c6d54a23ae7279fd92c4f7c34e3b377977eea78e38709a4fb13d9cf571b93037"
+    },
+    {
+      "path": "dist/source/g3-p065.webp",
+      "bytes": 167916,
+      "sha256": "f07494448e0082916477c7bad5c981a1bee81794eb749abd9e82645c6620f0bc"
+    },
+    {
+      "path": "dist/source/g3-p066.webp",
+      "bytes": 93410,
+      "sha256": "1df04090a09c88275cfc7771d541c02f34ce47bede7c15e59b84f72bff084f29"
+    },
+    {
+      "path": "dist/source/g3-p067.webp",
+      "bytes": 118844,
+      "sha256": "76fdf4e2cf11e2ec647b65a3b5d6c951282b96e599226b7261ac097df70f4907"
+    },
+    {
+      "path": "dist/source/g3-p068.webp",
+      "bytes": 124188,
+      "sha256": "8092320b8c588258ffd812586c310d4c910c360b630a6e2a6e80c1dca3024dd3"
+    },
+    {
+      "path": "dist/source/g3-p069.webp",
+      "bytes": 166944,
+      "sha256": "76ca3c576d8aa01721b3e9045e0c467cb76ddfd92b94fbef5e21f9827538c705"
+    },
+    {
+      "path": "dist/source/g3-p070.webp",
+      "bytes": 176796,
+      "sha256": "84e31a7f7b1d7c0cabf76a5f227ce46aa4889ee3cb813c87158a8ab4ff3ac24a"
+    },
+    {
+      "path": "dist/source/g3-p071.webp",
+      "bytes": 174094,
+      "sha256": "88e839559249bb2c2bf607d23789286e06fa555ee9ad2b436f58a0c28a5a2bd1"
+    },
+    {
+      "path": "dist/source/g3-p072.webp",
+      "bytes": 95158,
+      "sha256": "464c00701e09df9be30ce6b6583dc38cc81c36c1614ccdcceb1ad11e05c8e684"
+    },
+    {
+      "path": "dist/source/g3-p073.webp",
+      "bytes": 180572,
+      "sha256": "76aae8fff55c723a5c4f830d530e71bf5a3aaa53b53f5c4efc7ac315c3f52c64"
+    },
+    {
+      "path": "dist/source/g3-p074.webp",
+      "bytes": 174924,
+      "sha256": "4183bf8917cd35da5d43611a576093a3969e443a53d4388950eb0374ecc87858"
+    },
+    {
+      "path": "dist/source/g3-p075.webp",
+      "bytes": 175684,
+      "sha256": "fac9d3ae685f3ce8b2251423f19b03cd31d32e6b2d2580d9fdd91f496e66a51f"
+    },
+    {
+      "path": "dist/source/g3-p076.webp",
+      "bytes": 93388,
+      "sha256": "bcfb6ce44ccda63b174b3aa327b1316fb9ea2def4896ac65b58ad4f2e17d911a"
+    },
+    {
+      "path": "dist/source/g3-p077.webp",
+      "bytes": 171916,
+      "sha256": "541ae1df453eb1b9bd59bc12c6ddde6d6a8a32691b3027a183ecf73aa646c4bc"
+    },
+    {
+      "path": "dist/source/g3-p078.webp",
+      "bytes": 178352,
+      "sha256": "da986ba1dcb349ca49b1ef3db00cb6fb5e2f117f7f4101bdd081edc9fef425a5"
+    },
+    {
+      "path": "dist/source/g3-p079.webp",
+      "bytes": 176510,
+      "sha256": "5745a5c6e22bece6d4a54143b7f4048cf3148a8ebaeb9d59f40256165e1c86c9"
+    },
+    {
+      "path": "dist/source/g3-p080.webp",
+      "bytes": 93964,
+      "sha256": "6a7bd58557703170ba008726f57761a645cf1f9d6ceb6d114994cd2ad9f317d3"
+    },
+    {
+      "path": "dist/source/g3-p081.webp",
+      "bytes": 169040,
+      "sha256": "ae2e96faa89170303f5f0900bb51e574f305337653da48fa5c858e68295d9ec0"
+    },
+    {
+      "path": "dist/source/g3-p082.webp",
+      "bytes": 174092,
+      "sha256": "1176ab725000cca9097d0e23e3327c75dbc638872f0ea7dacc06b6b06296fb1a"
+    },
+    {
+      "path": "dist/source/g3-p083.webp",
+      "bytes": 169636,
+      "sha256": "1fe6a3f358430ffc97cc60faca7cda49356fcbce276b15ef6f801bed1a9c69f2"
+    },
+    {
+      "path": "dist/source/g3-p084.webp",
+      "bytes": 94552,
+      "sha256": "2fcb6d220cc8ec1b654bc7be7b914a9cb92b0141032fc9f8e8b209096d8975d3"
+    },
+    {
+      "path": "dist/source/g3-p085.webp",
+      "bytes": 183394,
+      "sha256": "3412727b3a856e7de0b8ee8d1e333fb3aeb0a22c0a868b06e1fa21affc8b79b4"
+    },
+    {
+      "path": "dist/source/g3-p086.webp",
+      "bytes": 184626,
+      "sha256": "2005eb1ced0a4498b8e4a833682429afe325de03765dc91c6d7707ef617f802d"
+    },
+    {
+      "path": "dist/source/g3-p087.webp",
+      "bytes": 186042,
+      "sha256": "510b180f2344060e2375669b0f4b0d2876cd91fb561411c90b5e02b6a5888575"
+    },
+    {
+      "path": "dist/source/g3-p088.webp",
+      "bytes": 96298,
+      "sha256": "d5fbcda5f61a1591b5eeeab1b8957b6af4c2728a39133af6ad8befa04cce3128"
+    },
+    {
+      "path": "dist/source/g3-p089.webp",
+      "bytes": 175508,
+      "sha256": "4f332a9a3871afed3ce6f293875c4fc2ab3853da1c189e1ef3c3ff315824d150"
+    },
+    {
+      "path": "dist/source/g3-p090.webp",
+      "bytes": 178112,
+      "sha256": "4d30e5604a90b94a87e2c448238ea1c32d916454f0a5d6065e3a0bfd6091c090"
+    },
+    {
+      "path": "dist/source/g3-p091.webp",
+      "bytes": 178948,
+      "sha256": "cbcb35cc5ea9d008969bb4149b642c5501bb02114dd3433447f7df8d94d4ba97"
+    },
+    {
+      "path": "dist/source/g3-p092.webp",
+      "bytes": 95464,
+      "sha256": "35d07589ddad540d9fcd67fc42861e1375108e0047439ffa25362db44c4d2b47"
+    },
+    {
+      "path": "dist/source/g3-p093.webp",
+      "bytes": 121940,
+      "sha256": "4e5575cf04e9bd753418b2746336cd3b2c9657cd4061c3596afdcf28828c6488"
+    },
+    {
+      "path": "dist/source/g3-p094.webp",
+      "bytes": 103516,
+      "sha256": "50edc31f7f51cb2cbadb70bf2ddb6b5e0d5627521caef9e4664b7c51a0a4ba8b"
+    },
+    {
+      "path": "dist/source/g3-p095.webp",
+      "bytes": 186788,
+      "sha256": "df2c613a2f716560b4817ed519768e410fc8a413f251bc33a832b5befafe631f"
+    },
+    {
+      "path": "dist/source/g3-p096.webp",
+      "bytes": 179054,
+      "sha256": "d70fc04528116cd722c015dd2ea5da4f87458a5db465da720e690b8d35cf1396"
+    },
+    {
+      "path": "dist/source/g3-p097.webp",
+      "bytes": 179092,
+      "sha256": "296568f3c1259cc36fce3fdb6ea7b4ca2a6267ab88d6966fe316a4902294135d"
+    },
+    {
+      "path": "dist/source/g3-p098.webp",
+      "bytes": 95384,
+      "sha256": "aa3fa01baf76f12e4c496e6c9f47e06f073857a4525238652466f7d68dfa4a62"
+    },
+    {
+      "path": "dist/source/g3-p099.webp",
+      "bytes": 184892,
+      "sha256": "f50db9d0b868d2f3d6652c43fdc3e259040c858db7747f54b4175158749b6b51"
+    },
+    {
+      "path": "dist/source/g3-p100.webp",
+      "bytes": 183294,
+      "sha256": "d4cd8ffc2f67e5ff947a60f30bf8e6c5b6b691b134c9af85061b94187d098eb3"
+    },
+    {
+      "path": "dist/source/g3-p101.webp",
+      "bytes": 174598,
+      "sha256": "d8908405fd0cce0e372287d3ac05f1b74cf1b34749f793e7f87ea9f938c232ac"
+    },
+    {
+      "path": "dist/source/g3-p102.webp",
+      "bytes": 94472,
+      "sha256": "e51c6bed047df740486533b9c8b3d8989dc7c91131405d460ebcb1613d864545"
+    },
+    {
+      "path": "dist/source/g3-p103.webp",
+      "bytes": 183578,
+      "sha256": "062837cc74fd585b61aab7f55857f42d2499f47bcecec72b781415d0028c3532"
+    },
+    {
+      "path": "dist/source/g3-p104.webp",
+      "bytes": 168700,
+      "sha256": "5ccdbdc9635ef30108b2dc00e0028ab5b9f5c4d9a71c289603998c42059315d0"
+    },
+    {
+      "path": "dist/source/g3-p105.webp",
+      "bytes": 175474,
+      "sha256": "7eafd8ab2dcf4ab4fe50b48bf83a3006ee40502f12ae0ade76273f1e16d7f05f"
+    },
+    {
+      "path": "dist/source/g3-p106.webp",
+      "bytes": 93284,
+      "sha256": "9b088aea470e2b66fc945d4022f08005fe595c99a67b31b65b440cd7a60d09b9"
+    },
+    {
+      "path": "dist/source/g3-p107.webp",
+      "bytes": 182370,
+      "sha256": "8021c942ac86825a5e57001778012b865675de1aaf2b11c331e01955feeee537"
+    },
+    {
+      "path": "dist/source/g3-p108.webp",
+      "bytes": 181916,
+      "sha256": "0529e65f35fafa31343defca2c625b80e92c5a19b56417e651eddda73905a373"
+    },
+    {
+      "path": "dist/source/g3-p109.webp",
+      "bytes": 178618,
+      "sha256": "b249e85c4b5d262c052901bd62d619fc189e610663419c38a3da69e5627c043b"
+    },
+    {
+      "path": "dist/source/g3-p110.webp",
+      "bytes": 93698,
+      "sha256": "0cece372eda9e0db558bed08cb78998ad36ec39ec8e3f492fd7a4c8fb025f5a2"
+    },
+    {
+      "path": "dist/source/g3-p111.webp",
+      "bytes": 178516,
+      "sha256": "443f48369e1bb76ab26f2ed7596588ae5971470448adbdf793ee9d34f8869be5"
+    },
+    {
+      "path": "dist/source/g3-p112.webp",
+      "bytes": 177820,
+      "sha256": "2203d8918d8e8e9dde1b1153883398345eec66fcdfc0a71d1831990f1eda92ea"
+    },
+    {
+      "path": "dist/source/g3-p113.webp",
+      "bytes": 176520,
+      "sha256": "5812c8c02e77486fb9ab8a8817a2068b8a01532c9bffff2d3b8e1e9d3bf3b3d0"
+    },
+    {
+      "path": "dist/source/g3-p114.webp",
+      "bytes": 95570,
+      "sha256": "0f5aefaef6ec10d60b315d93520b27a2d77149ec7fdd99b7e393cc30a8830cd0"
+    },
+    {
+      "path": "dist/source/g3-p115.webp",
+      "bytes": 124608,
+      "sha256": "86260b1d371863508bd858acf3a47124f9488be3334680ce84e3ecbe5be56d0f"
+    },
+    {
+      "path": "dist/source/g3-p116.webp",
+      "bytes": 114870,
+      "sha256": "efafa6e825f0b767139a916549c951c958896ff933e53260c227b960513b3f15"
+    },
+    {
+      "path": "dist/source/g3-p117.webp",
+      "bytes": 126538,
+      "sha256": "0b632b9832082e7f665f19971524fa75289022c2a64e88ff86f31137f66563b2"
+    },
+    {
+      "path": "dist/source/g3-p118.webp",
+      "bytes": 99404,
+      "sha256": "c1e016d6e78fdaf4767051afc929d4a3a965eca168a0dd2413c4b8d4ab53be36"
+    },
+    {
+      "path": "dist/source/g3-p119.webp",
+      "bytes": 185304,
+      "sha256": "3d65adc7048b9d0f222952d62924f153dd12e55bdc448a3127eeb98a8dfd8911"
+    },
+    {
+      "path": "dist/source/g3-p120.webp",
+      "bytes": 116970,
+      "sha256": "d3c29d29fa9364020c7fc91458207c23ec1722f20884285fb600bfd01e3b7880"
+    },
+    {
+      "path": "dist/source/g3-p121.webp",
+      "bytes": 153500,
+      "sha256": "07a852f393c79c801ef61e1483eac7f26d572bf160b44bfff666422319331387"
+    },
+    {
+      "path": "dist/source/g3-p122.webp",
+      "bytes": 161952,
+      "sha256": "1cb91f8043c48a9887b3151c73b1f76a80adfce466f4ff663f207ec16c11cc57"
+    },
+    {
+      "path": "dist/source/g3-p123.webp",
+      "bytes": 161872,
+      "sha256": "5cb38ff3fe9f746690d93b3179b873cdfdcec4b8bbce534af6b3b7e974e54071"
+    },
+    {
+      "path": "dist/source/g3-p124.webp",
+      "bytes": 139098,
+      "sha256": "368c696ef6b01760c5dab1ba235fb2a8c6711cbd36714de83355d02728d4d67a"
+    },
+    {
+      "path": "dist/source/g3-p125.webp",
+      "bytes": 120112,
+      "sha256": "0fcc6a3bb2e12a7e6862768452a14beccd003522e414fa682b80df4cf39cc2ce"
+    },
+    {
+      "path": "dist/source/g3-p126.webp",
+      "bytes": 87930,
+      "sha256": "7c7338737b1d015824ee4c7e157c0767893898a94e5a3930e907b14ec2e6ff14"
+    },
+    {
+      "path": "dist/source/g3-p127.webp",
+      "bytes": 82612,
+      "sha256": "44769be64deabc1f4eef703d769f976b35276cd3a42817c9f6618cfbf3e43870"
+    },
+    {
+      "path": "dist/source/g3-p128.webp",
+      "bytes": 119044,
+      "sha256": "e8025fba15cf547e1564730e376c54ae4bcf438cf8efd6667529ba5ff5381cfb"
+    },
+    {
+      "path": "dist/source/g3-p129.webp",
+      "bytes": 89200,
+      "sha256": "9085a0eef56cd83adc50f49638a2991a842af44a57c851432e1cb28708331db5"
+    },
+    {
+      "path": "dist/source/g3-p130.webp",
+      "bytes": 89658,
+      "sha256": "5167e03ac6f8dc39ef2941db83a74b95a3011c985bd3d306c8758cae7fb6d410"
+    },
+    {
+      "path": "dist/source/g3-p131.webp",
+      "bytes": 83112,
+      "sha256": "ae78997c77aee1819501b693675ebd5c859f7f217ccbe3dab17752c0a816f339"
+    },
+    {
+      "path": "dist/source/g3-p132.webp",
+      "bytes": 91092,
+      "sha256": "8fe47ca8b630f9dd0cd643a2e6eeda18c9105c8587ff9f3838e34d7cddb65d40"
+    },
+    {
+      "path": "dist/source/g3-p133.webp",
+      "bytes": 78770,
+      "sha256": "e8c1b344b9960fb96d3b12d053daefd3ecd53b75ddd9f5b3957538534aaaf287"
+    },
+    {
+      "path": "dist/source/g3-p134.webp",
+      "bytes": 83014,
+      "sha256": "3db4bac90a3c76033244ae96084915f266b19cf645e8aaaaa2d2604ff7c21dcf"
+    },
+    {
+      "path": "dist/source/g3-p135.webp",
+      "bytes": 128068,
+      "sha256": "5181cb0e17f0319bb073e02bd6258e68e9d0da134f533b6fa84968c7b8a12f38"
+    },
+    {
+      "path": "dist/source/g3-p136.webp",
+      "bytes": 108828,
+      "sha256": "37e846b2def6a53e14f7ed963009b5b4ea2503fa4fa43565695c926871777e0f"
+    },
+    {
+      "path": "dist/source/g3-p137.webp",
+      "bytes": 111848,
+      "sha256": "f1ab77d4632dc95f50e2c6a44aa75ebf4a667e51442f181f3c1ea44dd40bbdf8"
+    },
+    {
+      "path": "dist/source/g3-p138.webp",
+      "bytes": 120626,
+      "sha256": "dd709ac214ff22a1da0a961e074d25cbfa89f7e9010fbdda65c9a3b3b79bbe76"
+    },
+    {
+      "path": "dist/source/g3-p139.webp",
+      "bytes": 123278,
+      "sha256": "211784d9776ade8786118e1b4d90a81de691605f1ad184168bdb4ee9d13ed87b"
+    },
+    {
+      "path": "dist/source/g3-p140.webp",
+      "bytes": 113808,
+      "sha256": "213f46e51600d7faf84636655acc5057406efc9ad975c69d3a4a100c8e6c91ed"
+    },
+    {
+      "path": "dist/source/g3-p141.webp",
+      "bytes": 78986,
+      "sha256": "8ddf266e00ef5a1f4e4f08f197b952147648dc6a90ecd6aa2674b26a570d6e1a"
+    },
+    {
+      "path": "dist/source/g3-p142.webp",
+      "bytes": 101232,
+      "sha256": "ab93f74f6fe635c918f50d58b1832a221e00dfeb8918e7770af9d898103bed51"
+    },
+    {
+      "path": "dist/source/g3-p143.webp",
+      "bytes": 117478,
+      "sha256": "d3e2b2d53a73e9771d308a003d72a2bd2abe7a8f469f7983b17f7845a94222ba"
+    },
+    {
+      "path": "dist/source/g3-p144.webp",
+      "bytes": 123644,
+      "sha256": "7b2dbd5aeca7d1b08774f3d2f6ea64a7c05eecb5f2883d9df73f79ebae578fc7"
+    },
+    {
+      "path": "dist/sources.json",
+      "bytes": 10679,
+      "sha256": "c27c975786b1b295beb779940d7638afb979726d5dde9bd0192ceea82b31777c"
+    },
+    {
+      "path": "dist/styles.css",
+      "bytes": 14483,
+      "sha256": "c20b4ea2eeff11b1b5bc7d11852908b9464f1fe16fc70d089d66846f9ddf8797"
+    },
+    {
+      "path": "dist/sw.js",
+      "bytes": 1612,
+      "sha256": "5877074fa696114d3dfa13b4cdbc2bf546c012ed829fcbfaac0fd05b790610eb"
+    },
+    {
+      "path": "dist/textbook/g3-p001.webp",
+      "bytes": 225868,
+      "sha256": "65b8187395fe36824f12d237f4274d8da4ab17f1984c737836f7a8ad53d8f8ad"
+    },
+    {
+      "path": "dist/textbook/g3-p002.webp",
+      "bytes": 118468,
+      "sha256": "b861695e51308b9a2a6b1e095091756154b8b2f5440a719aa711d437526ad160"
+    },
+    {
+      "path": "dist/textbook/g3-p003.webp",
+      "bytes": 137862,
+      "sha256": "38ef7a7c52c642cc5c96ac39b78baf18f7e2956be821e7b24198557ded126a20"
+    },
+    {
+      "path": "dist/textbook/g3-p004.webp",
+      "bytes": 107460,
+      "sha256": "73c674e3065ed015340aa5b2600f48cdab9bd42f0b132892f9926edecbf45435"
+    },
+    {
+      "path": "dist/textbook/g3-p005.webp",
+      "bytes": 140580,
+      "sha256": "6c580ee8df239f7ef6b14abe1d1eb99847a193b395b12add3b42690d8997cef9"
+    },
+    {
+      "path": "dist/textbook/g3-p006.webp",
+      "bytes": 144948,
+      "sha256": "1e5b6cff67378f841b1d87358e6bc90dbfc89fe238e0ec9cd86e2e31114d74a3"
+    },
+    {
+      "path": "dist/textbook/g3-p007.webp",
+      "bytes": 105126,
+      "sha256": "c13c3f57cf12b67bd31129ba7eded0725334a5f9c9350ed6968390983c4f7a55"
+    },
+    {
+      "path": "dist/textbook/g3-p008.webp",
+      "bytes": 105628,
+      "sha256": "2874dcc038814155507d4607a9b7cea4fd5dcf2c295285364d37c4a76df42cfb"
+    },
+    {
+      "path": "dist/textbook/g3-p009.webp",
+      "bytes": 162982,
+      "sha256": "9b7b8b6d470eaf1e3af351ee57f12c509b75d9ae07c24b4de8fa3a75851e480a"
+    },
+    {
+      "path": "dist/textbook/g3-p010.webp",
+      "bytes": 134936,
+      "sha256": "7c417610375f2383bf0dcd8cb8eab0464ed24970e46c9fa3fa7b0279e24dd5e1"
+    },
+    {
+      "path": "dist/textbook/g3-p011.webp",
+      "bytes": 106310,
+      "sha256": "a5f29cac213d903a4bcf6237a4b256353d8013869990f74ccf181606135ed8e6"
+    },
+    {
+      "path": "dist/textbook/g3-p012.webp",
+      "bytes": 245654,
+      "sha256": "82f25ec90c81902b2afa9e7603a8ecb7fd6f9709c08f3ef555cfd43b53c3f96d"
+    },
+    {
+      "path": "dist/textbook/g3-p013.webp",
+      "bytes": 246686,
+      "sha256": "543bf696e668e64f0b4f79ee901e784256b8d2bbfafe4ecd7d576747cbedb658"
+    },
+    {
+      "path": "dist/textbook/g3-p014.webp",
+      "bytes": 93064,
+      "sha256": "1bdf0da18d1572c0297c29dd0708a67a2bcc3be336f9001b5ec0175f6f86590f"
+    },
+    {
+      "path": "dist/textbook/g3-p015.webp",
+      "bytes": 105390,
+      "sha256": "be021a23fa82ab8215fa685c4b6580d989c03001d55ecf79abce0464f5860fae"
+    },
+    {
+      "path": "dist/textbook/g3-p016.webp",
+      "bytes": 187918,
+      "sha256": "e6841944ff7dca3be8b60afbd3ad0a85d093c864a4071a1f2b4cefe8f79f6391"
+    },
+    {
+      "path": "dist/textbook/g3-p017.webp",
+      "bytes": 127456,
+      "sha256": "5b10a8f2e9d2332eac71444565c88967fd5b0729c4d2446f9605514f4e9e4bd1"
+    },
+    {
+      "path": "dist/textbook/g3-p018.webp",
+      "bytes": 148046,
+      "sha256": "311a9727887c5cd18f1260fc6acd868934c9a7a212d3d943e64045afc6edeacf"
+    },
+    {
+      "path": "dist/textbook/g3-p019.webp",
+      "bytes": 135730,
+      "sha256": "338c6e45bea02d117a045620c8c49ccd04288b1701230e3253cf8a26b9780434"
+    },
+    {
+      "path": "dist/textbook/g3-p020.webp",
+      "bytes": 106264,
+      "sha256": "25fff5b3fc8d630197b227020116ba1cc73541b5fb16328d71c63a5965bf4494"
+    },
+    {
+      "path": "dist/textbook/g3-p021.webp",
+      "bytes": 119060,
+      "sha256": "2caf0a7bcd4c86739cb5fa366edd088ef2023c0e974a74d0ecdc29ae81dab256"
+    },
+    {
+      "path": "dist/textbook/g3-p022.webp",
+      "bytes": 112570,
+      "sha256": "239aa3aac9544b45b03a436c0982d345fcbdc7da6fdbe88385d07af2682f7771"
+    },
+    {
+      "path": "dist/textbook/g3-p023.webp",
+      "bytes": 124966,
+      "sha256": "8e40dd45bf61477e6a6d7c2f0e44cb4f1da43007126d068ca9831501213288b1"
+    },
+    {
+      "path": "dist/textbook/g3-p024.webp",
+      "bytes": 141702,
+      "sha256": "1dda314b522f5b743db914ce73e5439040da2f2c7239c7c2ffb5ec4ebc5f9fd7"
+    },
+    {
+      "path": "dist/textbook/g3-p025.webp",
+      "bytes": 127668,
+      "sha256": "291ade22ee84bb11947d25c018942bebb5a3fc8549053e0182b05ab8f2c83ee7"
+    },
+    {
+      "path": "dist/textbook/g3-p026.webp",
+      "bytes": 72054,
+      "sha256": "2c51ca73f045c019bcba29dc02d21407be909d4377d49fa11eadcc306c4ef754"
+    },
+    {
+      "path": "dist/textbook/g3-p027.webp",
+      "bytes": 78174,
+      "sha256": "9964a202a3b80f46e3523d5cc75d23b28fbdf6e18371bf59b0f63d1cdfab1e02"
+    },
+    {
+      "path": "dist/textbook/g3-p028.webp",
+      "bytes": 35778,
+      "sha256": "31480a75167102a457378f6e95b1db33ded3fb7677460f831663a279d284183f"
+    },
+    {
+      "path": "dist/textbook/g3-p029.webp",
+      "bytes": 170804,
+      "sha256": "79448cdf07245495cffd714742a50a54090c06448fa9bd880bf6f14697b0ff50"
+    },
+    {
+      "path": "dist/textbook/g3-p030.webp",
+      "bytes": 126658,
+      "sha256": "fdad76f88b86b0f5e9273ad65958cf5bc71650e846c324e6da57228cd0da8b0d"
+    },
+    {
+      "path": "dist/textbook/g3-p031.webp",
+      "bytes": 142786,
+      "sha256": "53b175a3579cc2b36cea59241adf03bb6fb4f24a7ebc9efa39240c4d749eb2bc"
+    },
+    {
+      "path": "dist/textbook/g3-p032.webp",
+      "bytes": 135486,
+      "sha256": "923d1e99738bd99c253c72ba33125fdca5416bfd5f74dc029f6e2dfbae5812cc"
+    },
+    {
+      "path": "dist/textbook/g3-p033.webp",
+      "bytes": 157778,
+      "sha256": "da84a133fddb0fa6f73931c550fa046dd1d5e91480e0c627eb1be513c76f1aa8"
+    },
+    {
+      "path": "dist/textbook/g3-p034.webp",
+      "bytes": 166370,
+      "sha256": "797094764f2941482ad245d7181a60e3bb641721532b4949d3b29e84cfa52517"
+    },
+    {
+      "path": "dist/textbook/g3-p035.webp",
+      "bytes": 125396,
+      "sha256": "8b004dd1455b491441908d5ef39d44f8ce2a6a6c8e1711b4ab4be9df0f3f3894"
+    },
+    {
+      "path": "dist/textbook/g3-p036.webp",
+      "bytes": 156780,
+      "sha256": "509def121df2160c4928f5d5d119bf99f3771a4afaf3b712784ec19632cc97c6"
+    },
+    {
+      "path": "dist/textbook/g3-p037.webp",
+      "bytes": 141800,
+      "sha256": "6aaf4166cac3acfcd39873957f0f2f37d1eb5fe477a460f8a324b5c514f92fdd"
+    },
+    {
+      "path": "dist/textbook/g3-p038.webp",
+      "bytes": 172922,
+      "sha256": "7423903a7838f0bb157e9aeb82093621b5e0d1a2769a0b5857a58ac3d4be333e"
+    },
+    {
+      "path": "dist/textbook/g3-p039.webp",
+      "bytes": 140162,
+      "sha256": "7719e7dd47546f2ab87841897b6bd48306067164b8a10e761f8fb011693c332f"
+    },
+    {
+      "path": "dist/textbook/g3-p040.webp",
+      "bytes": 158250,
+      "sha256": "9ef0815c76fa6b50bc5e11f70b728b21c73e94141c044f3b5b0588a868cbc975"
+    },
+    {
+      "path": "dist/textbook/g3-p041.webp",
+      "bytes": 109914,
+      "sha256": "dbd0d7298b16e152cbb12b8c76cd0812d494230516f7464f062a2309cdfb67e8"
+    },
+    {
+      "path": "dist/textbook/g3-p042.webp",
+      "bytes": 129150,
+      "sha256": "0c197df20460f423ab555aed51e171dd589cacdf9e44ff5c391dcbddda85253b"
+    },
+    {
+      "path": "dist/textbook/g3-p043.webp",
+      "bytes": 117050,
+      "sha256": "ae52592b77d187425544133a07fe8c249667d88549ee99ea896563ebd521de67"
+    },
+    {
+      "path": "dist/textbook/g3-p044.webp",
+      "bytes": 138828,
+      "sha256": "3b2f360999c2dd5e409701794220462be0cc507853b266c1faf8e2c1f6c6d870"
+    },
+    {
+      "path": "dist/textbook/g3-p045.webp",
+      "bytes": 99206,
+      "sha256": "b2bc6d3043c01438afc0447b83095b672093d52d5ca70eab3582f538992dcd61"
+    },
+    {
+      "path": "dist/textbook/g3-p046.webp",
+      "bytes": 146226,
+      "sha256": "ee1afbf56070f333cfa9379df3dd311eb6d54fb4347c60271478353a0c09c238"
+    },
+    {
+      "path": "dist/textbook/g3-p047.webp",
+      "bytes": 147176,
+      "sha256": "a4dff0212dab134a79c5ecfb1d934ea7ec10bb93a5100bcfffd0455cb57eeb37"
+    },
+    {
+      "path": "dist/textbook/g3-p048.webp",
+      "bytes": 65554,
+      "sha256": "22d228ee1e64e40f481e8270702d9095dc3f4232277d866d4a4efa9a35d97c8b"
+    },
+    {
+      "path": "dist/textbook/g3-p049.webp",
+      "bytes": 94956,
+      "sha256": "278a4054579396757ba7aa1f63ca89617eb231d008805d4448c37a5fa2186360"
+    },
+    {
+      "path": "dist/textbook/g3-p050.webp",
+      "bytes": 69936,
+      "sha256": "8b9d5b02057c23b6457af62ed132ee954054dd10bcfd4ffe6a92285b742c0a44"
+    },
+    {
+      "path": "dist/textbook/g3-p051.webp",
+      "bytes": 172716,
+      "sha256": "9346a85932ce638caf8357daab1b275c6901b6a88f1cd33a8ebe09c7604d363a"
+    },
+    {
+      "path": "dist/textbook/g3-p052.webp",
+      "bytes": 70724,
+      "sha256": "16a72c9cc5cf5eb4382fd3b741bff69d34b3f3c4718150b0fee40147af7ce63b"
+    },
+    {
+      "path": "dist/textbook/g3-p053.webp",
+      "bytes": 106652,
+      "sha256": "690cd966792e153c9ce170f0cba6306d1681a3b4a4dc3b36b6d884cbf0f00891"
+    },
+    {
+      "path": "dist/textbook/g3-p054.webp",
+      "bytes": 148234,
+      "sha256": "8553254850b48844ddded31aaa903c4484215134fd883ed84e925f6f213ff9a3"
+    },
+    {
+      "path": "dist/textbook/g3-p055.webp",
+      "bytes": 127198,
+      "sha256": "a79e060da0b7aabf8678224ac243b6e8ceb1867dc3ffa0ea934f8f24fdf3bf3a"
+    },
+    {
+      "path": "dist/textbook/g3-p056.webp",
+      "bytes": 94152,
+      "sha256": "faa1072c115dbe25f9578fe13cba068b67ded1c44122d751aca17d9de488fa3c"
+    },
+    {
+      "path": "dist/textbook/g3-p057.webp",
+      "bytes": 147106,
+      "sha256": "357ddbcbc1b1db772390a2f9c34daf1ca0e892e6634328ea91030494e8b133a9"
+    },
+    {
+      "path": "dist/textbook/g3-p058.webp",
+      "bytes": 153036,
+      "sha256": "90287d8ee52ebad78e16f496315cc960ab609c331f99169b6b37a8dcd6aa742d"
+    },
+    {
+      "path": "dist/textbook/g3-p059.webp",
+      "bytes": 165402,
+      "sha256": "f7f09c43f79cc70c9c82da324c8275dd52dbb8ab832dc0972c5cf98ac198dd18"
+    },
+    {
+      "path": "dist/textbook/g3-p060.webp",
+      "bytes": 114324,
+      "sha256": "17908fd5a7669e1eebb9450ff8672ee7a6e1ba42a0464122c606d4c7ea276dbb"
+    },
+    {
+      "path": "dist/textbook/g3-p061.webp",
+      "bytes": 96498,
+      "sha256": "7ef83c6cbd45e477a76078f9bb4e9ede366c5cbf13c3295f58cf480f4afb2ed5"
+    },
+    {
+      "path": "dist/textbook/g3-p062.webp",
+      "bytes": 74678,
+      "sha256": "e0ad9bce6bfef197d5fb4a1d1cd5d691119900ad0d1a61ec80fc8d22fc113869"
+    },
+    {
+      "path": "dist/textbook/g3-p063.webp",
+      "bytes": 232450,
+      "sha256": "504266f53bdb9c3ce88cb88cd6dab59265603237de102198c2888b6732db550e"
+    },
+    {
+      "path": "dist/textbook/g3-p064.webp",
+      "bytes": 167058,
+      "sha256": "931e3e49a641744d1bd410e41cdaa0bb9692bb6b249c20b2de486a432bb33d5b"
+    },
+    {
+      "path": "dist/textbook/g3-p065.webp",
+      "bytes": 123898,
+      "sha256": "3fcb58fe965d64571796568b72b8f47ecc19e881c04c3ae990652dfeedb7fc33"
+    },
+    {
+      "path": "dist/textbook/g3-p066.webp",
+      "bytes": 89992,
+      "sha256": "cab6d95865ac4a8cdc17fa79a80810ec9c69e853d3ac34cdfa53600014230d5b"
+    },
+    {
+      "path": "dist/textbook/g3-p067.webp",
+      "bytes": 68366,
+      "sha256": "f26d099b4859bb6e531fe2992065b3665049d5521dcc6299f1c0febc89b1f2d8"
+    },
+    {
+      "path": "dist/textbook/g3-p068.webp",
+      "bytes": 138418,
+      "sha256": "4a5716a24e384d306d23fca465c41f433e85a4306681ab5e4f583ebdfa3d6c81"
+    },
+    {
+      "path": "dist/textbook/g3-p069.webp",
+      "bytes": 135842,
+      "sha256": "b1ec5761b5f6657a41f3e3b3b0b62128e770dc2f73983873f73fe63f7c17d619"
+    },
+    {
+      "path": "dist/textbook/g3-p070.webp",
+      "bytes": 88530,
+      "sha256": "d9143d3d181819ba635e1cd88cee64cad584715b8f5421dcfba4f1141e0cf925"
+    },
+    {
+      "path": "dist/textbook/g3-p071.webp",
+      "bytes": 57026,
+      "sha256": "74c1f6b900193b9781ea616f85fe9dfdab853b196b9928a4755904a4dfc204b8"
+    },
+    {
+      "path": "dist/textbook/g3-p072.webp",
+      "bytes": 105252,
+      "sha256": "3f46fe48eec9f936fdcc37c5780902d2dc2c92cbb731055d9d8b3403885c8587"
+    },
+    {
+      "path": "dist/textbook/g3-p073.webp",
+      "bytes": 118686,
+      "sha256": "5fdf945d759de7ad4dcf6ae7418f536c8864e06525bca65949a06aae29df85cb"
+    },
+    {
+      "path": "dist/textbook/g3-p074.webp",
+      "bytes": 118018,
+      "sha256": "2c1bedc662e311d7ec932fb98473431588f8e7109c5b6034ce05b3e94ed4a487"
+    },
+    {
+      "path": "dist/textbook/g3-p075.webp",
+      "bytes": 129894,
+      "sha256": "b3bf0f4a68fa003aefcb69b18d2e1e5d56b85eabbb61beba141f7758313aad04"
+    },
+    {
+      "path": "dist/textbook/g3-p076.webp",
+      "bytes": 123760,
+      "sha256": "38316e25380f7d11ab6e463355702f252b2ed98065570c5299cffa1c89425586"
+    },
+    {
+      "path": "dist/textbook/g3-p077.webp",
+      "bytes": 119754,
+      "sha256": "4a90734921141e5e8eca468aa5cbc016f1c8d3fb786e1a1b7d33ccbaee1adbed"
+    },
+    {
+      "path": "dist/textbook/g3-p078.webp",
+      "bytes": 98728,
+      "sha256": "8c1bd2b989b43cdbbde7fec6bfa9512d3f40d91c61a4b1772ac9251b1d587c92"
+    },
+    {
+      "path": "dist/textbook/g3-p079.webp",
+      "bytes": 113644,
+      "sha256": "f906fb5c782cf8fef6a5947a08d200428a2e1e74edcbd4936872439e4945062a"
+    },
+    {
+      "path": "dist/textbook/g3-p080.webp",
+      "bytes": 83126,
+      "sha256": "e957b0665f55b96235a36aab0c0b9a1d7576e650265440c1d31de8fa44ae9e79"
+    },
+    {
+      "path": "dist/textbook/g3-p081.webp",
+      "bytes": 139600,
+      "sha256": "33112878506114f370f7f73fe79e3e1d6634db9bc9edc9e50ee643e48b1cc5f4"
+    },
+    {
+      "path": "dist/textbook/g3-p082.webp",
+      "bytes": 140696,
+      "sha256": "6cb97cbef9caeee6354fbdb4b0510e8e13413fd0d60ea30d4a7a1e9a9c953174"
+    },
+    {
+      "path": "dist/textbook/g3-p083.webp",
+      "bytes": 142766,
+      "sha256": "3e2219bf338b6d7b750702cff78d9f83c1966b917a6658cb4919f95f686d1965"
+    },
+    {
+      "path": "dist/textbook/g3-p084.webp",
+      "bytes": 134880,
+      "sha256": "0f9c322e3bd4e767893249e2e3d0736f27be163e40b83a2546f62db18d18e930"
+    },
+    {
+      "path": "dist/textbook/g3-p085.webp",
+      "bytes": 115646,
+      "sha256": "e2f406560edda8937d2c4a6b2050d2c8e84bc4329b93d2b11b34a3205b60bbb5"
+    },
+    {
+      "path": "dist/textbook/g3-p086.webp",
+      "bytes": 140576,
+      "sha256": "322f29e7ce8999d09209842d3cb240424c517cc29ea794449050b959fc3a76e4"
+    },
+    {
+      "path": "dist/textbook/g3-p087.webp",
+      "bytes": 114372,
+      "sha256": "a93c3d167dace2704ba927ab17d3592c4b767d82328eb99f6fb07f1bab470379"
+    },
+    {
+      "path": "dist/textbook/g3-p088.webp",
+      "bytes": 64552,
+      "sha256": "652aa54dd16f9f64019d54bbd7831c14853ff0a759ab13426bd2f09838312331"
+    },
+    {
+      "path": "dist/textbook/g3-p089.webp",
+      "bytes": 175986,
+      "sha256": "9859b5d2f1dc6efd82149f2f4c463d21e6ebabe481cefe5b10b369499d8800a7"
+    },
+    {
+      "path": "dist/textbook/g3-p090.webp",
+      "bytes": 120382,
+      "sha256": "f6ab35c71a2d67beb12d4d88d88845126b42c7e97545f21e2a37db808b935ea9"
+    },
+    {
+      "path": "dist/textbook/g3-p091.webp",
+      "bytes": 87884,
+      "sha256": "e29149632db06aefa7ae115a8dea5afcb8d9e2ad38b3468eb136207088ad05a3"
+    },
+    {
+      "path": "dist/textbook/g3-p092.webp",
+      "bytes": 151016,
+      "sha256": "9360d54375446fb313f13679fbda228aa754b23acb61ae4fc0537024560c41ee"
+    },
+    {
+      "path": "dist/textbook/g3-p093.webp",
+      "bytes": 151346,
+      "sha256": "641ac5ffd242d4fb0f2a3b708603b3f10f6ceb7c9eaf2e39dc77676ef61c3874"
+    },
+    {
+      "path": "dist/textbook/g3-p094.webp",
+      "bytes": 132968,
+      "sha256": "2563cc060c97d2df8783327bd3ead5679712773541de029a0dd18e6fed5f5b00"
+    },
+    {
+      "path": "dist/textbook/g3-p095.webp",
+      "bytes": 114116,
+      "sha256": "5db3e2a63711b55ec4cd86fc30a8f6bbc6b0fd77edcf8e332fdfbf86fdf20a6a"
+    },
+    {
+      "path": "dist/textbook/g3-p096.webp",
+      "bytes": 124802,
+      "sha256": "e90dc67e2a9805d7c78912f37873df27de4de7db2a418f6fd237b897d5914eb1"
+    },
+    {
+      "path": "dist/textbook/g3-p097.webp",
+      "bytes": 69486,
+      "sha256": "f3d80f6b91311f4f229aebbfe7fd0cf57bff75d42c3266e563e48bdf1c7eb7cc"
+    },
+    {
+      "path": "dist/textbook/g3-p098.webp",
+      "bytes": 94028,
+      "sha256": "771222d7beb1a5890049be7afecd5c4bf36b3e6dd16465ab50bf740e5d7db69a"
+    },
+    {
+      "path": "dist/textbook/g3-p099.webp",
+      "bytes": 231888,
+      "sha256": "6a309a39686395e3083f33d83a748feffe936ba2ec11b78c33dfa76dd9628790"
+    },
+    {
+      "path": "dist/textbook/g3-p100.webp",
+      "bytes": 131710,
+      "sha256": "52a1cdc0e3358b950c6ddfcb08379b66306f086a1915df76f071b26089964b8c"
+    },
+    {
+      "path": "dist/textbook/g3-p101.webp",
+      "bytes": 122426,
+      "sha256": "2a39ca9364192ed747184e0ead5e3e3d16f8db8e4f1434cb59613a1487c637dd"
+    },
+    {
+      "path": "dist/textbook/g3-p102.webp",
+      "bytes": 105404,
+      "sha256": "ce4ec9a632a06a2006b922dbd28078910f6c6df9271c267d9cd320e124497bbf"
+    },
+    {
+      "path": "dist/textbook/g3-p103.webp",
+      "bytes": 100672,
+      "sha256": "0d226c95332b2b65dd9ab913780c1c762c5ec088ea6df7b0fbd15f482f187fbe"
+    },
+    {
+      "path": "dist/textbook/g3-p104.webp",
+      "bytes": 95566,
+      "sha256": "a5458234bde50fce5e190bf2f026e585e716b094b335d641347e0060e9244177"
+    },
+    {
+      "path": "dist/textbook/g3-p105.webp",
+      "bytes": 103174,
+      "sha256": "5ccbfedc89ee4f2e1d106ef8cb1f3f97b7ac376d8be13f3011f7de467da8580f"
+    },
+    {
+      "path": "dist/textbook/g3-p106.webp",
+      "bytes": 114368,
+      "sha256": "83578aba8d5911a8cd7ceeccb0760e29d535cede83e02b9186e2dca78919820c"
+    },
+    {
+      "path": "dist/textbook/g3-p107.webp",
+      "bytes": 130938,
+      "sha256": "c4651fcf5c8f9ba77859bb74db1aba9c307ff9c5a6b4083c81749f0fab3d1652"
+    },
+    {
+      "path": "dist/textbook/g3-p108.webp",
+      "bytes": 129906,
+      "sha256": "b1057b5a69db5075906df9493257d89a2bd3047efe2c44e90c18928fd5653c24"
+    },
+    {
+      "path": "dist/textbook/g3-p109.webp",
+      "bytes": 96508,
+      "sha256": "b26f16498b13ba717cefa7d119754f1448223a22d38d3e850098c3731d89a2f7"
+    },
+    {
+      "path": "dist/textbook/g3-p110.webp",
+      "bytes": 173356,
+      "sha256": "e4500ab40c351781629517bdacc9d1056a4bd0ea694cc228444b5c65a180cf2a"
+    },
+    {
+      "path": "dist/textbook/g3-p111.webp",
+      "bytes": 160184,
+      "sha256": "52314ede9d02149ccfa2675b92ef0136d6c60a9271ef5f6fb96bb898c2f7ce75"
+    },
+    {
+      "path": "dist/textbook/g3-p112.webp",
+      "bytes": 66778,
+      "sha256": "08b8208cf8fa958e40de0af64b5cb7ada9cc74934d9d78b58ecb5eb45ba888c6"
+    },
+    {
+      "path": "dist/textbook/g3-p113.webp",
+      "bytes": 106278,
+      "sha256": "0e434430b99521a82d506eb1e92d6f9e0075713358644f5e5f0386129dace63d"
+    },
+    {
+      "path": "dist/textbook/g3-p114.webp",
+      "bytes": 175168,
+      "sha256": "1bc8b09f6e9bf622ccf0237ec242b5f68f352deb8139a0865d9934ebd8060b63"
+    },
+    {
+      "path": "dist/textbook/g3-p115.webp",
+      "bytes": 163584,
+      "sha256": "637f09c466da663381e479f1a957ac7ae54946d27ed8632c28203877c23a1382"
+    },
+    {
+      "path": "dist/textbook/g3-p116.webp",
+      "bytes": 124538,
+      "sha256": "dcdb6999370497c95b4b25026eb4b5e20028f66ac312cd9aba6249056fad56a0"
+    },
+    {
+      "path": "dist/textbook/g3-p117.webp",
+      "bytes": 120954,
+      "sha256": "be361fd59fcbef59fb9f332b0166a84ac62c0e2ababc03ab2d72ea8a88f6ec76"
+    },
+    {
+      "path": "dist/textbook/g3-p118.webp",
+      "bytes": 109520,
+      "sha256": "def2acf568b8a89ddf9d043eec6e7befd4f3f9bae976559d600082def8c08bbb"
+    },
+    {
+      "path": "dist/textbook/g3-p119.webp",
+      "bytes": 136182,
+      "sha256": "006bf07d88ac94f549522830790bf892126b2bebe940668bbe4cd4a9f1b87e03"
+    },
+    {
+      "path": "dist/textbook/g3-p120.webp",
+      "bytes": 78630,
+      "sha256": "cb3ca29c8c3d2dbc86d10d4743a0061667d18524c86c0a1258a827ea08e2ee84"
+    },
+    {
+      "path": "dist/textbook/g3-p121.webp",
+      "bytes": 167408,
+      "sha256": "667799d5fa0c19a95b9bb8a1fae78b9cc1f9cba64db64a1957cf8070a5ae5bc7"
+    },
+    {
+      "path": "dist/textbook/g3-p122.webp",
+      "bytes": 115724,
+      "sha256": "363133d48e1b8a99af9656ffc664e2083bc7ad1712ed2ed069f0cef4e031eb87"
+    },
+    {
+      "path": "dist/textbook/g3-p123.webp",
+      "bytes": 120468,
+      "sha256": "34be99e6bf744c431d4a6208f59b7a04e00b9dabb0daf8fba0c9af471dda2486"
+    },
+    {
+      "path": "dist/textbook/g3-p124.webp",
+      "bytes": 182382,
+      "sha256": "66c87544e8b4007ea4501b1eb3ccc2ca0c15b49140753adf5caafca36ef801e1"
+    },
+    {
+      "path": "dist/textbook/g3-p125.webp",
+      "bytes": 141820,
+      "sha256": "7e3477186e57fdc6ec171ab90db65aa9bb9235e045a30b6712b9de7f5095c837"
+    },
+    {
+      "path": "dist/textbook/g3-p126.webp",
+      "bytes": 138690,
+      "sha256": "556b9a4ed11f3fccace68f1e2133ced3892c822cd25d09777d61023bc54c5436"
+    },
+    {
+      "path": "dist/textbook/g3-p127.webp",
+      "bytes": 133660,
+      "sha256": "a22acc0b898fc0e4700d6f71f6772b94145c93343b51563f6d248b82eb741f3c"
+    },
+    {
+      "path": "dist/textbook/g3-p128.webp",
+      "bytes": 95696,
+      "sha256": "52dbd9d65a300da437e9379d0972f7e32645dda56f4c9677d5fb72f986710fc3"
+    },
+    {
+      "path": "dist/textbook/g3-p129.webp",
+      "bytes": 145480,
+      "sha256": "2d4d1f4bfa45509a96c4f4ceba62f7e5bb4c8c0dc7e50beb1098678fc0fceb33"
+    },
+    {
+      "path": "dist/textbook/g3-p130.webp",
+      "bytes": 148432,
+      "sha256": "729fb02e5249b53ab5d08c270a8d50fb9ed835c38e378587fb10a59e5fb7636c"
+    },
+    {
+      "path": "dist/textbook/g3-p131.webp",
+      "bytes": 80910,
+      "sha256": "a619fe2eeedb9284c083d552afd4be0a00361d5f6d9a2c69f3b1b8e1b9893265"
+    },
+    {
+      "path": "dist/textbook/g3-p132.webp",
+      "bytes": 197012,
+      "sha256": "30251440ad43ad8186d5042f41763aa75812bf223b7c350580852a3624ef088c"
+    },
+    {
+      "path": "dist/textbook/g3-p133.webp",
+      "bytes": 98320,
+      "sha256": "42f5785340438591103e9f82eb469f5699e372d5fbc9bb431da996f4fdc6beaa"
+    },
+    {
+      "path": "dist/textbook/g3-p134.webp",
+      "bytes": 138852,
+      "sha256": "80c356906c81e953a32ee174f735eb52241faeb5cd56045a3e8e32eae1225f14"
+    },
+    {
+      "path": "dist/textbook/g3-p135.webp",
+      "bytes": 98226,
+      "sha256": "9a8f4303c5fe0cd9dd646259a6fae66df127f544e87f4a55f0e26c602fe61664"
+    },
+    {
+      "path": "dist/textbook/g3-p136.webp",
+      "bytes": 139242,
+      "sha256": "69e0ae0e4a92b5ef522dde75296b5eeec37b39f437299feba72e094170613e94"
+    },
+    {
+      "path": "dist/textbook/g3-p137.webp",
+      "bytes": 125736,
+      "sha256": "1670d518be4f8762609295c6e0a87c5083fb33b0dfb9bf5e604248e7c7985214"
+    },
+    {
+      "path": "dist/textbook/g3-p138.webp",
+      "bytes": 166002,
+      "sha256": "96d0a021dfab849c377b4e9a5afb0f1a8c539b18836c4298fc3ce5a14ff80abe"
+    },
+    {
+      "path": "dist/textbook/g3-p139.webp",
+      "bytes": 137998,
+      "sha256": "3e185e263ad029742b118ce85823ff75ab6eb038506dcab2e321eb2ced660820"
+    },
+    {
+      "path": "dist/textbook/g3-p140.webp",
+      "bytes": 171676,
+      "sha256": "ee5765748ebd8edd5fc082b1d0ffd552801e9c15ee88f793da6d816ca5d87a45"
+    },
+    {
+      "path": "dist/textbook/g3-p141.webp",
+      "bytes": 131118,
+      "sha256": "d979ea0195159e66d142d0ea6e74118d89031272bf46b3fae85afac60f360ee2"
+    },
+    {
+      "path": "dist/textbook/g3-p142.webp",
+      "bytes": 160338,
+      "sha256": "7b5cf99b2be09775709b4276871fb134071fddd5f23fc3cf8b85689e9d8e398d"
+    },
+    {
+      "path": "dist/textbook/g3-p143.webp",
+      "bytes": 111518,
+      "sha256": "ae85facc1132becea429cb13e400297dd67112978565b0ed0a5d03f9dda60ef6"
+    },
+    {
+      "path": "dist/textbook/g3-p144.webp",
+      "bytes": 155098,
+      "sha256": "045313dd6a2795d5017b1d4fc744fa1b0cc0d48a98172e0924d85b939622d8a4"
+    },
+    {
+      "path": "dist/textbook/g3-p145.webp",
+      "bytes": 116420,
+      "sha256": "a4cbbeaf59e2cf6db4f934d56e2da09946524de3504199e9b36d4b4982497db2"
+    },
+    {
+      "path": "dist/textbook/g3-p146.webp",
+      "bytes": 151782,
+      "sha256": "ee95f8f7e82454f3a3b25182f0d68c0ef61e896e5805906a49a7ebcdb7b584ea"
+    },
+    {
+      "path": "dist/textbook/g3-p147.webp",
+      "bytes": 130130,
+      "sha256": "beaa1c9a0528e7c957c54f4e8e9436e9535fa40b40134bbb37ab595b5f9a7199"
+    },
+    {
+      "path": "dist/textbook/g3-p148.webp",
+      "bytes": 107254,
+      "sha256": "6a44230335b3456f6355ffe6a2fce4afee96b55387bbe0ca4ca9020ded0ff2ff"
+    },
+    {
+      "path": "dist/textbook/g3-p149.webp",
+      "bytes": 151164,
+      "sha256": "724b0aa2973be5167b1e4b8a15e17c41aa744eeb4b730cadd27ae815c997d9f9"
+    },
+    {
+      "path": "dist/textbook/g3-p150.webp",
+      "bytes": 148590,
+      "sha256": "7c9d6e4f1f6b52b41cbeee7dea5d63e3f7ee9e35a6bd423e1aed4d6d57f6eea2"
+    },
+    {
+      "path": "dist/textbook/g3-p151.webp",
+      "bytes": 106234,
+      "sha256": "44321e6a337ba78e1f32e929770ef4286ec3a83495c00006b67b1c53324c07cb"
+    },
+    {
+      "path": "dist/textbook/g3-p152.webp",
+      "bytes": 134438,
+      "sha256": "20c4053d6cce98f5f297dbe3ac31015726d8937d27c1e49a2f2df7c991ba781a"
+    },
+    {
+      "path": "dist/textbook/g3-p153.webp",
+      "bytes": 125026,
+      "sha256": "6350d3e1944acc7fd6d09cfafd7520c15b8601c6417ad9c2bc473af50e854c82"
+    },
+    {
+      "path": "dist/textbook/g3-p154.webp",
+      "bytes": 170640,
+      "sha256": "5e5cf0bab7c6d8d1b43fd5e5d8f81d69b10c5668ccf9bcb46a72b9b62f0eb40f"
+    },
+    {
+      "path": "dist/textbook/g3-p155.webp",
+      "bytes": 204656,
+      "sha256": "46e7221b148a0fe1bf854b82a3973020e29b1ba9bdcc8b5d3a615e66feebf81d"
+    },
+    {
+      "path": "dist/textbook/g3-p156.webp",
+      "bytes": 129634,
+      "sha256": "8f4e0995e01ddd23ab33dce602ecee3e5d6fae6a985308502581437c08ddca8e"
+    },
+    {
+      "path": "dist/textbook/g3-p157.webp",
+      "bytes": 130716,
+      "sha256": "7a41c2a7fec8b86a8322f45f0597015a3782f5306f607797b9cea26fc6d1b1dc"
+    },
+    {
+      "path": "dist/textbook/g3-p158.webp",
+      "bytes": 154234,
+      "sha256": "ffbc9dac949b9f307bf14066728ce8addf0d623d14a676018976bd115d9af114"
+    },
+    {
+      "path": "dist/textbook/g3-p159.webp",
+      "bytes": 242732,
+      "sha256": "585ea7277af960383a98d3d519c90551b6185a24709989cc5d703470b448aac9"
+    },
+    {
+      "path": "dist/textbook/g3-p160.webp",
+      "bytes": 228444,
+      "sha256": "d1ac744c2fe734f3b8661fe390c6c078583a047fbba83000de66ef34d0e58f0e"
+    },
+    {
+      "path": "dist/textbook/g3-p161.webp",
+      "bytes": 136184,
+      "sha256": "1623a1a624e7382c53240c6095380aa7278b27a134b62f94fac83abe4b0cf595"
+    },
+    {
+      "path": "dist/textbook/g3-p162.webp",
+      "bytes": 180732,
+      "sha256": "e51a7bf27d2c0631d8e6270ec63bc0a200dcc977ff583d9419830d63da0a4e7a"
+    },
+    {
+      "path": "dist/textbook/g3-p163.webp",
+      "bytes": 182264,
+      "sha256": "e38fdf71c768042e738f3796d5a9ccb58170a9ccd2db722c2692ef1f22c9429d"
+    },
+    {
+      "path": "dist/textbook/g3-p164.webp",
+      "bytes": 202372,
+      "sha256": "021ab7cd9caab5d4f29b6e8eea0fbe2c43d7bd7e658978e7ebee97ff255e3314"
+    },
+    {
+      "path": "dist/textbook/g3-p165.webp",
+      "bytes": 146176,
+      "sha256": "0570372dbccea08c58e7519fdcb49f0fb26efbff880d9682e49ccc4d492cecea"
+    },
+    {
+      "path": "dist/textbook/g3-p166.webp",
+      "bytes": 155600,
+      "sha256": "60e172110299379f71b238f806418260e5b16bb41614bb0b9e2e6b74f6f02b60"
+    },
+    {
+      "path": "dist/textbook/g3-p167.webp",
+      "bytes": 114978,
+      "sha256": "ab42e84aabb38d2c35da0afe3cdf35359b1c04f5ec543faf6f17db72662aa7c6"
+    },
+    {
+      "path": "dist/textbook/g3-p168.webp",
+      "bytes": 131616,
+      "sha256": "d632e8cac071ddf76ade09bd2966478b57673794294fd559fefda13a4a096a2a"
+    },
+    {
+      "path": "dist/textbook/g3-p169.webp",
+      "bytes": 120982,
+      "sha256": "8e05b103fdb6dcde0ee9a2eec4a7c49ba9d0203bb22d33e3fa9d521e6eaef75e"
+    },
+    {
+      "path": "dist/textbook/g3-p170.webp",
+      "bytes": 198866,
+      "sha256": "30404dc6365bc90fe62c4db15af1e46999ca1917dd25ca44711ac61d32e7a43e"
+    },
+    {
+      "path": "dist/textbook/g3-p171.webp",
+      "bytes": 167938,
+      "sha256": "a3c921e3ee5222c60c65d301dc0944d2b3b74d10a7da764409bce806ecd9e015"
+    },
+    {
+      "path": "dist/textbook/g3-p172.webp",
+      "bytes": 95506,
+      "sha256": "87b022e80e71ca2339d0b25ea8d7e26ffd523db3ca98a0700d8872e4f5128590"
+    },
+    {
+      "path": "dist/textbook/g3-p173.webp",
+      "bytes": 99438,
+      "sha256": "d0f23f86e75368c04cb77ad3c38676a708255df2ba04aa5525074d66e10d6fad"
+    },
+    {
+      "path": "dist/textbook/g3-p174.webp",
+      "bytes": 45226,
+      "sha256": "e48713149616d794972f7a281f92af78a6ad1f26ce3f17542c15ba8ad34e2d67"
+    },
+    {
+      "path": "dist/textbook/g3-p175.webp",
+      "bytes": 86516,
+      "sha256": "b8c527346b25fb98f33927dca19e0426077f222e918919364b98623723d83928"
+    },
+    {
+      "path": "dist/textbook/g3-p176.webp",
+      "bytes": 93716,
+      "sha256": "13abab4f2cf1154ecfc8f1160ab0a73e5327e41675b119bb01f1f0ecf709073a"
+    },
+    {
+      "path": "dist/textbook/g3-p177.webp",
+      "bytes": 69952,
+      "sha256": "7ccd3251204d12397e46d3904cf6ae95f53b48f06038d4c96bc38f14c800af0c"
+    },
+    {
+      "path": "dist/textbook/g3-p178.webp",
+      "bytes": 64004,
+      "sha256": "f5457b3c7a15c007ac36cd46dac6821422c9c701ab9bbaff748e89951b11cb25"
+    },
+    {
+      "path": "dist/textbook/g3-p179.webp",
+      "bytes": 28946,
+      "sha256": "d5b2b6149e9e75edaab5a90f1c5ef3205d4c2882c287d4d3e600853c7096fd76"
+    },
+    {
+      "path": "dist/textbook/g3-p180.webp",
+      "bytes": 10400,
+      "sha256": "e7d71b5b9ab6dc8dc7c8ec253467c212a6a9dda9b5de95ac76af3cfb775f6558"
+    },
+    {
+      "path": "dist/textbook/g3-p181.webp",
+      "bytes": 30798,
+      "sha256": "2ff027bb07bcb280f9d0cc4e94298058b12dbe729556b55781024a7eb32e5abd"
+    },
+    {
+      "path": "dist/textbook/g3-p182.webp",
+      "bytes": 11264,
+      "sha256": "5f51a33eac4a88cd538268426c73e27f08e59873dd0f737dc874dd84d4f84ed8"
+    },
+    {
+      "path": "dist/textbook/g3-p183.webp",
+      "bytes": 33214,
+      "sha256": "404b6dd4ffb33b003516539c113d903ade616bcdb3b433cf0c3e5c65323ed065"
+    },
+    {
+      "path": "dist/textbook/g3-p184.webp",
+      "bytes": 10138,
+      "sha256": "5cf1c8499f6085579b8e125af13d7f7a1d2e5c6c4eae63922c5302d89104b9ae"
+    },
+    {
+      "path": "dist/textbook/g3-p185.webp",
+      "bytes": 33624,
+      "sha256": "11a2567a96f58c24063f6a6ac4f68aa7009167a35df2aebc5b2296c43dd01c75"
+    },
+    {
+      "path": "dist/textbook/g3-p186.webp",
+      "bytes": 11564,
+      "sha256": "e4a605f060d6e152747d59a5285e4a8fc2d2fe523f3d782a3c4bbb9b6157f291"
+    },
+    {
+      "path": "dist/textbook/g3-p187.webp",
+      "bytes": 52448,
+      "sha256": "9f706e0b8a142c2d97f97b6c2b489f5f62ef0626efb5756b32c46b2e41da877c"
+    },
+    {
+      "path": "dist/textbook/g3-p188.webp",
+      "bytes": 10786,
+      "sha256": "3e6072a4a3a5ecd03f2c1b877f4ac717ae9847b3d227589c764cc28c604c23d3"
+    },
+    {
+      "path": "dist/textbook/g3-p189.webp",
+      "bytes": 53204,
+      "sha256": "bc4f198e78fad04b6f60fd0ee024099576855adda3f39bf2ff2b112ad6a07e91"
+    },
+    {
+      "path": "dist/textbook/g3-p190.webp",
+      "bytes": 10786,
+      "sha256": "3e6072a4a3a5ecd03f2c1b877f4ac717ae9847b3d227589c764cc28c604c23d3"
+    },
+    {
+      "path": "dist/textbook/g3-p191.webp",
+      "bytes": 55202,
+      "sha256": "13ea9376cb06eccf22ae9e459d07a9d981f04136f052e7a82ce3d412c474934a"
+    },
+    {
+      "path": "dist/textbook/g3-p192.webp",
+      "bytes": 80682,
+      "sha256": "d08dd71f2467d46b516987ffecf458f33ee52a1f17e96063a5968fa1f5a494b5"
+    },
+    {
+      "path": "dist/textbook/g3-p193.webp",
+      "bytes": 177294,
+      "sha256": "857186611d9db341488b44697f9b1a1c88c7e021519fade0033c92fff23fc438"
+    },
+    {
+      "path": "dist/textbook/g3-p194.webp",
+      "bytes": 137872,
+      "sha256": "79d046a5f51d84e29ff36e79678aa68e2230f015496650a13b6482a4f5ca0b1c"
+    },
+    {
+      "path": "dist/textbook/g3-p195.webp",
+      "bytes": 185570,
+      "sha256": "88edf867e01f936b55d3142c12c802c911143ee410846d3d7cddb010a9030f93"
+    },
+    {
+      "path": "dist/textbook/g3-p196.webp",
+      "bytes": 196270,
+      "sha256": "5c19e7ca99fd423c54d4254239085a4f553042cb6c2865568b07e50e26f2d466"
+    },
+    {
+      "path": "dist/textbook/g3-p197.webp",
+      "bytes": 171110,
+      "sha256": "a1139b35c4addd3241d03d03969ebddab9a354c04a2000ccb070dd6f4218919d"
+    },
+    {
+      "path": "dist/textbook/g3-p198.webp",
+      "bytes": 57834,
+      "sha256": "fdb8b0114a483cd3fd0258c835dd10d5db0c25a85d88b074ab214adaef5db9f0"
+    },
+    {
+      "path": "dist/textbook/g3-p199.webp",
+      "bytes": 118604,
+      "sha256": "aa0b5ad1a37dfe9a13f6bcbf22b424677f2264578337022ecd43b3f03c1fa82d"
+    },
+    {
+      "path": "dist/textbook/g3-p200.webp",
+      "bytes": 93586,
+      "sha256": "edbf316a23248cfd41b508ce67f4c824645ca74ad7414efb6715119784b088ac"
+    },
+    {
+      "path": "dist/textbook/g3-p201.webp",
+      "bytes": 121772,
+      "sha256": "528c33c3c3d819cce521aafdc31abcd8ae297b1238af55fd3e806c2c6d22e31a"
+    },
+    {
+      "path": "dist/textbook/g3-p202.webp",
+      "bytes": 71586,
+      "sha256": "6349d0eb38cf742b71d24a04bcc44822c6f75d2dbc04d6f5c492d6ffe395fe69"
+    },
+    {
+      "path": "dist/textbook/g3-p203.webp",
+      "bytes": 125114,
+      "sha256": "fe7bb9b2213ecaa1ebfd1bb195b228fb33822eba118913be3036d873df9ae1b1"
+    },
+    {
+      "path": "dist/textbook/g3-p204.webp",
+      "bytes": 52522,
+      "sha256": "49558cc2b2f5e72b9e6df09b5c3975f2742a844a63e4a0f05fadcf087e1e3251"
+    },
+    {
+      "path": "dist/textbook/g3-p205.webp",
+      "bytes": 127182,
+      "sha256": "00703fcad11477bd0692d27135d9456f2ff4ec7558d6a3aff8bbe27ad8032b25"
+    },
+    {
+      "path": "dist/textbook/g3-p206.webp",
+      "bytes": 63908,
+      "sha256": "3f30243890cbfe14b0420b87f30554ab25f7ee6f779fd4b40c913b43a7e36472"
+    },
+    {
+      "path": "dist/workbook/g1-p001.webp",
+      "bytes": 129850,
+      "sha256": "63a53e5b3d01d97d5e5ea47d6cead33f35eddf96a97fa9f62dd349450cbcc0f0"
+    },
+    {
+      "path": "dist/workbook/g1-p002.webp",
+      "bytes": 100282,
+      "sha256": "455bba7cdea946320f26dcec465b79b8c47baf93f6adf2a7dcd09f03fefae80c"
+    },
+    {
+      "path": "dist/workbook/g1-p003.webp",
+      "bytes": 52468,
+      "sha256": "d77746894176c9c24a3cd53d5b8e976e52f9d0034a7c8e4c73c6ff513d1e17aa"
+    },
+    {
+      "path": "dist/workbook/g1-p004.webp",
+      "bytes": 193040,
+      "sha256": "fdcc9375f9c56cbfdb5d26b933b892c3b2625a6febf77ab103527de5c2bd11a7"
+    },
+    {
+      "path": "dist/workbook/g1-p005.webp",
+      "bytes": 112324,
+      "sha256": "04b84be8de2e36e60f951414947b50132c17f1f3b9526930e9528e2567d264b4"
+    },
+    {
+      "path": "dist/workbook/g1-p006.webp",
+      "bytes": 97154,
+      "sha256": "c3b213337fef8fb84eb8622de9f5b3dd32b22e55ca414837e10f48dca627bdf4"
+    },
+    {
+      "path": "dist/workbook/g1-p007.webp",
+      "bytes": 89174,
+      "sha256": "6c1b792e3b9e46bec7e180837f5b4a5202e37c18b6954d0150c4d3447d3dde32"
+    },
+    {
+      "path": "dist/workbook/g1-p008.webp",
+      "bytes": 34558,
+      "sha256": "b7fe58d64ede71697add4f4e35c74d16a0c6ccbc656b544c8cf27e94eea8b00e"
+    },
+    {
+      "path": "dist/workbook/g1-p009.webp",
+      "bytes": 100324,
+      "sha256": "698f963ef6dd8e9c2d429ad446e42e7c773b787292e2e616fa75cce6d945042a"
+    },
+    {
+      "path": "dist/workbook/g1-p010.webp",
+      "bytes": 91532,
+      "sha256": "17b32c82ea10d830643aeefc45b32a45d510d638118211fe8402e43bfef29f95"
+    },
+    {
+      "path": "dist/workbook/g1-p011.webp",
+      "bytes": 103038,
+      "sha256": "f80b95acc805038931591aa6af16d73035fd6162c25a9ebfba52d02de62d8b92"
+    },
+    {
+      "path": "dist/workbook/g1-p012.webp",
+      "bytes": 91322,
+      "sha256": "9622f59d2fc952ddc280937adf84a6ea06f99f7aacfd7f6a3a66e27864432d4e"
+    },
+    {
+      "path": "dist/workbook/g1-p013.webp",
+      "bytes": 119488,
+      "sha256": "e2fb40de88c299278af970515335e4bec433352afedb1d701d00aaf95c58b10d"
+    },
+    {
+      "path": "dist/workbook/g1-p014.webp",
+      "bytes": 92940,
+      "sha256": "ccda599b23b488301dd3ac93e214b191129e9e1289d2413c47dbba5a9b54af26"
+    },
+    {
+      "path": "dist/workbook/g1-p015.webp",
+      "bytes": 110540,
+      "sha256": "d092570b046c67e80eb479c26e6201410cfbebecb6b7b809f64624a2188d6114"
+    },
+    {
+      "path": "dist/workbook/g1-p016.webp",
+      "bytes": 87680,
+      "sha256": "9fccf23a16a2459d2e87eb5900aa394a5cf46560c804f8df854302da6cfdf975"
+    },
+    {
+      "path": "dist/workbook/g1-p017.webp",
+      "bytes": 91056,
+      "sha256": "a00934dbcd959350f680927ae4e83f4b8f5d4b04fa83e0eea49c994f62498892"
+    },
+    {
+      "path": "dist/workbook/g1-p018.webp",
+      "bytes": 91656,
+      "sha256": "e093c20f662d615ff98fcc2ee9e90609322d34dcb3700ad760c96c0d8ed8c7d2"
+    },
+    {
+      "path": "dist/workbook/g1-p019.webp",
+      "bytes": 66864,
+      "sha256": "7dbf3c13b2bcced253012cd4600d0defd24d2d2b0a29cc0ce71712936d6edba6"
+    },
+    {
+      "path": "dist/workbook/g1-p020.webp",
+      "bytes": 87500,
+      "sha256": "ed2e32a182f6d6e251550900c2614547cf3055f94a35f9ac8f936ffaf79bc434"
+    },
+    {
+      "path": "dist/workbook/g1-p021.webp",
+      "bytes": 101766,
+      "sha256": "878a6373d6d4672dd538a46497f5d0e87e695511bafa2f1b9ecd225112fae199"
+    },
+    {
+      "path": "dist/workbook/g1-p022.webp",
+      "bytes": 66908,
+      "sha256": "e277997ac513dfa00a28150b44406f2995fda1239d90394f4a2657c8bbef9447"
+    },
+    {
+      "path": "dist/workbook/g1-p023.webp",
+      "bytes": 101136,
+      "sha256": "b50c59cb3ca5506c545f926d8462ef36b46aaa03bcba612e2d8c46e0734ac952"
+    },
+    {
+      "path": "dist/workbook/g1-p024.webp",
+      "bytes": 113572,
+      "sha256": "686d332c9c53b9d67d946ef1444d57a97872204e59b1398f03ffc5a43f368a50"
+    },
+    {
+      "path": "dist/workbook/g1-p025.webp",
+      "bytes": 124284,
+      "sha256": "0fc88214e54fcf0c4cfb8c97f5b9371f6045d9fb312e3ad818f8c759ef073793"
+    },
+    {
+      "path": "dist/workbook/g1-p026.webp",
+      "bytes": 100590,
+      "sha256": "61d18f6f28706e2d11fccba6f1f392e60a83f76ca0d8cd28ba899c343aad64ab"
+    },
+    {
+      "path": "dist/workbook/g1-p027.webp",
+      "bytes": 63302,
+      "sha256": "5c7e661b14be11bc05fe0d0108ae3288865e24691029245b8ddc5c976820a878"
+    },
+    {
+      "path": "dist/workbook/g1-p028.webp",
+      "bytes": 85488,
+      "sha256": "c778b2dfb9ea0ac2e43c45db810442559bb62bc9ffaf0ac7d43e06ab72ccba88"
+    },
+    {
+      "path": "dist/workbook/g1-p029.webp",
+      "bytes": 104110,
+      "sha256": "98f20426a20fa2b4f177d08a07ad95d187a2318624db9e65511cc9dade23fa9f"
+    },
+    {
+      "path": "dist/workbook/g1-p030.webp",
+      "bytes": 96266,
+      "sha256": "f70db18c15e22aae505fee5d25ee9e98c6ff7e5afe0824f5d450fdc6714f7ba5"
+    },
+    {
+      "path": "dist/workbook/g1-p031.webp",
+      "bytes": 112760,
+      "sha256": "b0206b537de9096128b904ed175504efdaa74466762949a7d2f38ef74da9620a"
+    },
+    {
+      "path": "dist/workbook/g1-p032.webp",
+      "bytes": 86724,
+      "sha256": "109c130732700891b6eb135a816cf5c3406e5e9ad7cdd4d844404843a2005c2d"
+    },
+    {
+      "path": "dist/workbook/g1-p033.webp",
+      "bytes": 57104,
+      "sha256": "3d27424780a2ad59a40951bd1972777b71cef58c5724289a316c462108eac8b8"
+    },
+    {
+      "path": "dist/workbook/g1-p034.webp",
+      "bytes": 76932,
+      "sha256": "80e45d58d1a9a6d35b5143e358c53892d3b3e9244033623388631dc201625027"
+    },
+    {
+      "path": "dist/workbook/g1-p035.webp",
+      "bytes": 81800,
+      "sha256": "3eae4421025842efa6ff22c74fb618d21a0ef18a6a6270b91efbcfb9d7ea5d2e"
+    },
+    {
+      "path": "dist/workbook/g1-p036.webp",
+      "bytes": 80624,
+      "sha256": "07dd81320454c4dc42b2e63b92109712c098d0938365241f7917a5a0947b90f1"
+    },
+    {
+      "path": "dist/workbook/g1-p037.webp",
+      "bytes": 80442,
+      "sha256": "00090d30df2163f013d450cb43185064e45f908c57a24addbd6d0a8c8a4016e5"
+    },
+    {
+      "path": "dist/workbook/g1-p038.webp",
+      "bytes": 90436,
+      "sha256": "3c5c86cb92e03b1a96b6605f3fe57a65be37208297d7d4b9d38050fff8649c02"
+    },
+    {
+      "path": "dist/workbook/g1-p039.webp",
+      "bytes": 56100,
+      "sha256": "b3c8d600dee45a29dc7ffc6e585febc2dcd8fc95375b676a46d18b2d1e57d23d"
+    },
+    {
+      "path": "dist/workbook/g1-p040.webp",
+      "bytes": 81496,
+      "sha256": "479f02022becc00528c134c6a1c783169be63aab7c23fcc404b6e598e89a0424"
+    },
+    {
+      "path": "dist/workbook/g1-p041.webp",
+      "bytes": 106734,
+      "sha256": "852acad85cdfce88dccd88a88bfb8dbe6a8a01590d134391736e939816c4d161"
+    },
+    {
+      "path": "dist/workbook/g1-p042.webp",
+      "bytes": 78192,
+      "sha256": "bac72e32b6b6fab28d7135326bce88df4203ca79041cfb85ee8384ce1553a8d2"
+    },
+    {
+      "path": "dist/workbook/g1-p043.webp",
+      "bytes": 117322,
+      "sha256": "6a3b03cde943f956c973d92ae29aab99658f4fce1107b17d53071a21b9f5ab13"
+    },
+    {
+      "path": "dist/workbook/g1-p044.webp",
+      "bytes": 103848,
+      "sha256": "0a14f17a0daa717500f61e49529da671ab18d011a9a0daf25dd6e4c6dd97887d"
+    },
+    {
+      "path": "dist/workbook/g1-p045.webp",
+      "bytes": 98300,
+      "sha256": "2e55a80b15ccd974f640386945fcad201fb8a8b7167910e58274fcd20e1e02f6"
+    },
+    {
+      "path": "dist/workbook/g1-p046.webp",
+      "bytes": 90646,
+      "sha256": "df672694a666776d841689f716042c60f8c93990f2c2b66198492ce1698b80e1"
+    },
+    {
+      "path": "dist/workbook/g1-p047.webp",
+      "bytes": 88238,
+      "sha256": "d59e566bf9dca4307c9a2f202f69cb36a366799a7d3f18bc2000ef7b1387aca9"
+    },
+    {
+      "path": "dist/workbook/g1-p048.webp",
+      "bytes": 102584,
+      "sha256": "12f8e60d583c0a8c5e0077931187168b8beb77213c0e0e746b5f7e14ddcc00a9"
+    },
+    {
+      "path": "dist/workbook/g1-p049.webp",
+      "bytes": 87870,
+      "sha256": "334e63e25310dc1fa291352bac1658c9401836e837c7858276bcdf4ad9f8530a"
+    },
+    {
+      "path": "dist/workbook/g1-p050.webp",
+      "bytes": 92792,
+      "sha256": "78fed506de2658c1035652ef8df56a30940a15d2756fe5ccc878815164d8fd54"
+    },
+    {
+      "path": "dist/workbook/g1-p051.webp",
+      "bytes": 124240,
+      "sha256": "32c6b4a113de4cf0540d5700b7fd3e3f302c938cbf5660a63c3c5338beb42df8"
+    },
+    {
+      "path": "dist/workbook/g1-p052.webp",
+      "bytes": 120192,
+      "sha256": "a61b8f01a09f2001985744bccc55080241952e751f4ab94744570d2c7de235ab"
+    },
+    {
+      "path": "dist/workbook/g1-p053.webp",
+      "bytes": 67654,
+      "sha256": "fc2b3a647b3178f977e233eb979e814d6712ecf47905d5a66ee5593d70ab9fc1"
+    },
+    {
+      "path": "dist/workbook/g1-p054.webp",
+      "bytes": 95608,
+      "sha256": "bc7d8705fc60fc24d0a00ef42061cb42d321a1d8db456c679fece4845990f696"
+    },
+    {
+      "path": "dist/workbook/g1-p055.webp",
+      "bytes": 82390,
+      "sha256": "01339c1cfd2112dea5b2077bebbff0868bc6d7b9fc9faaf3d01ef0562daef9cb"
+    },
+    {
+      "path": "dist/workbook/g1-p056.webp",
+      "bytes": 77468,
+      "sha256": "2855df2fbdbbda7db3a82cc61a64d252edaa11669fef3110f51cff2026a4728e"
+    },
+    {
+      "path": "dist/workbook/g1-p057.webp",
+      "bytes": 93112,
+      "sha256": "815f31199503da5318f904642e92ac130d377198e08c64c1c251ef6c9d5c7cf8"
+    },
+    {
+      "path": "dist/workbook/g1-p058.webp",
+      "bytes": 105330,
+      "sha256": "b342076148b514365591f483aca1b4bcaa6d7f3458bb32436ed723031f77b88c"
+    },
+    {
+      "path": "dist/workbook/g1-p059.webp",
+      "bytes": 121714,
+      "sha256": "3c6624d2a74f78aa34ba5bf0a2d8be357c4117df3a799e6e9feb87a5736404e4"
+    },
+    {
+      "path": "dist/workbook/g1-p060.webp",
+      "bytes": 82146,
+      "sha256": "0a501ec9bd5b6e012e18043f08d0114fd65653a8f0d8a69de9aab14ae86f3da4"
+    },
+    {
+      "path": "dist/workbook/g1-p061.webp",
+      "bytes": 101840,
+      "sha256": "e084c05e6e0dcbe3cbdb97b4305c10a5a0ab2b29681889cec4929ce5d1f27812"
+    },
+    {
+      "path": "dist/workbook/g1-p062.webp",
+      "bytes": 75946,
+      "sha256": "043071084bbf3142f57fd1e34cba21ba6c7d348304db4beee73ca8d5fbf644a2"
+    },
+    {
+      "path": "dist/workbook/g1-p063.webp",
+      "bytes": 146768,
+      "sha256": "998019b5b7fa64bba2a7d804698028ae04425e34a997d743ff480c6776d16821"
+    },
+    {
+      "path": "dist/workbook/g1-p064.webp",
+      "bytes": 72824,
+      "sha256": "ce44e90faba05b61f5a2eaa2b9b2c50c32a9bd3b1fb04bfbdd184f0efb87947c"
+    },
+    {
+      "path": "dist/workbook/g1-p065.webp",
+      "bytes": 81424,
+      "sha256": "a1f18d6e4dcc26f7f2c4aba9a5d68001d71468dd8742cb7ac5da8673ea401dca"
+    },
+    {
+      "path": "dist/workbook/g1-p066.webp",
+      "bytes": 118670,
+      "sha256": "333ebc19f90044fd3a60aaa10d9cc4b776af967dd90148022b2f4cc9d4e5e09c"
+    },
+    {
+      "path": "dist/workbook/g1-p067.webp",
+      "bytes": 80266,
+      "sha256": "e5b86a4361f91f339a666b750663ff6be054c265a0dd8625c2d22c8494d6244e"
+    },
+    {
+      "path": "dist/workbook/g1-p068.webp",
+      "bytes": 107680,
+      "sha256": "cb9d26c8ef37ddace6d4dfaadfecb1fac2bc90c5bc85612eed2d317c852c47fc"
+    },
+    {
+      "path": "dist/workbook/g1-p069.webp",
+      "bytes": 76208,
+      "sha256": "83bf5aa8afb7dbc58ef702ab6f9b2fdb1213577a08e5c28631d32c7eb35a7520"
+    },
+    {
+      "path": "dist/workbook/g1-p070.webp",
+      "bytes": 88162,
+      "sha256": "9dc01dc1e4805274dd47e1b7f317ed8de96cc41eac2b6b775e3faea74b5fa7d4"
+    },
+    {
+      "path": "dist/workbook/g1-p071.webp",
+      "bytes": 109216,
+      "sha256": "47a4cda0ed270fb41ab38946a662117c72b05aa36e350bfec2fc8a75c1ec65ee"
+    },
+    {
+      "path": "dist/workbook/g1-p072.webp",
+      "bytes": 41818,
+      "sha256": "bf87c98a160a7a9430b26ac4ece5cb049dbea8df1988f2632e36cc217b9fce7e"
+    },
+    {
+      "path": "dist/workbook/g1-p073.webp",
+      "bytes": 94444,
+      "sha256": "3286a8e775ec2bebdcdaac16965717bac4d048738d4e42cc2c1170a559d5587c"
+    },
+    {
+      "path": "dist/workbook/g1-p074.webp",
+      "bytes": 80216,
+      "sha256": "c574c0f1c4ee21bedfdfd8c1c3654f2979db38479fd0b3adf180f2a721cd79ce"
+    },
+    {
+      "path": "dist/workbook/g1-p075.webp",
+      "bytes": 109514,
+      "sha256": "b1e10d9cb6489cb717bfccbb369f63314ec79347e5d941d0b45a523486a6af3a"
+    },
+    {
+      "path": "dist/workbook/g1-p076.webp",
+      "bytes": 100758,
+      "sha256": "0a25f75dc74c599cabac64ec3c6ebf56d0c839ae0e770ae7013277ebc88bb64a"
+    },
+    {
+      "path": "dist/workbook/g1-p077.webp",
+      "bytes": 72218,
+      "sha256": "857f476bcca8086cc8028cd719633bb5ea2629ce35a59a188a5d9d4dce522ee8"
+    },
+    {
+      "path": "dist/workbook/g1-p078.webp",
+      "bytes": 96712,
+      "sha256": "6097188df0804b1ccac9b250cd71ec5e789ac79115eaa69b632d16635f22e130"
+    },
+    {
+      "path": "dist/workbook/g1-p079.webp",
+      "bytes": 68310,
+      "sha256": "a47c1f8c29aafab3d870222d29d6563eadbaac98b0bc702eb9c932d8d3b5a17f"
+    },
+    {
+      "path": "dist/workbook/g1-p080.webp",
+      "bytes": 119938,
+      "sha256": "ad6f510b1b202291821b2c11b33da7117527b45fa4e8246c417ca0f5aee07337"
+    },
+    {
+      "path": "dist/workbook/g1-p081.webp",
+      "bytes": 83402,
+      "sha256": "de84fa87e8f24d47f939056551bfdc8023fbf3bdea1684132a5366e4bdac559f"
+    },
+    {
+      "path": "dist/workbook/g1-p082.webp",
+      "bytes": 74082,
+      "sha256": "ea13edfb11abc76bd8803334dc495f0d5bb7e24c892a522f53d7d2fe7479e8c4"
+    },
+    {
+      "path": "dist/workbook/g1-p083.webp",
+      "bytes": 90390,
+      "sha256": "d1a2ea6c80d29f993c536daf3aad77791cf73f081cb77289dd87f73a0f890743"
+    },
+    {
+      "path": "dist/workbook/g1-p084.webp",
+      "bytes": 40602,
+      "sha256": "25462912722db0f50b3e9805ed09e7cd2c671fde028416ad22271e0b98eea56d"
+    },
+    {
+      "path": "dist/workbook/g1-p085.webp",
+      "bytes": 83456,
+      "sha256": "75dfa49f05e5e09b5cd77090ca14631031445b04d45a0aae7aa604c611fa97ca"
+    },
+    {
+      "path": "dist/workbook/g1-p086.webp",
+      "bytes": 128514,
+      "sha256": "3898ce4b2fbdbf026a98e81994454dd65332bd1aa6b399f79cb01bbd17e9e07e"
+    },
+    {
+      "path": "dist/workbook/g1-p087.webp",
+      "bytes": 87502,
+      "sha256": "9129123deaf48f601e84864cc8a373ada5026dad50f070a750dcbcf5e9eabdb1"
+    },
+    {
+      "path": "dist/workbook/g1-p088.webp",
+      "bytes": 63470,
+      "sha256": "c6f6154c08fd4fa5bb7095ed2af6cbae08c66257135829dba83ca395000945bb"
+    },
+    {
+      "path": "dist/workbook/g1-p089.webp",
+      "bytes": 87258,
+      "sha256": "34d7a200c962c8d7573825e8425cafc9281964fb407cabd3ca779b2c92da6c48"
+    },
+    {
+      "path": "dist/workbook/g1-p090.webp",
+      "bytes": 104684,
+      "sha256": "d35c2bfa9ef38a952a4a41677164b5595f01b9b6f60a60ca36be9d2cb4243ae2"
+    },
+    {
+      "path": "dist/workbook/g1-p091.webp",
+      "bytes": 63018,
+      "sha256": "d1196a22941fa66f6a40bd3c6a4a19daf70f033996dea901485341cbda5497ae"
+    },
+    {
+      "path": "dist/workbook/g1-p092.webp",
+      "bytes": 90048,
+      "sha256": "b12299fd72b518293e4812589ca923f1b49fa709a7b5f4799af6093a69839767"
+    },
+    {
+      "path": "dist/workbook/g1-p093.webp",
+      "bytes": 76514,
+      "sha256": "d930b7d318abbe987786009f764bef2a59681cc0c58e9cd1b8d3b19756baab41"
+    },
+    {
+      "path": "dist/workbook/g1-p094.webp",
+      "bytes": 83156,
+      "sha256": "7ae468cf59509a74ffe9a58aa186960f8a6416203147b96a5fb27648bab5761e"
+    },
+    {
+      "path": "dist/workbook/g1-p095.webp",
+      "bytes": 96382,
+      "sha256": "7bac65ce3c7b2acf799ea6c166363c874c2b0f47e917884f82da30fa79367587"
+    },
+    {
+      "path": "dist/workbook/g1-p096.webp",
+      "bytes": 85904,
+      "sha256": "329e47179cda5f196b92ba28e752bbfb40b65613f1a50614d6fd8ccb1b833179"
+    },
+    {
+      "path": "dist/workbook/g1-p097.webp",
+      "bytes": 97004,
+      "sha256": "9d688b498fc46e04fb209735a1883f7a96c27bbdabde4cca1fa3d7e906104260"
+    },
+    {
+      "path": "dist/workbook/g1-p098.webp",
+      "bytes": 80988,
+      "sha256": "c227dc5990bb2b38a2cc04bcb6d831ccbb374477e7d66da2c69d0f0a73c9c69e"
+    },
+    {
+      "path": "dist/workbook/g1-p099.webp",
+      "bytes": 93914,
+      "sha256": "fda7ab78068319a46c1f1d1d2e82a16509419ef2ea31799fef660ed546370ead"
+    },
+    {
+      "path": "dist/workbook/g1-p100.webp",
+      "bytes": 106082,
+      "sha256": "6632bf7ba63cfd3696fe66b756db9964f2720402bd683d8f195409fd22b2dccf"
+    },
+    {
+      "path": "dist/workbook/g1-p101.webp",
+      "bytes": 95804,
+      "sha256": "4ff050e09221c05adccfd269d4f65259c3e221c6b2a68c2964fe3e769964f882"
+    },
+    {
+      "path": "dist/workbook/g1-p102.webp",
+      "bytes": 58992,
+      "sha256": "f2257361a503b1230d9941e1ef6521ed0b8187f52889261dd00c96bdc273d2ab"
+    },
+    {
+      "path": "dist/workbook/g1-p103.webp",
+      "bytes": 125050,
+      "sha256": "77714e80aecf8e0b6f4107340e242800cab3abec21149fc05a20c49b9d4f4000"
+    },
+    {
+      "path": "dist/workbook/g1-p104.webp",
+      "bytes": 96228,
+      "sha256": "4b4341c19fb19096488a0ca07d7fd11c821488378e6a803f7b25e994781219ef"
+    },
+    {
+      "path": "dist/workbook/g1-p105.webp",
+      "bytes": 81136,
+      "sha256": "433a33cbae0b1e51e32abdf048f4c2ec30f3addaf047e1081edbaf0e24f9671f"
+    },
+    {
+      "path": "dist/workbook/g1-p106.webp",
+      "bytes": 70238,
+      "sha256": "7f987f91ef7d16c85ddf2141319033157690bbee31f7d7d8fb30f18ef3651a7c"
+    },
+    {
+      "path": "dist/workbook/g1-p107.webp",
+      "bytes": 68908,
+      "sha256": "5bad57e719c18c37f76b18e028c5fce9ccd114d8bb98101bed2412cc52194e3a"
+    },
+    {
+      "path": "dist/workbook/g1-p108.webp",
+      "bytes": 85316,
+      "sha256": "b08678879f1006c1e87684b897ed4fedb0ded53de3c9a026a3ea96cabfc9ce57"
+    },
+    {
+      "path": "dist/workbook/g1-p109.webp",
+      "bytes": 80090,
+      "sha256": "7942f3eacdc7aaf39f46cae8c199ef8e09546ee837ee3908de2106e9c5a5a6f0"
+    },
+    {
+      "path": "dist/workbook/g1-p110.webp",
+      "bytes": 79334,
+      "sha256": "ba0154b888097a87273f0f5dcab0fad8c2e044cb66eea8bc1eec3957798f2035"
+    },
+    {
+      "path": "dist/workbook/g1-p111.webp",
+      "bytes": 134356,
+      "sha256": "5a561f61d73d829a7994957bb24cd8e21bdf1e3e64e606ef38b9ca944b6cf02b"
+    },
+    {
+      "path": "dist/workbook/g1-p112.webp",
+      "bytes": 118858,
+      "sha256": "c8172567eda465acc64f86ae16458a0989feab95013ee341cb160800a1898a1c"
+    },
+    {
+      "path": "dist/workbook/g2-p001.webp",
+      "bytes": 98192,
+      "sha256": "e5ce44e11fda33539c8cae2b0faf071d85cd8d4cb1536efeb2bbf32b4691cd45"
+    },
+    {
+      "path": "dist/workbook/g2-p002.webp",
+      "bytes": 100210,
+      "sha256": "8a312512b2bb952f49aea0a033b0fddb616235f83ea2eb3bf10c09f7b4b24a19"
+    },
+    {
+      "path": "dist/workbook/g2-p003.webp",
+      "bytes": 52752,
+      "sha256": "9894aab12297c4e105ead810863b8566e6ab019757e46b2a77bab98f62f58756"
+    },
+    {
+      "path": "dist/workbook/g2-p004.webp",
+      "bytes": 192640,
+      "sha256": "f8cf5d2cc77d70d4c19123e2ff809f2ff3c0f91cb2b716ee7a511fc57b8d9efc"
+    },
+    {
+      "path": "dist/workbook/g2-p005.webp",
+      "bytes": 151142,
+      "sha256": "f6a2d52a14d8064c38e48fb6e5fa4470cd6605bd4e622ec466bd725c9fe4802a"
+    },
+    {
+      "path": "dist/workbook/g2-p006.webp",
+      "bytes": 102036,
+      "sha256": "fec0909f408e67cd3cb2b58394cee6493b28e61bf074c25c121982b095569d3d"
+    },
+    {
+      "path": "dist/workbook/g2-p007.webp",
+      "bytes": 110968,
+      "sha256": "c948779a8c59324a2b4d77b2e2337b0494641783d48ff6389be904d6325651df"
+    },
+    {
+      "path": "dist/workbook/g2-p008.webp",
+      "bytes": 100612,
+      "sha256": "8af889c77a498d3088894c1fd81e1ad05921b23abe85aa5f892e3133989edbaf"
+    },
+    {
+      "path": "dist/workbook/g2-p009.webp",
+      "bytes": 135426,
+      "sha256": "0d024597762f6b4078899d6a2014d893b1d585fe1455c21ab5e49e5e35e0d23d"
+    },
+    {
+      "path": "dist/workbook/g2-p010.webp",
+      "bytes": 135772,
+      "sha256": "b9021b541da925b5f1b3d528f43a37c937e2cf8e6fd9566a1539da24fc2673b8"
+    },
+    {
+      "path": "dist/workbook/g2-p011.webp",
+      "bytes": 88858,
+      "sha256": "d91030540d0c10ae152fb6702194261ab8a237dd0f1b1d19b3c951a13bbaae3b"
+    },
+    {
+      "path": "dist/workbook/g2-p012.webp",
+      "bytes": 103670,
+      "sha256": "34033bcda326d7173c14a30223f9fc621458a12a96972df61fdf5ce91154e272"
+    },
+    {
+      "path": "dist/workbook/g2-p013.webp",
+      "bytes": 110656,
+      "sha256": "d8739f3a2d97aef4419db1cbfead5993870df3a29051be8a17b05267ecc7ed7c"
+    },
+    {
+      "path": "dist/workbook/g2-p014.webp",
+      "bytes": 131538,
+      "sha256": "ba09cf660d338b914166b586ce1ec52bbc023a4051362c3487cf206b7fab3aa6"
+    },
+    {
+      "path": "dist/workbook/g2-p015.webp",
+      "bytes": 114360,
+      "sha256": "8ae85bb4d81d3ccb5f2d720b9e0bd51330749b6ca9e3569eac43eda829d34bf6"
+    },
+    {
+      "path": "dist/workbook/g2-p016.webp",
+      "bytes": 126182,
+      "sha256": "016f444e693c537d79cbb5afa35229ee6cc668a6953a89b1313815d91162a05d"
+    },
+    {
+      "path": "dist/workbook/g2-p017.webp",
+      "bytes": 78602,
+      "sha256": "7c29258d61b6c41c37bf3f33ea22ac86ccfa174e1498e368d9232c567a250dd1"
+    },
+    {
+      "path": "dist/workbook/g2-p018.webp",
+      "bytes": 127852,
+      "sha256": "f7d1f1a6e21b8e78e1b4016ffacf1e22a1eeae804513c44a8ed5b0b19604922c"
+    },
+    {
+      "path": "dist/workbook/g2-p019.webp",
+      "bytes": 123714,
+      "sha256": "da69dce1a503e29e76ad4612d404f0c65e74e0ddd8a1417369ce24661c45c832"
+    },
+    {
+      "path": "dist/workbook/g2-p020.webp",
+      "bytes": 75212,
+      "sha256": "1efb830b952caecb8b2e65a7b63c332cfcc58570dd09dfb83b9243fc7af44c18"
+    },
+    {
+      "path": "dist/workbook/g2-p021.webp",
+      "bytes": 112236,
+      "sha256": "461b49bbe8866b76c2c07d92e7c5522e48bdf28f93e90daee561c4ae1e05eaac"
+    },
+    {
+      "path": "dist/workbook/g2-p022.webp",
+      "bytes": 102566,
+      "sha256": "2462956a2b7c84148caf86af4745e1c0cb084b9f3528148ff3cbb46f6ca98156"
+    },
+    {
+      "path": "dist/workbook/g2-p023.webp",
+      "bytes": 88650,
+      "sha256": "f40ae3701570201b348da9e9e4ffa5e43fe2c72f3f86847db9174b56861ff84f"
+    },
+    {
+      "path": "dist/workbook/g2-p024.webp",
+      "bytes": 79536,
+      "sha256": "f84f32bfcb312dc1a96f2f6bb8216d8463cccd03553b71e4feb5c782526d7119"
+    },
+    {
+      "path": "dist/workbook/g2-p025.webp",
+      "bytes": 96670,
+      "sha256": "e07dd4fda47cdadef7d61757f574a8cd258a130a453797612c000c9a99ea5b07"
+    },
+    {
+      "path": "dist/workbook/g2-p026.webp",
+      "bytes": 62878,
+      "sha256": "ec0cc79a5bd1784cf7bd73b89157c46f25e097f3eccd18aa6a30e4206bc88513"
+    },
+    {
+      "path": "dist/workbook/g2-p027.webp",
+      "bytes": 103404,
+      "sha256": "17ecc66d6f95356d7f07c7fe40e67f7da075a2abc207e0677b68b93f89749f90"
+    },
+    {
+      "path": "dist/workbook/g2-p028.webp",
+      "bytes": 68580,
+      "sha256": "30521779c4c5024092d79714d1e4fcf5c8ad152885c9d560fabe7286444a8459"
+    },
+    {
+      "path": "dist/workbook/g2-p029.webp",
+      "bytes": 73268,
+      "sha256": "5986ca1c6cca110f4fbfa7b978fae4bcb32676415f73171ab9a9c9570ac155a4"
+    },
+    {
+      "path": "dist/workbook/g2-p030.webp",
+      "bytes": 70868,
+      "sha256": "3fb1acaeeb943381b72058d54c017da440a977a94326c1f157653295ec3182de"
+    },
+    {
+      "path": "dist/workbook/g2-p031.webp",
+      "bytes": 73756,
+      "sha256": "8194a67187af62acadab34308af83a390d91d99be9b4c078b4a5a7cf84c81e3c"
+    },
+    {
+      "path": "dist/workbook/g2-p032.webp",
+      "bytes": 85060,
+      "sha256": "5014a7f7cfebdedf99908c2c0ee3c20846468f1737f3534f691b2ef9dbcb28c8"
+    },
+    {
+      "path": "dist/workbook/g2-p033.webp",
+      "bytes": 85866,
+      "sha256": "303b3d6c83a4355bbb0b83a5fd32334b7aed57f30722d16cf418e51f6a22504a"
+    },
+    {
+      "path": "dist/workbook/g2-p034.webp",
+      "bytes": 99104,
+      "sha256": "ffc8069805dfc87fc017eaa9aaa9245fc9ec2b46ce586ec0aa51f1d5c5254476"
+    },
+    {
+      "path": "dist/workbook/g2-p035.webp",
+      "bytes": 61932,
+      "sha256": "245f286272617ac463a35cad7d25196e463b4022952f56a3b02215928639fd41"
+    },
+    {
+      "path": "dist/workbook/g2-p036.webp",
+      "bytes": 79196,
+      "sha256": "a951c96c18bea163163a622895ee51213bd4e7b725549e6cd15ec50cb58eece1"
+    },
+    {
+      "path": "dist/workbook/g2-p037.webp",
+      "bytes": 86786,
+      "sha256": "2fefb51b03792833cd5204dc5cf0f97c6372a4aef2a6cd31905fec8c19310f38"
+    },
+    {
+      "path": "dist/workbook/g2-p038.webp",
+      "bytes": 90786,
+      "sha256": "2de64447cf277bb4f7c57b147582f3615d587aecdd14a832c38481ca897d5b44"
+    },
+    {
+      "path": "dist/workbook/g2-p039.webp",
+      "bytes": 90172,
+      "sha256": "ff04e72a2ebd3408fae654da4f0e7fa363dca609c447451f9fdd2b3ea7f551ab"
+    },
+    {
+      "path": "dist/workbook/g2-p040.webp",
+      "bytes": 103182,
+      "sha256": "ca34b6488a2abb42c661a8860a8b5fa29ddad6b451c32e1827e1961ca61ec838"
+    },
+    {
+      "path": "dist/workbook/g2-p041.webp",
+      "bytes": 115602,
+      "sha256": "9853dfd917c8ad6a14ab28df31c742aa48cbd6973fed35cd78e7031f696fe1c5"
+    },
+    {
+      "path": "dist/workbook/g2-p042.webp",
+      "bytes": 70826,
+      "sha256": "0d272727ae81e953f911d64cafb2cc9929582f0cd75b4caaecd980237600861f"
+    },
+    {
+      "path": "dist/workbook/g2-p043.webp",
+      "bytes": 82756,
+      "sha256": "db8ca7e8dabe7a0c49626ddc24ac2533b591c08723f919281cb2b65dbc977cda"
+    },
+    {
+      "path": "dist/workbook/g2-p044.webp",
+      "bytes": 63620,
+      "sha256": "e70bf5fef22a3cbffd9e50f96f75f6206d4447969cbcb17d5c3faf00cbd6274b"
+    },
+    {
+      "path": "dist/workbook/g2-p045.webp",
+      "bytes": 80168,
+      "sha256": "4495050d98ac513159c994fbd615a5b4cec82bae0b7ad59fa657bc99d79a9882"
+    },
+    {
+      "path": "dist/workbook/g2-p046.webp",
+      "bytes": 102726,
+      "sha256": "f2f905a47bc33ccd6273be28b62038fbc3fd316ff2a5b99e5f2c8ce1acd06ed9"
+    },
+    {
+      "path": "dist/workbook/g2-p047.webp",
+      "bytes": 68162,
+      "sha256": "ceea0082b2f4dbac980c3c7f20088a6011ad8e4409a6819cf765f74d4dd851bb"
+    },
+    {
+      "path": "dist/workbook/g2-p048.webp",
+      "bytes": 83620,
+      "sha256": "97256377e8e4e03849476437845105df4b2c911669a0f4066b3c165d03ff5453"
+    },
+    {
+      "path": "dist/workbook/g2-p049.webp",
+      "bytes": 60580,
+      "sha256": "2d8ca2d15821a7642f529b638215c9cf3dcee70f20a0a76577f50f6496bfe34f"
+    },
+    {
+      "path": "dist/workbook/g2-p050.webp",
+      "bytes": 68422,
+      "sha256": "6ff210ecf480b80ab246a72f31abfa488d6fb9db3e3412c0bdd840363b88cbba"
+    },
+    {
+      "path": "dist/workbook/g2-p051.webp",
+      "bytes": 77066,
+      "sha256": "7c0fe5aa4419d971fb8240ceb4e16dd1676cf1378ca2cb14c2643a7741d007cc"
+    },
+    {
+      "path": "dist/workbook/g2-p052.webp",
+      "bytes": 71374,
+      "sha256": "590a59ab11a814809a69ed46fe521a3565a556843803a1ddf5b03e59f9f89e95"
+    },
+    {
+      "path": "dist/workbook/g2-p053.webp",
+      "bytes": 73648,
+      "sha256": "7a0576d92add6f0534709ae9f5332029be0ca78fb847b939dad919a31f640a3f"
+    },
+    {
+      "path": "dist/workbook/g2-p054.webp",
+      "bytes": 88980,
+      "sha256": "f632d95f6171cf30896a86978dc9cb9c943339509231ba98c311fd49b8c8ff70"
+    },
+    {
+      "path": "dist/workbook/g2-p055.webp",
+      "bytes": 76366,
+      "sha256": "8f59ef688a3a9a18a94aaaf71ed87b59bc2d2299f61f5997e25ec2b24ecfda60"
+    },
+    {
+      "path": "dist/workbook/g2-p056.webp",
+      "bytes": 55852,
+      "sha256": "d263e8350d8638b4bd319a0905be789bd9ff6b28a52d0c07e2c115ebdaeb94eb"
+    },
+    {
+      "path": "dist/workbook/g2-p057.webp",
+      "bytes": 98478,
+      "sha256": "35249e2a86d07ec1d1016cff04168881f3c5b42d2efa4d7e4a0fec3881d0b79b"
+    },
+    {
+      "path": "dist/workbook/g2-p058.webp",
+      "bytes": 113084,
+      "sha256": "0b5e694803ad4ded2dd92b10a97d8873aa63999767fe58ff451f0787d81b4d59"
+    },
+    {
+      "path": "dist/workbook/g2-p059.webp",
+      "bytes": 81420,
+      "sha256": "a7d278ded0cb6190be552c4e58e79f6a79069c2b88162b7fdf58426eb827cd3a"
+    },
+    {
+      "path": "dist/workbook/g2-p060.webp",
+      "bytes": 75812,
+      "sha256": "fa72fa47a1e6cd8100a0aca8dabe6daf0d9c148143e5e2abd857b3cf964ee7ca"
+    },
+    {
+      "path": "dist/workbook/g2-p061.webp",
+      "bytes": 58484,
+      "sha256": "e3d5f495bb9070c902917fa44ff342a2e27a07fbbff8d2c08022912a7bcba9da"
+    },
+    {
+      "path": "dist/workbook/g2-p062.webp",
+      "bytes": 52012,
+      "sha256": "87e109dd46e477a455e561ffcf10118bf0d662078b5d437585cc01db2e222a70"
+    },
+    {
+      "path": "dist/workbook/g2-p063.webp",
+      "bytes": 97716,
+      "sha256": "de97549b0bba919fd1bd18a24731039b8e33691147922a9148ae98ed2fc44c2b"
+    },
+    {
+      "path": "dist/workbook/g2-p064.webp",
+      "bytes": 87900,
+      "sha256": "fb6d5324020d9d1b8838e42d0b516df987ece551154d7366edf9d97547e337e3"
+    },
+    {
+      "path": "dist/workbook/g2-p065.webp",
+      "bytes": 92046,
+      "sha256": "7d188b9702d4b43a49d3c3169be9bcdc6765f0f3e1c216002210d5de6421b14e"
+    },
+    {
+      "path": "dist/workbook/g2-p066.webp",
+      "bytes": 53976,
+      "sha256": "e3e7a99e889d8b4a0798d70f580232ef0ee92ceef740f636c08738b9ec1574b9"
+    },
+    {
+      "path": "dist/workbook/g2-p067.webp",
+      "bytes": 79440,
+      "sha256": "61413723a4c26417a0888204721166a29bd87ec37167fa33e17aa24c137499f7"
+    },
+    {
+      "path": "dist/workbook/g2-p068.webp",
+      "bytes": 104662,
+      "sha256": "dbfab38214917bb9a924457204db3f3676323812c91a3df657ef027d9d6d3608"
+    },
+    {
+      "path": "dist/workbook/g2-p069.webp",
+      "bytes": 116622,
+      "sha256": "e2d9362a33185e9894e341f23fc199ff048bcbdb7dda57b4eae4a5fbcf0a1952"
+    },
+    {
+      "path": "dist/workbook/g2-p070.webp",
+      "bytes": 124508,
+      "sha256": "32018b044b8e26f12821b10767ae6297b06c3986f25a5a4ba6f45b41f4fa4494"
+    },
+    {
+      "path": "dist/workbook/g2-p071.webp",
+      "bytes": 70586,
+      "sha256": "04584d551ce6f0fdab07d4dd8e34d2dab2d4489b5130bdca15497d0f1d43754c"
+    },
+    {
+      "path": "dist/workbook/g2-p072.webp",
+      "bytes": 79750,
+      "sha256": "dd9b9316bce4cf800fd755225a13be6a5c7afd392b9c68f42be50d19a71531a7"
+    },
+    {
+      "path": "dist/workbook/g2-p073.webp",
+      "bytes": 86918,
+      "sha256": "864adb97a8308f55cadf0f09da81a70fed113b828624a8b3ac369dead5c3de10"
+    },
+    {
+      "path": "dist/workbook/g2-p074.webp",
+      "bytes": 67060,
+      "sha256": "7d60f6ea15364b54b6ad16d1d83a0d4bbf5e794eae3c35580809e3d89cd2e0e0"
+    },
+    {
+      "path": "dist/workbook/g2-p075.webp",
+      "bytes": 93242,
+      "sha256": "bc4d9e2bdd7fb915f391151a4c390702902763af021bceb1a0b0b56715556b68"
+    },
+    {
+      "path": "dist/workbook/g2-p076.webp",
+      "bytes": 106862,
+      "sha256": "62d4bf2bbae824e2d0052fbd5216912166766a81c39d550021bfb483aabe2d19"
+    },
+    {
+      "path": "dist/workbook/g2-p077.webp",
+      "bytes": 96738,
+      "sha256": "b294f73a4519caa1e80564b832c3df5b90eb63b9f66c6f4f61e0f57b5b4e6498"
+    },
+    {
+      "path": "dist/workbook/g2-p078.webp",
+      "bytes": 38350,
+      "sha256": "36fc009848fbdae9511a6152fcc2a8e3c3b52f25ca85ca2a9cd944a510633ceb"
+    },
+    {
+      "path": "dist/workbook/g2-p079.webp",
+      "bytes": 115988,
+      "sha256": "6d13e4f95cff298e2c0adeb1207814d58e0a55832f28cf2ba2caa107bb426e62"
+    },
+    {
+      "path": "dist/workbook/g2-p080.webp",
+      "bytes": 115214,
+      "sha256": "3c8ba06d284a1cdb63ba809583e3f9c62d256c1638acf56a6401efb11feb7160"
+    },
+    {
+      "path": "dist/workbook/g2-p081.webp",
+      "bytes": 93496,
+      "sha256": "129981f7ad88e1c5cf57e89d6deb5e996dcb789f129d731b93c413ce6fee6fb2"
+    },
+    {
+      "path": "dist/workbook/g2-p082.webp",
+      "bytes": 102536,
+      "sha256": "7c69f589df60197f99702fa493a9f2b18134f911123dbfbf90bdc482091c0cfc"
+    },
+    {
+      "path": "dist/workbook/g2-p083.webp",
+      "bytes": 89644,
+      "sha256": "186a66807eb3a0cce6d2f3846b4e2500e133d4934d2db372f24d90fbb72aed17"
+    },
+    {
+      "path": "dist/workbook/g2-p084.webp",
+      "bytes": 65586,
+      "sha256": "c1ff5861717b9835746285e1f2f07fb63657ccffa8eda11befe0f6018968d375"
+    },
+    {
+      "path": "dist/workbook/g2-p085.webp",
+      "bytes": 84492,
+      "sha256": "b41dbd9cc8d68504b6ee60eb3e06498c66fdf1875e9693b39b3861e772b71c22"
+    },
+    {
+      "path": "dist/workbook/g2-p086.webp",
+      "bytes": 93102,
+      "sha256": "c15826acf5ca9971d02fc54e8429f67e6344bed449ed75f8cd264b1e1a12b428"
+    },
+    {
+      "path": "dist/workbook/g2-p087.webp",
+      "bytes": 78012,
+      "sha256": "a1c18a83f6b01d5a1a47c8b16df731f34a5720b2e79cf57cd05407ad38f15599"
+    },
+    {
+      "path": "dist/workbook/g2-p088.webp",
+      "bytes": 91448,
+      "sha256": "2d3c0168756b62d6517527fdfaad68522bb47c40856540978edee58634be2289"
+    },
+    {
+      "path": "dist/workbook/g2-p089.webp",
+      "bytes": 58906,
+      "sha256": "33c51715764257a1435284aa249ab32265c7f4b51cf8a7d7f0c786ba34db7d2e"
+    },
+    {
+      "path": "dist/workbook/g2-p090.webp",
+      "bytes": 60374,
+      "sha256": "71761b78f2ad4ddea1732531e5966e5370e556e220b7c10ee34cd297ac5c5e32"
+    },
+    {
+      "path": "dist/workbook/g2-p091.webp",
+      "bytes": 68716,
+      "sha256": "edf3672a75d550a03f9f1b35b06645d217be1ba4959e406fa86b223efc0448ee"
+    },
+    {
+      "path": "dist/workbook/g2-p092.webp",
+      "bytes": 71286,
+      "sha256": "7b1dee227d5f6290393d03f35a46e7d4f88e9296ec500e6b0c422b2c9f508dfd"
+    },
+    {
+      "path": "dist/workbook/g2-p093.webp",
+      "bytes": 64952,
+      "sha256": "3505d1ff540ea5d6cf02b5b3ecd81d006c684c673d27b3d8d4f1bc1f04a8954b"
+    },
+    {
+      "path": "dist/workbook/g2-p094.webp",
+      "bytes": 91628,
+      "sha256": "c671861036ea22d4833e4b06a795624bcaaa2ae989d13eaf2c1593c585bcda3f"
+    },
+    {
+      "path": "dist/workbook/g2-p095.webp",
+      "bytes": 107876,
+      "sha256": "becc096d5823e557d5c50d8cd2b58722f1513cf6da4c24b1253ac72bbbf387f6"
+    },
+    {
+      "path": "dist/workbook/g2-p096.webp",
+      "bytes": 98024,
+      "sha256": "b4b4e0071a0f45109880b9857a779c381a0b03f5f2a58f7c34e80569a05b2674"
+    },
+    {
+      "path": "dist/workbook/g2-p097.webp",
+      "bytes": 115874,
+      "sha256": "a7aaa577f1242a6c5e84a637b5ea782cd6a41b6776af0443ac7b3cf538333f5f"
+    },
+    {
+      "path": "dist/workbook/g2-p098.webp",
+      "bytes": 126780,
+      "sha256": "f6bff40778bd3da1b5193e5a76d231fdd4107f2e9862be81b790e34192a11458"
+    },
+    {
+      "path": "dist/workbook/g2-p099.webp",
+      "bytes": 88374,
+      "sha256": "35f0adb42cc96c13db21620e006eb44492addd699096468d6d8a022ab061ea2f"
+    },
+    {
+      "path": "dist/workbook/g2-p100.webp",
+      "bytes": 79328,
+      "sha256": "a954d028e504ac7423285b1bb111dcb6e389266802cbf642223fc3c0a68d7e4d"
+    },
+    {
+      "path": "dist/workbook/g2-p101.webp",
+      "bytes": 57772,
+      "sha256": "b46e708f474caab5e0d2bc6f9985e40d563d493357e58ad095a2b274caf88561"
+    },
+    {
+      "path": "dist/workbook/g2-p102.webp",
+      "bytes": 76842,
+      "sha256": "28c05ecffe87e294ebea839dfa046ec2a65e63e0c296b239e47e5d0a7973f192"
+    },
+    {
+      "path": "dist/workbook/g2-p103.webp",
+      "bytes": 102542,
+      "sha256": "56f123892c1e72538ea17a3aba80cb020fac0e6210f24c9e3da95da25f6ba4ac"
+    },
+    {
+      "path": "dist/workbook/g2-p104.webp",
+      "bytes": 79950,
+      "sha256": "e146d319882456acd81ffd3ecfc447d3854b2eb42a55cbe8791b92d8bafb4bf9"
+    },
+    {
+      "path": "dist/workbook/g2-p105.webp",
+      "bytes": 102998,
+      "sha256": "9dd7024bf52862655338e33ea109c9a7842a6e31bcb66de512d29fc531d40fad"
+    },
+    {
+      "path": "dist/workbook/g2-p106.webp",
+      "bytes": 96888,
+      "sha256": "4d05b3a37308f250c234b2e17beb68a6521aa2f500dfe04f811cc8de2b5b719f"
+    },
+    {
+      "path": "dist/workbook/g2-p107.webp",
+      "bytes": 84768,
+      "sha256": "486b8771bcada70f51514ae0f52b883b41218e593add63394b3b4017f0ba84da"
+    },
+    {
+      "path": "dist/workbook/g2-p108.webp",
+      "bytes": 140738,
+      "sha256": "20cc111eb0771f304cc5cf52cbbdc5f12bb24785b8dae02dec7f6e1705fed579"
+    },
+    {
+      "path": "dist/workbook/g2-p109.webp",
+      "bytes": 98724,
+      "sha256": "496fa0d0d042aea8aa9a552da05670b77d3aa7a923cea57d38b50e51d8069b45"
+    },
+    {
+      "path": "dist/workbook/g2-p110.webp",
+      "bytes": 64082,
+      "sha256": "70221829e1c13b723783105374cc72c4cb9dd85c7cbdd1c7c7f3fb36bff854dd"
+    },
+    {
+      "path": "dist/workbook/g2-p111.webp",
+      "bytes": 88822,
+      "sha256": "1b6805091e17fb7868beef7fb14b7e62d1cdf5838c960250d28e607e55a1547a"
+    },
+    {
+      "path": "dist/workbook/g2-p112.webp",
+      "bytes": 105274,
+      "sha256": "c135105e8ce2eae90ac5323604974e25f0daefbe6a11ebf8674585eef3e6c670"
+    },
+    {
+      "path": "dist/workbook/g2-p113.webp",
+      "bytes": 102952,
+      "sha256": "d12cd60764acd4f886c4d25cf17b4ac9f9c0cd3e34cd3f0a43ab424095f95d9a"
+    },
+    {
+      "path": "dist/workbook/g2-p114.webp",
+      "bytes": 45764,
+      "sha256": "9725298285cb699cacef06fef6ed7e90b2d8926d302115f123c74842707b82da"
+    },
+    {
+      "path": "dist/workbook/g2-p115.webp",
+      "bytes": 80784,
+      "sha256": "ed17338c36c1675f7bad915955294c0d35b746974c28a42df989a3613c0572eb"
+    },
+    {
+      "path": "dist/workbook/g2-p116.webp",
+      "bytes": 58952,
+      "sha256": "90f31504a11cee1bc2f2d0a9583fa47b638b1783c91cb46e4159ffe5e750486d"
+    },
+    {
+      "path": "dist/workbook/g2-p117.webp",
+      "bytes": 89762,
+      "sha256": "e2f020b0019399dbcfa6c383ab88f633e52ca1a8084b28073a2697fc23d7cef2"
+    },
+    {
+      "path": "dist/workbook/g2-p118.webp",
+      "bytes": 94068,
+      "sha256": "127619ad1a3b6a29905cb8ed07e295cd38eae737f2db4fae9e2f07b4ed43b27d"
+    },
+    {
+      "path": "dist/workbook/g2-p119.webp",
+      "bytes": 117078,
+      "sha256": "61a5945e96ae12418a6791124fc8cf537f085454670bbb450e4dae795055168a"
+    },
+    {
+      "path": "dist/workbook/g2-p120.webp",
+      "bytes": 64108,
+      "sha256": "423b3462cf0fe8287a48e01b0c6165a853fa88e9c541c72d65104064866f960c"
+    },
+    {
+      "path": "dist/workbook/g2-p121.webp",
+      "bytes": 81178,
+      "sha256": "eddc826ee61395c0d413c0329e922ea8060a695f361f4aaa77485345d3612cf4"
+    },
+    {
+      "path": "dist/workbook/g2-p122.webp",
+      "bytes": 109352,
+      "sha256": "d8348800f20bdb137df534bf5a34e0983795fd537cdfbe05d4586715b25eccce"
+    },
+    {
+      "path": "dist/workbook/g2-p123.webp",
+      "bytes": 110120,
+      "sha256": "bd587caa86dbf5704b6d86bf7446d53fb74a863d87d6a935b40c2da60403df09"
+    },
+    {
+      "path": "dist/workbook/g2-p124.webp",
+      "bytes": 123810,
+      "sha256": "306ec17fa3a355a1f3cdb63650ea9eda6f171eac2e15bd9be4247b67d0e05136"
+    },
+    {
+      "path": "dist/workbook/g2-p125.webp",
+      "bytes": 94148,
+      "sha256": "9763d78eb824e6728398c1ed3bd5178fde4c1635b76d4a2fb3e2c22db1a48254"
+    },
+    {
+      "path": "dist/workbook/g2-p126.webp",
+      "bytes": 77410,
+      "sha256": "8bbc13e718bb9ccb84913e77802ec4f5d4093b3b1430dd9d1058560905f75289"
+    },
+    {
+      "path": "dist/workbook/g2-p127.webp",
+      "bytes": 98116,
+      "sha256": "71df273f2c72d7176fea284ca7d4c65cfa46bce4f2134850cd6f0546011dcca4"
+    },
+    {
+      "path": "dist/workbook/g2-p128.webp",
+      "bytes": 95396,
+      "sha256": "e07e206218ed956e2da511d30f3c1e2475c02ee16301cd62a795bfb552a3adac"
+    },
+    {
+      "path": "dist/workbook/g2-p129.webp",
+      "bytes": 134262,
+      "sha256": "098a6c6d0881ea001c6ca5fc8c008e79bd2de388c26feb0ac7bd9e3f9e4e6200"
+    },
+    {
+      "path": "dist/workbook/g2-p130.webp",
+      "bytes": 103808,
+      "sha256": "f34511894bc23d39d4a47e847231b64499772b3f489bf5674ef303b16f4b16e2"
+    },
+    {
+      "path": "dist/workbook/g2-p131.webp",
+      "bytes": 55352,
+      "sha256": "0f2c2613415444e5facf3c2e870d2603a4201627350ee09750c4e8703857480d"
+    },
+    {
+      "path": "dist/workbook/g2-p132.webp",
+      "bytes": 100146,
+      "sha256": "8f8523e2382a0830b897ae2f74696b0f85e54cb31a9ee37b3ab5bb37db5adc31"
+    },
+    {
+      "path": "dist/workbook/g2-p133.webp",
+      "bytes": 99720,
+      "sha256": "22da69708cbb4db0cb91ca3220fa6e9ff57e724ec6a4580e2717325b84976b0e"
+    },
+    {
+      "path": "dist/workbook/g2-p134.webp",
+      "bytes": 98108,
+      "sha256": "d104b0cf544a4a1d074a7bbf324680a8ca28da63751c5e5d5527e874aee01bb4"
+    },
+    {
+      "path": "dist/workbook/g2-p135.webp",
+      "bytes": 136500,
+      "sha256": "630352622a9ef8a378d38f20a0f5d24e978291593238499a8224baded49841cb"
+    },
+    {
+      "path": "dist/workbook/g2-p136.webp",
+      "bytes": 113610,
+      "sha256": "30996b0cdb9d0a8bb03f56c78b2e31fd43e546e59cc20f82dda871418bfddc92"
+    },
+    {
+      "path": "dist/workbook/g3-p001.webp",
+      "bytes": 150336,
+      "sha256": "080cb56f8e083a3e94a9b729bd350b5399884fe806782a5de5edf6e29577222d"
+    },
+    {
+      "path": "dist/workbook/g3-p002.webp",
+      "bytes": 81198,
+      "sha256": "1e7ebeed7953bd20e0c3dad5d42952b8e4dfa44366ffa6cbbf8912214a8b9996"
+    },
+    {
+      "path": "dist/workbook/g3-p003.webp",
+      "bytes": 43608,
+      "sha256": "3733a938b4ac72d2a8779b78f6753acffab4c266e08287299ea09ba289742ef9"
+    },
+    {
+      "path": "dist/workbook/g3-p004.webp",
+      "bytes": 151550,
+      "sha256": "146a24609112fb4a9f7bd3a2c7e01aeef597f8ea4513009187e578a55a6c10e9"
+    },
+    {
+      "path": "dist/workbook/g3-p005.webp",
+      "bytes": 128686,
+      "sha256": "c7696282682ec4951b7fac1ba061137e0a218b40025ff3b2ea841d61c3a73601"
+    },
+    {
+      "path": "dist/workbook/g3-p006.webp",
+      "bytes": 54842,
+      "sha256": "e340662471264516543aca27c6ada556b37f87aa12abfb287ad86c552a176533"
+    },
+    {
+      "path": "dist/workbook/g3-p007.webp",
+      "bytes": 94138,
+      "sha256": "5ea21ea61288e566c79ee953ff28fd40a28996f35267f0226eeaca215b116fd8"
+    },
+    {
+      "path": "dist/workbook/g3-p008.webp",
+      "bytes": 128710,
+      "sha256": "c2971441a739b7e2de1fca677f5076583eea321ababb53f940790114ea8dab9e"
+    },
+    {
+      "path": "dist/workbook/g3-p009.webp",
+      "bytes": 90688,
+      "sha256": "1eae4b3399e2ee48c9550b68e00f0dea393f671144f5ff04533c27ab77dc77dd"
+    },
+    {
+      "path": "dist/workbook/g3-p010.webp",
+      "bytes": 132484,
+      "sha256": "d44032462c960a7b2cca610af6e78f29854a3eb51377698b8e29615bb2d98d97"
+    },
+    {
+      "path": "dist/workbook/g3-p011.webp",
+      "bytes": 62976,
+      "sha256": "be380c1ac53bdbf11155e823ab62f5181c84f999573e512617d0fe3dd17b690c"
+    },
+    {
+      "path": "dist/workbook/g3-p012.webp",
+      "bytes": 70114,
+      "sha256": "3ee29692d5273c71f4390cf2085b6277baafbab11784da1b31083024b10601d7"
+    },
+    {
+      "path": "dist/workbook/g3-p013.webp",
+      "bytes": 89152,
+      "sha256": "5a583b421cee8a27f621a24c17314e5f7b604f976d3c5f44256c28ce1aecb5a9"
+    },
+    {
+      "path": "dist/workbook/g3-p014.webp",
+      "bytes": 108782,
+      "sha256": "c4b695c0f2dc6d2fb53c7b885ff624ead50461784845578fa3471231c2a797d3"
+    },
+    {
+      "path": "dist/workbook/g3-p015.webp",
+      "bytes": 90442,
+      "sha256": "edd5f7f78d903a74f458a786fac09985b2dcd16a321f20d8f7d1fff40c9bcba5"
+    },
+    {
+      "path": "dist/workbook/g3-p016.webp",
+      "bytes": 78848,
+      "sha256": "ca86efc755e637d7bbc09a56527dba64c5ff4298596b8e6894da23285f496574"
+    },
+    {
+      "path": "dist/workbook/g3-p017.webp",
+      "bytes": 63352,
+      "sha256": "3e16afb2e534b075ee5448ec2eeb87726b2d7f95ae384791319447688c99f63b"
+    },
+    {
+      "path": "dist/workbook/g3-p018.webp",
+      "bytes": 82892,
+      "sha256": "65e4ce952f9f4af4a0117d5d3a362e1fc80036c85b7e62f3b7cd68c455775a63"
+    },
+    {
+      "path": "dist/workbook/g3-p019.webp",
+      "bytes": 85414,
+      "sha256": "eb278c865ed718d5f222a22a38933fd5bb021db332b5a678c182519379bee5a5"
+    },
+    {
+      "path": "dist/workbook/g3-p020.webp",
+      "bytes": 76936,
+      "sha256": "902ed311aa050efe4e75a00bdc32e3f44a304037596e30fc52d6b98359c9081f"
+    },
+    {
+      "path": "dist/workbook/g3-p021.webp",
+      "bytes": 76460,
+      "sha256": "a112376d0c8a1664efddf2274dc3d33cd8f2488d4b4ace5d297987a8b5e826ce"
+    },
+    {
+      "path": "dist/workbook/g3-p022.webp",
+      "bytes": 68424,
+      "sha256": "8f78dee32170091d7cf81373aab4b38c60646f88d20621f1ee67b7e8092fb4ac"
+    },
+    {
+      "path": "dist/workbook/g3-p023.webp",
+      "bytes": 50690,
+      "sha256": "b5f50125f4a750083c404111e3457da07878ebc14da7b1af4d22edea27b29bb8"
+    },
+    {
+      "path": "dist/workbook/g3-p024.webp",
+      "bytes": 64436,
+      "sha256": "e396a1a73db9aa6488be3b6f1653cfe3ae69bdce94b18ac50f0df7a9d9812241"
+    },
+    {
+      "path": "dist/workbook/g3-p025.webp",
+      "bytes": 62748,
+      "sha256": "b995da2b722a441102873b954887fa30b9c957ad8e4e497b47a1e9f8856e4fdb"
+    },
+    {
+      "path": "dist/workbook/g3-p026.webp",
+      "bytes": 58016,
+      "sha256": "4aca5b03362791bba306845ba1fdf8d9695e6d43fbba9e1fde28be9a0886d369"
+    },
+    {
+      "path": "dist/workbook/g3-p027.webp",
+      "bytes": 59820,
+      "sha256": "1790c157e4e44bd7fd788bf00bbd5033caabbd30fc59005b2c096111f2b299b2"
+    },
+    {
+      "path": "dist/workbook/g3-p028.webp",
+      "bytes": 60316,
+      "sha256": "1c1aee3e1ff17714d45ec23aea2d7005fdede21b481e25544d4613e35af8ad37"
+    },
+    {
+      "path": "dist/workbook/g3-p029.webp",
+      "bytes": 63354,
+      "sha256": "aedeeb438816822e26c757345883bdc92c4eb41b08a161fb5c7c8c15189a7b1c"
+    },
+    {
+      "path": "dist/workbook/g3-p030.webp",
+      "bytes": 69176,
+      "sha256": "e35d6ecc29617f134983a3346b617701a75bcf07602bb44982ec94963df52a52"
+    },
+    {
+      "path": "dist/workbook/g3-p031.webp",
+      "bytes": 54976,
+      "sha256": "07945c63c72df98633f1e016a2faf92ca56db42a68d1c96d9dbaefb2e284a531"
+    },
+    {
+      "path": "dist/workbook/g3-p032.webp",
+      "bytes": 79700,
+      "sha256": "ea4a3278ad5f81136525cac53caf6d997950afa83ceadcf7e24d3cf5e0864872"
+    },
+    {
+      "path": "dist/workbook/g3-p033.webp",
+      "bytes": 56354,
+      "sha256": "604a18f5f584ed1d47b8aec004aca2c2877b896b312bbd468cb73563c1819785"
+    },
+    {
+      "path": "dist/workbook/g3-p034.webp",
+      "bytes": 57526,
+      "sha256": "e6cdf8273830893a812d0c27e4308cf8af98d81942b6ed7865a52b7d63bf6f93"
+    },
+    {
+      "path": "dist/workbook/g3-p035.webp",
+      "bytes": 66490,
+      "sha256": "2b78dba8984eb45262189469f7dc3925033aea33656feef47eb544cf570263e7"
+    },
+    {
+      "path": "dist/workbook/g3-p036.webp",
+      "bytes": 49574,
+      "sha256": "60bc707848c865e32147fdeafe84b438c9d12a73836e5a60279eb53c638c38f1"
+    },
+    {
+      "path": "dist/workbook/g3-p037.webp",
+      "bytes": 61428,
+      "sha256": "431b2ea62ad20552250c0e1af9d75f8ca5c8827e237f5ed23b9c50186b4a97ae"
+    },
+    {
+      "path": "dist/workbook/g3-p038.webp",
+      "bytes": 67420,
+      "sha256": "5fe79fe033dadae0bd1e6ad324a644cb57e237043934b143d63c2fb9d7363157"
+    },
+    {
+      "path": "dist/workbook/g3-p039.webp",
+      "bytes": 89076,
+      "sha256": "721325f1784f10886e2556d205a47b95833e3ddc5b19f5f0c22937fcf165d078"
+    },
+    {
+      "path": "dist/workbook/g3-p040.webp",
+      "bytes": 72754,
+      "sha256": "936bd2674927b643e232b195d9d6c5309e6ced025f81e15e242e7acfe00d824c"
+    },
+    {
+      "path": "dist/workbook/g3-p041.webp",
+      "bytes": 53398,
+      "sha256": "abb44b6451ca885129bdb71356a69fceb8c4cb8bc61ab2216c0a454e63d8e7b2"
+    },
+    {
+      "path": "dist/workbook/g3-p042.webp",
+      "bytes": 48242,
+      "sha256": "aacd6cc4dff2ca30dd3f81c9497eccf481c9f4c1c03e71eeda7a55f997c57519"
+    },
+    {
+      "path": "dist/workbook/g3-p043.webp",
+      "bytes": 70828,
+      "sha256": "990b10e2799114ec864eaa9e5446f532656e4fd8c0d867dda0a6644e950588e2"
+    },
+    {
+      "path": "dist/workbook/g3-p044.webp",
+      "bytes": 92764,
+      "sha256": "53c92d5fa5f9c82d4beab1cf0bb07f47c9332ce60da1921a303f1ab4d5a28af2"
+    },
+    {
+      "path": "dist/workbook/g3-p045.webp",
+      "bytes": 61560,
+      "sha256": "6c74b61cdcf64faa28ca782f8cf8b398f880e3faa05f021029517a905c9dd276"
+    },
+    {
+      "path": "dist/workbook/g3-p046.webp",
+      "bytes": 104468,
+      "sha256": "adbaf97ac4fe76282681edd510e65d87b42e919d105e27a88376ccea64c23940"
+    },
+    {
+      "path": "dist/workbook/g3-p047.webp",
+      "bytes": 59264,
+      "sha256": "fd2769c397b2f54cfe29dccde2781e45253384bab7187222637915513ffc52e0"
+    },
+    {
+      "path": "dist/workbook/g3-p048.webp",
+      "bytes": 46846,
+      "sha256": "01692a6d094642e78a19b3d68c978aafd449a000039d55ffabbadad620176590"
+    },
+    {
+      "path": "dist/workbook/g3-p049.webp",
+      "bytes": 87552,
+      "sha256": "ad0f6233c238866e526e7a4b167f460224d6aaab29479f7603d9d7cb3cd825fb"
+    },
+    {
+      "path": "dist/workbook/g3-p050.webp",
+      "bytes": 80264,
+      "sha256": "eb26d488ec44fbda5038d69a7e1c1cc65c9db40dc8f2db7fc29516d539acd742"
+    },
+    {
+      "path": "dist/workbook/g3-p051.webp",
+      "bytes": 82108,
+      "sha256": "1dd2f4a7fee9c5c2ada2b8d84800696c156fed638ed051087a1c84676cdb6c34"
+    },
+    {
+      "path": "dist/workbook/g3-p052.webp",
+      "bytes": 66620,
+      "sha256": "6c620b4498e8340305b6ad6458e6a99ddb7c51d733c055305c52d1993bf6eb38"
+    },
+    {
+      "path": "dist/workbook/g3-p053.webp",
+      "bytes": 65018,
+      "sha256": "9fa2e04b3e5839e6d011bca38974a403becbe2f61d5629ff654b0ed5a856566c"
+    },
+    {
+      "path": "dist/workbook/g3-p054.webp",
+      "bytes": 61710,
+      "sha256": "66b72d7880e0ec9bd748c0cac3f1bc590281f085b64ef0fc7e04efe4a968c553"
+    },
+    {
+      "path": "dist/workbook/g3-p055.webp",
+      "bytes": 50890,
+      "sha256": "776863f83191cad68f3b04b2abb23bade435072947079f9768815ff7456f32c4"
+    },
+    {
+      "path": "dist/workbook/g3-p056.webp",
+      "bytes": 59916,
+      "sha256": "5a05860fbe03f05b68243b0bdef95dd6235bc7099988b4571a184ec6766f97ca"
+    },
+    {
+      "path": "dist/workbook/g3-p057.webp",
+      "bytes": 81558,
+      "sha256": "c8cc3fa54e83a63509946435147d315e4d52c44071ae01fbcdc0bb71a4bd9db7"
+    },
+    {
+      "path": "dist/workbook/g3-p058.webp",
+      "bytes": 81410,
+      "sha256": "24c0e6c0d2bda29ee291c149bd379b1af570c012e9be84da8fc67a057969a85b"
+    },
+    {
+      "path": "dist/workbook/g3-p059.webp",
+      "bytes": 48696,
+      "sha256": "0bbd235795140c292e6f031d7e4fa37e082c24d38a23981a4e66d3ad0e6f9dbb"
+    },
+    {
+      "path": "dist/workbook/g3-p060.webp",
+      "bytes": 93422,
+      "sha256": "4342a968111f67aee98ce4e2fd77c19dea676b7b612d6cacd8514115f5f189dd"
+    },
+    {
+      "path": "dist/workbook/g3-p061.webp",
+      "bytes": 92654,
+      "sha256": "70d7876e0e7907cb156e1bc8f7ee134b99238dc4f4aeff5f95e23b9226149c18"
+    },
+    {
+      "path": "dist/workbook/g3-p062.webp",
+      "bytes": 62438,
+      "sha256": "37fd10e381f2ad3bc5db6a05d743f0363557d4dfc5a066b63e3722d7af0c18fb"
+    },
+    {
+      "path": "dist/workbook/g3-p063.webp",
+      "bytes": 55934,
+      "sha256": "f246c8645a642f709dbfd98cfbabeae13c1e3a9c6fd439abd221cecb7e319c38"
+    },
+    {
+      "path": "dist/workbook/g3-p064.webp",
+      "bytes": 91796,
+      "sha256": "5312e6c737fd6ff51be5693d5f22a95e72e67da9df46d66f8af8bc7ff6152977"
+    },
+    {
+      "path": "dist/workbook/g3-p065.webp",
+      "bytes": 41968,
+      "sha256": "3124a8616d9eedec5ad6106f277f427406d8610759c947012dcc76a6ac46db02"
+    },
+    {
+      "path": "dist/workbook/g3-p066.webp",
+      "bytes": 46646,
+      "sha256": "7eff2682641b1f09dd2da8e0dbc24a9752c9a490923d2d1146b28bc9810a361c"
+    },
+    {
+      "path": "dist/workbook/g3-p067.webp",
+      "bytes": 75990,
+      "sha256": "0f5e3395409139204b4bc6be216b00ed0e916195eec0abe0a0e4a21870153dde"
+    },
+    {
+      "path": "dist/workbook/g3-p068.webp",
+      "bytes": 105098,
+      "sha256": "2134a4822a0877609aacab2e3a3f7dc2a3e0b0d4c8ae56af2261db2ff44410e2"
+    },
+    {
+      "path": "dist/workbook/g3-p069.webp",
+      "bytes": 90048,
+      "sha256": "41cc811d0e47b5ba60d3b162e9d6b838b4b7c596c7410913488c8f26283b8111"
+    },
+    {
+      "path": "dist/workbook/g3-p070.webp",
+      "bytes": 60870,
+      "sha256": "19e982e2df3fe94034d650f9e6cac0167bd340194d19032a6a430ce814837811"
+    },
+    {
+      "path": "dist/workbook/g3-p071.webp",
+      "bytes": 57244,
+      "sha256": "8a49262d2c6bf760aa6e5170c629300595c357f7e5555b9df31ee7f2e645647a"
+    },
+    {
+      "path": "dist/workbook/g3-p072.webp",
+      "bytes": 50086,
+      "sha256": "272fd86fbb5ca3c5d245b64eaa5d9192975902a99ce323f6fafd10216b2684e4"
+    },
+    {
+      "path": "dist/workbook/g3-p073.webp",
+      "bytes": 87792,
+      "sha256": "a18862880722a2a6b738a00e4055f57c3f3f6c4ac4ee9be333982814b7a319d6"
+    },
+    {
+      "path": "dist/workbook/g3-p074.webp",
+      "bytes": 63662,
+      "sha256": "b8a26fa33508f685f4934e8459cf3abb4333005dc1e56975e36580cd183f2a2a"
+    },
+    {
+      "path": "dist/workbook/g3-p075.webp",
+      "bytes": 105968,
+      "sha256": "1c00d12f4519d1612f66fb3441a7380ca7a51b84c2b04f32fee31f321c46042b"
+    },
+    {
+      "path": "dist/workbook/g3-p076.webp",
+      "bytes": 64356,
+      "sha256": "501cee6dfa692b64ad1e8811cad8bf2bfc5dd732184d87d2dec1d812b301ab5c"
+    },
+    {
+      "path": "dist/workbook/g3-p077.webp",
+      "bytes": 66356,
+      "sha256": "528ae2ed1516fc77c7a6e127e1752c82e037f08002f67e10e4a474c405653e3a"
+    },
+    {
+      "path": "dist/workbook/g3-p078.webp",
+      "bytes": 60600,
+      "sha256": "3f720d74e44f5d526c2012b5898b515d5454c5e9eca258dcbc0e7ff7ec811840"
+    },
+    {
+      "path": "dist/workbook/g3-p079.webp",
+      "bytes": 77794,
+      "sha256": "777bad044948910edf700b9585765c5b8d9eecab72901540233f5e5ae893dae5"
+    },
+    {
+      "path": "dist/workbook/g3-p080.webp",
+      "bytes": 51646,
+      "sha256": "542460bfac9323cef0a3b485e9b34c964c468f15d8be52a9b69b8f84ace4da84"
+    },
+    {
+      "path": "dist/workbook/g3-p081.webp",
+      "bytes": 111012,
+      "sha256": "135a2a77ae5556e62f3dd0fdf4f9aeea0402c29b2c8b1c4c24af7e5dde45c1c3"
+    },
+    {
+      "path": "dist/workbook/g3-p082.webp",
+      "bytes": 73546,
+      "sha256": "0a94538cf0d4003ca5f6741a9d5b606ef586198094dd255cbe43e2b36abed3a8"
+    },
+    {
+      "path": "dist/workbook/g3-p083.webp",
+      "bytes": 56600,
+      "sha256": "2a775bb5ced1d7526b707a0ecd31bee7beace6500dcc63d4c3aa672584a435a5"
+    },
+    {
+      "path": "dist/workbook/g3-p084.webp",
+      "bytes": 74774,
+      "sha256": "b8a5e8d338e71ed629c17c8c78eec41d673a818ba6c9cee0f4c8cd4e45da3bd6"
+    },
+    {
+      "path": "dist/workbook/g3-p085.webp",
+      "bytes": 104568,
+      "sha256": "73e4754fdf97ea80060ad39234b73fc8329bf6f4238e4e0b937cd922a4ab0174"
+    },
+    {
+      "path": "dist/workbook/g3-p086.webp",
+      "bytes": 86030,
+      "sha256": "b64f6d76d3bf967403364263a424574bd7d9d7a44d5fbfa3ed6dde8aa711aa2f"
+    },
+    {
+      "path": "dist/workbook/g3-p087.webp",
+      "bytes": 72028,
+      "sha256": "51fbab89ae4c8b3d65742d3e3c9d22a8dfa3a47cfc16f740292d4b136afefeb5"
+    },
+    {
+      "path": "dist/workbook/g3-p088.webp",
+      "bytes": 57258,
+      "sha256": "2a45f7c5956d235c9e5a77bd3f638391c1c18ce00543d778cf59f06c524e9a90"
+    },
+    {
+      "path": "dist/workbook/g3-p089.webp",
+      "bytes": 76078,
+      "sha256": "7c360066f5d52fc8c4f2b58a7bab377af9c8dedb486f729a66860109db1c6311"
+    },
+    {
+      "path": "dist/workbook/g3-p090.webp",
+      "bytes": 104410,
+      "sha256": "1c5aa128b7ec17dbabc0a71d760611f567dd82caba955072a4408a74e8df34cb"
+    },
+    {
+      "path": "dist/workbook/g3-p091.webp",
+      "bytes": 60480,
+      "sha256": "2647216255ddef923fffc5434f0407ea504202ff3a8f6fde6fb573c0d4e05acf"
+    },
+    {
+      "path": "dist/workbook/g3-p092.webp",
+      "bytes": 57418,
+      "sha256": "cf29997bbc5a2408e7a6617248f9765bbb92e53dbfc149567cfd07583f88d3b7"
+    },
+    {
+      "path": "dist/workbook/g3-p093.webp",
+      "bytes": 83982,
+      "sha256": "ace0f56a23496d24729b8d5a68e29c8aa5663f33f270364943e7a2444d19c08b"
+    },
+    {
+      "path": "dist/workbook/g3-p094.webp",
+      "bytes": 74224,
+      "sha256": "42650ebae58c40b7bec0c27ccf8edd04209e94982e843634eaee448af0ce822f"
+    },
+    {
+      "path": "dist/workbook/g3-p095.webp",
+      "bytes": 82272,
+      "sha256": "a64f85807d97dee4b9ad725dc60762ea1fc406fe39d8e142f002f4f69d9e3255"
+    },
+    {
+      "path": "dist/workbook/g3-p096.webp",
+      "bytes": 47940,
+      "sha256": "c164844c8cf59a9f9372e8bf750cb89c360c74af0ecf7d3e8a296f6b99b7bed4"
+    },
+    {
+      "path": "dist/workbook/g3-p097.webp",
+      "bytes": 83858,
+      "sha256": "aab54d90a957326825a6b3b26953217acabb0945e430dc7e7d4ecb31177eae40"
+    },
+    {
+      "path": "dist/workbook/g3-p098.webp",
+      "bytes": 57368,
+      "sha256": "16ad60c6f1c4001ea4496817546b68409daf59ae7f4a427a15ab31146c532ef4"
+    },
+    {
+      "path": "dist/workbook/g3-p099.webp",
+      "bytes": 81312,
+      "sha256": "c6887bbbb0c1f704c4e9035eb4827c836d2900d012fc4ead9446d55cb573a970"
+    },
+    {
+      "path": "dist/workbook/g3-p100.webp",
+      "bytes": 70294,
+      "sha256": "ed83614d4bb2308b1628b69aaccdfab32889da59a32084113f9c5505d7655802"
+    },
+    {
+      "path": "dist/workbook/g3-p101.webp",
+      "bytes": 79808,
+      "sha256": "bd1a0832fe604aaae0d770874146853d56775265b05017f3e1acef3c38665efe"
+    },
+    {
+      "path": "dist/workbook/g3-p102.webp",
+      "bytes": 78274,
+      "sha256": "b92b707f86b1acd4012f4e478223d11b2d6d8df0382da05ed469af6129dcc52f"
+    },
+    {
+      "path": "dist/workbook/g3-p103.webp",
+      "bytes": 67690,
+      "sha256": "e11463f82411cdc18420664ebba365ce190f6d1be9c62c3c3f44acac54ea5050"
+    },
+    {
+      "path": "dist/workbook/g3-p104.webp",
+      "bytes": 59258,
+      "sha256": "9f7532946baa17ced240a29a3e9d73b51a68590b0e0cc807256a3a39a6b8ea4a"
+    },
+    {
+      "path": "dist/workbook/g3-p105.webp",
+      "bytes": 73832,
+      "sha256": "7f5bc5cfa8c0d1a87bbc7ec0bb70d2749414d3f9e38bd9c1d7b0c0c5d99fc798"
+    },
+    {
+      "path": "dist/workbook/g3-p106.webp",
+      "bytes": 81916,
+      "sha256": "ae8a656a54191808f60ea1d528c26eaf8fc4c4365ff4a311a54841eeb9e481a9"
+    },
+    {
+      "path": "dist/workbook/g3-p107.webp",
+      "bytes": 74608,
+      "sha256": "5087d2e90f04933156eb2cc359e5edd09bb950db97e752ec3c4c953633252f95"
+    },
+    {
+      "path": "dist/workbook/g3-p108.webp",
+      "bytes": 61794,
+      "sha256": "dc83f5e8a0e47d9ae745400008865229c087f87f807e78638b092297dad5f6ee"
+    },
+    {
+      "path": "dist/workbook/g3-p109.webp",
+      "bytes": 70636,
+      "sha256": "81e0da633a28c6f05c5bca69d66b47ed7d1b04a254f40abfd28fb9236cb4dabc"
+    },
+    {
+      "path": "dist/workbook/g3-p110.webp",
+      "bytes": 76894,
+      "sha256": "f9a035661cc24ca4255db219f85753885e1a064140ff978cedc8ff426780a185"
+    },
+    {
+      "path": "dist/workbook/g3-p111.webp",
+      "bytes": 59784,
+      "sha256": "352411171baa9df22405496a8fe400dd298a42f8d149e5fe12fb149f78174fed"
+    },
+    {
+      "path": "dist/workbook/g3-p112.webp",
+      "bytes": 66144,
+      "sha256": "c5228ae54b5f4a9a75a3111b5240f77fd01807843adad93d31b2f2271269fdf1"
+    },
+    {
+      "path": "dist/workbook/g3-p113.webp",
+      "bytes": 61454,
+      "sha256": "75e2064c3648262562174383e1821d4f1b9e9f68a5b1b2b98e7e5ea0dcb464ed"
+    },
+    {
+      "path": "dist/workbook/g3-p114.webp",
+      "bytes": 75238,
+      "sha256": "78477116134a39e2d561c7c2ee82579458c0ef4881c98a29589879ef16a7fa1d"
+    },
+    {
+      "path": "dist/workbook/g3-p115.webp",
+      "bytes": 44042,
+      "sha256": "4735f60a125c0f198e10446663186299d7e02dd28ad2d8801ed34285ff7db343"
+    },
+    {
+      "path": "dist/workbook/g3-p116.webp",
+      "bytes": 49566,
+      "sha256": "34dfc554e91baad458f061eee5049c0f6f1f70b06ccfc8340564d5e487a6f9cb"
+    },
+    {
+      "path": "dist/workbook/g3-p117.webp",
+      "bytes": 56132,
+      "sha256": "e5d7f1df4f7e5d82a5751f72023394e91bf764eb1ef1dc86dd764cce248f834a"
+    },
+    {
+      "path": "dist/workbook/g3-p118.webp",
+      "bytes": 95046,
+      "sha256": "5bcc16d3049c7b4f39dded9104b3de1dff35b7ae70c8cd75356efbb1950177c2"
+    },
+    {
+      "path": "dist/workbook/g3-p119.webp",
+      "bytes": 68830,
+      "sha256": "3ce35fb025b354f19ecf595e64b725736524d718df29998fb6a430ca8dc7d734"
+    },
+    {
+      "path": "dist/workbook/g3-p120.webp",
+      "bytes": 38174,
+      "sha256": "6433371f908ea03a479fa642bb3ba9350f51246a36a85146a8c6045826c1b6a5"
+    },
+    {
+      "path": "dist/workbook/g3-p121.webp",
+      "bytes": 100492,
+      "sha256": "7964e603283bfacf523eb713b0496d93afe020d23bd585a4fa79cce30120c976"
+    },
+    {
+      "path": "dist/workbook/g3-p122.webp",
+      "bytes": 74028,
+      "sha256": "8677e4934becb336f3bbb8f0f3ba8eaf2e5dce21d50eef77c5e8b1eb6b9b4da9"
+    },
+    {
+      "path": "dist/workbook/g3-p123.webp",
+      "bytes": 106786,
+      "sha256": "1fb3ea3f172a513c3e18809b5dc05ffb54ca3fa4d6c7d1afa451e2ba62911a0e"
+    },
+    {
+      "path": "dist/workbook/g3-p124.webp",
+      "bytes": 97430,
+      "sha256": "1c10df767bb6b90c25cea3c393cb91f6afaf6590466d864173c0862a99f37d74"
+    },
+    {
+      "path": "dist/workbook/g3-p125.webp",
+      "bytes": 82204,
+      "sha256": "e49a46d1c296dea1c0354e57234c87fc65be53a4a9ed3b8090ac4bf6bb2e2b07"
+    },
+    {
+      "path": "dist/workbook/g3-p126.webp",
+      "bytes": 45434,
+      "sha256": "fd2e24317e01d431b04f8bebc7ec86d5eb06811a70428559b2c17524998c7c20"
+    },
+    {
+      "path": "dist/workbook/g3-p127.webp",
+      "bytes": 67022,
+      "sha256": "c13c68f74ce6eb80e3653e78b0f3cc753b1f55c1b750ffff17b602029316a83b"
+    },
+    {
+      "path": "dist/workbook/g3-p128.webp",
+      "bytes": 80054,
+      "sha256": "1bfcd60d17a04121e2445290ac6819786de47b4686b2f26a5f56a60e4520026a"
+    },
+    {
+      "path": "dist/workbook/g3-p129.webp",
+      "bytes": 84174,
+      "sha256": "bfbe7f157165c47c45b1ac8439921d2a9198abc49fc1b512c1cc78168871358a"
+    },
+    {
+      "path": "dist/workbook/g3-p130.webp",
+      "bytes": 81072,
+      "sha256": "80a0655c91443a1c3dcf4f70710e88844bc11104266816c45db34ea5762030c3"
+    },
+    {
+      "path": "dist/workbook/g3-p131.webp",
+      "bytes": 81408,
+      "sha256": "c496bde5c01c0157f323dc4419ace102b8584ad181f3c0836af82bfb27f8d486"
+    },
+    {
+      "path": "dist/workbook/g3-p132.webp",
+      "bytes": 49494,
+      "sha256": "559994654174ecd0ee77a352924fc3a313b1a1db9e0506d23d58eaf6281a7175"
+    },
+    {
+      "path": "dist/workbook/g3-p133.webp",
+      "bytes": 85704,
+      "sha256": "edfd3647f80a0b947dfb44bd645ea500b0af4ad4949bafbf190d8fe67371f556"
+    },
+    {
+      "path": "dist/workbook/g3-p134.webp",
+      "bytes": 82426,
+      "sha256": "43089cabc307489125da5156057f1697c75c366333008ee399daf758dd7940bc"
+    },
+    {
+      "path": "dist/workbook/g3-p135.webp",
+      "bytes": 106022,
+      "sha256": "8a1c7e10022f44b5d63b1c483e286ef4d3a4488ac87dc1cc5bd19b7433d3784d"
+    },
+    {
+      "path": "dist/workbook/g3-p136.webp",
+      "bytes": 97480,
+      "sha256": "dd31eabaaed8beb8f602119dda941d66cdefb8eeb035b9e1ca518313cd5feecc"
+    },
+    {
+      "path": "dist/worksheets.json",
+      "bytes": 161171,
+      "sha256": "d27b92d78afe905d231f58e98aeb6b989f0a49e5af4f52178a84535f027f0214"
+    },
+    {
+      "path": "docs/CONTENT_AUDIT.json",
+      "bytes": 1320,
+      "sha256": "813a0d80357e863814d35cc35d731b15a4aee812404248d9ad969379d0433603"
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "bytes": 3404,
+      "sha256": "366aafecef0ecc768d45ddb9b5aa4e36f5236ca1a0a0f24f78e1d23d7b09c215"
+    },
+    {
+      "path": "docs/MVP_ACCEPTANCE.md",
+      "bytes": 1812,
+      "sha256": "a7d59c9dcee43c9a58894e979f1b508059b59210df14b68332057941526254d2"
+    },
+    {
+      "path": "docs/QA_QC_RELEASE_CHECKLIST.md",
+      "bytes": 6946,
+      "sha256": "0587541ec06308b492f7b3b127355ebdc032fb25bf298d4fc62db13821e164f2"
+    },
+    {
+      "path": "docs/QA_REPORT.md",
+      "bytes": 2622,
+      "sha256": "26b20673ba2242638d84d1d6304560971327d7eaa2c12662ae8cf2fe98711270"
+    },
+    {
+      "path": "docs/phone-teaching.jpg",
+      "bytes": 45764,
+      "sha256": "be2c46fb5a64dce6c132c40b7b5419cfdb0d01a672a75c4074fd6869ce5b741c"
+    },
+    {
+      "path": "docs/tasks/README.md",
+      "bytes": 271,
+      "sha256": "0a6779b43cbbd0ce2fac67c8732061f865eed96c667d39d315ffefd8463d83fb"
+    },
+    {
+      "path": "package.json",
+      "bytes": 212,
+      "sha256": "663e9bdcc374079d68d354266ca17b446fe8f718bbb206cea6dcd57e494eef08"
+    },
+    {
+      "path": "scripts/decode_legacy.py",
+      "bytes": 4971,
+      "sha256": "43e96659a7b2df7e5cedd062271b06fe481542a50b29d085bc2a14f0b446a409"
+    },
+    {
+      "path": "scripts/extract_guides.py",
+      "bytes": 18389,
+      "sha256": "bc28de8d30889a38fc3052b853b4c69ed32e89aa963ca082f5e1f14822f14759"
+    },
+    {
+      "path": "scripts/harden_content.mjs",
+      "bytes": 36640,
+      "sha256": "de931ce0e6160c4ff61ddd24e714938260afd1c6f7616c376fb89a6dd7b704c3"
+    },
+    {
+      "path": "scripts/index_guides.py",
+      "bytes": 1596,
+      "sha256": "887ef6484188659ddf35f37d8bc7885334b3ff07111fd0e5cf7808a58727cbf8"
+    },
+    {
+      "path": "scripts/ocr_guides.py",
+      "bytes": 1939,
+      "sha256": "65dd1445f94bbadf879e4d3597b5f67483b09d00a17fc1472a5487ea77c49f4d"
+    },
+    {
+      "path": "scripts/prepare_resources.py",
+      "bytes": 3471,
+      "sha256": "f0d3e3e71a06aecb3dd41735b559adb37350c4fe2b6a32a0b4e45ceadab912a7"
+    },
+    {
+      "path": "tests/catalog.test.mjs",
+      "bytes": 6604,
+      "sha256": "3afe33955c19899bcb1ac246171aeb13adb64341bcde35f85b27b26e1cc4ddbf"
+    },
+    {
+      "path": "tests/release.test.mjs",
+      "bytes": 5299,
+      "sha256": "95253f5425a82e472336bca7070a73f3c360f741c467a1c3faf23c299214deb9"
+    }
+  ]
+}

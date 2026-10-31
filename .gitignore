@@ -1,0 +1,26 @@
+inputs/
+outputs/
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+dist/__qa.html
+
+# Archive approved original PDFs and manifest; exclude unrelated local files.
+curricula/*/originals/*
+!curricula/*/originals/README.md
+!curricula/*/originals/manifest.json
+!curricula/*/originals/*.pdf
+
+# Preserve reproducible embedded-text outputs, not transient renders/OCR/logs.
+curricula/*/extracted/**
+!curricula/*/extracted/README.md
+!curricula/*/extracted/*/
+!curricula/*/extracted/*/pages.json
+!curricula/*/extracted/summary.json

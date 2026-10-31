@@ -1,0 +1,4 @@
+interface:
+  display_name: "Teacher Guide to App"
+  short_description: "Ingest guides, build source-led lessons, verify UX"
+  default_prompt: "Use $teacher-guide-to-app to inspect my Teacher Guide and Workbook PDFs, clarify and freeze requirements with me, then build and test a separate curriculum pack using the shared runtime."

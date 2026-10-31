@@ -1,0 +1,12 @@
+{
+  "id": "up-math-2026",
+  "publicationDirectory": ".",
+  "reviewedFiles": [
+    "catalog.mjs",
+    "sources.json",
+    "resources.json",
+    "worksheets.json"
+  ],
+  "status": "reviewed-snapshot",
+  "reviewNote": "Exact snapshot of the existing source-linked UP app. Not independent academic sign-off. Original PDFs and intermediate extraction files were not included in this transfer."
+}

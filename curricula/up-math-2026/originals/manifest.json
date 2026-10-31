@@ -1,0 +1,111 @@
+{
+  "documents": [
+    {
+      "id": "workbook-g1-87d1e0f42ce2",
+      "kind": "workbook",
+      "grade": 1,
+      "file": "workbook-g1-87d1e0f42ce2.pdf",
+      "sha256": "87d1e0f42ce2603806d1d92f2d58db1bc5c7364da5a03b72d7088dd5dd8bf0d8",
+      "originalFilename": "UP Numeracy Grade 1 WB AY 2026-2027.pdf"
+    },
+    {
+      "id": "workbook-g3-057d687b6500",
+      "kind": "workbook",
+      "grade": 3,
+      "file": "workbook-g3-057d687b6500.pdf",
+      "sha256": "057d687b650036c865d6a17e2b7c330732885c6aafebdecdfdce422ea47a4344",
+      "originalFilename": "UP Numeracy Grade 3 WB AY 2026-2027.pdf"
+    },
+    {
+      "id": "workbook-g2-9a90832e59d1",
+      "kind": "workbook",
+      "grade": 2,
+      "file": "workbook-g2-9a90832e59d1.pdf",
+      "sha256": "9a90832e59d190222ae545934028ab9a32755ef12c5468b03751feeaf64ba878",
+      "originalFilename": "UP Numeracy Grade 2 WB AY 2026-2027.pdf"
+    },
+    {
+      "id": "textbook-g3-0ecea86290ba",
+      "kind": "textbook",
+      "grade": 3,
+      "file": "textbook-g3-0ecea86290ba.pdf",
+      "sha256": "0ecea86290baaf6b373478f3b7ac7ab4a7aa1133c83774cbd49ba164b63c5180",
+      "originalFilename": "ganit mela class 3.pdf"
+    },
+    {
+      "id": "guide-g3-186da9c8f52a",
+      "kind": "guide",
+      "grade": 3,
+      "file": "guide-g3-186da9c8f52a.pdf",
+      "sha256": "186da9c8f52a317e4152560dbbfecf007d5e4fcef51a7f9cd93bb96741392e2b",
+      "originalFilename": "UP Numeracy Grade 3 TG AY 2026-2027.pdf"
+    },
+    {
+      "id": "guide-g2-9b3436f6e0f7",
+      "kind": "guide",
+      "grade": 2,
+      "file": "guide-g2-9b3436f6e0f7.pdf",
+      "sha256": "9b3436f6e0f718c63d5472ae61ad99fea8f85e0b8247592601b86969c167e356",
+      "originalFilename": "UP Numeracy Grade 2 TG AY 2026-2027.pdf"
+    },
+    {
+      "id": "guide-g1-167f09e3bf58",
+      "kind": "guide",
+      "grade": 1,
+      "file": "guide-g1-167f09e3bf58.pdf",
+      "sha256": "167f09e3bf58809a6f69ed9275abf354b2a76857f653b462654a4a23f4e3b583",
+      "originalFilename": "UP Numeracy Grade 1 TG AY 2026-2027.pdf"
+    }
+  ],
+  "expectedDocuments": [
+    {
+      "kind": "guide",
+      "grade": 1,
+      "url": "https://drive.google.com/file/d/15MR-E_EOYXiw-h0tt6g1_9vS2cFCGCkC/view",
+      "sha256": "167f09e3bf58809a6f69ed9275abf354b2a76857f653b462654a4a23f4e3b583",
+      "pdfPages": 112
+    },
+    {
+      "kind": "workbook",
+      "grade": 1,
+      "url": "https://drive.google.com/file/d/1mpngGwXEJcEHORFodQjdg18Wkz-B-4hJ/view",
+      "sha256": "87d1e0f42ce2603806d1d92f2d58db1bc5c7364da5a03b72d7088dd5dd8bf0d8",
+      "pdfPages": 112
+    },
+    {
+      "kind": "guide",
+      "grade": 2,
+      "url": "https://drive.google.com/file/d/1QyqrgIO_pS4frPXXDDKhFBSzHRPSMOlY/view",
+      "sha256": "9b3436f6e0f718c63d5472ae61ad99fea8f85e0b8247592601b86969c167e356",
+      "pdfPages": 144
+    },
+    {
+      "kind": "workbook",
+      "grade": 2,
+      "url": "https://drive.google.com/file/d/1DwqkhIEuY-hww3hPwyZBq5PsTEDXJc-U/view",
+      "sha256": "9a90832e59d190222ae545934028ab9a32755ef12c5468b03751feeaf64ba878",
+      "pdfPages": 136
+    },
+    {
+      "kind": "guide",
+      "grade": 3,
+      "url": "https://drive.google.com/file/d/1kw6DYbMNWFdvlYWEirOoPN2IBeq4NPF9/view",
+      "sha256": "186da9c8f52a317e4152560dbbfecf007d5e4fcef51a7f9cd93bb96741392e2b",
+      "pdfPages": 144
+    },
+    {
+      "kind": "workbook",
+      "grade": 3,
+      "url": "https://drive.google.com/file/d/1y2v4huI0CJupmymLCVU4SaKK8bxhMoC0/view",
+      "sha256": "057d687b650036c865d6a17e2b7c330732885c6aafebdecdfdce422ea47a4344",
+      "pdfPages": 136
+    },
+    {
+      "kind": "textbook",
+      "grade": 3,
+      "url": "https://drive.google.com/file/d/1ZnKoDfHF4VqhIND8ZkWWeipsIakRyeQ8/view",
+      "sha256": "0ecea86290baaf6b373478f3b7ac7ab4a7aa1133c83774cbd49ba164b63c5180",
+      "pdfPages": 206
+    }
+  ]
+}

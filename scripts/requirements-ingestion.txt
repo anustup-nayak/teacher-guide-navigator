@@ -1,0 +1,2 @@
+# Optional: only for curriculum_workspace.py extraction and its Python tests.
+PyMuPDF==1.25.5
