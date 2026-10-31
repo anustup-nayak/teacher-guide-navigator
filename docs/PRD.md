@@ -89,8 +89,9 @@ reading. A source-specific unsupported schedule/language must be adapted or scop
 out explicitly before freeze. P2: optional enhancements justified by actual needs.
 
 New product lines on the same content (chatbot, remedial-plan builder, print tools) are
-proposed in [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md); each needs the owner's approval and its
-own brief, and keeps the exclusions below unless that brief changes them.
+not being built; the content repository is designed so they can be added later
+([CONTENT_PLATFORM.md](CONTENT_PLATFORM.md)). Each would need the owner's approval and its own
+brief, and keeps the exclusions below unless that brief changes them.
 
 Not in the default scope: accounts/cloud sync, student records/mastery scoring,
 AI-generated replacement curriculum, automatic full lesson translation, mandatory

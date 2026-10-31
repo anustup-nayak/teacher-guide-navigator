@@ -1,6 +1,8 @@
 # Content platform: one content back end, many products
 
-Status: proposal, 31 October 2026, for the owner's decision (§8). Builds on the
+Status: design constraint, 31 October 2026. **Only the website is being built.** The owner
+decided (31 Oct 2026) not to build other products now, but to shape the content repository so
+they can be built later without restructuring it. Builds on the
 [content architecture plan](CONTENT_ARCHITECTURE_PLAN.md) and the
 [content model](CONTENT_MODEL.md). Nothing here changes the live v1 app.
 
@@ -46,6 +48,12 @@ A correction made once in the model reaches every product.
  PRODUCTS       website (v1 → v2) · chatbot · remedial-plan builder · print packs · teacher tools · …
 ```
 
+Built now (Phase 3, for the website): `manifest.json`, `entities/`, `graph.json`,
+`views/app/`, `views/v1/` and `CHANGELOG.json`, plus the query functions the website needs.
+Designed but **not built** until a product needs it: `views/retrieval/` and the products below
+the release. Adding them later is a new view and new consumers; the core and release format
+stay as they are.
+
 The **content release** is the contract. It is static files, so it can be hosted on
 GitHub Pages next to the app, cached offline, downloaded by a bot service or loaded by a
 script. No database or server is needed to *serve* content; a product that needs a server
@@ -76,7 +84,7 @@ script. No database or server is needed to *serve* content; a product that needs
    its own rules allow (for example: the website shows editorial summaries only when
    `reviewed`; a chatbot answers only from `stated` and reviewed content).
 
-## 4. How each product uses it
+## 4. How each product could use it (future; not scheduled)
 
 | Product | Reads | Adds | Guardrails |
 |---|---|---|---|
@@ -112,19 +120,25 @@ a fourth origin to the three existing assertion types: **generated**. Rules:
 - Products with secrets (an LLM key, a WhatsApp number) run outside GitHub Pages and keep
   their secrets out of this repository.
 
-## 7. Changes to the build plan
+## 7. What this means for the build plan (website only)
 
-- **Phase 3 (compiler)** emits a content release, not only app bundles: `manifest.json`,
-  `entities/`, `graph.json`, `views/v1/catalog.mjs` (byte-for-byte parity gate),
-  `views/app/` and `views/retrieval/`. It also ships `content/query.mjs` with tests.
-- **Phase 7 (app v2)** reads only the content release through the query library.
-- **New Phase 10: product pilots**, each after the owner approves a one-page brief:
-  10a chatbot prototype on the preview site (grounded answers with page citations, evaluated
-  on a fixed question set); 10b remedial-plan builder; 10c print packs. Each pilot gets its
-  own acceptance tests and review gate; none may change the content core except through
-  source repairs.
+- **Phase 3 (compiler)** emits the content release in the format above, limited to what the
+  website needs: `manifest.json`, `entities/`, `graph.json`, `views/v1/catalog.mjs`
+  (byte-for-byte parity gate), `views/app/` and `CHANGELOG.json`, with `content/query.mjs`
+  covering the website's queries and their tests. No retrieval view, bot or generator.
+- **Phase 7 (website v2)** reads only the content release through the query library, so the
+  website is the first consumer of the same contract later products would use.
+- **Design rules that keep the door open** (cost nothing now):
+  - nothing product-specific in the content core or the release (no UI strings, layouts
+    or app state; those live in the website);
+  - every entity reachable by id from `entities/`, every relation in `graph.json`, with
+    provenance and review status, even when the website does not show it yet;
+  - the query library is plain ES modules with no browser APIs, so Node or a bot can import it;
+  - releases are versioned and immutable, with a changelog by id.
+- **Later (not scheduled):** chatbot, remedial-plan builder, print packs or teacher tools,
+  each only after the owner approves a brief and the §8 decisions.
 
-## 8. Decisions for the owner
+## 8. Decisions for the owner (needed only before a new product starts)
 
 1. **Content rights.** [CONTENT_RIGHTS.md](../CONTENT_RIGHTS.md): no redistribution licence for
    the guides has been established. Serving content to a chatbot or third-party tools needs
