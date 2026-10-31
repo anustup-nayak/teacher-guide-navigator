@@ -144,7 +144,11 @@ Each phase ends with a gate. Owner approvals are marked ✋. Agents log each ste
 `docs/HANDOFF.md`; each phase has a task note.
 
 **Phase 0 — Safeguard v1 (small).** Tag `v1.0.0`, create `release/v1` and `next`, add CI for
-`next`, choose the preview option ✋. Gate: v1 unchanged; `next` CI green.
+`next`. Preview: the owner creates a free GitHub organisation (e.g. `sandarshika-preview`);
+its user-site repo `<org>.github.io` holds only a Pages workflow that checks out the public
+`next` branch of `anustup-nayak/teacher-guide-navigator` and publishes its v2 build, on a
+schedule and on manual dispatch. No tokens or secrets; separate origin, so no shared worker
+or storage with the live app. Gate: v1 unchanged; `next` CI green; preview URL serves `next`.
 
 **Phase 1 — Read the programs (both subjects, all grades).** Read every front and back
 matter page of each TG and workbook (contents, NIPUN lists, usage guide, teaching cycle,
@@ -220,7 +224,7 @@ rollback path for a term. Gate ✋: owner go-live decision.
 
 ## 9. Decisions needed from the owner before Phase 0
 
-1. ~~Preview hosting~~ **Decided 31 Oct 2026: separate preview origin (A).** Host to choose.
+1. ~~Preview hosting~~ **Decided 31 Oct 2026: separate origin on a second GitHub Pages site** (see Phase 0).
 2. LO linking: allow reviewed `derived` links, or only links printed in the guide?
 3. Who reviews the program profiles and content model (✋ gates)?
 4. Which v2 additions to explore in Phase 6 (LO view, routine guide, remediation view)?
