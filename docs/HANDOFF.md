@@ -60,7 +60,7 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/up-hindi-ingestion` | `curricula/up-hindi-2026/`, `docs/tasks/up-hindi-ingestion.md`, this file | in progress: discovery done, waiting on owner | 6 PDFs downloaded to ~/Downloads/up-hindi-sources/ and imported (PDFs not committed: G3 WB is 135 MB > GitHub limit). Legacy-font Hindi decodes well with known fixes; structure matches Math. Next: owner answers (workbook editions, PDF storage), then decoder adapter → mapping → publish as subject Hindi. Details in task note. |
+| Claude Code | `task/up-hindi-ingestion` | `curricula/up-hindi-2026/`, `docs/tasks/up-hindi-ingestion.md`, this file | in progress: discovery done, waiting on owner | 6 PDFs downloaded to ~/Downloads/up-hindi-sources/ and imported (PDFs not committed: G3 WB is 135 MB > GitHub limit). Legacy-font Hindi decodes well with known fixes; structure matches Math. Do not push yet: `npm run verify:sources` fails on the 135 MB PDF by design (SOURCE_ARCHIVE.md: external archive or Git LFS; git-lfs not installed). Next: owner answers (workbook editions, PDF storage), then decoder adapter → mapping → publish as subject Hindi. Details in task note. |
 
 ## Change log
 
