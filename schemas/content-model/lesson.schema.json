@@ -160,6 +160,13 @@
         },
         "provenance": {
          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "instructions": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/text"
+         },
+         "$comment": "Exact published instruction variant when it differs from actions; [] means no alternate instructions. Never generated."
         }
        }
       },

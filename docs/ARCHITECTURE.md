@@ -153,3 +153,11 @@ The v2 plan separates a product-neutral content back end (model → versioned co
 → shared query library) from the products that read it: this website, a chatbot, remedial-plan
 and print tools. Only the website is built now; it is the first consumer and never owns
 curriculum data. Design and deferred decisions: [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md).
+
+## Phase 3 content boundary
+
+[CONTENT_COMPILER.md](CONTENT_COMPILER.md) defines model → validated immutable release
+→ dependency-free query API. Legacy-only export/order fields live in pack `compat/`,
+separate from canonical teaching fields. The v1 compatibility view reproduces both
+catalogs exactly. These repository releases are not wired into dist or deployed;
+the v2 website and full model population follow in later phases.

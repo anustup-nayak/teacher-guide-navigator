@@ -1,7 +1,8 @@
 # Content model (v2)
 
-Phase 2 of the [content architecture plan](CONTENT_ARCHITECTURE_PLAN.md). Draft, 31 October 2026;
-awaiting the curriculum-design review gate ✋. It is written from the two
+Phase 2 of the [content architecture plan](CONTENT_ARCHITECTURE_PLAN.md), frozen as ontology v1.0.0
+by the Phase 3 byte-parity gate (31 October 2026). See [compiler contract](CONTENT_COMPILER.md).
+It is written from the two
 [program profiles](../curricula/up-hindi-2026/model/PROGRAM_PROFILE.md) ([Math](../curricula/up-math-2026/model/PROGRAM_PROFILE.md)).
 
 - Schemas: [`schemas/content-model/`](../schemas/content-model/) (one per model file, plus `common`).
@@ -130,6 +131,7 @@ reviewed (plan §4a).
 | `workbook-activity-title` | a period-2 step titled “गतिविधि N” (N = number) is workbook practice | Hindi step → `hi-workbook-practice` |
 | `v1-phase-id-to-routine` | Math GRR phase ids map to the plan types in the weekly overview | Math step → routine |
 | `every-lesson-weekly-cycle` | every lesson links to its grade's weekly-cycle section | guide links |
+| `calendar-day-type` | lesson grade/week/day selects the explicit calendar cycle and day-type record | compiler structural graph (unreviewed link; source status retained) |
 | `objective-matches-lesson-title` | Math lesson title equals a weekly objective of its week | lesson → objective |
 | `workbook-part2-by-week-day` (proposed) | Hindi workbook part 2 page tagged “सप्ताह w दिवस d–d” links to period-3 steps of those days | fills the v1 gap found in Phase 1 |
 
@@ -185,6 +187,8 @@ recorded as `review: owner-approved`, see §3).
 | 6 | Day types (§1a)? | **Accepted** as listed for both subjects. |
 | 7 | Who signs off (plan §9.3)? | **The owner.** Academic review is not claimed; an academic reviewer can later raise items to `reviewed`. |
 
-**Status:** ontology **v1.0 release candidate**. It freezes as v1.0 when the Phase 3 compiler
-rebuilds today's v1 catalogs byte for byte from the model. After that, changes are additive
-only (new fields, values or entities); nothing published is renamed or removed.
+**Status:** ontology **v1.0.0**. The Phase 3 compiler rebuilds both v1 catalogs byte for byte
+from all 732 model lessons. Changes are additive only (new fields, values or entities);
+nothing published is renamed or removed. Content population/review in Phases 4–5 remains
+separate from this schema/parity gate. The additive `step.instructions` variant and typed
+asset index are specified in [CONTENT_COMPILER.md](CONTENT_COMPILER.md).

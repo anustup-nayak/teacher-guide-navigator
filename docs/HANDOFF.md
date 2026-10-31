@@ -41,7 +41,7 @@ mid-task. It is the first file to read and the last file to update.
 | Release | r61 (live, tag `v1.0.4`, `main` @ `49f873c`; `release/v1` mirrors it). `next` has `main` merged in |
 | Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
-| Checks | `npm test` (94 on `next`, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (12), skill script tests, `npm run verify:sources -- --require-complete` |
+| Checks | `npm test` (111 on compiler task branch, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (12), skill script tests, `npm run verify:sources -- --require-complete` |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
 | Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
 
@@ -56,7 +56,11 @@ decided every open point ([CONTENT_MODEL.md §6](CONTENT_MODEL.md)).
 
 1. **Done:** PRs #12 (content-platform design, website first: [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md))
    and #15 (ontology decisions) are merged into `next`.
-2. **Phase 3, the content compiler** (on a `task/*` branch from `next`, PR to `next`):
+2. **Phase 3, the content compiler** is implemented on `task/content-compiler` (PR to `next` pending).
+   See [compiler task evidence](tasks/content-compiler.md) and [compiler contract](CONTENT_COMPILER.md).
+   Dependency correction: PR #15 is still OPEN on GitHub; this branch includes its decisions locally.
+   Both v1 catalogs reconstruct byte for byte; ontology v1.0.0 is frozen in this branch.
+   The implemented compiler contract is:
    `scripts/content/compile.mjs` builds the website's content release
    ([CONTENT_PLATFORM.md §2, §7](CONTENT_PLATFORM.md): `manifest.json`, `entities/`, `graph.json`,
    `views/app/`, `views/v1/catalog.mjs`, `CHANGELOG.json`) and `content/query.mjs` (plain ES
@@ -79,6 +83,7 @@ the baseline.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Codex | `task/content-compiler` (isolated worktree from `next`, includes PR #15 dependency) | `scripts/content/compile.mjs`, lossless v1 adapter, `content/query.mjs`, compiler schemas/tests, generated model/releases, compiler docs | in progress | Read handoff/contracts. PR #15 is actually OPEN; locally merged its owner-decision commit as a dependency. Both catalogs reconstruct byte-for-byte (732 model lessons); compiler, graph, versioned outputs and query API implemented. 111 Node, 15 Python and 4 skill-helper tests passed; parity/release/graph/query gates implemented; docs/CI integrated. Final local gates PASS (111/15/4); generated output and docs staged. Next: push and PR to next, verify remote CI; #15 remains an open dependency. |
 | Claude Code | `task/ontology-decisions` (from `next`) | `docs/CONTENT_MODEL.md` §3/§6, `schemas/content-model/{vocabularies,common,outcomes}`, `curricula/*/model/structure.json`, `scripts/content/build_examples.mjs`, examples, profiles | Merged as PR #15 | Owner decided all 7 open points; ontology is v1.0 release candidate. Next: Phase 3 compiler (byte-for-byte v1 parity) freezes v1.0. |
 | Claude Code | `task/content-platform` (from `next`) | `docs/CONTENT_PLATFORM.md`; links in `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/ARCHITECTURE.md`, `docs/PRD.md` | Merged as PR #12 (`9ce00b1`) | Owner: build only the website now; design the content repository so other products can come later. Next: Phase 3 builds the website's content release and query library. |
 | Claude Code | `task/lesson-link-pack` (from `main`) | `dist/domain/selection.mjs`, `dist/app.mjs` (render), `tests/hindi-pack.test.mjs`, r61 bumps, `docs/ARCHITECTURE.md` | Merged as PR #14 (`49f873c`); live r61, tag `v1.0.4` | Done, and branches synced. Left: lazy subject loading. |
@@ -91,6 +96,23 @@ the baseline.
 | Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
 
 ## Change log
+
+### 2026-10-31 · Codex · `task/content-compiler` (PR to `next`)
+
+- Phase 3: validated immutable static releases, manifest/hash/changelog, typed graph,
+  per-grade app bundles, dependency-free query API with review gates. One-time
+  migration keeps canonical teaching fields in model JSON and legacy-only export
+  fields in pack compat/. Both catalogs reconstruct byte for byte (732 lessons);
+  ontology v1.0.0 frozen in this task branch. Full model population is still Phases 4–5.
+- Correction to earlier handoff: PR #15 is OPEN (verified via GitHub), not merged.
+  Its owner-approved decisions are a local dependency of this compiler branch.
+- 111 Node, 15 Python ingestion, 4 skill helper; content reproducibility/parity,
+  design lock, syntax, source integrity and publication/preservation all PASS locally.
+- No dist/design/storage/baseline/production deployment change. Static releases
+  remain repo artifacts; no retrieval/bot/v2 UI or public content endpoint added.
+- Task note: [content-compiler](tasks/content-compiler.md). Next: review PR/dependency,
+  then Phase 4/5 population; preview and v2 screens retain their owner gates.
+
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.

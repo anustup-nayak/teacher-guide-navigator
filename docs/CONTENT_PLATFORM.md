@@ -150,3 +150,10 @@ a fourth origin to the three existing assertion types: **generated**. Rules:
 4. **Generated content policy.** Allow labelled generated wording (§5), or retrieval-only
    answers that quote the guide?
 5. **Release publication.** Public `/content/` URLs, or private until rights are clear.
+
+## Phase 3 implementation
+
+The compiler, immutable repository releases and website query library are implemented
+on the v2 line; see [CONTENT_COMPILER.md](CONTENT_COMPILER.md). Both v1 catalogs pass
+byte parity. These releases are not copied to the live Pages artifact. Full model
+population and publication decisions remain separate.

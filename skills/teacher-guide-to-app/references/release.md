@@ -106,3 +106,13 @@ For GitHub delivery, read `docs/SOURCE_ARCHIVE.md` and `docs/GITHUB_PAGES.md`. R
 Do not replace a missing source with a different-checksum edition or a PDF rebuilt
 from page images. Archive PDFs outside dist; Pages uploads dist only. Test the
 actual project-prefix HTTPS URL after the check-gated workflow deploys.
+
+## Content-model releases on the v2 line
+
+Read `docs/HANDOFF.md`, `docs/VERSIONING.md` and `docs/CONTENT_COMPILER.md`. Compiler
+work branches from `next`; it does not change the live site. Run `npm run verify:content`
+alongside v1 preservation/design gates. Do not re-run the one-time v1 importer to reset
+authored models. Use a new semantic content version for changed release bytes, with an
+explicit previous version; keep old IDs/directories. Derived links and editorial summaries
+need reviewed/owner-approved status before default website queries expose them. A schema/
+parity pass freezes ontology v1.0, not academic approval or completion of Phases 4–5.
