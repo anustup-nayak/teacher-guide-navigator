@@ -41,7 +41,7 @@ mid-task. It is the first file to read and the last file to update.
 | Release | r56 (app, worker and import URLs) |
 | Published content | UP Mathematics Grades 1–3, pack `up-math-2026`: 366 day plans (183 direct, 183 weekly), 990 page images |
 | Teacher-data namespace | `up-sandarshika-2026-v1` (permanent) |
-| Checks | `npm test` (75, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion`, skill script tests, `npm run verify:sources -- --require-complete` |
+| Checks | `npm test` (75, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (9), skill script tests, `npm run verify:sources -- --require-complete` |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
 | Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
 
@@ -60,7 +60,7 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/up-hindi-ingestion` | `curricula/up-hindi-2026/`, `docs/tasks/up-hindi-ingestion.md`, this file | in progress: discovery done, waiting on owner | 6 PDFs downloaded to ~/Downloads/up-hindi-sources/ and imported (PDFs not committed: G3 WB is 135 MB > GitHub limit). Legacy-font Hindi decodes well with known fixes; structure matches Math. Do not push yet: `npm run verify:sources` fails on the 135 MB PDF by design (SOURCE_ARCHIVE.md: external archive or Git LFS; git-lfs not installed). Next: owner answers (workbook editions, PDF storage), then decoder adapter → mapping → publish as subject Hindi. Details in task note. |
+| Claude Code | `task/up-hindi-ingestion` | `curricula/up-hindi-2026/`, `scripts/verify_source_archive.py`, `tests/test_source_archive.py`, `docs/SOURCE_ARCHIVE.md`, `docs/tasks/up-hindi-ingestion.md`, this file | in progress: discovery done; branch local, not pushed | Originals committed (G3 workbook in Git LFS; verifier checks LFS pointers so CI needs no download). Owner: use these workbooks for now; a reply to Renu asking about editions is drafted in Gmail, awaiting owner OK to send. Next: build decoder adapter (per-font fixes, checked against page images) → map lessons/workbook pages → publish as subject Hindi → checks → PR. |
 
 ## Change log
 

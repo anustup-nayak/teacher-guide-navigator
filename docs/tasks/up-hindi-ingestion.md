@@ -63,7 +63,13 @@ authenticated browser or a local copy.
   G1 weeks 9–25, G2/G3 weeks 5–25, 5 days a week.
 - [x] Edition years on covers: TGs 2026–27; workbooks G1 2024–25, G2 2025–26,
   G3 2025–26.
-- [ ] Owner/Renu: confirm workbook editions; decide how to store the 135 MB PDF.
+- [x] Owner: use these workbooks for now and ask Renu on the same thread; reply
+  drafted in Gmail (not sent until the owner approves the wording).
+- [x] Owner chose Git LFS for the 135 MB workbook. Installed git-lfs 3.8.1, enabled
+  with `--local`, tracked by exact path. `verify_source_archive.py` now accepts
+  >100 MiB only when LFS-tracked and verifies LFS pointers against the manifest, so
+  CI does not download LFS content. Tests: 9/9 ingestion. Simulated CI clone
+  (`GIT_LFS_SKIP_SMUDGE=1`): verify:sources ok (13 documents, 1 pointer), npm test 75/75.
 - [ ] Then: decoder adapter, lesson mapping, source comparison, publish, register
   Hindi as a subject, full checks, PR.
 
