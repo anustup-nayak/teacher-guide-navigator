@@ -47,7 +47,7 @@ mid-task. It is the first file to read and the last file to update.
 
 ## Next up
 
-**UP Hindi (language subject), Grades 1–2.** Not started; no PDFs in the repo yet.
+**UP Hindi (language subject), Grades 1–3.** Discovery in progress (see *Active work*). Sources: Renu Chauhan's Drive folder “UP Literacy TG & WB” (TG G1–G3, Workbooks Sarangi G1–G2 and Veena 1 G3).
 Follow [skills/teacher-guide-to-app/SKILL.md](../skills/teacher-guide-to-app/SKILL.md)
 from its discovery step: obtain the Hindi Teacher Guide and Workbook PDFs,
 inspect them, agree a requirements brief with the owner, then build a **new,
@@ -60,7 +60,7 @@ new visual component needs owner approval under the design contract.
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| — | — | — | — | — |
+| Claude Code | `task/up-hindi-ingestion` | `curricula/<new Hindi pack>/`, `docs/tasks/up-hindi-ingestion.md`, this file | in progress: discovery (no app changes) | Owner chose Grades 1–3 from Renu Chauhan's Drive folder (6 PDFs, ~363 MB, received 31 Oct 2026). Next: download via in-app browser to ~/Downloads/up-hindi-sources/, import, extract, inspect, then present plan and requirements questions. |
 
 ## Change log
 
