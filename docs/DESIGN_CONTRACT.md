@@ -1,0 +1,100 @@
+# Protected design contract
+
+Owner-approved look, feel and teaching flow of Sandarshika as released in r56.
+No agent may change what this file protects without the owner's explicit
+approval in chat. Detailed rationale lives in the skill's
+[design reference](../skills/teacher-guide-to-app/references/design.md) and
+[VISUAL_DESIGN.md](VISUAL_DESIGN.md); this file says what is frozen and how a
+change is approved.
+
+## Why it is protected
+
+Teachers are Hindi-first, often new to smartphones, and learn the app once.
+A changed layout, label or route forces them to relearn it, and several agents
+working in turn would otherwise drift the design apart. Consistency is a
+feature here, not a matter of taste.
+
+## Frozen (owner approval required)
+
+1. **Flow.** Grade/subject → topic → summary card → full lesson, and
+   grade/subject → week → day card → the same lesson. No mandatory entrance,
+   onboarding, login, sub-topic or Prepare/Teach gate. Routes `#/find`,
+   `#/lesson/<id>`, `#/saved`, `#/help` and legacy `#/lesson/<id>/teach/<n>`
+   keep working.
+2. **Shell.** Header with brand, then the three links पाठ चुनें · मेरी सूची ·
+   मदद (in this order; `#find-link`, `#saved-link`, `#help-link`), then the
+   language menu (हिन्दी first and default). Below it, the
+   sticky grade/subject context line. Skip link first. One reader dialog.
+3. **Browse screen.** Two side-by-side route tabs, “पाठ के विषय से” and
+   “सप्ताह / दिन से”; topic groups expand to summary cards; cards end with
+   “पाठयोजना खोलें →” (or “साप्ताहिक रूपरेखा खोलें →” for weekly plans).
+4. **Lesson anatomy, in order.** Blue lesson banner with week/day badge;
+   wrapping sticky section chips (preparation, every source phase with its
+   minutes, my note, original pages); preparation blocks; one card per source
+   phase (coloured band with name and minutes, original artwork with
+   enlarge action, numbered actions, question strip, worksheet preview in
+   practice); my note; the explicit “पढ़ा दिया है · चिह्न लगाएँ” action with
+   undo; original books and pages; other-day links. The whole lesson scrolls;
+   nothing is collapsed or gated. Weekly plans keep one source phase and never
+   gain invented I do / We do / You do sections.
+5. **Palette tokens** in `dist/styles.css` `:root`: blue `#286f99`,
+   blue-dark `#174d6c`, ink `#253d4c`, body `#334d5c`, muted `#586c78`,
+   background `#f5f7f8`, line `#d4dfe5`, amber `#f0b35f`, pink `#df909d`,
+   purple `#b5a0c9`, focus `#854900`; source-card overrides in
+   `dist/guide-cards.css`. Role meaning is fixed: blue navigation, amber
+   teaching, pink practice, purple support.
+6. **Type and touch.** System UI font, body 17px / 1.65 line height, headings
+   28 / 23 / 19px, controls at least 48px tall, 3px focus outline. Text-size
+   control up to 200%. No horizontal scrolling at 320, 360 or 390px.
+7. **Vocabulary.** The Hindi labels above and the action names in the design
+   reference's “Meaning, action and reversal” table (मेरी सूची, बिना इंटरनेट
+   के लिए रखें, मूल पृष्ठ, मेरा नोट, …). English labels are their translations,
+   not separate designs.
+8. **Trust behaviour.** Original pages always reachable; adaptations
+   labelled; reading never marks a lesson taught; device-only storage
+   disclosed in Help.
+
+## Free to change without approval
+
+- Bug fixes that restore the behaviour described above, without changing a
+  protected file. If the fix needs a protected file, ask first.
+- Content work inside a pack: new reviewed lessons, worksheets, images, pack
+  palettes and illustration overrides in `CURRICULA[].visualStyle`, new
+  grade/subject options that appear because reviewed data exists.
+- Tests, docs, scripts and ingestion tooling.
+
+A new subject (for example Hindi language) uses these same screens and cards.
+If its source structure cannot be shown with the existing components, stop
+and propose the new component to the owner first.
+
+## How the lock works
+
+`docs/design-lock.json` stores SHA-256 hashes of the protected files:
+`dist/styles.css`, `dist/guide-cards.css` and the `dist/index.html` shell
+(release `?v=rNN` tokens are ignored, so normal releases do not trip it).
+`tests/design-lock.test.mjs` runs in `npm test` and fails when:
+
+- a protected file's hash differs from the lock without a recorded approval;
+- a frozen invariant breaks: palette tokens, base type and touch sizes,
+  header links and order, Hindi default, route parsing, browse tabs, lesson
+  chips, and the completion and note labels.
+
+`app.mjs` is not hash-locked because pack and content work edits it; its
+flow is guarded by the invariant tests instead.
+
+## Approving a design change
+
+1. Describe the change to the owner with before/after screenshots in Hindi at
+   360px (and English if labels change). Wait for an explicit yes in chat.
+2. Make the change on a task branch.
+3. Record the approval:
+   ```sh
+   npm run design:approve -- --reason "what changed and why" --approved-by "owner, in chat, YYYY-MM-DD"
+   ```
+   This refreshes the hashes and appends the reason, approver, date and files
+   to `docs/design-lock.json`. It refuses to run without both values.
+4. If a frozen rule itself changes, update this file and the invariant test in
+   the same commit, and add a HANDOFF log entry naming the approval.
+
+Running the approve command without the owner's approval breaks the project
+rules even though the test turns green. Reviewers check the approver field.

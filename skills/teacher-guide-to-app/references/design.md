@@ -1,5 +1,10 @@
 # Source-led design for novice government-school teachers
 
+In this repository the released design is frozen by `docs/DESIGN_CONTRACT.md` and
+enforced by `tests/design-lock.test.mjs`. The guidance below explains the design
+and applies when building it for a new product; for this app, propose changes to
+protected elements to the owner instead of applying them directly.
+
 ## Design from actual source families
 
 Compare cover/identity, representative teaching pages, worksheets, review pages

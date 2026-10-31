@@ -1,5 +1,9 @@
 # Developer handoff
 
+The live cross-agent state and change log is [HANDOFF.md](HANDOFF.md); the frozen
+look, feel and flow are in [DESIGN_CONTRACT.md](DESIGN_CONTRACT.md). Sections below
+marked with a release or date are historical records.
+
 ## Run from a fresh clone
 
 Requires Node.js 22+ and Python 3.11+ for ingestion/archive tooling. No npm dependencies or build step.
@@ -25,7 +29,9 @@ Open http://localhost:8000. localhost supports service workers; arbitrary HTTP h
 | dist/resources.json, worksheets.json, sources.json | Resource indices and provenance |
 | dist/source, workbook, textbook | 990 committed original-page WebP assets |
 | scripts | Optional PDF extraction, decoding and content repair pipeline |
-| tests | Node regression tests |
+| tests | Node regression tests, including the design lock |
+| docs/HANDOFF.md | Cross-agent current state, active work and change log |
+| docs/DESIGN_CONTRACT.md, docs/design-lock.json, scripts/design_lock.mjs | Protected design, its hashes/approvals and the check/approve command |
 | docs | Acceptance criteria, QA and content audit |
 
 The runnable app and its assets are self-contained. The source archive and its current completeness are documented in [SOURCE_ARCHIVE.md](SOURCE_ARCHIVE.md). Approved raw PDFs and reproducible embedded-text outputs belong in the repository; transient OCR/render files remain local. Python pipeline dependencies include PyMuPDF and Pillow; OCR also requires Tesseract with Hindi language data. Read each script's arguments before running: generation overwrites committed data and needs academic review. Do not regenerate the catalog as part of normal app development.

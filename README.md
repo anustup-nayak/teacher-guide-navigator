@@ -4,7 +4,7 @@ Buildless static app for Grade 1–3 UP Mathematics guides shared for AY 2026–
 
 ## Run and validate
 
-For local development run `python3 -m http.server 8000 --directory dist` and open http://localhost:8000. Requires Node.js 22+ and Python 3.11+ for ingestion/archive tooling. Read [developer handoff](docs/DEVELOPMENT.md) and [agent instructions](AGENTS.md) before editing. Use the Sites managed preview workflow when developing inside ChatGPT Sites. `npm test` runs the catalog, UI-navigation, offline and workspace regression checks. `npm run check` checks application syntax; also check `dist/sw.js` after worker changes. There are no runtime packages or build step. `.openai/hosting.json` is retained as historical Sites metadata; GitHub Pages uses `.github/workflows/pages.yml`.
+For local development run `python3 -m http.server 8000 --directory dist` and open http://localhost:8000. Requires Node.js 22+ and Python 3.11+ for ingestion/archive tooling. Agents start with the [handoff log](docs/HANDOFF.md) (current state, active work, change log) and the [protected design contract](docs/DESIGN_CONTRACT.md); then read the [developer handoff](docs/DEVELOPMENT.md) and [agent instructions](AGENTS.md) before editing. Use the Sites managed preview workflow when developing inside ChatGPT Sites. `npm test` runs the catalog, UI-navigation, offline and workspace regression checks. `npm run check` checks application syntax; also check `dist/sw.js` after worker changes. There are no runtime packages or build step. `.openai/hosting.json` is retained as historical Sites metadata; GitHub Pages uses `.github/workflows/pages.yml`.
 
 ## Resources and source pipeline
 

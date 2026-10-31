@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "contract": "docs/DESIGN_CONTRACT.md",
+  "files": {
+    "dist/styles.css": "f18b7f9e9eb0bab25564d71c37a4efd95afbc2920fd14a14ba9810c9a48da25b",
+    "dist/guide-cards.css": "9fce309ae6800f2d8644fb55b48d9621c680eaf656aed066be2c80d959561ea2",
+    "dist/index.html": "9f35bd7f63a6bf9b0993c955c0d5a9e4b50315e895966f0a85bfabe63e990ff6"
+  },
+  "approvals": [
+    {
+      "date": "2026-10-31",
+      "reason": "Baseline: r56 design as released and live-checked in Hindi on 2026-10-31",
+      "approvedBy": "owner (Anustup Nayak), in chat, 2026-10-31: asked to protect the current design",
+      "files": [
+        "dist/styles.css",
+        "dist/guide-cards.css",
+        "dist/index.html"
+      ]
+    }
+  ]
+}

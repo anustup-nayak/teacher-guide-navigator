@@ -36,6 +36,7 @@ Status vocabulary: NOT RUN, PASS, FAIL, LIMITED. No claim of zero defects or cla
 | OPS-01 | Syntax / catalog / regression tests pass; every required local asset exists | Automated checks | PASS |
 | OPS-02 | Print / source viewer / image errors have clear states and return path | UI / implementation check | LIMITED |
 | OPS-03 | Deployed version matches tested commit; production smoke test passes | Sites source helper / live browser | PUBLICATION CHECK |
+| OPS-04 | Protected design unchanged, or each change has an owner approval recorded in docs/design-lock.json and docs/HANDOFF.md (added 31 October 2026) | `npm run design:check`; review approvals | PASS (r56 baseline) |
 
 ## Severity and exit policy
 
