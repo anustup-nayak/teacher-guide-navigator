@@ -21,7 +21,11 @@ for(const input of data)test(`${input.pack}: all canonical lessons rebuild v1 by
   for(const [file,info]of Object.entries(r.manifest.files)){assert.equal(sha256(r.files.get(file)),info.sha256);assert.equal(Buffer.byteLength(r.files.get(file)),info.bytes);}
   const keys=new Set(Object.entries(r.entities).flatMap(([k,arr])=>arr.map(e=>`${k}:${e.id}`)));
   for(const link of r.graph){assert(keys.has(link.from));assert(keys.has(link.to));assert(link.assertion);assert(link.review);}
-  assert(r.graph.filter(e=>e.relation==='workbook').every(e=>e.from.startsWith('step:')));
+  // Workbook pages link from the step that uses them and from the lesson that cites them (1.0.1).
+  const wb=r.graph.filter(e=>e.relation==='workbook');
+  assert(wb.every(e=>e.from.startsWith('step:')||e.from.startsWith('lesson:')));
+  const lessonPages=new Set(wb.filter(e=>e.from.startsWith('lesson:')).map(e=>`${e.from}>${e.to}`));
+  assert.deepEqual(lessonPages,new Set(input.lessons.flatMap(l=>(l.workbook??[]).map(w=>`lesson:${l.id}>${w.to}`))));
   const q=createContentQuery(r);
   for(const lesson of input.lessons){assert.equal(q.day(lesson.grade,lesson.week,lesson.day).id,lesson.id);assert.equal(q.dayType(lesson.id).id,lesson.dayType);assert(q.cite(lesson.id).every(c=>c.doc&&c.pdf&&c.image));}
   assert.equal([1,2,3].reduce((n,g)=>n+JSON.parse(r.files.get(`views/app/grade-${g}.json`)).lessons.length,0),366);

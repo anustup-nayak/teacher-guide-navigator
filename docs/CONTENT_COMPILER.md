@@ -42,15 +42,16 @@ is part of the build. Legacy module text is parsed as JSON, never evaluated.
 Requires Node 22+. No npm dependency/install or build framework.
 
 ```sh
-npm run content:build -- --version 1.0.0
-npm run verify:content
-# Next content version, after model review and matching v1 repair if necessary:
 npm run content:build -- --version 1.0.1 --previous 1.0.0
+npm run verify:content        # pinned: --version 1.0.1 --previous 1.0.0 --check
+npm run verify:site           # dist/ catalogs equal the pinned releases' views/v1
+# Next content version, after model review and matching v1 repair if necessary:
+npm run content:build -- --version 1.0.2 --previous 1.0.1
 ```
 
 Optional final arguments select pack IDs. The current `verify:content` command pins
-1.0.0; change its pinned version/previous version in the same reviewed PR when the
-current canonical models advance. Older directories remain immutable; rebuilding
+1.0.1 (previous 1.0.0); change its pinned version/previous version in the same reviewed
+PR when the current canonical models advance. Older directories remain immutable; rebuilding
 an older release from newer models is not a supported update mechanism.
 
 Output: `content/<pack>/<version>/`:
@@ -110,10 +111,27 @@ curriculum assertion. Authoring tools can explicitly opt into
 `includeUnreviewedLinks: true`; the website must use the default. Outputs are
 projected copies; consumers cannot mutate the query's internal release.
 
+## Website pinning (the website reads the release)
+
+`content/website.json` pins each pack's release. `npm run site:publish` copies each pinned
+release's `views/v1/catalog.mjs` (after checking its manifest hash) to the website's catalog
+path in `dist/`; `npm run verify:site` and `tests/site-from-release.test.mjs` fail if `dist/`
+differs. So on `next` the website's lessons come from the compiled release, not from a
+hand-published copy. The same test checks that `views/app/grade-N.json` carries every teaching
+field the current website shows (titles, step ids/order, actions, questions, minutes, source
+pages, every cited workbook page) for all 732 lessons, so a v2 front end can switch to the app
+bundles without losing content. `reviewed/catalog.mjs` → `publish_curriculum.mjs` stays the v1
+ingestion path; the parity gate keeps both identical.
+
+**1.0.1 (31 Oct 2026):** adds lesson-level `workbook` links (every page the day cites, in order;
+318 Math and 313 Hindi lessons, 650 links). In 1.0.0 these existed only in the legacy bridge, so
+412 of 650 cited worksheet pages were missing from the app bundles. Additive (ontology v1.0.0);
+`views/v1` unchanged byte for byte. 1.0.0 stays immutable.
+
 ## Release boundaries and validation
 
-The two 1.0.0 releases live in the repository on `next`; they are **not published
-to the production website**. `dist/`, its pipeline, storage keys, caches and design
+The 1.0.0 and 1.0.1 releases live in the repository on `next`; they are **not published
+to the production website** (production is `main`). `dist/`, its pipeline, storage keys, caches and design
 lock are unchanged. There is no retrieval view, chatbot, generator or v2 UI in this
 phase. Preview/public `/content/` hosting remains a separate owner decision.
 

@@ -26,6 +26,11 @@ export function splitCatalog(text) {
   if (JSON.stringify(lessons)!==text.slice(start,end)) throw Error('Catalog needs an explicit serialization adapter');
   return {lessons,format:{prefix:text.slice(0,start),suffix:text.slice(end)}};
 }
+// Lesson-level workbook links sit after `assessment`, matching lesson.schema.json order.
+export function withWorkbook(lesson, workbook) {
+  const out={};for(const [k,v] of Object.entries(lesson)){if(k==='workbook')continue;out[k]=v;if(k==='assessment')out.workbook=workbook;}
+  for(const k of Object.keys(lesson))delete lesson[k];return out;
+}
 export function importLesson(v1, {documents, structure}) {
   const docs=Object.fromEntries(documents.filter(d=>d.grade===v1.grade).map(d=>[d.kind,d.id]));
   const {dayType}=dayTypeFor(structure,v1.grade,v1.week,v1.day);
@@ -41,6 +46,8 @@ export function importLesson(v1, {documents, structure}) {
     if(s.source&&phase.image===v1.source.image)s.source.printed=v1.source.page??null;
     if(s.workbook) s.workbook=s.workbook.map((link,i)=>({...link,source:{doc:docs.workbook,pdf:v1.worksheets[i].pdfPage,printed:v1.worksheets[i].page??null}}));
   }
+  // Every workbook page the day cites belongs to the lesson, not only to a flagged step.
+  if(v1.worksheets?.length)Object.assign(lesson,withWorkbook(lesson,v1.worksheets.map(w=>({to:`workbook:${docs.workbook}/p${w.pdfPage}`,assertion:'stated',review:'unreviewed',source:{doc:docs.workbook,pdf:w.pdfPage,printed:w.page??null}}))));
   const compatibility={keys:Object.keys(v1),fields:omit(v1,ROOT),source:{keys:Object.keys(v1.source),fields:omit(v1.source,['image','pdfPage','page'])},steps:{}};
   for(const p of v1.phases)compatibility.steps[p.id]={keys:Object.keys(p),fields:omit(p,STEP)};
   return {lesson,compatibility};
