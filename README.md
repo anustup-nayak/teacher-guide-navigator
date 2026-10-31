@@ -118,3 +118,10 @@ SHA-256 checksums, alongside fresh unreviewed embedded-text extraction for 990 p
 See [source archive](docs/SOURCE_ARCHIVE.md), [GitHub Pages setup](docs/GITHUB_PAGES.md)
 and [content rights](CONTENT_RIGHTS.md). `npm run verify:sources -- --require-complete`
 checks completeness and integrity independently of app content validation.
+
+## Content compiler (v2 integration line)
+
+The [Phase 3 compiler](docs/CONTENT_COMPILER.md) builds immutable, schema-validated
+content releases and a shared query contract; both legacy catalogs must reconstruct
+byte for byte. Run `npm run content:build -- --version 1.0.0` and
+`npm run verify:content`. Repository releases do not change the live v1 app.

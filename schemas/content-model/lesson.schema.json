@@ -160,6 +160,13 @@
         },
         "provenance": {
          "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "instructions": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/text"
+         },
+         "$comment": "Exact published instruction variant when it differs from actions; [] means no alternate instructions. Never generated."
         }
        }
       },
@@ -174,6 +181,13 @@
    "items": {
     "$ref": "common.schema.json#/$defs/link"
    }
+  },
+  "workbook": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/link"
+   },
+   "$comment": "every workbook page the day cites, in the guide's order (steps may also link the page they use)"
   },
   "guideLinks": {
    "type": "array",

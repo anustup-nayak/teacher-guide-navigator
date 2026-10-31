@@ -1,0 +1,92 @@
+{
+ "$id": "manifest.schema.json",
+ "type": "object",
+ "required": [
+  "pack",
+  "version",
+  "schemaVersion",
+  "counts",
+  "reviewSummary",
+  "pendingModels",
+  "inputs",
+  "entityHashes",
+  "files",
+  "legacyHashes"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "pack": {
+   "type": "string",
+   "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+  },
+  "version": {
+   "type": "string",
+   "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[a-z0-9.-]+)?$"
+  },
+  "schemaVersion": {
+   "const": "1.0.0"
+  },
+  "counts": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "integer",
+    "minimum": 0
+   }
+  },
+  "reviewSummary": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "integer",
+    "minimum": 0
+   }
+  },
+  "pendingModels": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "inputs": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "string",
+    "pattern": "^[0-9a-f]{64}$"
+   }
+  },
+  "entityHashes": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "string",
+    "pattern": "^[0-9a-f]{64}$"
+   }
+  },
+  "files": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "required": [
+     "sha256",
+     "bytes"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+     },
+     "bytes": {
+      "type": "integer",
+      "minimum": 0
+     }
+    }
+   }
+  },
+  "legacyHashes": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "string",
+    "pattern": "^[0-9a-f]{64}$"
+   }
+  }
+ }
+}

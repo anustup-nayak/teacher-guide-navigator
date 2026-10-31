@@ -1,0 +1,74 @@
+{
+ "pack": "up-math-2026",
+ "state": "UP",
+ "subject": "math",
+ "academicYear": "2026–27",
+ "grades": [
+  1,
+  2,
+  3
+ ],
+ "documents": [
+  {
+   "id": "workbook-g1-87d1e0f42ce2",
+   "kind": "workbook",
+   "grade": 1,
+   "title": {
+    "hi": "UP Numeracy Grade 1 WB AY 2026-2027.pdf"
+   }
+  },
+  {
+   "id": "workbook-g3-057d687b6500",
+   "kind": "workbook",
+   "grade": 3,
+   "title": {
+    "hi": "UP Numeracy Grade 3 WB AY 2026-2027.pdf"
+   }
+  },
+  {
+   "id": "workbook-g2-9a90832e59d1",
+   "kind": "workbook",
+   "grade": 2,
+   "title": {
+    "hi": "UP Numeracy Grade 2 WB AY 2026-2027.pdf"
+   }
+  },
+  {
+   "id": "textbook-g3-0ecea86290ba",
+   "kind": "textbook",
+   "grade": 3,
+   "title": {
+    "hi": "ganit mela class 3.pdf"
+   }
+  },
+  {
+   "id": "guide-g3-186da9c8f52a",
+   "kind": "guide",
+   "grade": 3,
+   "title": {
+    "hi": "UP Numeracy Grade 3 TG AY 2026-2027.pdf"
+   }
+  },
+  {
+   "id": "guide-g2-9b3436f6e0f7",
+   "kind": "guide",
+   "grade": 2,
+   "title": {
+    "hi": "UP Numeracy Grade 2 TG AY 2026-2027.pdf"
+   }
+  },
+  {
+   "id": "guide-g1-167f09e3bf58",
+   "kind": "guide",
+   "grade": 1,
+   "title": {
+    "hi": "UP Numeracy Grade 1 TG AY 2026-2027.pdf"
+   }
+  }
+ ],
+ "provenance": {
+  "assertion": "editorial",
+  "review": "unreviewed",
+  "note": "Pack identity and archive metadata; no new source/academic approval."
+ }
+}

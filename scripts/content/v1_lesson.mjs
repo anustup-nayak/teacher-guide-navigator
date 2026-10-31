@@ -44,7 +44,7 @@ export function lessonFromV1(lesson, {docs, routineFor, unit, outcomes = [], obj
     if (routine) step.routine = routine;
     step.actions = phase.actions;
     if (phase.questions?.length) step.questions = phase.questions;
-    const sheets = phase.worksheetPreview || phase.id === 'practice' ? lesson.worksheets : [];
+    const sheets = phase.worksheetPreview || phase.id === 'practice' ? (lesson.worksheets || []) : [];
     if (sheets.length) step.workbook = sheets.map(w => ({to: `workbook:${docs.workbook}/p${w.pdfPage}`, assertion: 'stated', review,
       source: pageRef(phase.image, docs)}));
     const source = pageRef(phase.image, docs, phase.sourceRect);

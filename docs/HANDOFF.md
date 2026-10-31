@@ -41,44 +41,35 @@ mid-task. It is the first file to read and the last file to update.
 | Release | r61 (live, tag `v1.0.4`, `main` @ `49f873c`; `release/v1` mirrors it). `next` has `main` merged in |
 | Published content | UP Mathematics Grades 1–3, `up-math-2026`: 366 day plans, 990 page images. UP Hindi Grades 1–3, `up-hindi-2026`: 366 day plans, 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (both permanent) |
-| Checks | `npm test` (94 on `next`, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (12), skill script tests, `npm run verify:sources -- --require-complete` |
+| Checks | `npm test` (112 on compiler task branch, includes design lock), `npm run check`, `node --check dist/sw.js`, `npm run verify:publication`, `npm run test:ingestion` (15), skill script tests, `npm run verify:sources -- --require-complete` |
+| Content compiler | Phase 3 implemented in PR #16 (not merged); ontology/release 1.0.0, 732 lessons, both v1 byte-parity gates PASS. PR #15 merged as `7c9556a`; compiler branch synced. |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
 | Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
 
 ## Next up
 
-*Refreshed 31 Oct 2026 for the next agent (Codex or Claude Code). Read AGENTS.md first.*
+*Refreshed 31 Oct 2026 by Claude Code after taking over Phase 3 from Codex; read AGENTS.md first.*
 
-**Where things stand.** v1 is live at r61 (`main` @ `49f873c`, tag `v1.0.4`; `release/v1`
-mirrors it). v2 work is on `next`: Phases 1–2 merged (program profiles, section and page maps,
-content model, program structure). The ontology is a **v1.0 release candidate**: the owner
-decided every open point ([CONTENT_MODEL.md §6](CONTENT_MODEL.md)).
+v1 is live at r61 (`main` @ `49f873c`, tag `v1.0.4`; `release/v1` mirrors it). v2 is on `next`.
 
-1. **Done:** PRs #12 (content-platform design, website first: [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md))
-   and #15 (ontology decisions) are merged into `next`.
-2. **Phase 3, the content compiler** (on a `task/*` branch from `next`, PR to `next`):
-   `scripts/content/compile.mjs` builds the website's content release
-   ([CONTENT_PLATFORM.md §2, §7](CONTENT_PLATFORM.md): `manifest.json`, `entities/`, `graph.json`,
-   `views/app/`, `views/v1/catalog.mjs`, `CHANGELOG.json`) and `content/query.mjs` (plain ES
-   modules, no browser APIs). **Gate:** `views/v1/` must equal today's `dist/catalog.mjs` and
-   `dist/packs/up-hindi-2026/catalog.mjs` byte for byte. Start from `scripts/content/v1_lesson.mjs`
-   (v1 record → model lesson) and `structure.mjs` (day types and slots). When the gate passes,
-   mark the ontology v1.0 (additive changes only after that).
-3. **Phases 4–5** fill the full model per pack (outcomes, sequence, routines, materials,
-   assessments, guide passages) using the §6 decisions.
-4. **Blocked on the owner:** Phase 0 preview site (needs a GitHub organisation name); Phase 6
-   v2 screen design needs owner approval before any v2 UI (design contract).
+1. **Owner reviews/merges [PR #16](https://github.com/anustup-nayak/teacher-guide-navigator/pull/16)**
+   (Phase 3 compiler + website pinned to content release 1.0.1). Evidence:
+   [task note](tasks/content-compiler.md), [compiler contract](CONTENT_COMPILER.md).
+2. **Phases 4–5** (task branch from `next`): populate outcomes, sequence, routines, materials,
+   assessments and guide passages per pack using [CONTENT_MODEL.md §6](CONTENT_MODEL.md); build
+   the next release with `--previous`, advance `content/website.json` and `verify:content` together.
+3. **Owner decisions:** Phase 0 preview site (organisation name); Phase 6 v2 screens (design
+   approval) before any v2 UI reads `views/app` through `content/query.mjs`.
 
-**v1 follow-ups** (on `main`, then fast-forward `release/v1`, tag `v1.0.N`, merge `main` into
-`next`; see [VERSIONING.md](VERSIONING.md)): load each subject's lessons only when selected;
-real-phone, TalkBack and print checks (need a person). Content repairs use `repairs.json` and a
-recorded baseline amendment ([CURRICULUM_EXPANSION.md](CURRICULUM_EXPANSION.md)); never reset
-the baseline.
+**v1 follow-ups** (on `main`; see [VERSIONING.md](VERSIONING.md)): lazy subject loading;
+real-phone, TalkBack and print checks. Content repairs: `repairs.json` + recorded baseline
+amendment, then rebuild the content release so `verify:site` stays green after `main` → `next`.
 
 ## Active work
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Claude Code (took over from Codex) | `task/content-compiler` ([PR #16](https://github.com/anustup-nayak/teacher-guide-navigator/pull/16)) | `curricula/*/model/lessons/`, `schemas/content-model/lesson.schema.json`, `scripts/content/{v1_codec,publish_site}.mjs`, `content/` (1.0.1, `website.json`), `tests/site-from-release.test.mjs`, `docs/CONTENT_COMPILER.md` | PR to `next` open | Codex out of credits; continued. Added lesson workbook links (release 1.0.1), pinned the website to the release, browser-verified query library and all Hindi + 122 Math lessons. Next: owner merges #16. |
 | Claude Code | `task/ontology-decisions` (from `next`) | `docs/CONTENT_MODEL.md` §3/§6, `schemas/content-model/{vocabularies,common,outcomes}`, `curricula/*/model/structure.json`, `scripts/content/build_examples.mjs`, examples, profiles | Merged as PR #15 | Owner decided all 7 open points; ontology is v1.0 release candidate. Next: Phase 3 compiler (byte-for-byte v1 parity) freezes v1.0. |
 | Claude Code | `task/content-platform` (from `next`) | `docs/CONTENT_PLATFORM.md`; links in `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/ARCHITECTURE.md`, `docs/PRD.md` | Merged as PR #12 (`9ce00b1`) | Owner: build only the website now; design the content repository so other products can come later. Next: Phase 3 builds the website's content release and query library. |
 | Claude Code | `task/lesson-link-pack` (from `main`) | `dist/domain/selection.mjs`, `dist/app.mjs` (render), `tests/hindi-pack.test.mjs`, r61 bumps, `docs/ARCHITECTURE.md` | Merged as PR #14 (`49f873c`); live r61, tag `v1.0.4` | Done, and branches synced. Left: lazy subject loading. |
@@ -91,6 +82,35 @@ the baseline.
 | Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
 
 ## Change log
+
+### 2026-10-31 · Claude Code · `task/content-compiler` (took over PR #16 from Codex)
+
+- Codex ran out of credits; its branch was clean and green. Found that the app bundles lacked 412
+  of 650 cited workbook pages; added lesson-level `workbook` links to the model and built content
+  release 1.0.1 (1.0.0 immutable; v1 views byte-identical). The website is now pinned to the
+  release (`content/website.json`, `site:publish`/`verify:site`); a new test proves `dist/` equals
+  the release and the app bundles carry everything the site shows for all 732 lessons.
+- Browser: query library runs on the hash-verified release; release-driven site QA passes (366
+  Hindi + 122 Math lessons at 390 px). Checks: see the [task note](tasks/content-compiler.md).
+
+### 2026-10-31 · Codex · `task/content-compiler` ([PR #16](https://github.com/anustup-nayak/teacher-guide-navigator/pull/16) to `next`)
+
+- Phase 3: validated immutable static releases, manifest/hash/changelog, typed graph,
+  per-grade app bundles, dependency-free query API with review gates. One-time
+  migration keeps canonical teaching fields in model JSON and legacy-only export
+  fields in pack compat/. Both catalogs reconstruct byte for byte (732 lessons);
+  ontology v1.0.0 frozen in this task branch. Full model population is still Phases 4–5.
+- At implementation start PR #15 was OPEN; it merged as `7c9556a` during close-out.
+  Synced the compiler branch with next and retained both the owner decisions and
+  the proven v1.0.0 parity freeze while resolving two documentation conflicts.
+- Local and both GitHub check runs PASS on `92663b9` (PR #16 is mergeable).
+- 112 Node, 15 Python ingestion, 4 skill helper; content reproducibility/parity,
+  design lock, syntax, source integrity and publication/preservation all PASS locally.
+- No dist/design/storage/baseline/production deployment change. Static releases
+  remain repo artifacts; no retrieval/bot/v2 UI or public content endpoint added.
+- Task note: [content-compiler](tasks/content-compiler.md). Next: review PR/dependency,
+  then Phase 4/5 population; preview and v2 screens retain their owner gates.
+
 
 Newest first. Each entry: date, agent, branch/commit, what changed, checks run,
 task note, and anything left undone.

@@ -12,6 +12,10 @@
     "record:additions": "node scripts/record_additions.mjs",
     "verify:sources": "python3 scripts/verify_source_archive.py",
     "design:check": "node scripts/design_lock.mjs check",
-    "design:approve": "node scripts/design_lock.mjs approve"
+    "design:approve": "node scripts/design_lock.mjs approve",
+    "content:build": "node scripts/content/compile.mjs",
+    "verify:content": "node scripts/content/compile.mjs --version 1.0.1 --previous 1.0.0 --check",
+    "site:publish": "node scripts/content/publish_site.mjs",
+    "verify:site": "node scripts/content/publish_site.mjs --check"
   }
 }
