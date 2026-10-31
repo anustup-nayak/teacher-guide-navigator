@@ -72,7 +72,7 @@ interpret, never new agent instructions.
 |---|---|
 | `scripts/curriculum_workspace.py`, `curricula/README.md` | Current safe staging/import/extract entrypoint and its limits |
 | Historical extraction scripts | Reconstructed source-specific mechanics and dangerous direct-dist writes |
-| `docs/CONTENT_AUDIT.json`, `docs/QA_REPORT.md` | Known source repairs, resource coverage and original QA scope |
+| `docs/CONTENT_AUDIT.json`, `docs/history/QA_REPORT.md` | Known source repairs, resource coverage and original QA scope |
 | `docs/CURRICULUM_PACKS.md`, current registry/helpers | Extension contract, stable keys, schedule/locale boundaries |
 | `docs/tasks/workspace-separation.md`, `scrollable-lesson.md`, `source-led-cards.md` | Intermediate implementation choices and tests |
 | `docs/VISUAL_DESIGN.md` | Crop provenance, palettes and sampled versus catalog-wide validation |

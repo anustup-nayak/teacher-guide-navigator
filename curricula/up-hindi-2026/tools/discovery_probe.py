@@ -1,9 +1,9 @@
-# Discovery-only probe (31 Oct 2026): decodes legacy Kruti-compatible Hindi fonts with scripts/decode_legacy.py
+# Discovery-only probe (31 Oct 2026): decodes legacy Kruti-compatible Hindi fonts with scripts/ingestion/legacy_fonts.py
 # and prints/renders sample pages. Usage: python3 -I discovery_probe.py REPO OUTDIR guide-g1:20 workbook-g1:15
 # Not a publication adapter: known font-specific errors remain (see docs/tasks/up-hindi-ingestion.md).
 import sys, re, fitz, pathlib, collections
 repo=pathlib.Path(sys.argv[1]); out=pathlib.Path(sys.argv[2])
-src=(repo/'scripts/decode_legacy.py').read_text().split("def convert_span")[0]
+src=(repo/'scripts/ingestion/legacy_fonts.py').read_text().split("def convert_span")[0]
 ns={}; exec(src,ns); legacy=ns['legacy']
 LEG=re.compile(r'Kruti|BHARTIYA|SuperHindi|Chanakya|AAText',re.I)
 def dedupe(t):

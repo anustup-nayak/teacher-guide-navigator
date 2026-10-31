@@ -24,7 +24,10 @@
    "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[a-z0-9.-]+)?$"
   },
   "schemaVersion": {
-   "const": "1.0.0"
+   "enum": [
+    "1.0.0",
+    "1.1.0"
+   ]
   },
   "counts": {
    "type": "object",
@@ -87,6 +90,55 @@
     "type": "string",
     "pattern": "^[0-9a-f]{64}$"
    }
+  },
+  "programStructure": {
+   "type": "object",
+   "required": [
+    "file",
+    "understanding",
+    "profile",
+    "sections",
+    "pageMap",
+    "status",
+    "review",
+    "dimensions"
+   ],
+   "properties": {
+    "file": {
+     "const": "structure.json"
+    },
+    "understanding": {
+     "const": "program-understanding.json"
+    },
+    "profile": {
+     "const": "PROGRAM_PROFILE.md"
+    },
+    "sections": {
+     "const": "sections.json"
+    },
+    "pageMap": {
+     "const": "pagemap.json"
+    },
+    "status": {
+     "enum": [
+      "not-started",
+      "in-progress",
+      "documented"
+     ]
+    },
+    "review": {
+     "enum": [
+      "unreviewed",
+      "source-compared",
+      "reviewed",
+      "owner-approved"
+     ]
+    },
+    "dimensions": {
+     "type": "array"
+    }
+   },
+   "additionalProperties": false
   }
  }
 }

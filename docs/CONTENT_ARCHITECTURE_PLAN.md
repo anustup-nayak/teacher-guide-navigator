@@ -1,7 +1,10 @@
 # Ontology-led content system and app v2 — build plan
 
-Status: **proposal for owner approval**, 31 October 2026. Nothing in this plan has been
-implemented. Live app: r57 (UP Math + Hindi, Grades 1–3). Author: Claude Code.
+Status: **approved by the owner and in progress** (31 October 2026). Done: Phase 0 except the preview
+site, Phases 1–3 (profiles and maps, content model and program structure, compiler and content
+releases; the website on `next` reads release 1.1.0). Next: Phases 4–5 and the program-guide design
+([PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md)). Live app: `main`, r61. The phase list below is the
+original plan; [HANDOFF.md](HANDOFF.md) has the current state.
 
 ## 1. Why
 

@@ -1,5 +1,11 @@
 # Conversational discovery and requirements freeze
 
+Whole-program metadata is mandatory: follow [program understanding](program-understanding.md)
+and `docs/PROGRAM_METADATA.md`. Run `npm run verify:program` and the pinned
+`npm run verify:content`; a source profile alone cannot replace structured evidence,
+calendar/day-type validation or source review. Preserve older immutable releases.
+
+
 Applies when starting a new PDF-to-app task, not when merely editing this skill.
 
 ## First response

@@ -1,103 +1,95 @@
-# Developer handoff
+# Developer guide
 
-The live cross-agent state and change log is [HANDOFF.md](HANDOFF.md); the frozen
-look, feel and flow are in [DESIGN_CONTRACT.md](DESIGN_CONTRACT.md). Sections below
-marked with a release or date are historical records.
+How to run, change, check and release Sandarshika. The live cross-agent state is
+[HANDOFF.md](HANDOFF.md); rules for every agent are in [AGENTS.md](../AGENTS.md); the frozen look,
+feel and flow are in [DESIGN_CONTRACT.md](DESIGN_CONTRACT.md). Dated notes from earlier releases are
+kept in [history/DEVELOPMENT_LOG.md](history/DEVELOPMENT_LOG.md).
 
 ## Run from a fresh clone
 
-Requires Node.js 22+ and Python 3.11+ for ingestion/archive tooling. No npm dependencies or build step.
+Requires Node.js 22+ and Python 3.11+ (ingestion and source-archive tools only). No npm dependencies
+or build step.
 
 ```sh
+python3 -m http.server 8000 --directory dist   # open http://localhost:8000
 npm test
 npm run check
-python3 -m http.server 8000 --directory dist
 ```
 
-Open http://localhost:8000. localhost supports service workers; arbitrary HTTP hosts may not. Static hosting must serve .mjs as JavaScript and preserve relative resource paths. No API keys, database or account setup is required.
+Use localhost or HTTPS (service workers); `file://` is unsupported. Static hosts must serve `.mjs` as
+JavaScript and keep relative paths. No API keys, database or accounts. Python's simple server sends no
+cache headers, so after changing modules without a new release token a browser may keep old files: use
+a fresh port or clear the site's cache when checking.
 
-## File map
+## Where things live
 
 | Path | Purpose |
 |---|---|
-| dist/app.mjs | UI, routing, persistence orchestration |
-| dist/core.mjs | Catalog, routing and storage helpers |
-| dist/catalog.mjs | Published UP lesson snapshot; matches curricula/up-math-2026/reviewed |
-| dist/data.mjs | Data exports |
-| dist/styles.css | Responsive styles |
-| dist/sw.js | Explicit offline caching |
-| dist/resources.json, worksheets.json, sources.json | Resource indices and provenance |
-| dist/source, workbook, textbook | 990 committed original-page WebP assets |
-| scripts | Optional PDF extraction, decoding and content repair pipeline |
-| tests | Node regression tests, including the design lock |
-| docs/HANDOFF.md | Cross-agent current state, active work and change log |
-| docs/DESIGN_CONTRACT.md, docs/design-lock.json, scripts/design_lock.mjs | Protected design, its hashes/approvals and the check/approve command |
-| docs | Acceptance criteria, QA and content audit |
+| `dist/` | The website (only this is deployed): `app.mjs` (UI, routes), `core.mjs`, `ux.mjs`, `domain/`, `services/`, `features/`, `views/`, `sw.js` (offline), `styles.css` + `guide-cards.css` (protected) |
+| `dist/catalog.mjs`, `dist/packs/up-hindi-2026/catalog.mjs` | Lesson catalogs (Math at its legacy path, Hindi under its pack); on `next` copied from the pinned content release |
+| `dist/day-types.mjs` | Generated day-type calendar and labels for cards (do not edit) |
+| `dist/source`, `workbook`, `textbook`, `packs/*/` | Original page images (WebP), loaded on demand |
+| `curricula/<pack>/` | One curriculum pack: `originals/` (PDFs + checksums), `extracted/` (unreviewed), `tools/` (adapters), `model/` (canonical model), `compat/` (v1 bridge), `reviewed/` (v1 snapshot) |
+| `content/<pack>/<version>/`, `content/query.mjs`, `content/website.json` | Compiled content releases, the shared query library, and the website's pinned versions |
+| `schemas/` | Content-model and release contracts |
+| `scripts/content/` | Compiler, program-metadata check, site publisher, validator |
+| `scripts/` | v1 publication, preservation, release-assets, source-archive and design-lock tools |
+| `tests/` | Node (`*.test.mjs`) and Python (`test_*.py`) tests |
+| `skills/teacher-guide-to-app/` | Reusable PDF-to-app workflow |
 
-The runnable app and its assets are self-contained. The source archive and its current completeness are documented in [SOURCE_ARCHIVE.md](SOURCE_ARCHIVE.md). Approved raw PDFs and reproducible embedded-text outputs belong in the repository; transient OCR/render files remain local. Python pipeline dependencies include PyMuPDF and Pillow; OCR also requires Tesseract with Hindi language data. Read each script's arguments before running: generation overwrites committed data and needs academic review. Do not regenerate the catalog as part of normal app development.
+Full folder ownership: [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md).
+
+## Checks
+
+Run all of these before a PR (CI runs them on every push):
+
+```sh
+npm test                          # Node tests incl. design lock, compiler parity, site-from-release
+npm run check                     # all dist modules parse and resolve
+node --check dist/sw.js
+npm run verify:content            # pinned content release rebuilds byte for byte (v2 line)
+npm run verify:site               # dist/ catalogs and day types equal the pinned release (v2 line)
+npm run verify:program            # whole-program metadata readiness per pack
+npm run verify:publication        # reviewed snapshots equal dist/; preservation baseline intact
+npm run test:ingestion            # Python ingestion tests (needs PyMuPDF, Pillow)
+npm run verify:sources -- --require-complete
+```
+
+Read exit codes: piping to `tail` hides a failing command. File-sync tools (iCloud, Dropbox) can drop
+copies named `… 2.json` into the tree, including inside `.git`; the compiler refuses them. Keep the
+repository out of synced folders, and check `git status` for `* 2*` files if a gate fails oddly.
+
+## Changing things
+
+- **UI** (`dist/`): test Hindi and English at 360 and 390 px, keyboard navigation and old deep links.
+  Protected files and frozen behaviour need the owner's approval ([DESIGN_CONTRACT.md](DESIGN_CONTRACT.md)).
+- **Lesson content repairs (v1, on `main`)**: add a source-compared entry to
+  `curricula/<pack>/tools/repairs.json`, rebuild with the pack's `build_pack.py --no-images`, publish with
+  `node scripts/publish_curriculum.mjs <pack>`, and record a reviewed baseline amendment
+  ([CURRICULUM_EXPANSION.md](CURRICULUM_EXPANSION.md)). After `main` is merged into `next`, rebuild the
+  content release so `verify:site` stays green.
+- **Content model (v2, on `next`)**: edit `curricula/<pack>/model/`, then
+  `npm run content:build -- --version <next> --previous <current>`, update `content/website.json` and the
+  `verify:content` pin, and run `npm run site:publish` ([CONTENT_COMPILER.md](CONTENT_COMPILER.md)).
+- **New PDFs / grades / subjects**: follow the skill and [CURRICULUM_EXPANSION.md](CURRICULUM_EXPANSION.md).
+
+## Releasing (v1)
+
+Branches and tags: [VERSIONING.md](VERSIONING.md). For a release on `main`: `npm run manifest` if page
+images changed, `npm run release:assets -- rNN` (coordinates every `?v=` token and the worker shell), all
+checks, PR, merge (GitHub Pages deploys `dist/` from `main`: [GITHUB_PAGES.md](GITHUB_PAGES.md)), then
+fast-forward `release/v1`, tag `v1.0.N` and merge `main` into `next`. `next` carries its own higher rNN.
+
+## Parallel agents
+
+One task branch and worktree per agent; agree file ownership first. `dist/app.mjs` and the CSS files are
+shared hotspots: one agent at a time. Browser storage is not isolated by worktree, so use separate ports or
+browser profiles for tests.
 
 ## Coverage and limits
 
-366 day records: 183 direct plans and 183 weekly plans. Direct plans have six source stages, not seven invented phases. Grade 1 starts Week 9. Grades 2/3 start Week 1. Review weeks 13/20 use original resources. Grade 1/2 textbook PDFs are not bundled; printed page references are intentional. Grade 3 textbook and all guides/workbooks have in-app images.
-
-Independent academic proofreading, teacher field testing and physical-device verification remain outstanding. See the QA reports for precise scope. Text and images retain their original rights; repository transfer does not grant a new content licence.
-
-## Parallel coding agents
-
-```sh
-git worktree add ../sand-ui -b task/lesson-loop
-git worktree add ../sand-content -b task/content-review
-```
-
-Give each agent a task note and exclusive file scope. Suggested streams: UI/navigation; source content; QA/accessibility. Integrate one reviewed PR at a time, rebase the next branch, and rerun checks. Shared local storage in a browser profile is not isolated by git worktree: use separate browser profiles or ports for tests.
-
-## Deployment
-
-Serve dist/ on any static host. The .openai/hosting.json manifest identifies the existing Sites publication and is not a credential. Changing GitHub source does not automatically update that publication. GitHub Pages now has a check-gated workflow that publishes only dist/ from main. See [GITHUB_PAGES.md](GITHUB_PAGES.md) for setup and verification. No deploy secrets are needed.
-
-## Scrollable lesson (local release r18)
-
-The full lesson now renders preparation, every source teaching phase, notes and
-references inline, with sticky wrapping jump chips. The phase dropdown and fixed
-next/previous bar have been replaced by the full-loop navigator and explicit
-completion after the phases. Old phase URLs and saved progress remain supported.
-See `docs/tasks/scrollable-lesson.md` for validation. These are local changes;
-no production publication has been performed.
-
-## Curriculum extension (31 October 2026)
-
-See `docs/CURRICULUM_PACKS.md` for the pack contract and onboarding procedure.
-The UI now reads metadata, grades, reviews and resource paths from
-`dist/curricula.mjs`. UP remains the default and retains all old storage keys.
-There are now 38 Node regression tests and 3 Python ingestion tests. `docs/TRANSFER_MANIFEST.original.json` describes the original
-transfer, not this locally modified source tree.
-
-## Ingestion workspace (31 October 2026)
-
-See `curricula/README.md`. The original 31 October setup treated originals and drafts as local stages. The current [source archive contract](SOURCE_ARCHIVE.md) supersedes that Git policy; normalized reviewed files are still published explicitly. `npm run
-verify:publication` checks the UP snapshot. Python ingestion tests require the
-optional `scripts/requirements-ingestion.txt` dependencies. CI runs both suites.
-
-Browser smoke checks after separation: Grades 1/3 and week/day navigation,
-original Grade 3 Week 13 review page image, legacy lesson/phase URL, bookmark
-and note persistence through reload (temporary test values restored), keyboard
-skip link, and Hindi/English lesson layouts at 360/390px without horizontal
-overflow. No browser console errors captured. Physical-device/classroom and
-full academic review remain separate outstanding checks.
-
-## Source-led cards (local release r27)
-
-`dist/guide-cards.css` layers source-specific compact cards over the base UI.
-`dist/lesson-visuals.mjs` validates and renders original-artwork viewports;
-`CURRICULA[].visualStyle` holds pack/grade palettes and geometry overrides.
-See `docs/VISUAL_DESIGN.md` and `docs/tasks/source-led-cards.md`. Source data
-remains byte-identical to its reviewed snapshot. No production deployment.
-
-## Modular runtime (r48)
-
-The current [PRD](PRD.md) and [architecture](ARCHITECTURE.md) supersede historical
-file-map/count descriptions above where they differ. Registry metadata, instance
-preferences, resource fetching, reader/offline state and source-media views now
-have explicit module boundaries. App composition preserves the existing routes
-and storage keys. New modules are recursively syntax-checked and included in the
-release shell through `npm run release:assets -- rNN`; no framework/build step added.
+732 day plans: Math 183 direct plans + 183 weekly templates; Hindi 366 three-period plans (day 6 combines
+periods 2 and 3 for the weekly assessment from the week it starts). Grade 1 begins week 9; Grades 2–3
+begin week 1; weeks 13 and 20 are periodic-revision pages. Grade 1–2 Math textbooks are not bundled
+(printed page references instead). No independent academic proofreading, teacher field test, or
+physical phone, screen-reader or printer check has been done.

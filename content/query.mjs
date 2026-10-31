@@ -7,7 +7,7 @@ export function createContentQuery(release,{includeUnreviewedLinks=false}={}){
   const visibleLink=l=>includeUnreviewedLinks||visible(l);
   function project(v){
     if(!v||typeof v!=='object')return v;
-    if(v.to&&!visibleLink(v))return undefined;
+    if(typeof v.to==='string'&&!visibleLink(v))return undefined;
     if(Array.isArray(v))return v.map(project).filter(x=>x!==undefined);
     const out={};for(const [key,value]of Object.entries(v)){
       // Legacy guide drafts mixed stated sourceText with explicitly editorial summaries.
@@ -56,5 +56,5 @@ export function createContentQuery(release,{includeUnreviewedLinks=false}={}){
     const refs=[...(node.source?[node.source]:[]),...(node.provenance?.sources||[])];
     return [...new Map(refs.map(s=>[JSON.stringify(s),s])).values()].map(s=>({doc:s.doc,pdf:s.pdf,printed:s.printed??null,...(s.rect?{rect:[...s.rect]}:{}),image:(entities.resource||[]).concat(entities.workbook||[]).find(a=>a.source.doc===s.doc&&a.source.pdf===s.pdf)?.image||null}));
   }
-  return Object.freeze({pack:data.manifest?.pack,version:data.manifest?.version,entity,links,lesson:id=>entity('lesson',id),day:(grade,week,day)=>{const l=lessons().find(l=>l.grade===grade&&l.week===week&&l.day===day);return l?entity('lesson',l.id):null;},dayType:value=>{const l=typeof value==='string'?index.get(`lesson:${value}`):value;return l?entity('daytype',l.dayType):null;},routine:id=>entity('routine',id),stepsByRoutine,lessonsForOutcome,assessmentFor,remediationFor,passages:id=>(entities.passage||[]).filter(p=>p.section===id).sort((a,b)=>a.order-b.order).map(p=>entity('passage',p.id)).filter(Boolean),search,cite});
+  return Object.freeze({pack:data.manifest?.pack,version:data.manifest?.version,programStructure:()=>({references:project(data.manifest?.programStructure||null),structure:project(data.structure||null),understanding:project(data.understanding||null)}),entity,links,lesson:id=>entity('lesson',id),day:(grade,week,day)=>{const l=lessons().find(l=>l.grade===grade&&l.week===week&&l.day===day);return l?entity('lesson',l.id):null;},dayType:value=>{const l=typeof value==='string'?index.get(`lesson:${value}`):value;return l?entity('daytype',l.dayType):null;},routine:id=>entity('routine',id),stepsByRoutine,lessonsForOutcome,assessmentFor,remediationFor,passages:id=>(entities.passage||[]).filter(p=>p.section===id).sort((a,b)=>a.order-b.order).map(p=>entity('passage',p.id)).filter(Boolean),search,cite});
 }

@@ -57,6 +57,27 @@ class PreflightTests(unittest.TestCase):
         self.assertFalse(result['ok'])
         self.assertGreaterEqual(len(result['errors']), 3)
 
+    def test_program_readiness_is_required_without_promoting_scaffolds(self):
+        self.assertFalse(self.check(require_program=True)['ok'])
+        schema = json.loads((Path(preflight.__file__).resolve().parents[3] / 'schemas/content-model/program-understanding.schema.json').read_text())
+        (self.root / 'schemas/content-model/program-understanding.schema.json').write_text(json.dumps(schema))
+        folder = self.pack / 'model'
+        folder.mkdir()
+        self.config['metadata'] = {'program': 'model/program.json', 'structure': 'model/structure.json', 'understanding': 'model/program-understanding.json', 'profile': 'model/PROGRAM_PROFILE.md'}
+        self.save_config()
+        (folder / 'program.json').write_text(json.dumps({'structure': {'file': 'structure.json'}}))
+        (folder / 'structure.json').write_text(json.dumps({'calendar': [{}], 'dayTypes': [{}]}))
+        (folder / 'PROGRAM_PROFILE.md').write_text('Source-grounded program profile fixture')
+        record = {'pack': self.config['id'], 'status': 'documented', 'dimensions': [{'id': id, 'status': 'documented', 'summary': 'Source fact fixture', 'sourceRefs': [{'doc': 'guide-g8-fixture', 'pdf': 1}]} for id in schema['$defs']['dimensionId']['enum']], 'questions': []}
+        file = folder / 'program-understanding.json'
+        file.write_text(json.dumps(record))
+        before = file.read_bytes()
+        self.assertTrue(self.check(require_program=True)['ok'])
+        self.assertEqual(file.read_bytes(), before)
+        record['dimensions'][0]['status'] = 'not-inspected'
+        file.write_text(json.dumps(record))
+        self.assertFalse(self.check(require_program=True)['ok'])
+
     def test_review_gate_requires_equal_published_bytes(self):
         self.config.update(status='reviewed-snapshot', reviewedFiles=sorted(preflight.NORMALIZED))
         self.save_config()

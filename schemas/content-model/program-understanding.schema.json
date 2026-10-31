@@ -1,0 +1,18 @@
+{
+ "$id":"program-understanding.schema.json",
+ "type":"object","required":["pack","status","profile","dimensions","questions","provenance"],"additionalProperties":false,
+ "$defs":{"dimensionId":{"enum":["guide-architecture","calendar-sequence","learning-outcomes","day-types-periods","pedagogy-routines","assessment-remediation","materials-workbooks","teacher-guidance","page-mapping"]}},
+ "properties":{
+  "pack":{"$ref":"common.schema.json#/$defs/slug"},
+  "status":{"enum":["not-started","in-progress","documented"]},
+  "profile":{"const":"PROGRAM_PROFILE.md"},
+  "provenance":{"$ref":"common.schema.json#/$defs/provenance"},
+  "dimensions":{"type":"array","items":{"type":"object","required":["id","status","summary","sourceRefs","provenance"],"additionalProperties":false,"properties":{
+   "id":{"$ref":"#/$defs/dimensionId"},"status":{"enum":["not-inspected","documented","unresolved","not-stated","not-applicable"]},
+   "summary":{"type":"string"},"sourceRefs":{"type":"array","items":{"$ref":"common.schema.json#/$defs/sourceRef"}},"provenance":{"$ref":"common.schema.json#/$defs/provenance"}
+  }}},
+  "questions":{"type":"array","items":{"type":"object","required":["id","dimension","question","blocking","status","sourceRefs"],"additionalProperties":false,"properties":{
+   "id":{"$ref":"common.schema.json#/$defs/slug"},"dimension":{"$ref":"#/$defs/dimensionId"},"question":{"$ref":"common.schema.json#/$defs/text"},"blocking":{"type":"boolean"},"status":{"enum":["open","resolved"]},"resolution":{"type":"string"},"sourceRefs":{"type":"array","items":{"$ref":"common.schema.json#/$defs/sourceRef"}}
+  }}}
+ }
+}

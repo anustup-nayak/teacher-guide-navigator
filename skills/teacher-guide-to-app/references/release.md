@@ -1,5 +1,11 @@
 # Release, durability and handover
 
+Whole-program metadata is mandatory: follow [program understanding](program-understanding.md)
+and `docs/PROGRAM_METADATA.md`. Run `npm run verify:program` and the pinned
+`npm run verify:content`; a source profile alone cannot replace structured evidence,
+calendar/day-type validation or source review. Preserve older immutable releases.
+
+
 ## Release identity and cache coherence
 
 A pack storageKey identifies teacher data permanently; it is not a release cache
@@ -116,3 +122,17 @@ authored models. Use a new semantic content version for changed release bytes, w
 explicit previous version; keep old IDs/directories. Derived links and editorial summaries
 need reviewed/owner-approved status before default website queries expose them. A schema/
 parity pass freezes ontology v1.0, not academic approval or completion of Phases 4–5.
+
+The website on `next` is pinned to a release (`content/website.json`). `npm run site:publish`
+copies each pinned release's hash-checked `views/v1/catalog.mjs` into `dist/` and generates
+`dist/day-types.mjs` from its `structure.json`; `npm run verify:site` and
+`tests/site-from-release.test.mjs` fail if `dist/` drifts or if the per-grade app bundles lack any
+field the website shows. Advance the pin, `verify:content` and the release together. `next` keeps
+its own higher rNN release token than `main`; after merging `main` into `next`, re-run
+`release:assets` there. When checking in a browser, a server without cache headers (Python's)
+lets the browser keep old modules under an unchanged token: use a fresh port or new token.
+
+File-sync tools (iCloud Desktop & Documents, Dropbox) can drop copies such as `lessons/1 2.json`
+or `.git/refs/heads/next 2` into the tree; they double-count lessons or break git. The compiler
+and `tests/docs.test.mjs` refuse them. Move them out (never delete without looking) and keep the
+repository out of synced folders.

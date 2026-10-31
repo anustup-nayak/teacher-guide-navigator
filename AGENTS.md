@@ -14,7 +14,7 @@ imports this file; keep rules here, not in agent-specific copies.
    left), and refresh *Current state* if facts changed. Never rewrite older entries.
 
 Then read README.md, docs/DESIGN_CONTRACT.md, docs/QA_QC_RELEASE_CHECKLIST.md and
-docs/DEVELOPMENT.md before editing. docs/MVP_ACCEPTANCE.md is historical.
+docs/DEVELOPMENT.md before editing. Files under docs/history/ and docs/tasks/ are dated records, not instructions.
 
 ## Protected design
 - [docs/DESIGN_CONTRACT.md](docs/DESIGN_CONTRACT.md) freezes the look, feel and teaching
@@ -92,3 +92,13 @@ copying the same instructions into multiple sources of truth. Link contracts to
 the canonical explanation and preserve historical evidence as dated history.
 Record the documentation impact and verification in the task note. A change is
 not complete while future-build instructions contradict the implementation.
+
+## Program understanding gate
+
+Before lesson extraction/modelling for any new grade, subject, state or edition,
+read `docs/PROGRAM_METADATA.md` and `docs/REPOSITORY_LAYOUT.md`. Inspect the whole
+program and record all nine dimensions, evidence, calendar/day types and explicit
+questions in canonical metadata/profile. An initialized scaffold is not readiness;
+`npm run verify:program` and `npm run verify:content` must pass. Preserve honest
+academic-review status. Keep source-family adapters in pack tools and shared
+primitives in scripts/ingestion; never fork canonical content per front end.

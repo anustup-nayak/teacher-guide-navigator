@@ -1,6 +1,6 @@
 # MVP acceptance checklist
 
-Historical baseline/checklist: use [PRD](PRD.md), [architecture](ARCHITECTURE.md)
+Historical baseline/checklist: use [PRD](../PRD.md), [architecture](../ARCHITECTURE.md)
 and the current task evidence for present behavior. Earlier dropdown/separate-screen
 flows and test counts below are retained as dated records, not instructions to restore them.
 

@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {CURRICULA} from '../../dist/curricula.mjs';
+import {STRUCTURE_REFS,validateProgramMetadata} from './program_metadata.mjs';
 import {importLesson,splitCatalog} from './v1_codec.mjs';
 const ROOT=fileURLToPath(new URL('../../',import.meta.url));
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
@@ -14,7 +15,9 @@ export function seedPack(pack,root=ROOT){
   const resources=read(path.join(root,'dist',pack.resources));
   const structure=read(path.join(dir,'model/structure.json'));
   const assets=documents.flatMap(d=>(resources[d.kind]?.[d.grade]?.pages||[]).map((image,i)=>({id:`${d.id}/p${i+1}`,kind:d.kind==='workbook'?'workbook':'resource',grade:d.grade,image,source:{doc:d.id,pdf:i+1,printed:resources[d.kind][d.grade].printedPages?.[image]??null},provenance:{assertion:'stated',review:'unreviewed'}})));
-  const program={pack:pack.id,state:pack.state,subject:pack.subject,academicYear:pack.academicYear,grades:[...new Set(lessons.map(l=>l.grade))].sort((a,b)=>a-b),documents:documents.map(d=>({id:d.id,kind:d.kind,grade:d.grade,title:{hi:d.originalFilename||d.file}})),provenance:{assertion:'editorial',review:'unreviewed',note:'Pack identity and archive metadata; no new source/academic approval.'}};
+  const program={structure:STRUCTURE_REFS,pack:pack.id,state:pack.state,subject:pack.subject,academicYear:pack.academicYear,grades:[...new Set(lessons.map(l=>l.grade))].sort((a,b)=>a-b),documents:documents.map(d=>({id:d.id,kind:d.kind,grade:d.grade,title:{hi:d.originalFilename||d.file}})),provenance:{assertion:'editorial',review:'unreviewed',note:'Pack identity and archive metadata; no new source/academic approval.'}};
+  const metadataErrors=validateProgramMetadata({pack:pack.id,program,assets,understanding:read(path.join(dir,'model/program-understanding.json')),profileText:fs.readFileSync(path.join(dir,'model/PROGRAM_PROFILE.md'),'utf8')});
+  if(metadataErrors.length)throw Error(metadataErrors.join('; '));
   const converted=lessons.map(v1=>importLesson(v1,{documents,structure}));
   const compatibility={format,order:lessons.map(l=>l.id),lessons:Object.fromEntries(converted.map(x=>[x.lesson.id,x.compatibility]))};
   const output={'model/program.json':json(program),'model/assets.json':json({pack:pack.id,assets}),'compat/v1.json':json(compatibility)};

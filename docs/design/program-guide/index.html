@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Program guide mockups</title>
+<!-- The app's own protected styles, so the mockups look like the real app. -->
+<link rel="stylesheet" href="../../../dist/styles.css">
+<link rel="stylesheet" href="../../../dist/guide-cards.css">
+<style>
+/* Mockup page only */
+body{background:#dfe6ea}
+.mock-intro{max-width:1180px;margin:20px auto;padding:0 20px;font-size:15px;color:#334d5c}
+.mock-intro h1{font-size:24px}
+.phones{display:flex;flex-wrap:wrap;gap:22px;justify-content:center;padding:10px 20px 40px}
+.phone{width:360px;background:var(--bg);border:10px solid #1f2b33;border-radius:26px;overflow:hidden;box-shadow:0 8px 24px #0003}
+.phone-label{width:360px;font-size:14px;font-weight:700;color:#174d6c;margin:0 0 8px}
+.phone main{padding:16px 14px 28px;max-width:none}
+.phone .site-header .header-inner{padding:8px 12px;gap:8px}
+.phone .brand{font-size:17px}.phone .header-inner nav a{font-size:13px;padding:6px 7px}
+.new{outline:3px dashed #854900;outline-offset:3px;position:relative}
+.new::after{content:"नया";position:absolute;top:-11px;right:8px;background:#854900;color:#fff;font-size:11px;font-weight:700;padding:1px 6px;border-radius:5px}
+
+/* PROPOSED styles (would go into dist/guide-cards.css after approval) */
+.guide-entry{display:block;background:#eef6fb;border:1px solid #a3c4d6;border-left:5px solid var(--blue);border-radius:10px;padding:14px 15px;text-decoration:none;margin:14px 0}
+.guide-entry strong{display:block;font-size:17px;color:var(--ink)}
+.guide-entry span{font-size:14px;color:var(--body)}
+.guide-section{display:block;text-decoration:none;background:#fff;border:1px solid #c6d6df;border-radius:10px;padding:14px;margin:10px 0}
+.guide-section h3{font-size:17px;margin:0 0 4px}
+.guide-section p{font-size:14px;margin:0;color:var(--body)}
+.guide-section small{display:block;font-size:12px;color:var(--muted);margin-top:6px}
+.depth-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;background:#e4ebef;border-radius:9px;padding:4px;margin:12px 0}
+.depth-tabs span{text-align:center;font-size:14px;font-weight:700;padding:9px 2px;border-radius:6px;color:var(--blue-dark)}
+.depth-tabs span.on{background:var(--blue-dark);color:#fff}
+.week-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:4px;margin:12px 0}
+.day{border-radius:8px;padding:8px 3px;text-align:center;font-size:12px;line-height:1.35;color:#3a2a10;border:1px solid #0001}
+.day b{display:block;font-size:15px}
+.day.new-skills{background:#fde8c4}.day.revision{background:#f9dde3}.day.assessment{background:#e6dcf1}
+.legend{font-size:13px;margin:6px 0 0}.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin:0 4px -1px 8px}
+.year-strip{display:grid;grid-template-columns:repeat(25,1fr);gap:2px;margin:10px 0 4px}
+.year-strip span{height:22px;border-radius:3px;background:#cfe2ee}
+.year-strip .review{background:#b9a6cf}.year-strip .prev{background:#a7c5a6}
+.year-axis{display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}
+.period{border-radius:10px;padding:12px 13px;margin:10px 0;background:#fff;border:1px solid #e1ccac;border-top:6px solid var(--amber)}
+.period.practice{border-color:#e4bdc5;border-top-color:var(--pink)}.period.support{border-color:#cfc0dc;border-top-color:var(--purple)}
+.period h3{font-size:16px;margin:0 0 4px;display:flex;justify-content:space-between}
+.period h3 span{font-size:13px;background:#fff0d6;border-radius:6px;padding:1px 7px}
+.period p{font-size:14px;margin:0}
+.callout-n{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#854900;color:#fff;font-size:12px;font-weight:800;margin-right:6px;vertical-align:middle}
+.annot{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0;font-size:14px}
+.lo-strand{font-size:15px;font-weight:800;color:var(--blue-dark);margin:14px 0 6px}
+.lo{background:#fff;border:1px solid var(--line);border-radius:9px;padding:10px 12px;margin:6px 0;font-size:14px}
+.lo .weeks{margin-top:6px}.lo .weeks span{display:inline-block;font-size:12px;border:1px solid #a3c4d6;border-radius:12px;padding:1px 8px;margin:2px 3px 0 0;color:#174d6c;background:#f2f8fb}
+.pending{font-size:13px;color:#714700;background:#fff5df;border:1px solid #e5c98b;border-radius:8px;padding:8px 10px;margin:8px 0}
+.source-line{font-size:12px;color:var(--muted);margin-top:8px}
+.daylink{color:var(--blue-dark);text-decoration:underline}
+/* goals */
+.goal{display:block;text-decoration:none;background:#fff;border:1px solid #c6d6df;border-left:5px solid #2f7d4f;border-radius:10px;padding:12px 13px;margin:9px 0}
+.goal h3{font-size:16px;margin:0 0 3px;color:var(--ink)}
+.goal p{font-size:13.5px;margin:0;color:var(--body)}
+.goal .meta{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);margin-top:7px}
+.goal .mine{color:#275d3e;font-weight:700}
+.mini{display:grid;grid-template-columns:repeat(25,1fr);gap:1px;margin-top:7px}
+.mini span{height:8px;border-radius:2px;background:#e3eaee}.mini .on{background:#2f7d4f}.mini .rv{background:#b9a6cf}
+.hero{background:#eaf5ee;border:1px solid #a7c5a6;border-radius:12px;padding:13px 14px;margin:10px 0}
+.hero strong{font-size:17px;color:#1f4d33;display:block}.hero span{font-size:14px}
+.weekrow{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 11px;margin:8px 0}
+.weekrow h4{margin:0 0 6px;font-size:14.5px;color:var(--ink);display:flex;justify-content:space-between}
+.weekrow h4 small{font-weight:600;color:var(--muted)}
+.dchips{display:flex;flex-wrap:wrap;gap:4px}
+.dchip{font-size:12px;border-radius:7px;padding:4px 7px;border:1px solid #0001;color:#3a2a10;text-decoration:none}
+.dchip.t{background:#fde8c4}.dchip.x{background:#f6e7d3}.dchip.a{background:#e6dcf1}.dchip.r{background:#f9dde3}.dchip.done{outline:2px solid #2f7d4f}
+.lt{font-size:13.5px;margin:6px 0 0;color:var(--body)}
+.nextbtn{display:block;text-align:center;background:var(--blue-dark);color:#fff;border-radius:8px;padding:12px;font-weight:700;text-decoration:none;margin:12px 0}
+.goalchip{display:inline-block;font-size:13px;background:#eaf5ee;border:1px solid #a7c5a6;border-radius:14px;padding:3px 10px;color:#1f4d33;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="mock-intro">
+  <h1>संदर्शिका को समझें · program guide — design mockups</h1>
+  <p>Proposal in <code>docs/PROGRAM_GUIDE_DESIGN.md</code>. Built with the app's own stylesheets; dashed
+  brown outlines mark what is new. Example: कक्षा 2 · हिन्दी (data from content release 1.1.0 and the
+  guide's pages). Text from the guide's front matter is shown as decoded and will be source-compared
+  before use. Nothing here is live.</p>
+</div>
+
+<div class="phones">
+
+<!-- 1. Entry points -->
+<div>
+<p class="phone-label">1 · Entry: find page and lesson (no gate)</p>
+<div class="phone">
+  <header class="site-header"><div class="header-inner"><a class="brand" href="#"><span class="brand-mark">▤</span><span class="brand-name">संदर्शिका</span></a><nav><a href="#" aria-current="page">पाठ चुनें</a><a href="#">मेरी सूची</a><a href="#">मदद</a></nav></div></header>
+  <main>
+    <h1 style="font-size:22px">अपना पाठ चुनें</h1>
+    <div class="browse-tabs"><button aria-pressed="false">पाठ के विषय से</button><button aria-pressed="true">सप्ताह / दिन से</button></div>
+    <a class="guide-entry new" href="#" style="border-left-color:#2f7d4f;background:#eaf5ee"><strong>🎯 इस साल के लक्ष्य</strong><span>बच्चे साल भर में क्या सीखेंगे, और कौन-से सप्ताह व पाठ उन्हें वहाँ पहुँचाते हैं</span></a>
+    <div class="lesson-card" style="margin-top:6px"><div class="card-meta"><span>सप्ताह 19 · दिन 6 · <span class="daylink new">साप्ताहिक आकलन</span></span></div><h3 style="font-size:17px">सभी बच्चों के साथ साप्ताहिक आकलन ‘मैंने सीख लिया’ का क्रियान्वयन करना</h3><p class="card-summary">कार्यपत्रक पृष्ठ 85 · चित्र कहानी पोस्टर-5</p><div class="card-footer"><span>2 कालांश · 120 मिनट</span><span class="card-open">पाठयोजना खोलें →</span></div></div>
+    <p class="hint">Lesson page: the day label links to “दिन 6 क्यों अलग है”, a goal chip <span class="goalchip new">🎯 लक्ष्य: दो अंकों का जोड़</span> links back to its goal, and <span class="daylink new">यह पाठ योजना कैसे पढ़ें?</span> sits under the section chips. Help gets one line too. The header is unchanged.</p>
+  </main>
+</div>
+</div>
+
+<!-- 2. Guide home -->
+<div>
+<p class="phone-label">2 · Guide home: goals first (example: कक्षा 2 · गणित)</p>
+<div class="phone">
+  <header class="site-header"><div class="header-inner"><a class="brand" href="#"><span class="brand-mark">▤</span><span class="brand-name">संदर्शिका</span></a><nav><a href="#">पाठ चुनें</a><a href="#">मेरी सूची</a><a href="#">मदद</a></nav></div></header>
+  <main class="new">
+    <p class="small"><a href="#">← पाठ चुनें</a></p>
+    <h1 style="font-size:22px">कक्षा 2 · गणित · संदर्शिका को समझें</h1>
+    <div class="hero"><strong>🎯 इस साल के लक्ष्य</strong><span>हर लक्ष्य के सामने वे सप्ताह और पाठ हैं जो उसे पूरा करते हैं। पूरी संदर्शिका पढ़ने की ज़रूरत नहीं: लक्ष्य चुनें, पाठ खोलें।</span></div>
+    <a class="goal" href="#"><h3>संख्याएँ 1–999: पढ़ना, लिखना, तुलना</h3><p>M201 · 19 पाठ</p><div class="mini"><span></span><span></span><span></span><span></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span><span class="rv"></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="rv"></span><span></span><span></span><span></span><span class="on"></span><span></span></div></a>
+    <a class="goal" href="#"><h3>दो अंकों का जोड़ और घटाव</h3><p>M202 · 21 पाठ</p><div class="mini"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="rv"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="rv"></span><span class="on"></span><span></span><span></span><span></span><span></span></div></a>
+    <p class="small"><a href="#">सभी 10 लक्ष्य देखें →</a></p>
+    <p class="lo-strand" style="margin-top:14px">संदर्शिका कैसे काम करती है</p>
+    <a class="guide-section" href="#"><h3>सप्ताह कैसे चलता है</h3><p>दिन 1–3 शिक्षण, 4 खोजें और जानें, 5 आकलन, 6 रिमीडियल; सावधिक पुनरावृत्ति</p><small>संदर्शिका पृष्ठ 10–13</small></a>
+    <a class="guide-section" href="#"><h3>हर दिन के कालांश</h3><p>तीन कालांश, 40-40 मिनट</p></a>
+    <a class="guide-section" href="#"><h3>पाठ योजना कैसे पढ़ें</h3><p>बातचीत, मैं करूँ, हम करें, आप करो, अभ्यास, खेल</p></a>
+    <a class="guide-section" href="#"><h3>आकलन और सहायता</h3><p>‘मैंने सीख लिया’, समूह A और B</p></a>
+  </main>
+</div>
+</div>
+
+<!-- 3. Week structure -->
+<div>
+<p class="phone-label">3 · सप्ताह कैसे चलता है</p>
+<div class="phone">
+  <main class="new">
+    <p class="small"><a href="#">← संदर्शिका को समझें</a></p>
+    <h1 style="font-size:21px">सप्ताह कैसे चलता है</h1>
+    <div class="depth-tabs"><span class="on">सार</span><span>पूरा पढ़ें</span><span>मूल पृष्ठ</span></div>
+    <div class="week-strip">
+      <div class="day new-skills"><b>1</b>नई दक्षताएँ</div><div class="day new-skills"><b>2</b>नई दक्षताएँ</div><div class="day new-skills"><b>3</b>नई दक्षताएँ</div><div class="day new-skills"><b>4</b>नई दक्षताएँ</div><div class="day revision"><b>5</b>पुनरा&shy;वृत्ति</div><div class="day assessment"><b>6</b>आकलन</div>
+    </div>
+    <ul style="font-size:15px;margin-top:6px">
+      <li>दिन 1–4: नई दक्षताओं का शिक्षण।</li>
+      <li>दिन 5: सप्ताह भर की दक्षताओं की पुनरावृत्ति।</li>
+      <li>दिन 6: कालांश 2 और 3 मिलाकर साप्ताहिक आकलन ‘मैंने सीख लिया’।</li>
+      <li>दिन 1–5 में तीसरे कालांश के अंतिम 20 मिनट: समूह-A के साथ रिमीडियल कार्य।</li>
+    </ul>
+    <p class="lo-strand" style="margin-top:4px">पूरा वर्ष (25 सप्ताह)</p>
+    <div class="year-strip"><span class="prev"></span><span class="prev"></span><span class="prev"></span><span class="prev"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="review"></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="review"></span><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="year-axis"><span>1</span><span>13</span><span>20</span><span>25</span></div>
+    <p class="legend"><i style="background:#a7c5a6"></i>कक्षा-1 की पुनरावृत्ति<i style="background:#cfe2ee"></i>शिक्षण<i style="background:#b9a6cf"></i>सावधिक पुनरावृत्ति</p>
+    <p class="source-line">सार · संदर्शिका पृष्ठ 13–14 से (स्वामी द्वारा स्वीकृत होने पर ही दिखेगा)</p>
+    <p class="hint">Tap a day → that day's lesson in your current week.</p>
+  </main>
+</div>
+</div>
+
+<!-- 4. Periods -->
+<div>
+<p class="phone-label">4 · हर दिन के कालांश</p>
+<div class="phone">
+  <main class="new">
+    <p class="small"><a href="#">← संदर्शिका को समझें</a></p>
+    <h1 style="font-size:21px">हर दिन के कालांश</h1>
+    <div class="depth-tabs"><span class="on">सार</span><span>पूरा पढ़ें</span><span>मूल पृष्ठ</span></div>
+    <div class="period"><h3>कालांश 1 <span>40 मिनट</span></h3><p>पाठ्यपुस्तक ‘सारंगी-2’ एवं मौखिक भाषा विकास</p><p class="small">सामग्री: सारंगी-2, चित्र/कहानी पोस्टर</p></div>
+    <div class="period practice"><h3>कालांश 2 <span style="background:#fff0f3">40 मिनट</span></h3><p>समझ के साथ पढ़ने पर कार्य (कार्यपुस्तिका भाग-1)</p></div>
+    <div class="period support"><h3>कालांश 3 <span style="background:#f2eafa">40 मिनट</span></h3><p>पठन अभ्यास, स्वतंत्र पठन, प्रवाहपूर्ण पठन अभ्यास</p><p class="small">दिन 1–5: अंतिम 20 मिनट रिमीडियल कार्य</p></div>
+    <p class="source-line">संदर्शिका पृष्ठ 16 · रंग वही जो हर पाठ में हैं: नारंगी शिक्षण, गुलाबी अभ्यास, बैंगनी सहायता</p>
+  </main>
+</div>
+</div>
+
+<!-- 5. How to read a lesson plan -->
+<div>
+<p class="phone-label">5 · पाठ योजना कैसे पढ़ें</p>
+<div class="phone">
+  <main class="new">
+    <p class="small"><a href="#">← संदर्शिका को समझें</a></p>
+    <h1 style="font-size:21px">पाठ योजना कैसे पढ़ें</h1>
+    <p style="font-size:14px">उदाहरण: सप्ताह 19 · दिन 3 (आपकी कक्षा का असली पाठ)</p>
+    <div class="annot"><span class="callout-n">1</span><b>सप्ताह · दिन</b> — पाठ किस दिन का है।</div>
+    <div class="annot"><span class="callout-n">2</span><b>चरण की पट्टियाँ</b> — हर चरण पर सीधे जाएँ; मिनट साथ लिखे हैं।</div>
+    <div class="annot" style="border-top:5px solid var(--amber)"><span class="callout-n">3</span><b>कालांश 1 · पाठ्यपुस्तक ‘सारंगी-2’ पर कार्य</b> — रंग बताता है कालांश का काम।</div>
+    <div class="annot"><span class="callout-n">4</span><b>1.1 पाठ्यांश का आदर्श वाचन करना · 7–10 मिनट</b> — चरण का नाम और समय संदर्शिका से।</div>
+    <div class="annot"><span class="callout-n">5</span><b>क्या करें</b> — क्रम से करें। <span class="callout-n">6</span><b>बच्चों से पूछें</b> — प्रश्न जैसे लिखे हैं।</div>
+    <div class="annot"><span class="callout-n">7</span><b>कार्यपत्रक</b> — कार्यपुस्तिका का पृष्ठ यहीं खुलता है।</div>
+    <div class="annot" style="border-top:5px solid var(--purple)"><span class="callout-n">8</span><b>3.2 समूह-A के साथ रिमीडियल कार्य · 20 मिनट</b></div>
+    <div class="annot"><span class="callout-n">9</span><b>मूल पृष्ठ</b> — कोई शब्द साफ़ न लगे तो संदर्शिका का पृष्ठ देखें।</div>
+    <p class="source-line">Call-out wording is editorial; shown only after the owner approves it.</p>
+  </main>
+</div>
+</div>
+
+<!-- 6. Goals list -->
+<div>
+<p class="phone-label">6 · इस साल के लक्ष्य (#/guide/goals)</p>
+<div class="phone">
+  <main class="new">
+    <p class="small"><a href="#">← संदर्शिका को समझें</a></p>
+    <h1 style="font-size:21px">इस साल के लक्ष्य · कक्षा 2 गणित</h1>
+    <p style="font-size:14px">साल के अंत तक बच्चे ये कर पाएँ। हरे सप्ताहों में इन्हें पढ़ाया जाता है; बैंगनी सप्ताह 13 और 20 पुनरावृत्ति के हैं।</p>
+    <a class="goal" href="#"><h3>संख्याएँ 1–999: पढ़ना, लिखना, तुलना</h3><p>M201 · 19 पाठ · सप्ताह 5–10, 24</p><div class="mini"><span></span><span></span><span></span><span></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span><span class="rv"></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="rv"></span><span></span><span></span><span></span><span class="on"></span><span></span></div><div class="meta"><span>सप्ताह 1 ··· 25</span><span class="mine">आपने 8 पढ़ाए</span></div></a><a class="goal" href="#"><h3>दो अंकों का जोड़ और घटाव</h3><p>M202 · 21 पाठ · सप्ताह 14–19, 21</p><div class="mini"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="rv"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="rv"></span><span class="on"></span><span></span><span></span><span></span><span></span></div><div class="meta"><span>सप्ताह 1 ··· 25</span><span class="mine">आपने 3 पढ़ाए</span></div></a><a class="goal" href="#"><h3>आकृतियाँ और पैटर्न</h3><p>M205, M207 · 8 पाठ · सप्ताह 11–12, 24</p><div class="mini"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="on"></span><span class="on"></span><span class="rv"></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="rv"></span><span></span><span></span><span></span><span class="on"></span><span></span></div><div class="meta"><span>सप्ताह 1 ··· 25</span><span class="mine"></span></div></a><a class="goal" href="#"><h3>गुणा और बँटवारा</h3><p>M203 · 3 पाठ · सप्ताह 23</p><div class="mini"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="rv"></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="rv"></span><span></span><span></span><span class="on"></span><span></span><span></span></div><div class="meta"><span>सप्ताह 1 ··· 25</span><span class="mine"></span></div></a><a class="goal" href="#"><h3>मापन, आधा-चौथाई, आँकड़े</h3><p>M204, M206 · 6 पाठ · सप्ताह 22, 25</p><div class="mini"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="rv"></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="rv"></span><span></span><span class="on"></span><span></span><span></span><span class="on"></span></div><div class="meta"><span>सप्ताह 1 ··· 25</span><span class="mine"></span></div></a>
+    <p class="small"><a href="#">पूरी निपुण सूची (सभी कोड) →</a></p>
+    <p class="source-line">लक्ष्य और कोड: संदर्शिका पृष्ठ ii, वार्षिक-साप्ताहिक शिक्षण उद्देश्य पृष्ठ 6–9। छोटे शीर्षक संपादकीय हैं (स्वीकृति के बाद)। “आपने … पढ़ाए” आपके इसी फ़ोन के ‘पढ़ा दिया है’ निशानों से।</p>
+  </main>
+</div>
+</div>
+
+<!-- 7. Goal detail -->
+<div>
+<p class="phone-label">7 · एक लक्ष्य: सप्ताह-दर-सप्ताह रास्ता</p>
+<div class="phone">
+  <main class="new">
+    <p class="small"><a href="#">← इस साल के लक्ष्य</a></p>
+    <h1 style="font-size:20px">दो अंकों का जोड़ और घटाव</h1>
+    <p style="font-size:14px"><b>M202.1</b> दैनिक जीवन में दो अंकों की संख्याओं का जोड़ करना।<br><b>M202.2</b> दैनिक जीवन में दो अंकों की संख्याओं का घटाव करना।</p>
+    <div class="mini"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="rv"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="rv"></span><span class="on"></span><span></span><span></span><span></span><span></span></div>
+    <div class="hero" style="margin-top:10px"><span><b>संदर्शिका यहाँ कैसे ले जाती है:</b> हर सप्ताह दिन 1–3 नया तरीका सिखाते हैं, दिन 4 अभ्यास, दिन 5 ‘मैंने सीख लिया’ से जाँच, दिन 6 पीछे रहे बच्चों के साथ रिमीडियल। सप्ताह 20 में पूरी पुनरावृत्ति।</span></div>
+    <a class="nextbtn" href="#">अगला पाठ: सप्ताह 15 · दिन 3 →</a>
+    <p class="lo-strand">जोड़ (M202.1) · 10 पाठ</p>
+    <div class="weekrow"><h4>सप्ताह 14 <small>✓ पढ़ाया</small></h4><div class="dchips"><a class="dchip t done" href="#">दिन 1 शिक्षण</a><a class="dchip t done" href="#">दिन 2</a><a class="dchip t" href="#">दिन 3</a><a class="dchip x" href="#">4 खोजें</a><a class="dchip a" href="#">5 आकलन</a><a class="dchip r" href="#">6 रिमीडियल</a></div><p class="lt">50 तक जोड़: count on, ten frame, संख्या रेखा</p></div><div class="weekrow"><h4>सप्ताह 15 <small>✓ पढ़ाया</small></h4><div class="dchips"><a class="dchip t done" href="#">दिन 1 शिक्षण</a><a class="dchip t done" href="#">दिन 2</a><a class="dchip t" href="#">दिन 3</a><a class="dchip x" href="#">4 खोजें</a><a class="dchip a" href="#">5 आकलन</a><a class="dchip r" href="#">6 रिमीडियल</a></div><p class="lt">बिना/के साथ पुनर्समूहन, 99 तक</p></div><div class="weekrow"><h4>सप्ताह 16 <small></small></h4><div class="dchips"><a class="dchip t" href="#">दिन 1 शिक्षण</a><a class="dchip t" href="#">दिन 2</a><a class="dchip t" href="#">दिन 3</a><a class="dchip x" href="#">4 खोजें</a><a class="dchip a" href="#">5 आकलन</a><a class="dchip r" href="#">6 रिमीडियल</a></div><p class="lt">पुनर्समूहन के साथ; दहाई-इकाई में बाँटकर</p></div><div class="weekrow"><h4>सप्ताह 17 <small></small></h4><div class="dchips"><a class="dchip t" href="#">दिन 1 शिक्षण</a><a class="dchip t" href="#">दिन 2</a><a class="dchip t" href="#">दिन 3</a><a class="dchip x" href="#">4 खोजें</a><a class="dchip a" href="#">5 आकलन</a><a class="dchip r" href="#">6 रिमीडियल</a></div><p class="lt">मात्राएँ बराबर करके; शाब्दिक प्रश्न</p></div>
+    <p class="small">घटाव (M202.2): सप्ताह 16–19, 21 →</p>
+    <p class="pending">Day 1–3 links are printed in the guide (stated). Linking days 4–6 and revision week 20 to the week's goal is a rule (“same week”), shown after approval. Hindi goals need an approved goal-to-week map (Phase 4) first.</p>
+  </main>
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

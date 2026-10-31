@@ -1,5 +1,12 @@
 # Content model (v2)
 
+Program understanding is a required metadata feature for every pack and release.
+Read [PROGRAM_METADATA.md](PROGRAM_METADATA.md) for evidence, coverage, gaps and
+readiness, and [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md) for source/model/release
+ownership. New grade/subject content must preserve earlier deliveries and use the
+same program model and query contract across front ends.
+
+
 Phase 2 of the [content architecture plan](CONTENT_ARCHITECTURE_PLAN.md), frozen as ontology v1.0.0
 by the Phase 3 byte-parity gate (31 October 2026). See [compiler contract](CONTENT_COMPILER.md).
 It is written from the two

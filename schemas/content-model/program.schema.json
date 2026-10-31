@@ -71,6 +71,35 @@
   },
   "provenance": {
    "$ref": "common.schema.json#/$defs/provenance"
+  },
+  "structure": {
+   "type": "object",
+   "required": [
+    "file",
+    "understanding",
+    "profile",
+    "sections",
+    "pageMap"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "file": {
+     "const": "structure.json"
+    },
+    "understanding": {
+     "const": "program-understanding.json"
+    },
+    "profile": {
+     "const": "PROGRAM_PROFILE.md"
+    },
+    "sections": {
+     "const": "sections.json"
+    },
+    "pageMap": {
+     "const": "pagemap.json"
+    }
+   },
+   "$comment": "Required by compiler schema profile 1.1; optional in the base schema so archived 1.0 records remain valid."
   }
  },
  "$comment": "Edition and source documents. Calendar, weekly cycle and periods live in structure.json."

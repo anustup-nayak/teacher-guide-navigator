@@ -21,12 +21,27 @@ def write_json(path, value):
 
 def init(root, pack_id):
     pack = pack_path(root, pack_id)
-    for stage in ('originals', 'extracted', 'reviewed'):
+    for stage in ('originals', 'extracted', 'tools', 'model', 'compat', 'reviewed'):
         (pack / stage).mkdir(parents=True, exist_ok=True)
     config = pack / 'pack.json'
     if not config.exists():
         write_json(config, {'id': pack_id, 'publicationDirectory': f'packs/{pack_id}',
-                            'reviewedFiles': [], 'status': 'awaiting-sources'})
+                            'reviewedFiles': [], 'status': 'awaiting-sources',
+                            'metadata': {'program': 'model/program.json', 'structure': 'model/structure.json',
+                                         'understanding': 'model/program-understanding.json', 'profile': 'model/PROGRAM_PROFILE.md'}})
+    understanding = pack / 'model' / 'program-understanding.json'
+    if not understanding.exists():
+        schema = json.loads((PROJECT / 'schemas/content-model/program-understanding.schema.json').read_text())
+        write_json(understanding, {'pack': pack_id, 'status': 'not-started', 'profile': 'PROGRAM_PROFILE.md',
+            'dimensions': [{'id': name, 'status': 'not-inspected', 'summary': '', 'sourceRefs': [],
+                            'provenance': {'assertion': 'editorial', 'review': 'unreviewed'}}
+                           for name in schema['$defs']['dimensionId']['enum']],
+            'questions': [], 'provenance': {'assertion': 'editorial', 'review': 'unreviewed'}})
+    profile = pack / 'model' / 'PROGRAM_PROFILE.md'
+    if not profile.exists():
+        profile.write_text('# Program profile — awaiting source understanding\n\n'
+                           'Status: NOT STARTED; no document understanding or review is claimed.\n'
+                           'Use the program-understanding skill reference and profile template.\n', encoding='utf-8')
     manifest = pack / 'originals' / 'manifest.json'
     if not manifest.exists():
         write_json(manifest, {'documents': []})

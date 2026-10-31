@@ -8,5 +8,11 @@
     "worksheets.json"
   ],
   "status": "reviewed-snapshot",
-  "reviewNote": "Exact snapshot of the existing source-linked UP app. Not independent academic sign-off. Original PDFs and intermediate extraction files were not included in this transfer."
+  "reviewNote": "Exact snapshot of the existing source-linked UP app. Not independent academic sign-off. Original PDFs and intermediate extraction files were not included in this transfer.",
+  "metadata": {
+    "program": "model/program.json",
+    "structure": "model/structure.json",
+    "understanding": "model/program-understanding.json",
+    "profile": "model/PROGRAM_PROFILE.md"
+  }
 }

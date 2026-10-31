@@ -1,7 +1,8 @@
 """Index and render original resources. Only printed week/practice headers map worksheets."""
 import fitz,sys,re,json,pathlib,concurrent.futures,hashlib
 from PIL import Image
-from decode_legacy import convert_span,legacy
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[4] / "scripts/ingestion"))
+from legacy_fonts import convert_span,legacy
 root=pathlib.Path(sys.argv[1]);out=pathlib.Path(sys.argv[2] if len(sys.argv)>2 else 'dist')
 resources={'guide':{},'workbook':{},'textbook':{}};jobs=[];worksheet=[]
 for kind,prefix,folder in [('guide','g','source'),('workbook','wb','workbook'),('textbook','tb','textbook')]:

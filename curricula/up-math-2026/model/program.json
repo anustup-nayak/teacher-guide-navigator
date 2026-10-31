@@ -70,5 +70,12 @@
   "assertion": "editorial",
   "review": "unreviewed",
   "note": "Pack identity and archive metadata; no new source/academic approval."
+ },
+ "structure": {
+  "file": "structure.json",
+  "understanding": "program-understanding.json",
+  "profile": "PROGRAM_PROFILE.md",
+  "sections": "sections.json",
+  "pageMap": "pagemap.json"
  }
 }
