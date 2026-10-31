@@ -70,6 +70,7 @@ offline-Hindi and real-phone checks; load each subject's lessons only when selec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Claude Code | `task/phase1-program-profiles` (from `next`) | `scripts/content/extract_matter.py`, `curricula/*/extracted/matter/`, `curricula/*/model/PROGRAM_PROFILE.md`, `curricula/*/model/pagemap.json`, `docs/tasks/phase1-program-profiles.md` | Phase 1 in progress | Done: extractor written and run (decoded front/back matter, 6 guides, 320 pages). Next: write both PROGRAM_PROFILE.md from the dumps + page maps, PR to `next`. |
 | Claude Code | `task/ontology-plan` (merged as PR #5) | `docs/CONTENT_ARCHITECTURE_PLAN.md`, `docs/VERSIONING.md`, `docs/preview/pages-preview.yml` | Phase 0 waiting on owner | Done: tag `v1.0.0`, branches `release/v1` and `next`, branch rules, plan, preview workflow template. Waiting: owner names the preview organisation. Next: step 1 of *Next up*. Any agent may take this over. |
 
 ## Change log
