@@ -30,6 +30,8 @@ cutover is approved by the owner.
 - `v1.0.3` = `main` @ `4be3376`, release r60 (restored quoted vowel signs in 13 Hindi lessons).
 - `v1.0.4` = `main` @ `49f873c`, release r61 (lesson links find their subject from the lesson id).
 - v2 previews: `v2.0.0-alpha.N`; release candidates `v2.0.0-rc.N`; cutover `v2.0.0`.
+- `v2.0.0` = cutover of `next` into `main` on 1 Nov 2026, release r69 (owner: “Publish … make it clean production
+  ready”). `/v1/` copy not yet built; rollback by reverting the cutover merge.
 
 Rollback at any time: revert the offending merge on `main` by PR (Pages redeploys the
 previous build). No data migration is needed because every version keeps the v1 lesson IDs

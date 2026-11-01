@@ -31,7 +31,7 @@ The full lesson stays below, unchanged. Tapping a line opens (scrolls to) that s
 ## 3. The two design options
 
 Both use real lessons (week 14, day 1) and only those lessons' own text, minutes and images.
-Sources: [docs/design/smart-cards/](design/smart-cards/) (`gen.py` + `style.css` + `cards-draft.json` regenerate the PNGs).
+Sources: [docs/design/smart-cards/](design/smart-cards/) keeps the two option mockups as the decision record; the live component is `dist/views/smart-card.mjs`.
 
 **Option A · steps in order** ([optA.png](design/smart-cards/optA.png)): up to five numbered lines, one per step
 (Math folds “हम करें” and “बच्चे करें” into one line; Hindi groups its 7–9 steps into five).
@@ -193,5 +193,5 @@ Never edit the other agent's drafts file, `model/`, releases or `dist/` from a d
 | Samples | Claude Code | Math G2, G3; Hindi G1, G2 | w14 d1 each (drafts files) | ✓ | layouts chosen; text not yet approved | — |
 | M1 | Claude Code | Math G2 | w01–w05 (15) + sample w14 d1 | ✓ | ✓ owner, chat, 1 Nov 2026 | release 1.3.1, r67 |
 | M2 | Claude Code | Math G3 | w01–w05 (15), hand-written | ✓ | ✓ owner, chat, 1 Nov 2026 (option 1) | release 1.3.2, r68 |
-| D-all | Claude Code | Math G1 (45), G2 w06+ (53), G3 w06+ (53); Hindi G1 (90), G2 (138), G3 (138) | every remaining lesson | ✓ extractive drafts (`cards.mjs draft`): each line is a whole short sentence taken from the guide's own steps, clipped at a clause break when too long; `check` passes for all 549 | Math ✓ owner, chat, 1 Nov 2026 (option 1: all Math); Hindi: period lines reworked (each step = one whole instruction from the guide, ranked for specificity; no clipping), awaiting owner | Math: release 1.3.2, r68 |
+| D-all | Claude Code | Math G1 (45), G2 w06+ (53), G3 w06+ (53); Hindi G1 (90), G2 (138), G3 (138) | every remaining lesson | ✓ extractive drafts (`cards.mjs draft`): each line is a whole short sentence taken from the guide's own steps, clipped at a clause break when too long; `check` passes for all 549 | Math ✓ owner, chat, 1 Nov 2026 (option 1: all Math); Hindi ✓ owner, chat, 1 Nov 2026 ('Yes approve everything'; period lines are whole instructions from the guide) | Math: release 1.3.2, r68; Hindi: release 1.3.3, r69 |
 | H1 (was Codex) | — | — | Hindi now drafted by Claude Code; Codex may review or refine lines instead of drafting | | | |
