@@ -62,4 +62,3 @@ Preserve lesson wording, timings, provenance, IDs, routes, original images, offl
 - Real-content reference screens and accessibility acceptance criteria.
 - Phased implementation backlog, risks and regression plan.
 - Owner approval of the design direction before implementation.
-
