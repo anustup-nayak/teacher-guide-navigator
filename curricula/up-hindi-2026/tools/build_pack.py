@@ -230,6 +230,21 @@ def main(repo, images=True):
                         'pdfPages': resources['guide'][str(g)]['pageCount'],
                         'workbook': wd['originalFilename'], 'workbookSha256': wd['sha256'],
                         'workbookPdfPages': resources['workbook'][str(g)]['pageCount']})
+    # Apply the exact, page-reviewed r71 text corrections before legacy publication.
+    text_repairs = json.loads((base / 'tools' / 'source-text-repairs-r71.json').read_text())['repairs']
+    def repair_value(value, old, new):
+        if isinstance(value, str):
+            return new if value == old else value
+        if isinstance(value, list):
+            return [repair_value(v, old, new) for v in value]
+        if isinstance(value, dict):
+            return {k: repair_value(v, old, new) for k, v in value.items()}
+        return value
+    for repair in text_repairs:
+        for i, lesson in enumerate(lessons):
+            if lesson['id'] == repair['lesson']:
+                lessons[i] = repair_value(lesson, repair['old'], repair['new'])
+
     reviewed = base / 'reviewed'
     reviewed.mkdir(exist_ok=True)
     dump = lambda o: json.dumps(o, ensure_ascii=False, separators=(',', ':'))

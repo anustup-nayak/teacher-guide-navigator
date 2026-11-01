@@ -9,7 +9,7 @@ in each release manifest; no links or academic approval are inferred to fill it.
 
 Program understanding is mandatory authoring metadata; see
 [PROGRAM_METADATA.md](PROGRAM_METADATA.md) and [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md).
-Current production content is release 1.3.3, schema 1.3.0: program metadata, Math goals and 549 owner-approved smart cards. Earlier releases stay immutable; generated website modules from the pin are deployed on `main`.
+r71 candidate content is release 1.3.4 (source text repairs); production at task start was 1.3.3, schema 1.3.0: program metadata, Math goals and 549 owner-approved smart cards. Earlier releases stay immutable; generated website modules from the pin are deployed on `main`.
 
 ## Inputs and ownership
 
@@ -52,7 +52,7 @@ Requires Node 22+. No npm dependency/install or build framework.
 
 ```sh
 npm run verify:program         # whole-program metadata readiness
-npm run verify:content         # current pin: 1.3.3, previous 1.3.2; read-only
+npm run verify:content         # current pin: 1.3.4, previous 1.3.3; read-only
 npm run verify:site            # generated dist modules equal pinned releases
 # Example only, after reviewed model changes: choose a NEW, unused version.
 npm run content:build -- --version 1.3.4 --previous 1.3.3
@@ -151,7 +151,7 @@ ingestion path; the parity gate keeps both identical.
 
 ## Release boundaries and validation
 
-The production website is generated from the pinned 1.3.3 releases; `site:publish` also emits `dist/lesson-cards.mjs` with owner-approved cards only. Generated catalogs, day types, guide data, goals and cards are all checked by `verify:site`. Release 1.3.0 added the card entity; 1.3.1/1.3.2 published initial approved batches and 1.3.3 contains all 549 cards.
+The production website is generated from the pinned 1.3.4 releases; `site:publish` also emits `dist/lesson-cards.mjs` with owner-approved cards only. Generated catalogs, day types, guide data, goals and cards are all checked by `verify:site`. Release 1.3.0 added the card entity; 1.3.1/1.3.2 published initial approved batches and 1.3.3 contains all 549 cards.
 
 Earlier release directories are retained immutable in the repository. Pages publishes website files only (current `dist/` plus the frozen v1 website at `/v1/`), not the raw `/content/` directories, models, extraction or PDFs. There is no chatbot or public retrieval endpoint. IDs, storage namespaces and the protected design remain governed by their contracts.
 

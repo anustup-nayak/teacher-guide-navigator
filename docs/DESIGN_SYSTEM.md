@@ -85,9 +85,8 @@ Line heights are `--lh-tight` 1.3 (controls), `--lh-snug` 1.45 (meta) and `--lh-
 ## 3. Layout
 
 - One centred column (`--container`) with 16 px page gutters. Up to 719 px it is single-column. From 720 px
-  the brand, tabs and language sit in one header row, and lesson pages use wider cards.
-- **Sticky regions:** the context bar (grade · subject switch) and, on lessons, the section-chip row. Nothing else is
-  sticky.
+  the brand, grade/subject selectors and tabs sit in one header row, and lesson pages use wider cards.
+- **Sticky regions:** the blue app bar with direct grade/subject selects, the optional back/location bar, and the lesson section-chip row. Their combined height is measured at runtime.
 - **Breakpoints:** 359 px (narrow phones: tab icons hidden), 380, 480, 699/720 (header layout) and 1000 (desktop).
 
 ## 4. Components
@@ -96,8 +95,8 @@ These rules live in the component layer at the end of `dist/guide-cards.css`.
 
 | Component | Anatomy and variants | States |
 |---|---|---|
-| **App bar** (`.site-header`) | Brand mark and name · language pill (`#ui-language`, native select) · three equal tabs (icon + label) | Tab hover tint; current tab bold with a 3 px yellow indicator (`aria-current=page`); focus ring in yellow on blue |
-| **Context bar** (`#current-context`) | Grade · subject switch (48 px) · optional back link and location (lessons, find, saved only) | Expanded switcher (`aria-expanded`), grade and subject selects |
+| **App bar** (`.site-header`) | Brand mark and name · always visible Grade/Subject native selects (48 px) · three equal tabs (icon + label); Hindi default, English only via `?ui=en` | Tab hover tint; current tab bold with a 3 px yellow indicator (`aria-current=page`); focus ring in yellow on blue |
+| **Context bar** (`#current-context`) | Optional back link and location (lessons, find, saved only) | Hidden when it adds no location; no duplicate identity switch |
 | **Button** (`.button`) | Default (outline), `.primary` (filled brand-strong) | Hover subtle tint; disabled 50% opacity; focus ring |
 | **Card** | Surface, 1 px border, radius-m, 16 px padding. Variants: lesson card, today-next (2 px brand border), goal (progress tint), smart card | Interactive cards change border on hover |
 | **Smart card** (`.smart-card`) | Context line → title → goal → image with caption bar → step lines or period bands → prep → start button → previous/next | Each line links to its step |
@@ -142,3 +141,5 @@ New screens reuse these. If a source cannot be shown with them, propose a new co
   - offline with fonts.
 - Not proven by automation: real-teacher comprehension, TalkBack and physical low-end devices
   ([TEACHER_UX_AUDIT_PROTOCOL.md](TEACHER_UX_AUDIT_PROTOCOL.md)).
+
+Owner-approved r71 (1 Nov 2026): reading-scale applies to smart-card titles, context, goals, summary lines/periods, timing, preparation, start and chain labels as well as full instructions. Test 200% at 320px in both layouts.

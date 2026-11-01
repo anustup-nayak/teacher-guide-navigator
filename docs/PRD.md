@@ -58,7 +58,7 @@ field, not measured segments. Every UX change and the E2E journey suite (`tests/
 | B | Textbook loyalist: sees the guide as one more document from above | A worksheet page or a quick activity | Search and the workbook page within two taps; the smart card shows the whole lesson so a lifted activity sits in context |
 | C | Willing novice: newer, wants to do it right | Step-by-step help and reassurance | Card lines lead to each step in order; "you are here", "next" and taught marks |
 | D | Practised adapter: departs from the guide on purpose | Activity bank, year map, original pages | पूरा साल goals and weeks; every lesson reachable directly; nothing assumes the script |
-| E | Multigrade juggler: two or three grades in one room | Lessons for several grades | The grade and subject switch keeps its controls open; each grade keeps its own progress |
+| E | Multigrade juggler: two or three grades in one room | Lessons for several grades | Grade and Subject stay directly selectable in the blue header; each grade keeps its own progress |
 | F | Mentor (ARP, SRG, head teacher): visits and observes | Where a teacher should be, and what to look for | Goal codes, year strip and shareable deep links |
 
 **Primary stress case** (owner): low digital confidence, low understanding of structured pedagogy, low motivation to
@@ -107,7 +107,7 @@ acceptance tests; it is not ignored or treated as permission for unrelated work.
 | P10 | My list, checked offline copy, portable page file, note and taught status are separate concepts with explicit actions/status/retry/removal/undo |
 | P11 | Notes/bookmarks/taught/resume survive reload in the same browser; pack isolation and stale-tab note safety hold. Storage denial is disclosed, never falsely durable |
 | P12 | Explicit offline preparation stores all required lesson/worksheet assets, verifies readiness and shows progress/failure. Updates preserve unchanged pages and shared pages survive selective removal |
-| P13 | Hindi-first current UI plus English controls; source language remains explicit. Future language support is scoped and tested, not inferred from source metadata |
+| P13 | Hindi teacher UI; English controls only through explicit `?ui=en` QA URLs; source language remains explicit. Future language support is scoped and tested, not inferred from source metadata |
 | P14 | Optional contextual help explains browser-local limits, files/offline/list, source errors and recovery. Notes export is readable, context reports omit private notes and do not auto-send |
 | P15 | Cold-start import failure/stall offers static retry. Cached operation handles network throws and HTTP 5xx. Recovery never requires clearing teacher data |
 | P16 | Phone layouts are readable at 360/390px and reflow ordinary text at 320px/200% lesson text. Keyboard focus is visible; touch controls comfortable; diagrams have meaningful equivalents or explicit review limits |
@@ -195,7 +195,6 @@ The selected grade/level and subject are prominent in a bold header and remain
 pinned at the viewport top on every screen. A compact location line identifies
 browsing week/topic/search, My list/Help, or lesson week/day/current section as
 reading progresses. Source-native all-loop chips remain visible below it, with
-measured offsets so anchors and keyboard focus are not hidden. Identity provides
-a direct way to reach the selectors. Avoid duplicate sticky context rows. My list
+measured offsets so anchors and keyboard focus are not hidden. Grade and Subject selects are always visible in the blue header, with no disclosure step. Avoid duplicate sticky context rows. My list
 and its offline collection are scoped to the selected grade/subject; other saved
 records remain stored and accessible by selecting their grade.
