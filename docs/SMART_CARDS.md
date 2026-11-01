@@ -1,6 +1,6 @@
 # Smart lesson cards: specification and handoff
 
-Status (1 Nov 2026): **design options drafted, not built.** Read this whole file before making any card.
+Status (1 Nov 2026): **layout decided; building on `task/smart-cards`.** Read this whole file before making any card.
 It is written so that any agent can pick up the work, including after the previous agent ran out of tokens.
 Background: [UX_REVIEW_2026-11.md](UX_REVIEW_2026-11.md). Track progress in the table at the end of this file
 and in [HANDOFF.md](HANDOFF.md).
@@ -23,7 +23,10 @@ The full lesson stays below, unchanged. Tapping a line opens (scrolls to) that s
 | Placement | **The card is the first thing a teacher sees.** The existing step chips stay **below** the card, so teachers can jump to a step or scroll |
 | Header image | **The key diagram from the I do or We do step** (Math). See §5 for Hindi, which has no step illustrations |
 | First samples | Grade 2–3 Math and Hindi (literacy) Grade 1–2; **then apply to all** |
-| Layout | **Open: Option A or Option B** (§3). The owner has not yet chosen |
+| Layout | **Option A for Math, Option B for Hindi** (owner, chat, 1 Nov 2026) |
+| Hindi header image | **Top half of the day's workbook page** (owner, 1 Nov 2026) |
+| Hindi days without a workbook page (27 in G2, 26 in G3) | **No image**; the card starts with the title and bands |
+| Going live | `next` → `main` **after smart cards** ship, as one release |
 
 ## 3. The two design options
 
@@ -40,7 +43,7 @@ each with the step names and minutes in small type and one line that strings the
 Recommendation: **A for Math** (it shows the I do → We do → You do order, which is the vertical habit we want).
 For Hindi, A with five grouped lines or B both work; B mirrors how the Hindi guide itself is organised
 (periods with numbered activities). The owner may choose A for both, B for both, or A for Math and B for Hindi.
-**Do not build until the owner has chosen.**
+**Decided: A for Math, B for Hindi.**
 
 Common to both, top to bottom:
 
@@ -77,10 +80,8 @@ week's three lessons) and are a later slice.
   (`cropGeometry()` in [dist/lesson-visuals.mjs](../dist/lesson-visuals.mjs)). No new image files in `dist/`.
 - **Math:** use `phaseVisual(lesson, phase('i-do'))`. If that crop is missing or narrower than about 200 source
   pixels, use the We do crop. If both are missing, use the day's workbook page (top half).
-- **Hindi:** the Hindi pack has **no step illustrations** (no I do / We do phases; `phaseVisual` returns null for
-  teaching steps). The mock uses the top half of the day's workbook page. **Confirm with the owner**: workbook page,
-  or a crop of the guide page around the main teaching activity (would need new crop rectangles, reviewed against
-  the page image), or no image. Days without a workbook page (27 in G2, 26 in G3) need the same decision.
+- **Hindi:** the Hindi pack has **no step illustrations**. Use the **top half of the day's workbook page**
+  (owner decision). Days without a workbook page show **no image** (owner decision).
 - Caption says what the image is: `मैं करूँ · संदर्शिका का चित्र` or `आज की कार्यपुस्तिका · पृष्ठ N` (printed page number).
 
 ## 6. Writing the lines (the only new text)
