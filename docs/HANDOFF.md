@@ -42,7 +42,7 @@ mid-task. It is the first file to read and the last file to update.
 | v2 line | Content releases up to 1.3.3 (pinned in `content/website.json`); आज home, पूरा साल guide, goals, chains, and 549 owner-approved smart cards (183 Math, 366 Hindi); release token r69. Live on `main` at `edd31db`, tag `v2.0.0`; frozen r61 at `/v1/` |
 | Published content | UP Mathematics `up-math-2026` and UP Hindi `up-hindi-2026`, Grades 1–3: 366 day plans each; 990 + 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (permanent) |
-| Checks | See [DEVELOPMENT.md](DEVELOPMENT.md#checks); last full run 1 Nov 2026 (r69): npm test 136/136, ingestion 16, skill tests OK, all verify gates pass, cards check 549/549, Playwright UI sweep 0 failures |
+| Checks | See [DEVELOPMENT.md](DEVELOPMENT.md#checks); last full run 1 Nov 2026 (r69): npm test 137/137, ingestion 16, skill helpers 5/5, all verify gates pass, cards check 549/549, Playwright UI sweep 0 failures |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
 | Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
 | Other agents' work | Codex worktree `…/Codex/2026-10-31/un/work/metadata-worktree` on `task/query-backed-runtime` has uncommitted work, not on GitHub; owner said leave it untouched |

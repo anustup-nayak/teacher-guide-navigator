@@ -11,13 +11,13 @@ curriculum into each app or derive the model from UI components.
 | `curricula/<pack>/tools/` | Source-family adapters | Pack-specific parsing; explicit staging targets |
 | `curricula/<pack>/model/` | Program understanding, structure, entities, source references and review status | Canonical product-neutral authoring input |
 | `curricula/<pack>/compat/` | Temporary legacy reconstruction fields | Migration bridge; no duplicate canonical teaching text |
-| `curricula/<pack>/reviewed/` | Existing v1 publishable snapshot | Current production repair/publication path, not an independent v2 ontology |
+| `curricula/<pack>/reviewed/` | Existing v1 publishable snapshot | v1 preservation/parity baseline; source repairs must also update canonical models and a new content release |
 | `content/<pack>/<version>/` | Validated immutable entities, graph, program metadata and front-end views | Compiler output; never edit by hand |
 | `content/query.mjs` | Shared product-neutral query interface | Website and future consumers use the same release |
 | `schemas/` | Model and release contracts | Additive compatibility after published versions |
 | `scripts/content/` | Shared compiler, validation, explicit migration | No source-family schedules or UI logic |
 | `scripts/ingestion/` | Reusable decoding primitives | Reuse only after verifying source font/encoding |
-| `dist/` | Authored buildless website and published v1 content | Only directory deployed to Pages |
+| `dist/` | Authored buildless runtime and generated pinned-release content | Website-only Pages artifact: current dist at root, frozen v1.0.4 dist at /v1/ |
 | `skills/teacher-guide-to-app/` | Conversational intake, program-first workflow, QA and recovery | Links to canonical contracts rather than duplicating them |
 | `docs/tasks/` | Dated task evidence | Historical records, not new instructions |
 

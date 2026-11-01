@@ -190,7 +190,7 @@ Never edit the other agent's drafts file, `model/`, releases or `dist/` from a d
 
 | Batch | Agent | Pack · grade | Lessons | Drafted | Owner approved | Released |
 |---|---|---|---|---|---|---|
-| Samples | Claude Code | Math G2, G3; Hindi G1, G2 | w14 d1 each (drafts files) | ✓ | layouts chosen; text not yet approved | — |
+| Samples | Claude Code | Math G2, G3; Hindi G1, G2 | w14 d1 each (approved model files) | ✓ | ✓ owner-approved with the released batches | release 1.3.3 / r69 |
 | M1 | Claude Code | Math G2 | w01–w05 (15) + sample w14 d1 | ✓ | ✓ owner, chat, 1 Nov 2026 | release 1.3.1, r67 |
 | M2 | Claude Code | Math G3 | w01–w05 (15), hand-written | ✓ | ✓ owner, chat, 1 Nov 2026 (option 1) | release 1.3.3, r69 |
 | D-all | Claude Code | Math G1 (45), G2 w06+ (53), G3 w06+ (53); Hindi G1 (90), G2 (138), G3 (138) | every remaining lesson | ✓ extractive drafts (`cards.mjs draft`): each line is a whole short sentence taken from the guide's own steps, clipped at a clause break when too long; `check` passes for all 549 | Math ✓ owner, chat, 1 Nov 2026 (option 1: all Math); Hindi ✓ owner, chat, 1 Nov 2026 ('Yes approve everything'; period lines are whole instructions from the guide) | release 1.3.3, r69 (Codex's 15 H1 cards kept in place of these drafts) |
