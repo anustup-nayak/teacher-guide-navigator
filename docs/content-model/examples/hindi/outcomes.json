@@ -1,0 +1,74 @@
+{
+ "pack": "up-hindi-2026",
+ "outcomes": [
+  {
+   "id": "g1-oral-language-1",
+   "grade": 1,
+   "list": "guide",
+   "strand": "oral-language",
+   "code": null,
+   "nipun": true,
+   "statement": "अपनी आवश्यकताओं, परिचित व्यक्तियों एवं परिवेश के बारे में मित्रों, कक्षा शिक्षकों के साथ बातचीत करना और प्रश्न करना।",
+   "equivalent": [
+    {
+     "to": "lo:H101",
+     "assertion": "editorial",
+     "review": "unreviewed"
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-00970fd3c1e8",
+      "pdf": 2,
+      "printed": 0
+     }
+    ],
+    "note": "guide list (uncoded), primary; crosswalk to H101 is a project proposal awaiting review"
+   }
+  },
+  {
+   "id": "H101",
+   "grade": 1,
+   "list": "workbook",
+   "strand": "oral-language",
+   "code": "H101",
+   "nipun": true,
+   "statement": "अपनी आवश्यकताओं तथा परिवेश के बारे में दोस्तों और कक्षा शिक्षक के साथ अपने घर की भाषा में बातचीत करना।",
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "workbook-g1-04678c7d6792",
+      "pdf": 2,
+      "printed": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "H104.2",
+   "grade": 1,
+   "list": "workbook",
+   "strand": "oral-language",
+   "code": "H104.2",
+   "parent": "H104",
+   "nipun": true,
+   "statement": "चित्र/घटना/वस्तु के बारे में अपने घर की भाषा में 2-3 वाक्य बताना।",
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "workbook-g1-04678c7d6792",
+      "pdf": 2,
+      "printed": 0
+     }
+    ]
+   }
+  }
+ ]
+}

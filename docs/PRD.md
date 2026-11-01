@@ -1,5 +1,12 @@
 # Sandarshika product requirements
 
+Program understanding is a required metadata feature for every pack and release.
+Read [PROGRAM_METADATA.md](PROGRAM_METADATA.md) for evidence, coverage, gaps and
+readiness, and [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md) for source/model/release
+ownership. New grade/subject content must preserve earlier deliveries and use the
+same program model and query contract across front ends.
+
+
 Status: reusable product baseline, 31 October 2026. A new curriculum's agreed
 requirements brief specializes this PRD; it does not silently replace it.
 Implementation boundaries: [architecture](ARCHITECTURE.md). Execution process:
@@ -87,6 +94,11 @@ loss, broken main navigation, required content unavailable without honest handli
 P1/core: P01–P18 for supported source scope, including recovery and usable mobile
 reading. A source-specific unsupported schedule/language must be adapted or scoped
 out explicitly before freeze. P2: optional enhancements justified by actual needs.
+
+New product lines on the same content (chatbot, remedial-plan builder, print tools) are
+not being built; the content repository is designed so they can be added later
+([CONTENT_PLATFORM.md](CONTENT_PLATFORM.md)). Each would need the owner's approval and its own
+brief, and keeps the exclusions below unless that brief changes them.
 
 Not in the default scope: accounts/cloud sync, student records/mastery scoring,
 AI-generated replacement curriculum, automatic full lesson translation, mandatory

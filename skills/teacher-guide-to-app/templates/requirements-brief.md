@@ -16,6 +16,15 @@ Authorized TG/workbook/textbook identities/checksums/edition; state/subject/grad
 coverage; languages; native schedule/phases/templates; workbook/source mappings;
 layout families/diagrams; missing or ambiguous content; review still required:
 
+## Whole-program understanding
+
+Link model/PROGRAM_PROFILE.md and program-understanding.json. For all nine required
+dimensions record inspected evidence and status; identify calendar/day types,
+non-lesson guidance, outcome/assessment/routine/workbook relationships and gaps.
+Separate source facts, owner choices and adaptations. List blocking questions and
+actual resolutions, accepted nonblocking limits, readiness and academic review
+separately. Name pending entity families and front-end requirements on shared data.
+
 ## Frozen app behavior
 
 - Shared multi-pack app versus separate deployment of shared runtime:

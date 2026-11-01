@@ -1,4 +1,4 @@
-import {gradeLabel} from './domain/selection.mjs?v=r61';
+import {gradeLabel} from './domain/selection.mjs?v=r69';
 export function resumeForGrade(lessons,last,byGrade,grade){
  const candidate=byGrade?.[grade]||last;
  const lesson=candidate&&lessons.find(l=>l.id===candidate.id&&l.grade===Number(grade));
@@ -22,11 +22,21 @@ const textRepairs=new Map([
 // Raw catalogue wording and original page images remain unchanged.
 export function displayText(value){const text=String(value??'');return(textRepairs.get(text)||text).replaceAll('चिfÊत','चिह्नित').replaceAll('चिÊ','चिह्न').replaceAll('संख्याआंे','संख्याओं');}
 export const lessonTitle=lesson=>displayText(lesson.title);
+// One card summary rule for every subject: the workbook page first, then the day's first
+// material without its preparation note (Hindi lists one per period: “पाठ-19 ‘आउट’ — …”).
 export function lessonSummary(lesson,lang='hi'){
  if(lesson.structure==='weekly-template')return displayText(lesson.summary);
- const materials=(lesson.materials||[]).map(displayText).join(' · ');
  const resources=lesson.worksheets?.length?(lang==='en'?'Worksheet page ':'कार्यपत्रक पृष्ठ ')+lesson.worksheets.map(w=>w.page).join(', '):(lang==='en'?'Notebook practice':'कॉपी में अभ्यास');
- return (materials?(lang==='en'?'Materials: ':'सामग्री: ')+materials+' · ':'')+resources;
+ const material=displayText((lesson.materials||[])[0]||'').split(' — ')[0].trim();
+ return material?resources+' · '+material:resources;
+}
+// The day's purpose from the program structure (dist/day-types.mjs), for days other than new
+// teaching: revision, weekly assessment, explore, consolidation, remediation.
+export function dayLabel(dayTypes,lesson,lang='hi'){
+ const block=dayTypes?.calendar.find(([g,from,to])=>g===lesson.grade&&from<=lesson.week&&lesson.week<=to);
+ const id=block?.[3].find(([days])=>days.includes(lesson.day))?.[1];
+ const label=id&&dayTypes.types[id]?.label;
+ return label?(label[lang]||label.hi):'';
 }
 export function resourcePageInfo(resources,kind,grade,image,index=0){const doc=resources?.[kind]?.[grade],printed=doc?.printedPages?.[image];const pdf=doc?.pages.indexOf(image);return {printed:printed??null,pdf:pdf>=0?pdf+1:index+1};}
 export const resourceKindsFor=(resources,grade)=>['guide','workbook','textbook'].filter(kind=>resources?.[kind]?.[grade]?.pages?.length);

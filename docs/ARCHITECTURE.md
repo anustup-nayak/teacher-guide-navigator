@@ -1,6 +1,13 @@
 # Shared runtime and curriculum-instance architecture
 
-Status: implemented local release r51. Product behavior: [PRD](PRD.md).
+Program understanding is a required metadata feature for every pack and release.
+Read [PROGRAM_METADATA.md](PROGRAM_METADATA.md) for evidence, coverage, gaps and
+readiness, and [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md) for source/model/release
+ownership. New grade/subject content must preserve earlier deliveries and use the
+same program model and query contract across front ends.
+
+
+Status: current for v1 (`main`, r61) and the v2 integration line (`next`); section headings with an rNN record when a part was introduced. Product behavior: [PRD](PRD.md).
 Agent workflow: [skill](../skills/teacher-guide-to-app/SKILL.md).
 Data publication: [pack contract](CURRICULUM_PACKS.md).
 
@@ -34,6 +41,7 @@ Browser storage/service worker are origin-scoped infrastructure, not cloud sync.
 | `dist/services/worker-client.mjs` | Browser worker request/progress protocol. Selected lesson assets are passed explicitly |
 | `dist/features/reader.mjs` | `createReader(...)` → openReader/openVisual/bookButtons/previewPrint. Owns reader state, history, print and reader listeners. Injects resource repository, current lesson and media helpers |
 | `dist/features/offline.mjs` | `createOfflineController(...)` → check/keep/remove/controls/reset. Owns readiness checks; injects selected pack, ledger/store callbacks, UI callbacks and optional request transport for tests |
+| `dist/views/program-guide.mjs` | `createProgramGuide({data,pack,e,t,lang,gradeLabel,subjectLabel})` → `render(section,{grade,week,lessonIds})`, `title(section)`; pure HTML from `dist/program-guide-data.mjs` (generated from the content release); imported on demand by app.mjs for `#/guide…` |
 | `dist/views/lesson-media.mjs` | `createLessonMedia({curriculum,prefs,t,e,stage,list})` → crop/caption/alt/artwork/worksheet rendering; no fetching or persistence |
 | `dist/lesson-navigation.mjs`, `lesson-visuals.mjs` | Pure section tracking, crop geometry, source palette and asset dependency calculations |
 | `dist/sw.js` | Shared shell/image cache and message implementation; integrity-preserving upgrade and server/network fallback |
@@ -146,3 +154,18 @@ from the selected pack, screen and current source section. App composition updat
 its existing DOM text on scrolling (without replacing focused controls) and measures
 header/nav heights for sticky and anchor offsets. The top identity button returns
 to selection controls. The section navigator no longer duplicates that identity.
+
+## Content platform (v2 design constraint)
+
+The v2 plan separates a product-neutral content back end (model → versioned content release
+→ shared query library) from the products that read it: this website, a chatbot, remedial-plan
+and print tools. Only the website is built now; it is the first consumer and never owns
+curriculum data. Design and deferred decisions: [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md).
+
+## Phase 3 content boundary
+
+[CONTENT_COMPILER.md](CONTENT_COMPILER.md) defines model → validated immutable release
+→ dependency-free query API. Legacy-only export/order fields live in pack `compat/`,
+separate from canonical teaching fields. The v1 compatibility view reproduces both
+catalogs exactly. These repository releases are not wired into dist or deployed;
+the v2 website and full model population follow in later phases.

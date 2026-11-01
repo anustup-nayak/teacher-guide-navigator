@@ -1,0 +1,3316 @@
+{
+ "pack": "up-math-2026",
+ "generatedFrom": "model/sections.json + published catalog",
+ "reviewStatus": "unreviewed",
+ "guides": {
+  "1": {
+   "document": "guide-g1-167f09e3bf58",
+   "pages": [
+    {
+     "pdf": 1,
+     "printed": null,
+     "section": "cover",
+     "kind": "admin"
+    },
+    {
+     "pdf": 2,
+     "printed": null,
+     "section": "nipun-list",
+     "kind": "program"
+    },
+    {
+     "pdf": 3,
+     "printed": 1,
+     "section": "title-page",
+     "kind": "admin"
+    },
+    {
+     "pdf": 4,
+     "printed": 2,
+     "section": "weekly-teacher-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 5,
+     "printed": 3,
+     "section": "credits",
+     "kind": "admin"
+    },
+    {
+     "pdf": 6,
+     "printed": 4,
+     "section": "guide-usage",
+     "kind": "program"
+    },
+    {
+     "pdf": 7,
+     "printed": 5,
+     "section": "contents",
+     "kind": "admin"
+    },
+    {
+     "pdf": 8,
+     "printed": 6,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 9,
+     "printed": 7,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 10,
+     "printed": 8,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 11,
+     "printed": 9,
+     "section": "weekly-overview",
+     "kind": "program"
+    },
+    {
+     "pdf": 12,
+     "printed": 10,
+     "section": "weekly-overview",
+     "kind": "program"
+    },
+    {
+     "pdf": 13,
+     "printed": 11,
+     "section": "weekly-overview",
+     "kind": "program"
+    },
+    {
+     "pdf": 14,
+     "printed": 12,
+     "section": "weekly-overview",
+     "kind": "program"
+    },
+    {
+     "pdf": 15,
+     "printed": 13,
+     "section": "nipun-foundations",
+     "kind": "program"
+    },
+    {
+     "pdf": 16,
+     "printed": 14,
+     "section": "nipun-foundations",
+     "kind": "program"
+    },
+    {
+     "pdf": 17,
+     "printed": 15,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 18,
+     "printed": 16,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w09-d01"
+     ]
+    },
+    {
+     "pdf": 19,
+     "printed": 17,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w09-d02"
+     ]
+    },
+    {
+     "pdf": 20,
+     "printed": 18,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w09-d03"
+     ]
+    },
+    {
+     "pdf": 21,
+     "printed": 19,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w09-d04",
+      "g1-math-w09-d05",
+      "g1-math-w09-d06"
+     ]
+    },
+    {
+     "pdf": 22,
+     "printed": 20,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w10-d01"
+     ]
+    },
+    {
+     "pdf": 23,
+     "printed": 21,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w10-d02"
+     ]
+    },
+    {
+     "pdf": 24,
+     "printed": 22,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w10-d03"
+     ]
+    },
+    {
+     "pdf": 25,
+     "printed": 23,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w10-d04",
+      "g1-math-w10-d05",
+      "g1-math-w10-d06"
+     ]
+    },
+    {
+     "pdf": 26,
+     "printed": 24,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w11-d01"
+     ]
+    },
+    {
+     "pdf": 27,
+     "printed": 25,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w11-d02"
+     ]
+    },
+    {
+     "pdf": 28,
+     "printed": 26,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w11-d03"
+     ]
+    },
+    {
+     "pdf": 29,
+     "printed": 27,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w11-d04",
+      "g1-math-w11-d05",
+      "g1-math-w11-d06"
+     ]
+    },
+    {
+     "pdf": 30,
+     "printed": 28,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 31,
+     "printed": 29,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w12-d01"
+     ]
+    },
+    {
+     "pdf": 32,
+     "printed": 30,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w12-d02"
+     ]
+    },
+    {
+     "pdf": 33,
+     "printed": 31,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w12-d03"
+     ]
+    },
+    {
+     "pdf": 34,
+     "printed": 32,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w12-d04",
+      "g1-math-w12-d05",
+      "g1-math-w12-d06"
+     ]
+    },
+    {
+     "pdf": 35,
+     "printed": 33,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 36,
+     "printed": 34,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w14-d01"
+     ]
+    },
+    {
+     "pdf": 37,
+     "printed": 35,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w14-d02"
+     ]
+    },
+    {
+     "pdf": 38,
+     "printed": 36,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w14-d03"
+     ]
+    },
+    {
+     "pdf": 39,
+     "printed": 37,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w14-d04",
+      "g1-math-w14-d05",
+      "g1-math-w14-d06"
+     ]
+    },
+    {
+     "pdf": 40,
+     "printed": 38,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 41,
+     "printed": 39,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w15-d01"
+     ]
+    },
+    {
+     "pdf": 42,
+     "printed": 40,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w15-d02"
+     ]
+    },
+    {
+     "pdf": 43,
+     "printed": 41,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w15-d03"
+     ]
+    },
+    {
+     "pdf": 44,
+     "printed": 42,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w15-d04",
+      "g1-math-w15-d05",
+      "g1-math-w15-d06"
+     ]
+    },
+    {
+     "pdf": 45,
+     "printed": 43,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w16-d01"
+     ]
+    },
+    {
+     "pdf": 46,
+     "printed": 44,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w16-d02"
+     ]
+    },
+    {
+     "pdf": 47,
+     "printed": 45,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w16-d03"
+     ]
+    },
+    {
+     "pdf": 48,
+     "printed": 46,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w16-d04",
+      "g1-math-w16-d05",
+      "g1-math-w16-d06"
+     ]
+    },
+    {
+     "pdf": 49,
+     "printed": 47,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w17-d01"
+     ]
+    },
+    {
+     "pdf": 50,
+     "printed": 48,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w17-d02"
+     ]
+    },
+    {
+     "pdf": 51,
+     "printed": 49,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w17-d03"
+     ]
+    },
+    {
+     "pdf": 52,
+     "printed": 50,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w17-d04",
+      "g1-math-w17-d05",
+      "g1-math-w17-d06"
+     ]
+    },
+    {
+     "pdf": 53,
+     "printed": 51,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 54,
+     "printed": 52,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w18-d01"
+     ]
+    },
+    {
+     "pdf": 55,
+     "printed": 53,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w18-d02"
+     ]
+    },
+    {
+     "pdf": 56,
+     "printed": 54,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w18-d03"
+     ]
+    },
+    {
+     "pdf": 57,
+     "printed": 55,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w18-d04",
+      "g1-math-w18-d05",
+      "g1-math-w18-d06"
+     ]
+    },
+    {
+     "pdf": 58,
+     "printed": 56,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w19-d01"
+     ]
+    },
+    {
+     "pdf": 59,
+     "printed": 57,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w19-d02"
+     ]
+    },
+    {
+     "pdf": 60,
+     "printed": 58,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w19-d03"
+     ]
+    },
+    {
+     "pdf": 61,
+     "printed": 59,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w19-d04",
+      "g1-math-w19-d05",
+      "g1-math-w19-d06"
+     ]
+    },
+    {
+     "pdf": 62,
+     "printed": 60,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 63,
+     "printed": 61,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 64,
+     "printed": 62,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w21-d01"
+     ]
+    },
+    {
+     "pdf": 65,
+     "printed": 63,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w21-d02"
+     ]
+    },
+    {
+     "pdf": 66,
+     "printed": 64,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w21-d03"
+     ]
+    },
+    {
+     "pdf": 67,
+     "printed": 65,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w21-d04",
+      "g1-math-w21-d05",
+      "g1-math-w21-d06"
+     ]
+    },
+    {
+     "pdf": 68,
+     "printed": 66,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w22-d01"
+     ]
+    },
+    {
+     "pdf": 69,
+     "printed": 67,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w22-d02"
+     ]
+    },
+    {
+     "pdf": 70,
+     "printed": 68,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w22-d03"
+     ]
+    },
+    {
+     "pdf": 71,
+     "printed": 69,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w22-d04",
+      "g1-math-w22-d05",
+      "g1-math-w22-d06"
+     ]
+    },
+    {
+     "pdf": 72,
+     "printed": 70,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w23-d01"
+     ]
+    },
+    {
+     "pdf": 73,
+     "printed": 71,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w23-d02"
+     ]
+    },
+    {
+     "pdf": 74,
+     "printed": 72,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w23-d03"
+     ]
+    },
+    {
+     "pdf": 75,
+     "printed": 73,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w23-d04",
+      "g1-math-w23-d05",
+      "g1-math-w23-d06"
+     ]
+    },
+    {
+     "pdf": 76,
+     "printed": 74,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 77,
+     "printed": 75,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w24-d01"
+     ]
+    },
+    {
+     "pdf": 78,
+     "printed": 76,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w24-d02"
+     ]
+    },
+    {
+     "pdf": 79,
+     "printed": 77,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w24-d03"
+     ]
+    },
+    {
+     "pdf": 80,
+     "printed": 78,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w24-d04",
+      "g1-math-w24-d05",
+      "g1-math-w24-d06"
+     ]
+    },
+    {
+     "pdf": 81,
+     "printed": 79,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w25-d01"
+     ]
+    },
+    {
+     "pdf": 82,
+     "printed": 80,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w25-d02"
+     ]
+    },
+    {
+     "pdf": 83,
+     "printed": 81,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w25-d03"
+     ]
+    },
+    {
+     "pdf": 84,
+     "printed": 82,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-math-w25-d04",
+      "g1-math-w25-d05",
+      "g1-math-w25-d06"
+     ]
+    },
+    {
+     "pdf": 85,
+     "printed": 83,
+     "section": "teaching-process",
+     "kind": "program"
+    },
+    {
+     "pdf": 86,
+     "printed": 84,
+     "section": "teaching-process",
+     "kind": "program"
+    },
+    {
+     "pdf": 87,
+     "printed": 85,
+     "section": "teaching-process",
+     "kind": "program"
+    },
+    {
+     "pdf": 88,
+     "printed": 86,
+     "section": "teaching-process",
+     "kind": "program"
+    },
+    {
+     "pdf": 89,
+     "printed": 87,
+     "section": "materials",
+     "kind": "resources"
+    },
+    {
+     "pdf": 90,
+     "printed": 88,
+     "section": "materials",
+     "kind": "resources"
+    },
+    {
+     "pdf": 91,
+     "printed": 89,
+     "section": "materials",
+     "kind": "resources"
+    },
+    {
+     "pdf": 92,
+     "printed": 90,
+     "section": "materials",
+     "kind": "resources"
+    },
+    {
+     "pdf": 93,
+     "printed": 91,
+     "section": "materials",
+     "kind": "resources"
+    },
+    {
+     "pdf": 94,
+     "printed": 92,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 95,
+     "printed": 93,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 96,
+     "printed": 94,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 97,
+     "printed": 95,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 98,
+     "printed": 96,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 99,
+     "printed": 97,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 100,
+     "printed": 98,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 101,
+     "printed": 99,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 102,
+     "printed": 100,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 103,
+     "printed": 101,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 104,
+     "printed": 102,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 105,
+     "printed": 103,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 106,
+     "printed": 104,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 107,
+     "printed": 105,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 108,
+     "printed": 106,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 109,
+     "printed": 107,
+     "section": "closing",
+     "kind": "admin"
+    },
+    {
+     "pdf": 110,
+     "printed": 108,
+     "section": "closing",
+     "kind": "admin"
+    },
+    {
+     "pdf": 111,
+     "printed": 109,
+     "section": "teaching-reminders",
+     "kind": "program"
+    },
+    {
+     "pdf": 112,
+     "printed": 110,
+     "section": "anthem",
+     "kind": "admin"
+    }
+   ],
+   "summary": {
+    "pages": 112,
+    "sections": 18,
+    "planPagesWithoutLesson": [
+     17,
+     30,
+     35,
+     40,
+     53,
+     62,
+     63,
+     76
+    ],
+    "matterPages": 44
+   }
+  },
+  "2": {
+   "document": "guide-g2-9b3436f6e0f7",
+   "pages": [
+    {
+     "pdf": 1,
+     "printed": null,
+     "section": "cover",
+     "kind": "admin"
+    },
+    {
+     "pdf": 2,
+     "printed": null,
+     "section": "nipun-list",
+     "kind": "program"
+    },
+    {
+     "pdf": 3,
+     "printed": 1,
+     "section": "title-page",
+     "kind": "admin"
+    },
+    {
+     "pdf": 4,
+     "printed": 2,
+     "section": "weekly-teacher-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 5,
+     "printed": 3,
+     "section": "credits",
+     "kind": "admin"
+    },
+    {
+     "pdf": 6,
+     "printed": 4,
+     "section": "guide-usage",
+     "kind": "program"
+    },
+    {
+     "pdf": 7,
+     "printed": 5,
+     "section": "contents",
+     "kind": "admin"
+    },
+    {
+     "pdf": 8,
+     "printed": 6,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 9,
+     "printed": 7,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 10,
+     "printed": 8,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 11,
+     "printed": 9,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 12,
+     "printed": 10,
+     "section": "weekly-overview",
+     "kind": "program"
+    },
+    {
+     "pdf": 13,
+     "printed": 11,
+     "section": "weekly-overview",
+     "kind": "program"
+    },
+    {
+     "pdf": 14,
+     "printed": 12,
+     "section": "weekly-overview",
+     "kind": "program"
+    },
+    {
+     "pdf": 15,
+     "printed": 13,
+     "section": "weekly-overview",
+     "kind": "program"
+    },
+    {
+     "pdf": 16,
+     "printed": 14,
+     "section": "nipun-foundations",
+     "kind": "program"
+    },
+    {
+     "pdf": 17,
+     "printed": 15,
+     "section": "nipun-foundations",
+     "kind": "program"
+    },
+    {
+     "pdf": 18,
+     "printed": 16,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 19,
+     "printed": 17,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w01-d01"
+     ]
+    },
+    {
+     "pdf": 20,
+     "printed": 18,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w01-d02"
+     ]
+    },
+    {
+     "pdf": 21,
+     "printed": 19,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w01-d03"
+     ]
+    },
+    {
+     "pdf": 22,
+     "printed": 20,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w01-d04",
+      "g2-math-w01-d05",
+      "g2-math-w01-d06"
+     ]
+    },
+    {
+     "pdf": 23,
+     "printed": 21,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w02-d01"
+     ]
+    },
+    {
+     "pdf": 24,
+     "printed": 22,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w02-d02"
+     ]
+    },
+    {
+     "pdf": 25,
+     "printed": 23,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w02-d03"
+     ]
+    },
+    {
+     "pdf": 26,
+     "printed": 24,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w02-d04",
+      "g2-math-w02-d05",
+      "g2-math-w02-d06"
+     ]
+    },
+    {
+     "pdf": 27,
+     "printed": 25,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w03-d01"
+     ]
+    },
+    {
+     "pdf": 28,
+     "printed": 26,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w03-d02"
+     ]
+    },
+    {
+     "pdf": 29,
+     "printed": 27,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w03-d03"
+     ]
+    },
+    {
+     "pdf": 30,
+     "printed": 28,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w03-d04",
+      "g2-math-w03-d05",
+      "g2-math-w03-d06"
+     ]
+    },
+    {
+     "pdf": 31,
+     "printed": 29,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w04-d01"
+     ]
+    },
+    {
+     "pdf": 32,
+     "printed": 30,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w04-d02"
+     ]
+    },
+    {
+     "pdf": 33,
+     "printed": 31,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w04-d03"
+     ]
+    },
+    {
+     "pdf": 34,
+     "printed": 32,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w04-d04",
+      "g2-math-w04-d05",
+      "g2-math-w04-d06"
+     ]
+    },
+    {
+     "pdf": 35,
+     "printed": 33,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w05-d01"
+     ]
+    },
+    {
+     "pdf": 36,
+     "printed": 34,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w05-d02"
+     ]
+    },
+    {
+     "pdf": 37,
+     "printed": 35,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w05-d03"
+     ]
+    },
+    {
+     "pdf": 38,
+     "printed": 36,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w05-d04",
+      "g2-math-w05-d05",
+      "g2-math-w05-d06"
+     ]
+    },
+    {
+     "pdf": 39,
+     "printed": 37,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w06-d01"
+     ]
+    },
+    {
+     "pdf": 40,
+     "printed": 38,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w06-d02"
+     ]
+    },
+    {
+     "pdf": 41,
+     "printed": 39,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w06-d03"
+     ]
+    },
+    {
+     "pdf": 42,
+     "printed": 40,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w06-d04",
+      "g2-math-w06-d05",
+      "g2-math-w06-d06"
+     ]
+    },
+    {
+     "pdf": 43,
+     "printed": 41,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 44,
+     "printed": 42,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w07-d01"
+     ]
+    },
+    {
+     "pdf": 45,
+     "printed": 43,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w07-d02"
+     ]
+    },
+    {
+     "pdf": 46,
+     "printed": 44,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w07-d03"
+     ]
+    },
+    {
+     "pdf": 47,
+     "printed": 45,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w07-d04",
+      "g2-math-w07-d05",
+      "g2-math-w07-d06"
+     ]
+    },
+    {
+     "pdf": 48,
+     "printed": 46,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w08-d01"
+     ]
+    },
+    {
+     "pdf": 49,
+     "printed": 47,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w08-d02"
+     ]
+    },
+    {
+     "pdf": 50,
+     "printed": 48,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w08-d03"
+     ]
+    },
+    {
+     "pdf": 51,
+     "printed": 49,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w08-d04",
+      "g2-math-w08-d05",
+      "g2-math-w08-d06"
+     ]
+    },
+    {
+     "pdf": 52,
+     "printed": 50,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w09-d01"
+     ]
+    },
+    {
+     "pdf": 53,
+     "printed": 51,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w09-d02"
+     ]
+    },
+    {
+     "pdf": 54,
+     "printed": 52,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w09-d03"
+     ]
+    },
+    {
+     "pdf": 55,
+     "printed": 53,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w09-d04",
+      "g2-math-w09-d05",
+      "g2-math-w09-d06"
+     ]
+    },
+    {
+     "pdf": 56,
+     "printed": 54,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w10-d01"
+     ]
+    },
+    {
+     "pdf": 57,
+     "printed": 55,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w10-d02"
+     ]
+    },
+    {
+     "pdf": 58,
+     "printed": 56,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w10-d03"
+     ]
+    },
+    {
+     "pdf": 59,
+     "printed": 57,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w10-d04",
+      "g2-math-w10-d05",
+      "g2-math-w10-d06"
+     ]
+    },
+    {
+     "pdf": 60,
+     "printed": 58,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w11-d01"
+     ]
+    },
+    {
+     "pdf": 61,
+     "printed": 59,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w11-d02"
+     ]
+    },
+    {
+     "pdf": 62,
+     "printed": 60,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w11-d03"
+     ]
+    },
+    {
+     "pdf": 63,
+     "printed": 61,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w11-d04",
+      "g2-math-w11-d05",
+      "g2-math-w11-d06"
+     ]
+    },
+    {
+     "pdf": 64,
+     "printed": 62,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w12-d01"
+     ]
+    },
+    {
+     "pdf": 65,
+     "printed": 63,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w12-d02"
+     ]
+    },
+    {
+     "pdf": 66,
+     "printed": 64,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w12-d03"
+     ]
+    },
+    {
+     "pdf": 67,
+     "printed": 65,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w12-d04",
+      "g2-math-w12-d05",
+      "g2-math-w12-d06"
+     ]
+    },
+    {
+     "pdf": 68,
+     "printed": 66,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 69,
+     "printed": 67,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 70,
+     "printed": 68,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w14-d01"
+     ]
+    },
+    {
+     "pdf": 71,
+     "printed": 69,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w14-d02"
+     ]
+    },
+    {
+     "pdf": 72,
+     "printed": 70,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w14-d03"
+     ]
+    },
+    {
+     "pdf": 73,
+     "printed": 71,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w14-d04",
+      "g2-math-w14-d05",
+      "g2-math-w14-d06"
+     ]
+    },
+    {
+     "pdf": 74,
+     "printed": 72,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w15-d01"
+     ]
+    },
+    {
+     "pdf": 75,
+     "printed": 73,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w15-d02"
+     ]
+    },
+    {
+     "pdf": 76,
+     "printed": 74,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w15-d03"
+     ]
+    },
+    {
+     "pdf": 77,
+     "printed": 75,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w15-d04",
+      "g2-math-w15-d05",
+      "g2-math-w15-d06"
+     ]
+    },
+    {
+     "pdf": 78,
+     "printed": 76,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w16-d01"
+     ]
+    },
+    {
+     "pdf": 79,
+     "printed": 77,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w16-d02"
+     ]
+    },
+    {
+     "pdf": 80,
+     "printed": 78,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w16-d03"
+     ]
+    },
+    {
+     "pdf": 81,
+     "printed": 79,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w16-d04",
+      "g2-math-w16-d05",
+      "g2-math-w16-d06"
+     ]
+    },
+    {
+     "pdf": 82,
+     "printed": 80,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w17-d01"
+     ]
+    },
+    {
+     "pdf": 83,
+     "printed": 81,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w17-d02"
+     ]
+    },
+    {
+     "pdf": 84,
+     "printed": 82,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w17-d03"
+     ]
+    },
+    {
+     "pdf": 85,
+     "printed": 83,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w17-d04",
+      "g2-math-w17-d05",
+      "g2-math-w17-d06"
+     ]
+    },
+    {
+     "pdf": 86,
+     "printed": 84,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w18-d01"
+     ]
+    },
+    {
+     "pdf": 87,
+     "printed": 85,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w18-d02"
+     ]
+    },
+    {
+     "pdf": 88,
+     "printed": 86,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w18-d03"
+     ]
+    },
+    {
+     "pdf": 89,
+     "printed": 87,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w18-d04",
+      "g2-math-w18-d05",
+      "g2-math-w18-d06"
+     ]
+    },
+    {
+     "pdf": 90,
+     "printed": 88,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w19-d01"
+     ]
+    },
+    {
+     "pdf": 91,
+     "printed": 89,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w19-d02"
+     ]
+    },
+    {
+     "pdf": 92,
+     "printed": 90,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w19-d03"
+     ]
+    },
+    {
+     "pdf": 93,
+     "printed": 91,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w19-d04",
+      "g2-math-w19-d05",
+      "g2-math-w19-d06"
+     ]
+    },
+    {
+     "pdf": 94,
+     "printed": 92,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 95,
+     "printed": 93,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 96,
+     "printed": 94,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w21-d01"
+     ]
+    },
+    {
+     "pdf": 97,
+     "printed": 95,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w21-d02"
+     ]
+    },
+    {
+     "pdf": 98,
+     "printed": 96,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w21-d03"
+     ]
+    },
+    {
+     "pdf": 99,
+     "printed": 97,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w21-d04",
+      "g2-math-w21-d05",
+      "g2-math-w21-d06"
+     ]
+    },
+    {
+     "pdf": 100,
+     "printed": 98,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w22-d01"
+     ]
+    },
+    {
+     "pdf": 101,
+     "printed": 99,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w22-d02"
+     ]
+    },
+    {
+     "pdf": 102,
+     "printed": 100,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w22-d03"
+     ]
+    },
+    {
+     "pdf": 103,
+     "printed": 101,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w22-d04",
+      "g2-math-w22-d05",
+      "g2-math-w22-d06"
+     ]
+    },
+    {
+     "pdf": 104,
+     "printed": 102,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w23-d01"
+     ]
+    },
+    {
+     "pdf": 105,
+     "printed": 103,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w23-d02"
+     ]
+    },
+    {
+     "pdf": 106,
+     "printed": 104,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w23-d03"
+     ]
+    },
+    {
+     "pdf": 107,
+     "printed": 105,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w23-d04",
+      "g2-math-w23-d05",
+      "g2-math-w23-d06"
+     ]
+    },
+    {
+     "pdf": 108,
+     "printed": 106,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w24-d01"
+     ]
+    },
+    {
+     "pdf": 109,
+     "printed": 107,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w24-d02"
+     ]
+    },
+    {
+     "pdf": 110,
+     "printed": 108,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w24-d03"
+     ]
+    },
+    {
+     "pdf": 111,
+     "printed": 109,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w24-d04",
+      "g2-math-w24-d05",
+      "g2-math-w24-d06"
+     ]
+    },
+    {
+     "pdf": 112,
+     "printed": 110,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w25-d01"
+     ]
+    },
+    {
+     "pdf": 113,
+     "printed": 111,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w25-d02"
+     ]
+    },
+    {
+     "pdf": 114,
+     "printed": 112,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w25-d03"
+     ]
+    },
+    {
+     "pdf": 115,
+     "printed": 113,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-math-w25-d04",
+      "g2-math-w25-d05",
+      "g2-math-w25-d06"
+     ]
+    },
+    {
+     "pdf": 116,
+     "printed": 114,
+     "section": "teaching-process",
+     "kind": "program"
+    },
+    {
+     "pdf": 117,
+     "printed": 115,
+     "section": "teaching-process",
+     "kind": "program"
+    },
+    {
+     "pdf": 118,
+     "printed": 116,
+     "section": "teaching-process",
+     "kind": "program"
+    },
+    {
+     "pdf": 119,
+     "printed": 117,
+     "section": "teaching-process",
+     "kind": "program"
+    },
+    {
+     "pdf": 120,
+     "printed": 118,
+     "section": "materials",
+     "kind": "resources"
+    },
+    {
+     "pdf": 121,
+     "printed": 119,
+     "section": "materials",
+     "kind": "resources"
+    },
+    {
+     "pdf": 122,
+     "printed": 120,
+     "section": "materials",
+     "kind": "resources"
+    },
+    {
+     "pdf": 123,
+     "printed": 121,
+     "section": "article-multigrade",
+     "kind": "article"
+    },
+    {
+     "pdf": 124,
+     "printed": 122,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 125,
+     "printed": 123,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 126,
+     "printed": 124,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 127,
+     "printed": 125,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 128,
+     "printed": 126,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 129,
+     "printed": 127,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 130,
+     "printed": 128,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 131,
+     "printed": 129,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 132,
+     "printed": 130,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 133,
+     "printed": 131,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 134,
+     "printed": 132,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 135,
+     "printed": 133,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 136,
+     "printed": 134,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 137,
+     "printed": 135,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 138,
+     "printed": 136,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 139,
+     "printed": 137,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 140,
+     "printed": 138,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 141,
+     "printed": 139,
+     "section": "closing",
+     "kind": "admin"
+    },
+    {
+     "pdf": 142,
+     "printed": 140,
+     "section": "closing",
+     "kind": "admin"
+    },
+    {
+     "pdf": 143,
+     "printed": 141,
+     "section": "teaching-reminders",
+     "kind": "program"
+    },
+    {
+     "pdf": 144,
+     "printed": 142,
+     "section": "anthem",
+     "kind": "admin"
+    }
+   ],
+   "summary": {
+    "pages": 144,
+    "sections": 19,
+    "planPagesWithoutLesson": [
+     18,
+     43,
+     68,
+     69,
+     94,
+     95
+    ],
+    "matterPages": 46
+   }
+  },
+  "3": {
+   "document": "guide-g3-186da9c8f52a",
+   "pages": [
+    {
+     "pdf": 1,
+     "printed": null,
+     "section": "cover",
+     "kind": "admin"
+    },
+    {
+     "pdf": 2,
+     "printed": null,
+     "section": "nipun-list",
+     "kind": "program"
+    },
+    {
+     "pdf": 3,
+     "printed": 1,
+     "section": "title-page",
+     "kind": "admin"
+    },
+    {
+     "pdf": 4,
+     "printed": 2,
+     "section": "weekly-teacher-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 5,
+     "printed": 3,
+     "section": "credits",
+     "kind": "admin"
+    },
+    {
+     "pdf": 6,
+     "printed": 4,
+     "section": "guide-usage",
+     "kind": "program"
+    },
+    {
+     "pdf": 7,
+     "printed": 5,
+     "section": "contents",
+     "kind": "admin"
+    },
+    {
+     "pdf": 8,
+     "printed": 6,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 9,
+     "printed": 7,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 10,
+     "printed": 8,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 11,
+     "printed": 9,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 12,
+     "printed": 10,
+     "section": "weekly-overview",
+     "kind": "program"
+    },
+    {
+     "pdf": 13,
+     "printed": 11,
+     "section": "weekly-overview",
+     "kind": "program"
+    },
+    {
+     "pdf": 14,
+     "printed": 12,
+     "section": "weekly-overview",
+     "kind": "program"
+    },
+    {
+     "pdf": 15,
+     "printed": 13,
+     "section": "weekly-overview",
+     "kind": "program"
+    },
+    {
+     "pdf": 16,
+     "printed": 14,
+     "section": "nipun-foundations",
+     "kind": "program"
+    },
+    {
+     "pdf": 17,
+     "printed": 15,
+     "section": "nipun-foundations",
+     "kind": "program"
+    },
+    {
+     "pdf": 18,
+     "printed": 16,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 19,
+     "printed": 17,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w01-d01"
+     ]
+    },
+    {
+     "pdf": 20,
+     "printed": 18,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w01-d02"
+     ]
+    },
+    {
+     "pdf": 21,
+     "printed": 19,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w01-d03"
+     ]
+    },
+    {
+     "pdf": 22,
+     "printed": 20,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w01-d04",
+      "g3-math-w01-d05",
+      "g3-math-w01-d06"
+     ]
+    },
+    {
+     "pdf": 23,
+     "printed": 21,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w02-d01"
+     ]
+    },
+    {
+     "pdf": 24,
+     "printed": 22,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w02-d02"
+     ]
+    },
+    {
+     "pdf": 25,
+     "printed": 23,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w02-d03"
+     ]
+    },
+    {
+     "pdf": 26,
+     "printed": 24,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w02-d04",
+      "g3-math-w02-d05",
+      "g3-math-w02-d06"
+     ]
+    },
+    {
+     "pdf": 27,
+     "printed": 25,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w03-d01"
+     ]
+    },
+    {
+     "pdf": 28,
+     "printed": 26,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w03-d02"
+     ]
+    },
+    {
+     "pdf": 29,
+     "printed": 27,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w03-d03"
+     ]
+    },
+    {
+     "pdf": 30,
+     "printed": 28,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w03-d04",
+      "g3-math-w03-d05",
+      "g3-math-w03-d06"
+     ]
+    },
+    {
+     "pdf": 31,
+     "printed": 29,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w04-d01"
+     ]
+    },
+    {
+     "pdf": 32,
+     "printed": 30,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w04-d02"
+     ]
+    },
+    {
+     "pdf": 33,
+     "printed": 31,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w04-d03"
+     ]
+    },
+    {
+     "pdf": 34,
+     "printed": 32,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w04-d04",
+      "g3-math-w04-d05",
+      "g3-math-w04-d06"
+     ]
+    },
+    {
+     "pdf": 35,
+     "printed": 33,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w05-d01"
+     ]
+    },
+    {
+     "pdf": 36,
+     "printed": 34,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w05-d02"
+     ]
+    },
+    {
+     "pdf": 37,
+     "printed": 35,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w05-d03"
+     ]
+    },
+    {
+     "pdf": 38,
+     "printed": 36,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w05-d04",
+      "g3-math-w05-d05",
+      "g3-math-w05-d06"
+     ]
+    },
+    {
+     "pdf": 39,
+     "printed": 37,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w06-d01"
+     ]
+    },
+    {
+     "pdf": 40,
+     "printed": 38,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w06-d02"
+     ]
+    },
+    {
+     "pdf": 41,
+     "printed": 39,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w06-d03"
+     ]
+    },
+    {
+     "pdf": 42,
+     "printed": 40,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w06-d04",
+      "g3-math-w06-d05",
+      "g3-math-w06-d06"
+     ]
+    },
+    {
+     "pdf": 43,
+     "printed": 41,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w07-d01"
+     ]
+    },
+    {
+     "pdf": 44,
+     "printed": 42,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w07-d02"
+     ]
+    },
+    {
+     "pdf": 45,
+     "printed": 43,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w07-d03"
+     ]
+    },
+    {
+     "pdf": 46,
+     "printed": 44,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w07-d04",
+      "g3-math-w07-d05",
+      "g3-math-w07-d06"
+     ]
+    },
+    {
+     "pdf": 47,
+     "printed": 45,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w08-d01"
+     ]
+    },
+    {
+     "pdf": 48,
+     "printed": 46,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w08-d02"
+     ]
+    },
+    {
+     "pdf": 49,
+     "printed": 47,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w08-d03"
+     ]
+    },
+    {
+     "pdf": 50,
+     "printed": 48,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w08-d04",
+      "g3-math-w08-d05",
+      "g3-math-w08-d06"
+     ]
+    },
+    {
+     "pdf": 51,
+     "printed": 49,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w09-d01"
+     ]
+    },
+    {
+     "pdf": 52,
+     "printed": 50,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w09-d02"
+     ]
+    },
+    {
+     "pdf": 53,
+     "printed": 51,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w09-d03"
+     ]
+    },
+    {
+     "pdf": 54,
+     "printed": 52,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w09-d04",
+      "g3-math-w09-d05",
+      "g3-math-w09-d06"
+     ]
+    },
+    {
+     "pdf": 55,
+     "printed": 53,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w10-d01"
+     ]
+    },
+    {
+     "pdf": 56,
+     "printed": 54,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w10-d02"
+     ]
+    },
+    {
+     "pdf": 57,
+     "printed": 55,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w10-d03"
+     ]
+    },
+    {
+     "pdf": 58,
+     "printed": 56,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w10-d04",
+      "g3-math-w10-d05",
+      "g3-math-w10-d06"
+     ]
+    },
+    {
+     "pdf": 59,
+     "printed": 57,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w11-d01"
+     ]
+    },
+    {
+     "pdf": 60,
+     "printed": 58,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w11-d02"
+     ]
+    },
+    {
+     "pdf": 61,
+     "printed": 59,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w11-d03"
+     ]
+    },
+    {
+     "pdf": 62,
+     "printed": 60,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w11-d04",
+      "g3-math-w11-d05",
+      "g3-math-w11-d06"
+     ]
+    },
+    {
+     "pdf": 63,
+     "printed": 61,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w12-d01"
+     ]
+    },
+    {
+     "pdf": 64,
+     "printed": 62,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w12-d02"
+     ]
+    },
+    {
+     "pdf": 65,
+     "printed": 63,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w12-d03"
+     ]
+    },
+    {
+     "pdf": 66,
+     "printed": 64,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w12-d04",
+      "g3-math-w12-d05",
+      "g3-math-w12-d06"
+     ]
+    },
+    {
+     "pdf": 67,
+     "printed": 65,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 68,
+     "printed": 66,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 69,
+     "printed": 67,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w14-d01"
+     ]
+    },
+    {
+     "pdf": 70,
+     "printed": 68,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w14-d02"
+     ]
+    },
+    {
+     "pdf": 71,
+     "printed": 69,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w14-d03"
+     ]
+    },
+    {
+     "pdf": 72,
+     "printed": 70,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w14-d04",
+      "g3-math-w14-d05",
+      "g3-math-w14-d06"
+     ]
+    },
+    {
+     "pdf": 73,
+     "printed": 71,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w15-d01"
+     ]
+    },
+    {
+     "pdf": 74,
+     "printed": 72,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w15-d02"
+     ]
+    },
+    {
+     "pdf": 75,
+     "printed": 73,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w15-d03"
+     ]
+    },
+    {
+     "pdf": 76,
+     "printed": 74,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w15-d04",
+      "g3-math-w15-d05",
+      "g3-math-w15-d06"
+     ]
+    },
+    {
+     "pdf": 77,
+     "printed": 75,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w16-d01"
+     ]
+    },
+    {
+     "pdf": 78,
+     "printed": 76,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w16-d02"
+     ]
+    },
+    {
+     "pdf": 79,
+     "printed": 77,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w16-d03"
+     ]
+    },
+    {
+     "pdf": 80,
+     "printed": 78,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w16-d04",
+      "g3-math-w16-d05",
+      "g3-math-w16-d06"
+     ]
+    },
+    {
+     "pdf": 81,
+     "printed": 79,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w17-d01"
+     ]
+    },
+    {
+     "pdf": 82,
+     "printed": 80,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w17-d02"
+     ]
+    },
+    {
+     "pdf": 83,
+     "printed": 81,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w17-d03"
+     ]
+    },
+    {
+     "pdf": 84,
+     "printed": 82,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w17-d04",
+      "g3-math-w17-d05",
+      "g3-math-w17-d06"
+     ]
+    },
+    {
+     "pdf": 85,
+     "printed": 83,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w18-d01"
+     ]
+    },
+    {
+     "pdf": 86,
+     "printed": 84,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w18-d02"
+     ]
+    },
+    {
+     "pdf": 87,
+     "printed": 85,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w18-d03"
+     ]
+    },
+    {
+     "pdf": 88,
+     "printed": 86,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w18-d04",
+      "g3-math-w18-d05",
+      "g3-math-w18-d06"
+     ]
+    },
+    {
+     "pdf": 89,
+     "printed": 87,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w19-d01"
+     ]
+    },
+    {
+     "pdf": 90,
+     "printed": 88,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w19-d02"
+     ]
+    },
+    {
+     "pdf": 91,
+     "printed": 89,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w19-d03"
+     ]
+    },
+    {
+     "pdf": 92,
+     "printed": 90,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w19-d04",
+      "g3-math-w19-d05",
+      "g3-math-w19-d06"
+     ]
+    },
+    {
+     "pdf": 93,
+     "printed": 91,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 94,
+     "printed": 92,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 95,
+     "printed": 93,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w21-d01"
+     ]
+    },
+    {
+     "pdf": 96,
+     "printed": 94,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w21-d02"
+     ]
+    },
+    {
+     "pdf": 97,
+     "printed": 95,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w21-d03"
+     ]
+    },
+    {
+     "pdf": 98,
+     "printed": 96,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w21-d04",
+      "g3-math-w21-d05",
+      "g3-math-w21-d06"
+     ]
+    },
+    {
+     "pdf": 99,
+     "printed": 97,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w22-d01"
+     ]
+    },
+    {
+     "pdf": 100,
+     "printed": 98,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w22-d02"
+     ]
+    },
+    {
+     "pdf": 101,
+     "printed": 99,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w22-d03"
+     ]
+    },
+    {
+     "pdf": 102,
+     "printed": 100,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w22-d04",
+      "g3-math-w22-d05",
+      "g3-math-w22-d06"
+     ]
+    },
+    {
+     "pdf": 103,
+     "printed": 101,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w23-d01"
+     ]
+    },
+    {
+     "pdf": 104,
+     "printed": 102,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w23-d02"
+     ]
+    },
+    {
+     "pdf": 105,
+     "printed": 103,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w23-d03"
+     ]
+    },
+    {
+     "pdf": 106,
+     "printed": 104,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w23-d04",
+      "g3-math-w23-d05",
+      "g3-math-w23-d06"
+     ]
+    },
+    {
+     "pdf": 107,
+     "printed": 105,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w24-d01"
+     ]
+    },
+    {
+     "pdf": 108,
+     "printed": 106,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w24-d02"
+     ]
+    },
+    {
+     "pdf": 109,
+     "printed": 107,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w24-d03"
+     ]
+    },
+    {
+     "pdf": 110,
+     "printed": 108,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w24-d04",
+      "g3-math-w24-d05",
+      "g3-math-w24-d06"
+     ]
+    },
+    {
+     "pdf": 111,
+     "printed": 109,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w25-d01"
+     ]
+    },
+    {
+     "pdf": 112,
+     "printed": 110,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w25-d02"
+     ]
+    },
+    {
+     "pdf": 113,
+     "printed": 111,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w25-d03"
+     ]
+    },
+    {
+     "pdf": 114,
+     "printed": 112,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-math-w25-d04",
+      "g3-math-w25-d05",
+      "g3-math-w25-d06"
+     ]
+    },
+    {
+     "pdf": 115,
+     "printed": 113,
+     "section": "teaching-process",
+     "kind": "program"
+    },
+    {
+     "pdf": 116,
+     "printed": 114,
+     "section": "teaching-process",
+     "kind": "program"
+    },
+    {
+     "pdf": 117,
+     "printed": 115,
+     "section": "materials",
+     "kind": "resources"
+    },
+    {
+     "pdf": 118,
+     "printed": 116,
+     "section": "materials",
+     "kind": "resources"
+    },
+    {
+     "pdf": 119,
+     "printed": 117,
+     "section": "materials",
+     "kind": "resources"
+    },
+    {
+     "pdf": 120,
+     "printed": 118,
+     "section": "materials",
+     "kind": "resources"
+    },
+    {
+     "pdf": 121,
+     "printed": 119,
+     "section": "sample-weekly-material",
+     "kind": "resources"
+    },
+    {
+     "pdf": 122,
+     "printed": 120,
+     "section": "sample-weekly-material",
+     "kind": "resources"
+    },
+    {
+     "pdf": 123,
+     "printed": 121,
+     "section": "sample-weekly-material",
+     "kind": "resources"
+    },
+    {
+     "pdf": 124,
+     "printed": 122,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 125,
+     "printed": 123,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 126,
+     "printed": 124,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 127,
+     "printed": 125,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 128,
+     "printed": 126,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 129,
+     "printed": 127,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 130,
+     "printed": 128,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 131,
+     "printed": 129,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 132,
+     "printed": 130,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 133,
+     "printed": 131,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 134,
+     "printed": 132,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 135,
+     "printed": 133,
+     "section": "procedural-fluency",
+     "kind": "resources"
+    },
+    {
+     "pdf": 136,
+     "printed": 134,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 137,
+     "printed": 135,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 138,
+     "printed": 136,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 139,
+     "printed": 137,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 140,
+     "printed": 138,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 141,
+     "printed": 139,
+     "section": "closing",
+     "kind": "admin"
+    },
+    {
+     "pdf": 142,
+     "printed": 140,
+     "section": "closing",
+     "kind": "admin"
+    },
+    {
+     "pdf": 143,
+     "printed": 141,
+     "section": "teaching-reminders",
+     "kind": "program"
+    },
+    {
+     "pdf": 144,
+     "printed": 142,
+     "section": "anthem",
+     "kind": "admin"
+    }
+   ],
+   "summary": {
+    "pages": 144,
+    "sections": 19,
+    "planPagesWithoutLesson": [
+     18,
+     67,
+     68,
+     93,
+     94
+    ],
+    "matterPages": 47
+   }
+  }
+ }
+}

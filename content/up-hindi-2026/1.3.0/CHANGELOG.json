@@ -1,0 +1,19 @@
+{
+ "pack": "up-hindi-2026",
+ "version": "1.3.0",
+ "previous": "1.2.0",
+ "added": [],
+ "changed": [],
+ "removed": [],
+ "files": {
+  "added": [
+   "entities/card.json"
+  ],
+  "changed": [
+   "views/app/grade-1.json",
+   "views/app/grade-2.json",
+   "views/app/grade-3.json"
+  ],
+  "removed": []
+ }
+}

@@ -1,0 +1,417 @@
+{
+ "$id": "structure.schema.json",
+ "$comment": "Program structure: the calendar (week blocks → which day type each day is), the day types (period and slot shape), the period outline and known exceptions. Written first, from the guide's usage, annual-objectives, weekly-cycle and period-outline pages; every lesson must match its day type (scripts/content/structure.mjs).",
+ "type": "object",
+ "required": [
+  "pack",
+  "subject",
+  "calendar",
+  "dayTypes",
+  "periodOutline",
+  "exceptions",
+  "provenance"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "pack": {
+   "$ref": "common.schema.json#/$defs/slug"
+  },
+  "subject": {
+   "enum": [
+    "hindi",
+    "math"
+   ]
+  },
+  "calendar": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "grade",
+     "from",
+     "to",
+     "kind",
+     "inApp",
+     "provenance"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "grade": {
+      "$ref": "common.schema.json#/$defs/grade"
+     },
+     "from": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "to": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "kind": {
+      "enum": [
+       "teaching",
+       "periodic-revision",
+       "school-readiness",
+       "class-review"
+      ]
+     },
+     "inApp": {
+      "type": "boolean"
+     },
+     "cycle": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "days",
+        "dayType"
+       ],
+       "additionalProperties": false,
+       "properties": {
+        "days": {
+         "type": "array",
+         "items": {
+          "type": "integer",
+          "minimum": 1
+         },
+         "minItems": 1
+        },
+        "dayType": {
+         "$ref": "common.schema.json#/$defs/slug"
+        }
+       }
+      }
+     },
+     "plan": {
+      "$ref": "common.schema.json#/$defs/sourceRef"
+     },
+     "label": {
+      "$ref": "common.schema.json#/$defs/bilingual"
+     },
+     "provenance": {
+      "$ref": "common.schema.json#/$defs/provenance"
+     }
+    }
+   },
+   "minItems": 1
+  },
+  "dayTypes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "name",
+     "purpose",
+     "planForm",
+     "grades",
+     "periods",
+     "provenance"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "$ref": "common.schema.json#/$defs/slug"
+     },
+     "name": {
+      "$ref": "common.schema.json#/$defs/bilingual"
+     },
+     "purpose": {
+      "enum": [
+       "new-skills",
+       "weekly-revision",
+       "weekly-assessment",
+       "consolidation",
+       "open",
+       "explore",
+       "consolidation-assessment",
+       "remedial-revision"
+      ]
+     },
+     "planForm": {
+      "enum": [
+       "daily-plan",
+       "weekly-template",
+       "week-plan"
+      ]
+     },
+     "phase": {
+      "enum": [
+       "instruction",
+       "consolidation-assessment",
+       "remedial-revision"
+      ]
+     },
+     "grades": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/grade"
+      },
+      "minItems": 1
+     },
+     "periods": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "number",
+        "role"
+       ],
+       "additionalProperties": false,
+       "properties": {
+        "number": {
+         "type": "array",
+         "items": {
+          "type": "integer",
+          "minimum": 1
+         },
+         "minItems": 1
+        },
+        "role": {
+         "enum": [
+          "teaching",
+          "practice",
+          "support",
+          "assessment",
+          "open"
+         ]
+        },
+        "minutes": {
+         "type": "integer"
+        },
+        "label": {
+         "$ref": "common.schema.json#/$defs/bilingual"
+        },
+        "slots": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "required": [
+           "id",
+           "name",
+           "kind"
+          ],
+          "additionalProperties": false,
+          "properties": {
+           "id": {
+            "$ref": "common.schema.json#/$defs/slug"
+           },
+           "name": {
+            "$ref": "common.schema.json#/$defs/bilingual"
+           },
+           "kind": {
+            "enum": [
+             "oral-language",
+             "sel",
+             "game",
+             "decoding",
+             "reading",
+             "writing",
+             "instruction",
+             "practice",
+             "procedural-fluency",
+             "explore",
+             "consolidation",
+             "revision",
+             "assessment",
+             "remediation"
+            ]
+           },
+           "minutes": {
+            "type": [
+             "string",
+             "integer",
+             "null"
+            ]
+           },
+           "materials": {
+            "type": "array",
+            "items": {
+             "$ref": "common.schema.json#/$defs/link"
+            }
+           },
+           "selfMade": {
+            "type": "boolean"
+           },
+           "optional": {
+            "type": "boolean"
+           },
+           "note": {
+            "type": "string"
+           },
+           "match": {
+            "type": "string",
+            "$comment": "regular expression on the step title that identifies this slot on a day plan"
+           }
+          }
+         }
+        },
+        "note": {
+         "type": "string"
+        }
+       }
+      }
+     },
+     "sequence": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "id",
+        "name",
+        "kind"
+       ],
+       "additionalProperties": false,
+       "properties": {
+        "id": {
+         "$ref": "common.schema.json#/$defs/slug"
+        },
+        "name": {
+         "$ref": "common.schema.json#/$defs/bilingual"
+        },
+        "kind": {
+         "enum": [
+          "oral-language",
+          "sel",
+          "game",
+          "decoding",
+          "reading",
+          "writing",
+          "instruction",
+          "practice",
+          "procedural-fluency",
+          "explore",
+          "consolidation",
+          "revision",
+          "assessment",
+          "remediation"
+         ]
+        },
+        "minutes": {
+         "type": [
+          "string",
+          "integer",
+          "null"
+         ]
+        },
+        "materials": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/link"
+         }
+        },
+        "selfMade": {
+         "type": "boolean"
+        },
+        "optional": {
+         "type": "boolean"
+        },
+        "note": {
+         "type": "string"
+        }
+       }
+      }
+     },
+     "assessment": {
+      "enum": [
+       "checking-understanding",
+       "weekly",
+       "periodic",
+       "oral-language-observation",
+       "fluency"
+      ]
+     },
+     "remediation": {
+      "type": "boolean"
+     },
+     "provenance": {
+      "$ref": "common.schema.json#/$defs/provenance"
+     }
+    },
+    "$comment": "periods: the day's कालांश with their slots. sequence: slots in order when the guide prints the day as a flow without कालांश (keep periods empty then)."
+   },
+   "minItems": 1
+  },
+  "periodOutline": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "grade",
+     "number",
+     "minutes",
+     "role",
+     "focus",
+     "provenance"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "grade": {
+      "$ref": "common.schema.json#/$defs/grade"
+     },
+     "number": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "minutes": {
+      "type": "integer"
+     },
+     "role": {
+      "enum": [
+       "teaching",
+       "practice",
+       "support",
+       "assessment",
+       "open"
+      ]
+     },
+     "focus": {
+      "$ref": "common.schema.json#/$defs/bilingual"
+     },
+     "materials": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/link"
+      }
+     },
+     "provenance": {
+      "$ref": "common.schema.json#/$defs/provenance"
+     }
+    }
+   }
+  },
+  "exceptions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "lesson",
+     "kind",
+     "note"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "lesson": {
+      "type": "string",
+      "pattern": "^g[0-9]-(math|hindi)-w[0-9]{2}-d0[1-6]$"
+     },
+     "kind": {
+      "enum": [
+       "v1-incomplete",
+       "source-variant"
+      ]
+     },
+     "note": {
+      "type": "string"
+     },
+     "source": {
+      "$ref": "common.schema.json#/$defs/sourceRef"
+     }
+    }
+   }
+  },
+  "provenance": {
+   "$ref": "common.schema.json#/$defs/provenance"
+  }
+ }
+}

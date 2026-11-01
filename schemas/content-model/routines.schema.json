@@ -1,0 +1,108 @@
+{
+ "$id": "routines.schema.json",
+ "type": "object",
+ "required": [
+  "pack",
+  "routines"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "pack": {
+   "$ref": "common.schema.json#/$defs/slug"
+  },
+  "routines": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "type",
+     "name",
+     "grades",
+     "provenance"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "$ref": "common.schema.json#/$defs/slug"
+     },
+     "type": {
+      "enum": [
+       "oral-language",
+       "sel",
+       "game",
+       "decoding",
+       "reading",
+       "writing",
+       "instruction",
+       "practice",
+       "procedural-fluency",
+       "explore",
+       "consolidation",
+       "revision",
+       "assessment",
+       "remediation"
+      ]
+     },
+     "name": {
+      "$ref": "common.schema.json#/$defs/text"
+     },
+     "aliases": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/text"
+      }
+     },
+     "grades": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/grade"
+      }
+     },
+     "period": {
+      "type": "integer"
+     },
+     "what": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/text"
+      }
+     },
+     "why": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/text"
+      }
+     },
+     "how": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/text"
+      }
+     },
+     "watch": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/text"
+      }
+     },
+     "materials": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/link"
+      }
+     },
+     "minutes": {
+      "type": "string"
+     },
+     "section": {
+      "type": "string"
+     },
+     "provenance": {
+      "$ref": "common.schema.json#/$defs/provenance"
+     }
+    }
+   }
+  }
+ }
+}

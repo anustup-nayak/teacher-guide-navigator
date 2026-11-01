@@ -1,0 +1,3869 @@
+{
+ "pack": "up-math-2026",
+ "cards": [
+  {
+   "lesson": "g2-math-w01-d01",
+   "layout": "steps",
+   "title": "दूर-पास और ऊपर-नीचे",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "कविता “मेरी प्यारी बिल्ली ढूँढो” हाव-भाव से; पूछें: दोस्त पास बैठा है या दूर?"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "मेज-कुर्सी-बैग से पास और दूर, किताब-बोतल से ऊपर और नीचे दिखाएँ"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "3-3 के समूह: एक निर्देश दे, बाकी करें; फिर पेड़-जानवर पोस्टर पर सवाल-जवाब"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "‘बच्चे स्वयं करें’ के प्रश्न कॉपी में फिर; हर प्रश्न का एक उदाहरण पहले दिखाएँ"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "पृष्ठ 3 का दूर-पास खेल; 70% से कम सही हों तो “हम करें” दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w01-d02",
+   "layout": "steps",
+   "title": "दाएं-बाएं और आगे-पीछे",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "कविता “छुक-छुक करती रेल चली” हाव-भाव से; बच्चों से रेलयात्रा के अनुभव पूछें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बोतल को अपने आगे-पीछे और किताब को दाईं-बाईं ओर रखकर दिशाएँ समझाएँ"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "तीन-तीन के समूह निर्देश दें और मानें; फिर बोर्ड पर दाएँ-बाएँ हाथ छपवाएँ, लाइन में आगे-पीछे पूछें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "‘बच्चे स्वयं करें’ के प्रश्न कॉपी में फिर; हर प्रश्न का एक उदाहरण पहले दिखाएँ"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "पृष्ठ 8 का “आओ खेलें”; 70% से कम सही हों तो “हम करें” दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w01-d03",
+   "layout": "steps",
+   "title": "वर्गीकरण और क्रम",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "पृष्ठ 8 का चित्र: संगीता गोटियों के समूह बना रही है; रंग से समूह कैसे बनाते?"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बोर्ड पर लाल फूलों का अलग समूह बनाएँ; कंकड़ छोटे से बड़े क्रम में रखें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह कॉपी में रंग और आकार के समूह बनाएँ; फिर रंग और क्रम के चित्र"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "‘बच्चे स्वयं करें’ के प्रश्न कॉपी में फिर; हर प्रश्न का एक उदाहरण पहले दिखाएँ"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "एक जैसे रंग या आकार की 3 वस्तुओं के समूह का खेल; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w02-d01",
+   "layout": "steps",
+   "title": "10 के समूह में गिनती (टेन फ्रेम)",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "कहानी ‘दसवाँ जन्मदिन’ (पृष्ठ 37); पूछें: आसपास 10 कहाँ देखा है?"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "10 तीलियाँ गिनकर 10 का समूह; 10 फ्रेम में 5 बिंदु, फिर 5 और जोड़कर पूरा करें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह 10 कंकड़ से “10 हैं या नहीं?”; फिर बोर्ड के 10 फ्रेम में कितने और चाहिए"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "‘बच्चे स्वयं करें’ के प्रश्न कॉपी में फिर; हर प्रश्न का एक उदाहरण पहले दिखाएँ"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "2-2 के समूह 10 वस्तुएँ लाकर क्रम से रखें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w02-d02",
+   "layout": "steps",
+   "title": "1–20 तक की गिनती",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "16 बिंदुओं की पर्ची दिखाकर छिपाएँ: बिना गिने कितने? कैसे पहचाना?"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "प्यासे कौए की कहानी, 14 कंकड़; 10 के कार्ड के साथ 1-1 कंकड़ बढ़ाकर 11 से 20 तक"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह 20 कंकड़ से बोली गई संख्या गिनें-लिखें; फिर बोर्ड के चित्र गिनकर संख्या लिखें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "‘बच्चे स्वयं करें’ के प्रश्न कॉपी में फिर; हर प्रश्न का एक उदाहरण पहले दिखाएँ"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "2-2 के समूह: एक कंकड़ दे, दूसरा गिनकर लिखे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w02-d03",
+   "layout": "steps",
+   "title": "1–20 तक गिनती के सिद्धांत",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "8 कंकड़ गिनें, फिर उनका स्थान बदलकर पूछें: अब कितने हैं?"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "15 ब्लॉक्स एक-एक गिनें: आखिरी संख्या 15 तो कुल 15; फिर स्थान बदलकर दोबारा गिनें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह 20 कंकड़ से बोली गई संख्या निकालें; फिर बोर्ड के चित्र गिनकर संख्या लिखें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "‘बच्चे स्वयं करें’ के प्रश्न कॉपी में फिर; हर प्रश्न का एक उदाहरण पहले दिखाएँ"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "2-2 के समूह 20 कंकड़ से गिनती का खेल; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w03-d01",
+   "layout": "steps",
+   "title": "20 तक जोड़",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "20 मोतियों वाली गिनलड़ी लटकाएँ; बच्चे देखकर अपने विचार बताएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बड़ी संख्या 9 से शुरू कर 7 कदम आगे गिनें: जोड़ ऐसे करते हैं"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह दो कार्ड उठाकर जोड़ें; फिर बोर्ड पर 10 + 4, 9 + 2, 9 + 9"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "‘बच्चे स्वयं करें’ के प्रश्न कॉपी में फिर; हर प्रश्न का एक उदाहरण पहले दिखाएँ"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "2-2 के समूह कटोरे की संख्या-पर्चियों से जोड़ का खेल; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w03-d02",
+   "layout": "steps",
+   "title": "20 तक जोड़: शाब्दिक प्रश्न",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "ज़ैनब के 5 कंचे, दोस्त ने 3 और दिए: कुल कितने? चर्चा करें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बोर्ड पर हरप्रीत की 8 किताबें और 4 और: प्रश्न में कुल और भाग पहचानकर हल करें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह प्रश्न और उत्तर की पर्चियाँ मिलाएँ; फिर बोर्ड के शाब्दिक प्रश्न हल करें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "‘बच्चे स्वयं करें’ के प्रश्न कॉपी में फिर; हर प्रश्न का एक उदाहरण पहले दिखाएँ"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "3-3 के समूह 1 से 9 की संख्याओं से जोड़ का खेल; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w03-d03",
+   "layout": "steps",
+   "title": "20 तक घटाव",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "15 कबूतरों में से 4 उड़ गए: कितने बचे? कैसे पता किया, चर्चा करें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बड़ी संख्या 14 से शुरू कर 6 कदम पीछे गिनें: घटाव ऐसे करते हैं"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह दो कार्ड उठाकर घटाएँ; फिर बोर्ड पर 13 - 4, 15 - 3, 18 - 9"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "‘बच्चे स्वयं करें’ के प्रश्न कॉपी में फिर; हर प्रश्न का एक उदाहरण पहले दिखाएँ"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "2-2 के समूह कटोरों की संख्या-पर्चियों से घटाव का खेल; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w04-d01",
+   "layout": "steps",
+   "title": "20 तक घटाव: शाब्दिक प्रश्न",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "राधा के 8 कंचे, 3 खो गए: कितने बचे? यहाँ घटाव क्यों करते हैं?"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "राम की 19 किताबें, 4 दे दीं: कितनी बचीं? प्रश्न में कुल और भाग पहचानें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह प्रश्न और उत्तर की पर्चियाँ मिलाएँ; फिर बोर्ड के शाब्दिक प्रश्न हल करें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "‘बच्चे स्वयं करें’ के प्रश्न कॉपी में फिर; हर प्रश्न का एक उदाहरण पहले दिखाएँ"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "3-3 के समूह: एक संख्या बोले, बाकी घटाव करें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w04-d02",
+   "layout": "steps",
+   "title": "जोड़ और घटाव का सम्बन्ध",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बोर्ड पर 4 + 3 और 7 - 3: इन दोनों में क्या सम्बन्ध है? चर्चा करें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "2 तीलियों में 3 जोड़कर 5; फिर 5 में से 3 हटाकर वापस 2 दिखाएँ"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह कंकड़ से बोर्ड के जोड़-घटाव के प्रश्न; फिर वैसे ही प्रश्न बोर्ड और कॉपी में"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "‘बच्चे स्वयं करें’ के प्रश्न कॉपी में फिर; हर प्रश्न का एक उदाहरण पहले दिखाएँ"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "3-3 के समूह संख्या कार्ड उठाकर जोड़-घटाव का खेल; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w04-d03",
+   "layout": "steps",
+   "title": "20 तक जोड़-घटाव से संख्या बनाना",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "पेड़ पर 5 चिड़ियाँ, 3 और आ गईं: अब कितनी? कहानी से चर्चा करें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "4 + 3 और 9 - 2 हल करें; 17 को 8 + 9 या 19 - 2 से बनाएँ"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "3-3 के समूह: एक कार्ड दिखाए, दूसरा उतनी बनाने वाली दो संख्याएँ खोजे; फिर पृष्ठ 70 का मिलान"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "‘बच्चे स्वयं करें’ के प्रश्न कॉपी में फिर; हर प्रश्न का एक उदाहरण पहले दिखाएँ"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "कटोरे की 1-9 पर्चियों जितने कंकड़ उठाकर दोनों की मात्रा बराबर करें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w05-d01",
+   "layout": "steps",
+   "title": "बंडल (2, 3, 4, 5 और 10) बनाना",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "पृष्ठ 1 का चित्र दिखाएँ: बच्चे बताएँ उन्हें क्या-क्या दिख रहा है"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "12 ब्लॉक्स पहले एक-एक, फिर 2-2 के समूह में गिनकर दिखाएँ"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "3-3 के समूह 30 तीलियों से 2, 3, 4, 5 के बंडल बनाएँ; फिर बोर्ड के 24 फूलों के समूह"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 7; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "4-4 के समूह कार्ड की संख्या जितने बंडल तीलियों-धागे से बनाएँ; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w05-d02",
+   "layout": "steps",
+   "title": "10-10 के बंडल में 100 तक गिनती",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "कागज़ पर 3 बिंदु जल्दी दिखाकर छिपाएँ: कुल कितने बिंदु हैं?"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "संतरे एक-एक गिनें: ज़्यादा हों तो एक-एक गिनना कठिन; फिर 10-10 के समूह में गिनकर दिखाएँ"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह बोली गई संख्या के बंडल और तीलियाँ रखें; फिर 32 पत्ते, 42 गोले गिनें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 8; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "2-2 के समूह 11 से 100 के कार्ड और तीलियों से खेल; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w05-d03",
+   "layout": "steps",
+   "title": "स्थानीयमान में शून्य",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "मोनू एक डिब्बे में 10 लड्डू रखता है; किसी ने 25 माँगे तो कैसे देगा?"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "4 बंडल यानी 40 तीलियाँ; खुली तीली न हो तो इकाई के स्थान पर 0, जैसे 50"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह: एक बंडल-तीलियाँ रखे, दूसरा संख्या कार्ड; फिर 2 बंडल 4 खुली जैसे चित्र कॉपी में"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 9; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "3-3 के समूह बंडल-तीलियों और संख्याओं की पर्चियाँ मिलाएँ; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w06-d01",
+   "layout": "steps",
+   "title": "50 तक की संख्याओं को खुले और 10",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बोर्ड पर 34 गेंदें एक तरफ सीधी रेखा में और दूसरी तरफ 10-10 के समूह व 4 खुली"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "36 बनाने में 3 दस के बंडल और 6 खुली तीलियाँ लगती हैं"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "पाँच बार अभ्यास के बाद भूमिकाएँ बदलें; फिर बोर्ड पर 21 से 50 के बीच"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 13; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 2-2 के समूहों में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w06-d02",
+   "layout": "steps",
+   "title": "50 तक की संख्याओं को इकाई और दहाई",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "गिनलड़ी के किसी भी स्थान पर चिमटी की मदद से एक संख्या कार्ड लगाएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "संख्या 26 को समझाने के लिए बोर्ड पर 2 बंडल (20) और 6 खुली तीलियाँ बनाएँ"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ; फिर शिक्षक बोर्ड पर कुछ इकाई और दहाई"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 14; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 2-2 के समूहों में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w06-d03",
+   "layout": "steps",
+   "title": "50 तक की संख्याओं की तुलना",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों के सामने 4 कंकड़ और 9 बीज/दाने रखें और पूछें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "समझाएँ कि दो संख्याओं में बड़ी संख्या जानने के लिए सबसे पहले दहाई का अंक देखते हैं"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "इस प्रक्रिया को 7-8 बार दोहराएँ; फिर बोर्ड पर संख्या तुलना के प्रश्न लिखिए"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 15; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 2-2 के समूहों में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w07-d01",
+   "layout": "steps",
+   "title": "99 तक की संख्याआंे को इकाई और दहाई",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "कक्षा में 1 से 100 तक की गिनलड़ी लटकाएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "संख्या को इकाई और दहाई में समझाने के लिए 10 के समूह और खुली इकाइयों का उपयोग करें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ; फिर शिक्षक बोर्ड पर कुछ इकाई और दहाई"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 19; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चों को समूहों में यह खेल कराएँ; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w07-d02",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं की तुलना",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "एक जगह 4 दस की संख्या पट्टियाँ और 3 खुली इकाइयाँ रखें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "समझाएँ कि दो संख्याओं में बड़ी संख्या जानने के लिए सबसे पहले दहाई का अंक देखते हैं"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "इस प्रक्रिया को 7-8 बार दोहराएँ; फिर बोर्ड पर संख्या तुलना के प्रश्न लिखिए"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 20; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चों को समूहों में बाँटें और पाठ्यपुस्तक के पृष्ठ 12; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w07-d03",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं में सबसे बड़ी",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "कक्षा में 1 से 100 तक की गिनलड़ी लटकाएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "आज हम 3 या अधिक संख्याओं में सबसे बड़ी और सबसे छोटी संख्या पहचानेंगे"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "हर समूह तीन संख्या कार्ड उठाएँगे; फिर बोर्ड पर सबसे बड़ी और सबसे छोटी संख्या"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 21; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "कक्षा को दो समूहों में बाँटें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w08-d01",
+   "layout": "steps",
+   "title": "99 तक की सबसे बड़ी और सबसे छोटी",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "पाठ्यपुस्तक के पृष्ठ संख्या 13 पर कुछ प्रश्न ‘संख्या खेल मैं कौन हूँ?’ दिए गए हैं"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "अगर दहाई का अंक सबसे बड़ा है तो वह संख्या सबसे बड़ी है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "हर समूह तीन संख्या कार्ड उठाएँगे; फिर बोर्ड पर सबसे बड़ी और सबसे छोटी संख्या"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 25; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "कक्षा को दो समूहों में बाँटें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w08-d02",
+   "layout": "steps",
+   "title": "99 तक की संख्याआंे को लिखना और आगे",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों को गिनलड़ी दिखाएँ और उनसे अनुमान लगाने को कहें कि उसमें कितने मोती होंगे और क्यों? चर्चा"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बच्चों को 40 से 60 तक क्रमवार आगे और पीछे की गिनती लिखने को कहें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "पहला बच्चा एक पर्ची उठाकर संख्या बताएगा; फिर शिक्षक बोर्ड पर कुछ संख्याएँ लिखें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 26; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 2-2 के समूहों में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w08-d03",
+   "layout": "steps",
+   "title": "99 तक की संख्या को बढ़ते और घटते",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "चर्चा करते हुए ‘क’ से ‘घ’ तक के प्रश्न हल करें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "तुलना करते समय पहले दहाई देखें, और दहाई समान होने पर इकाई का अंक देखें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "इस प्रक्रिया को 7-8 बार दोहराएँ; फिर बोर्ड पर बढ़ते और घटते क्रम"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 27; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "पाठ्यपुस्तक के पृष्ठ 13 पर दी गई ‘रास्ता बनाओ’ गतिविधि देखें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w09-d01",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं के संख्या नाम को",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "73 का संख्या कार्ड लें और उसे चिमटी से किसी गलत स्थान पर टाँग दें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "1-100 तक का संख्या चार्ट दिखाएँ 21, 31, 41, 51, 61, 71 पढ़ें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ; फिर शिक्षक बोर्ड पर 1-100 के बीच 5दृ-7 संख्याएँ"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 31; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 4-4 के समूहों में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w09-d02",
+   "layout": "steps",
+   "title": "100-100 के बंडल में 900 तक की संख्याआंे",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "10-10 के अंतराल पर (10, 20, 30...) चिमटी से संख्या कार्ड लगाएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बच्चों को 100 का डीन्स ब्लाॅक (सैकड़ा) दिखाएँ और बताएँ कि यह 100 का एक बंडल है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "4-4 बच्चों के समूह बनाएँ और हर समूह को 100; फिर बाकी बच्चे यही अभ्यास अपनी काॅपी में करें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 32; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "इसके बाद संख्या काॅपी में लिखें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w09-d03",
+   "layout": "steps",
+   "title": "101-500 तक की संख्याओं को इकाई",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "यह सही है या गलत, बच्चे अपने विचार बताएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "संख्या 243 समझाने के लिए 2 सौ के बंडल (200)"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ; फिर बाकी बच्चे यही अभ्यास अपनी काॅपी में करें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 33; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "5-5 बच्चों के समूह बनाएँ; शिक्षक 100-500 की संख्या और डीन्स; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w10-d01",
+   "layout": "steps",
+   "title": "101-500 तक की संख्याओं के संख्यानाम को",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों के सामने 3 सैकड़े, 2 दहाइयाँ और 5 इकाइयों के ब्लाॅक्स रख दें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "246 लिखें और समझाएँ कि तीन अंकों की संख्या में बाएँ से पहला अंक सैकड़ा दर्शाता है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "455 में कितने सौ हैं? समझाएँ; फिर बाकी बच्चे यही अभ्यास अपनी काॅपी में करें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 37; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चों को 10 तीन अंकों की संख्याओं के कार्ड दें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w10-d02",
+   "layout": "steps",
+   "title": "501-999 तक की संख्याओं को इकाई",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "शिक्षक कक्षा में खेल मुद्रा लेकर जाएँ, जिसमें कुछ 100 के नोट"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "के बंडल, 10 के बंडल और कुछ खुली तीलियाँ लें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ; फिर बाकी बच्चे यही अभ्यास अपनी काॅपी में करें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 38; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "5-5 बच्चों के समूह बनाएँ; शिक्षक 501-999 की संख्या और डीन्स; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w10-d03",
+   "layout": "steps",
+   "title": "501-999 तक की संख्याओं के संख्या नाम को",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "शिक्षक कक्षा की शुरुआत एक कविता से कराएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "तक भी गिनें; समझाएँ कि 100-100 के अंतराल पर इकाई और दहाई वैसे ही बदलती हैं"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "758 में कितने सौ हैं? समझाएँ; फिर बाकी बच्चे यही अभ्यास अपनी काॅपी में करें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 39; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 2-2 के समूहों में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w11-d01",
+   "layout": "steps",
+   "title": "संख्या के आधार पर बने पैटर्न की पहचान",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बोर्ड पर एक तीर ऊपर और दूसरा तीर नीचे का एक पैटर्न बनाएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "कि पहले क्रम में हर संख्या के बीच 4 का समान अंतर है, इसलिए यह एक संख्या-पैटर्न है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "पैटर्न पहचान कर उसे आगे बढ़ाएँगे; फिर आपने इस पैटर्न को आगे कैसे बढ़ाया? समझाएँ"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 43; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बोर्ड पर संख्या पैटर्न कुछ संख्याएँ छोड़ कर लिखें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w11-d02",
+   "layout": "steps",
+   "title": "ठोस वस्तुओं और चित्रों के आधार पर पैटर्न",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "लटकन के चित्र को ध्यान से देखकर उसकी विशेषताएँ बताने को कहें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "समझाएँ कि जब वस्तुएँ या चित्र एक निश्चित क्रम में बार-बार दोहराए जाएँ, तो वह पैटर्न बनता है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "अगर यह पैटर्न है तो तीसरा बच्चा पैटर्न को बढ़ाएगा; फिर बाकी बच्चे यही अभ्यास अपनी काॅपी में करें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 44; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 4-4 के समूह में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w11-d03",
+   "layout": "steps",
+   "title": "परिवेश की विभिन्न वस्तुओं और चित्रों में 2D",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "पाठ्यपुस्तक पृष्ठ 32 की कहानी सुनाएँ और पृष्ठ 33 के सवाल पूछें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "आयत, वर्ग, त्रिभुज, अंडाकार और वृत्त दिखाकर नाम बताएँ"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "दो-दो बच्चों के समूह बनाएँ और कुछ 3D वस्तुएँ दें; फिर बोर्ड पर दो कॉलम बनाएँ: एक में 3D"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 45; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "दीवार पर 2D आकृतियों के चित्र लगाएँ; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w12-d01",
+   "layout": "steps",
+   "title": "परिवेश की विभिन्न वस्तुओं और चित्रों में 2",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों को कर्नाटक की ‘तोगलू गोम्बेयत’ कठपुतली कला से परिचित कराएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बच्चों को 2-आयामी आकृतियों - आयत, वर्ग और त्रिभुज के चित्र दिखाएँ और उनके बारे में समझाएँ"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "5 बारी के बाद बच्चे भूमिकाएँ बदलेंगे; फिर बाकी बच्चे वही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 49; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "2-2 बच्चों के समूह बनाएँ और उन्हें कुछ तीलियाँ दें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w12-d02",
+   "layout": "steps",
+   "title": "परिवेश की विभिन्न वस्तुओं और चित्रों में 2",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "इसके बाद पृष्ठ 37 पर दिए गए रिक्त स्थान बच्चों के साथ बातचीत करते हुए भरें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बच्चों को वृत्त और अंडाकार के चित्र दिखाएँ और समझाएँ कि इनमें कोई कोना नहीं होता और दोनों"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ; फिर बाकी बच्चे वही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 50; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "पाठ्यपुस्तक के पृष्ठ 39 को देखें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w12-d03",
+   "layout": "steps",
+   "title": "रेखाओं के माध्यम से आकतियों को बनाकर समझना",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों से इन वस्तुओं में पाई जाने वाली रेखाओं के प्रकारों पर उनसे चर्चा करें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "सीधी व तिरछी रेखाओं से बने होते हैं तथा वृत्त घुमावदार रेखा से बनता है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "5 बारी के बाद बच्चे अपनी भूमिकाएँ बदलेंगे; फिर बोर्ड पर बिंदुओं का एक ग्रिड बनाएँ"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 51; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "सभी बच्चे साथ में खेलेंगे और अपनी काॅपी में अपना पसंदीदा; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w14-d01",
+   "layout": "steps",
+   "title": "50 तक जोड़: “काउंट ऑन” रणनीति",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "गिनलड़ी पर खाली टैग: “यह कौन-सी संख्या है? कैसे पहचाना?”"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "26 + 13: 26 से शुरू, 13 को 10 और 3 में बाँटकर आगे गिनें; संख्या चार्ट पर दोहराएँ"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह गिनलड़ी से बोर्ड के प्रश्न; फिर 38 + 9, 25 + 13 नोटबुक में"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 61; हर प्रश्न का एक उदाहरण पहले बोर्ड पर"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "संख्या कार्ड से जोड़ का खेल; 70% से कम सही हों तो “हम करें” दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: 'Go Ahead' after reviewing the 16 rendered cards"
+   }
+  },
+  {
+   "lesson": "g2-math-w14-d02",
+   "layout": "steps",
+   "title": "50 तक संख्याओं के जोड़ को अलग-अलग रणनीति",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों के साथ 10 के समूह बनाने पर चर्चा करें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "टेन फ्रेम के साथ जोड़ करते समय 10-10 बनाते हुए जोड़ेंगे"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "बच्चों को 2दृ2 के समूह में बैठाएँ; फिर 2-3 बच्चों को बुलाएँ"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 62; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चों को 2-2 के समूह में बाँटें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w14-d03",
+   "layout": "steps",
+   "title": "50 तक संख्याओं के जोड़ को अलग-अलग रणनीति",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बोर्ड पर 1 से 100 तक 10-10 के अंतराल वाली एक संख्या-रेखा बनाएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "आज हम संख्या-रेखा की सहायता से 33 + 15 का जोड़ समझेंगे"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ और उन्हें जोड़ के प्रश्नों; फिर बोर्ड पर संख्या-रेखा बनाकर जोड़ के प्रश्न दें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 63; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "सभी बच्चे एक साथ खेलेंगे; दो प्रकार की पर्चियाँ तैयार करें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w15-d01",
+   "layout": "steps",
+   "title": "50 तक की संख्याओं के जोड़",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "चर्चा करें कि उन्होंने 18 बनाने के लिए कौन-कौन-सी संख्याओं को जोड़ा"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बोर्ड पर 25 + 13 लिखें और कहें कि आज हम खड़े रूप में जोड़ना सीखेंगे"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ और उन्हें प्रश्न और उत्तर; फिर बोर्ड पर जोड़ के खड़े रूप में प्रश्न"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 67; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 2-2 के समूह में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w15-d02",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं के जोड़",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "34 से 6 अधिक और 47 से 8 अधिक- चर्चा करें कौन-सा योगफल 50 के अधिक नजदीक होगा"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "8 एक अंकों की संख्या है, इसलिए पुनर्समूहन नहीं करना है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2दृ2 बच्चों के समूह बनाएँ; फिर बोर्ड पर जोड़ के कुछ प्रश्न लिखें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 68; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चों को दो समूहों में बाँटें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w15-d03",
+   "layout": "steps",
+   "title": "50 तक की संख्याओं के जोड़",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "क्या 34 + 28 का जोड़ 60 से ज्यादा लगता है? अपना कारण बताओ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बोर्ड पर 27 + 19 खड़े रूप में लिखें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ; फिर शिक्षक बोर्ड पर 25 + 18 लिखें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 69; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "ज्यादा बंडल बनाने वाला समूह जीतेगा; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w16-d01",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं के जोड़",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "क्या 15 + 39 का जोड़ 50 से ज्यादा लगता है? अपना कारण बताओ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बोर्ड पर 59 + 37 खड़े रूप में लिखें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ; फिर शिक्षक बोर्ड पर 25 + 38 लिखें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 73; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "ज्यादा बंडल बनाने वाला समूह जीतेगा; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w16-d02",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं को दहाई और इकाई",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "पाठ्यपुस्तक के पृष्ठ 50 पर रोहन और उसके मित्रों की एक कहानी दी गई है"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "24 में 2 दहाई यानी 20 और 4 इकाई (4) हैं"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "4-4 बच्चों के समूह बनाएँ; फिर बाकी बच्चे वही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 74; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 2-2 के समूहों में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w16-d03",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं का अनुमान के माध्यम",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "अब एक संख्या कार्ड, जैसे 37, गिनलड़ी पर लगाएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "जोड़ के प्रश्न देखकर उसका उत्तर किस संख्या के आसपास हो सकता है, यह अनुमान लगाएँगे"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "दो अंकों के जोड़ के प्रश्न बोर्ड पर लिखें; फिर बोर्ड पर जोड़ के प्रश्न लिखें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 75; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 2दृ-2 के समूह में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w17-d01",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं के जोड़",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बोर्ड पर एक जोड़ का प्रश्न उत्तर के साथ लिखें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "दोनों पक्षों में मात्राओं को बराबर करते हुए जोड़ को समझेंगे"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "बच्चों को 2-2 के समूह में बैठाएँ; फिर बाकी बच्चे यही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 79; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चों को 4-4 के समूह में बाँटें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w17-d02",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं के जोड़ को शाब्दिक",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों से चर्चा करें कि योगफल दहाई में होगा या सैकड़े में"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "आकाश के पास जितनी पेंसिलें हैं, उनमें नंदिनी की पेंसिलें जोड़कर कुल पेंसिलें बतानी हैं"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "आवश्यक होने पर बच्चों की सहायता करें; फिर बाकी बच्चे यह अभ्यास अपनी काॅपी में करें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 80; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 4-4 के समूह में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w17-d03",
+   "layout": "steps",
+   "title": "50 तक की संख्याओं के घटाव को अलग-अलग",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "चर्चा करें कि यदि आप 30 पर हैं और 10 स्थान बाएं चलें, तो कहाँ पहुचेंगे"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "आज हम संख्या रेखा की सहायता से 42 - 25 का घटाव समझेंगे"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ और उन्हें प्रश्नों वाली पर्चियाँ; फिर बोर्ड पर संख्या रेखा बनाकर घटाव"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 81; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "कक्षा को दो समूहों में बाँटें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w18-d01",
+   "layout": "steps",
+   "title": "50 तक की संख्याओं के घटाव को अलग-अलग",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों से चर्चा करें कि इससे सबसे कम कितनी खुली इकाइयाँ घटाएँगे या कम करेंगे तो 10दृ-10"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "टेन फ्रेम के साथ घटाव करते समय 10-10 बनाते हुए घटाएँगे"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "बच्चों को 2दृ-2 के समूह में बैठाएँ; फिर बाकी बच्चे यही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 85; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चों को 2-2 के समूह में बाँटें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w18-d02",
+   "layout": "steps",
+   "title": "50 तक की संख्याओं के घटाव",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों के साथ चर्चा करें कि वो इस प्रश्न को हल करने के लिए कौन-सा तरीका अपनाएँगें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बोर्ड पर 38 - 15 लिखें और कहें कि आज हम खड़े रूप में घटाव सीखेंगे"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ और उन्हें प्रश्न और उत्तर; फिर बोर्ड पर घटाव के कुछ प्रश्न लिखें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 86; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 2-2 के समूह में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w18-d03",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं के घटाव",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बोर्ड पर 23 - 12 लिखें; बच्चों से चर्चा कराएँ कि इस प्रश्न को खड़े रूप में हल"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बोर्ड पर खड़े रूप में 79 - 54 लिखें और बच्चों को समझाएँ कि खड़े रूप में घटाव"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ और उन्हें प्रश्नों और उत्तरों; फिर बाकी बच्चे वही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 87; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "4-4 बच्चों के समूह बनाएँ और हर समूह को 10 ब्लाॅक्स; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w19-d01",
+   "layout": "steps",
+   "title": "50 तक की संख्याओं के घटाव",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बोर्ड पर 42 लिखें और बच्चों को 4 बंडल और 2 तीलियाँ दिखाएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बोर्ड पर 43 दृ- 24 को दहाई और इकाई के काॅलम में खड़े रूप में लिखें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ और उन्हें प्रश्नों और उत्तरों; फिर बोर्ड पर घटाव के कुछ प्रश्न लिखें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 91; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "4-4 के समूह बनाएँ और प्रत्येक समूह को तीली बंडल दें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w19-d02",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं के घटाव",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों को बताएँ कि आपके पास 10 के 6 बंडल और 2 खुली तीलियाँ हैं"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बताएँ कि खड़े रूप में घटाव करते समय हम इकाई काॅलम से शुरुआत करते हैं"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ और उन्हें प्रश्नों और उत्तरों; फिर बोर्ड पर घटाव के कुछ प्रश्न लिखें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 92; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "पहला बच्चा दो अंकों वाले दो संख्या-कार्ड उठाएगा; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w19-d03",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं का अनुमान के माध्यम",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "चर्चा करें कि इन संख्याओं में जोड़ना और घटाना कैसे आसान होता है"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "घटाने से बड़ी संख्या का मान घटता या कम होता है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "दो अंकों के घटाव के प्रश्न बोर्ड पर लिखें; फिर बोर्ड पर जोड़ के प्रश्न लिखें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 93; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 2-2 के समूहों में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w21-d01",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं के घटाव",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बोर्ड पर एक घटाव का प्रश्न उत्तर के साथ लिखें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "दोनों पक्षों में मात्राओं को बराबर करते हुए घटाव को समझेंगे"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "बच्चों को 2-2 के समूह में बैठाएँ; फिर बाकी बच्चे यही अभ्यास अपनी काॅपी में करेंगें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 103; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चों को 4-4 के समूह में बाँटें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w21-d02",
+   "layout": "steps",
+   "title": "99 तक की संख्याओं के घटाव को शाब्दिक",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "एक कविता बोलें: हम सब 56 केले लाये"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बच्चों को समझाएँ कि सवाल में कुल (73) और एक भाग (48) दिया गया है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "घटाव के प्रश्नों और उत्तरों की पर्चियाँ दें; फिर बाकी बच्चे वही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 104; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "एक कटोरे में शाब्दिक प्रश्नों की पर्चियाँ रखें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w21-d03",
+   "layout": "steps",
+   "title": "जोड़ और घटाव के सम्बन्ध",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "कैसे पता किया कि उत्तर गलत है या सही है? समझाएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "17 को हम 8 + 9 और 19 - 2 जैसे संख्या तथ्यों से बना सकते हैं"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "बच्चे 3-3 के समूह में खेलेंगे; फिर प्रश्न 1 को शिक्षक बोर्ड पर करके दिखाएँ"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 105; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "कक्षा को दो समूहों में बाँटें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w22-d01",
+   "layout": "steps",
+   "title": "गैर मानक इकाइयों का उपयोग कर मापन",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "पाठ्यपुस्तक के पृष्ठ 71 व 72 पर दी गई कहानी ‘रानी का उपहार’ देखें व उस पर चर्चा"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "माप का महत्व समझाएँ, जैसे पता लगाना कि खिड़की कितनी ऊँची होगी, मेज़ कितनी लम्बी होगी"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों की जोड़ियाँ बनाएँ; फिर बाकी बच्चे वही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 109; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चों को माचिस की तीलियाँ दें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w22-d02",
+   "layout": "steps",
+   "title": "सरल संतुलन का प्रयोग से वस्तुओं के वजन",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "कक्षा में दो बैग दिखाएँ - एक बैग में पाँच किताबें और दूसरे में दो पानी की बोतलें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "जो पलड़ा नीचे जाएगा, वह भारी वस्तु का संकेत देता है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों की जोड़ियाँ बनाएँ; फिर बोर्ड पर कुछ वस्तुओं के नाम लिखें"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 110; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "पाठ्यपुस्तक के पृष्ठ 77 पर दी गई गतिविधि के लिए 2-2; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w22-d03",
+   "layout": "steps",
+   "title": "गैर मानक इकाइयों की सहायता से विभिन्न पात्रों",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "अगर एक कटोरी और बड़ी बोतल से बाल्टी भरे तो किस बर्तन से बाल्टी जल्दी भरेगी और क्यों?"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "बोतल से कप में पानी भरकर कटोरी में डालें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों की जोड़ियाँ बनाएँ; फिर बोर्ड पर जग, मटका आदि के चित्र व"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 111; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे दो-दो के समूह में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w23-d01",
+   "layout": "steps",
+   "title": "1-10 तक की संख्याओं को बार-बार जोड़ कर",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों से चित्र में दिख रहे विभिन्न प्रकार के वाहनों और उनमें लगे पहियों पर चर्चा करें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "4 के 3 समूह में कुल सेबों की संख्या निकालने के लिए 3 बार 4 जोड़कर निकालेंगे"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "क्या यह सही है? समझाएँ; फिर बोर्ड पर बार-बार जोड़कर गुणा करने"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 115; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 3-3 के समूह में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w23-d02",
+   "layout": "steps",
+   "title": "2, 3 और 4 के गुणन तथ्य",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "यदि 4 प्लेटों पर प्रत्येक में 3 लड्डू रखें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "समझाएँ कि जिस संख्या का पहाड़ा बनाना है, उसके बराबर समूह बनाकर बार-बार जोड़ना होता है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों की जोड़ियाँ बनाएँ और हर जोड़ी को 1; फिर बाकी बच्चे वही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 116; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 3-3 के समूह में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w23-d03",
+   "layout": "steps",
+   "title": "9 तक की संख्याओं का बराबर बँटवारा कर",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "पाठ्यपुस्तक के पृष्ठ 95 पर दी गई ‘कितने समूह’ गतिविधि को देखें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "निकालकर दिखाएँ और बताएँ कि 24 फूलों से 6 के 4 बराबर समूह बनते हैं"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "पहला बच्चा कंकड़ों का समूह और एक संख्या कार्ड दिखाएगा; फिर बोर्ड पर 30 संतरे बनाएँ"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 117; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "2-2 के समूह में 20 कंकड़ दें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w24-d01",
+   "layout": "steps",
+   "title": "महीने और दिन के नाम को घटनाओं",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों के साथ पेज 99 पर दिए ‘आओ सोचें’ भाग के प्रश्नों पर चर्चा करें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "इस महीने का कैलेंडर दिखाएँ और सप्ताह के दिनों के नाम बोर्ड पर लिखें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "बच्चे जोड़ियों में इन प्रश्नों पर चर्चा करेंगे; फिर महीनों के दिनों की संख्या भी लिखवाएँ"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 121; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "3-3 के समूह में एक-एक महीने के नाम का कार्ड दें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w24-d02",
+   "layout": "steps",
+   "title": "घड़ी का उपयोग कर समय",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "पाठ्यपुस्तक के पृष्ठ-104 एवं 105 पर दी गई चित्र कहानी ‘लखनऊ की यात्रा’ बच्चों को पढ़कर सुनाएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "सुई (घंटे की सुई) और बड़ी सुई (मिनट की सुई) के बारे में समझाएँ"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों के समूह बनाएँ और उन्हें घड़ी बनी हुई; फिर बाकी बच्चे वही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 122; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "दोनों बच्चे मिलकर घड़ी में दिए गए समय को दिखाएँगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w24-d03",
+   "layout": "steps",
+   "title": "100 रुपये तक सिक्कों और नोटों की पहचान",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "पाठ्यपुस्तक के पृष्ठ 113 पर दिया गया मेले का चित्र बच्चों को दिखाएँ"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "समझाएँ कि नोटदृसिक्कों पर लिखी संख्या ही उनका मूल्य बताती है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "कुछ खेल-मुद्राएँ और तीली/बंडल दें; फिर बाकी बच्चे वही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 123; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "बच्चे 2-2 की जोड़ियों में खेलेंगे; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w25-d01",
+   "layout": "steps",
+   "title": "परिवेश और चित्र से सूचनाओं को एकत्रित करने",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "पाठ्यपुस्तक के पृष्ठ 123 में दिया गया चित्र बच्चों को दिखाकर चर्चा करें कि कितने बच्चों ने हरा"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "दिए गए चित्र की तरह अलग-अलग रंगों के ब्लाॅक्स रखें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "पूरी कक्षा को दो समूहों में बाँटें और बोर्ड; फिर बोर्ड पर कुछ वस्तुओं के चित्र बनाएँ"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 127; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "चार कटोरों पर जीवित, निर्जीव, प्राकृतिक, गतिविधियाँ लिखें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w25-d02",
+   "layout": "steps",
+   "title": "परिवेश और चित्र से एकत्रित और वर्गीकृत किए",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "बच्चों के साथ चर्चा करें कि वाहनों का वर्गीकरण कैसे किया जा सकता है"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "कम चेहरे गाजर के हैं, यानी गाजर सबसे कम बच्चों को पसंद है"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "दो-दो बच्चों की जोड़ियाँ बनाएँ; फिर बाकी बच्चे वही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 128; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "सभी बच्चों को दो समूहों में बाँटें; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  },
+  {
+   "lesson": "g2-math-w25-d03",
+   "layout": "steps",
+   "title": "वस्तुओं का उपयोग कर आधे/चैथाई/पूरे और इनके आपसी",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "अलग-अलग फलों में आधा और पूरा कैसे दिखता है, इस पर चर्चा करें"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "मोड़कर कहें: ‘यह भाग पूरे कागज़ का आधा हिस्सा है।’ फिर एक बार और मोड़कर कहें"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 बच्चों की जोड़ियाँ बनाएँ; फिर बाकी बच्चे वही अभ्यास अपनी काॅपी में करेंगे"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 129; हर प्रश्न का एक उदाहरण पहले बोर्ड पर, फिर बच्चे स्वयं"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "आधा, पूरा, चैथाई वाले 36 कार्ड बनाएँ; 70% से कम हों तो ‘हम करें’ दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "owner-approved",
+    "note": "Approved: owner (Anustup), chat, 2026-11-01: chose option 1 'approve all Math now' after reviewing rendered samples and review sheets in PR #27"
+   }
+  }
+ ]
+}

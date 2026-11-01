@@ -28,7 +28,7 @@ evidence are recorded below after actual completion.
 Documentation impact: updated AGENTS, README, developer/pack/workspace docs and
 skill entry/ingestion/release/intake. Canonical SOURCE_ARCHIVE and GITHUB_PAGES
 explain the split between full repo and dist-only website. Historical transfer
-manifest moved to docs/TRANSFER_MANIFEST.original.json to avoid implying current
+manifest moved to docs/history/TRANSFER_MANIFEST.original.json to avoid implying current
 checksums. Current PRD/runtime behavior and immutable baseline are unchanged.
 
 ## Published evidence

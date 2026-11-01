@@ -1,7 +1,7 @@
 """Decode the legacy Hindi fonts used in the UP Hindi 2026-27 Teacher Guides and Workbooks.
 
 All four families (Kruti Dev 010, BHARTIYA-HINDI, A-SuperHindi, Walkman-Chanakya) are
-Kruti-compatible, so text goes through the shared Kruti mapping in scripts/decode_legacy.py.
+Kruti-compatible, so text goes through the shared Kruti mapping in scripts/ingestion/legacy_fonts.py.
 Each family draws a few glyphs differently; FAMILY_FIXES rewrites those to Kruti codes first.
 Every rule below was inferred from repeated words in these PDFs and checked against the page
 images (31 October 2026); see docs/tasks/up-hindi-ingestion.md. Source text is never
@@ -11,9 +11,11 @@ import pathlib
 import re
 
 _REPO = pathlib.Path(__file__).resolve().parents[3]
-_ns = {}
-exec((_REPO / 'scripts/decode_legacy.py').read_text().split('def convert_span')[0], _ns)
-kruti = _ns['legacy']
+import importlib.util
+_spec = importlib.util.spec_from_file_location('guide_legacy_fonts', _REPO / 'scripts/ingestion/legacy_fonts.py')
+_fonts = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_fonts)
+kruti = _fonts.legacy
 
 LEGACY = re.compile(r'Kruti|BHARTIYA|SuperHindi|Chanakya|AAText', re.I)
 PERCENT = ''  # placeholder: Kruti maps '%' to visarga, so a real percent sign is carried through

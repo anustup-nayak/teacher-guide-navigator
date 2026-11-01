@@ -1,0 +1,221 @@
+{
+ "$id": "lesson.schema.json",
+ "type": "object",
+ "required": [
+  "id",
+  "grade",
+  "week",
+  "day",
+  "dayType",
+  "title",
+  "periods",
+  "source",
+  "provenance"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^g[0-9]-(math|hindi)-w[0-9]{2}-d0[1-6]$"
+  },
+  "grade": {
+   "$ref": "common.schema.json#/$defs/grade"
+  },
+  "week": {
+   "type": "integer"
+  },
+  "day": {
+   "type": "integer"
+  },
+  "unit": {
+   "$ref": "common.schema.json#/$defs/link"
+  },
+  "dayType": {
+   "$ref": "common.schema.json#/$defs/slug"
+  },
+  "title": {
+   "$ref": "common.schema.json#/$defs/text"
+  },
+  "outcomes": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/link"
+   }
+  },
+  "objectives": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/link"
+   }
+  },
+  "materials": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/link"
+   }
+  },
+  "periods": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "number",
+     "steps"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "number": {
+      "type": "array",
+      "items": {
+       "type": "integer"
+      },
+      "minItems": 1
+     },
+     "label": {
+      "$ref": "common.schema.json#/$defs/text"
+     },
+     "role": {
+      "enum": [
+       "teaching",
+       "practice",
+       "support",
+       "assessment",
+       "open"
+      ]
+     },
+     "steps": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "id",
+        "title",
+        "actions",
+        "provenance"
+       ],
+       "additionalProperties": false,
+       "properties": {
+        "id": {
+         "type": "string",
+         "pattern": "^[a-z0-9-]+$"
+        },
+        "title": {
+         "$ref": "common.schema.json#/$defs/text"
+        },
+        "minutes": {
+         "type": [
+          "string",
+          "integer",
+          "null"
+         ]
+        },
+        "slots": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/slug"
+         }
+        },
+        "routine": {
+         "$ref": "common.schema.json#/$defs/link"
+        },
+        "actions": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/text"
+         },
+         "minItems": 1
+        },
+        "questions": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/text"
+         }
+        },
+        "materials": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/link"
+         }
+        },
+        "outcomes": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/link"
+         }
+        },
+        "resources": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/link"
+         }
+        },
+        "workbook": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/link"
+         }
+        },
+        "source": {
+         "$ref": "common.schema.json#/$defs/sourceRef"
+        },
+        "provenance": {
+         "$ref": "common.schema.json#/$defs/provenance"
+        },
+        "instructions": {
+         "type": "array",
+         "items": {
+          "$ref": "common.schema.json#/$defs/text"
+         },
+         "$comment": "Exact published instruction variant when it differs from actions; [] means no alternate instructions. Never generated."
+        }
+       }
+      },
+      "minItems": 1
+     }
+    }
+   },
+   "minItems": 1
+  },
+  "assessment": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/link"
+   }
+  },
+  "workbook": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/link"
+   },
+   "$comment": "every workbook page the day cites, in the guide's order (steps may also link the page they use)"
+  },
+  "guideLinks": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/link"
+   }
+  },
+  "source": {
+   "$ref": "common.schema.json#/$defs/sourceRef"
+  },
+  "v1": {
+   "type": "object",
+   "required": [],
+   "additionalProperties": false,
+   "properties": {
+    "structure": {
+     "type": "string"
+    },
+    "phaseIds": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "provenance": {
+   "$ref": "common.schema.json#/$defs/provenance"
+  }
+ }
+}

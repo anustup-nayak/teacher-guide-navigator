@@ -1,0 +1,106 @@
+{
+ "$id": "program.schema.json",
+ "type": "object",
+ "required": [
+  "pack",
+  "state",
+  "subject",
+  "academicYear",
+  "grades",
+  "documents",
+  "provenance"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "pack": {
+   "$ref": "common.schema.json#/$defs/slug"
+  },
+  "state": {
+   "type": "string"
+  },
+  "subject": {
+   "enum": [
+    "hindi",
+    "math"
+   ]
+  },
+  "academicYear": {
+   "type": "string",
+   "pattern": "^20[0-9]{2}–[0-9]{2}$"
+  },
+  "grades": {
+   "type": "array",
+   "items": {
+    "$ref": "common.schema.json#/$defs/grade"
+   },
+   "minItems": 1
+  },
+  "documents": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "kind",
+     "grade",
+     "title"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "kind": {
+      "enum": [
+       "guide",
+       "workbook",
+       "textbook"
+      ]
+     },
+     "grade": {
+      "$ref": "common.schema.json#/$defs/grade"
+     },
+     "title": {
+      "$ref": "common.schema.json#/$defs/bilingual"
+     },
+     "edition": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "provenance": {
+   "$ref": "common.schema.json#/$defs/provenance"
+  },
+  "structure": {
+   "type": "object",
+   "required": [
+    "file",
+    "understanding",
+    "profile",
+    "sections",
+    "pageMap"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "file": {
+     "const": "structure.json"
+    },
+    "understanding": {
+     "const": "program-understanding.json"
+    },
+    "profile": {
+     "const": "PROGRAM_PROFILE.md"
+    },
+    "sections": {
+     "const": "sections.json"
+    },
+    "pageMap": {
+     "const": "pagemap.json"
+    }
+   },
+   "$comment": "Required by compiler schema profile 1.1; optional in the base schema so archived 1.0 records remain valid."
+  }
+ },
+ "$comment": "Edition and source documents. Calendar, weekly cycle and periods live in structure.json."
+}

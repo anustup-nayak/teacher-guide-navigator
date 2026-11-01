@@ -1,0 +1,277 @@
+[
+ {
+  "id": "hi-new-skills",
+  "name": {
+   "hi": "नई दक्षताओं का शिक्षण",
+   "en": "New skills"
+  },
+  "purpose": "new-skills",
+  "planForm": "daily-plan",
+  "grades": [
+   1,
+   2,
+   3
+  ],
+  "periods": [
+   {
+    "number": [
+     1
+    ],
+    "role": "teaching",
+    "minutes": 40
+   },
+   {
+    "number": [
+     2
+    ],
+    "role": "practice",
+    "minutes": 40
+   },
+   {
+    "number": [
+     3
+    ],
+    "role": "support",
+    "minutes": 40,
+    "slots": [
+     {
+      "id": "remedial-group-a",
+      "name": {
+       "hi": "समूह-A के साथ रिमीडियल कार्य",
+       "en": "Remedial work with group A"
+      },
+      "kind": "remediation",
+      "minutes": "20",
+      "match": "रिमीडियल"
+     }
+    ],
+    "note": "last 20 minutes of period 3 on the first five days are remedial work (weekly cycle page)"
+   }
+  ],
+  "remediation": true,
+  "provenance": {
+   "assertion": "stated",
+   "review": "owner-approved",
+   "sources": [
+    {
+     "doc": "guide-g1-00970fd3c1e8",
+     "pdf": 16,
+     "printed": 14
+    },
+    {
+     "doc": "guide-g1-00970fd3c1e8",
+     "pdf": 18,
+     "printed": 16
+    },
+    {
+     "doc": "guide-g2-d86262b7a94c",
+     "pdf": 16,
+     "printed": 14
+    },
+    {
+     "doc": "guide-g2-d86262b7a94c",
+     "pdf": 18,
+     "printed": 16
+    },
+    {
+     "doc": "guide-g3-ab99c837f781",
+     "pdf": 16,
+     "printed": 14
+    },
+    {
+     "doc": "guide-g3-ab99c837f781",
+     "pdf": 18,
+     "printed": 16
+    }
+   ],
+   "note": "Day type confirmed by the owner on 31 Oct 2026."
+  }
+ },
+ {
+  "id": "hi-weekly-revision",
+  "name": {
+   "hi": "साप्ताहिक पुनरावृत्ति",
+   "en": "Weekly revision"
+  },
+  "purpose": "weekly-revision",
+  "planForm": "daily-plan",
+  "grades": [
+   1,
+   2,
+   3
+  ],
+  "periods": [
+   {
+    "number": [
+     1
+    ],
+    "role": "teaching",
+    "minutes": 40
+   },
+   {
+    "number": [
+     2
+    ],
+    "role": "practice",
+    "minutes": 40
+   },
+   {
+    "number": [
+     3
+    ],
+    "role": "support",
+    "minutes": 40,
+    "slots": [
+     {
+      "id": "remedial-group-a",
+      "name": {
+       "hi": "समूह-A के साथ रिमीडियल कार्य",
+       "en": "Remedial work with group A"
+      },
+      "kind": "remediation",
+      "minutes": "20",
+      "match": "रिमीडियल"
+     }
+    ],
+    "note": "last 20 minutes of period 3 on the first five days are remedial work (weekly cycle page)"
+   }
+  ],
+  "remediation": true,
+  "provenance": {
+   "assertion": "stated",
+   "review": "owner-approved",
+   "sources": [
+    {
+     "doc": "guide-g1-00970fd3c1e8",
+     "pdf": 16,
+     "printed": 14
+    },
+    {
+     "doc": "guide-g2-d86262b7a94c",
+     "pdf": 16,
+     "printed": 14
+    },
+    {
+     "doc": "guide-g3-ab99c837f781",
+     "pdf": 16,
+     "printed": 14
+    },
+    {
+     "doc": "guide-g1-00970fd3c1e8",
+     "pdf": 24,
+     "printed": 22
+    }
+   ],
+   "note": "Day 5 every week. In G1 weeks 9–12 day 6 is also a revision day with three periods (day pages, e.g. pdf 24), because the weekly assessment starts in week 14 (pdf 7, 18). Day type confirmed by the owner on 31 Oct 2026."
+  }
+ },
+ {
+  "id": "hi-weekly-assessment",
+  "name": {
+   "hi": "साप्ताहिक आकलन ‘मैंने सीख लिया’",
+   "en": "Weekly assessment"
+  },
+  "purpose": "weekly-assessment",
+  "planForm": "daily-plan",
+  "grades": [
+   1,
+   2,
+   3
+  ],
+  "assessment": "weekly",
+  "remediation": false,
+  "periods": [
+   {
+    "number": [
+     1
+    ],
+    "role": "teaching",
+    "minutes": 40
+   },
+   {
+    "number": [
+     2,
+     3
+    ],
+    "role": "assessment",
+    "minutes": 80,
+    "label": {
+     "hi": "कालांश 2 एवं 3 · साप्ताहिक आकलन",
+     "en": "Periods 2 and 3 · weekly assessment"
+    },
+    "slots": [
+     {
+      "id": "before-assessment",
+      "name": {
+       "hi": "आकलन से पूर्व तैयारी",
+       "en": "Before the assessment"
+      },
+      "kind": "assessment",
+      "match": "^आकलन से पूर्व"
+     },
+     {
+      "id": "assessment",
+      "name": {
+       "hi": "‘मैंने सीख लिया’ आकलन प्रक्रिया",
+       "en": "‘मैंने सीख लिया’ assessment"
+      },
+      "kind": "assessment",
+      "match": "मैंने सीख लिया"
+     },
+     {
+      "id": "after-assessment",
+      "name": {
+       "hi": "आकलन प्रक्रिया के पश्चात्",
+       "en": "After the assessment"
+      },
+      "kind": "assessment",
+      "note": "plan the next week's period-3 remedial work from the results (weekly cycle page)",
+      "match": "^आकलन प्रक्रिया के पश्चात"
+     }
+    ]
+   }
+  ],
+  "provenance": {
+   "assertion": "stated",
+   "review": "owner-approved",
+   "sources": [
+    {
+     "doc": "guide-g1-00970fd3c1e8",
+     "pdf": 7,
+     "printed": 5
+    },
+    {
+     "doc": "guide-g1-00970fd3c1e8",
+     "pdf": 16,
+     "printed": 14
+    },
+    {
+     "doc": "guide-g1-00970fd3c1e8",
+     "pdf": 18,
+     "printed": 16
+    },
+    {
+     "doc": "guide-g2-d86262b7a94c",
+     "pdf": 16,
+     "printed": 14
+    },
+    {
+     "doc": "guide-g2-d86262b7a94c",
+     "pdf": 18,
+     "printed": 16
+    },
+    {
+     "doc": "guide-g3-ab99c837f781",
+     "pdf": 16,
+     "printed": 14
+    },
+    {
+     "doc": "guide-g3-ab99c837f781",
+     "pdf": 18,
+     "printed": 16
+    }
+   ],
+   "note": "Remedial work is only on the first five days, so day 6 has no remedial slot. Day type confirmed by the owner on 31 Oct 2026."
+  }
+ }
+]

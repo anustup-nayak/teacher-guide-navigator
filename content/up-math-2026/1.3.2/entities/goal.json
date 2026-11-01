@@ -1,0 +1,660 @@
+[
+ {
+  "id": "g1-m101",
+  "grade": 1,
+  "order": 1,
+  "title": {
+   "hi": "स्थान की समझ और संख्या से पहले की तैयारी",
+   "en": "Spatial sense and pre-number concepts"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M101.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M101.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g1-m102",
+  "grade": 1,
+  "order": 2,
+  "title": {
+   "hi": "1 से 99 तक की संख्याएँ, शून्य और सिक्के-नोट",
+   "en": "Numbers 1–99, zero, coins and notes"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M102.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M102.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M102.3",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M102.4",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g1-m103",
+  "grade": 1,
+  "order": 3,
+  "title": {
+   "hi": "एक अंक का जोड़ और घटाव",
+   "en": "Adding and subtracting single digits"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M103.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M103.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g1-m104",
+  "grade": 1,
+  "order": 4,
+  "title": {
+   "hi": "ठोस (3D) आकृतियाँ",
+   "en": "Solid (3D) shapes"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M104",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g1-m105",
+  "grade": 1,
+  "order": 5,
+  "title": {
+   "hi": "मापन और आधा-पूरा",
+   "en": "Measuring and half/whole"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M105.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M105.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g1-m106",
+  "grade": 1,
+  "order": 6,
+  "title": {
+   "hi": "पैटर्न, सूची बनाना और कैलेंडर",
+   "en": "Patterns, sorting into lists, days and months"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M106.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M106.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M106.3",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g2-review",
+  "grade": 2,
+  "order": 1,
+  "title": {
+   "hi": "कक्षा 1 की पुनरावृत्ति",
+   "en": "Review of Class 1"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M101.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M101.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M102.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M102.3",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M103.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M103.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g2-m201",
+  "grade": 2,
+  "order": 2,
+  "title": {
+   "hi": "1 से 999 तक की संख्याएँ, इकाई-दहाई और तुलना",
+   "en": "Numbers 1–999, tens and ones, comparing"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M201.3",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M201.4",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g2-m202",
+  "grade": 2,
+  "order": 3,
+  "title": {
+   "hi": "दो अंकों का जोड़ और घटाव",
+   "en": "Adding and subtracting two-digit numbers"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M202.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g2-m203",
+  "grade": 2,
+  "order": 4,
+  "title": {
+   "hi": "गुणा और बँटवारे की शुरुआत",
+   "en": "Beginning multiplication and sharing"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M203.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M203.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g2-m204",
+  "grade": 2,
+  "order": 5,
+  "title": {
+   "hi": "मापन और आधा-चौथाई",
+   "en": "Measuring, halves and quarters"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M204.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g2-m205",
+  "grade": 2,
+  "order": 6,
+  "title": {
+   "hi": "समतल (2D) आकृतियाँ",
+   "en": "Flat (2D) shapes"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M205",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g2-m206",
+  "grade": 2,
+  "order": 7,
+  "title": {
+   "hi": "जानकारी इकट्ठा करना और स्थान के शब्द",
+   "en": "Collecting information and position words"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M206",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g2-m207",
+  "grade": 2,
+  "order": 8,
+  "title": {
+   "hi": "पैटर्न और कैलेंडर",
+   "en": "Patterns, days and months"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M207.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M207.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g3-review",
+  "grade": 3,
+  "order": 1,
+  "title": {
+   "hi": "कक्षा 2 की पुनरावृत्ति",
+   "en": "Review of Class 2"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M201.3",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M201.4",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M202.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M202.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M203.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M204.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M205",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M207.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g3-m301",
+  "grade": 3,
+  "order": 2,
+  "title": {
+   "hi": "1 से 9999 तक की संख्याएँ और स्थानीय मान",
+   "en": "Numbers 1–9999 and place value"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M301.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M301.3",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M301.4",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g3-m302",
+  "grade": 3,
+  "order": 3,
+  "title": {
+   "hi": "तीन अंकों का जोड़ और घटाव",
+   "en": "Adding and subtracting three-digit numbers"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M302.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M302.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g3-m303",
+  "grade": 3,
+  "order": 4,
+  "title": {
+   "hi": "गुणा (2–10 के पहाड़े) और भाग",
+   "en": "Multiplication tables 2–10 and division"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M303.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M303.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g3-m304",
+  "grade": 3,
+  "order": 5,
+  "title": {
+   "hi": "मानक इकाइयों से मापन",
+   "en": "Measuring with standard units"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M304",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g3-m305",
+  "grade": 3,
+  "order": 6,
+  "title": {
+   "hi": "समतल और ठोस आकृतियाँ",
+   "en": "Flat and solid shapes"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M305",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g3-m306",
+  "grade": 3,
+  "order": 7,
+  "title": {
+   "hi": "घड़ी और कैलेंडर",
+   "en": "Clock and calendar"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M306",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g3-m307",
+  "grade": 3,
+  "order": 8,
+  "title": {
+   "hi": "आधा, चौथाई और तीन चौथाई",
+   "en": "Halves, quarters and three-quarters"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M307",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ },
+ {
+  "id": "g3-m308",
+  "grade": 3,
+  "order": 9,
+  "title": {
+   "hi": "पैटर्न और सूची बनाना",
+   "en": "Patterns and sorting into lists"
+  },
+  "outcomes": [
+   {
+    "to": "lo:M308.1",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   },
+   {
+    "to": "lo:M308.2",
+    "assertion": "editorial",
+    "review": "owner-approved"
+   }
+  ],
+  "provenance": {
+   "assertion": "editorial",
+   "review": "owner-approved",
+   "note": "Owner approved 31 Oct 2026 (docs/review/math-goal-titles.md)"
+  }
+ }
+]

@@ -7,7 +7,12 @@ curricula/<pack-id>/
   pack.json                  # staging/publication manifest, no credentials
   originals/                 # approved PDFs + checksums; committed archive
   extracted/                 # unreviewed pages.json archived; transient OCR/renders ignored
-  reviewed/                  # inspected, normalized app data
+  tools/                     # source-family adapters; Math history in tools/legacy
+  model/                     # whole-program metadata and canonical entities
+  compat/                    # temporary legacy reconstruction fields
+  reviewed/                  # current v1 publishable snapshot
+
+content/<pack-id>/<version>/  # immutable compiled model, graph, metadata and views
 
 dist/packs/<pack-id>/         # published files and page images for new packs
 ```
@@ -17,8 +22,7 @@ paths. Its guide/workbook/textbook images stay where they were. They are
 published derivatives, not originals. `reviewed/` is the editable snapshot;
 `dist/` is its published copy. The served app never reads this workspace.
 
-No original PDFs or intermediate extraction files were included in the initial UP
-transfer. See [current source archive status](../docs/SOURCE_ARCHIVE.md) for recovery and integrity checks. The reviewed snapshot is
+The original transfer lacked PDFs; recovery status and current checksum checks are recorded in [source archive status](../docs/SOURCE_ARCHIVE.md). The reviewed snapshot is
 an exact copy of the existing app content; it does not assert complete academic
 approval.
 
@@ -41,6 +45,12 @@ Embedded text goes only into `extracted/<document-id>/pages.json`; blank pages
 are flagged for OCR. All pages are explicitly unreviewed. Extraction requires
 PyMuPDF (`fitz`); it does not perform OCR, infer teaching sequences or claim that
 nonempty text is correct.
+
+Read [program metadata](../docs/PROGRAM_METADATA.md) and fill the initialized
+program-understanding scaffold and profile before modelling lessons. Read the whole
+guide, including pedagogy, calendar, outcomes, assessment and non-lesson sections.
+See [repository layout](../docs/REPOSITORY_LAYOUT.md) for canonical model/compiler
+ownership and the temporary v1 boundary.
 
 Review the extracted content against the PDFs, run any source-specific OCR or
 mapping adapter with intermediate output under `extracted/`, and put normalized
@@ -74,7 +84,7 @@ publish it explicitly. Application UI code in `dist/app.mjs` is still authored
 in place; the project retains its buildless runtime.
 
 The historical UP scripts predate this workspace. They assume a mixed input
-folder and some overwrite `dist/` directly. They remain available for forensic
+folder and some overwrite `dist/` directly. They now live in `up-math-2026/tools/legacy/` and remain available for forensic
 reproduction, but are not the new ingestion entrypoint. Do not run them against
 `originals/` or the current publication. A future source-specific adapter must
 honor the separate-stage contract.

@@ -1,0 +1,9 @@
+{
+ "$id":"assets.schema.json",
+ "type":"object","required":["pack","assets"],"additionalProperties":false,
+ "properties":{
+  "pack":{"$ref":"common.schema.json#/$defs/slug"},
+  "assets":{"type":"array","items":{"type":"object","required":["id","kind","grade","image","source","provenance"],"additionalProperties":false,
+   "properties":{"id":{"type":"string"},"kind":{"enum":["resource","workbook"]},"grade":{"$ref":"common.schema.json#/$defs/grade"},"image":{"type":"string"},"source":{"$ref":"common.schema.json#/$defs/sourceRef"},"provenance":{"$ref":"common.schema.json#/$defs/provenance"}}}}
+ }
+}

@@ -1,0 +1,596 @@
+{
+ "pack": "up-math-2026",
+ "printedOffset": 2,
+ "provenance": "Section titles and printed ranges from each guide’s contents page (pdf = printed + 2); \"observed\" ranges were read from page headings where the contents page is silent or disagrees. Unreviewed.",
+ "guides": {
+  "1": {
+   "document": "guide-g1-167f09e3bf58",
+   "pages": 112,
+   "sections": [
+    {
+     "id": "cover",
+     "kind": "admin",
+     "title": "आवरण",
+     "pdf": [
+      1,
+      1
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "nipun-list",
+     "kind": "program",
+     "title": "निपुण सूची - गणित (कक्षा 1)",
+     "pdf": [
+      2,
+      2
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "title-page",
+     "kind": "admin",
+     "title": "शीर्षक पृष्ठ",
+     "pdf": [
+      3,
+      3
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "weekly-teacher-tracker",
+     "kind": "tracker",
+     "title": "साप्ताहिक शिक्षक ट्रैकर",
+     "pdf": [
+      4,
+      4
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "credits",
+     "kind": "admin",
+     "title": "संरक्षण / लेखन मंडल",
+     "pdf": [
+      5,
+      5
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "guide-usage",
+     "kind": "program",
+     "title": "संदर्शिका का उपयोग",
+     "pdf": [
+      6,
+      6
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "contents",
+     "kind": "admin",
+     "title": "विषय सूची",
+     "pdf": [
+      7,
+      7
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "annual-objectives",
+     "kind": "program",
+     "title": "वार्षिक-साप्ताहिक शिक्षण उद्देश्य",
+     "pdf": [
+      8,
+      10
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "weekly-overview",
+     "kind": "program",
+     "title": "साप्ताहिक कार्य का अवलोकन",
+     "pdf": [
+      11,
+      14
+     ],
+     "source": "contents",
+     "note": "pdf 12-13 have no text layer (images)"
+    },
+    {
+     "id": "nipun-foundations",
+     "kind": "program",
+     "title": "बुनियादी गणित दक्षता और निपुण दक्षताएँ",
+     "pdf": [
+      15,
+      16
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "daily-plans",
+     "kind": "plans",
+     "title": "शिक्षण योजना सप्ताह 9-25",
+     "pdf": [
+      17,
+      84
+     ],
+     "source": "contents",
+     "note": "unit opener pages (e.g. pdf 17 सप्ताह 9 से 11) sit between unit blocks"
+    },
+    {
+     "id": "teaching-process",
+     "kind": "program",
+     "title": "गणित शिक्षण प्रक्रिया",
+     "pdf": [
+      85,
+      88
+     ],
+     "source": "contents",
+     "note": "assessment, periodic revision, ELPS, GRR and math teaching blocks; pdf 85, 86, 88 have no text layer"
+    },
+    {
+     "id": "materials",
+     "kind": "resources",
+     "title": "शिक्षण अधिगम सामग्री",
+     "pdf": [
+      89,
+      93
+     ],
+     "source": "contents",
+     "note": "math kit, posters, board, self-made material; pdf 89 has no text layer"
+    },
+    {
+     "id": "procedural-fluency",
+     "kind": "resources",
+     "title": "प्रक्रियात्मक प्रवाह (प्रतिदर्श प्रश्न)",
+     "pdf": [
+      94,
+      104
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "weekly-assessment-tracker",
+     "kind": "tracker",
+     "title": "साप्ताहिक आकलन ट्रैकर",
+     "pdf": [
+      105,
+      108
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "closing",
+     "kind": "admin",
+     "title": "हमारा लक्ष्य / निपुण विद्यालय",
+     "pdf": [
+      109,
+      110
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "teaching-reminders",
+     "kind": "program",
+     "title": "सामग्री के उपयोग पर निर्देश",
+     "pdf": [
+      111,
+      111
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "anthem",
+     "kind": "admin",
+     "title": "राष्ट्रगान",
+     "pdf": [
+      112,
+      112
+     ],
+     "source": "observed"
+    }
+   ]
+  },
+  "2": {
+   "document": "guide-g2-9b3436f6e0f7",
+   "pages": 144,
+   "sections": [
+    {
+     "id": "cover",
+     "kind": "admin",
+     "title": "आवरण",
+     "pdf": [
+      1,
+      1
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "nipun-list",
+     "kind": "program",
+     "title": "निपुण सूची - गणित (कक्षा 2)",
+     "pdf": [
+      2,
+      2
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "title-page",
+     "kind": "admin",
+     "title": "शीर्षक पृष्ठ",
+     "pdf": [
+      3,
+      3
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "weekly-teacher-tracker",
+     "kind": "tracker",
+     "title": "साप्ताहिक शिक्षक ट्रैकर",
+     "pdf": [
+      4,
+      4
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "credits",
+     "kind": "admin",
+     "title": "संरक्षण / लेखन मंडल",
+     "pdf": [
+      5,
+      5
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "guide-usage",
+     "kind": "program",
+     "title": "संदर्शिका का उपयोग",
+     "pdf": [
+      6,
+      6
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "contents",
+     "kind": "admin",
+     "title": "विषय सूची",
+     "pdf": [
+      7,
+      7
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "annual-objectives",
+     "kind": "program",
+     "title": "वार्षिक-साप्ताहिक शिक्षण उद्देश्य",
+     "pdf": [
+      8,
+      11
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "weekly-overview",
+     "kind": "program",
+     "title": "साप्ताहिक कार्य का अवलोकन",
+     "pdf": [
+      12,
+      15
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "nipun-foundations",
+     "kind": "program",
+     "title": "बुनियादी गणित दक्षता और निपुण सूची",
+     "pdf": [
+      16,
+      17
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "daily-plans",
+     "kind": "plans",
+     "title": "शिक्षण योजना सप्ताह 1-25",
+     "pdf": [
+      18,
+      115
+     ],
+     "source": "contents",
+     "note": "unit opener pages sit between unit blocks; weeks 13 and 20 are periodic revision"
+    },
+    {
+     "id": "teaching-process",
+     "kind": "program",
+     "title": "गणित शिक्षण प्रक्रिया",
+     "pdf": [
+      116,
+      119
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "materials",
+     "kind": "resources",
+     "title": "शिक्षण अधिगम सामग्री",
+     "pdf": [
+      120,
+      122
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-multigrade",
+     "kind": "article",
+     "title": "बहुकक्षीय शिक्षण",
+     "pdf": [
+      123,
+      123
+     ],
+     "source": "observed",
+     "note": "listed under materials in the contents page"
+    },
+    {
+     "id": "procedural-fluency",
+     "kind": "resources",
+     "title": "प्रक्रियात्मक प्रवाह (प्रतिदर्श प्रश्न)",
+     "pdf": [
+      124,
+      135
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "weekly-assessment-tracker",
+     "kind": "tracker",
+     "title": "साप्ताहिक आकलन ट्रैकर",
+     "pdf": [
+      136,
+      140
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "closing",
+     "kind": "admin",
+     "title": "हमारा लक्ष्य / निपुण विद्यालय",
+     "pdf": [
+      141,
+      142
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "teaching-reminders",
+     "kind": "program",
+     "title": "सामग्री के उपयोग पर निर्देश",
+     "pdf": [
+      143,
+      143
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "anthem",
+     "kind": "admin",
+     "title": "राष्ट्रगान",
+     "pdf": [
+      144,
+      144
+     ],
+     "source": "observed"
+    }
+   ]
+  },
+  "3": {
+   "document": "guide-g3-186da9c8f52a",
+   "pages": 144,
+   "sections": [
+    {
+     "id": "cover",
+     "kind": "admin",
+     "title": "आवरण",
+     "pdf": [
+      1,
+      1
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "nipun-list",
+     "kind": "program",
+     "title": "निपुण सूची - गणित (कक्षा 3)",
+     "pdf": [
+      2,
+      2
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "title-page",
+     "kind": "admin",
+     "title": "शीर्षक पृष्ठ",
+     "pdf": [
+      3,
+      3
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "weekly-teacher-tracker",
+     "kind": "tracker",
+     "title": "साप्ताहिक शिक्षक ट्रैकर",
+     "pdf": [
+      4,
+      4
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "credits",
+     "kind": "admin",
+     "title": "संरक्षण / लेखन मंडल",
+     "pdf": [
+      5,
+      5
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "guide-usage",
+     "kind": "program",
+     "title": "संदर्शिका का उपयोग",
+     "pdf": [
+      6,
+      6
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "contents",
+     "kind": "admin",
+     "title": "विषय सूची",
+     "pdf": [
+      7,
+      7
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "annual-objectives",
+     "kind": "program",
+     "title": "वार्षिक-साप्ताहिक शिक्षण उद्देश्य",
+     "pdf": [
+      8,
+      11
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "weekly-overview",
+     "kind": "program",
+     "title": "साप्ताहिक कार्य का अवलोकन",
+     "pdf": [
+      12,
+      15
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "nipun-foundations",
+     "kind": "program",
+     "title": "बुनियादी गणित दक्षता और निपुण सूची",
+     "pdf": [
+      16,
+      17
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "daily-plans",
+     "kind": "plans",
+     "title": "शिक्षण योजना सप्ताह 1-25",
+     "pdf": [
+      18,
+      114
+     ],
+     "source": "contents",
+     "note": "unit opener pages sit between unit blocks; weeks 13 and 20 are periodic revision"
+    },
+    {
+     "id": "teaching-process",
+     "kind": "program",
+     "title": "गणित शिक्षण प्रक्रिया",
+     "pdf": [
+      115,
+      116
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "materials",
+     "kind": "resources",
+     "title": "शिक्षण अधिगम सामग्री",
+     "pdf": [
+      117,
+      120
+     ],
+     "source": "contents",
+     "note": "includes the math picture-story book (pdf 117)"
+    },
+    {
+     "id": "sample-weekly-material",
+     "kind": "resources",
+     "title": "प्रतिदर्श साप्ताहिक सामग्री (सप्ताह 21)",
+     "pdf": [
+      121,
+      123
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "procedural-fluency",
+     "kind": "resources",
+     "title": "प्रक्रियात्मक प्रवाह (प्रतिदर्श प्रश्न)",
+     "pdf": [
+      124,
+      135
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "weekly-assessment-tracker",
+     "kind": "tracker",
+     "title": "साप्ताहिक आकलन ट्रैकर",
+     "pdf": [
+      136,
+      140
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "closing",
+     "kind": "admin",
+     "title": "हमारा लक्ष्य / निपुण विद्यालय",
+     "pdf": [
+      141,
+      142
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "teaching-reminders",
+     "kind": "program",
+     "title": "सामग्री के उपयोग पर निर्देश",
+     "pdf": [
+      143,
+      143
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "anthem",
+     "kind": "admin",
+     "title": "राष्ट्रगान",
+     "pdf": [
+      144,
+      144
+     ],
+     "source": "observed"
+    }
+   ],
+   "contentsAnomalies": [
+    "weekly teacher tracker (pdf 4) prints 2025-2026 and the credits page (pdf 5) lists different officials than G1/G2: front matter may be carried over from the 2025-26 edition"
+   ]
+  }
+ }
+}

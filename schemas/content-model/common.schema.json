@@ -1,0 +1,36 @@
+{
+ "$id": "common.schema.json",
+ "$comment": "Shared definitions. Validated by scripts/content/schema.mjs (a small JSON Schema subset: type, required, properties, additionalProperties, enum, const, pattern, items, minItems, minimum, $ref).",
+ "$defs": {
+  "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:[-.][a-z0-9]+)*$"},
+  "grade": {"type": "integer", "minimum": 0},
+  "text": {"type": "string", "pattern": "\\S"},
+  "bilingual": {"type": "object", "required": ["hi"], "additionalProperties": false,
+   "properties": {"hi": {"$ref": "#/$defs/text"}, "en": {"$ref": "#/$defs/text"}}},
+  "assertion": {"enum": ["stated", "derived", "editorial"]},
+  "review": {"enum": ["unreviewed", "source-compared", "reviewed", "owner-approved"]},
+  "sourceRef": {"type": "object", "required": ["doc", "pdf"], "additionalProperties": false,
+   "properties": {
+    "doc": {"type": "string", "pattern": "^(guide|workbook|textbook)-g[0-9]+-[0-9a-f]{12}$"},
+    "pdf": {"type": "integer", "minimum": 1},
+    "printed": {"type": ["integer", "null"]},
+    "rect": {"type": "array", "items": {"type": "number"}}
+   }},
+  "provenance": {"type": "object", "required": ["assertion", "review"], "additionalProperties": false,
+   "properties": {
+    "assertion": {"$ref": "#/$defs/assertion"},
+    "review": {"$ref": "#/$defs/review"},
+    "rule": {"$ref": "#/$defs/slug"},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/sourceRef"}},
+    "note": {"type": "string"}
+   }},
+  "link": {"type": "object", "required": ["to", "assertion", "review"], "additionalProperties": false,
+   "properties": {
+    "to": {"type": "string", "pattern": "^[a-z]+:[A-Za-z0-9.\\-/]+$"},
+    "assertion": {"$ref": "#/$defs/assertion"},
+    "review": {"$ref": "#/$defs/review"},
+    "rule": {"$ref": "#/$defs/slug"},
+    "source": {"$ref": "#/$defs/sourceRef"}
+   }}
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "pack": "up-math-2026",
+ "outcomes": [
+  {
+   "id": "M101.1",
+   "grade": 1,
+   "family": "M101",
+   "code": "M101.1",
+   "parent": "M101",
+   "nipun": true,
+   "statement": "दैनिक जीवन में स्थानिक समझ (दूर-पास, ऊपर-नीचे, दाएं-बाएं, आगे -पीछे) का उपयोग करना।",
+   "provenance": {
+    "assertion": "stated",
+    "review": "source-compared",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 2,
+      "printed": 0
+     }
+    ],
+    "note": "statement as published in v1 (source-compared)"
+   }
+  }
+ ],
+ "objectives": [
+  {
+   "id": "g1-w09-o1",
+   "grade": 1,
+   "week": 9,
+   "statement": "दूर-पास और ऊपर-नीचे की अवधारणा को समझना",
+   "outcomes": [
+    {
+     "to": "lo:M101.1",
+     "assertion": "stated",
+     "review": "unreviewed",
+     "source": {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 8,
+      "printed": 6
+     }
+    }
+   ],
+   "provenance": {
+    "assertion": "stated",
+    "review": "unreviewed",
+    "sources": [
+     {
+      "doc": "guide-g1-167f09e3bf58",
+      "pdf": 8,
+      "printed": 6
+     }
+    ]
+   }
+  }
+ ]
+}

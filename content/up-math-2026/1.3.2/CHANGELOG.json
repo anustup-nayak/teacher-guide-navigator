@@ -1,0 +1,17 @@
+{
+ "pack": "up-math-2026",
+ "version": "1.3.2",
+ "previous": "1.3.1",
+ "added": [],
+ "changed": [],
+ "removed": [],
+ "files": {
+  "added": [],
+  "changed": [
+   "views/app/grade-1.json",
+   "views/app/grade-2.json",
+   "views/app/grade-3.json"
+  ],
+  "removed": []
+ }
+}

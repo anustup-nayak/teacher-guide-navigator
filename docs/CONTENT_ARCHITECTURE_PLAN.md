@@ -1,7 +1,10 @@
 # Ontology-led content system and app v2 — build plan
 
-Status: **proposal for owner approval**, 31 October 2026. Nothing in this plan has been
-implemented. Live app: r57 (UP Math + Hindi, Grades 1–3). Author: Claude Code.
+Status: **approved by the owner and in progress** (31 October 2026). Done: Phase 0 except the preview
+site, Phases 1–3 (profiles and maps, content model and program structure, compiler and content
+releases; the website on `next` reads release 1.1.0). Next: Phases 4–5 and the program-guide design
+([PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md)). Live app: `main`, r61. The phase list below is the
+original plan; [HANDOFF.md](HANDOFF.md) has the current state.
 
 ## 1. Why
 
@@ -89,6 +92,10 @@ scripts/content/                     validate, compile, diff, coverage reports (
 dist/  (v1, live)                    unchanged until cutover
 app-next/ → build → dist-next/       v2 app, compiled bundles per pack/grade (new)
 ```
+
+**Content platform.** The model is a product-neutral back end: the compiler publishes a
+versioned *content release* that the website, a chatbot and other tools all read through one
+query library. See [CONTENT_PLATFORM.md](CONTENT_PLATFORM.md).
 
 **Compiler.** `npm run content:compile` validates the model against the schemas, checks
 referential integrity (every link resolves; no orphan LOs/routines), then emits per-pack,
@@ -223,14 +230,16 @@ first. Draft the section map of each guide's front and back matter (following it
 contents page) and a first page map. Output: `curricula/<pack>/model/PROGRAM_PROFILE.md` per pack, with page references
 and open questions for the curriculum team. Gate ✋: owner/academic review of both profiles.
 
-**Phase 2 — Design the content model.** Including the program guide entities (section 4a).
+**Phase 2 — Design the content model.** Draft: [CONTENT_MODEL.md](CONTENT_MODEL.md); program structure first (its §1a). Including the program guide entities (section 4a).
 Write `docs/CONTENT_MODEL.md`, the JSON Schemas,
 vocabularies (strands, routine types, material types, assessment types) and ID rules, with
 worked examples from one Hindi day and one Math day. Gate ✋: curriculum-design review —
 does the model express both programs without forcing one onto the other?
 
-**Phase 3 — Content tooling.** Validator, referential-integrity checks, compiler (v2
-bundles and the v1-compatible catalog), diff and coverage reports (LOs without lessons,
+**Phase 3 — Content tooling.** Validator, referential-integrity checks, compiler emitting a
+versioned content release for the website ([platform](CONTENT_PLATFORM.md) §2, §7: manifest,
+entities, graph, v2 app bundles, the v1-compatible catalog, changelog) and the query library, diff
+and coverage reports (LOs without lessons,
 lessons without LOs, routines never used, pages not in the page map), tests. Gate: compiling the *current* content
 reproduces today's v1 catalogs byte-for-byte (no behaviour change yet).
 
@@ -269,6 +278,10 @@ offline Hindi lesson, real Android phones, TalkBack, print). Teacher pilot if po
 **Phase 9 — Cutover.** Release notes, deploy v2 to root, v1 at `/v1/`, monitor, keep the
 rollback path for a term. Gate ✋: owner go-live decision.
 
+**Later, not scheduled — other products.** The owner decided (31 Oct 2026) to build only the
+website now. The content repository is shaped so that a chatbot, remedial-plan builder or print
+tools can be added later as new consumers of the content release ([CONTENT_PLATFORM.md](CONTENT_PLATFORM.md)).
+
 ## 7. Working agreements for agents
 
 - File ownership per phase: model/schemas (content), compiler (tooling) and app-next (UI)
@@ -297,8 +310,11 @@ rollback path for a term. Gate ✋: owner go-live decision.
 ## 9. Decisions needed from the owner before Phase 0
 
 1. ~~Preview hosting~~ **Decided 31 Oct 2026: separate origin on a second GitHub Pages site** (see Phase 0).
-2. LO linking: allow reviewed `derived` links, or only links printed in the guide?
-3. Who reviews the program profiles and content model (✋ gates)?
+2. ~~LO linking~~ **Decided 31 Oct 2026: reviewed `derived` links allowed** ([CONTENT_MODEL.md §6](CONTENT_MODEL.md)).
+3. ~~Reviewer~~ **Decided 31 Oct 2026: the owner approves** (`owner-approved`; no academic review claimed).
 4. Which v2 additions to explore in Phase 6 (LO view, routine guide, remediation view)?
 5. Where the program guide lives in the app (fourth header link, inside Help, or only via
    lesson links), decided in Phase 6 with screens.
+6. Deferred until a non-website product starts: content rights for serving other products,
+   chatbot channel and hosting, generated-content policy, public or private releases
+   ([CONTENT_PLATFORM.md](CONTENT_PLATFORM.md) §8).

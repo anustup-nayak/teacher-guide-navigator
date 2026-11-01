@@ -1,0 +1,42 @@
+{
+ "pack": "up-hindi-2026",
+ "state": "UP",
+ "subject": "hindi",
+ "academicYear": "2026–27",
+ "grades": [
+  1,
+  2,
+  3
+ ],
+ "documents": [
+  {
+   "id": "guide-g1-00970fd3c1e8",
+   "kind": "guide",
+   "grade": 1,
+   "title": {
+    "hi": "आधारशिला क्रियान्वयन शिक्षक संदर्शिका कक्षा 1 (भाषा)"
+   },
+   "edition": "2026-27"
+  },
+  {
+   "id": "workbook-g1-04678c7d6792",
+   "kind": "workbook",
+   "grade": 1,
+   "title": {
+    "hi": "कार्यपुस्तिका सारंगी 1"
+   },
+   "edition": "2023-24 print"
+  }
+ ],
+ "provenance": {
+  "assertion": "stated",
+  "review": "unreviewed",
+  "sources": [
+   {
+    "doc": "guide-g1-00970fd3c1e8",
+    "pdf": 3,
+    "printed": 1
+   }
+  ]
+ }
+}

@@ -1,6 +1,6 @@
 # Protected design contract
 
-Owner-approved look, feel and teaching flow of Sandarshika as released in r56.
+Owner-approved look, feel and teaching flow of Sandarshika as released in r56, with later owner-approved amendments noted where they apply (latest: आज home and header tabs, 1 Nov 2026, see [UX_REVIEW_2026-11.md](UX_REVIEW_2026-11.md)).
 No agent may change what this file protects without the owner's explicit
 approval in chat. Detailed rationale lives in the skill's
 [design reference](../skills/teacher-guide-to-app/references/design.md) and
@@ -20,16 +20,28 @@ feature here, not a matter of taste.
    grade/subject → week → day card → the same lesson. No mandatory entrance,
    onboarding, login, sub-topic or Prepare/Teach gate. Routes `#/find`,
    `#/lesson/<id>`, `#/saved`, `#/help` and legacy `#/lesson/<id>/teach/<n>`
-   keep working.
-2. **Shell.** Header with brand, then the three links पाठ चुनें · मेरी सूची ·
-   मदद (in this order; `#find-link`, `#saved-link`, `#help-link`), then the
-   language menu (हिन्दी first and default). Below it, the
-   sticky grade/subject context line. Skip link first. One reader dialog.
+   keep working. The home and default route is `#/today` (आज): the next lesson in the guide's order,
+   one tap from the lesson, never a gate (owner-approved 1 Nov 2026). The program guide `#/guide`, `#/guide/week|periods|pages` is a separate
+   way in, never a gate before a lesson (owner-approved 31 Oct 2026; see
+   [PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md)).
+2. **Shell.** Header with brand, then the three tabs आज · पूरा साल · सभी पाठ
+   (in this order; `#today-link` → `#/today`, `#year-link` → `#/guide`, `#find-link` → `#/find`;
+   owner-approved 1 Nov 2026), then the language menu (हिन्दी first and default). मेरी सूची and मदद are
+   linked from आज and सभी पाठ. Below the header, the sticky grade/subject context line; its chip opens the
+   grade/subject controls. Skip link first. One reader dialog.
 3. **Browse screen.** Two side-by-side route tabs, “पाठ के विषय से” and
    “सप्ताह / दिन से”; topic groups expand to summary cards; cards end with
    “पाठयोजना खोलें →” (or “साप्ताहिक रूपरेखा खोलें →” for weekly plans).
-4. **Lesson anatomy, in order.** Blue lesson banner with week/day badge;
-   wrapping sticky section chips (preparation, every source phase with its
+   Every subject's card uses one rule: the top line is “सप्ताह N · दिन N”, plus the day
+   type's name on days other than new teaching (e.g. “· साप्ताहिक आकलन”), from
+   `dist/day-types.mjs`; the summary is the workbook page, then the first material
+   without its preparation note. (Owner-approved 31 Oct 2026; no style change.)
+   The program guide is reached from the पूरा साल tab (the find-page guide card was removed, 1 Nov 2026);
+   lessons keep the “सप्ताह कैसे चलता है” link inside “पाठ के विकल्प” and Help links to the guide.
+4. **Lesson anatomy, in order.** Where an owner-approved smart card exists, the card comes first and replaces the
+   banner and previous/next line ([SMART_CARDS.md](SMART_CARDS.md), owner-approved 1 Nov 2026). Otherwise: blue lesson
+   banner with week/day badge and, where mapped, the goal with the lesson's position; the previous/next lesson line; wrapping sticky section chips; “पाठ के विकल्प” (my list,
+   offline, text size, week guide), folded; (preparation, every source phase with its
    minutes, my note, original pages); preparation blocks; one card per source
    phase (coloured band with name and minutes, original artwork with
    enlarge action, numbered actions, question strip, worksheet preview in
