@@ -55,6 +55,7 @@ Production cutover is complete: PR #30, `edd31db`, tag `v2.0.0`; [Pages deployme
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Claude Code | `task/production-polish` | see [task note](tasks/production-polish-r70.md) | In progress | Audit done ([AUDIT_2026-11-PRODUCTION.md](AUDIT_2026-11-PRODUCTION.md)); executing T1–T6. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused | Other agent's uncommitted work; do not touch. |
 
 ## Change log
