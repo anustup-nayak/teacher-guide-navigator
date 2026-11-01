@@ -1,0 +1,173 @@
+{
+ "pack": "up-math-2026",
+ "cards": [
+  {
+   "lesson": "g2-math-w01-d01",
+   "layout": "steps",
+   "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "TODO"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "TODO"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "TODO"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "TODO"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "TODO"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "unreviewed",
+    "note": "Draft from the lesson’s own steps; awaiting owner approval."
+   }
+  },
+  {
+   "lesson": "g2-math-w01-d02",
+   "layout": "steps",
+   "title": "दाएं-बाएं और आगे-पीछे की अवधारणा",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "TODO"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "TODO"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "TODO"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कॉपी में अभ्यास",
+     "minutes": "कालांश 2",
+     "text": "TODO"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "TODO"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "unreviewed",
+    "note": "Draft from the lesson’s own steps; awaiting owner approval."
+   }
+  },
+  {
+   "lesson": "g2-math-w14-d01",
+   "layout": "steps",
+   "title": "50 तक जोड़: “काउंट ऑन” रणनीति",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "गिनलड़ी पर खाली टैग: “यह कौन-सी संख्या है? कैसे पहचाना?”"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "26 + 13: 26 से शुरू, 13 को 10 और 3 में बाँटकर आगे गिनें; संख्या चार्ट पर दोहराएँ"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "2-2 के समूह गिनलड़ी से बोर्ड के प्रश्न; फिर 38 + 9, 25 + 13 नोटबुक में"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 61; हर प्रश्न का एक उदाहरण पहले बोर्ड पर"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "संख्या कार्ड से जोड़ का खेल; 70% से कम सही हों तो “हम करें” दोबारा"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "unreviewed",
+    "note": "Draft sample, 1 Nov 2026 (Claude Code), from the lesson's own steps; awaiting owner approval."
+   }
+  }
+ ]
+}

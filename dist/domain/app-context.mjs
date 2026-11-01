@@ -1,5 +1,5 @@
-import {selectCurriculum,gradesFor} from './curriculum.mjs?v=r65';
-import {createStore} from '../core.mjs?v=r65';
+import {selectCurriculum,gradesFor} from './curriculum.mjs?v=r66';
+import {createStore} from '../core.mjs?v=r66';
 
 export function browserStorage(){try{return globalThis.localStorage;}catch{return undefined;}}
 
