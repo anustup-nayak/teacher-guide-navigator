@@ -1,0 +1,242 @@
+[
+  {
+    "base": 15,
+    "grade": 1,
+    "lang": "hi",
+    "overflowPixels": -15,
+    "pack": "up-math-2026",
+    "size": 30,
+    "width": 320,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 2,
+    "lang": "hi",
+    "overflowPixels": -15,
+    "pack": "up-math-2026",
+    "size": 30,
+    "width": 320,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 3,
+    "lang": "hi",
+    "overflowPixels": -15,
+    "pack": "up-math-2026",
+    "size": 30,
+    "width": 320,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 1,
+    "lang": "hi",
+    "overflowPixels": -15,
+    "pack": "up-hindi-2026",
+    "size": 30,
+    "width": 320,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 2,
+    "lang": "hi",
+    "overflowPixels": -15,
+    "pack": "up-hindi-2026",
+    "size": 30,
+    "width": 320,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 3,
+    "lang": "hi",
+    "overflowPixels": -15,
+    "pack": "up-hindi-2026",
+    "size": 30,
+    "width": 320,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 1,
+    "lang": "en",
+    "overflowPixels": -15,
+    "pack": "up-math-2026",
+    "size": 30,
+    "width": 320,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 2,
+    "lang": "en",
+    "overflowPixels": -15,
+    "pack": "up-math-2026",
+    "size": 30,
+    "width": 320,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 3,
+    "lang": "en",
+    "overflowPixels": -15,
+    "pack": "up-math-2026",
+    "size": 30,
+    "width": 320,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 1,
+    "lang": "en",
+    "overflowPixels": -15,
+    "pack": "up-hindi-2026",
+    "size": 30,
+    "width": 320,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 2,
+    "lang": "en",
+    "overflowPixels": -15,
+    "pack": "up-hindi-2026",
+    "size": 30,
+    "width": 320,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 3,
+    "lang": "en",
+    "overflowPixels": -15,
+    "pack": "up-hindi-2026",
+    "size": 30,
+    "width": 320,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 1,
+    "lang": "hi",
+    "overflowPixels": -15,
+    "pack": "up-math-2026",
+    "size": 30,
+    "width": 390,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 2,
+    "lang": "hi",
+    "overflowPixels": -15,
+    "pack": "up-math-2026",
+    "size": 30,
+    "width": 390,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 3,
+    "lang": "hi",
+    "overflowPixels": -15,
+    "pack": "up-math-2026",
+    "size": 30,
+    "width": 390,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 1,
+    "lang": "hi",
+    "overflowPixels": -15,
+    "pack": "up-hindi-2026",
+    "size": 30,
+    "width": 390,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 2,
+    "lang": "hi",
+    "overflowPixels": -15,
+    "pack": "up-hindi-2026",
+    "size": 30,
+    "width": 390,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 3,
+    "lang": "hi",
+    "overflowPixels": -15,
+    "pack": "up-hindi-2026",
+    "size": 30,
+    "width": 390,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 1,
+    "lang": "en",
+    "overflowPixels": -15,
+    "pack": "up-math-2026",
+    "size": 30,
+    "width": 390,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 2,
+    "lang": "en",
+    "overflowPixels": -15,
+    "pack": "up-math-2026",
+    "size": 30,
+    "width": 390,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 3,
+    "lang": "en",
+    "overflowPixels": -15,
+    "pack": "up-math-2026",
+    "size": 30,
+    "width": 390,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 1,
+    "lang": "en",
+    "overflowPixels": -15,
+    "pack": "up-hindi-2026",
+    "size": 30,
+    "width": 390,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 2,
+    "lang": "en",
+    "overflowPixels": -15,
+    "pack": "up-hindi-2026",
+    "size": 30,
+    "width": 390,
+    "persisted": 30
+  },
+  {
+    "base": 15,
+    "grade": 3,
+    "lang": "en",
+    "overflowPixels": -15,
+    "pack": "up-hindi-2026",
+    "size": 30,
+    "width": 390,
+    "persisted": 30
+  }
+]

@@ -74,7 +74,7 @@ repository out of synced folders, and check `git status` for `* 2*` files if a g
 ## Changing things
 
 - **UI** (`dist/`): use design tokens only ([DESIGN_SYSTEM.md](DESIGN_SYSTEM.md); `tests/design-system.test.mjs`
-  enforces it), put new screens in `dist/views/`, and run `npm run test:e2e`. Test Hindi and English at 320–390 px,
+  enforces it), put new screens in `dist/views/`, and run `npm run test:e2e`. Test Hindi and English (`?ui=en` QA mode; no public language selector) at 320–390 px,
   keyboard navigation and old deep links. Protected files and frozen behaviour need the owner's approval
   ([DESIGN_CONTRACT.md](DESIGN_CONTRACT.md)).
 - **Existing-pack source repairs**: add a source-compared entry to
@@ -108,3 +108,7 @@ periods 2 and 3 for the weekly assessment from the week it starts). Grade 1 begi
 begin week 1; weeks 13 and 20 are periodic-revision pages. Grade 1–2 Math textbooks are not bundled
 (printed page references instead). No independent academic proofreading, teacher field test, or
 physical phone, screen-reader or printer check has been done.
+
+## Exact source text repairs (r71)
+
+`curricula/<pack>/tools/source-text-repairs-r71.json` records source-compared old/new text or bounded step-field restorations with page-image hashes. `node scripts/content/source_text_repairs.mjs --check` verifies them. `--write` reapplies them idempotently to the canonical model/compatibility bridge and exports the reviewed legacy catalogs using the existing codec. It never rebuilds an old immutable release or resets the authoring model. After a new repair, create a new content version, advance pins, publish site modules, and record the explicit preservation amendment. Hindi raw-source rebuilds also retain the exact text corrections; AAText decoding preserves the source plus glyph.

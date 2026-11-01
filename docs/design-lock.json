@@ -3,8 +3,8 @@
   "contract": "docs/DESIGN_CONTRACT.md",
   "files": {
     "dist/styles.css": "aaa3e005dd8e1aebccdcece06e92b88a9f46b4d383ed5a0fe187676d090ebb67",
-    "dist/guide-cards.css": "0fd6193a13eabf6b43f40472aaa6156531cdea764895d796328e8cc4cfd7e8ee",
-    "dist/index.html": "2dfd1959e72003572736d3c015ed0ecf7c3698565614ffa372a4ccf2dc9e14b1"
+    "dist/guide-cards.css": "de6fb99b28cc785306495e9c446ab812646309bb8cd5df56d8f9a99c84c83650",
+    "dist/index.html": "7ea4751f2de66127eb636834303a3a8c964cf7724629e62954c9af2180e08333"
   },
   "approvals": [
     {
@@ -66,6 +66,47 @@
       "approvedBy": "owner (Anustup), chat, 2026-11-01: 'UI should be clean, standard, professional … execute to this plan, unsupervised till done'",
       "files": [
         "dist/guide-cards.css"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "reason": "Owner-requested persistent blue-band Grade/Subject selectors, removal of teacher language dropdown, and summary text enlargement (r70 review F2)",
+      "approvedBy": "owner, in chat, 2026-11-01",
+      "files": [
+        "dist/guide-cards.css",
+        "dist/index.html"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "reason": "Complete owner-requested r71 header and summary enlargement styles, preserving narrow-screen type scale",
+      "approvedBy": "owner, in chat, 2026-11-01",
+      "files": [
+        "dist/guide-cards.css"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "reason": "Keep transformed source artwork inside its existing crop during the r71 phone verification",
+      "approvedBy": "owner, in chat, 2026-11-01",
+      "files": [
+        "dist/guide-cards.css"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "reason": "Wrap long preparation-goal text caught by r71 phone verification",
+      "approvedBy": "owner, in chat, 2026-11-01",
+      "files": [
+        "dist/guide-cards.css"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "reason": "Align Grade/Subject keyboard order with owner-requested visible header order",
+      "approvedBy": "owner, in chat, 2026-11-01",
+      "files": [
+        "dist/index.html"
       ]
     }
   ]

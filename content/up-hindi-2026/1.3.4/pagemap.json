@@ -1,0 +1,4459 @@
+{
+ "pack": "up-hindi-2026",
+ "generatedFrom": "model/sections.json + published catalog",
+ "reviewStatus": "unreviewed",
+ "guides": {
+  "1": {
+   "document": "guide-g1-00970fd3c1e8",
+   "pages": [
+    {
+     "pdf": 1,
+     "printed": null,
+     "section": "cover",
+     "kind": "admin"
+    },
+    {
+     "pdf": 2,
+     "printed": null,
+     "section": "nipun-list",
+     "kind": "program"
+    },
+    {
+     "pdf": 3,
+     "printed": 1,
+     "section": "title-page",
+     "kind": "admin"
+    },
+    {
+     "pdf": 4,
+     "printed": 2,
+     "section": "credits",
+     "kind": "admin"
+    },
+    {
+     "pdf": 5,
+     "printed": 3,
+     "section": "contents",
+     "kind": "admin"
+    },
+    {
+     "pdf": 6,
+     "printed": 4,
+     "section": "annual-weekly-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 7,
+     "printed": 5,
+     "section": "guide-usage",
+     "kind": "program"
+    },
+    {
+     "pdf": 8,
+     "printed": 6,
+     "section": "article-checking-understanding",
+     "kind": "article"
+    },
+    {
+     "pdf": 9,
+     "printed": 7,
+     "section": "article-checking-understanding",
+     "kind": "article"
+    },
+    {
+     "pdf": 10,
+     "printed": 8,
+     "section": "article-systematic-decoding",
+     "kind": "article"
+    },
+    {
+     "pdf": 11,
+     "printed": 9,
+     "section": "article-systematic-decoding",
+     "kind": "article"
+    },
+    {
+     "pdf": 12,
+     "printed": 10,
+     "section": "article-emergent-writing",
+     "kind": "article"
+    },
+    {
+     "pdf": 13,
+     "printed": 11,
+     "section": "article-gender-sensitivity",
+     "kind": "article"
+    },
+    {
+     "pdf": 14,
+     "printed": 12,
+     "section": "article-gender-sensitivity",
+     "kind": "article"
+    },
+    {
+     "pdf": 15,
+     "printed": 13,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 16,
+     "printed": 14,
+     "section": "weekly-cycle",
+     "kind": "program"
+    },
+    {
+     "pdf": 17,
+     "printed": 15,
+     "section": "materials",
+     "kind": "program"
+    },
+    {
+     "pdf": 18,
+     "printed": 16,
+     "section": "period-outline",
+     "kind": "program"
+    },
+    {
+     "pdf": 19,
+     "printed": 17,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w09-d01"
+     ]
+    },
+    {
+     "pdf": 20,
+     "printed": 18,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w09-d02"
+     ]
+    },
+    {
+     "pdf": 21,
+     "printed": 19,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w09-d03"
+     ]
+    },
+    {
+     "pdf": 22,
+     "printed": 20,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w09-d04"
+     ]
+    },
+    {
+     "pdf": 23,
+     "printed": 21,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w09-d05"
+     ]
+    },
+    {
+     "pdf": 24,
+     "printed": 22,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w09-d06"
+     ]
+    },
+    {
+     "pdf": 25,
+     "printed": 23,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w10-d01"
+     ]
+    },
+    {
+     "pdf": 26,
+     "printed": 24,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w10-d02"
+     ]
+    },
+    {
+     "pdf": 27,
+     "printed": 25,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w10-d03"
+     ]
+    },
+    {
+     "pdf": 28,
+     "printed": 26,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w10-d04"
+     ]
+    },
+    {
+     "pdf": 29,
+     "printed": 27,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w10-d05"
+     ]
+    },
+    {
+     "pdf": 30,
+     "printed": 28,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w10-d06"
+     ]
+    },
+    {
+     "pdf": 31,
+     "printed": 29,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w11-d01"
+     ]
+    },
+    {
+     "pdf": 32,
+     "printed": 30,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w11-d02"
+     ]
+    },
+    {
+     "pdf": 33,
+     "printed": 31,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w11-d03"
+     ]
+    },
+    {
+     "pdf": 34,
+     "printed": 32,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w11-d04"
+     ]
+    },
+    {
+     "pdf": 35,
+     "printed": 33,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w11-d05"
+     ]
+    },
+    {
+     "pdf": 36,
+     "printed": 34,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w11-d06"
+     ]
+    },
+    {
+     "pdf": 37,
+     "printed": 35,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w12-d01"
+     ]
+    },
+    {
+     "pdf": 38,
+     "printed": 36,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w12-d02"
+     ]
+    },
+    {
+     "pdf": 39,
+     "printed": 37,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w12-d03"
+     ]
+    },
+    {
+     "pdf": 40,
+     "printed": 38,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w12-d04"
+     ]
+    },
+    {
+     "pdf": 41,
+     "printed": 39,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w12-d05"
+     ]
+    },
+    {
+     "pdf": 42,
+     "printed": 40,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w12-d06"
+     ]
+    },
+    {
+     "pdf": 43,
+     "printed": 41,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 44,
+     "printed": 42,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w14-d01"
+     ]
+    },
+    {
+     "pdf": 45,
+     "printed": 43,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w14-d02"
+     ]
+    },
+    {
+     "pdf": 46,
+     "printed": 44,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w14-d03"
+     ]
+    },
+    {
+     "pdf": 47,
+     "printed": 45,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w14-d04"
+     ]
+    },
+    {
+     "pdf": 48,
+     "printed": 46,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w14-d05"
+     ]
+    },
+    {
+     "pdf": 49,
+     "printed": 47,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w14-d06"
+     ]
+    },
+    {
+     "pdf": 50,
+     "printed": 48,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w15-d01"
+     ]
+    },
+    {
+     "pdf": 51,
+     "printed": 49,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w15-d02"
+     ]
+    },
+    {
+     "pdf": 52,
+     "printed": 50,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w15-d03"
+     ]
+    },
+    {
+     "pdf": 53,
+     "printed": 51,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w15-d04"
+     ]
+    },
+    {
+     "pdf": 54,
+     "printed": 52,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w15-d05"
+     ]
+    },
+    {
+     "pdf": 55,
+     "printed": 53,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w15-d06"
+     ]
+    },
+    {
+     "pdf": 56,
+     "printed": 54,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w16-d01"
+     ]
+    },
+    {
+     "pdf": 57,
+     "printed": 55,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w16-d02"
+     ]
+    },
+    {
+     "pdf": 58,
+     "printed": 56,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w16-d03"
+     ]
+    },
+    {
+     "pdf": 59,
+     "printed": 57,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w16-d04"
+     ]
+    },
+    {
+     "pdf": 60,
+     "printed": 58,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w16-d05"
+     ]
+    },
+    {
+     "pdf": 61,
+     "printed": 59,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w16-d06"
+     ]
+    },
+    {
+     "pdf": 62,
+     "printed": 60,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w17-d01"
+     ]
+    },
+    {
+     "pdf": 63,
+     "printed": 61,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w17-d02"
+     ]
+    },
+    {
+     "pdf": 64,
+     "printed": 62,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w17-d03"
+     ]
+    },
+    {
+     "pdf": 65,
+     "printed": 63,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w17-d04"
+     ]
+    },
+    {
+     "pdf": 66,
+     "printed": 64,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w17-d05"
+     ]
+    },
+    {
+     "pdf": 67,
+     "printed": 65,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w17-d06"
+     ]
+    },
+    {
+     "pdf": 68,
+     "printed": 66,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w18-d01"
+     ]
+    },
+    {
+     "pdf": 69,
+     "printed": 67,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w18-d02"
+     ]
+    },
+    {
+     "pdf": 70,
+     "printed": 68,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w18-d03"
+     ]
+    },
+    {
+     "pdf": 71,
+     "printed": 69,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w18-d04"
+     ]
+    },
+    {
+     "pdf": 72,
+     "printed": 70,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w18-d05"
+     ]
+    },
+    {
+     "pdf": 73,
+     "printed": 71,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w18-d06"
+     ]
+    },
+    {
+     "pdf": 74,
+     "printed": 72,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w19-d01"
+     ]
+    },
+    {
+     "pdf": 75,
+     "printed": 73,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w19-d02"
+     ]
+    },
+    {
+     "pdf": 76,
+     "printed": 74,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w19-d03"
+     ]
+    },
+    {
+     "pdf": 77,
+     "printed": 75,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w19-d04"
+     ]
+    },
+    {
+     "pdf": 78,
+     "printed": 76,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w19-d05"
+     ]
+    },
+    {
+     "pdf": 79,
+     "printed": 77,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w19-d06"
+     ]
+    },
+    {
+     "pdf": 80,
+     "printed": 78,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 81,
+     "printed": 79,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w21-d01"
+     ]
+    },
+    {
+     "pdf": 82,
+     "printed": 80,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w21-d02"
+     ]
+    },
+    {
+     "pdf": 83,
+     "printed": 81,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w21-d03"
+     ]
+    },
+    {
+     "pdf": 84,
+     "printed": 82,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w21-d04"
+     ]
+    },
+    {
+     "pdf": 85,
+     "printed": 83,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w21-d05"
+     ]
+    },
+    {
+     "pdf": 86,
+     "printed": 84,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w21-d06"
+     ]
+    },
+    {
+     "pdf": 87,
+     "printed": 85,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w22-d01"
+     ]
+    },
+    {
+     "pdf": 88,
+     "printed": 86,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w22-d02"
+     ]
+    },
+    {
+     "pdf": 89,
+     "printed": 87,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w22-d03"
+     ]
+    },
+    {
+     "pdf": 90,
+     "printed": 88,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w22-d04"
+     ]
+    },
+    {
+     "pdf": 91,
+     "printed": 89,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w22-d05"
+     ]
+    },
+    {
+     "pdf": 92,
+     "printed": 90,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w22-d06"
+     ]
+    },
+    {
+     "pdf": 93,
+     "printed": 91,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w23-d01"
+     ]
+    },
+    {
+     "pdf": 94,
+     "printed": 92,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w23-d02"
+     ]
+    },
+    {
+     "pdf": 95,
+     "printed": 93,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w23-d03"
+     ]
+    },
+    {
+     "pdf": 96,
+     "printed": 94,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w23-d04"
+     ]
+    },
+    {
+     "pdf": 97,
+     "printed": 95,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w23-d05"
+     ]
+    },
+    {
+     "pdf": 98,
+     "printed": 96,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w23-d06"
+     ]
+    },
+    {
+     "pdf": 99,
+     "printed": 97,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w24-d01"
+     ]
+    },
+    {
+     "pdf": 100,
+     "printed": 98,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w24-d02"
+     ]
+    },
+    {
+     "pdf": 101,
+     "printed": 99,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w24-d03"
+     ]
+    },
+    {
+     "pdf": 102,
+     "printed": 100,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w24-d04"
+     ]
+    },
+    {
+     "pdf": 103,
+     "printed": 101,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w24-d05"
+     ]
+    },
+    {
+     "pdf": 104,
+     "printed": 102,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w24-d06"
+     ]
+    },
+    {
+     "pdf": 105,
+     "printed": 103,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w25-d01"
+     ]
+    },
+    {
+     "pdf": 106,
+     "printed": 104,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w25-d02"
+     ]
+    },
+    {
+     "pdf": 107,
+     "printed": 105,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w25-d03"
+     ]
+    },
+    {
+     "pdf": 108,
+     "printed": 106,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w25-d04"
+     ]
+    },
+    {
+     "pdf": 109,
+     "printed": 107,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w25-d05"
+     ]
+    },
+    {
+     "pdf": 110,
+     "printed": 108,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g1-hindi-w25-d06"
+     ]
+    },
+    {
+     "pdf": 111,
+     "printed": 109,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 112,
+     "printed": 110,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 113,
+     "printed": 111,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 114,
+     "printed": 112,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 115,
+     "printed": 113,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 116,
+     "printed": 114,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 117,
+     "printed": 115,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 118,
+     "printed": 116,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 119,
+     "printed": 117,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 120,
+     "printed": 118,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 121,
+     "printed": 119,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 122,
+     "printed": 120,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 123,
+     "printed": 121,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 124,
+     "printed": 122,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 125,
+     "printed": 123,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 126,
+     "printed": 124,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 127,
+     "printed": 125,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 128,
+     "printed": 126,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 129,
+     "printed": 127,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 130,
+     "printed": 128,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 131,
+     "printed": 129,
+     "section": "routines-period-3",
+     "kind": "routines"
+    },
+    {
+     "pdf": 132,
+     "printed": 130,
+     "section": "routines-period-3",
+     "kind": "routines"
+    },
+    {
+     "pdf": 133,
+     "printed": 131,
+     "section": "weekly-assessment",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 134,
+     "printed": 132,
+     "section": "weekly-assessment",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 135,
+     "printed": 133,
+     "section": "remedial-strategy",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 136,
+     "printed": 134,
+     "section": "remedial-strategy",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 137,
+     "printed": 135,
+     "section": "remedial-strategy",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 138,
+     "printed": 136,
+     "section": "oral-language-assessment",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 139,
+     "printed": 137,
+     "section": "stories-poems",
+     "kind": "resources"
+    },
+    {
+     "pdf": 140,
+     "printed": 138,
+     "section": "stories-poems",
+     "kind": "resources"
+    },
+    {
+     "pdf": 141,
+     "printed": 139,
+     "section": "grids",
+     "kind": "resources"
+    },
+    {
+     "pdf": 142,
+     "printed": 140,
+     "section": "grids",
+     "kind": "resources"
+    },
+    {
+     "pdf": 143,
+     "printed": 141,
+     "section": "grids",
+     "kind": "resources"
+    },
+    {
+     "pdf": 144,
+     "printed": 142,
+     "section": "grids",
+     "kind": "resources"
+    },
+    {
+     "pdf": 145,
+     "printed": 143,
+     "section": "grids",
+     "kind": "resources"
+    },
+    {
+     "pdf": 146,
+     "printed": 144,
+     "section": "grids",
+     "kind": "resources"
+    },
+    {
+     "pdf": 147,
+     "printed": 145,
+     "section": "grids",
+     "kind": "resources"
+    },
+    {
+     "pdf": 148,
+     "printed": 146,
+     "section": "grids",
+     "kind": "resources"
+    },
+    {
+     "pdf": 149,
+     "printed": 147,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 150,
+     "printed": 148,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 151,
+     "printed": 149,
+     "section": "teaching-reminders",
+     "kind": "program"
+    },
+    {
+     "pdf": 152,
+     "printed": 150,
+     "section": "anthem",
+     "kind": "admin"
+    }
+   ],
+   "summary": {
+    "pages": 152,
+    "sections": 27,
+    "planPagesWithoutLesson": [
+     43,
+     80
+    ],
+    "matterPages": 60
+   }
+  },
+  "2": {
+   "document": "guide-g2-d86262b7a94c",
+   "pages": [
+    {
+     "pdf": 1,
+     "printed": null,
+     "section": "cover",
+     "kind": "admin"
+    },
+    {
+     "pdf": 2,
+     "printed": null,
+     "section": "nipun-list",
+     "kind": "program"
+    },
+    {
+     "pdf": 3,
+     "printed": 1,
+     "section": "title-page",
+     "kind": "admin"
+    },
+    {
+     "pdf": 4,
+     "printed": 2,
+     "section": "credits",
+     "kind": "admin"
+    },
+    {
+     "pdf": 5,
+     "printed": 3,
+     "section": "contents",
+     "kind": "admin"
+    },
+    {
+     "pdf": 6,
+     "printed": 4,
+     "section": "annual-weekly-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 7,
+     "printed": 5,
+     "section": "annual-weekly-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 8,
+     "printed": 6,
+     "section": "guide-usage",
+     "kind": "program"
+    },
+    {
+     "pdf": 9,
+     "printed": 7,
+     "section": "article-oral-language-strategies",
+     "kind": "article"
+    },
+    {
+     "pdf": 10,
+     "printed": 8,
+     "section": "article-checking-understanding",
+     "kind": "article"
+    },
+    {
+     "pdf": 11,
+     "printed": 9,
+     "section": "article-checking-understanding",
+     "kind": "article"
+    },
+    {
+     "pdf": 12,
+     "printed": 10,
+     "section": "article-scaffolding-pair-group",
+     "kind": "article"
+    },
+    {
+     "pdf": 13,
+     "printed": 11,
+     "section": "article-gender-sensitivity",
+     "kind": "article"
+    },
+    {
+     "pdf": 14,
+     "printed": 12,
+     "section": "article-gender-sensitivity",
+     "kind": "article"
+    },
+    {
+     "pdf": 15,
+     "printed": 13,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 16,
+     "printed": 14,
+     "section": "weekly-cycle",
+     "kind": "program"
+    },
+    {
+     "pdf": 17,
+     "printed": 15,
+     "section": "materials",
+     "kind": "program"
+    },
+    {
+     "pdf": 18,
+     "printed": 16,
+     "section": "period-outline",
+     "kind": "program"
+    },
+    {
+     "pdf": 19,
+     "printed": 17,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w01-d01"
+     ]
+    },
+    {
+     "pdf": 20,
+     "printed": 18,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w01-d02"
+     ]
+    },
+    {
+     "pdf": 21,
+     "printed": 19,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w01-d03"
+     ]
+    },
+    {
+     "pdf": 22,
+     "printed": 20,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w01-d04"
+     ]
+    },
+    {
+     "pdf": 23,
+     "printed": 21,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w01-d05"
+     ]
+    },
+    {
+     "pdf": 24,
+     "printed": 22,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w01-d06"
+     ]
+    },
+    {
+     "pdf": 25,
+     "printed": 23,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w02-d01"
+     ]
+    },
+    {
+     "pdf": 26,
+     "printed": 24,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w02-d02"
+     ]
+    },
+    {
+     "pdf": 27,
+     "printed": 25,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w02-d03"
+     ]
+    },
+    {
+     "pdf": 28,
+     "printed": 26,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w02-d04"
+     ]
+    },
+    {
+     "pdf": 29,
+     "printed": 27,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w02-d05"
+     ]
+    },
+    {
+     "pdf": 30,
+     "printed": 28,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w02-d06"
+     ]
+    },
+    {
+     "pdf": 31,
+     "printed": 29,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w03-d01"
+     ]
+    },
+    {
+     "pdf": 32,
+     "printed": 30,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w03-d02"
+     ]
+    },
+    {
+     "pdf": 33,
+     "printed": 31,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w03-d03"
+     ]
+    },
+    {
+     "pdf": 34,
+     "printed": 32,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w03-d04"
+     ]
+    },
+    {
+     "pdf": 35,
+     "printed": 33,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w03-d05"
+     ]
+    },
+    {
+     "pdf": 36,
+     "printed": 34,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w03-d06"
+     ]
+    },
+    {
+     "pdf": 37,
+     "printed": 35,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w04-d01"
+     ]
+    },
+    {
+     "pdf": 38,
+     "printed": 36,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w04-d02"
+     ]
+    },
+    {
+     "pdf": 39,
+     "printed": 37,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w04-d03"
+     ]
+    },
+    {
+     "pdf": 40,
+     "printed": 38,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w04-d04"
+     ]
+    },
+    {
+     "pdf": 41,
+     "printed": 39,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w04-d05"
+     ]
+    },
+    {
+     "pdf": 42,
+     "printed": 40,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w04-d06"
+     ]
+    },
+    {
+     "pdf": 43,
+     "printed": 41,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w05-d01"
+     ]
+    },
+    {
+     "pdf": 44,
+     "printed": 42,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w05-d02"
+     ]
+    },
+    {
+     "pdf": 45,
+     "printed": 43,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w05-d03"
+     ]
+    },
+    {
+     "pdf": 46,
+     "printed": 44,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w05-d04"
+     ]
+    },
+    {
+     "pdf": 47,
+     "printed": 45,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w05-d05"
+     ]
+    },
+    {
+     "pdf": 48,
+     "printed": 46,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w05-d06"
+     ]
+    },
+    {
+     "pdf": 49,
+     "printed": 47,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w06-d01"
+     ]
+    },
+    {
+     "pdf": 50,
+     "printed": 48,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w06-d02"
+     ]
+    },
+    {
+     "pdf": 51,
+     "printed": 49,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w06-d03"
+     ]
+    },
+    {
+     "pdf": 52,
+     "printed": 50,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w06-d04"
+     ]
+    },
+    {
+     "pdf": 53,
+     "printed": 51,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w06-d05"
+     ]
+    },
+    {
+     "pdf": 54,
+     "printed": 52,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w06-d06"
+     ]
+    },
+    {
+     "pdf": 55,
+     "printed": 53,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w07-d01"
+     ]
+    },
+    {
+     "pdf": 56,
+     "printed": 54,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w07-d02"
+     ]
+    },
+    {
+     "pdf": 57,
+     "printed": 55,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w07-d03"
+     ]
+    },
+    {
+     "pdf": 58,
+     "printed": 56,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w07-d04"
+     ]
+    },
+    {
+     "pdf": 59,
+     "printed": 57,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w07-d05"
+     ]
+    },
+    {
+     "pdf": 60,
+     "printed": 58,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w07-d06"
+     ]
+    },
+    {
+     "pdf": 61,
+     "printed": 59,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w08-d01"
+     ]
+    },
+    {
+     "pdf": 62,
+     "printed": 60,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w08-d02"
+     ]
+    },
+    {
+     "pdf": 63,
+     "printed": 61,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w08-d03"
+     ]
+    },
+    {
+     "pdf": 64,
+     "printed": 62,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w08-d04"
+     ]
+    },
+    {
+     "pdf": 65,
+     "printed": 63,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w08-d05"
+     ]
+    },
+    {
+     "pdf": 66,
+     "printed": 64,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w08-d06"
+     ]
+    },
+    {
+     "pdf": 67,
+     "printed": 65,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w09-d01"
+     ]
+    },
+    {
+     "pdf": 68,
+     "printed": 66,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w09-d02"
+     ]
+    },
+    {
+     "pdf": 69,
+     "printed": 67,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w09-d03"
+     ]
+    },
+    {
+     "pdf": 70,
+     "printed": 68,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w09-d04"
+     ]
+    },
+    {
+     "pdf": 71,
+     "printed": 69,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w09-d05"
+     ]
+    },
+    {
+     "pdf": 72,
+     "printed": 70,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w09-d06"
+     ]
+    },
+    {
+     "pdf": 73,
+     "printed": 71,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w10-d01"
+     ]
+    },
+    {
+     "pdf": 74,
+     "printed": 72,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w10-d02"
+     ]
+    },
+    {
+     "pdf": 75,
+     "printed": 73,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w10-d03"
+     ]
+    },
+    {
+     "pdf": 76,
+     "printed": 74,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w10-d04"
+     ]
+    },
+    {
+     "pdf": 77,
+     "printed": 75,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w10-d05"
+     ]
+    },
+    {
+     "pdf": 78,
+     "printed": 76,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w10-d06"
+     ]
+    },
+    {
+     "pdf": 79,
+     "printed": 77,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w11-d01"
+     ]
+    },
+    {
+     "pdf": 80,
+     "printed": 78,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w11-d02"
+     ]
+    },
+    {
+     "pdf": 81,
+     "printed": 79,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w11-d03"
+     ]
+    },
+    {
+     "pdf": 82,
+     "printed": 80,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w11-d04"
+     ]
+    },
+    {
+     "pdf": 83,
+     "printed": 81,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w11-d05"
+     ]
+    },
+    {
+     "pdf": 84,
+     "printed": 82,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w11-d06"
+     ]
+    },
+    {
+     "pdf": 85,
+     "printed": 83,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w12-d01"
+     ]
+    },
+    {
+     "pdf": 86,
+     "printed": 84,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w12-d02"
+     ]
+    },
+    {
+     "pdf": 87,
+     "printed": 85,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w12-d03"
+     ]
+    },
+    {
+     "pdf": 88,
+     "printed": 86,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w12-d04"
+     ]
+    },
+    {
+     "pdf": 89,
+     "printed": 87,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w12-d05"
+     ]
+    },
+    {
+     "pdf": 90,
+     "printed": 88,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w12-d06"
+     ]
+    },
+    {
+     "pdf": 91,
+     "printed": 89,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 92,
+     "printed": 90,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w14-d01"
+     ]
+    },
+    {
+     "pdf": 93,
+     "printed": 91,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w14-d02"
+     ]
+    },
+    {
+     "pdf": 94,
+     "printed": 92,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w14-d03"
+     ]
+    },
+    {
+     "pdf": 95,
+     "printed": 93,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w14-d04"
+     ]
+    },
+    {
+     "pdf": 96,
+     "printed": 94,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w14-d05"
+     ]
+    },
+    {
+     "pdf": 97,
+     "printed": 95,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w14-d06"
+     ]
+    },
+    {
+     "pdf": 98,
+     "printed": 96,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w15-d01"
+     ]
+    },
+    {
+     "pdf": 99,
+     "printed": 97,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w15-d02"
+     ]
+    },
+    {
+     "pdf": 100,
+     "printed": 98,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w15-d03"
+     ]
+    },
+    {
+     "pdf": 101,
+     "printed": 99,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w15-d04"
+     ]
+    },
+    {
+     "pdf": 102,
+     "printed": 100,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w15-d05"
+     ]
+    },
+    {
+     "pdf": 103,
+     "printed": 101,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w15-d06"
+     ]
+    },
+    {
+     "pdf": 104,
+     "printed": 102,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w16-d01"
+     ]
+    },
+    {
+     "pdf": 105,
+     "printed": 103,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w16-d02"
+     ]
+    },
+    {
+     "pdf": 106,
+     "printed": 104,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w16-d03"
+     ]
+    },
+    {
+     "pdf": 107,
+     "printed": 105,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w16-d04"
+     ]
+    },
+    {
+     "pdf": 108,
+     "printed": 106,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w16-d05"
+     ]
+    },
+    {
+     "pdf": 109,
+     "printed": 107,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w16-d06"
+     ]
+    },
+    {
+     "pdf": 110,
+     "printed": 108,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w17-d01"
+     ]
+    },
+    {
+     "pdf": 111,
+     "printed": 109,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w17-d02"
+     ]
+    },
+    {
+     "pdf": 112,
+     "printed": 110,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w17-d03"
+     ]
+    },
+    {
+     "pdf": 113,
+     "printed": 111,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w17-d04"
+     ]
+    },
+    {
+     "pdf": 114,
+     "printed": 112,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w17-d05"
+     ]
+    },
+    {
+     "pdf": 115,
+     "printed": 113,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w17-d06"
+     ]
+    },
+    {
+     "pdf": 116,
+     "printed": 114,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w18-d01"
+     ]
+    },
+    {
+     "pdf": 117,
+     "printed": 115,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w18-d02"
+     ]
+    },
+    {
+     "pdf": 118,
+     "printed": 116,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w18-d03"
+     ]
+    },
+    {
+     "pdf": 119,
+     "printed": 117,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w18-d04"
+     ]
+    },
+    {
+     "pdf": 120,
+     "printed": 118,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w18-d05"
+     ]
+    },
+    {
+     "pdf": 121,
+     "printed": 119,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w18-d06"
+     ]
+    },
+    {
+     "pdf": 122,
+     "printed": 120,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w19-d01"
+     ]
+    },
+    {
+     "pdf": 123,
+     "printed": 121,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w19-d02"
+     ]
+    },
+    {
+     "pdf": 124,
+     "printed": 122,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w19-d03"
+     ]
+    },
+    {
+     "pdf": 125,
+     "printed": 123,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w19-d04"
+     ]
+    },
+    {
+     "pdf": 126,
+     "printed": 124,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w19-d05"
+     ]
+    },
+    {
+     "pdf": 127,
+     "printed": 125,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w19-d06"
+     ]
+    },
+    {
+     "pdf": 128,
+     "printed": 126,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 129,
+     "printed": 127,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w21-d01"
+     ]
+    },
+    {
+     "pdf": 130,
+     "printed": 128,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w21-d02"
+     ]
+    },
+    {
+     "pdf": 131,
+     "printed": 129,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w21-d03"
+     ]
+    },
+    {
+     "pdf": 132,
+     "printed": 130,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w21-d04"
+     ]
+    },
+    {
+     "pdf": 133,
+     "printed": 131,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w21-d05"
+     ]
+    },
+    {
+     "pdf": 134,
+     "printed": 132,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w21-d06"
+     ]
+    },
+    {
+     "pdf": 135,
+     "printed": 133,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w22-d01"
+     ]
+    },
+    {
+     "pdf": 136,
+     "printed": 134,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w22-d02"
+     ]
+    },
+    {
+     "pdf": 137,
+     "printed": 135,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w22-d03"
+     ]
+    },
+    {
+     "pdf": 138,
+     "printed": 136,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w22-d04"
+     ]
+    },
+    {
+     "pdf": 139,
+     "printed": 137,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w22-d05"
+     ]
+    },
+    {
+     "pdf": 140,
+     "printed": 138,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w22-d06"
+     ]
+    },
+    {
+     "pdf": 141,
+     "printed": 139,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w23-d01"
+     ]
+    },
+    {
+     "pdf": 142,
+     "printed": 140,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w23-d02"
+     ]
+    },
+    {
+     "pdf": 143,
+     "printed": 141,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w23-d03"
+     ]
+    },
+    {
+     "pdf": 144,
+     "printed": 142,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w23-d04"
+     ]
+    },
+    {
+     "pdf": 145,
+     "printed": 143,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w23-d05"
+     ]
+    },
+    {
+     "pdf": 146,
+     "printed": 144,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w23-d06"
+     ]
+    },
+    {
+     "pdf": 147,
+     "printed": 145,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w24-d01"
+     ]
+    },
+    {
+     "pdf": 148,
+     "printed": 146,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w24-d02"
+     ]
+    },
+    {
+     "pdf": 149,
+     "printed": 147,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w24-d03"
+     ]
+    },
+    {
+     "pdf": 150,
+     "printed": 148,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w24-d04"
+     ]
+    },
+    {
+     "pdf": 151,
+     "printed": 149,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w24-d05"
+     ]
+    },
+    {
+     "pdf": 152,
+     "printed": 150,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w24-d06"
+     ]
+    },
+    {
+     "pdf": 153,
+     "printed": 151,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w25-d01"
+     ]
+    },
+    {
+     "pdf": 154,
+     "printed": 152,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w25-d02"
+     ]
+    },
+    {
+     "pdf": 155,
+     "printed": 153,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w25-d03"
+     ]
+    },
+    {
+     "pdf": 156,
+     "printed": 154,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w25-d04"
+     ]
+    },
+    {
+     "pdf": 157,
+     "printed": 155,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w25-d05"
+     ]
+    },
+    {
+     "pdf": 158,
+     "printed": 156,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g2-hindi-w25-d06"
+     ]
+    },
+    {
+     "pdf": 159,
+     "printed": 157,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 160,
+     "printed": 158,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 161,
+     "printed": 159,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 162,
+     "printed": 160,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 163,
+     "printed": 161,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 164,
+     "printed": 162,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 165,
+     "printed": 163,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 166,
+     "printed": 164,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 167,
+     "printed": 165,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 168,
+     "printed": 166,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 169,
+     "printed": 167,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 170,
+     "printed": 168,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 171,
+     "printed": 169,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 172,
+     "printed": 170,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 173,
+     "printed": 171,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 174,
+     "printed": 172,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 175,
+     "printed": 173,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 176,
+     "printed": 174,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 177,
+     "printed": 175,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 178,
+     "printed": 176,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 179,
+     "printed": 177,
+     "section": "routines-period-3",
+     "kind": "routines"
+    },
+    {
+     "pdf": 180,
+     "printed": 178,
+     "section": "routines-period-3",
+     "kind": "routines"
+    },
+    {
+     "pdf": 181,
+     "printed": 179,
+     "section": "routines-period-3",
+     "kind": "routines"
+    },
+    {
+     "pdf": 182,
+     "printed": 180,
+     "section": "assessment-remedial",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 183,
+     "printed": 181,
+     "section": "assessment-remedial",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 184,
+     "printed": 182,
+     "section": "assessment-remedial",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 185,
+     "printed": 183,
+     "section": "oral-language-assessment",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 186,
+     "printed": 184,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 187,
+     "printed": 185,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 188,
+     "printed": 186,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 189,
+     "printed": 187,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 190,
+     "printed": 188,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 191,
+     "printed": 189,
+     "section": "poems",
+     "kind": "resources"
+    },
+    {
+     "pdf": 192,
+     "printed": 190,
+     "section": "poems",
+     "kind": "resources"
+    },
+    {
+     "pdf": 193,
+     "printed": 191,
+     "section": "poems",
+     "kind": "resources"
+    },
+    {
+     "pdf": 194,
+     "printed": 192,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 195,
+     "printed": 193,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 196,
+     "printed": 194,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 197,
+     "printed": 195,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 198,
+     "printed": 196,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 199,
+     "printed": 197,
+     "section": "teaching-reminders",
+     "kind": "program"
+    },
+    {
+     "pdf": 200,
+     "printed": 198,
+     "section": "anthem",
+     "kind": "admin"
+    }
+   ],
+   "summary": {
+    "pages": 200,
+    "sections": 26,
+    "planPagesWithoutLesson": [
+     91,
+     128
+    ],
+    "matterPages": 60
+   }
+  },
+  "3": {
+   "document": "guide-g3-ab99c837f781",
+   "pages": [
+    {
+     "pdf": 1,
+     "printed": null,
+     "section": "cover",
+     "kind": "admin"
+    },
+    {
+     "pdf": 2,
+     "printed": null,
+     "section": "nipun-list",
+     "kind": "program"
+    },
+    {
+     "pdf": 3,
+     "printed": 1,
+     "section": "title-page",
+     "kind": "admin"
+    },
+    {
+     "pdf": 4,
+     "printed": 2,
+     "section": "credits",
+     "kind": "admin"
+    },
+    {
+     "pdf": 5,
+     "printed": 3,
+     "section": "contents",
+     "kind": "admin"
+    },
+    {
+     "pdf": 6,
+     "printed": 4,
+     "section": "annual-weekly-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 7,
+     "printed": 5,
+     "section": "annual-weekly-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 8,
+     "printed": 6,
+     "section": "guide-usage",
+     "kind": "program"
+    },
+    {
+     "pdf": 9,
+     "printed": 7,
+     "section": "article-structured-pedagogy",
+     "kind": "article"
+    },
+    {
+     "pdf": 10,
+     "printed": 8,
+     "section": "article-checking-understanding",
+     "kind": "article"
+    },
+    {
+     "pdf": 11,
+     "printed": 9,
+     "section": "article-checking-understanding",
+     "kind": "article"
+    },
+    {
+     "pdf": 12,
+     "printed": 10,
+     "section": "article-writing-for-expression",
+     "kind": "article"
+    },
+    {
+     "pdf": 13,
+     "printed": 11,
+     "section": "article-gender-sensitivity",
+     "kind": "article"
+    },
+    {
+     "pdf": 14,
+     "printed": 12,
+     "section": "article-gender-sensitivity",
+     "kind": "article"
+    },
+    {
+     "pdf": 15,
+     "printed": 13,
+     "section": "annual-objectives",
+     "kind": "program"
+    },
+    {
+     "pdf": 16,
+     "printed": 14,
+     "section": "weekly-cycle",
+     "kind": "program"
+    },
+    {
+     "pdf": 17,
+     "printed": 15,
+     "section": "materials",
+     "kind": "program"
+    },
+    {
+     "pdf": 18,
+     "printed": 16,
+     "section": "period-outline",
+     "kind": "program"
+    },
+    {
+     "pdf": 19,
+     "printed": 17,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w01-d01"
+     ]
+    },
+    {
+     "pdf": 20,
+     "printed": 18,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w01-d02"
+     ]
+    },
+    {
+     "pdf": 21,
+     "printed": 19,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w01-d03"
+     ]
+    },
+    {
+     "pdf": 22,
+     "printed": 20,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w01-d04"
+     ]
+    },
+    {
+     "pdf": 23,
+     "printed": 21,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w01-d05"
+     ]
+    },
+    {
+     "pdf": 24,
+     "printed": 22,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w01-d06"
+     ]
+    },
+    {
+     "pdf": 25,
+     "printed": 23,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w02-d01"
+     ]
+    },
+    {
+     "pdf": 26,
+     "printed": 24,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w02-d02"
+     ]
+    },
+    {
+     "pdf": 27,
+     "printed": 25,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w02-d03"
+     ]
+    },
+    {
+     "pdf": 28,
+     "printed": 26,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w02-d04"
+     ]
+    },
+    {
+     "pdf": 29,
+     "printed": 27,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w02-d05"
+     ]
+    },
+    {
+     "pdf": 30,
+     "printed": 28,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w02-d06"
+     ]
+    },
+    {
+     "pdf": 31,
+     "printed": 29,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w03-d01"
+     ]
+    },
+    {
+     "pdf": 32,
+     "printed": 30,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w03-d02"
+     ]
+    },
+    {
+     "pdf": 33,
+     "printed": 31,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w03-d03"
+     ]
+    },
+    {
+     "pdf": 34,
+     "printed": 32,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w03-d04"
+     ]
+    },
+    {
+     "pdf": 35,
+     "printed": 33,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w03-d05"
+     ]
+    },
+    {
+     "pdf": 36,
+     "printed": 34,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w03-d06"
+     ]
+    },
+    {
+     "pdf": 37,
+     "printed": 35,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w04-d01"
+     ]
+    },
+    {
+     "pdf": 38,
+     "printed": 36,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w04-d02"
+     ]
+    },
+    {
+     "pdf": 39,
+     "printed": 37,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w04-d03"
+     ]
+    },
+    {
+     "pdf": 40,
+     "printed": 38,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w04-d04"
+     ]
+    },
+    {
+     "pdf": 41,
+     "printed": 39,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w04-d05"
+     ]
+    },
+    {
+     "pdf": 42,
+     "printed": 40,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w04-d06"
+     ]
+    },
+    {
+     "pdf": 43,
+     "printed": 41,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w05-d01"
+     ]
+    },
+    {
+     "pdf": 44,
+     "printed": 42,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w05-d02"
+     ]
+    },
+    {
+     "pdf": 45,
+     "printed": 43,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w05-d03"
+     ]
+    },
+    {
+     "pdf": 46,
+     "printed": 44,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w05-d04"
+     ]
+    },
+    {
+     "pdf": 47,
+     "printed": 45,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w05-d05"
+     ]
+    },
+    {
+     "pdf": 48,
+     "printed": 46,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w05-d06"
+     ]
+    },
+    {
+     "pdf": 49,
+     "printed": 47,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w06-d01"
+     ]
+    },
+    {
+     "pdf": 50,
+     "printed": 48,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w06-d02"
+     ]
+    },
+    {
+     "pdf": 51,
+     "printed": 49,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w06-d03"
+     ]
+    },
+    {
+     "pdf": 52,
+     "printed": 50,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w06-d04"
+     ]
+    },
+    {
+     "pdf": 53,
+     "printed": 51,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w06-d05"
+     ]
+    },
+    {
+     "pdf": 54,
+     "printed": 52,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w06-d06"
+     ]
+    },
+    {
+     "pdf": 55,
+     "printed": 53,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w07-d01"
+     ]
+    },
+    {
+     "pdf": 56,
+     "printed": 54,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w07-d02"
+     ]
+    },
+    {
+     "pdf": 57,
+     "printed": 55,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w07-d03"
+     ]
+    },
+    {
+     "pdf": 58,
+     "printed": 56,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w07-d04"
+     ]
+    },
+    {
+     "pdf": 59,
+     "printed": 57,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w07-d05"
+     ]
+    },
+    {
+     "pdf": 60,
+     "printed": 58,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w07-d06"
+     ]
+    },
+    {
+     "pdf": 61,
+     "printed": 59,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w08-d01"
+     ]
+    },
+    {
+     "pdf": 62,
+     "printed": 60,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w08-d02"
+     ]
+    },
+    {
+     "pdf": 63,
+     "printed": 61,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w08-d03"
+     ]
+    },
+    {
+     "pdf": 64,
+     "printed": 62,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w08-d04"
+     ]
+    },
+    {
+     "pdf": 65,
+     "printed": 63,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w08-d05"
+     ]
+    },
+    {
+     "pdf": 66,
+     "printed": 64,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w08-d06"
+     ]
+    },
+    {
+     "pdf": 67,
+     "printed": 65,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w09-d01"
+     ]
+    },
+    {
+     "pdf": 68,
+     "printed": 66,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w09-d02"
+     ]
+    },
+    {
+     "pdf": 69,
+     "printed": 67,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w09-d03"
+     ]
+    },
+    {
+     "pdf": 70,
+     "printed": 68,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w09-d04"
+     ]
+    },
+    {
+     "pdf": 71,
+     "printed": 69,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w09-d05"
+     ]
+    },
+    {
+     "pdf": 72,
+     "printed": 70,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w09-d06"
+     ]
+    },
+    {
+     "pdf": 73,
+     "printed": 71,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w10-d01"
+     ]
+    },
+    {
+     "pdf": 74,
+     "printed": 72,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w10-d02"
+     ]
+    },
+    {
+     "pdf": 75,
+     "printed": 73,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w10-d03"
+     ]
+    },
+    {
+     "pdf": 76,
+     "printed": 74,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w10-d04"
+     ]
+    },
+    {
+     "pdf": 77,
+     "printed": 75,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w10-d05"
+     ]
+    },
+    {
+     "pdf": 78,
+     "printed": 76,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w10-d06"
+     ]
+    },
+    {
+     "pdf": 79,
+     "printed": 77,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w11-d01"
+     ]
+    },
+    {
+     "pdf": 80,
+     "printed": 78,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w11-d02"
+     ]
+    },
+    {
+     "pdf": 81,
+     "printed": 79,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w11-d03"
+     ]
+    },
+    {
+     "pdf": 82,
+     "printed": 80,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w11-d04"
+     ]
+    },
+    {
+     "pdf": 83,
+     "printed": 81,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w11-d05"
+     ]
+    },
+    {
+     "pdf": 84,
+     "printed": 82,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w11-d06"
+     ]
+    },
+    {
+     "pdf": 85,
+     "printed": 83,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w12-d01"
+     ]
+    },
+    {
+     "pdf": 86,
+     "printed": 84,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w12-d02"
+     ]
+    },
+    {
+     "pdf": 87,
+     "printed": 85,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w12-d03"
+     ]
+    },
+    {
+     "pdf": 88,
+     "printed": 86,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w12-d04"
+     ]
+    },
+    {
+     "pdf": 89,
+     "printed": 87,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w12-d05"
+     ]
+    },
+    {
+     "pdf": 90,
+     "printed": 88,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w12-d06"
+     ]
+    },
+    {
+     "pdf": 91,
+     "printed": 89,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 92,
+     "printed": 90,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w14-d01"
+     ]
+    },
+    {
+     "pdf": 93,
+     "printed": 91,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w14-d02"
+     ]
+    },
+    {
+     "pdf": 94,
+     "printed": 92,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w14-d03"
+     ]
+    },
+    {
+     "pdf": 95,
+     "printed": 93,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w14-d04"
+     ]
+    },
+    {
+     "pdf": 96,
+     "printed": 94,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w14-d05"
+     ]
+    },
+    {
+     "pdf": 97,
+     "printed": 95,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w14-d06"
+     ]
+    },
+    {
+     "pdf": 98,
+     "printed": 96,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w15-d01"
+     ]
+    },
+    {
+     "pdf": 99,
+     "printed": 97,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w15-d02"
+     ]
+    },
+    {
+     "pdf": 100,
+     "printed": 98,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w15-d03"
+     ]
+    },
+    {
+     "pdf": 101,
+     "printed": 99,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w15-d04"
+     ]
+    },
+    {
+     "pdf": 102,
+     "printed": 100,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w15-d05"
+     ]
+    },
+    {
+     "pdf": 103,
+     "printed": 101,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w15-d06"
+     ]
+    },
+    {
+     "pdf": 104,
+     "printed": 102,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w16-d01"
+     ]
+    },
+    {
+     "pdf": 105,
+     "printed": 103,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w16-d02"
+     ]
+    },
+    {
+     "pdf": 106,
+     "printed": 104,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w16-d03"
+     ]
+    },
+    {
+     "pdf": 107,
+     "printed": 105,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w16-d04"
+     ]
+    },
+    {
+     "pdf": 108,
+     "printed": 106,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w16-d05"
+     ]
+    },
+    {
+     "pdf": 109,
+     "printed": 107,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w16-d06"
+     ]
+    },
+    {
+     "pdf": 110,
+     "printed": 108,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w17-d01"
+     ]
+    },
+    {
+     "pdf": 111,
+     "printed": 109,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w17-d02"
+     ]
+    },
+    {
+     "pdf": 112,
+     "printed": 110,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w17-d03"
+     ]
+    },
+    {
+     "pdf": 113,
+     "printed": 111,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w17-d04"
+     ]
+    },
+    {
+     "pdf": 114,
+     "printed": 112,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w17-d05"
+     ]
+    },
+    {
+     "pdf": 115,
+     "printed": 113,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w17-d06"
+     ]
+    },
+    {
+     "pdf": 116,
+     "printed": 114,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w18-d01"
+     ]
+    },
+    {
+     "pdf": 117,
+     "printed": 115,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w18-d02"
+     ]
+    },
+    {
+     "pdf": 118,
+     "printed": 116,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w18-d03"
+     ]
+    },
+    {
+     "pdf": 119,
+     "printed": 117,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w18-d04"
+     ]
+    },
+    {
+     "pdf": 120,
+     "printed": 118,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w18-d05"
+     ]
+    },
+    {
+     "pdf": 121,
+     "printed": 119,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w18-d06"
+     ]
+    },
+    {
+     "pdf": 122,
+     "printed": 120,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w19-d01"
+     ]
+    },
+    {
+     "pdf": 123,
+     "printed": 121,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w19-d02"
+     ]
+    },
+    {
+     "pdf": 124,
+     "printed": 122,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w19-d03"
+     ]
+    },
+    {
+     "pdf": 125,
+     "printed": 123,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w19-d04"
+     ]
+    },
+    {
+     "pdf": 126,
+     "printed": 124,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w19-d05"
+     ]
+    },
+    {
+     "pdf": 127,
+     "printed": 125,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w19-d06"
+     ]
+    },
+    {
+     "pdf": 128,
+     "printed": 126,
+     "section": "daily-plans",
+     "kind": "plans"
+    },
+    {
+     "pdf": 129,
+     "printed": 127,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w21-d01"
+     ]
+    },
+    {
+     "pdf": 130,
+     "printed": 128,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w21-d02"
+     ]
+    },
+    {
+     "pdf": 131,
+     "printed": 129,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w21-d03"
+     ]
+    },
+    {
+     "pdf": 132,
+     "printed": 130,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w21-d04"
+     ]
+    },
+    {
+     "pdf": 133,
+     "printed": 131,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w21-d05"
+     ]
+    },
+    {
+     "pdf": 134,
+     "printed": 132,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w21-d06"
+     ]
+    },
+    {
+     "pdf": 135,
+     "printed": 133,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w22-d01"
+     ]
+    },
+    {
+     "pdf": 136,
+     "printed": 134,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w22-d02"
+     ]
+    },
+    {
+     "pdf": 137,
+     "printed": 135,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w22-d03"
+     ]
+    },
+    {
+     "pdf": 138,
+     "printed": 136,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w22-d04"
+     ]
+    },
+    {
+     "pdf": 139,
+     "printed": 137,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w22-d05"
+     ]
+    },
+    {
+     "pdf": 140,
+     "printed": 138,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w22-d06"
+     ]
+    },
+    {
+     "pdf": 141,
+     "printed": 139,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w23-d01"
+     ]
+    },
+    {
+     "pdf": 142,
+     "printed": 140,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w23-d02"
+     ]
+    },
+    {
+     "pdf": 143,
+     "printed": 141,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w23-d03"
+     ]
+    },
+    {
+     "pdf": 144,
+     "printed": 142,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w23-d04"
+     ]
+    },
+    {
+     "pdf": 145,
+     "printed": 143,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w23-d05"
+     ]
+    },
+    {
+     "pdf": 146,
+     "printed": 144,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w23-d06"
+     ]
+    },
+    {
+     "pdf": 147,
+     "printed": 145,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w24-d01"
+     ]
+    },
+    {
+     "pdf": 148,
+     "printed": 146,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w24-d02"
+     ]
+    },
+    {
+     "pdf": 149,
+     "printed": 147,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w24-d03"
+     ]
+    },
+    {
+     "pdf": 150,
+     "printed": 148,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w24-d04"
+     ]
+    },
+    {
+     "pdf": 151,
+     "printed": 149,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w24-d05"
+     ]
+    },
+    {
+     "pdf": 152,
+     "printed": 150,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w24-d06"
+     ]
+    },
+    {
+     "pdf": 153,
+     "printed": 151,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w25-d01"
+     ]
+    },
+    {
+     "pdf": 154,
+     "printed": 152,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w25-d02"
+     ]
+    },
+    {
+     "pdf": 155,
+     "printed": 153,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w25-d03"
+     ]
+    },
+    {
+     "pdf": 156,
+     "printed": 154,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w25-d04"
+     ]
+    },
+    {
+     "pdf": 157,
+     "printed": 155,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w25-d05"
+     ]
+    },
+    {
+     "pdf": 158,
+     "printed": 156,
+     "section": "daily-plans",
+     "kind": "plans",
+     "lessons": [
+      "g3-hindi-w25-d06"
+     ]
+    },
+    {
+     "pdf": 159,
+     "printed": 157,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 160,
+     "printed": 158,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 161,
+     "printed": 159,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 162,
+     "printed": 160,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 163,
+     "printed": 161,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 164,
+     "printed": 162,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 165,
+     "printed": 163,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 166,
+     "printed": 164,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 167,
+     "printed": 165,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 168,
+     "printed": 166,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 169,
+     "printed": 167,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 170,
+     "printed": 168,
+     "section": "routines-period-1",
+     "kind": "routines"
+    },
+    {
+     "pdf": 171,
+     "printed": 169,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 172,
+     "printed": 170,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 173,
+     "printed": 171,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 174,
+     "printed": 172,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 175,
+     "printed": 173,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 176,
+     "printed": 174,
+     "section": "routines-period-2",
+     "kind": "routines"
+    },
+    {
+     "pdf": 177,
+     "printed": 175,
+     "section": "routines-period-3",
+     "kind": "routines"
+    },
+    {
+     "pdf": 178,
+     "printed": 176,
+     "section": "routines-period-3",
+     "kind": "routines"
+    },
+    {
+     "pdf": 179,
+     "printed": 177,
+     "section": "routines-period-3",
+     "kind": "routines"
+    },
+    {
+     "pdf": 180,
+     "printed": 178,
+     "section": "assessment-remedial",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 181,
+     "printed": 179,
+     "section": "assessment-remedial",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 182,
+     "printed": 180,
+     "section": "assessment-remedial",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 183,
+     "printed": 181,
+     "section": "oral-language-assessment",
+     "kind": "assessment"
+    },
+    {
+     "pdf": 184,
+     "printed": 182,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 185,
+     "printed": 183,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 186,
+     "printed": 184,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 187,
+     "printed": 185,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 188,
+     "printed": 186,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 189,
+     "printed": 187,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 190,
+     "printed": 188,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 191,
+     "printed": 189,
+     "section": "stories",
+     "kind": "resources"
+    },
+    {
+     "pdf": 192,
+     "printed": 190,
+     "section": "poems",
+     "kind": "resources"
+    },
+    {
+     "pdf": 193,
+     "printed": 191,
+     "section": "poems",
+     "kind": "resources"
+    },
+    {
+     "pdf": 194,
+     "printed": 192,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 195,
+     "printed": 193,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 196,
+     "printed": 194,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 197,
+     "printed": 195,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 198,
+     "printed": 196,
+     "section": "weekly-assessment-tracker",
+     "kind": "tracker"
+    },
+    {
+     "pdf": 199,
+     "printed": 197,
+     "section": "teaching-reminders",
+     "kind": "program"
+    },
+    {
+     "pdf": 200,
+     "printed": 198,
+     "section": "anthem",
+     "kind": "admin"
+    }
+   ],
+   "summary": {
+    "pages": 200,
+    "sections": 26,
+    "planPagesWithoutLesson": [
+     91,
+     128
+    ],
+    "matterPages": 60
+   }
+  }
+ }
+}

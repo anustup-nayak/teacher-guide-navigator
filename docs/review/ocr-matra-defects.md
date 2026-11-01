@@ -1,5 +1,7 @@
 # Text with detached Devanagari vowel signs (OCR damage)
 
+**r71 resolution (1 Nov 2026):** all 150 historical rows were source-checked (97 distinct steps, 84 lessons). Exact repairs are recorded in each pack’s `tools/source-text-repairs-r71.json` and released as content 1.3.4. 95 inventory steps received corrections; source-intended visarga in `g2-math-w18-d03/support` and standalone teaching matras in `g2-hindi-w19-d05/p3-2` were retained. Other legitimate quoted matras remain even when adjacent OCR text was repaired. The table below preserves the original audit evidence, not a current unresolved list. See [r71 task](../tasks/r71-review-fixes.md).
+
 Generated 1 Nov 2026 by the production audit (finding C1 in [AUDIT_2026-11-PRODUCTION.md](../AUDIT_2026-11-PRODUCTION.md)). With the self-hosted Noto font, a vowel sign that has lost its consonant renders with a dotted circle (◌), so teachers see it. Each line needs comparison with the original guide page before repair (AGENTS.md: content changes need source comparison). Strings that only quote a vowel sign on purpose (e.g. ‘ ु ’) are excluded.
 
 ## up-math-2026

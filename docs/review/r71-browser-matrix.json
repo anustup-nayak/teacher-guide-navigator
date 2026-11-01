@@ -1,0 +1,1522 @@
+[
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/today",
+    "selectors": true,
+    "tiny": [],
+    "title": "आज",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide",
+    "selectors": true,
+    "tiny": [],
+    "title": "पूरा साल · कक्षा 1 · गणित",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/week",
+    "selectors": true,
+    "tiny": [],
+    "title": "सप्ताह कैसे चलता है",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/periods",
+    "selectors": true,
+    "tiny": [],
+    "title": "हर दिन के कालांश",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/pages",
+    "selectors": true,
+    "tiny": [],
+    "title": "संदर्शिका के सभी हिस्से",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/goals",
+    "selectors": true,
+    "tiny": [],
+    "title": "🎯 इस साल के लक्ष्य · कक्षा 1 · गणित",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/find",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी पाठ",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": 0,
+    "route": "#/saved",
+    "selectors": true,
+    "tiny": [],
+    "title": "मेरी सूची",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/help",
+    "selectors": true,
+    "tiny": [],
+    "title": "ऐप कैसे इस्तेमाल करें",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/",
+    "selectors": true,
+    "tiny": [],
+    "title": "आज",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/unknown",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी पाठ",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "50 तक जोड़: “काउंट ऑन” रणनीति",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-math-w21-d02",
+    "selectors": true,
+    "tiny": [],
+    "title": "वजन की तुलनाः ग्राम और किलोग्राम का उपयोग",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-hindi-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "‘ल’ वर्ण और ग्रिड-1",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-hindi-w17-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "पाठ-17 ‘बरसात और मेंढक’ पर आधारित स्तरित पाठ",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-hindi-w23-d06",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी बच्चों के साथ साप्ताहिक आकलन",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "खोजें और जानें",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01/teach/2",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/today",
+    "selectors": true,
+    "tiny": [],
+    "title": "Today",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide",
+    "selectors": true,
+    "tiny": [],
+    "title": "Whole year · Grade 1 · Mathematics",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/week",
+    "selectors": true,
+    "tiny": [],
+    "title": "How the week runs",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/periods",
+    "selectors": true,
+    "tiny": [],
+    "title": "The periods of each day",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/pages",
+    "selectors": true,
+    "tiny": [],
+    "title": "Every part of the guide",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/goals",
+    "selectors": true,
+    "tiny": [],
+    "title": "🎯 This year’s goals · Grade 1 · Mathematics",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/find",
+    "selectors": true,
+    "tiny": [],
+    "title": "All lessons",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": 0,
+    "route": "#/saved",
+    "selectors": true,
+    "tiny": [],
+    "title": "My list",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/help",
+    "selectors": true,
+    "tiny": [],
+    "title": "How to use this app",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/",
+    "selectors": true,
+    "tiny": [],
+    "title": "Today",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/unknown",
+    "selectors": true,
+    "tiny": [],
+    "title": "All lessons",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "50 तक जोड़: “काउंट ऑन” रणनीति",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-math-w21-d02",
+    "selectors": true,
+    "tiny": [],
+    "title": "वजन की तुलनाः ग्राम और किलोग्राम का उपयोग",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-hindi-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "‘ल’ वर्ण और ग्रिड-1",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-hindi-w17-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "पाठ-17 ‘बरसात और मेंढक’ पर आधारित स्तरित पाठ",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-hindi-w23-d06",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी बच्चों के साथ साप्ताहिक आकलन",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "खोजें और जानें",
+    "width": 320
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01/teach/2",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 320
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/today",
+    "selectors": true,
+    "tiny": [],
+    "title": "आज",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide",
+    "selectors": true,
+    "tiny": [],
+    "title": "पूरा साल · कक्षा 1 · गणित",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/week",
+    "selectors": true,
+    "tiny": [],
+    "title": "सप्ताह कैसे चलता है",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/periods",
+    "selectors": true,
+    "tiny": [],
+    "title": "हर दिन के कालांश",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/pages",
+    "selectors": true,
+    "tiny": [],
+    "title": "संदर्शिका के सभी हिस्से",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/goals",
+    "selectors": true,
+    "tiny": [],
+    "title": "🎯 इस साल के लक्ष्य · कक्षा 1 · गणित",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/find",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी पाठ",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": 0,
+    "route": "#/saved",
+    "selectors": true,
+    "tiny": [],
+    "title": "मेरी सूची",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/help",
+    "selectors": true,
+    "tiny": [],
+    "title": "ऐप कैसे इस्तेमाल करें",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/",
+    "selectors": true,
+    "tiny": [],
+    "title": "आज",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/unknown",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी पाठ",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "50 तक जोड़: “काउंट ऑन” रणनीति",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-math-w21-d02",
+    "selectors": true,
+    "tiny": [],
+    "title": "वजन की तुलनाः ग्राम और किलोग्राम का उपयोग",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-hindi-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "‘ल’ वर्ण और ग्रिड-1",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-hindi-w17-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "पाठ-17 ‘बरसात और मेंढक’ पर आधारित स्तरित पाठ",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-hindi-w23-d06",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी बच्चों के साथ साप्ताहिक आकलन",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "खोजें और जानें",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01/teach/2",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/today",
+    "selectors": true,
+    "tiny": [],
+    "title": "Today",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide",
+    "selectors": true,
+    "tiny": [],
+    "title": "Whole year · Grade 1 · Mathematics",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/week",
+    "selectors": true,
+    "tiny": [],
+    "title": "How the week runs",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/periods",
+    "selectors": true,
+    "tiny": [],
+    "title": "The periods of each day",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/pages",
+    "selectors": true,
+    "tiny": [],
+    "title": "Every part of the guide",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/goals",
+    "selectors": true,
+    "tiny": [],
+    "title": "🎯 This year’s goals · Grade 1 · Mathematics",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/find",
+    "selectors": true,
+    "tiny": [],
+    "title": "All lessons",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": 0,
+    "route": "#/saved",
+    "selectors": true,
+    "tiny": [],
+    "title": "My list",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/help",
+    "selectors": true,
+    "tiny": [],
+    "title": "How to use this app",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/",
+    "selectors": true,
+    "tiny": [],
+    "title": "Today",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/unknown",
+    "selectors": true,
+    "tiny": [],
+    "title": "All lessons",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "50 तक जोड़: “काउंट ऑन” रणनीति",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-math-w21-d02",
+    "selectors": true,
+    "tiny": [],
+    "title": "वजन की तुलनाः ग्राम और किलोग्राम का उपयोग",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-hindi-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "‘ल’ वर्ण और ग्रिड-1",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-hindi-w17-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "पाठ-17 ‘बरसात और मेंढक’ पर आधारित स्तरित पाठ",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-hindi-w23-d06",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी बच्चों के साथ साप्ताहिक आकलन",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "खोजें और जानें",
+    "width": 360
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01/teach/2",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 360
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/today",
+    "selectors": true,
+    "tiny": [],
+    "title": "आज",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide",
+    "selectors": true,
+    "tiny": [],
+    "title": "पूरा साल · कक्षा 1 · गणित",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/week",
+    "selectors": true,
+    "tiny": [],
+    "title": "सप्ताह कैसे चलता है",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/periods",
+    "selectors": true,
+    "tiny": [],
+    "title": "हर दिन के कालांश",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/pages",
+    "selectors": true,
+    "tiny": [],
+    "title": "संदर्शिका के सभी हिस्से",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/goals",
+    "selectors": true,
+    "tiny": [],
+    "title": "🎯 इस साल के लक्ष्य · कक्षा 1 · गणित",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/find",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी पाठ",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": 0,
+    "route": "#/saved",
+    "selectors": true,
+    "tiny": [],
+    "title": "मेरी सूची",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/help",
+    "selectors": true,
+    "tiny": [],
+    "title": "ऐप कैसे इस्तेमाल करें",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/",
+    "selectors": true,
+    "tiny": [],
+    "title": "आज",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/unknown",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी पाठ",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "50 तक जोड़: “काउंट ऑन” रणनीति",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-math-w21-d02",
+    "selectors": true,
+    "tiny": [],
+    "title": "वजन की तुलनाः ग्राम और किलोग्राम का उपयोग",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-hindi-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "‘ल’ वर्ण और ग्रिड-1",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-hindi-w17-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "पाठ-17 ‘बरसात और मेंढक’ पर आधारित स्तरित पाठ",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-hindi-w23-d06",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी बच्चों के साथ साप्ताहिक आकलन",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "खोजें और जानें",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01/teach/2",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/today",
+    "selectors": true,
+    "tiny": [],
+    "title": "Today",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide",
+    "selectors": true,
+    "tiny": [],
+    "title": "Whole year · Grade 1 · Mathematics",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/week",
+    "selectors": true,
+    "tiny": [],
+    "title": "How the week runs",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/periods",
+    "selectors": true,
+    "tiny": [],
+    "title": "The periods of each day",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/pages",
+    "selectors": true,
+    "tiny": [],
+    "title": "Every part of the guide",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/goals",
+    "selectors": true,
+    "tiny": [],
+    "title": "🎯 This year’s goals · Grade 1 · Mathematics",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/find",
+    "selectors": true,
+    "tiny": [],
+    "title": "All lessons",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": 0,
+    "route": "#/saved",
+    "selectors": true,
+    "tiny": [],
+    "title": "My list",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/help",
+    "selectors": true,
+    "tiny": [],
+    "title": "How to use this app",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/",
+    "selectors": true,
+    "tiny": [],
+    "title": "Today",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/unknown",
+    "selectors": true,
+    "tiny": [],
+    "title": "All lessons",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "50 तक जोड़: “काउंट ऑन” रणनीति",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-math-w21-d02",
+    "selectors": true,
+    "tiny": [],
+    "title": "वजन की तुलनाः ग्राम और किलोग्राम का उपयोग",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-hindi-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "‘ल’ वर्ण और ग्रिड-1",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-hindi-w17-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "पाठ-17 ‘बरसात और मेंढक’ पर आधारित स्तरित पाठ",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-hindi-w23-d06",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी बच्चों के साथ साप्ताहिक आकलन",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "खोजें और जानें",
+    "width": 390
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01/teach/2",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 390
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/today",
+    "selectors": true,
+    "tiny": [],
+    "title": "आज",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide",
+    "selectors": true,
+    "tiny": [],
+    "title": "पूरा साल · कक्षा 1 · गणित",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/week",
+    "selectors": true,
+    "tiny": [],
+    "title": "सप्ताह कैसे चलता है",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/periods",
+    "selectors": true,
+    "tiny": [],
+    "title": "हर दिन के कालांश",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/pages",
+    "selectors": true,
+    "tiny": [],
+    "title": "संदर्शिका के सभी हिस्से",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/goals",
+    "selectors": true,
+    "tiny": [],
+    "title": "🎯 इस साल के लक्ष्य · कक्षा 1 · गणित",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/find",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी पाठ",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": 0,
+    "route": "#/saved",
+    "selectors": true,
+    "tiny": [],
+    "title": "मेरी सूची",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/help",
+    "selectors": true,
+    "tiny": [],
+    "title": "ऐप कैसे इस्तेमाल करें",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/",
+    "selectors": true,
+    "tiny": [],
+    "title": "आज",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/unknown",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी पाठ",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "50 तक जोड़: “काउंट ऑन” रणनीति",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-math-w21-d02",
+    "selectors": true,
+    "tiny": [],
+    "title": "वजन की तुलनाः ग्राम और किलोग्राम का उपयोग",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-hindi-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "‘ल’ वर्ण और ग्रिड-1",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-hindi-w17-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "पाठ-17 ‘बरसात और मेंढक’ पर आधारित स्तरित पाठ",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-hindi-w23-d06",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी बच्चों के साथ साप्ताहिक आकलन",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "खोजें और जानें",
+    "width": 1024
+  },
+  {
+    "lang": "hi",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01/teach/2",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/today",
+    "selectors": true,
+    "tiny": [],
+    "title": "Today",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide",
+    "selectors": true,
+    "tiny": [],
+    "title": "Whole year · Grade 1 · Mathematics",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/week",
+    "selectors": true,
+    "tiny": [],
+    "title": "How the week runs",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/periods",
+    "selectors": true,
+    "tiny": [],
+    "title": "The periods of each day",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/pages",
+    "selectors": true,
+    "tiny": [],
+    "title": "Every part of the guide",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/guide/goals",
+    "selectors": true,
+    "tiny": [],
+    "title": "🎯 This year’s goals · Grade 1 · Mathematics",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/find",
+    "selectors": true,
+    "tiny": [],
+    "title": "All lessons",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": 0,
+    "route": "#/saved",
+    "selectors": true,
+    "tiny": [],
+    "title": "My list",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/help",
+    "selectors": true,
+    "tiny": [],
+    "title": "How to use this app",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/",
+    "selectors": true,
+    "tiny": [],
+    "title": "Today",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/unknown",
+    "selectors": true,
+    "tiny": [],
+    "title": "All lessons",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "50 तक जोड़: “काउंट ऑन” रणनीति",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-math-w21-d02",
+    "selectors": true,
+    "tiny": [],
+    "title": "वजन की तुलनाः ग्राम और किलोग्राम का उपयोग",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-hindi-w14-d01",
+    "selectors": true,
+    "tiny": [],
+    "title": "‘ल’ वर्ण और ग्रिड-1",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-hindi-w17-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "पाठ-17 ‘बरसात और मेंढक’ पर आधारित स्तरित पाठ",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g3-hindi-w23-d06",
+    "selectors": true,
+    "tiny": [],
+    "title": "सभी बच्चों के साथ साप्ताहिक आकलन",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g2-math-w14-d04",
+    "selectors": true,
+    "tiny": [],
+    "title": "खोजें और जानें",
+    "width": 1024
+  },
+  {
+    "lang": "en",
+    "languageControl": false,
+    "overflowPixels": -15,
+    "route": "#/lesson/g1-math-w09-d01/teach/2",
+    "selectors": true,
+    "tiny": [],
+    "title": "दूर-पास और ऊपर-नीचे की अवधारणा",
+    "width": 1024
+  }
+]

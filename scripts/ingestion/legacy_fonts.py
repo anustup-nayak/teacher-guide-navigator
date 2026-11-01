@@ -23,5 +23,8 @@ def legacy(s):
 
 def convert_span(span):
  s=span['text']
- if any(0xf000<=ord(c)<=0xf0ff for c in s) or 'Kruti' in span['font'] or 'AAText' in span['font']:return legacy(s)
+ if 'AAText' in span['font']:
+  # UP Math source AAText U+F024 is the rendered plus glyph, not currency.
+  return legacy(s).replace('$', '+')
+ if any(0xf000<=ord(c)<=0xf0ff for c in s) or 'Kruti' in span['font']:return legacy(s)
  return s
