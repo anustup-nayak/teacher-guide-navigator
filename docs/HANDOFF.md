@@ -83,7 +83,7 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
 |---|---|---|---|---|
 | Claude Code | `task/today-home` (merged into `next` as PR #22, 1 Nov 2026) | `dist/views/today.mjs`, `dist/domain/progress.mjs`, `dist/app.mjs`, `dist/index.html`, `dist/core.mjs`, `dist/guide-cards.css`, `dist/views/{program-guide,current-context}.mjs`, `dist/domain/app-context.mjs`, tests, docs (`UX_REVIEW_2026-11`, `SMART_CARDS`, contract), r65 | Merged | #21 and #22 merged into `next` after a full check on the merged tree (132 tests). [Task note](tasks/today-home-r65.md). |
 | Claude Code | `task/smart-cards` (from `next` @ r65) | card component, data path, workbench (`scripts/content/cards.mjs`), schema 1.3.0, release 1.3.0, r66 | PR to `next` | Built and checked (136 tests). Then drafting is split: Claude Code = Math, Codex = Hindi; protocol and Codex prompt in [SMART_CARDS.md §8](SMART_CARDS.md). |
-| Claude Code | `task/cards-all-drafts` | `curricula/*/drafts/cards/`, `docs/review/cards/*`, `scripts/content/cards.mjs` (`draft`) | Merged; cut over to `main` | All 549 cards approved (Math 1.3.2/r68, Hindi 1.3.3/r69); drafts removed; full checks and UI sweep pass. |
+| Claude Code | `task/cards-all-drafts` | `curricula/*/drafts/cards/`, `docs/review/cards/*`, `scripts/content/cards.mjs` (`draft`) | Merged; cut over to `main` | All 549 cards approved, release 1.3.3/r69 (incl. Codex's 15 H1 cards); drafts removed; full checks and UI sweep pass. |
 | Codex | `task/cards-hindi-*` | — | Superseded | Owner asked Claude Code to complete all cards; Hindi drafts now exist. Codex may review/refine Hindi lines on a separate branch. |
 | Claude Code | `task/math-goals` (from `next`, includes the titles draft from PR #20) | `curricula/up-math-2026/model/{outcomes,lessons}`, schemas, `scripts/content/{compile,publish_site}.mjs`, `content/*/1.2.0`, `dist/views/program-guide.mjs`, `dist/app.mjs`, `dist/core.mjs`, `dist/lesson-goals.mjs`, `dist/guide-cards.css`, tests, r64 | PR to `next` | Owner approved titles and the same-week rule; slice G-Math built. Next: owner merges (PR #20 then closes as included); Hindi goal-to-week map draft. |
 | Claude Code (took over from Codex) | `task/program-metadata-layout` ([PR #17](https://github.com/anustup-nayak/teacher-guide-navigator/pull/17)) | Program metadata, layout, skill, docs cleanup, release 1.1.0 | Integrated with `next`; cleanup added; PR open | Next: owner merges PR #17. |
@@ -106,10 +106,13 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
 - Cleanup: removed the six empty draft files and the superseded mockup generator (`gen.py`, `style.css`,
   `cards-draft.json`, crops, preview); kept option A/B mockups as the decision record. Earlier content releases
   stay (immutable publication record).
+- Integration: Codex's PR #26 (15 Hindi G1 cards, release 1.3.2, r68) reached `next` meanwhile. Kept its
+  published 1.3.2 unchanged and its 15 hand-written cards in place of my drafts for w09–w11; rebuilt my release as
+  1.3.3 (previous 1.3.2) with all 549 cards, r69. My earlier, never-merged “1.3.2 Math” build was discarded.
 - Cutover: owner asked to publish to production; `next` merged into `main` by PR per VERSIONING.md (v1 stays at
   `v1.0.4` on `release/v1`). `/v1/` copy not built; rollback = revert the cutover merge.
 
-### 2026-11-01 · Claude Code · `task/cards-all-drafts` (all Math cards approved, release 1.3.2, r68)
+### 2026-11-01 · Claude Code · `task/cards-all-drafts` (all Math cards approved; release later renumbered to 1.3.3, see above)
 
 - Owner chose option 1 in chat: approve all Math now; rework Hindi period lines by hand first. `approve` for Math
   G1 (45), G2 (53), G3 (69); 183 Math cards in `model/`. Content release 1.3.2 (previous 1.3.1), pinned;
@@ -130,6 +133,12 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
   compiler input). Review sheets for all six pack·grades in `docs/review/cards/`.
 - Left: owner approval (bulk or per grade). Then `approve` → release 1.3.2 → pin → `site:publish` →
   `release:assets r68` → full checks → merge. Then ask the owner about `next` → `main` (go live).
+### 2026-11-01 · Codex · Hindi cards H1, PR #26 (r68)
+
+- Drafted and source-compared 15 Grade 1 Hindi cards (w09 d01–w11 d03); owner approved in chat (“Go ahead”) and requested completion. Only these 15 moved to model; w14 sample stays unreviewed.
+- Built immutable release 1.3.2 after 1.3.1, pinned website/check together, published generated modules and coordinated r68. Existing Math approvals preserved. Next remains the integration target; no main deployment.
+- Checks and remaining limits: see [task note](tasks/cards-hindi-g1-a.md).
+
 
 ### 2026-11-01 · Claude Code · `task/cards-release-1` (first cards live on `next`, r67)
 

@@ -17,13 +17,13 @@
   "routine": 0,
   "material": 0,
   "assessment": 0,
-  "card": 0,
+  "card": 15,
   "resource": 552,
   "workbook": 420
  },
  "reviewSummary": {
   "unreviewed": 4163,
-  "owner-approved": 3,
+  "owner-approved": 18,
   "source-compared": 16
  },
  "programStructure": {
@@ -92,7 +92,7 @@
  ],
  "inputs": {
   "curricula/up-hindi-2026/model/assets.json": "aa6511a4dbd2677ff51bf9c070850a6a3e72443b2bf7277f93e367021c6b3535",
-  "curricula/up-hindi-2026/model/cards/g1.json": "c85c70d389caa4f75af2cd15d128b07e3fe56eac5fd8df799466a0bf2c379c00",
+  "curricula/up-hindi-2026/model/cards/g1.json": "846e7b7dc3a6ef3fb8b7c45a4f71bb94b3a8251e6d14a6e3204896784d4626ee",
   "curricula/up-hindi-2026/model/cards/g2.json": "c85c70d389caa4f75af2cd15d128b07e3fe56eac5fd8df799466a0bf2c379c00",
   "curricula/up-hindi-2026/model/cards/g3.json": "c85c70d389caa4f75af2cd15d128b07e3fe56eac5fd8df799466a0bf2c379c00",
   "curricula/up-hindi-2026/model/lessons/1.json": "87921ec9db7093c7d2b8ac1ce079e3a5c0d40b7c00530ad4d2b1cde6a531ae8b",
@@ -3317,6 +3317,21 @@
   "section:g3/weekly-assessment-tracker": "a8fe3726f5d32232f824158ec3e8e10ccfcd5b66bad1c45681db6f617146e8ba",
   "section:g3/teaching-reminders": "56ef120f148867a363f53a106876095e5a73c91facc47bb63031ff5fe0d5013b",
   "section:g3/anthem": "f3236f0bfc9f97d2865390f6ab4af475c471fc6050865942e5a7cd40f2b3af19",
+  "card:card/g1-hindi-w09-d01": "d10339aa3a96be4cf20b6ca4bd06c731e08937d488ed15f289c77c140515bdde",
+  "card:card/g1-hindi-w09-d02": "f81cd7f3f9128fc63ea0879de94dbf696322f08d3c95c5bc0ecbb781b66242f1",
+  "card:card/g1-hindi-w09-d03": "ed8a5e69fa81d53700ae693f70786633f3ec8619e5cee1d25db4126b0d03f350",
+  "card:card/g1-hindi-w09-d04": "9568580c1314a0c9224d726f1e0ab5cc802f4909dcd0223e6160e5adb0fea812",
+  "card:card/g1-hindi-w09-d05": "ee8c1d431b1927981bf547b103dd8585925705a320c496c795c41a264def99ee",
+  "card:card/g1-hindi-w09-d06": "38aa09cd12e935fb819019cddacb594ba36dd4366cb6dd8a7021e1c00b119028",
+  "card:card/g1-hindi-w10-d01": "54a8859690bf7f8dd06bf0bba5a75bccc101a33cd62d041adebfad52765f211d",
+  "card:card/g1-hindi-w10-d02": "ffb5f37bacf990963701f611c84c8aa73956150ae750aa476d1f6c9c7768ceaf",
+  "card:card/g1-hindi-w10-d03": "915195356745f12f54f4de75bed8e053c1bb577ed3ebe67ab8e26636533d981e",
+  "card:card/g1-hindi-w10-d04": "9e22937991871e9b5fe825c17a0c60a69fa43e66a62d4a031c5c6caa034cf1c3",
+  "card:card/g1-hindi-w10-d05": "dc460574f68c36c02e79ba91d74cfa464ce55a8c018d158df5b0ab13814fa451",
+  "card:card/g1-hindi-w10-d06": "502d379f6ec3d0b7d128e930649363334680df0530e3a1e939a3ba1bb537f6b5",
+  "card:card/g1-hindi-w11-d01": "b731203b46a88f641d3c9c654206c45353aaeefa70318e1c15919852702e2ba4",
+  "card:card/g1-hindi-w11-d02": "fc1b4c66afe2493000ea25d64fd53a2a4d53e99d894cf8163e662a58b9256b76",
+  "card:card/g1-hindi-w11-d03": "dd4333a8087452b5a295b6fe18e0b627fc7faccd6f7b08a3f78b6e653060347e",
   "resource:guide-g1-00970fd3c1e8/p1": "24730a801fc6ab4571b0630095abee01a1ba0bd823460d74848f5808f65abde2",
   "resource:guide-g1-00970fd3c1e8/p2": "9552fef514da80c48ff8fce5b93bab5027d12e2027765129d16fcaf4f969116f",
   "resource:guide-g1-00970fd3c1e8/p3": "091f854b72e7b72a6c87361ba45bc01a67082f9e39c9c1d1074a4ac76c9bc83a",
@@ -4716,8 +4731,8 @@
    "bytes": 3
   },
   "entities/card.json": {
-   "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-   "bytes": 3
+   "sha256": "521674359df96d75ea53b01d76b200c52d10be4f3a7898ab2ad9d660f5a935e3",
+   "bytes": 37947
   },
   "entities/resource.json": {
    "sha256": "0a6702f9d7905b28989eb6f59357a5c355676275bc7e6bf39bfa0c011102cde3",
@@ -4768,8 +4783,8 @@
    "bytes": 1444568
   },
   "CHANGELOG.json": {
-   "sha256": "471498a1e0e8a26c219eb5c64668b6fe56b5c3644e6be99fbf1861dfea928dd2",
-   "bytes": 271
+   "sha256": "126e45468e928ea285422df9a7b16aaff9d8efae287eda6e4819aca1097c0ef1",
+   "bytes": 777
   }
  }
 }
