@@ -7,7 +7,7 @@ ownership. New grade/subject content must preserve earlier deliveries and use th
 same program model and query contract across front ends.
 
 
-Status: current for v1 (`main`, r61) and the v2 integration line (`next`); section headings with an rNN record when a part was introduced. Product behavior: [PRD](PRD.md).
+Status (1 Nov 2026): v2 is live on `main` (r69, content 1.3.3); `next` is integration and frozen v1.0.4 is served at `/v1/`. Section headings with an rNN record when a part was introduced. Product behavior: [PRD](PRD.md).
 Agent workflow: [skill](../skills/teacher-guide-to-app/SKILL.md).
 Data publication: [pack contract](CURRICULUM_PACKS.md).
 

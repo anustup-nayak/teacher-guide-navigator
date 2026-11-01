@@ -59,6 +59,11 @@ Production cutover is complete: PR #30, `edd31db`, tag `v2.0.0`; [Pages deployme
 
 ## Change log
 
+### 2026-11-01 · Codex · post-cutover documentation consistency
+
+- Corrected current agent rules, branch/release flow, documentation map, architecture/compiler/platform status, Hindi source-archive status and reusable release instructions after the v2 cutover. Marked older plans and approval questions as historical rather than current deployment instructions.
+- Engineering documentation is kept in the repository; both public root and `/v1/` publish website files only. Frozen v1 content is intentionally unchanged. No runtime, model, immutable release or source asset changed. [Task record](tasks/docs-post-cutover.md).
+
 ### 2026-11-01 · Codex · verified v2 production release
 
 - Merged owner-approved PR #30 to `main` as `edd31db543ef9eceee39e97f69d5bd3f7cc6bbda`; tagged `v2.0.0`. Pages run `41279200254` and Checks run `41279200249` both succeeded.

@@ -4,7 +4,7 @@ Status: design constraint, 31 October 2026. **Only the website is being built.**
 decided (31 Oct 2026) not to build other products now, but to shape the content repository so
 they can be built later without restructuring it. Builds on the
 [content architecture plan](CONTENT_ARCHITECTURE_PLAN.md) and the
-[content model](CONTENT_MODEL.md). Nothing here changes the live v1 app.
+[content model](CONTENT_MODEL.md). This is the product-neutral architecture constraint. The v2 website is now live on `main` (r69/content 1.3.3); other products are still out of scope.
 
 ## 1. Goal
 
@@ -12,7 +12,7 @@ Treat the extracted, reviewed and linked curriculum content as a **product-neutr
 back end**. The teacher website is its first consumer, not its owner. The same content can
 then serve:
 
-- the **website** (today's app, then v2);
+- the **website** (the deployed v2 app);
 - a **chatbot** that answers teachers' questions from the guides, citing pages;
 - **new tools** built on the content, for example remedial plans, printable weekly plans,
   routine cards, assessment trackers, training modules or other states' packs.
@@ -39,13 +39,13 @@ A correction made once in the model reaches every product.
                   ├─ manifest.json                 version, schema version, files, hashes, review summary
                   ├─ entities/*.json               every node by kind (lessons, routines, outcomes…)
                   ├─ graph.json                    every link (from, to, assertion, review, rule, source)
-                  ├─ views/app/…                   per-grade bundles for the website (lazy loaded)
+                  ├─ views/app/…                   per-grade bundles for website consumers (current runtime still imports both catalogs)
                   ├─ views/v1/catalog.mjs          v1-compatible catalog (parity gate)
                   ├─ views/retrieval/chunks.jsonl  citable text chunks for search and chatbots
                   └─ CHANGELOG.json                what changed since the previous release (by id)
     │  content/query.mjs                           shared, dependency-free query library
     ▼
- PRODUCTS       website (v1 → v2) · chatbot · remedial-plan builder · print packs · teacher tools · …
+ PRODUCTS       website (v2 live) · chatbot · remedial-plan builder · print packs · teacher tools · …
 ```
 
 Built now (Phase 3, for the website): `manifest.json`, `entities/`, `graph.json`,

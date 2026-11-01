@@ -1,7 +1,7 @@
 # Branches, versions and releases
 
 Adopted 31 October 2026 (Phase 0 of the [content architecture plan](CONTENT_ARCHITECTURE_PLAN.md)).
-The live app (v1) must keep working while v2 is built.
+The v2 cutover completed on 1 November 2026; preserve the frozen v1 fallback.
 
 ## Branches
 
@@ -9,17 +9,14 @@ The live app (v1) must keep working while v2 is built.
 |---|---|---|
 | `main` | Production (v2 after the owner-approved cutover) | GitHub Pages site root (`pages.yml`, `main` only) |
 | `release/v1` | Frozen v1.0.4 rollback line | `/v1/`, staged from immutable tag `v1.0.4` |
-| `next` | v2 integration: content model, compiler, app v2 | Preview site only (see below) |
+| `next` | v2 integration: content model, compiler, app v2 | Integration only; optional separate preview (see below) |
 | `task/<name>` | One task per agent, in its own worktree | Nothing |
 
-**v1 changes** (fixes, content repairs): `task/*` from `main` → PR to `main` → after merge,
-fast-forward `release/v1` to `main`, tag `v1.0.N`, then merge `main` into `next`.
+**Normal production work:** `task/*` from `next` → reviewed PR to `next` → reviewed release PR from `next` to `main`. Run the full gate and verify the actual Pages deployment. The original cutover is approved and complete; future changes still respect content and protected-design approvals.
 
-**v2 work**: `task/*` from `next` → PR to `next`. Never merge `next` into `main` before the
-cutover is approved by the owner.
+**Frozen v1:** do not advance `release/v1` or move tag `v1.0.4` to a v2 commit. Any separately authorized legacy maintenance needs its own plan; the old pre-cutover practice of mirroring `main` no longer applies.
 
-**Keep `next` current**: merge `main` into `next` after every v1 release. Resolve conflicts on
-`next`, never on `main`.
+**Keep `next` current:** merge or fast-forward `main` into `next` after production-only release records or fixes, preserving concurrent work. Documentation-only release corrections may go by reviewed PR directly to `main`, then synchronize `next`; app/content changes use the normal integration path. Resolve conflicts on an isolated branch; never force-push shared branches.
 
 ## Tags
 
@@ -39,12 +36,11 @@ and storage keys.
 ## Checks
 
 `check.yml` runs on every push and pull request, on all branches. `next` must also pass the
-new model, compiler and parity gates as Phase 3 adds them. A PR into `main` must pass the
-full v1 gate described in `AGENTS.md`.
+model, compiler, site and parity gates. A PR into `main` must pass the full current gate in `DEVELOPMENT.md` and `AGENTS.md`.
 
-## Preview site (v2)
+## Optional preview site (not configured)
 
-A separate origin so v2 can never share the live app's offline worker or browser storage:
+The following is the original separate-preview proposal, not an existing deployed site. A separate origin would keep preview service workers and browser storage separate from production, using the live app's offline worker or browser storage:
 a free GitHub organisation owned by the project owner, with a user-site repository
 `<org>.github.io`. Its only content is a Pages workflow that checks out the public `next`
 branch of `anustup-nayak/teacher-guide-navigator` and publishes its build, on a schedule and
@@ -58,7 +54,7 @@ on manual dispatch. No tokens or secrets. The template workflow lives in
 - New versions only add fields; they never clear, rename or reshape existing keys.
 - Every release that touches storage replays recorded v1 storage snapshots in tests.
 
-## Cutover (Phase 9, owner approval required)
+## Cutover record (completed with owner approval)
 
 1. Tag the last v1 release; `release/v1` stays at it.
 2. Merge `next` into `main` by PR; the Pages workflow publishes v2 at the root and the v1

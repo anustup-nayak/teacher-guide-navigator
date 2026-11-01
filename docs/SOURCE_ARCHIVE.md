@@ -71,4 +71,4 @@ emails, sender contact information and authentication material are not archived.
 UP Hindi (`up-hindi-2026`, added 31 October 2026): Teacher Guides for Grades 1–3
 (2026–27) and the सारंगी Grade 1/2 and वीणा-1 Grade 3 workbooks (cover editions
 2024–25, 2025–26, 2025–26), received from Renu Chauhan's Drive folder. No Hindi
-textbooks were supplied. Status: discovery; nothing published yet.
+textbooks were supplied. The Hindi pack is published with 366 day plans and 972 page images; its six guide/workbook originals are archived and verified. Source/content review limitations remain explicit in the pack metadata.

@@ -9,8 +9,7 @@ in each release manifest; no links or academic approval are inferred to fill it.
 
 Program understanding is mandatory authoring metadata; see
 [PROGRAM_METADATA.md](PROGRAM_METADATA.md) and [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md).
-Current releases use schema 1.1.0, adding program metadata snapshots without
-changing retained 1.0.0 releases or the production website.
+Current production content is release 1.3.3, schema 1.3.0: program metadata, Math goals and 549 owner-approved smart cards. Earlier releases stay immutable; generated website modules from the pin are deployed on `main`.
 
 ## Inputs and ownership
 
@@ -25,6 +24,7 @@ changing retained 1.0.0 releases or the production website.
   `instructions: []` means no alternate instruction list; consumers fall back to
   actions. This additive field preserves v1 variants without rewriting teaching text.
 - `assets.json`: typed document-page/image references, not copied images.
+- `cards/g<grade>.json`: owner-approved editorial smart cards; unapproved drafts are outside model inputs. See [SMART_CARDS.md](SMART_CARDS.md).
 - Optional schema-validated `outcomes.json`, `sequence.json`, `routines.json`,
   `materials.json`, `assessments.json`, and `guide/<grade>.json` are loaded when supplied.
 - `curricula/<pack>/compat/v1.json`: legacy-only fields, property/phase/lesson order,
@@ -51,25 +51,21 @@ is part of the build. Legacy module text is parsed as JSON, never evaluated.
 Requires Node 22+. No npm dependency/install or build framework.
 
 ```sh
-npm run verify:program         # whole-program metadata readiness (PROGRAM_METADATA.md)
-npm run content:build -- --version 1.2.0 --previous 1.1.0
-npm run verify:content         # pinned: --version 1.2.0 --previous 1.1.0 --check
-npm run verify:site            # dist/ catalogs and day types equal the pinned releases
-# Next content version, after model review and matching v1 repair if necessary:
-npm run content:build -- --version 1.2.1 --previous 1.2.0
+npm run verify:program         # whole-program metadata readiness
+npm run verify:content         # current pin: 1.3.3, previous 1.3.2; read-only
+npm run verify:site            # generated dist modules equal pinned releases
+# Example only, after reviewed model changes: choose a NEW, unused version.
+npm run content:build -- --version 1.3.4 --previous 1.3.3
 ```
 
-Optional final arguments select pack IDs. The current `verify:content` command pins
-1.2.0 (previous 1.1.0); change its pinned version/previous version and `content/website.json`
-in the same reviewed PR when the current canonical models advance. Older directories remain immutable; rebuilding
-an older release from newer models is not a supported update mechanism.
+Optional final arguments select pack IDs. When canonical models advance, update the new release, `verify:content` in `package.json`, and `content/website.json` together in the reviewed PR, then run `site:publish` and the full gate. Read the current pin before choosing the next version; the example is not permission to build or approve content. Older directories remain immutable; rebuilding an older release from newer models is not a supported update mechanism.
 
 Output: `content/<pack>/<version>/`:
 
 | File | Purpose |
 |---|---|
 | `manifest.json` | schema/version, entity/review counts, pending model families, input hashes, per-entity and legacy hashes, output-file hashes/UTF-8 byte counts |
-| `entities/<kind>.json` | nodes by kind: program, document, daytype, lesson, step, section, passage, lo, objective, unit, routine, material, assessment, resource, workbook |
+| `entities/<kind>.json` | nodes by kind: program, document, daytype, lesson, step, section, passage, lo, goal, objective, unit, routine, material, assessment, resource, workbook, card |
 | `graph.json` | typed links with origin, review, rule and available source; qualified step IDs (`step:<lesson>/<step>`) avoid cross-lesson collisions |
 | `structure.json` | calendar, day types, slots and explicit exceptions |
 | `program-understanding.json`, `PROGRAM_PROFILE.md` | evidence-backed whole-program understanding and questions |
@@ -134,7 +130,7 @@ projected copies; consumers cannot mutate the query's internal release.
 `content/website.json` pins each pack's release. `npm run site:publish` copies each pinned
 release's `views/v1/catalog.mjs` (after checking its manifest hash) to the website's catalog
 path in `dist/`; `npm run verify:site` and `tests/site-from-release.test.mjs` fail if `dist/`
-differs. So on `next` the website's lessons come from the compiled release, not from a
+differs. On both integration `next` and production `main`, the website's lessons come from the compiled release, not from a
 hand-published copy. The same test checks that `views/app/grade-N.json` carries every teaching
 field the current website shows (titles, step ids/order, actions, questions, minutes, source
 pages, every cited workbook page) for all 732 lessons, so a v2 front end can switch to the app
@@ -155,10 +151,9 @@ ingestion path; the parity gate keeps both identical.
 
 ## Release boundaries and validation
 
-The 1.0.0, 1.0.1, 1.1.0 and 1.2.0 releases live in the repository on `next`; they are **not published
-to the production website** (production is `main`). `dist/`, its pipeline, storage keys, caches and design
-lock are unchanged. There is no retrieval view, chatbot, generator or v2 UI in this
-phase. Preview/public `/content/` hosting remains a separate owner decision.
+The production website is generated from the pinned 1.3.3 releases; `site:publish` also emits `dist/lesson-cards.mjs` with owner-approved cards only. Generated catalogs, day types, guide data, goals and cards are all checked by `verify:site`. Release 1.3.0 added the card entity; 1.3.1/1.3.2 published initial approved batches and 1.3.3 contains all 549 cards.
+
+Earlier release directories are retained immutable in the repository. Pages publishes website files only (current `dist/` plus the frozen v1 website at `/v1/`), not the raw `/content/` directories, models, extraction or PDFs. There is no chatbot or public retrieval endpoint. IDs, storage namespaces and the protected design remain governed by their contracts.
 
 `npm test` covers all 732 reconstructed records, deterministic output, manifest
 integrity, grade views, graph/query isolation, mutation-to-parity failures, invalid
