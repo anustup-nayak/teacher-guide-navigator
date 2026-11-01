@@ -1,0 +1,8282 @@
+[
+ {
+  "id": "guide-g1-00970fd3c1e8/p1",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p001.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 1,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p2",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p002.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 2,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p3",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p003.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 3,
+   "printed": 1
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p4",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p004.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 4,
+   "printed": 2
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p5",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p005.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 5,
+   "printed": 3
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p6",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p006.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 6,
+   "printed": 4
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p7",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p007.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 7,
+   "printed": 5
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p8",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p008.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 8,
+   "printed": 6
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p9",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p009.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 9,
+   "printed": 7
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p10",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p010.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 10,
+   "printed": 8
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p11",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p011.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 11,
+   "printed": 9
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p12",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p012.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 12,
+   "printed": 10
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p13",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p013.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 13,
+   "printed": 11
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p14",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p014.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 14,
+   "printed": 12
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p15",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p015.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 15,
+   "printed": 13
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p16",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p016.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 16,
+   "printed": 14
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p17",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p017.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 17,
+   "printed": 15
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p18",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p018.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 18,
+   "printed": 16
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p19",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p019.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 19,
+   "printed": 17
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p20",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p020.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 20,
+   "printed": 18
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p21",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p021.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 21,
+   "printed": 19
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p22",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p022.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 22,
+   "printed": 20
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p23",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p023.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 23,
+   "printed": 21
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p24",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p024.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 24,
+   "printed": 22
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p25",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p025.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 25,
+   "printed": 23
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p26",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p026.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 26,
+   "printed": 24
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p27",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p027.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 27,
+   "printed": 25
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p28",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p028.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 28,
+   "printed": 26
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p29",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p029.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 29,
+   "printed": 27
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p30",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p030.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 30,
+   "printed": 28
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p31",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p031.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 31,
+   "printed": 29
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p32",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p032.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 32,
+   "printed": 30
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p33",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p033.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 33,
+   "printed": 31
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p34",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p034.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 34,
+   "printed": 32
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p35",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p035.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 35,
+   "printed": 33
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p36",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p036.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 36,
+   "printed": 34
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p37",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p037.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 37,
+   "printed": 35
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p38",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p038.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 38,
+   "printed": 36
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p39",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p039.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 39,
+   "printed": 37
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p40",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p040.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 40,
+   "printed": 38
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p41",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p041.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 41,
+   "printed": 39
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p42",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p042.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 42,
+   "printed": 40
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p43",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p043.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 43,
+   "printed": 41
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p44",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p044.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 44,
+   "printed": 42
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p45",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p045.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 45,
+   "printed": 43
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p46",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p046.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 46,
+   "printed": 44
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p47",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p047.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 47,
+   "printed": 45
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p48",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p048.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 48,
+   "printed": 46
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p49",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p049.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 49,
+   "printed": 47
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p50",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p050.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 50,
+   "printed": 48
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p51",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p051.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 51,
+   "printed": 49
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p52",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p052.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 52,
+   "printed": 50
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p53",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p053.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 53,
+   "printed": 51
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p54",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p054.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 54,
+   "printed": 52
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p55",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p055.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 55,
+   "printed": 53
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p56",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p056.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 56,
+   "printed": 54
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p57",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p057.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 57,
+   "printed": 55
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p58",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p058.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 58,
+   "printed": 56
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p59",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p059.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 59,
+   "printed": 57
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p60",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p060.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 60,
+   "printed": 58
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p61",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p061.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 61,
+   "printed": 59
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p62",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p062.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 62,
+   "printed": 60
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p63",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p063.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 63,
+   "printed": 61
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p64",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p064.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 64,
+   "printed": 62
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p65",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p065.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 65,
+   "printed": 63
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p66",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p066.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 66,
+   "printed": 64
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p67",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p067.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 67,
+   "printed": 65
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p68",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p068.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 68,
+   "printed": 66
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p69",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p069.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 69,
+   "printed": 67
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p70",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p070.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 70,
+   "printed": 68
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p71",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p071.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 71,
+   "printed": 69
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p72",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p072.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 72,
+   "printed": 70
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p73",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p073.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 73,
+   "printed": 71
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p74",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p074.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 74,
+   "printed": 72
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p75",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p075.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 75,
+   "printed": 73
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p76",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p076.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 76,
+   "printed": 74
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p77",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p077.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 77,
+   "printed": 75
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p78",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p078.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 78,
+   "printed": 76
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p79",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p079.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 79,
+   "printed": 77
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p80",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p080.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 80,
+   "printed": 78
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p81",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p081.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 81,
+   "printed": 79
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p82",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p082.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 82,
+   "printed": 80
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p83",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p083.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 83,
+   "printed": 81
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p84",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p084.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 84,
+   "printed": 82
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p85",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p085.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 85,
+   "printed": 83
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p86",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p086.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 86,
+   "printed": 84
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p87",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p087.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 87,
+   "printed": 85
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p88",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p088.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 88,
+   "printed": 86
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p89",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p089.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 89,
+   "printed": 87
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p90",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p090.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 90,
+   "printed": 88
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p91",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p091.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 91,
+   "printed": 89
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p92",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p092.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 92,
+   "printed": 90
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p93",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p093.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 93,
+   "printed": 91
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p94",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p094.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 94,
+   "printed": 92
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p95",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p095.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 95,
+   "printed": 93
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p96",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p096.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 96,
+   "printed": 94
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p97",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p097.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 97,
+   "printed": 95
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p98",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p098.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 98,
+   "printed": 96
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p99",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p099.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 99,
+   "printed": 97
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p100",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p100.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 100,
+   "printed": 98
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p101",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p101.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 101,
+   "printed": 99
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p102",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p102.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 102,
+   "printed": 100
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p103",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p103.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 103,
+   "printed": 101
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p104",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p104.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 104,
+   "printed": 102
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p105",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p105.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 105,
+   "printed": 103
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p106",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p106.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 106,
+   "printed": 104
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p107",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p107.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 107,
+   "printed": 105
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p108",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p108.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 108,
+   "printed": 106
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p109",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p109.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 109,
+   "printed": 107
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p110",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p110.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 110,
+   "printed": 108
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p111",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p111.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 111,
+   "printed": 109
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p112",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p112.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 112,
+   "printed": 110
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p113",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p113.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 113,
+   "printed": 111
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p114",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p114.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 114,
+   "printed": 112
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p115",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p115.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 115,
+   "printed": 113
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p116",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p116.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 116,
+   "printed": 114
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p117",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p117.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 117,
+   "printed": 115
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p118",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p118.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 118,
+   "printed": 116
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p119",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p119.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 119,
+   "printed": 117
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p120",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p120.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 120,
+   "printed": 118
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p121",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p121.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 121,
+   "printed": 119
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p122",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p122.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 122,
+   "printed": 120
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p123",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p123.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 123,
+   "printed": 121
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p124",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p124.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 124,
+   "printed": 122
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p125",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p125.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 125,
+   "printed": 123
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p126",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p126.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 126,
+   "printed": 124
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p127",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p127.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 127,
+   "printed": 125
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p128",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p128.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 128,
+   "printed": 126
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p129",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p129.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 129,
+   "printed": 127
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p130",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p130.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 130,
+   "printed": 128
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p131",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p131.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 131,
+   "printed": 129
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p132",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p132.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 132,
+   "printed": 130
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p133",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p133.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 133,
+   "printed": 131
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p134",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p134.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 134,
+   "printed": 132
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p135",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p135.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 135,
+   "printed": 133
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p136",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p136.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 136,
+   "printed": 134
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p137",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p137.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 137,
+   "printed": 135
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p138",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p138.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 138,
+   "printed": 136
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p139",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p139.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 139,
+   "printed": 137
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p140",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p140.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 140,
+   "printed": 138
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p141",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p141.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 141,
+   "printed": 139
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p142",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p142.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 142,
+   "printed": 140
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p143",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p143.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 143,
+   "printed": 141
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p144",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p144.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 144,
+   "printed": 142
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p145",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p145.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 145,
+   "printed": 143
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p146",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p146.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 146,
+   "printed": 144
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p147",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p147.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 147,
+   "printed": 145
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p148",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p148.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 148,
+   "printed": 146
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p149",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p149.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 149,
+   "printed": 147
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p150",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p150.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 150,
+   "printed": 148
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p151",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p151.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 151,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g1-00970fd3c1e8/p152",
+  "kind": "resource",
+  "grade": 1,
+  "image": "packs/up-hindi-2026/source/g1-p152.webp",
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 152,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p1",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p001.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 1,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p2",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p002.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 2,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p3",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p003.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 3,
+   "printed": 1
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p4",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p004.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 4,
+   "printed": 2
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p5",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p005.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 5,
+   "printed": 3
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p6",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p006.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 6,
+   "printed": 4
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p7",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p007.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 7,
+   "printed": 5
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p8",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p008.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 8,
+   "printed": 6
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p9",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p009.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 9,
+   "printed": 7
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p10",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p010.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 10,
+   "printed": 8
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p11",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p011.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 11,
+   "printed": 9
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p12",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p012.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 12,
+   "printed": 10
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p13",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p013.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 13,
+   "printed": 11
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p14",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p014.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 14,
+   "printed": 12
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p15",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p015.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 15,
+   "printed": 13
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p16",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p016.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 16,
+   "printed": 14
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p17",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p017.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 17,
+   "printed": 15
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p18",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p018.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 18,
+   "printed": 16
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p19",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p019.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 19,
+   "printed": 17
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p20",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p020.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 20,
+   "printed": 18
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p21",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p021.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 21,
+   "printed": 19
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p22",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p022.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 22,
+   "printed": 20
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p23",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p023.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 23,
+   "printed": 21
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p24",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p024.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 24,
+   "printed": 22
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p25",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p025.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 25,
+   "printed": 23
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p26",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p026.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 26,
+   "printed": 24
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p27",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p027.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 27,
+   "printed": 25
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p28",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p028.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 28,
+   "printed": 26
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p29",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p029.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 29,
+   "printed": 27
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p30",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p030.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 30,
+   "printed": 28
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p31",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p031.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 31,
+   "printed": 29
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p32",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p032.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 32,
+   "printed": 30
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p33",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p033.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 33,
+   "printed": 31
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p34",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p034.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 34,
+   "printed": 32
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p35",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p035.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 35,
+   "printed": 33
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p36",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p036.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 36,
+   "printed": 34
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p37",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p037.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 37,
+   "printed": 35
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p38",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p038.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 38,
+   "printed": 36
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p39",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p039.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 39,
+   "printed": 37
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p40",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p040.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 40,
+   "printed": 38
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p41",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p041.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 41,
+   "printed": 39
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p42",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p042.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 42,
+   "printed": 40
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p43",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p043.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 43,
+   "printed": 41
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p44",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p044.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 44,
+   "printed": 42
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p45",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p045.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 45,
+   "printed": 43
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p46",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p046.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 46,
+   "printed": 44
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p47",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p047.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 47,
+   "printed": 45
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p48",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p048.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 48,
+   "printed": 46
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p49",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p049.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 49,
+   "printed": 47
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p50",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p050.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 50,
+   "printed": 48
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p51",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p051.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 51,
+   "printed": 49
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p52",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p052.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 52,
+   "printed": 50
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p53",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p053.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 53,
+   "printed": 51
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p54",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p054.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 54,
+   "printed": 52
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p55",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p055.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 55,
+   "printed": 53
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p56",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p056.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 56,
+   "printed": 54
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p57",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p057.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 57,
+   "printed": 55
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p58",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p058.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 58,
+   "printed": 56
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p59",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p059.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 59,
+   "printed": 57
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p60",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p060.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 60,
+   "printed": 58
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p61",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p061.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 61,
+   "printed": 59
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p62",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p062.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 62,
+   "printed": 60
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p63",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p063.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 63,
+   "printed": 61
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p64",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p064.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 64,
+   "printed": 62
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p65",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p065.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 65,
+   "printed": 63
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p66",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p066.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 66,
+   "printed": 64
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p67",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p067.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 67,
+   "printed": 65
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p68",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p068.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 68,
+   "printed": 66
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p69",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p069.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 69,
+   "printed": 67
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p70",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p070.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 70,
+   "printed": 68
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p71",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p071.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 71,
+   "printed": 69
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p72",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p072.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 72,
+   "printed": 70
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p73",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p073.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 73,
+   "printed": 71
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p74",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p074.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 74,
+   "printed": 72
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p75",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p075.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 75,
+   "printed": 73
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p76",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p076.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 76,
+   "printed": 74
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p77",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p077.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 77,
+   "printed": 75
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p78",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p078.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 78,
+   "printed": 76
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p79",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p079.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 79,
+   "printed": 77
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p80",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p080.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 80,
+   "printed": 78
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p81",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p081.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 81,
+   "printed": 79
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p82",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p082.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 82,
+   "printed": 80
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p83",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p083.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 83,
+   "printed": 81
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p84",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p084.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 84,
+   "printed": 82
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p85",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p085.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 85,
+   "printed": 83
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p86",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p086.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 86,
+   "printed": 84
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p87",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p087.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 87,
+   "printed": 85
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p88",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p088.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 88,
+   "printed": 86
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p89",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p089.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 89,
+   "printed": 87
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p90",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p090.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 90,
+   "printed": 88
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p91",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p091.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 91,
+   "printed": 89
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p92",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p092.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 92,
+   "printed": 90
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p93",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p093.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 93,
+   "printed": 91
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p94",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p094.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 94,
+   "printed": 92
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p95",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p095.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 95,
+   "printed": 93
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p96",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p096.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 96,
+   "printed": 94
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p97",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p097.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 97,
+   "printed": 95
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p98",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p098.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 98,
+   "printed": 96
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p99",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p099.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 99,
+   "printed": 97
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p100",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p100.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 100,
+   "printed": 98
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p101",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p101.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 101,
+   "printed": 99
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p102",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p102.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 102,
+   "printed": 100
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p103",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p103.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 103,
+   "printed": 101
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p104",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p104.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 104,
+   "printed": 102
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p105",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p105.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 105,
+   "printed": 103
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p106",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p106.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 106,
+   "printed": 104
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p107",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p107.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 107,
+   "printed": 105
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p108",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p108.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 108,
+   "printed": 106
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p109",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p109.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 109,
+   "printed": 107
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p110",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p110.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 110,
+   "printed": 108
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p111",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p111.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 111,
+   "printed": 109
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p112",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p112.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 112,
+   "printed": 110
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p113",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p113.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 113,
+   "printed": 111
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p114",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p114.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 114,
+   "printed": 112
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p115",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p115.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 115,
+   "printed": 113
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p116",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p116.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 116,
+   "printed": 114
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p117",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p117.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 117,
+   "printed": 115
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p118",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p118.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 118,
+   "printed": 116
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p119",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p119.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 119,
+   "printed": 117
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p120",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p120.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 120,
+   "printed": 118
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p121",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p121.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 121,
+   "printed": 119
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p122",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p122.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 122,
+   "printed": 120
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p123",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p123.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 123,
+   "printed": 121
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p124",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p124.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 124,
+   "printed": 122
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p125",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p125.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 125,
+   "printed": 123
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p126",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p126.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 126,
+   "printed": 124
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p127",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p127.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 127,
+   "printed": 125
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p128",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p128.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 128,
+   "printed": 126
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p129",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p129.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 129,
+   "printed": 127
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p130",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p130.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 130,
+   "printed": 128
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p131",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p131.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 131,
+   "printed": 129
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p132",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p132.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 132,
+   "printed": 130
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p133",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p133.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 133,
+   "printed": 131
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p134",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p134.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 134,
+   "printed": 132
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p135",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p135.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 135,
+   "printed": 133
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p136",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p136.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 136,
+   "printed": 134
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p137",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p137.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 137,
+   "printed": 135
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p138",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p138.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 138,
+   "printed": 136
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p139",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p139.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 139,
+   "printed": 137
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p140",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p140.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 140,
+   "printed": 138
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p141",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p141.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 141,
+   "printed": 139
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p142",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p142.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 142,
+   "printed": 140
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p143",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p143.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 143,
+   "printed": 141
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p144",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p144.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 144,
+   "printed": 142
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p145",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p145.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 145,
+   "printed": 143
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p146",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p146.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 146,
+   "printed": 144
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p147",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p147.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 147,
+   "printed": 145
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p148",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p148.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 148,
+   "printed": 146
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p149",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p149.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 149,
+   "printed": 147
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p150",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p150.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 150,
+   "printed": 148
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p151",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p151.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 151,
+   "printed": 149
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p152",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p152.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 152,
+   "printed": 150
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p153",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p153.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 153,
+   "printed": 151
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p154",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p154.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 154,
+   "printed": 152
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p155",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p155.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 155,
+   "printed": 153
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p156",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p156.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 156,
+   "printed": 154
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p157",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p157.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 157,
+   "printed": 155
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p158",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p158.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 158,
+   "printed": 156
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p159",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p159.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 159,
+   "printed": 157
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p160",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p160.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 160,
+   "printed": 158
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p161",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p161.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 161,
+   "printed": 159
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p162",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p162.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 162,
+   "printed": 160
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p163",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p163.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 163,
+   "printed": 161
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p164",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p164.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 164,
+   "printed": 162
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p165",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p165.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 165,
+   "printed": 163
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p166",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p166.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 166,
+   "printed": 164
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p167",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p167.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 167,
+   "printed": 165
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p168",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p168.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 168,
+   "printed": 166
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p169",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p169.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 169,
+   "printed": 167
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p170",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p170.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 170,
+   "printed": 168
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p171",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p171.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 171,
+   "printed": 169
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p172",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p172.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 172,
+   "printed": 170
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p173",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p173.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 173,
+   "printed": 171
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p174",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p174.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 174,
+   "printed": 172
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p175",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p175.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 175,
+   "printed": 173
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p176",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p176.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 176,
+   "printed": 174
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p177",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p177.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 177,
+   "printed": 175
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p178",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p178.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 178,
+   "printed": 176
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p179",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p179.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 179,
+   "printed": 177
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p180",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p180.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 180,
+   "printed": 178
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p181",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p181.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 181,
+   "printed": 179
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p182",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p182.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 182,
+   "printed": 180
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p183",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p183.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 183,
+   "printed": 181
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p184",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p184.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 184,
+   "printed": 182
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p185",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p185.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 185,
+   "printed": 183
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p186",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p186.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 186,
+   "printed": 184
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p187",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p187.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 187,
+   "printed": 185
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p188",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p188.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 188,
+   "printed": 186
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p189",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p189.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 189,
+   "printed": 187
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p190",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p190.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 190,
+   "printed": 188
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p191",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p191.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 191,
+   "printed": 190
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p192",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p192.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 192,
+   "printed": 189
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p193",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p193.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 193,
+   "printed": 191
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p194",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p194.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 194,
+   "printed": 192
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p195",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p195.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 195,
+   "printed": 193
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p196",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p196.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 196,
+   "printed": 194
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p197",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p197.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 197,
+   "printed": 195
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p198",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p198.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 198,
+   "printed": 196
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p199",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p199.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 199,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c/p200",
+  "kind": "resource",
+  "grade": 2,
+  "image": "packs/up-hindi-2026/source/g2-p200.webp",
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 200,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p1",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p001.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 1,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p2",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p002.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 2,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p3",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p003.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 3,
+   "printed": 1
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p4",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p004.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 4,
+   "printed": 2
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p5",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p005.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 5,
+   "printed": 3
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p6",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p006.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 6,
+   "printed": 4
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p7",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p007.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 7,
+   "printed": 5
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p8",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p008.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 8,
+   "printed": 6
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p9",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p009.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 9,
+   "printed": 7
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p10",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p010.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 10,
+   "printed": 8
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p11",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p011.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 11,
+   "printed": 9
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p12",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p012.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 12,
+   "printed": 10
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p13",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p013.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 13,
+   "printed": 11
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p14",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p014.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 14,
+   "printed": 12
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p15",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p015.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 15,
+   "printed": 13
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p16",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p016.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 16,
+   "printed": 14
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p17",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p017.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 17,
+   "printed": 15
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p18",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p018.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 18,
+   "printed": 16
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p19",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p019.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 19,
+   "printed": 17
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p20",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p020.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 20,
+   "printed": 18
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p21",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p021.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 21,
+   "printed": 19
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p22",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p022.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 22,
+   "printed": 20
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p23",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p023.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 23,
+   "printed": 21
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p24",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p024.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 24,
+   "printed": 22
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p25",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p025.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 25,
+   "printed": 23
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p26",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p026.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 26,
+   "printed": 24
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p27",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p027.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 27,
+   "printed": 25
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p28",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p028.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 28,
+   "printed": 26
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p29",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p029.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 29,
+   "printed": 27
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p30",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p030.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 30,
+   "printed": 28
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p31",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p031.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 31,
+   "printed": 29
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p32",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p032.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 32,
+   "printed": 30
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p33",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p033.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 33,
+   "printed": 31
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p34",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p034.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 34,
+   "printed": 32
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p35",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p035.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 35,
+   "printed": 33
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p36",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p036.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 36,
+   "printed": 34
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p37",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p037.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 37,
+   "printed": 35
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p38",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p038.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 38,
+   "printed": 36
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p39",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p039.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 39,
+   "printed": 37
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p40",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p040.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 40,
+   "printed": 38
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p41",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p041.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 41,
+   "printed": 39
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p42",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p042.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 42,
+   "printed": 40
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p43",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p043.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 43,
+   "printed": 41
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p44",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p044.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 44,
+   "printed": 42
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p45",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p045.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 45,
+   "printed": 43
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p46",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p046.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 46,
+   "printed": 44
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p47",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p047.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 47,
+   "printed": 45
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p48",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p048.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 48,
+   "printed": 46
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p49",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p049.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 49,
+   "printed": 47
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p50",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p050.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 50,
+   "printed": 48
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p51",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p051.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 51,
+   "printed": 49
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p52",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p052.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 52,
+   "printed": 50
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p53",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p053.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 53,
+   "printed": 51
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p54",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p054.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 54,
+   "printed": 52
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p55",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p055.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 55,
+   "printed": 53
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p56",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p056.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 56,
+   "printed": 54
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p57",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p057.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 57,
+   "printed": 55
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p58",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p058.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 58,
+   "printed": 56
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p59",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p059.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 59,
+   "printed": 57
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p60",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p060.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 60,
+   "printed": 58
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p61",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p061.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 61,
+   "printed": 59
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p62",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p062.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 62,
+   "printed": 60
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p63",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p063.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 63,
+   "printed": 61
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p64",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p064.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 64,
+   "printed": 62
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p65",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p065.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 65,
+   "printed": 63
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p66",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p066.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 66,
+   "printed": 64
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p67",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p067.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 67,
+   "printed": 65
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p68",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p068.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 68,
+   "printed": 66
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p69",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p069.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 69,
+   "printed": 67
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p70",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p070.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 70,
+   "printed": 68
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p71",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p071.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 71,
+   "printed": 69
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p72",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p072.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 72,
+   "printed": 70
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p73",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p073.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 73,
+   "printed": 71
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p74",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p074.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 74,
+   "printed": 72
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p75",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p075.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 75,
+   "printed": 73
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p76",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p076.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 76,
+   "printed": 74
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p77",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p077.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 77,
+   "printed": 75
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p78",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p078.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 78,
+   "printed": 76
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p79",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p079.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 79,
+   "printed": 77
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p80",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p080.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 80,
+   "printed": 78
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p81",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p081.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 81,
+   "printed": 79
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p82",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p082.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 82,
+   "printed": 80
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p83",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p083.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 83,
+   "printed": 81
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p84",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p084.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 84,
+   "printed": 82
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p85",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p085.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 85,
+   "printed": 83
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p86",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p086.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 86,
+   "printed": 84
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p87",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p087.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 87,
+   "printed": 85
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p88",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p088.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 88,
+   "printed": 86
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p89",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p089.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 89,
+   "printed": 87
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p90",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p090.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 90,
+   "printed": 88
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p91",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p091.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 91,
+   "printed": 89
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p92",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p092.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 92,
+   "printed": 90
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p93",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p093.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 93,
+   "printed": 91
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p94",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p094.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 94,
+   "printed": 92
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p95",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p095.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 95,
+   "printed": 93
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p96",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p096.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 96,
+   "printed": 94
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p97",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p097.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 97,
+   "printed": 95
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p98",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p098.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 98,
+   "printed": 96
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p99",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p099.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 99,
+   "printed": 97
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p100",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p100.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 100,
+   "printed": 98
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p101",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p101.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 101,
+   "printed": 99
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p102",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p102.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 102,
+   "printed": 100
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p103",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p103.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 103,
+   "printed": 101
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p104",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p104.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 104,
+   "printed": 102
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p105",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p105.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 105,
+   "printed": 103
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p106",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p106.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 106,
+   "printed": 104
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p107",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p107.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 107,
+   "printed": 105
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p108",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p108.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 108,
+   "printed": 106
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p109",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p109.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 109,
+   "printed": 107
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p110",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p110.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 110,
+   "printed": 108
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p111",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p111.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 111,
+   "printed": 109
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p112",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p112.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 112,
+   "printed": 110
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p113",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p113.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 113,
+   "printed": 111
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p114",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p114.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 114,
+   "printed": 112
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p115",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p115.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 115,
+   "printed": 113
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p116",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p116.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 116,
+   "printed": 114
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p117",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p117.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 117,
+   "printed": 115
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p118",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p118.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 118,
+   "printed": 116
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p119",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p119.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 119,
+   "printed": 117
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p120",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p120.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 120,
+   "printed": 118
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p121",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p121.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 121,
+   "printed": 119
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p122",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p122.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 122,
+   "printed": 120
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p123",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p123.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 123,
+   "printed": 121
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p124",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p124.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 124,
+   "printed": 122
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p125",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p125.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 125,
+   "printed": 123
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p126",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p126.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 126,
+   "printed": 124
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p127",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p127.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 127,
+   "printed": 125
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p128",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p128.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 128,
+   "printed": 126
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p129",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p129.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 129,
+   "printed": 127
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p130",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p130.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 130,
+   "printed": 128
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p131",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p131.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 131,
+   "printed": 129
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p132",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p132.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 132,
+   "printed": 130
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p133",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p133.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 133,
+   "printed": 131
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p134",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p134.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 134,
+   "printed": 132
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p135",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p135.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 135,
+   "printed": 133
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p136",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p136.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 136,
+   "printed": 134
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p137",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p137.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 137,
+   "printed": 135
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p138",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p138.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 138,
+   "printed": 136
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p139",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p139.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 139,
+   "printed": 137
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p140",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p140.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 140,
+   "printed": 138
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p141",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p141.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 141,
+   "printed": 139
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p142",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p142.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 142,
+   "printed": 140
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p143",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p143.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 143,
+   "printed": 141
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p144",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p144.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 144,
+   "printed": 142
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p145",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p145.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 145,
+   "printed": 143
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p146",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p146.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 146,
+   "printed": 144
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p147",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p147.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 147,
+   "printed": 145
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p148",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p148.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 148,
+   "printed": 146
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p149",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p149.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 149,
+   "printed": 147
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p150",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p150.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 150,
+   "printed": 148
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p151",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p151.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 151,
+   "printed": 149
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p152",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p152.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 152,
+   "printed": 150
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p153",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p153.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 153,
+   "printed": 151
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p154",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p154.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 154,
+   "printed": 152
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p155",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p155.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 155,
+   "printed": 153
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p156",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p156.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 156,
+   "printed": 154
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p157",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p157.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 157,
+   "printed": 155
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p158",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p158.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 158,
+   "printed": 156
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p159",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p159.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 159,
+   "printed": 157
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p160",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p160.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 160,
+   "printed": 158
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p161",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p161.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 161,
+   "printed": 159
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p162",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p162.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 162,
+   "printed": 160
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p163",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p163.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 163,
+   "printed": 161
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p164",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p164.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 164,
+   "printed": 162
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p165",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p165.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 165,
+   "printed": 163
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p166",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p166.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 166,
+   "printed": 164
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p167",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p167.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 167,
+   "printed": 165
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p168",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p168.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 168,
+   "printed": 166
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p169",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p169.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 169,
+   "printed": 167
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p170",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p170.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 170,
+   "printed": 168
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p171",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p171.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 171,
+   "printed": 169
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p172",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p172.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 172,
+   "printed": 170
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p173",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p173.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 173,
+   "printed": 171
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p174",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p174.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 174,
+   "printed": 172
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p175",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p175.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 175,
+   "printed": 173
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p176",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p176.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 176,
+   "printed": 174
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p177",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p177.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 177,
+   "printed": 175
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p178",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p178.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 178,
+   "printed": 176
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p179",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p179.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 179,
+   "printed": 177
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p180",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p180.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 180,
+   "printed": 178
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p181",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p181.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 181,
+   "printed": 179
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p182",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p182.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 182,
+   "printed": 180
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p183",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p183.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 183,
+   "printed": 181
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p184",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p184.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 184,
+   "printed": 182
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p185",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p185.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 185,
+   "printed": 183
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p186",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p186.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 186,
+   "printed": 184
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p187",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p187.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 187,
+   "printed": 185
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p188",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p188.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 188,
+   "printed": 186
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p189",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p189.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 189,
+   "printed": 187
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p190",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p190.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 190,
+   "printed": 188
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p191",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p191.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 191,
+   "printed": 189
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p192",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p192.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 192,
+   "printed": 190
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p193",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p193.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 193,
+   "printed": 191
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p194",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p194.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 194,
+   "printed": 192
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p195",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p195.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 195,
+   "printed": 193
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p196",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p196.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 196,
+   "printed": 194
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p197",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p197.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 197,
+   "printed": 195
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p198",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p198.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 198,
+   "printed": 196
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p199",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p199.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 199,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781/p200",
+  "kind": "resource",
+  "grade": 3,
+  "image": "packs/up-hindi-2026/source/g3-p200.webp",
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 200,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ }
+]

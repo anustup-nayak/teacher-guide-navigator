@@ -92,6 +92,13 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
 
 ## Change log
 
+### 2026-11-01 · Codex · Hindi cards H1, PR #26 (r68)
+
+- Drafted and source-compared 15 Grade 1 Hindi cards (w09 d01–w11 d03); owner approved in chat (“Go ahead”) and requested completion. Only these 15 moved to model; w14 sample stays unreviewed.
+- Built immutable release 1.3.2 after 1.3.1, pinned website/check together, published generated modules and coordinated r68. Existing Math approvals preserved. Next remains the integration target; no main deployment.
+- Checks and remaining limits: see [task note](tasks/cards-hindi-g1-a.md).
+
+
 ### 2026-11-01 · Claude Code · `task/cards-release-1` (first cards live on `next`, r67)
 
 - Owner approved batch M1 (“Go Ahead”, chat, 1 Nov 2026) after reviewing the 16 rendered Math G2 cards (w01–w05 and
