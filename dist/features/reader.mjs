@@ -1,6 +1,6 @@
-import {gradeLabel} from '../domain/selection.mjs?v=r67';
-import {phaseVisual} from '../lesson-visuals.mjs?v=r67';
-import {resourceKindsFor,resourcePageInfo,resourceOutput,readerHistoryAction} from '../ux.mjs?v=r67';
+import {gradeLabel} from '../domain/selection.mjs?v=r68';
+import {phaseVisual} from '../lesson-visuals.mjs?v=r68';
+import {resourceKindsFor,resourcePageInfo,resourceOutput,readerHistoryAction} from '../ux.mjs?v=r68';
 
 export function createReader({$,t,e,options,curriculum,repository,getCurrentLesson,notify,stage,cropMarkup,visualAlt,visualCaption}){
 let readerState;
