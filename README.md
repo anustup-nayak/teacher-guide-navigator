@@ -6,8 +6,8 @@ Grades 1–3, 732 day plans**. A teacher chooses grade and subject, then finds t
 or by week and day, and follows the guide's own periods and steps, with the original pages one
 tap away. Notes, bookmarks and progress stay on the device.
 
-- **Production:** https://anustup-nayak.github.io/teacher-guide-navigator/ — deployed from `main`; v2 release r69 / content 1.3.3 is the approved cutover.
-- **Integration:** `next`; 549 owner-approved smart cards (183 Math, 366 Hindi).
+- **Production:** https://anustup-nayak.github.io/teacher-guide-navigator/ — deployed from `main`; release r70 / content 1.3.3 (design system v2, 549 owner-approved smart cards).
+- **Integration:** `next`.
 - **Frozen v1 fallback:** `/v1/`, staged by Pages from `v1.0.4`; `release/v1` remains frozen. See [VERSIONING.md](docs/VERSIONING.md).
 
 ## Run and check
@@ -19,6 +19,7 @@ dependencies, framework or build step.
 python3 -m http.server 8000 --directory dist   # open http://localhost:8000
 npm test                                        # all Node tests, including the design lock
 npm run check                                   # module syntax and imports
+npm run test:e2e                                # browser journeys (needs the server on :8765)
 ```
 
 The full gate (CI runs the same): `npm run verify:content`, `npm run verify:site`,
@@ -42,13 +43,14 @@ review status; nothing is shown as academically reviewed unless it has been.
 ## Documentation
 
 Start at the [documentation map](docs/README.md). Agents (Claude Code, Codex, others) follow
-[AGENTS.md](AGENTS.md) and begin every session with [docs/HANDOFF.md](docs/HANDOFF.md). The look,
-feel and teaching flow are frozen by the [design contract](docs/DESIGN_CONTRACT.md). New Teacher
+[AGENTS.md](AGENTS.md) and begin every session with [docs/HANDOFF.md](docs/HANDOFF.md). The UI is
+built from one [design system](docs/DESIGN_SYSTEM.md) of tokens and components; the teaching flow is frozen by the
+[design contract](docs/DESIGN_CONTRACT.md). Repeatable procedures are in [WORKFLOWS.md](docs/WORKFLOWS.md). New Teacher
 Guide PDFs go through the reusable skill [skills/teacher-guide-to-app](skills/teacher-guide-to-app/SKILL.md).
 
 ## Rights and limits
 
-Guide, workbook and textbook content keeps its publishers' rights; no redistribution licence
+Fonts: Noto Sans Devanagari and Noto Sans, SIL Open Font License (`dist/fonts/OFL.txt`). Guide, workbook and textbook content keeps its publishers' rights; no redistribution licence
 has been granted ([CONTENT_RIGHTS.md](CONTENT_RIGHTS.md)). Text decoded from legacy fonts has
 been compared with the page images on samples and repairs, not proofread line by line; there
 has been no independent academic review, field study with teachers, or test on physical

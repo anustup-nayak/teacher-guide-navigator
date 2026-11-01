@@ -37,6 +37,8 @@ Status vocabulary: NOT RUN, PASS, FAIL, LIMITED. No claim of zero defects or cla
 | OPS-02 | Print / source viewer / image errors have clear states and return path | UI / implementation check | LIMITED |
 | OPS-03 | Deployed version matches tested commit; production smoke test passes | Sites source helper / live browser | PUBLICATION CHECK |
 | OPS-04 | Protected design unchanged, or each change has an owner approval recorded in docs/design-lock.json and docs/HANDOFF.md (added 31 October 2026) | `npm run design:check`; review approvals | PASS (r56 baseline) |
+| UI-05 | Every visual value comes from design tokens; no text under 13px; primary controls 48px; Noto fonts load offline (added 1 Nov 2026, r70) | `tests/design-system.test.mjs`, `npm run test:e2e` | PASS (r70) |
+| UX-01 | Archetype journeys A–F, route matrix at 320/360/390/1024px × हिन्दी/English, all smart cards and offline pass with 0 failures (added 1 Nov 2026) | `npm run test:e2e` against local and live origins | PASS (r70, local) |
 
 ## Severity and exit policy
 

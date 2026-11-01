@@ -116,6 +116,23 @@ and storage keys all behave correctly (sweep of 1 Nov 2026: 549/549 cards render
   scrollable row.
 - §5 palette: values are unchanged. Semantic tokens are added on top, and source-card overrides use tokens.
 
-## 6. Results
+## 6. Results (r70)
 
-See §7 of [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md) for verification and HANDOFF for the change log entry.
+| Finding | Status |
+|---|---|
+| U1–U3, E1, E2 | **Fixed.** Token layer of 72 tokens; both stylesheets are readable and token-only (0 raw colours, px font sizes or px radii outside `:root`). Noto self-hosted and precached. 13 px floor. Guarded by `tests/design-system.test.mjs`. |
+| U4, U5 | **Fixed.** Standard tab bar with icons and a yellow current indicator; language pill. Icons drop below 360 px so the three labels fit at 320 px. |
+| U6 | **Fixed.** Captions sit below every illustration. |
+| U7, U9 | **Partly fixed.** Canonical button, list-row, link-chip and search-field components. Card variants still carry some screen-specific rules (follow-up: fold them into the component layer). |
+| U8, U10 | **Fixed.** Section chips are one ordered, scrollable row. The week strip scrolls with fixed tiles. |
+| X1, X2, X4 | **Fixed.** No duplicate location or back link on top-level screens; titles name the screen. |
+| X3, X5, X6 | **Fixed.** List rows on आज; search field first on सभी पाठ; previous/next pair below the card. |
+| X7, X8 | **Partly fixed.** The switcher keeps its controls open after a grade change (new finding X9: grade then subject needed two openings). The "पाठ के विकल्प" row is unchanged (contract §4). |
+| Grade switch target (new) | **Fixed.** `#current-identity` was 35 px tall; it is now 48 px. |
+| Hindi period count (new) | **Fixed.** Cards said "तीन कालांश" on two-period days; they now use the real count. |
+| C1 OCR vowel signs (new) | **Open.** 150 strings with detached matras now show dotted circles in Noto. Listed in [review/ocr-matra-defects.md](review/ocr-matra-defects.md) for source-compared repair. |
+| E3 | **Recorded.** Module map and extraction plan in ARCHITECTURE; `app.mjs` split deferred to bounded slices. |
+| E4, E5 | **Fixed.** `npm run test:e2e` (594 checks); fonts in the worker shell; r70. |
+| D1–D4 | **Fixed.** DESIGN_SYSTEM, WORKFLOWS, personas in the PRD, refreshed index, AGENTS, DEVELOPMENT, QA gates UI-05 and UX-01. |
+
+Still open and needing humans: a real-teacher study (protocol), TalkBack and low-end phones, academic review.

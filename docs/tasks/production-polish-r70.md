@@ -13,7 +13,7 @@ DESIGN_CONTRACT, PRD, ARCHITECTURE, DEVELOPMENT, README index, HANDOFF.
 
 ## Progress
 - [x] Audit written (`docs/AUDIT_2026-11-PRODUCTION.md`)
-- [x] T1 tokens and fonts · [x] T2 components · [x] T3 screens · [x] T4 guards (design-system test, `npm run test:e2e` 594 checks, 0 failures) · [ ] T5 docs · [ ] T6 release
+- [x] T1 tokens and fonts · [x] T2 components · [x] T3 screens · [x] T4 guards (design-system test, `npm run test:e2e` 594 checks, 0 failures) · [x] T5 docs · [x] T6 release prepared (gate green, e2e 594/0); PRs to `next` and `main` next
 
 ## If you pick this up (Codex)
 Work through the unchecked tasks in order. Every visual value must come from the `:root` tokens in

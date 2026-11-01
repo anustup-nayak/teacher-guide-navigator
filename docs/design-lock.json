@@ -3,7 +3,7 @@
   "contract": "docs/DESIGN_CONTRACT.md",
   "files": {
     "dist/styles.css": "aaa3e005dd8e1aebccdcece06e92b88a9f46b4d383ed5a0fe187676d090ebb67",
-    "dist/guide-cards.css": "9268a7ab204b212dfa7faf582bf11d9fd6ed97ad157087e8456c39ca7125e15c",
+    "dist/guide-cards.css": "0fd6193a13eabf6b43f40472aaa6156531cdea764895d796328e8cc4cfd7e8ee",
     "dist/index.html": "2dfd1959e72003572736d3c015ed0ecf7c3698565614ffa372a4ccf2dc9e14b1"
   },
   "approvals": [
@@ -58,6 +58,14 @@
         "dist/styles.css",
         "dist/guide-cards.css",
         "dist/index.html"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "reason": "Design system v2 final (production audit 1 Nov 2026): tokens, Noto fonts, tab bar, component layer, search field, list rows, touch and 320px fixes",
+      "approvedBy": "owner (Anustup), chat, 2026-11-01: 'UI should be clean, standard, professional … execute to this plan, unsupervised till done'",
+      "files": [
+        "dist/guide-cards.css"
       ]
     }
   ]
