@@ -36,10 +36,10 @@ mid-task. It is the first file to read and the last file to update.
 
 | Item | Value |
 |---|---|
-| Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`); v2 r69 / content 1.3.3 deployed from `main` at `edd31db` on 1 Nov 2026 |
+| Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`); r70 / content 1.3.3 deployed from `main` at `9259ec8` on 1 Nov 2026 (tag `v2.1.0`; Pages deployment success) |
 | Repository | github.com/anustup-nayak/teacher-guide-navigator (public). Branches: `main` (production), `release/v1` (frozen at v1.0.4), `next` (v2 integration) — see [VERSIONING.md](VERSIONING.md) |
 | v1 release | r61 @ `49f873c`, tag `v1.0.4`; `release/v1` stays there for rollback |
-| v2 line | Content releases up to 1.3.3 (pinned in `content/website.json`); आज home, पूरा साल guide, goals, chains, and 549 owner-approved smart cards (183 Math, 366 Hindi); release token r69. Live on `main` at `edd31db`, tag `v2.0.0`; frozen r61 at `/v1/` |
+| v2 line | Content releases up to 1.3.3 (pinned in `content/website.json`); आज home, पूरा साल guide, goals, chains, 549 owner-approved smart cards; design system v2 ([DESIGN_SYSTEM.md](DESIGN_SYSTEM.md)); release token r70, tag `v2.1.0`. Frozen r61 at `/v1/` |
 | Published content | UP Mathematics `up-math-2026` and UP Hindi `up-hindi-2026`, Grades 1–3: 366 day plans each; 990 + 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (permanent) |
 | Checks | See [DEVELOPMENT.md](DEVELOPMENT.md#checks); last full run 1 Nov 2026 (r70): npm test 143/143, e2e 594/0, gates pass. Earlier (r69): npm test 137/137, ingestion 16, skill helpers 5/5, all verify gates pass, cards check 549/549, Playwright UI sweep 0 failures |
@@ -49,13 +49,22 @@ mid-task. It is the first file to read and the last file to update.
 
 ## Next up
 
-Production cutover is complete: PR #30, `edd31db`, tag `v2.0.0`; [Pages deployment](https://github.com/anustup-nayak/teacher-guide-navigator/actions/runs/41279200254) succeeded and live root/fallback were verified. The next iteration is the owner's requested professional [UI review and design specification](UI_DESIGN_NEXT_ITERATION.md), with the [teacher-archetype UX protocol](TEACHER_UX_AUDIT_PROTOCOL.md). Review first; implement only after agreeing the design direction. Recover the original Claude archetypes; do not substitute invented profiles. Day-5 counts and usage counts remain deferred; independent academic review, physical-device/TalkBack and teacher field tests remain open.
+r70 (design system v2) is live: release PR #34, `main` @ `9259ec8`, tag `v2.1.0`. Next, in priority order (details in the r70
+change-log entry and [AUDIT_2026-11-PRODUCTION.md](AUDIT_2026-11-PRODUCTION.md) §6):
+1. Source-compared repair of the 150 detached-vowel strings ([review/ocr-matra-defects.md](review/ocr-matra-defects.md)).
+2. Fold the remaining screen-specific card rules into the component layer (U7).
+3. Extract the lesson, browse, saved and help views from `app.mjs` in bounded slices, with `npm run test:e2e` as the net.
+4. Human teacher study, TalkBack and low-end devices ([TEACHER_UX_AUDIT_PROTOCOL.md](TEACHER_UX_AUDIT_PROTOCOL.md)); academic review.
+
+Day-5 counts and usage counts remain deferred by the owner. Live verification note: the agent workspace cannot reach
+github.io, so r70 was verified through the GitHub deployment API (status `success` for `9259ec8`, and `sw.js` on
+`main` reads r70). The next agent with browser access should run `BASE=https://anustup-nayak.github.io/teacher-guide-navigator/ npm run test:e2e`.
 
 ## Active work
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/production-polish` | see [task note](tasks/production-polish-r70.md) | Releasing r70 | Done: audit, design system, journeys, docs; gate green; e2e 594/0. Next: PR to `next`, release PR to `main`, live check. |
+| Claude Code | `task/production-polish` | see [task note](tasks/production-polish-r70.md) | Done (PR #33 → `next`, release PR #34 → `main`, `9259ec8`, tag `v2.1.0`) | Follow-ups for the next agent are listed in the r70 change-log entry. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused | Other agent's uncommitted work; do not touch. |
 
 ## Change log
