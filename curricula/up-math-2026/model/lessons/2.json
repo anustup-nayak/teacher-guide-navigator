@@ -6,7 +6,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "दूर-पास और ऊपर-नीचे की अवधारणा को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M101.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 19,
+     "printed": 17
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -272,7 +283,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "दाएं-बाएं और आगे-पीछे की अवधारणा को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M101.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 20,
+     "printed": 18
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -530,7 +552,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "वर्गीकरण और क्रम को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M101.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 21,
+     "printed": 19
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -798,7 +831,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M101.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M101.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -866,7 +912,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M101.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M101.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -934,7 +993,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M101.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M101.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -1002,7 +1074,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "10 के समहू में गिनती (टेन फ्रेम) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M102.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 23,
+     "printed": 21
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -1279,7 +1362,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "1 - 20 तक की संख्या (ठोस वस्तुओं और चित्रों के साथ) की गिनती (कविता/कहानी का निर्माण) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M102.3",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 24,
+     "printed": 22
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -1544,7 +1638,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "1 - 20 तक के संख्याओं की गिनती को गिनने के सि(ांत (Order irrelevency and abstraction) के साथ समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M102.3",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 25,
+     "printed": 23
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -1806,7 +1911,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M102.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M102.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -1873,7 +1991,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M102.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M102.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -1941,7 +2072,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M102.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M102.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -2009,7 +2153,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "20 तक के जोड़ (ठोस वस्तुओं और चित्रों के साथ) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M103.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 27,
+     "printed": 25
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -2280,7 +2435,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "20 तक के जोड़ को शाब्दिक प्रश्न के माध्यम से समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M103.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 28,
+     "printed": 26
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -2563,7 +2729,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "20 तक के घटाव (ठोस वस्तुओं और चित्रों के साथ) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M103.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 29,
+     "printed": 27
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -2835,7 +3012,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M103.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M103.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -2902,7 +3092,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M103.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M103.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -2979,7 +3182,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M103.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M103.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -3056,7 +3272,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "20 तक के घटाव को शाब्दिक प्रश्न के माध्यम से समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M103.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 31,
+     "printed": 29
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -3336,7 +3563,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "जोड़ (योगफल 20) और घटाव (दो अंक की संख्या से एक अंक की संख्या) के सम्बन्ध (20 तक की संख्याओं के साथ) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M103.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 32,
+     "printed": 30
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -3605,7 +3843,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "20 तक जोड़ और घटाव (दोनों पक्षों में मात्राओं को बराबर करते हुए) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M103.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 33,
+     "printed": 31
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -3863,7 +4112,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M103.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M103.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -3930,7 +4192,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M103.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M103.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -4007,7 +4282,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M103.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M103.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -4084,7 +4372,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "बंडल (2, 3, 4, 5 और 10) बनाना और समझाना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 35,
+     "printed": 33
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -4375,7 +4674,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "10-10 के बंडल में 100 तक की संख्याओं (20, 30, 40, 50, 60, 70, 80, 90, 100) गिनती को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 36,
+     "printed": 34
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -4668,7 +4978,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "स्थानीयमान प्रणाली में शून्य के उपयोग को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 37,
+     "printed": 35
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -4948,7 +5269,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -5027,7 +5361,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -5109,7 +5456,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -5189,7 +5549,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "50 तक की संख्याओं (ठोस वस्तुओं और चित्रों के साथ) को खुले और 10 के बंडल में समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 39,
+     "printed": 37
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -5476,7 +5847,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "50 तक की संख्याओं (चित्रों और प्रतीक के साथ) को इकाई और दहाई में समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 40,
+     "printed": 38
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -5783,7 +6165,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "50 तक की संख्याओं (चित्रों और प्रतीक के साथ) की तुलना को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.3",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 41,
+     "printed": 39
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -6071,7 +6464,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -6150,7 +6556,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -6237,7 +6656,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -6318,7 +6750,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याआंे (चित्रों और प्रतीकों के साथ) को इकाई और दहाई में (पहेलियों को बोलना) समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 44,
+     "printed": 42
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -6611,7 +7054,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं (चित्रों और प्रतीकों के साथ) की तुलना (दो संख्याओं ) समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.3",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 45,
+     "printed": 43
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -6895,7 +7349,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं में सबसे बड़ी और सबसे छोटी संख्या को चिfÊत (तीन या अधिक संख्याआंे में) कर समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.3",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 46,
+     "printed": 44
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -7189,7 +7654,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -7268,7 +7746,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -7355,7 +7846,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -7436,7 +7940,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "99 तक की सबसे बड़ी और सबसे छोटी संख्या (अंकों की पुनरावृत्ति के साथ और पुनरावृत्ति के बिना) निर्माण और उनकी तुलना को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.3",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 48,
+     "printed": 46
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -7734,7 +8249,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याआंे को लिखना और आगे व पीछे के क्रम में गिनती को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.3",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 49,
+     "printed": 47
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -8022,7 +8548,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "99 तक की संख्या को बढ़ते और घटते (आरोही और अवरोही) क्रम में लिखकर समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.3",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 50,
+     "printed": 48
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -8311,7 +8848,14 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -8390,7 +8934,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -8470,7 +9021,14 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -8552,7 +9110,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं के संख्या नाम को पहचान कर समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 52,
+     "printed": 50
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -8838,7 +9407,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "100-100 के बंडल में 900 तक की संख्याआंे (200, 300, 400, 500, 600, 700, 800, 900) की गिनती को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 53,
+     "printed": 51
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -9139,7 +9719,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "101-500 तक की संख्याओं (चित्र और प्रतीक के साथ) को इकाई, दहाई और सैकड़ा में समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 54,
+     "printed": 52
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -9424,7 +10015,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -9503,7 +10107,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -9584,7 +10201,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -9664,7 +10294,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "101-500 तक की संख्याओं के संख्यानाम को पहचान कर समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 56,
+     "printed": 54
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -9949,7 +10590,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "501-999 तक की संख्याओं (चित्रों और प्रतीकों के साथ) को इकाई, दहाई और सैकड़ा में समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 57,
+     "printed": 55
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -10236,7 +10888,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "501-999 तक की संख्याओं के संख्या नाम को पहचान कर समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 58,
+     "printed": 56
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -10509,7 +11172,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -10588,7 +11264,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -10668,7 +11357,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -10748,7 +11450,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "संख्या के आधार पर बने पैटर्न की पहचान और आगे बढ़ाने की प्रक्रिया को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M207.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 60,
+     "printed": 58
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -11036,7 +11749,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "ठोस वस्तुओं और चित्रों के आधार पर पैटर्न की पहचान और आगे बढ़ाने की प्रक्रिया को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M207.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 61,
+     "printed": 59
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -11335,7 +12059,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "परिवेश की विभिन्न वस्तुओं और चित्रों में 2D आकृतियों (आयत, वर्ग, त्रिभुज, अंडाकार और वृत्त) को पहचानकर समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M205",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 62,
+     "printed": 60
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -11614,7 +12349,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M205",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M207.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -11693,7 +12441,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M205",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M207.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -11777,7 +12538,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M205",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M207.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -11858,7 +12632,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "परिवेश की विभिन्न वस्तुओं और चित्रों में 2 डी आकृतियों (आयत, वर्ग और त्रिभुज) का वर्णन कर समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M205",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 64,
+     "printed": 62
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -12150,7 +12935,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "परिवेश की विभिन्न वस्तुओं और चित्रों में 2 डी आकृतियों (अंडाकार और वृत्त) का वर्णन कर समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M205",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 65,
+     "printed": 63
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -12443,7 +13239,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "रेखाओं के माध्यम से आकतियों को बनाकर समझना ृ",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M205",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 66,
+     "printed": 64
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -12731,7 +13538,14 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M205",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -12810,7 +13624,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M205",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -12890,7 +13711,14 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M205",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -12970,7 +13798,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "50 तक संख्याओं (ठोस वस्तुओं के साथ) के जोड़ को अलग-अलग रणनीति (count on-योगफल 50 तक) द्वारा समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 70,
+     "printed": 68
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -13267,7 +14106,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "50 तक संख्याओं के जोड़ को अलग-अलग रणनीति (Ten frame-योगफल 50 तक) द्वारा समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 71,
+     "printed": 69
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -13563,7 +14413,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "50 तक संख्याओं के जोड़ को अलग-अलग रणनीति (संख्या रेखा -योगफल 50 तक) द्वारा समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 72,
+     "printed": 70
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -13848,7 +14709,14 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -13927,7 +14795,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -14007,7 +14882,14 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -14087,7 +14969,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "50 तक की संख्याओं (ठोस वस्तुओं, चित्रों और प्रतीकों के साथ) के जोड़ (बिना पुनर्समूहन-योगफल 50 तक) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 74,
+     "printed": 72
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -14372,7 +15265,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं (चित्रों और प्रतीकों के साथ) के जोड़ (बिना पुनर्समूहन-योग 99 तक) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 75,
+     "printed": 73
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -14663,7 +15567,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "50 तक की संख्याओं (ठोस वस्तुओं, चित्रों और प्रतीकों के साथ) के जोड़ (पुनर्समूहन-योगफल 50 तक) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 76,
+     "printed": 74
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -14953,7 +15868,14 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -15032,7 +15954,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -15112,7 +16041,14 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -15192,7 +16128,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं (चित्रों और प्रतीकों के साथ) के जोड़ (पुनर्समूहन-योगफल 99 तक) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 78,
+     "printed": 76
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -15480,7 +16427,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं को दहाई और इकाई में बाँट कर जोड़ (योगफल 99 तक) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 79,
+     "printed": 77
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -15752,7 +16710,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं का अनुमान के माध्यम से जोड़ (योगफल 99 तक) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 80,
+     "printed": 78
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -16055,7 +17024,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -16134,7 +17116,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -16215,7 +17210,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -16306,7 +17314,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं के जोड़ (दोनों पक्षों में मात्राओं को बराबर करते हुए) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 82,
+     "printed": 80
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -16607,7 +17626,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं के जोड़ को शाब्दिक प्रश्नों के माध्यम से समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 83,
+     "printed": 81
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -16904,7 +17934,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "50 तक की संख्याओं के घटाव को अलग-अलग रणनीति (संख्या रेखा-50 तक) द्वारा समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 84,
+     "printed": 82
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -17187,7 +18228,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -17266,7 +18320,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -17350,7 +18417,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -17441,7 +18521,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "50 तक की संख्याओं के घटाव को अलग-अलग रणनीति (Ten frame-50 तक) द्वारा समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 86,
+     "printed": 84
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -17728,7 +18819,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "50 तक की संख्याओं (ठोस वस्तुओं, चित्रों और प्रतीकों के साथ) के घटाव (पुनर्समूहन 50 तक) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 87,
+     "printed": 85
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -18031,7 +19133,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं (चित्रों और प्रतीकों के साथ) के घटाव (बिना पुनर्समूहन-99 तक) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 88,
+     "printed": 86
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -18326,7 +19439,14 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -18405,7 +19525,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -18485,7 +19612,14 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -18565,7 +19699,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "50 तक की संख्याओं (ठोस वस्तुओं, चित्रों और प्रतीकों के साथ) के घटाव (पुनर्समूहन 50 तक) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 90,
+     "printed": 88
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -18880,7 +20025,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं (चित्रों और प्रतीकों के साथ) के घटाव (पुनर्समूहन-99 तक) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 91,
+     "printed": 89
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -19185,7 +20341,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं का अनुमान के माध्यम से घटाव को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 92,
+     "printed": 90
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -19469,7 +20636,14 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -19548,7 +20722,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -19630,7 +20811,14 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -19711,7 +20899,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं के घटाव (दोनों पक्षों में मात्राओं को बराबर करते हुए) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 96,
+     "printed": 94
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -19990,7 +21189,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं के घटाव को शाब्दिक प्रश्न के माध्यम से समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 97,
+     "printed": 95
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -20299,7 +21509,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "जोड़ (योगफल 99 तक) और घटाव के सम्बन्ध (99 तक की संख्याओं के साथ) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 98,
+     "printed": 96
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -20585,7 +21806,14 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -20664,7 +21892,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -20761,7 +21996,14 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -20850,7 +22092,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "गैर मानक इकाइयों (पेंसिल, डस्टर, कदम आदि) का उपयोग कर मापन को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 100,
+     "printed": 98
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -21128,7 +22381,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "सरल संतुलन का प्रयोग से वस्तुओं के वजन की तुलना कर भार को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 101,
+     "printed": 99
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -21414,7 +22678,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "गैर मानक इकाइयों की सहायता से विभिन्न पात्रों की तुलना कर धारिता को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 102,
+     "printed": 100
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -21699,7 +22974,14 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -21778,7 +23060,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -21858,7 +23147,14 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -21938,7 +23234,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "1-10 तक की संख्याओं को बार-बार जोड़ कर गुणा की अवधारणा को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M203.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 104,
+     "printed": 102
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -22245,7 +23552,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "2, 3 और 4 के गुणन तथ्य (पहाड़े) को निर्माण कर समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M203.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 105,
+     "printed": 103
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -22529,7 +23847,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "9 तक की संख्याओं का बराबर बँटवारा कर (ठोस वस्तु और चित्र और प्रतीक के साथ) भाग की अवधारणा को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M203.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 106,
+     "printed": 104
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -22816,7 +24145,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M203.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M203.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -22895,7 +24237,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M203.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M203.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -22977,7 +24332,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M203.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M203.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -23058,7 +24426,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "महीने और दिन के नाम (कैलेंडर के साथ) को घटनाओं से जोड़ते हुए उपयोग कर समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M207.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 108,
+     "printed": 106
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -23358,7 +24737,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "घड़ी का उपयोग कर समय (घंटा) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M207.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 109,
+     "printed": 107
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -23645,7 +25035,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "100 रुपये तक सिक्कों और नोटों की पहचान और उपयोग को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.4",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 110,
+     "printed": 108
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -23935,7 +25336,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M207.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -24014,7 +25428,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M207.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -24096,7 +25523,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M207.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -24185,7 +25625,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "परिवेश और चित्र से सूचनाओं को एकत्रित करने की प्रक्रिया और उनके वर्गीकरण को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M206",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 112,
+     "printed": 110
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -24482,7 +25933,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "परिवेश और चित्र से एकत्रित और वर्गीकृत किए गए सूचनाओं की तुलना को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M206",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 113,
+     "printed": 111
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -24781,7 +26243,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "वस्तुओं का उपयोग कर आधे/चैथाई/पूरे और इनके आपसी सम्बन्ध को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g2-9b3436f6e0f7",
+     "pdf": 114,
+     "printed": 112
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -25072,7 +26545,20 @@
   "day": 4,
   "dayType": "math-explore",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M206",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -25151,7 +26637,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M206",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -25231,7 +26730,20 @@
   "day": 6,
   "dayType": "math-remedial-revision",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M206",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {

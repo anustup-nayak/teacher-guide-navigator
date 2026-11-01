@@ -52,15 +52,15 @@ Requires Node 22+. No npm dependency/install or build framework.
 
 ```sh
 npm run verify:program         # whole-program metadata readiness (PROGRAM_METADATA.md)
-npm run content:build -- --version 1.1.0 --previous 1.0.1
-npm run verify:content         # pinned: --version 1.1.0 --previous 1.0.1 --check
+npm run content:build -- --version 1.2.0 --previous 1.1.0
+npm run verify:content         # pinned: --version 1.2.0 --previous 1.1.0 --check
 npm run verify:site            # dist/ catalogs and day types equal the pinned releases
 # Next content version, after model review and matching v1 repair if necessary:
-npm run content:build -- --version 1.1.1 --previous 1.1.0
+npm run content:build -- --version 1.2.1 --previous 1.2.0
 ```
 
 Optional final arguments select pack IDs. The current `verify:content` command pins
-1.1.0 (previous 1.0.1); change its pinned version/previous version and `content/website.json`
+1.2.0 (previous 1.1.0); change its pinned version/previous version and `content/website.json`
 in the same reviewed PR when the current canonical models advance. Older directories remain immutable; rebuilding
 an older release from newer models is not a supported update mechanism.
 
@@ -141,7 +141,9 @@ pages, every cited workbook page) for all 732 lessons, so a v2 front end can swi
 bundles without losing content. `site:publish` also writes `dist/day-types.mjs` (each pack's
 calendar and day-type labels, from the hash-checked release `structure.json`), which the week
 and topic cards use to name revision, assessment and weekly-plan days the same way in every
-subject; `verify:site` checks it too. It also writes `dist/program-guide-data.mjs` (per grade: calendar, day types with
+subject; `verify:site` checks it too. **1.2.0 (31 Oct 2026):** Math `outcomes.json` (42 outcomes, 23 goals; schema 1.2.0 adds the
+`goal` entity kind); lessons gain stated outcome links (182) and `same-week-template-days` links (327). `site:publish` also
+writes `dist/lesson-goals.mjs` (lesson → goal chips). It also writes `dist/program-guide-data.mjs` (per grade: calendar, day types with
 periods and slots, period outline and the guide's section page map, from the release's `structure.json` and
 `sections.json`) for the program guide ([PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md)). `reviewed/catalog.mjs` → `publish_curriculum.mjs` stays the v1
 ingestion path; the parity gate keeps both identical.
@@ -153,7 +155,7 @@ ingestion path; the parity gate keeps both identical.
 
 ## Release boundaries and validation
 
-The 1.0.0, 1.0.1 and 1.1.0 releases live in the repository on `next`; they are **not published
+The 1.0.0, 1.0.1, 1.1.0 and 1.2.0 releases live in the repository on `next`; they are **not published
 to the production website** (production is `main`). `dist/`, its pipeline, storage keys, caches and design
 lock are unchanged. There is no retrieval view, chatbot, generator or v2 UI in this
 phase. Preview/public `/content/` hosting remains a separate owner decision.

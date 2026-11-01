@@ -6,7 +6,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं के संख्या नाम को पहचान कर समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 19,
+     "printed": 17
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -254,7 +265,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं (चित्रों और प्रतीक के साथ) को इकाई और दहाई में (पहेलियों को बनाना) समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 20,
+     "printed": 18
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -553,7 +575,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं (चित्रों और प्रतीक के साथ) की तुलना (दो संख्याओं में) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.3",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 21,
+     "printed": 19
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -840,7 +873,26 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -907,7 +959,26 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -973,7 +1044,26 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M201.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -1039,7 +1129,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं (चित्र और प्रतीक के साथ) के जोड़ (बिना पुनर्समूहन-योग 99 तक) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 23,
+     "printed": 21
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -1299,7 +1400,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "99 तक की संख्याओं (चित्र और प्रतीक के साथ) के घटाव (बिना पुनर्समूहन-99 तक) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 24,
+     "printed": 22
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -1577,7 +1689,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "1-10 तक की संख्याओं का बार-बार जोड़ कर गुणा की अवधारणा को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M203.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 25,
+     "printed": 23
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -1852,7 +1975,26 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M203.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -1919,7 +2061,26 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M203.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -1985,7 +2146,26 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M202.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M202.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M203.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -2051,7 +2231,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "ठोस वस्तुओं और चित्रों के आधार पर पैटर्न की पहचान और आगे बढ़ाने की प्रक्रिया को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M207.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 27,
+     "printed": 25
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -2334,7 +2525,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "परिवेश के विभिन्न वस्तुओं और चित्रों में 2D आकृतियों (आयत, वर्ग, त्रिभुज, अंडाकार और वृत्त) को पहचानकर समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M205",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 28,
+     "printed": 26
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -2600,7 +2802,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "100 रुपये तक सिक्कों और नोटों की पहचान और उपयोग को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.4",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 29,
+     "printed": 27
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -2883,7 +3096,26 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M205",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M207.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -2950,7 +3182,26 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M205",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M207.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -3016,7 +3267,26 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M201.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M205",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M207.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -3082,7 +3352,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "गैर मानक इकाइयों (पेंसिल, डस्टर, कदम आदि) का उपयोग कर मापन को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 31,
+     "printed": 29
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -3372,7 +3653,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "सरल संतुलन के प्रयोग से वस्तुओं के वजन की तुलना कर भार को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 32,
+     "printed": 30
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -3641,7 +3933,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "गैर मानक इकाइयों की सहायता से विभिन्न पात्रों की तुलना कर धारिता को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 33,
+     "printed": 31
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -3917,7 +4220,14 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -3984,7 +4294,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -4050,7 +4367,14 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M204.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -4116,7 +4440,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "संख्या का उपयोग किए बिना वस्तुओं के समूह को गिनना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 35,
+     "printed": 33
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -4435,7 +4770,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "दस और सौ के बंडल बनाना और गिनना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 36,
+     "printed": 34
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -4740,7 +5086,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "3डी आकृतियों को पहचानना और उनके गुणों (कोनों और किनारों) को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M305",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 37,
+     "printed": 35
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -5043,7 +5400,20 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M305",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -5122,7 +5492,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M305",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -5200,7 +5583,20 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M305",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -5278,7 +5674,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "100 से 200 तक की संख्याओं को खुले, दस-दस के बंडल और सौ-सौ के बंडलों में समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 39,
+     "printed": 37
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -5580,7 +5987,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "100 से 200 तक की संख्या को वस्तु और चित्र के साथ इकाई, दहाई और सैकड़े में समझना और लिखना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 40,
+     "printed": 38
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -5884,7 +6302,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "200 तक की संख्या को स्थानीय मान के अनुसार लिख पाना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 41,
+     "printed": 39
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -6197,7 +6626,20 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -6276,7 +6718,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -6354,7 +6809,20 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -6432,7 +6900,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "100 से 200 तक की संख्याओं को संख्या रेखा पर दर्शाने को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 43,
+     "printed": 41
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -6733,7 +7212,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "शून्य के साथ एक अंक की संख्या का जोड़ व घटाव करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 44,
+     "printed": 42
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -7028,7 +7518,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "दो अंकीय संख्याओं (वस्तु और चित्र के साथ) के जोड़ (पुनर्समूहन द्वारा) करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 45,
+     "printed": 43
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -7337,7 +7838,26 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M302.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -7416,7 +7936,26 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M302.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -7494,7 +8033,26 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M302.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -7572,7 +8130,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "संख्या रेखा पर दो अंकीय संख्याओं (योगफल 99 तक) का जोड़ करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 47,
+     "printed": 45
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -7876,7 +8445,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "संख्या चार्ट/ग्रिड पर दो अंकीय संख्याओं (योगफल 99 तक) का जोड़ करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 48,
+     "printed": 46
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -8174,7 +8754,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "दो अंकीय संख्याओं (वस्तु और चित्र के साथ) का घटाव (पुनर्समूहन द्वारा) करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 49,
+     "printed": 47
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -8483,7 +9074,14 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -8562,7 +9160,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -8640,7 +9245,14 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -8718,7 +9330,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "3डी आकृतियों की ट्रैसिंग के साथ मूल 2डी आकृतियों (वर्ग, आयत, त्रिभुज और वृत्त) पहचान करना और बनाना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M305",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 51,
+     "printed": 49
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -9022,7 +9645,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "मूल 2डी आकृतियों (वर्ग, आयत, त्रिभुज और वृत्त) के गुणों जैसे-चेहरे, किनारों और कोनों की संख्या का वर्णन करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M305",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 52,
+     "printed": 50
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -9333,7 +9967,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "विभिन्न संदर्भों में सममितीय को समझना और 2डी आकृतियों का उपयोग कर अलग-अलग टेसेलेशन बनाना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M305",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 53,
+     "printed": 51
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -9630,7 +10275,14 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M305",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -9709,7 +10361,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M305",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -9787,7 +10446,14 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M305",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -9865,7 +10531,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "201 से 500 तक की संख्या को खुले, दस-दस के बंडल और सौ-सौ के बंडलों में समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 55,
+     "printed": 53
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -10157,7 +10834,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "201 से 500 तक की संख्या को वस्तु और चित्र के साथ इकाई, दहाई और सैकड़े में समझना और लिखना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 56,
+     "printed": 54
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -10459,7 +11147,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "500 तक की संख्या के आगे (दाएं )-पीछे (बाएं ) की संख्या को लिखना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.4",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 57,
+     "printed": 55
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -10760,7 +11459,20 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -10839,7 +11551,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -10917,7 +11642,20 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -10995,7 +11733,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "201 से 500 तक की संख्याओं को संख्या रेखा पर दर्शाने को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 59,
+     "printed": 57
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -11312,7 +12061,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "101 से 500 तक की संख्याओं को संख्या चार्ट/ग्रिड पर दर्शाने को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 60,
+     "printed": 58
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -11619,7 +12379,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "101 से 500 तक की संख्याओं को शब्दों और अंकों में लिखना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 61,
+     "printed": 59
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -11916,7 +12687,14 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -11995,7 +12773,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -12073,7 +12858,14 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -12151,7 +12943,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "10 से 500 तक की संख्याओं को विस्तारित रूप में लिखना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.3",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 63,
+     "printed": 61
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -12455,7 +13258,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "1 से 99 तक की संख्याओं के साथ बार-बार जोड़ कर गुणा की अवधारणा को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M303.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 64,
+     "printed": 62
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -12750,7 +13564,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "शून्य, पाँच और पूर्ण दहाई संख्याओं के साथ एक अंकीय संख्या का गुणा करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M303.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 65,
+     "printed": 63
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -13065,7 +13890,20 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M303.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -13144,7 +13982,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M303.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -13222,7 +14073,20 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M303.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -13300,7 +14164,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "2 से 10 तक की संख्याओं का पहाड़ा बनाना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M303.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 69,
+     "printed": 67
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -13601,7 +14476,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "भाग (दो अंकीय संख्याओं से एक अंकीय संख्या) की अवधारणा को बराबर बंटवारा और बार-बार घटाव से समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M303.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 70,
+     "printed": 68
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -13916,7 +14802,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "विभिन्न तरीकों से भाग (दो अंकीय संख्या से एक अंकीय संख्या) करना तथा विभाजन तथ्यों का उपयोग करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M303.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 71,
+     "printed": 69
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -14241,7 +15138,20 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M303.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M303.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -14320,7 +15230,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M303.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M303.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -14398,7 +15321,20 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M303.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M303.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -14476,7 +15412,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "गुणा और भाग के इबारती प्रश्न हल करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M303.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 73,
+     "printed": 71
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -14773,7 +15720,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "विभिन्न वस्तुओं के साथ पूरे और आधे को पहचानना और दिखाना एवं आधा-दोगुना को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M307",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 74,
+     "printed": 72
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -15069,7 +16027,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "विभिन्न वस्तुओं के साथ एक-चैथाई और तीन- चैथाई को पहचानना और दिखाना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M307",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 75,
+     "printed": 73
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -15366,7 +16335,20 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M303.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M307",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -15445,7 +16427,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M303.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M307",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -15523,7 +16518,20 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M303.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M307",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -15601,7 +16609,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "501 से 999 तक की संख्याओं को इकाई, दहाई और सैकड़ा में समझना व स्थानीय मान लिखना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 77,
+     "printed": 75
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -15891,7 +16910,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "501 से 999 तक की संख्याओं को शब्दों और अंकों में लिखना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 78,
+     "printed": 76
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -16175,7 +17205,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "501 से 999 तक की संख्याओं को संख्या रेखा पर दर्शाने को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 79,
+     "printed": 77
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -16484,7 +17525,20 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -16563,7 +17617,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -16641,7 +17708,20 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -16719,7 +17799,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "501 से 999 तक की संख्याओं को संख्या चार्ट/ग्रिड पर दर्शाने को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 81,
+     "printed": 79
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -17028,7 +18119,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "101 से 999 तक की संख्याओं को इकाई, दहाई और सैकड़े में समझ पाना और स्थानीय मान लिख पाना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 82,
+     "printed": 80
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -17318,7 +18420,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "101 से 999 तक की संख्याओं को शब्दों और अंकों में लिखना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 83,
+     "printed": 81
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -17596,7 +18709,20 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -17675,7 +18801,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -17753,7 +18892,20 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -17831,7 +18983,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "100 से 999 तक की संख्याओं को विस्तारित रूप में लिखना और स्थानीय मान के अनुसार अंकों से संख्या निर्माण करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.3",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 85,
+     "printed": 83
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -18118,7 +19281,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "तीन अंकीय संख्याओं की तुलना और बड़ा/छोटा/ बराबर को समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.4",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 86,
+     "printed": 84
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -18426,7 +19600,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "तीन अंकों से बड़ी और छोटी संख्या (अंकों की पुनरावृत्ति के साथ और बिना पुनरावृत्ति) का निर्माण करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.4",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 87,
+     "printed": 85
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -18714,7 +19899,20 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -18793,7 +19991,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -18871,7 +20082,20 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.3",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M301.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -18949,7 +20173,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "तीन अंकीय संख्याओं को अवरोही और आरोही क्रम में लगाना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.4",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 89,
+     "printed": 87
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -19247,7 +20482,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "गैर मानक इकाइयों का उपयोग करते हुए मानक इकाई की आवश्यकता को समझना और उपयोग करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M304",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 90,
+     "printed": 88
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -19535,7 +20781,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "लम्बाई की तुलना किलोमीटर, मीटर और सेंटीमीटर में करके दैनिक जीवन की समस्याओं को हल करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M304",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 91,
+     "printed": 89
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -19817,7 +21074,20 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M304",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -19896,7 +21166,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M304",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -19974,7 +21257,20 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M301.4",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M304",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -20052,7 +21348,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "किसी पात्र की धारिता किसी ज्ञात वस्तु की धारिता से दिखाना और अनुमान लगाना व मानक इकाई लीटर का उपयोग",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M304",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 95,
+     "printed": 93
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -20359,7 +21666,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "वजन की तुलनाः ग्राम और किलोग्राम का उपयोग करके दैनिक जीवन की समस्याओं को हल करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M304",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 96,
+     "printed": 94
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -20656,7 +21974,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "मीटर-सेंटीमीटर और ग्राम-किलोग्राम का आपस में सम्बंध समझना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M304",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 97,
+     "printed": 95
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -20951,7 +22280,14 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M304",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -21030,7 +22366,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M304",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -21108,7 +22451,14 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M304",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -21186,7 +22536,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "तीन अंकीय संख्याओं का जोड़ (बिना पुनर्समूहन और योगफल 999 से कम) करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 99,
+     "printed": 97
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -21503,7 +22864,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "तीन अंकीय संख्याओं का जोड़ (पुनर्समूहन और योगफल 999 से कम) करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 100,
+     "printed": 98
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -21812,7 +23184,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "संख्या रेखा/ग्रिड पर तीन अंकीय संख्याओं (योगफल 999 तक) का जोड़ करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 101,
+     "printed": 99
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -22105,7 +23488,14 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -22184,7 +23574,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -22262,7 +23659,14 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -22340,7 +23744,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "तीन अंकीय संख्याओं का घटाव (बिना पुनर्समूहन एवं पुनर्समूहन द्वारा) करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 103,
+     "printed": 101
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -22655,7 +24070,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "संख्या चार्ट/ग्रिड पर तीन अंकीय संख्याओं का घटाव करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 104,
+     "printed": 102
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -22940,7 +24366,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "तीन अंक के जोड़ और घटाव के आपस के सम्बन्ध को प्रयोग कर प्रश्न हल करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 105,
+     "printed": 103
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -23227,7 +24664,14 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -23306,7 +24750,14 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -23384,7 +24835,14 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -23462,7 +24920,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "500 रुपये तक की राशियों के साथ जोड़ और घटाव (बिना पुनर्समूहन और पुनर्समूहन द्वारा) करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 107,
+     "printed": 105
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -23764,7 +25233,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "500 रुपये तक की राशियों के साथ जोड़ और घटाव से जुड़े इबारती प्रश्न हल करना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 108,
+     "printed": 106
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -24059,7 +25539,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "कैलेंडर में तारीख, दिन, महीनों को पहचानना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M306",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 109,
+     "printed": 107
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -24365,7 +25856,20 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M306",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -24444,7 +25948,20 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M306",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -24522,7 +26039,20 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M302.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M306",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -24600,7 +26130,18 @@
   "day": 1,
   "dayType": "math-instruction",
   "title": "घंटे और आधे घंटे में घड़ी पर समय पढ़ना और लिखना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M306",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 111,
+     "printed": 109
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -24893,7 +26434,18 @@
   "day": 2,
   "dayType": "math-instruction",
   "title": "स्थिर अंतराल से बढ़ने और घटने वाली संख्या (999 तक) पैटर्न को समझना और आगे बढ़ाना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M308.1",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 112,
+     "printed": 110
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -25206,7 +26758,18 @@
   "day": 3,
   "dayType": "math-instruction",
   "title": "चित्रों का उपयोग करके आंकड़े संग्रह करना और मिलान चिह्नों के माध्यम से आंकड़े को दर्शाना और निष्कर्ष निकालना",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M308.2",
+    "assertion": "stated",
+    "review": "source-compared",
+    "source": {
+     "doc": "guide-g3-186da9c8f52a",
+     "pdf": 113,
+     "printed": 111
+    }
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -25515,7 +27078,26 @@
   "day": 4,
   "dayType": "math-explore-g3",
   "title": "खोजें और जानें",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M306",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M308.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M308.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -25594,7 +27176,26 @@
   "day": 5,
   "dayType": "math-consolidation-assessment-g3",
   "title": "समेकन और आकलन",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M306",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M308.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M308.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {
@@ -25672,7 +27273,26 @@
   "day": 6,
   "dayType": "math-remedial-revision-g3",
   "title": "रिमीडियल शिक्षण और पुनरावृत्ति",
-  "outcomes": [],
+  "outcomes": [
+   {
+    "to": "lo:M306",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M308.1",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   },
+   {
+    "to": "lo:M308.2",
+    "assertion": "derived",
+    "review": "owner-approved",
+    "rule": "same-week-template-days"
+   }
+  ],
   "objectives": [],
   "periods": [
    {

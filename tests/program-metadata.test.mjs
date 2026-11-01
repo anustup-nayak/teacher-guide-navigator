@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {DIMENSIONS,validateProgramMetadata} from '../scripts/content/program_metadata.mjs';
-import {loadPack,buildRelease,sha256} from '../scripts/content/compile.mjs';
+import {loadPack,buildRelease,sha256,SCHEMA_VERSION} from '../scripts/content/compile.mjs';
 import {createContentQuery} from '../content/query.mjs';
 const packs=['up-math-2026','up-hindi-2026'];
 for(const pack of packs)test(`${pack}: full program understanding is metadata, evidence-backed and honestly unreviewed`,()=>{
@@ -10,7 +10,7 @@ for(const pack of packs)test(`${pack}: full program understanding is metadata, e
  assert.deepEqual(data.understanding.dimensions.map(d=>d.id),DIMENSIONS);
  assert.equal(data.understanding.provenance.review,'unreviewed');assert(data.understanding.questions.some(q=>q.status==='open'&&!q.blocking));
  const old=JSON.parse(fs.readFileSync(new URL(`../content/${pack}/1.0.0/manifest.json`,import.meta.url)));
- const release=buildRelease(data,{version:'1.1.0',previous:old});assert.equal(release.manifest.schemaVersion,'1.1.0');assert.equal(release.manifest.programStructure.status,'documented');
+ const release=buildRelease(data,{version:'1.1.0',previous:old});assert.equal(release.manifest.schemaVersion,SCHEMA_VERSION);assert.equal(release.manifest.programStructure.status,'documented');
  assert.equal(release.manifest.programStructure.dimensions.length,9);assert(release.changelog.changed.includes(`program:${pack}`));
  const q=createContentQuery(release),info=q.programStructure();assert.equal(info.references.file,'structure.json');assert(info.structure.calendar.length);assert.equal(info.understanding.status,'documented');
  assert(info.understanding.dimensions.every(d=>!d.summary)); // Draft/editorial text is not promoted by a metadata accessor.

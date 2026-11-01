@@ -91,7 +91,7 @@ Sections 3–5 keep the three reading depths of plan §4a as tabs: **सार**
 | Slice | What | Ready when |
 |---|---|---|
 | **A** | Screens 1–4 (entry, home, week, periods) and original pages for every guide section | **Built** (31 Oct 2026): `dist/views/program-guide.mjs`, `dist/program-guide-data.mjs`, routes `#/guide`, `#/guide/week`, `#/guide/periods`, `#/guide/pages`; the goals box opens the NIPUN list page until slice G |
-| **G-Math** | Screens 6–7 for Math: goals, week strips, lesson links from stated codes; progress | After you approve the short goal titles and the “same week” rule |
+| **G-Math** | Screens 6–7 for Math: goals, week strips, lesson links from stated codes; progress | **Built** (31 Oct 2026) after approval of [review/math-goal-titles.md](review/math-goal-titles.md): `#/guide/goals`, `#/guide/goal/<id>`, lesson goal chips; content release 1.2.0 |
 | **B** | Screen 5 (how to read a lesson plan) | After you approve the call-out wording |
 | **G-Hindi** | Screens 6–7 for Hindi | After the Hindi goal-to-week map (Phase 4 task) is drafted and approved |
 | **C** | Full guide text (पूरा पढ़ें), assessment and support details, activity guide | Phases 4–5 |

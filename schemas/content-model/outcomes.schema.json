@@ -120,6 +120,48 @@
      }
     }
    }
+  },
+  "goals": {
+   "type": "array",
+   "$comment": "Teacher-facing goals: one per printed code family (Math) or as approved; editorial titles, owner-approved before display",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "grade",
+     "order",
+     "title",
+     "outcomes",
+     "provenance"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^g[0-9]-[a-z0-9-]+$"
+     },
+     "grade": {
+      "$ref": "common.schema.json#/$defs/grade"
+     },
+     "order": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "title": {
+      "$ref": "common.schema.json#/$defs/bilingual"
+     },
+     "outcomes": {
+      "type": "array",
+      "items": {
+       "$ref": "common.schema.json#/$defs/link"
+      },
+      "minItems": 1
+     },
+     "provenance": {
+      "$ref": "common.schema.json#/$defs/provenance"
+     }
+    }
+   }
   }
  }
 }
