@@ -6,7 +6,7 @@ Grades 1–3, 732 day plans**. A teacher chooses grade and subject, then finds t
 or by week and day, and follows the guide's own periods and steps, with the original pages one
 tap away. Notes, bookmarks and progress stay on the device.
 
-- **Production:** https://anustup-nayak.github.io/teacher-guide-navigator/ — deployed from `main`; release r70 / content 1.3.3 (design system v2, 549 owner-approved smart cards).
+- **Production:** https://anustup-nayak.github.io/teacher-guide-navigator/ — deployed from `main`; release r71 / content 1.3.4 (persistent Grade/Subject header, Hindi teacher UI, 549 approved smart cards and source text repairs).
 - **Integration:** `next`.
 - **Frozen v1 fallback:** `/v1/`, staged by Pages from `v1.0.4`; `release/v1` remains frozen. See [VERSIONING.md](docs/VERSIONING.md).
 
