@@ -14,7 +14,7 @@
     "design:check": "node scripts/design_lock.mjs check",
     "design:approve": "node scripts/design_lock.mjs approve",
     "content:build": "node scripts/content/compile.mjs",
-    "verify:content": "node scripts/content/compile.mjs --version 1.3.2 --previous 1.3.1 --check",
+    "verify:content": "node scripts/content/compile.mjs --version 1.3.3 --previous 1.3.2 --check",
     "verify:program": "node scripts/content/program_metadata.mjs",
     "site:publish": "node scripts/content/publish_site.mjs",
     "verify:site": "node scripts/content/publish_site.mjs --check"

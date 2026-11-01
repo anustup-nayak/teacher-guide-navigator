@@ -36,23 +36,23 @@ mid-task. It is the first file to read and the last file to update.
 
 | Item | Value |
 |---|---|
-| Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`) |
-| Repository | github.com/anustup-nayak/teacher-guide-navigator (public). Branches: `main` (v1 live), `release/v1`, `next` (v2) — see [VERSIONING.md](VERSIONING.md) |
-| v1 release | r61 on `main` @ `49f873c`, tag `v1.0.4`; `release/v1` mirrors it |
-| v2 line (`next`) | Content model (ontology v1.0.0 frozen, owner-approved decisions), compiler, content releases 1.0.0 → 1.0.1 → 1.1.0; the website reads the pinned release (`content/website.json`); week/topic cards with day-type labels; release token r62. Not deployed |
+| Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`); v2 (r69) since the 1 Nov 2026 cutover |
+| Repository | github.com/anustup-nayak/teacher-guide-navigator (public). Branches: `main` (live, v2 since cutover), `release/v1` (frozen at v1.0.4), `next` (v2 integration) — see [VERSIONING.md](VERSIONING.md) |
+| v1 release | r61 @ `49f873c`, tag `v1.0.4`; `release/v1` stays there for rollback |
+| v2 line | Content releases up to 1.3.3 (pinned in `content/website.json`); आज home, पूरा साल guide, goals, chains, and 549 owner-approved smart cards (183 Math, 366 Hindi); release token r69. Live on `main` after the cutover PR |
 | Published content | UP Mathematics `up-math-2026` and UP Hindi `up-hindi-2026`, Grades 1–3: 366 day plans each; 990 + 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (permanent) |
-| Checks | See [DEVELOPMENT.md](DEVELOPMENT.md#checks); last full run 31 Oct 2026 on PR #17: npm test 119/119, ingestion 16, skill 5, all verify gates pass |
+| Checks | See [DEVELOPMENT.md](DEVELOPMENT.md#checks); last full run 1 Nov 2026 (r69): npm test 136/136, ingestion 16, skill tests OK, all verify gates pass, cards check 549/549, Playwright UI sweep 0 failures |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
 | Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
 | Other agents' work | Codex worktree `…/Codex/2026-10-31/un/work/metadata-worktree` on `task/query-backed-runtime` has uncommitted work, not on GitHub; owner said leave it untouched |
 
 ## Next up
 
-*1 Nov 2026 (Claude Code):* the [UX review](UX_REVIEW_2026-11.md) led to r65 on `task/today-home`
-(PR into `next`, stacked on PR #21). **Next: smart lesson cards**, specified for any agent in
-[SMART_CARDS.md](SMART_CARDS.md); first the owner picks layout A or B and the Hindi image rule. Then the
-owner decides whether `main` moves to the v2 line.
+*1 Nov 2026 (Claude Code):* all smart cards are approved and live with the v2 cutover (r69). Open follow-ups:
+the `/v1/` copy described in [VERSIONING.md](VERSIONING.md#cutover-phase-9-owner-approval-required) is not
+built yet (rollback is by reverting the cutover merge); day-5 counts and usage counts are deferred by the owner;
+independent academic review and field testing remain open.
 
 *Refreshed 31 Oct 2026 by Claude Code while integrating PR #17; read AGENTS.md first.*
 
@@ -83,8 +83,8 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
 |---|---|---|---|---|
 | Claude Code | `task/today-home` (merged into `next` as PR #22, 1 Nov 2026) | `dist/views/today.mjs`, `dist/domain/progress.mjs`, `dist/app.mjs`, `dist/index.html`, `dist/core.mjs`, `dist/guide-cards.css`, `dist/views/{program-guide,current-context}.mjs`, `dist/domain/app-context.mjs`, tests, docs (`UX_REVIEW_2026-11`, `SMART_CARDS`, contract), r65 | Merged | #21 and #22 merged into `next` after a full check on the merged tree (132 tests). [Task note](tasks/today-home-r65.md). |
 | Claude Code | `task/smart-cards` (from `next` @ r65) | card component, data path, workbench (`scripts/content/cards.mjs`), schema 1.3.0, release 1.3.0, r66 | PR to `next` | Built and checked (136 tests). Then drafting is split: Claude Code = Math, Codex = Hindi; protocol and Codex prompt in [SMART_CARDS.md §8](SMART_CARDS.md). |
-| Claude Code | `task/cards-math-*` | `curricula/up-math-2026/drafts/cards/`, `docs/review/cards/up-math-2026-*` | Next | Batch M1: Math G2 w01–w05. |
-| Codex | `task/cards-hindi-*` | `curricula/up-hindi-2026/drafts/cards/`, `docs/review/cards/up-hindi-2026-*` | Not started | Batch H1: Hindi G1 w09–w11; start from the prompt in SMART_CARDS.md §8. |
+| Claude Code | `task/cards-all-drafts` | `curricula/*/drafts/cards/`, `docs/review/cards/*`, `scripts/content/cards.mjs` (`draft`) | Merged; cut over to `main` | All 549 cards approved, release 1.3.3/r69 (incl. Codex's 15 H1 cards); drafts removed; full checks and UI sweep pass. |
+| Codex | `task/cards-hindi-*` | — | Superseded | Owner asked Claude Code to complete all cards; Hindi drafts now exist. Codex may review/refine Hindi lines on a separate branch. |
 | Claude Code | `task/math-goals` (from `next`, includes the titles draft from PR #20) | `curricula/up-math-2026/model/{outcomes,lessons}`, schemas, `scripts/content/{compile,publish_site}.mjs`, `content/*/1.2.0`, `dist/views/program-guide.mjs`, `dist/app.mjs`, `dist/core.mjs`, `dist/lesson-goals.mjs`, `dist/guide-cards.css`, tests, r64 | PR to `next` | Owner approved titles and the same-week rule; slice G-Math built. Next: owner merges (PR #20 then closes as included); Hindi goal-to-week map draft. |
 | Claude Code (took over from Codex) | `task/program-metadata-layout` ([PR #17](https://github.com/anustup-nayak/teacher-guide-navigator/pull/17)) | Program metadata, layout, skill, docs cleanup, release 1.1.0 | Integrated with `next`; cleanup added; PR open | Next: owner merges PR #17. |
 | Claude Code | `task/program-guide-a` (from PR #17's branch) | `dist/views/program-guide.mjs`, `dist/program-guide-data.mjs`, `dist/app.mjs` (guide screen, entry links), `dist/core.mjs` (route), `dist/views/current-context.mjs`, `dist/guide-cards.css`, `scripts/content/publish_site.mjs`, `tests/program-guide.test.mjs`, r63 | Merged (PR #19, `00420fb`) | Slice A live on `next`. |
@@ -92,6 +92,47 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
 
 ## Change log
 
+### 2026-11-01 · Claude Code · `task/cards-all-drafts` (all cards live; content 1.3.3, r69; v2 cutover)
+
+- Owner, chat: “Yes approve everything. Publish and run all UI, UX, content tests, cleanup unnecessary files and
+  make it clean production ready.” `approve` Hindi G1 (90), G2 (138), G3 (138); release 1.3.3 (previous 1.3.2),
+  pinned; `dist/lesson-cards.mjs` carries 549 cards; `release:assets r69`.
+- Checks: `npm test` 136 pass; `check`, `verify:program`, `verify:content`, `verify:publication`, `verify:site`,
+  `verify:sources` pass; ingestion 16 OK; skill tests OK; `cards.mjs check` 549/549; sw.js syntax ok.
+  Playwright sweep: 17 routes × {360, 390 px} × {हिन्दी, English} with no overflow, no console errors and card
+  touch targets ≥ 44 px; all 549 cards render with the right line count; legacy `#/`, `#/unknown`, `teach/N` links
+  resolve; first Tab is the skip link; Enter on the start button opens the teach view; offline reload via the
+  service worker shows the lesson card; storage keys unchanged.
+- Cleanup: removed the six empty draft files and the superseded mockup generator (`gen.py`, `style.css`,
+  `cards-draft.json`, crops, preview); kept option A/B mockups as the decision record. Earlier content releases
+  stay (immutable publication record).
+- Integration: Codex's PR #26 (15 Hindi G1 cards, release 1.3.2, r68) reached `next` meanwhile. Kept its
+  published 1.3.2 unchanged and its 15 hand-written cards in place of my drafts for w09–w11; rebuilt my release as
+  1.3.3 (previous 1.3.2) with all 549 cards, r69. My earlier, never-merged “1.3.2 Math” build was discarded.
+- Cutover: owner asked to publish to production; `next` merged into `main` by PR per VERSIONING.md (v1 stays at
+  `v1.0.4` on `release/v1`). `/v1/` copy not built; rollback = revert the cutover merge.
+
+### 2026-11-01 · Claude Code · `task/cards-all-drafts` (all Math cards approved; release later renumbered to 1.3.3, see above)
+
+- Owner chose option 1 in chat: approve all Math now; rework Hindi period lines by hand first. `approve` for Math
+  G1 (45), G2 (53), G3 (69); 183 Math cards in `model/`. Content release 1.3.2 (previous 1.3.1), pinned;
+  `site:publish` → `dist/lesson-cards.mjs` carries 183 Math cards, no Hindi. `release:assets r68`.
+- Checks: `npm test` 136 pass; `check`, `verify:program`, `verify:content`, `verify:publication` pass; sw.js syntax ok.
+- Hindi rework: `draft` now builds each period line from whole instructions only (verb-ending clauses, balanced
+  quotes/brackets, no questions or pronoun starts), ranked for lesson-specific content; a step with no such clause
+  keeps only its title in `steps`. One line hand-fixed (G2 w03 d2). `check` 549/549.
+- Left: owner approval of Hindi → release 1.3.3; then ask the owner about `next` → `main`.
+
+### 2026-11-01 · Claude Code · `task/cards-all-drafts` (all remaining cards drafted)
+
+- Owner: “Complete all cards – dont stop”. Math G3 w01–w05 hand-written from the full lesson text. Every other
+  lesson drafted by the new `cards.mjs draft` command: lines are whole short sentences from the guide's own steps
+  (clause-aware clipping, no dangling postpositions; numbers and quoted names must occur in the source). Two
+  OCR-damaged Math G1 lines hand-fixed (w11 d1, w23 d3).
+- Checks: `cards.mjs check` 549 cards, 0 problems; `npm test` pass; `verify:content` unchanged (drafts are not
+  compiler input). Review sheets for all six pack·grades in `docs/review/cards/`.
+- Left: owner approval (bulk or per grade). Then `approve` → release 1.3.2 → pin → `site:publish` →
+  `release:assets r68` → full checks → merge. Then ask the owner about `next` → `main` (go live).
 ### 2026-11-01 · Codex · Hindi cards H1, PR #26 (r68)
 
 - Drafted and source-compared 15 Grade 1 Hindi cards (w09 d01–w11 d03); owner approved in chat (“Go ahead”) and requested completion. Only these 15 moved to model; w14 sample stays unreviewed.

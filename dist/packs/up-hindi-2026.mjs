@@ -1,4 +1,4 @@
-import {LESSONS,VISUAL_OVERRIDES} from './up-hindi-2026/catalog.mjs?v=r68';
+import {LESSONS,VISUAL_OVERRIDES} from './up-hindi-2026/catalog.mjs?v=r69';
 
 // UP Hindi (भाषा) 2026–27: a separate delivery in the same UP 2026–27 group as Math, with its own
 // permanent storage namespace. Lessons, palette and grid crops come from the Hindi Teacher Guides.
