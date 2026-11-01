@@ -28,3 +28,5 @@ Updated design contract/system, PRD, architecture description (same modules), de
 ## Next
 
 Review staged diff, finish browser screenshot evidence, push integration PR, check CI; release through next→main under the existing publication authorization and verify exact deployed bytes. Keep frozen /v1/ untouched.
+
+CI caught an omitted `dist/sw.js` in the initial commit (the local r71 worker was tested but a staging suffix filter omitted .js). Added the tested r71 worker; no test weakened and no production deployment occurred from the incomplete candidate. Rechecking CI before release.
