@@ -22,13 +22,24 @@ jobs:
       - run: python -m pip install -r scripts/requirements-ingestion.txt
       - run: npm test
       - run: npm run check
+      - run: npm run verify:program
+      - run: npm run verify:content
+      - run: npm run verify:site
       - run: npm run verify:publication
       - run: npm run verify:sources -- --require-complete
       - run: npm run test:ingestion
       - run: python -m unittest discover -s skills/teacher-guide-to-app/scripts -p "test_*.py"
+      - name: Check out frozen v1 fallback
+        uses: actions/checkout@v4
+        with:
+          ref: v1.0.4
+          path: work/v1-source
+          persist-credentials: false
+      - name: Stage v2 and frozen v1 websites
+        run: node scripts/stage_pages.mjs dist work/v1-source/dist work/pages
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: dist
+          path: work/pages
   deploy:
     if: github.ref == 'refs/heads/main'
     needs: validate
