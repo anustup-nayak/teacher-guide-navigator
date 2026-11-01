@@ -71,9 +71,9 @@ async function journeys(b){
    ok(await p.isVisible('.site-header #grade')&&await p.isVisible('.site-header #subject'),'E: grade/subject selects visible in header without an opening action');
    ok(!await p.$('#ui-language'),'E: no public language dropdown');
    await p.selectOption('#grade','3');await settle(p);ok(await p.inputValue('#grade')==='3','E: selected grade is 3');
-   await p.selectOption('#subject','hindi');await settle(p);
-   ok(await p.inputValue('#subject')==='hindi'&&new URL(p.url()).searchParams.get('curriculum')==='up-hindi-2026','E: selected subject and curriculum are Hindi');
-   await go(p,'#/today');ok(!!await p.$('.today-next a[href*="g3-"]'),'E: today follows the chosen grade');
+   await p.selectOption('#subject','hindi');await p.waitForSelector('.today-next a[href*="g3-hindi-"]');
+   ok(await p.inputValue('#subject')==='hindi'&&new URL(p.url()).searchParams.get('curriculum')==='up-hindi-2026'&&!!await p.$('.today-next a[href*="g3-hindi-"]'),'E: selected subject, curriculum and rendered Hindi lesson agree');
+   await p.reload();await p.waitForSelector('.today-next a[href*="g3-hindi-"]');ok(await p.inputValue('#subject')==='hindi','E: subject and grade survive reload');
    ok(!errs.length,'E: no console errors');await ctx.close();}
 
   console.log('F · Mentor: deep links, legacy links, missing lesson recovery');
