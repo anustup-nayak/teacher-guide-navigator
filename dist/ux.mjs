@@ -1,4 +1,4 @@
-import {gradeLabel} from './domain/selection.mjs?v=r63';
+import {gradeLabel} from './domain/selection.mjs?v=r64';
 export function resumeForGrade(lessons,last,byGrade,grade){
  const candidate=byGrade?.[grade]||last;
  const lesson=candidate&&lessons.find(l=>l.id===candidate.id&&l.grade===Number(grade));

@@ -1,5 +1,8 @@
 # Math goal titles and the “same week” rule — for the owner's approval
 
+**Approved by the owner, 31 October 2026 (“Approve both”)** and built (content release 1.2.0, program guide slice G-Math).
+The original draft text follows.
+
 Draft, 31 October 2026. Slice G-Math of the [program-guide design](../PROGRAM_GUIDE_DESIGN.md) needs two
 approvals before it is built: the **short goal titles** below and the **“same week” rule**. Nothing is in
 the app yet.

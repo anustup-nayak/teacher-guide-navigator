@@ -32,7 +32,7 @@ checked against their day type. Subjects, grades and even days within a week dif
 |---|---|---|
 | `structure.json` | structure | **written first:** calendar (week blocks → day types), day types (purpose, plan form, periods, slots), period outline, exceptions (§1a) |
 | `program.json` | program | edition and source documents |
-| `outcomes.json` | outcomes | strands → outcomes → sub-outcomes; Math weekly objectives |
+| `outcomes.json` | outcomes | strands → outcomes → sub-outcomes; Math weekly objectives; `goals` (teacher-facing goals: owner-approved short titles over outcome links; Math: one per code family, from release 1.2.0) |
 | `sequence.json` | sequence | units (week blocks) with objectives, outcomes, textbook lessons, page ranges |
 | `routines.json` | routines | the activity library: what / why / how / watch-outs, period, minutes, materials |
 | `materials.json` | materials | textbooks, workbook parts, charts, posters, big books, kits, grids |
@@ -136,6 +136,7 @@ reviewed (plan §4a).
 |---|---|---|
 | `step-title-matches-routine` | step title equals a routine's name or a listed alias from the activity guide | Hindi step → routine |
 | `workbook-activity-title` | a period-2 step titled “गतिविधि N” (N = number) is workbook practice | Hindi step → `hi-workbook-practice` |
+| `same-week-template-days` | a weekly-template day (Math days 4–6) links to the outcomes printed on days 1–3 of the same week (owner-approved 31 Oct 2026) | Math lesson → `lo` |
 | `v1-phase-id-to-routine` | Math GRR phase ids map to the plan types in the weekly overview | Math step → routine |
 | `every-lesson-weekly-cycle` | every lesson links to its grade's weekly-cycle section | guide links |
 | `calendar-day-type` | lesson grade/week/day selects the explicit calendar cycle and day-type record | compiler structural graph (unreviewed link; source status retained) |

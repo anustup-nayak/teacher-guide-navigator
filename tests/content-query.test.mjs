@@ -5,6 +5,8 @@ import {loadPack,buildRelease} from '../scripts/content/compile.mjs';
 const base=loadPack('up-math-2026');
 function linkedFixture(review='owner-approved'){
   const d=structuredClone(base),l=d.lessons[0],source=l.source,prov={assertion:'stated',review:'source-compared',sources:[source]};
+  // The fixture supplies its own single outcome; drop the pack's real outcome links (release 1.2.0+).
+  for(const x of d.lessons)x.outcomes=[];
   d.routines={pack:d.pack,routines:[{id:'math-remedial',type:'remediation',name:'मेज से जोड़',grades:[1],provenance:prov}]};
   d.outcomes={pack:d.pack,outcomes:[{id:'M101.1',grade:1,code:'M101.1',family:'M101',statement:'जोड़ की समझ',provenance:prov}],objectives:[]};
   d.assessments={pack:d.pack,assessments:[{id:'weekly',type:'weekly',name:'जाँच',when:'सप्ताह 9',grades:[1],groups:[{id:'A',rule:'मूल पृष्ठ का नियम',plan:[{to:'routine:math-remedial',assertion:'stated',review,source}]}],provenance:prov}]};

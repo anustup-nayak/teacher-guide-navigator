@@ -7,7 +7,7 @@ import {validate} from './schema.mjs';
 import {loadProgramMetadata,validateProgramMetadata} from './program_metadata.mjs';
 import {checkStructure,dayTypeFor} from './structure.mjs';
 import {exportCatalog} from './v1_codec.mjs';
-export const SCHEMA_VERSION='1.1.0';
+export const SCHEMA_VERSION='1.2.0';
 const ROOT=fileURLToPath(new URL('../../',import.meta.url));
 const json=x=>JSON.stringify(x,null,1)+'\n';
 export const sha256=x=>crypto.createHash('sha256').update(x).digest('hex');
@@ -94,7 +94,7 @@ export function buildRelease(data,{version,previous=null}={}){
   const sections=Object.entries(data.sections.guides).flatMap(([grade,g])=>g.sections.map(s=>({...s,id:`g${grade}/${s.id}`,grade:+grade,source:{doc:g.document,pdf:s.pdf[0],printed:s.pdf[0]>data.sections.printedOffset?s.pdf[0]-data.sections.printedOffset:null},provenance})));
   const populated=new Map(sections.map(s=>[s.id,s]));
   for(const guide of data.guides)for(const s of guide.sections){if(!populated.has(s.id))throw Error(`Guide section absent from page map: ${s.id}`);populated.set(s.id,{...populated.get(s.id),...s});}
-  const entities={program:[{id:data.pack,...data.program}],document:data.program.documents.map(d=>({...d,provenance})),daytype:data.structure.dayTypes.map(t=>({...t,provenance:t.provenance||data.structure.provenance||provenance})),lesson:data.lessons,step:data.lessons.flatMap(l=>l.periods.flatMap(p=>p.steps.map(s=>({...s,id:`${l.id}/${s.id}`,lesson:l.id,grade:l.grade,week:l.week,day:l.day,period:p.number})))),section:[...populated.values()],passage:data.guides.flatMap(g=>g.sections.flatMap(s=>(s.passages||[]).map(p=>({...p,section:s.id,grade:g.grade})))),lo:data.outcomes?.outcomes||[],objective:data.outcomes?.objectives||[],unit:data.sequence?.units||[],routine:data.routines?.routines||[],material:data.materials?.materials||[],assessment:data.assessments?.assessments||[],resource:data.assets.filter(a=>a.kind==='resource'),workbook:data.assets.filter(a=>a.kind==='workbook')};
+  const entities={program:[{id:data.pack,...data.program}],document:data.program.documents.map(d=>({...d,provenance})),daytype:data.structure.dayTypes.map(t=>({...t,provenance:t.provenance||data.structure.provenance||provenance})),lesson:data.lessons,step:data.lessons.flatMap(l=>l.periods.flatMap(p=>p.steps.map(s=>({...s,id:`${l.id}/${s.id}`,lesson:l.id,grade:l.grade,week:l.week,day:l.day,period:p.number})))),section:[...populated.values()],passage:data.guides.flatMap(g=>g.sections.flatMap(s=>(s.passages||[]).map(p=>({...p,section:s.id,grade:g.grade})))),lo:data.outcomes?.outcomes||[],goal:data.outcomes?.goals||[],objective:data.outcomes?.objectives||[],unit:data.sequence?.units||[],routine:data.routines?.routines||[],material:data.materials?.materials||[],assessment:data.assessments?.assessments||[],resource:data.assets.filter(a=>a.kind==='resource'),workbook:data.assets.filter(a=>a.kind==='workbook')};
   const index=new Map();
   for(const [kind,list]of Object.entries(entities))for(const entity of list){const id=`${kind}:${entity.id}`;if(index.has(id))throw Error(`Duplicate entity ${id}`);index.set(id,entity);}
   const graph=[];

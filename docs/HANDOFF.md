@@ -76,12 +76,28 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/math-goal-titles` (from `next`) | `docs/review/math-goal-titles.md` | Draft for owner approval | Short Math goal titles (one per code family) and the “same week” rule; nothing built until approved. |
+| Claude Code | `task/math-goals` (from `next`, includes the titles draft from PR #20) | `curricula/up-math-2026/model/{outcomes,lessons}`, schemas, `scripts/content/{compile,publish_site}.mjs`, `content/*/1.2.0`, `dist/views/program-guide.mjs`, `dist/app.mjs`, `dist/core.mjs`, `dist/lesson-goals.mjs`, `dist/guide-cards.css`, tests, r64 | PR to `next` | Owner approved titles and the same-week rule; slice G-Math built. Next: owner merges (PR #20 then closes as included); Hindi goal-to-week map draft. |
 | Claude Code (took over from Codex) | `task/program-metadata-layout` ([PR #17](https://github.com/anustup-nayak/teacher-guide-navigator/pull/17)) | Program metadata, layout, skill, docs cleanup, release 1.1.0 | Integrated with `next`; cleanup added; PR open | Next: owner merges PR #17. |
 | Claude Code | `task/program-guide-a` (from PR #17's branch) | `dist/views/program-guide.mjs`, `dist/program-guide-data.mjs`, `dist/app.mjs` (guide screen, entry links), `dist/core.mjs` (route), `dist/views/current-context.mjs`, `dist/guide-cards.css`, `scripts/content/publish_site.mjs`, `tests/program-guide.test.mjs`, r63 | Merged (PR #19, `00420fb`) | Slice A live on `next`. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused (out of credits) | Not on GitHub; do not touch without the owner. |
 
 ## Change log
+
+### 2026-10-31 · Claude Code · `task/math-goals` (program guide slice G-Math)
+
+- Owner approved [review/math-goal-titles.md](review/math-goal-titles.md) (“Approve both”): titles and the
+  `same-week-template-days` rule. Model: `curricula/up-math-2026/model/outcomes.json` (42 outcomes with the guide's
+  statements, 23 goals with owner-approved titles); lessons gain 182 stated links (incl. two codes v1 missed,
+  checked on the page images: G1 w9 d2 and G2 w1 d2 print M101.1; G1 w23 d3 prints none) and 327 rule links on days
+  4–6. Schema 1.2.0 adds the `goal` entity kind; content release 1.2.0 (previous 1.1.0); website pinned to it.
+- App: `#/guide/goals` (goal cards with year strips, lesson counts, “आपने N पढ़ाए” from the device's taught marks),
+  `#/guide/goal/<id>` (the guide's statements, how the guide gets there, “अगला पाठ”, week rows with day buttons and
+  lesson titles), goals first on the guide home, and lesson goal chips (`dist/lesson-goals.mjs`). Hindi shows the
+  NIPUN list until its goal-to-week map is approved. Design approval recorded (guide-cards.css). Release tokens r64.
+- Browser (fresh origin, 320/360 px, Hindi and English): Math G2/G3 goals and detail, mixed-week chips, next-lesson
+  and taught loop (test mark undone), missing goal, Hindi fallback; no overflow or console errors.
+- v1 follow-up: the two printed codes v1 missed (G1 w9 d2, G2 w1 d2) can be repaired on `main` (lesson card shows
+  “स्रोत में कोड नहीं दिया है” today).
 
 ### 2026-10-31 · Claude Code · `task/math-goal-titles` (draft for approval)
 

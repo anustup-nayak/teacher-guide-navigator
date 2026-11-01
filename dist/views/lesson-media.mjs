@@ -1,5 +1,5 @@
-import {phaseVisual,cropGeometry} from '../lesson-visuals.mjs?v=r63';
-import {lessonTitle} from '../ux.mjs?v=r63';
+import {phaseVisual,cropGeometry} from '../lesson-visuals.mjs?v=r64';
+import {lessonTitle} from '../ux.mjs?v=r64';
 
 export function createLessonMedia({curriculum,prefs,t,e,stage,list}){
 function cropMarkup(visual,alt,id=''){

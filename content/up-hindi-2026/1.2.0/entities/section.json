@@ -1,0 +1,1510 @@
+[
+ {
+  "id": "g1/cover",
+  "kind": "admin",
+  "title": "आवरण",
+  "pdf": [
+   1,
+   1
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 1,
+   "printed": null
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/nipun-list",
+  "kind": "program",
+  "title": "निपुण सूची - हिंदी (कक्षा-1)",
+  "pdf": [
+   2,
+   2
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 2,
+   "printed": null
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/title-page",
+  "kind": "admin",
+  "title": "शीर्षक पृष्ठ",
+  "pdf": [
+   3,
+   3
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 3,
+   "printed": 1
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/credits",
+  "kind": "admin",
+  "title": "संरक्षण / लेखन मंडल",
+  "pdf": [
+   4,
+   4
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 4,
+   "printed": 2
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/contents",
+  "kind": "admin",
+  "title": "विषय सूची",
+  "pdf": [
+   5,
+   5
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 5,
+   "printed": 3
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/annual-weekly-tracker",
+  "kind": "tracker",
+  "title": "वार्षिक साप्ताहिक ट्रैकर (2026-27)",
+  "pdf": [
+   6,
+   6
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 6,
+   "printed": 4
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/guide-usage",
+  "kind": "program",
+  "title": "संदर्शिका का उपयोग",
+  "pdf": [
+   7,
+   7
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 7,
+   "printed": 5
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/article-checking-understanding",
+  "kind": "article",
+  "title": "समझ की जाँच",
+  "pdf": [
+   8,
+   9
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 8,
+   "printed": 6
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/article-systematic-decoding",
+  "kind": "article",
+  "title": "व्यवस्थित डिकोडिंग",
+  "pdf": [
+   10,
+   11
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 10,
+   "printed": 8
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/article-emergent-writing",
+  "kind": "article",
+  "title": "उभरता लेखन से स्वतंत्र लेखन की ओर",
+  "pdf": [
+   12,
+   12
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 12,
+   "printed": 10
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/article-gender-sensitivity",
+  "kind": "article",
+  "title": "प्रारंभिक कक्षाओं में जेंडर संवेदनशीलता",
+  "pdf": [
+   13,
+   14
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 13,
+   "printed": 11
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/annual-objectives",
+  "kind": "program",
+  "title": "2026-27 वार्षिक शिक्षण उद्देश्य",
+  "pdf": [
+   15,
+   15
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 15,
+   "printed": 13
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/weekly-cycle",
+  "kind": "program",
+  "title": "सप्ताह दिवस साप्ताहिक शिक्षण चक्र",
+  "pdf": [
+   16,
+   16
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 16,
+   "printed": 14
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/materials",
+  "kind": "program",
+  "title": "शिक्षण सामग्रियों का विवरण",
+  "pdf": [
+   17,
+   17
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 17,
+   "printed": 15
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/period-outline",
+  "kind": "program",
+  "title": "कालांशों की रूपरेखा",
+  "pdf": [
+   18,
+   18
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 18,
+   "printed": 16
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/daily-plans",
+  "kind": "plans",
+  "title": "दैनिक शिक्षण योजना",
+  "pdf": [
+   19,
+   110
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 19,
+   "printed": 17
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/routines-period-1",
+  "kind": "routines",
+  "title": "कालांश-1 की गतिविधियों का विवरण",
+  "pdf": [
+   111,
+   123
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 111,
+   "printed": 109
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/routines-period-2",
+  "kind": "routines",
+  "title": "कालांश-2 की गतिविधियों का विवरण",
+  "pdf": [
+   124,
+   130
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 124,
+   "printed": 122
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/routines-period-3",
+  "kind": "routines",
+  "title": "कालांश-3 की गतिविधियों का विवरण",
+  "pdf": [
+   131,
+   132
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 131,
+   "printed": 129
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/weekly-assessment",
+  "kind": "assessment",
+  "title": "साप्ताहिक आकलन",
+  "pdf": [
+   133,
+   134
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 133,
+   "printed": 131
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/remedial-strategy",
+  "kind": "assessment",
+  "title": "दैनिक रिमीडियल शिक्षण कार्य की रणनीति",
+  "pdf": [
+   135,
+   137
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 135,
+   "printed": 133
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/oral-language-assessment",
+  "kind": "assessment",
+  "title": "मौखिक भाषा विकास का आकलन",
+  "pdf": [
+   138,
+   138
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 138,
+   "printed": 136
+  },
+  "note": "page heading reads मौखिक भाषा विकास का अवलोकन",
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/stories-poems",
+  "kind": "resources",
+  "title": "कहानियाँ एवं कविताएँ",
+  "pdf": [
+   139,
+   140
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 139,
+   "printed": 137
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/grids",
+  "kind": "resources",
+  "title": "ग्रिड: विभिन्न सप्ताहों में उपयोग हेतु",
+  "pdf": [
+   141,
+   148
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 141,
+   "printed": 139
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/weekly-assessment-tracker",
+  "kind": "tracker",
+  "title": "साप्ताहिक आकलन ट्रैकर",
+  "pdf": [
+   149,
+   150
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 149,
+   "printed": 147
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/teaching-reminders",
+  "kind": "program",
+  "title": "भाषा शिक्षण में ध्यान रखने योग्य बातें",
+  "pdf": [
+   151,
+   151
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 151,
+   "printed": 149
+  },
+  "note": "not in the contents page",
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g1/anthem",
+  "kind": "admin",
+  "title": "राष्ट्रगान",
+  "pdf": [
+   152,
+   152
+  ],
+  "source": {
+   "doc": "guide-g1-00970fd3c1e8",
+   "pdf": 152,
+   "printed": 150
+  },
+  "grade": 1,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/cover",
+  "kind": "admin",
+  "title": "आवरण",
+  "pdf": [
+   1,
+   1
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 1,
+   "printed": null
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/nipun-list",
+  "kind": "program",
+  "title": "निपुण सूची - हिंदी (कक्षा-2)",
+  "pdf": [
+   2,
+   2
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 2,
+   "printed": null
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/title-page",
+  "kind": "admin",
+  "title": "शीर्षक पृष्ठ",
+  "pdf": [
+   3,
+   3
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 3,
+   "printed": 1
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/credits",
+  "kind": "admin",
+  "title": "संरक्षण / लेखन मंडल",
+  "pdf": [
+   4,
+   4
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 4,
+   "printed": 2
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/contents",
+  "kind": "admin",
+  "title": "विषय सूची",
+  "pdf": [
+   5,
+   5
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 5,
+   "printed": 3
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/annual-weekly-tracker",
+  "kind": "tracker",
+  "title": "वार्षिक साप्ताहिक ट्रैकर (2026-27)",
+  "pdf": [
+   6,
+   7
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 6,
+   "printed": 4
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/guide-usage",
+  "kind": "program",
+  "title": "संदर्शिका का उपयोग",
+  "pdf": [
+   8,
+   8
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 8,
+   "printed": 6
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/article-oral-language-strategies",
+  "kind": "article",
+  "title": "मौखिक भाषा विकास की रणनीतियाँ",
+  "pdf": [
+   9,
+   9
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 9,
+   "printed": 7
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/article-checking-understanding",
+  "kind": "article",
+  "title": "समझ की जाँच",
+  "pdf": [
+   10,
+   11
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 10,
+   "printed": 8
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/article-scaffolding-pair-group",
+  "kind": "article",
+  "title": "स्कैफोल्डिंग एवं जोड़ी-समूह में कार्य",
+  "pdf": [
+   12,
+   12
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 12,
+   "printed": 10
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/article-gender-sensitivity",
+  "kind": "article",
+  "title": "प्रारम्भिक कक्षाओं में जेंडर संवेदनशीलता",
+  "pdf": [
+   13,
+   14
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 13,
+   "printed": 11
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/annual-objectives",
+  "kind": "program",
+  "title": "2026-27 वार्षिक शिक्षण उद्देश्य",
+  "pdf": [
+   15,
+   15
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 15,
+   "printed": 13
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/weekly-cycle",
+  "kind": "program",
+  "title": "सप्ताह दिवस साप्ताहिक शिक्षण चक्र",
+  "pdf": [
+   16,
+   16
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 16,
+   "printed": 14
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/materials",
+  "kind": "program",
+  "title": "शिक्षण सामग्रियों का विवरण",
+  "pdf": [
+   17,
+   17
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 17,
+   "printed": 15
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/period-outline",
+  "kind": "program",
+  "title": "कालांशों की रूपरेखा",
+  "pdf": [
+   18,
+   18
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 18,
+   "printed": 16
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/daily-plans",
+  "kind": "plans",
+  "title": "दैनिक शिक्षण योजनाएँ",
+  "pdf": [
+   19,
+   158
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 19,
+   "printed": 17
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/routines-period-1",
+  "kind": "routines",
+  "title": "कालांश-1 में कार्य करने की रणनीतियाँ",
+  "pdf": [
+   159,
+   172
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 159,
+   "printed": 157
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/routines-period-2",
+  "kind": "routines",
+  "title": "कालांश-2 में कार्य करने की रणनीतियाँ",
+  "pdf": [
+   173,
+   178
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 173,
+   "printed": 171
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/routines-period-3",
+  "kind": "routines",
+  "title": "कालांश-3 में कार्य करने की रणनीतियाँ",
+  "pdf": [
+   179,
+   181
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 179,
+   "printed": 177
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/assessment-remedial",
+  "kind": "assessment",
+  "title": "आकलन एवं दैनिक रिमीडियल कार्य",
+  "pdf": [
+   182,
+   184
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 182,
+   "printed": 180
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/oral-language-assessment",
+  "kind": "assessment",
+  "title": "मौखिक भाषा विकास का आकलन",
+  "pdf": [
+   185,
+   185
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 185,
+   "printed": 183
+  },
+  "note": "page heading reads मौखिक भाषा विकास का अवलोकन",
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/stories",
+  "kind": "resources",
+  "title": "कहानियाँ",
+  "pdf": [
+   186,
+   190
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 186,
+   "printed": 184
+  },
+  "note": "contents says printed 184-189 (pdf 186-191); the poems heading is on pdf 191",
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/poems",
+  "kind": "resources",
+  "title": "कविताएँ",
+  "pdf": [
+   191,
+   193
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 191,
+   "printed": 189
+  },
+  "note": "pdf 192 also carries the end of story 15",
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/weekly-assessment-tracker",
+  "kind": "tracker",
+  "title": "साप्ताहिक आकलन ट्रैकर",
+  "pdf": [
+   194,
+   198
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 194,
+   "printed": 192
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/teaching-reminders",
+  "kind": "program",
+  "title": "भाषा शिक्षण में ध्यान रखने योग्य बातें",
+  "pdf": [
+   199,
+   199
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 199,
+   "printed": 197
+  },
+  "note": "not in the contents page",
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g2/anthem",
+  "kind": "admin",
+  "title": "राष्ट्रगान",
+  "pdf": [
+   200,
+   200
+  ],
+  "source": {
+   "doc": "guide-g2-d86262b7a94c",
+   "pdf": 200,
+   "printed": 198
+  },
+  "grade": 2,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/cover",
+  "kind": "admin",
+  "title": "आवरण",
+  "pdf": [
+   1,
+   1
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 1,
+   "printed": null
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/nipun-list",
+  "kind": "program",
+  "title": "निपुण सूची - हिंदी (कक्षा-3)",
+  "pdf": [
+   2,
+   2
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 2,
+   "printed": null
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/title-page",
+  "kind": "admin",
+  "title": "शीर्षक पृष्ठ",
+  "pdf": [
+   3,
+   3
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 3,
+   "printed": 1
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/credits",
+  "kind": "admin",
+  "title": "संरक्षण / लेखन मंडल",
+  "pdf": [
+   4,
+   4
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 4,
+   "printed": 2
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/contents",
+  "kind": "admin",
+  "title": "विषय सूची",
+  "pdf": [
+   5,
+   5
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 5,
+   "printed": 3
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/annual-weekly-tracker",
+  "kind": "tracker",
+  "title": "वार्षिक साप्ताहिक ट्रैकर (2026-27)",
+  "pdf": [
+   6,
+   7
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 6,
+   "printed": 4
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/guide-usage",
+  "kind": "program",
+  "title": "संदर्शिका का उपयोग",
+  "pdf": [
+   8,
+   8
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 8,
+   "printed": 6
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/article-structured-pedagogy",
+  "kind": "article",
+  "title": "संरचित शिक्षणशास्त्र और इसका महत्व",
+  "pdf": [
+   9,
+   9
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 9,
+   "printed": 7
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/article-checking-understanding",
+  "kind": "article",
+  "title": "समझ की जाँच",
+  "pdf": [
+   10,
+   11
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 10,
+   "printed": 8
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/article-writing-for-expression",
+  "kind": "article",
+  "title": "अभिव्यक्ति के लिए लेखन",
+  "pdf": [
+   12,
+   12
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 12,
+   "printed": 10
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/article-gender-sensitivity",
+  "kind": "article",
+  "title": "प्रारम्भिक कक्षाओं में जेंडर संवेदनशीलता",
+  "pdf": [
+   13,
+   14
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 13,
+   "printed": 11
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/annual-objectives",
+  "kind": "program",
+  "title": "2026-27 वार्षिक शिक्षण उद्देश्य",
+  "pdf": [
+   15,
+   15
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 15,
+   "printed": 13
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/weekly-cycle",
+  "kind": "program",
+  "title": "सप्ताह दिवस साप्ताहिक शिक्षण चक्र",
+  "pdf": [
+   16,
+   16
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 16,
+   "printed": 14
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/materials",
+  "kind": "program",
+  "title": "शिक्षण सामग्रियों का विवरण",
+  "pdf": [
+   17,
+   17
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 17,
+   "printed": 15
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/period-outline",
+  "kind": "program",
+  "title": "कालांशों की रूपरेखा",
+  "pdf": [
+   18,
+   18
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 18,
+   "printed": 16
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/daily-plans",
+  "kind": "plans",
+  "title": "दैनिक शिक्षण योजनाएँ",
+  "pdf": [
+   19,
+   158
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 19,
+   "printed": 17
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/routines-period-1",
+  "kind": "routines",
+  "title": "कालांश-1 में कार्य करने की रणनीतियाँ",
+  "pdf": [
+   159,
+   170
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 159,
+   "printed": 157
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/routines-period-2",
+  "kind": "routines",
+  "title": "कालांश-2 में कार्य करने की रणनीतियाँ",
+  "pdf": [
+   171,
+   176
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 171,
+   "printed": 169
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/routines-period-3",
+  "kind": "routines",
+  "title": "कालांश-3 में कार्य करने की रणनीतियाँ",
+  "pdf": [
+   177,
+   179
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 177,
+   "printed": 175
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/assessment-remedial",
+  "kind": "assessment",
+  "title": "आकलन एवं दैनिक रिमीडियल कार्य",
+  "pdf": [
+   180,
+   182
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 180,
+   "printed": 178
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/oral-language-assessment",
+  "kind": "assessment",
+  "title": "मौखिक भाषा विकास का अवलोकन",
+  "pdf": [
+   183,
+   183
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 183,
+   "printed": 181
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/stories",
+  "kind": "resources",
+  "title": "कहानियाँ",
+  "pdf": [
+   184,
+   191
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 184,
+   "printed": 182
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/poems",
+  "kind": "resources",
+  "title": "कविताएँ",
+  "pdf": [
+   192,
+   193
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 192,
+   "printed": 190
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/weekly-assessment-tracker",
+  "kind": "tracker",
+  "title": "साप्ताहिक आकलन ट्रैकर",
+  "pdf": [
+   194,
+   198
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 194,
+   "printed": 192
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/teaching-reminders",
+  "kind": "program",
+  "title": "भाषा शिक्षण में ध्यान रखने योग्य बातें",
+  "pdf": [
+   199,
+   199
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 199,
+   "printed": 197
+  },
+  "note": "not in the contents page",
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "g3/anthem",
+  "kind": "admin",
+  "title": "राष्ट्रगान",
+  "pdf": [
+   200,
+   200
+  ],
+  "source": {
+   "doc": "guide-g3-ab99c837f781",
+   "pdf": 200,
+   "printed": 198
+  },
+  "grade": 3,
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ }
+]
