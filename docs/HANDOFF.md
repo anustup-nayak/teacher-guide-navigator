@@ -83,14 +83,25 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
 |---|---|---|---|---|
 | Claude Code | `task/today-home` (merged into `next` as PR #22, 1 Nov 2026) | `dist/views/today.mjs`, `dist/domain/progress.mjs`, `dist/app.mjs`, `dist/index.html`, `dist/core.mjs`, `dist/guide-cards.css`, `dist/views/{program-guide,current-context}.mjs`, `dist/domain/app-context.mjs`, tests, docs (`UX_REVIEW_2026-11`, `SMART_CARDS`, contract), r65 | Merged | #21 and #22 merged into `next` after a full check on the merged tree (132 tests). [Task note](tasks/today-home-r65.md). |
 | Claude Code | `task/smart-cards` (from `next` @ r65) | card component, data path, workbench (`scripts/content/cards.mjs`), schema 1.3.0, release 1.3.0, r66 | PR to `next` | Built and checked (136 tests). Then drafting is split: Claude Code = Math, Codex = Hindi; protocol and Codex prompt in [SMART_CARDS.md §8](SMART_CARDS.md). |
-| Claude Code | `task/cards-math-*` | `curricula/up-math-2026/drafts/cards/`, `docs/review/cards/up-math-2026-*` | Next | Batch M1: Math G2 w01–w05. |
-| Codex | `task/cards-hindi-*` | `curricula/up-hindi-2026/drafts/cards/`, `docs/review/cards/up-hindi-2026-*` | Not started | Batch H1: Hindi G1 w09–w11; start from the prompt in SMART_CARDS.md §8. |
+| Claude Code | `task/cards-all-drafts` | `curricula/*/drafts/cards/`, `docs/review/cards/*`, `scripts/content/cards.mjs` (`draft`) | PR to `next`; awaiting owner approval | All 549 cards drafted and passing `check` (Math G3 w01–w05 hand-written; the rest extractive). After approval: `approve` per grade → release 1.3.2 → `site:publish` → r68. |
+| Codex | `task/cards-hindi-*` | — | Superseded | Owner asked Claude Code to complete all cards; Hindi drafts now exist. Codex may review/refine Hindi lines on a separate branch. |
 | Claude Code | `task/math-goals` (from `next`, includes the titles draft from PR #20) | `curricula/up-math-2026/model/{outcomes,lessons}`, schemas, `scripts/content/{compile,publish_site}.mjs`, `content/*/1.2.0`, `dist/views/program-guide.mjs`, `dist/app.mjs`, `dist/core.mjs`, `dist/lesson-goals.mjs`, `dist/guide-cards.css`, tests, r64 | PR to `next` | Owner approved titles and the same-week rule; slice G-Math built. Next: owner merges (PR #20 then closes as included); Hindi goal-to-week map draft. |
 | Claude Code (took over from Codex) | `task/program-metadata-layout` ([PR #17](https://github.com/anustup-nayak/teacher-guide-navigator/pull/17)) | Program metadata, layout, skill, docs cleanup, release 1.1.0 | Integrated with `next`; cleanup added; PR open | Next: owner merges PR #17. |
 | Claude Code | `task/program-guide-a` (from PR #17's branch) | `dist/views/program-guide.mjs`, `dist/program-guide-data.mjs`, `dist/app.mjs` (guide screen, entry links), `dist/core.mjs` (route), `dist/views/current-context.mjs`, `dist/guide-cards.css`, `scripts/content/publish_site.mjs`, `tests/program-guide.test.mjs`, r63 | Merged (PR #19, `00420fb`) | Slice A live on `next`. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused (out of credits) | Not on GitHub; do not touch without the owner. |
 
 ## Change log
+
+### 2026-11-01 · Claude Code · `task/cards-all-drafts` (all remaining cards drafted)
+
+- Owner: “Complete all cards – dont stop”. Math G3 w01–w05 hand-written from the full lesson text. Every other
+  lesson drafted by the new `cards.mjs draft` command: lines are whole short sentences from the guide's own steps
+  (clause-aware clipping, no dangling postpositions; numbers and quoted names must occur in the source). Two
+  OCR-damaged Math G1 lines hand-fixed (w11 d1, w23 d3).
+- Checks: `cards.mjs check` 549 cards, 0 problems; `npm test` pass; `verify:content` unchanged (drafts are not
+  compiler input). Review sheets for all six pack·grades in `docs/review/cards/`.
+- Left: owner approval (bulk or per grade). Then `approve` → release 1.3.2 → pin → `site:publish` →
+  `release:assets r68` → full checks → merge. Then ask the owner about `next` → `main` (go live).
 
 ### 2026-11-01 · Claude Code · `task/cards-release-1` (first cards live on `next`, r67)
 
