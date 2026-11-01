@@ -30,7 +30,7 @@ cutover is approved by the owner.
 - `v1.0.3` = `main` @ `4be3376`, release r60 (restored quoted vowel signs in 13 Hindi lessons).
 - `v1.0.4` = `main` @ `49f873c`, release r61 (lesson links find their subject from the lesson id).
 - v2 previews: `v2.0.0-alpha.N`; release candidates `v2.0.0-rc.N`; cutover `v2.0.0`.
-- `v2.0.0` identifies the owner-approved v2 cutover, release r69, content 1.3.3 (owner, 1 Nov 2026: “Publish … make it clean production ready”). Tag the verified cutover commit after deployment. The Pages artifact stages frozen `v1.0.4` at `/v1/`; rollback is by reverting the cutover merge.
+- `v2.0.0` identifies the owner-approved v2 cutover, release r69, content 1.3.3 (owner, 1 Nov 2026: “Publish … make it clean production ready”). Tag `v2.0.0` points to verified cutover commit `edd31db543ef9eceee39e97f69d5bd3f7cc6bbda`. The Pages artifact stages frozen `v1.0.4` at `/v1/`; rollback is by reverting the cutover merge.
 
 Rollback at any time: revert the offending merge on `main` by PR (Pages redeploys the
 previous build). No data migration is needed because every version keeps the v1 lesson IDs
