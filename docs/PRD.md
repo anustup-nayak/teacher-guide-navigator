@@ -47,6 +47,33 @@ Jobs:
 - Across editions/curricula: switch supported packs without mixing resources or
   teacher data and without breaking existing links.
 
+### Personas (canonical set)
+
+These are recovered from the owner's [UX review](UX_REVIEW_2026-11.md) of 1 Nov 2026. They are hypotheses to test in the
+field, not measured segments. Every UX change and the E2E journey suite (`tests/e2e/journeys.cjs`) uses them.
+
+| ID | Archetype | Comes to the app for | What the app must do for them |
+|---|---|---|---|
+| A | Compliance checker: trained, follows the routine because the system asks | Today's lesson and worksheet page, fast | Next lesson on आज in one tap; the goal line answers a mentor's question |
+| B | Textbook loyalist: sees the guide as one more document from above | A worksheet page or a quick activity | Search and the workbook page within two taps; the smart card shows the whole lesson so a lifted activity sits in context |
+| C | Willing novice: newer, wants to do it right | Step-by-step help and reassurance | Card lines lead to each step in order; "you are here", "next" and taught marks |
+| D | Practised adapter: departs from the guide on purpose | Activity bank, year map, original pages | पूरा साल goals and weeks; every lesson reachable directly; nothing assumes the script |
+| E | Multigrade juggler: two or three grades in one room | Lessons for several grades | The grade and subject switch keeps its controls open; each grade keeps its own progress |
+| F | Mentor (ARP, SRG, head teacher): visits and observes | Where a teacher should be, and what to look for | Goal codes, year strip and shareable deep links |
+
+**Primary stress case** (owner): low digital confidence, low understanding of structured pedagogy, low motivation to
+use the guide. This is closest to B with C's anxiety. Design for this teacher first.
+
+### Current product (r70)
+
+- **आज** (default): the next lesson in the guide's order, this week's six days, school readiness for weeks 1–8,
+  and taught prompts.
+- **पूरा साल**: year goals, how a week runs, periods and pages.
+- **सभी पाठ**: search, browse by topic or by week and day.
+- **Lessons:** every lesson opens on an owner-approved smart card (549 cards). The card summarises the guide's own
+  steps (Math) or periods (Hindi) and links each line to the full step below.
+- **Look and feel:** a single design system with tokens and self-hosted Noto fonts ([DESIGN_SYSTEM.md](DESIGN_SYSTEM.md)).
+
 ## Entry and agent-operated discovery
 
 The operator's first step is providing/uploading or pointing to the Teacher Guide
@@ -85,6 +112,7 @@ acceptance tests; it is not ignored or treated as permission for unrelated work.
 | P15 | Cold-start import failure/stall offers static retry. Cached operation handles network throws and HTTP 5xx. Recovery never requires clearing teacher data |
 | P16 | Phone layouts are readable at 360/390px and reflow ordinary text at 320px/200% lesson text. Keyboard focus is visible; touch controls comfortable; diagrams have meaningful equivalents or explicit review limits |
 | P17 | Separate packs derive grades/resources from data and share runtime modules. Stable namespaces/IDs and legacy UP links remain; adding content must not fork the entire app |
+| P19 | Every visual value comes from design tokens; no text under 13px; primary controls 48px; verified by `tests/design-system.test.mjs` and `npm run test:e2e` ([DESIGN_SYSTEM.md](DESIGN_SYSTEM.md)) |
 | P18 | Authorized sources progress through immutable originals, unreviewed extraction, reviewed content and explicit publication with checksums/provenance and reproducible adapters |
 
 ## Priorities and exclusions

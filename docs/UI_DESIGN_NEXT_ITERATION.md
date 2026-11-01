@@ -1,5 +1,7 @@
 # Sandarshika — next iteration: UI audit and design specification
 
+> **Status (1 Nov 2026):** answered by [AUDIT_2026-11-PRODUCTION.md](AUDIT_2026-11-PRODUCTION.md) and [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md) (r70). The owner approved unsupervised execution. The human teacher study in the protocol remains open. This brief is now a record.
+
 Recorded 1 November 2026, following the owner's request. Start after the current r69 production release and live verification are complete. This is a review brief, not approval to implement a redesign now.
 
 ## Intended outcome

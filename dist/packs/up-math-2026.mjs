@@ -1,4 +1,4 @@
-import {LESSONS} from '../data.mjs?v=r69';
+import {LESSONS} from '../data.mjs?v=r70';
 
 export const UP_MATH_2026={
   id:'up-math-2026',

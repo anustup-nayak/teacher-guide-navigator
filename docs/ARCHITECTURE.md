@@ -44,6 +44,12 @@ Browser storage/service worker are origin-scoped infrastructure, not cloud sync.
 | `dist/views/program-guide.mjs` | `createProgramGuide({data,pack,e,t,lang,gradeLabel,subjectLabel})` → `render(section,{grade,week,lessonIds})`, `title(section)`; pure HTML from `dist/program-guide-data.mjs` (generated from the content release); imported on demand by app.mjs for `#/guide…` |
 | `dist/views/lesson-media.mjs` | `createLessonMedia({curriculum,prefs,t,e,stage,list})` → crop/caption/alt/artwork/worksheet rendering; no fetching or persistence |
 | `dist/lesson-navigation.mjs`, `lesson-visuals.mjs` | Pure section tracking, crop geometry, source palette and asset dependency calculations |
+| `dist/views/today.mjs` | `renderToday({...})`: pure HTML for आज (next lesson, week strip, readiness, taught prompt, list rows) |
+| `dist/views/smart-card.mjs` | `renderSmartCard({card,lesson,…})`: pure HTML for the owner-approved card (`steps` or `periods` layout) from `dist/lesson-cards.mjs` |
+| `dist/views/current-context.mjs`, `curriculum-switcher.mjs` | Context-bar identity/location text and grade/subject controls |
+| `dist/domain/progress.mjs` | Pure teacher position, week and goal progress, previous/next chain, taught-prompt rules |
+| `dist/styles.css`, `dist/guide-cards.css` | Design system: tokens, base and layout (first file); screens and the canonical component layer (second file, loaded last). See [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md) |
+| `dist/fonts/` | Self-hosted Noto Sans Devanagari / Noto Sans (OFL), precached by the worker |
 | `dist/sw.js` | Shared shell/image cache and message implementation; integrity-preserving upgrade and server/network fallback |
 
 Dependency direction: composition → features/views/services → domain/pure helpers.
@@ -56,6 +62,12 @@ The composition module intentionally still owns screen markup and navigation;
 this refactor does not claim a complete component framework migration. New feature
 work can extract another view when useful, using the same explicit interfaces.
 Avoid broad ambient globals or an opaque context bag containing the entire app.
+
+**Where new code goes (r70).** New screens are pure HTML builders in `dist/views/` that take data and the `t`/`e`
+helpers and return markup; `app.mjs` supplies data and wires events. Pure rules go in `dist/domain/`. Styling uses
+design tokens only; `tests/design-system.test.mjs` enforces this. Next extraction candidates, as bounded slices with
+the E2E suite as the safety net: the lesson body (`lessonView`), the सभी पाठ browse screen, and Saved and Help. The
+r70 audit (E3) recorded these rather than attempting a risky one-shot split of `app.mjs`.
 
 ## Data/control flow
 

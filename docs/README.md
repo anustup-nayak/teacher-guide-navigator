@@ -12,17 +12,22 @@ first table wins and the other should be corrected in the same change.
 | [HANDOFF.md](HANDOFF.md) | Current state, next steps, active work, change log |
 | [DEVELOPMENT.md](DEVELOPMENT.md) | Commands, checks, changing and releasing |
 | [VERSIONING.md](VERSIONING.md) | Branches (`main` production, `next` integration, frozen `release/v1`), tags and rollback |
+| [WORKFLOWS.md](WORKFLOWS.md) | Runbooks: release, UI change, smart cards, content repair, new packs, rollback, handoff |
 
 ## Product and design
 
 | Document | Use it for |
 |---|---|
 | [PRD.md](PRD.md) | Users, requirements, priorities, exclusions |
+| [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md) | **Canonical UI specification**: tokens, type, colour roles, components, accessibility |
 | [DESIGN_CONTRACT.md](DESIGN_CONTRACT.md) | Frozen look, feel and flow (owner approval to change) |
-| [VISUAL_DESIGN.md](VISUAL_DESIGN.md) | Source-led card geometry and palettes |
+| [VISUAL_DESIGN.md](VISUAL_DESIGN.md) | Source-led lesson card geometry (values now come from DESIGN_SYSTEM tokens) |
 | [PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md), [review/math-goal-titles.md](review/math-goal-titles.md) | Approved design record: guide structure and Math goals are live; Hindi goal mapping and later slices remain separate work |
 | [SMART_CARDS.md](SMART_CARDS.md) | Published card contract, review/approval and future card authoring |
-| [UI_DESIGN_NEXT_ITERATION.md](UI_DESIGN_NEXT_ITERATION.md), [TEACHER_UX_AUDIT_PROTOCOL.md](TEACHER_UX_AUDIT_PROTOCOL.md) | Next iteration: review-first design specification and teacher-centred workflow audit |
+| [AUDIT_2026-11-PRODUCTION.md](AUDIT_2026-11-PRODUCTION.md) | Production audit (UI, UX, engineering, docs): goals, issue register, what r70 fixed |
+| [TEACHER_UX_AUDIT_PROTOCOL.md](TEACHER_UX_AUDIT_PROTOCOL.md) | Protocol for the human teacher study (still open) |
+| [UI_DESIGN_NEXT_ITERATION.md](UI_DESIGN_NEXT_ITERATION.md) | The brief that the production audit answered (record) |
+| [review/ocr-matra-defects.md](review/ocr-matra-defects.md) | Open content defects: detached vowel signs to repair against the source |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Runtime modules, data flow, curriculum instances |
 
 ## Content system

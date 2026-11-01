@@ -12,6 +12,8 @@ for(const file of walk('dist').filter(f=>(f.endsWith('.mjs')&&!f.endsWith('/cata
 const root=new URL('../dist/',import.meta.url),assets=new Set(['./','index.html','asset-manifest.json']),visited=new Set();
 function visit(asset){if(visited.has(asset))return;visited.add(asset);assets.add(asset);assets.add(asset.split('?')[0]);if(!asset.split('?')[0].endsWith('.mjs'))return;const source=fs.readFileSync(new URL(asset.split('?')[0],root),'utf8');for(const match of source.matchAll(/(?:from\s*|import\s*\(?\s*)['"](\.\.?\/[^'"]+)['"]/g)){const url=new URL(match[1],new URL(asset,root));visit(url.pathname.slice(root.pathname.length)+url.search);}}
 const html=fs.readFileSync('dist/index.html','utf8');for(const match of html.matchAll(/(?:href|src)="([^"#]+\.(?:mjs|css)(?:\?[^\"]*)?)"/g))visit(match[1]);
+// Stylesheet dependencies (self-hosted fonts, images) are part of the offline shell too.
+for(const css of ['styles.css','guide-cards.css'])for(const match of fs.readFileSync(`dist/${css}`,'utf8').matchAll(/url\("?([^")#]+)"?\)/g))if(!match[1].startsWith('data:'))assets.add(match[1]);
 const {CURRICULA}=await import(new URL('curricula.mjs',root));
 const appVersion=fs.readFileSync('dist/app.mjs','utf8').match(/VERSION='([^']+)'/)[1];
 for(const pack of CURRICULA){assets.add(pack.resources);assets.add(pack.resources+(pack.resources.includes('?')?'&':'?')+'v='+encodeURIComponent(appVersion));assets.add(pack.worksheets);}
