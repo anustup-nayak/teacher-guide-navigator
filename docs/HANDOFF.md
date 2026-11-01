@@ -92,6 +92,14 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
 
 ## Change log
 
+### 2026-11-01 · Claude Code · `task/cards-release-1` (first cards live on `next`, r67)
+
+- Owner approved batch M1 (“Go Ahead”, chat, 1 Nov 2026) after reviewing the 16 rendered Math G2 cards (w01–w05 and
+  w14 d1). `cards.mjs approve` moved them to `curricula/up-math-2026/model/cards/g2.json`; content release 1.3.1
+  (previous 1.3.0), website pinned to it, `dist/lesson-cards.mjs` now carries 16 cards. Release tokens r67.
+- Checks: `npm test`, `check`, `verify:site`, `verify:content`, `verify:program`, `verify:publication`, `design:check`.
+- Next: Math G3 batch (Claude Code); Hindi batches (Codex, SMART_CARDS.md §8).
+
 ### 2026-11-01 · Claude Code · `task/smart-cards` (r66, smart-card component and workbench)
 
 - Owner decisions (chat, 1 Nov 2026): layout A (`steps`) for Math, B (`periods`) for Hindi; card first, step chips

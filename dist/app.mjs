@@ -1,25 +1,25 @@
-import {describeCurrentContext} from './views/current-context.mjs?v=r66';
-import {groupKey,selectionForGroup,packForSelection,selectionURL,gradeLabel,packForLessonId,lessonURL} from './domain/selection.mjs?v=r66';
-import {renderCurriculumSwitcher} from './views/curriculum-switcher.mjs?v=r66';
-import {createAppContext,browserStorage} from './domain/app-context.mjs?v=r66';
-import {createResourceRepository} from './services/resources.mjs?v=r66';
-import {createReader} from './features/reader.mjs?v=r66';
-import {createOfflineController} from './features/offline.mjs?v=r66';
-import {createLessonMedia} from './views/lesson-media.mjs?v=r66';
-import {resumeForGrade,searchLessons,teachingInstructions,displayText,lessonTitle,lessonSummary,dayLabel,notesExportText} from './ux.mjs?v=r66';
-import {DAY_TYPES} from './day-types.mjs?v=r66';
-import {LESSON_GOALS} from './lesson-goals.mjs?v=r66';
-import {phaseVisual,lessonPalette} from './lesson-visuals.mjs?v=r66';
-import {lessonSections,sectionAtOffset,canTrackLesson} from './lesson-navigation.mjs?v=r66';
-import {CURRICULA,reviewWeeksFor} from './curricula.mjs?v=r66';
-import {teacherPosition,weekLessons,lessonChain,lessonGoals,shouldAskTaught,dismissTaught,confirmTaught} from './domain/progress.mjs?v=r66';
-import {renderToday} from './views/today.mjs?v=r66';
-import {renderSmartCard} from './views/smart-card.mjs?v=r66';
-import {LESSON_CARDS} from './lesson-cards.mjs?v=r66';
-import {escapeHTML,findLessons,getLesson,groupTopics,neighbours,parseRoute,mergeNotes} from './core.mjs?v=r66';
+import {describeCurrentContext} from './views/current-context.mjs?v=r67';
+import {groupKey,selectionForGroup,packForSelection,selectionURL,gradeLabel,packForLessonId,lessonURL} from './domain/selection.mjs?v=r67';
+import {renderCurriculumSwitcher} from './views/curriculum-switcher.mjs?v=r67';
+import {createAppContext,browserStorage} from './domain/app-context.mjs?v=r67';
+import {createResourceRepository} from './services/resources.mjs?v=r67';
+import {createReader} from './features/reader.mjs?v=r67';
+import {createOfflineController} from './features/offline.mjs?v=r67';
+import {createLessonMedia} from './views/lesson-media.mjs?v=r67';
+import {resumeForGrade,searchLessons,teachingInstructions,displayText,lessonTitle,lessonSummary,dayLabel,notesExportText} from './ux.mjs?v=r67';
+import {DAY_TYPES} from './day-types.mjs?v=r67';
+import {LESSON_GOALS} from './lesson-goals.mjs?v=r67';
+import {phaseVisual,lessonPalette} from './lesson-visuals.mjs?v=r67';
+import {lessonSections,sectionAtOffset,canTrackLesson} from './lesson-navigation.mjs?v=r67';
+import {CURRICULA,reviewWeeksFor} from './curricula.mjs?v=r67';
+import {teacherPosition,weekLessons,lessonChain,lessonGoals,shouldAskTaught,dismissTaught,confirmTaught} from './domain/progress.mjs?v=r67';
+import {renderToday} from './views/today.mjs?v=r67';
+import {renderSmartCard} from './views/smart-card.mjs?v=r67';
+import {LESSON_CARDS} from './lesson-cards.mjs?v=r67';
+import {escapeHTML,findLessons,getLesson,groupTopics,neighbours,parseRoute,mergeNotes} from './core.mjs?v=r67';
 const context=createAppContext({packs:CURRICULA,search:location.search,storage:browserStorage()});
 const {curriculum,grades,store,prefs,readObj,persist}=context;
-const LESSONS=curriculum.lessons,KEY=curriculum.storageKey,VERSION='2026-11-01-r66';
+const LESSONS=curriculum.lessons,KEY=curriculum.storageKey,VERSION='2026-11-01-r67';
 const e=value=>escapeHTML(displayText(value));
 const $=s=>document.querySelector(s),main=$('#main');
 const t=(hi,en)=>prefs.lang==='en'?en:hi;
@@ -55,7 +55,7 @@ function downloadText(filename,text,type='text/plain'){const url=URL.createObjec
 // Program guide (docs/PROGRAM_GUIDE_DESIGN.md): its view and generated data load only when opened.
 let guideModules=null,guideLoading=null;
 function programGuide(){return guideModules&&guideModules[0].createProgramGuide({data:guideModules[1].PROGRAM_GUIDE,pack:curriculum,e,t,lang:prefs.lang,gradeLabel:g=>gradeLabel(curriculum,g,prefs.lang),subjectLabel:curriculum.subjectLabel[prefs.lang]});}
-function loadGuide(){return guideLoading||(guideLoading=Promise.all([import('./views/program-guide.mjs?v=r66'),import('./program-guide-data.mjs?v=r66')]).then(m=>{guideModules=m;if(route.screen==='guide'||route.screen==='today'){const y=window.scrollY;render();window.scrollTo(0,y);}}));}
+function loadGuide(){return guideLoading||(guideLoading=Promise.all([import('./views/program-guide.mjs?v=r67'),import('./program-guide-data.mjs?v=r67')]).then(m=>{guideModules=m;if(route.screen==='guide'||route.screen==='today'){const y=window.scrollY;render();window.scrollTo(0,y);}}));}
 function guideScreen(){if(!guideModules){if(!guideLoading)loadGuide().catch(()=>{guideLoading=null;if(route.screen==='guide')main.innerHTML=`<section class="panel"><h1>${t('संदर्शिका की जानकारी नहीं खुल पाई','Guide information could not load')}</h1><a class="button" href="#/guide">${t('फिर प्रयास करें','Try again')}</a></section>`;});return `<p role="status">${t('खुल रहा है…','Opening…')}</p>`;}return programGuide().render(route.section,{grade:prefs.grade,week:teacherPosition(LESSONS,prefs.grade,completed).week??prefs.week,browseWeek:prefs.week,lessonIds:new Set(LESSONS.map(l=>l.id)),goal:route.goal,completed,titleOf:id=>{const l=getLesson(LESSONS,id);return l?lessonTitle(l):'';}});}
 function todayScreen(){completed=readObj('-completed');const position=teacherPosition(LESSONS,prefs.grade,completed);const resume=getLesson(LESSONS,readObj('-opened-by-grade')[prefs.grade]);const record=store.get(KEY+'-taught-prompt',{})||{};const ask=shouldAskTaught({lesson:resume,completed,record,today:todayKey()})?resume:null;
  if(!guideModules)loadGuide().catch(()=>{});const block=guideModules?.[1].PROGRAM_GUIDE?.[curriculum.id]?.grades?.[String(prefs.grade)]?.calendar?.find(b=>b.kind==='school-readiness');
