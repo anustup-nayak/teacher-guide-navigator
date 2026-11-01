@@ -191,5 +191,5 @@ Never edit the other agent's drafts file, `model/`, releases or `dist/` from a d
 | Batch | Agent | Pack · grade | Lessons | Drafted | Owner approved | Released |
 |---|---|---|---|---|---|---|
 | Samples | Claude Code | Math G2, G3; Hindi G1, G2 | w14 d1 each (drafts files) | ✓ | layouts chosen; text not yet approved | — |
-| M1 | Claude Code | Math G2 | w01–w05 (15) | in progress | | |
+| M1 | Claude Code | Math G2 | w01–w05 (15) + sample w14 d1 | ✓ (PR, sheet `docs/review/cards/up-math-2026-g2.md`) | awaiting | |
 | H1 | Codex | Hindi G1 | w09–w11 (15) | not started | | |
