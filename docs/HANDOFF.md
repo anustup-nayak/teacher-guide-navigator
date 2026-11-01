@@ -49,6 +49,11 @@ mid-task. It is the first file to read and the last file to update.
 
 ## Next up
 
+*1 Nov 2026 (Claude Code):* the [UX review](UX_REVIEW_2026-11.md) led to r65 on `task/today-home`
+(PR into `next`, stacked on PR #21). **Next: smart lesson cards**, specified for any agent in
+[SMART_CARDS.md](SMART_CARDS.md); first the owner picks layout A or B and the Hindi image rule. Then the
+owner decides whether `main` moves to the v2 line.
+
 *Refreshed 31 Oct 2026 by Claude Code while integrating PR #17; read AGENTS.md first.*
 
 v1 is live at r61 (`main` @ `49f873c`, tag `v1.0.4`; `release/v1` mirrors it). v2 is on `next`.
@@ -76,12 +81,30 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Claude Code | `task/today-home` (from `task/math-goals`, PR #21) | `dist/views/today.mjs`, `dist/domain/progress.mjs`, `dist/app.mjs`, `dist/index.html`, `dist/core.mjs`, `dist/guide-cards.css`, `dist/views/{program-guide,current-context}.mjs`, `dist/domain/app-context.mjs`, tests, docs (`UX_REVIEW_2026-11`, `SMART_CARDS`, contract), r65 | PR to `next` (after #21) | Built and checked (132 tests). Next: owner reviews the PR; then smart cards. [Task note](tasks/today-home-r65.md). |
+| *unclaimed* | from `task/today-home` | `curricula/*/model/cards/`, `schemas/content-model/cards.schema.json`, compiler and publish_site card steps, `dist/views/smart-card.mjs`, `docs/review/smart-cards-*` | Ready to start once the owner picks layout A or B | Read [SMART_CARDS.md](SMART_CARDS.md) end to end; samples and generator in `docs/design/smart-cards/`. |
 | Claude Code | `task/math-goals` (from `next`, includes the titles draft from PR #20) | `curricula/up-math-2026/model/{outcomes,lessons}`, schemas, `scripts/content/{compile,publish_site}.mjs`, `content/*/1.2.0`, `dist/views/program-guide.mjs`, `dist/app.mjs`, `dist/core.mjs`, `dist/lesson-goals.mjs`, `dist/guide-cards.css`, tests, r64 | PR to `next` | Owner approved titles and the same-week rule; slice G-Math built. Next: owner merges (PR #20 then closes as included); Hindi goal-to-week map draft. |
 | Claude Code (took over from Codex) | `task/program-metadata-layout` ([PR #17](https://github.com/anustup-nayak/teacher-guide-navigator/pull/17)) | Program metadata, layout, skill, docs cleanup, release 1.1.0 | Integrated with `next`; cleanup added; PR open | Next: owner merges PR #17. |
 | Claude Code | `task/program-guide-a` (from PR #17's branch) | `dist/views/program-guide.mjs`, `dist/program-guide-data.mjs`, `dist/app.mjs` (guide screen, entry links), `dist/core.mjs` (route), `dist/views/current-context.mjs`, `dist/guide-cards.css`, `scripts/content/publish_site.mjs`, `tests/program-guide.test.mjs`, r63 | Merged (PR #19, `00420fb`) | Slice A live on `next`. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused (out of credits) | Not on GitHub; do not touch without the owner. |
 
 ## Change log
+
+### 2026-11-01 · Claude Code · `task/today-home` (r65, UX review changes)
+
+- Owner reviewed the [UX review](UX_REVIEW_2026-11.md) and asked to “work all the other enhancements other than smart
+  cards” (chat, 1 Nov 2026); header tabs approved in the review doc. **Design approval recorded** in
+  `docs/design-lock.json` (guide-cards.css, index.html) and the [design contract](DESIGN_CONTRACT.md) (§1–4 amended).
+- Built: `#/today` आज home as the default route (next lesson in order from the device's taught marks, “did you
+  teach it?” prompt, this week's days, goal line with position, school-readiness note for weeks 1–8); header tabs
+  आज · पूरा साल · सभी पाठ; grade/subject controls behind the context chip; lesson banner goal and position, previous/
+  next line, “पाठ के विकल्प” fold; end-of-lesson goal progress and next link; year view words before codes, legend,
+  teacher position; school readiness as a week option. New storage keys only (`-opened-by-grade`,
+  `-taught-prompt`); no existing key changed. Release tokens r65.
+- Checks: `npm test` 132/132 (new `tests/today.test.mjs`), `check`, `verify:site`, `verify:content`, `design:check`.
+  Browser at 320/360/390 px, Hindi and English: no overflow, no console errors; prompt, mark-taught, next and
+  grade switch flows exercised. Not done: real phones, TalkBack.
+- Smart cards: two layouts drafted on four real lessons, spec and handoff in [SMART_CARDS.md](SMART_CARDS.md).
 
 ### 2026-10-31 · Claude Code · `task/math-goals` (program guide slice G-Math)
 
