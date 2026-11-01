@@ -1,6 +1,6 @@
 # Smart lesson cards: specification and handoff
 
-Status (1 Nov 2026): **design options drafted, not built.** Read this whole file before making any card.
+Status (1 Nov 2026): **component, data path and workbench built (r66); drafting split between Claude Code (Math) and Codex (Hindi), §8.** Read this whole file before making any card.
 It is written so that any agent can pick up the work, including after the previous agent ran out of tokens.
 Background: [UX_REVIEW_2026-11.md](UX_REVIEW_2026-11.md). Track progress in the table at the end of this file
 and in [HANDOFF.md](HANDOFF.md).
@@ -23,7 +23,10 @@ The full lesson stays below, unchanged. Tapping a line opens (scrolls to) that s
 | Placement | **The card is the first thing a teacher sees.** The existing step chips stay **below** the card, so teachers can jump to a step or scroll |
 | Header image | **The key diagram from the I do or We do step** (Math). See §5 for Hindi, which has no step illustrations |
 | First samples | Grade 2–3 Math and Hindi (literacy) Grade 1–2; **then apply to all** |
-| Layout | **Open: Option A or Option B** (§3). The owner has not yet chosen |
+| Layout | **Option A for Math, Option B for Hindi** (owner, chat, 1 Nov 2026) |
+| Hindi header image | **Top half of the day's workbook page** (owner, 1 Nov 2026) |
+| Hindi days without a workbook page (27 in G2, 26 in G3) | **No image**; the card starts with the title and bands |
+| Going live | `next` → `main` **after smart cards** ship, as one release |
 
 ## 3. The two design options
 
@@ -40,7 +43,7 @@ each with the step names and minutes in small type and one line that strings the
 Recommendation: **A for Math** (it shows the I do → We do → You do order, which is the vertical habit we want).
 For Hindi, A with five grouped lines or B both work; B mirrors how the Hindi guide itself is organised
 (periods with numbered activities). The owner may choose A for both, B for both, or A for Math and B for Hindi.
-**Do not build until the owner has chosen.**
+**Decided: A for Math, B for Hindi.**
 
 Common to both, top to bottom:
 
@@ -77,10 +80,8 @@ week's three lessons) and are a later slice.
   (`cropGeometry()` in [dist/lesson-visuals.mjs](../dist/lesson-visuals.mjs)). No new image files in `dist/`.
 - **Math:** use `phaseVisual(lesson, phase('i-do'))`. If that crop is missing or narrower than about 200 source
   pixels, use the We do crop. If both are missing, use the day's workbook page (top half).
-- **Hindi:** the Hindi pack has **no step illustrations** (no I do / We do phases; `phaseVisual` returns null for
-  teaching steps). The mock uses the top half of the day's workbook page. **Confirm with the owner**: workbook page,
-  or a crop of the guide page around the main teaching activity (would need new crop rectangles, reviewed against
-  the page image), or no image. Days without a workbook page (27 in G2, 26 in G3) need the same decision.
+- **Hindi:** the Hindi pack has **no step illustrations**. Use the **top half of the day's workbook page**
+  (owner decision). Days without a workbook page show **no image** (owner decision).
 - Caption says what the image is: `मैं करूँ · संदर्शिका का चित्र` or `आज की कार्यपुस्तिका · पृष्ठ N` (printed page number).
 
 ## 6. Writing the lines (the only new text)
@@ -104,51 +105,76 @@ Automatic checks for every draft line (put them in the generator and the test su
 every number and every quoted name in a line must appear in the source step text or the page; no line over 18
 words; no line without a label; every phase of the lesson is covered by exactly one line (or band).
 
-## 7. Data model and build path (follow the goal-titles pattern)
+## 7. Data model, tool and build path (built in r66)
 
-Cards are an editorial layer of the canonical content, like the Math goal titles. Do not type them into the app.
+| Piece | Where |
+|---|---|
+| Drafts (agents write here; **not** a compiler input, so CI stays green) | `curricula/<pack>/drafts/cards/g<grade>.json` |
+| Owner-approved cards (only `approve` writes here) | `curricula/<pack>/model/cards/g<grade>.json` |
+| Schema | `schemas/content-model/cards.schema.json` (layout `steps` or `periods`; lines name the lesson's own step ids) |
+| Compiler | `scripts/content/compile.mjs` reads `model/cards/`, checks lessons and steps, emits `entities/card.json` (schema 1.3.0) |
+| Site | `scripts/content/publish_site.mjs` → `dist/lesson-cards.mjs`, owner-approved cards only |
+| View | `dist/views/smart-card.mjs`; `smartCard()` in `dist/app.mjs` replaces the banner when a card exists; chips stay below |
+| Workbench | `scripts/content/cards.mjs` (below) |
+| Tests | `tests/smart-cards.test.mjs` |
 
-1. **Model:** `curricula/<pack>/model/cards/g<grade>.json`, one entry per lesson:
-   ```json
-   {"lesson": "g2-math-w14-d01",
-    "layout": "A",
-    "image": {"phase": "i-do"} ,
-    "lines": [{"phases": ["conversation"], "label": "बातचीत", "minutes": "10 मि",
-               "text": "गिनलड़ी पर खाली टैग: “यह कौन-सी संख्या है? कैसे पहचाना?”"}],
-    "provenance": {"assertion": "editorial", "review": "draft", "approvedBy": null, "date": null}}
-   ```
-   Option B uses `"bands": [{"period": 1, "phases": [...], "label": "...", "text": "..."}]` instead of `lines`.
-   `image` is `{"phase": "i-do"|"we-do"}` or `{"worksheet": 0}`. Prep and watch-for are not stored: they come from
-   the lesson's `materials` and `commonMistake`.
-2. **Schema:** `schemas/content-model/cards.schema.json` (pattern: `outcomes.schema.json`).
-3. **Compiler:** `scripts/content/compile.mjs` adds a `card` entity kind and a new content release (1.3.0,
-   previous 1.2.0); bump `verify:content` in `package.json` and the pin in `content/website.json`.
-4. **Site:** `scripts/content/publish_site.mjs` emits `dist/lesson-cards.mjs` with **approved cards only**
-   (pattern: `lessonGoalsModule()`), and `verify:site` checks it.
-5. **App:** a new view `dist/views/smart-card.mjs` (pure HTML builder, like `views/today.mjs`). In
-   `lessonScreen()` in `dist/app.mjs`, when an approved card exists, render it in place of the banner and the
-   `chainLine()`; keep `sectionChips()` directly below. Without a card the lesson renders exactly as in r65.
-   Add a “पाठ एक नज़र में” anchor to `lessonSections()` only if the owner wants it as a chip.
-6. **Review sheet:** `docs/review/smart-cards-<pack>-g<grade>.md`: one row per lesson with the drafted lines
-   and the source step text side by side, and a link to the page image. The owner approves a batch in chat or in
-   the sheet; then set `review: "owner-approved"`, `approvedBy`, `date` for that batch.
-7. **Design lock:** new card styles go in `dist/guide-cards.css` and need `npm run design:approve` with the
-   owner's approval of the chosen option (§3), recorded in HANDOFF.md.
-8. **Release:** `npm run release:assets -- rNN`, then the full checks in [DEVELOPMENT.md](DEVELOPMENT.md#checks).
+```sh
+node scripts/content/cards.mjs scaffold <pack> <grade> 5     # add skeletons (steps grouped, minutes, image) for the next 5 lessons
+node scripts/content/cards.mjs source   <pack> <grade>       # print the steps of every card still marked TODO
+#   …edit the drafts file: replace every TODO (Hindi: also the band names after "कालांश N · ")…
+node scripts/content/cards.mjs check    <pack> <grade>       # rules of §6; must print "0 with problems" before a sheet goes out
+node scripts/content/cards.mjs sheet    <pack> <grade>       # docs/review/cards/<pack>-g<grade>.md for the owner
+node scripts/content/cards.mjs approve  <pack> <grade> --checked --by "owner, chat, YYYY-MM-DD"   # only after the owner says yes
+```
 
-## 8. Drafting workflow for one batch
+The `check` rules: layout matches the owner's decision; every step on exactly one line; no TODO; 6–20 words (bands 24);
+every number and every quoted name must occur in the lesson's own text. It cannot judge meaning: the drafter still
+reads each line against the step and, where the text looks damaged (OCR), against the page image.
 
-1. Pick the batch from the progress table (start: G2 Math, G3 Math, G1 Hindi, G2 Hindi, 3–5 lessons each).
-2. Run the generator to assemble the fixed parts (chain, title, goal, image, minutes) from `dist/curricula.mjs`,
-   `dist/lesson-goals.mjs` and `dist/domain/progress.mjs`.
-3. Draft the lines from each phase's `actions` (and `questions`) with the rules in §6. An LLM prompt that works:
-   “Compress this teaching step into one Hindi sentence of 10–18 words for a teacher. Keep every number, name,
-   page number and group size. Add nothing. Step: <actions joined with ' | '>”. Then check every line by hand
-   against the step and the page image.
-4. Run the automatic checks (§6).
-5. Render the batch (`gen.py`-style HTML or the real view) at 360 px and add the screenshot to the review sheet.
-6. Ask the owner to approve. Only approved cards are published.
-7. Update the progress table below and HANDOFF.md after every batch.
+**Releases.** Content releases are immutable and each adds about 35 MB, so **only the integrating agent** builds them,
+and only after an approval batch: `npm run content:build -- --version 1.3.N --previous 1.3.(N-1)`, bump `verify:content`
+in `package.json` and `content/website.json` together, `npm run site:publish`, `npm run release:assets -- rNN`, full checks.
+Drafting agents never run `content:build`, never touch `content/`, `dist/` or `model/`.
+
+## 8. Working in parallel: Claude Code and Codex
+
+The split is by file, so the two agents never touch the same file.
+
+| Agent | Owns (drafts) | Layout | Cards | Branch pattern |
+|---|---|---|---|---|
+| **Claude Code** | `curricula/up-math-2026/drafts/cards/g{1,2,3}.json`, `docs/review/cards/up-math-2026-*` | `steps` (Option A) | 183 | `task/cards-math-<batch>` |
+| **Codex** | `curricula/up-hindi-2026/drafts/cards/g{1,2,3}.json`, `docs/review/cards/up-hindi-2026-*` | `periods` (Option B) | 366 | `task/cards-hindi-<batch>` |
+| **Integrator** (Claude Code unless the owner says otherwise) | `model/cards/`, `content/`, `dist/`, `package.json`, `content/website.json`, releases | — | — | `task/cards-release-<n>` |
+
+Protocol for each agent:
+
+1. Read this file, [AGENTS.md](../AGENTS.md) and HANDOFF.md. Branch from the latest `next`.
+2. Claim the batch in the progress table below (agent, grade, lesson range) in the same PR as the drafts.
+3. Batch size: one grade, 10–15 lessons, in week order. `scaffold`, `source`, write, `check` until clean, `sheet`.
+4. Open a PR into `next` with the drafts file and the review sheet only. Title: `Cards draft: <pack> G<grade> w<a>–w<b>`.
+5. The owner reviews the sheet (in the PR or in chat). Edits asked for are made in the drafts file; then the owner says yes.
+6. Approval: the agent that drafted runs `approve … --by "owner, <where>, <date>"` in the same PR, re-runs `check`, and the PR merges.
+7. The integrator collects merged approvals into one release (§7) and publishes; the owner decides when `next` goes to `main`.
+8. Update your row in HANDOFF.md and the progress table after every batch. If you run out of tokens, the next agent
+   continues from the table, the drafts file (TODO marks unfinished cards) and `check` output.
+
+Never edit the other agent's drafts file, `model/`, releases or `dist/` from a drafting branch.
+
+### Prompt for Codex (paste as is)
+
+> You are drafting smart lesson cards for the Hindi pack of Sandarshika (repo anustup-nayak/teacher-guide-navigator).
+> Read AGENTS.md, docs/HANDOFF.md and docs/SMART_CARDS.md fully before anything else; they are the rules.
+> Your files only: `curricula/up-hindi-2026/drafts/cards/g{1,2,3}.json` and `docs/review/cards/up-hindi-2026-*`.
+> Layout is `periods` (three bands, one per कालांश). Start with Grade 1, weeks 9–11 (15 lessons): branch
+> `task/cards-hindi-g1-a` from `next`; run `node scripts/content/cards.mjs scaffold up-hindi-2026 1 15`, then
+> `source up-hindi-2026 1`; for each card replace every TODO: the band name after "कालांश N · " (2–4 words naming the
+> period's work, e.g. "मौखिक भाषा", "वर्ण और ग्रिड", "पठन और सहायता"), tidy `steps` (short activity names with their minutes,
+> as printed), and `text`: one Hindi sentence, 10–24 words, stringing the period's activities in order with "→",
+> keeping every name, number and page from the step and adding nothing (§6). Shorten the `title` if it is longer than
+> about 8 words, using only its own words. Run `check` until it prints 0 problems, then `sheet up-hindi-2026 1`.
+> Claim your batch in the §10 table, open a PR into `next` titled "Cards draft: up-hindi-2026 G1 w09–w11" containing only
+> those files, and stop for the owner's review. Do not run `content:build`, `site:publish` or `approve` unless the
+> owner has approved in writing; do not touch `model/`, `content/`, `dist/` or any Math file.
 
 ## 9. Acceptance
 
@@ -162,11 +188,8 @@ Cards are an editorial layer of the canonical content, like the Math goal titles
 
 ## 10. Progress
 
-| Batch | Pack · grade | Lessons | Draft | Owner approved | Published |
-|---|---|---|---|---|---|
-| Samples | Math G2, Math G3, Hindi G1, Hindi G2 | w14 d1 each (in `cards-draft.json`) | ✓ (both layouts) | Layout choice pending | — |
-| 1 | Math G2 | first 5 teaching days | | | |
-| 2 | Math G3 | first 5 teaching days | | | |
-| 3 | Hindi G1 | first 5 days | | | |
-| 4 | Hindi G2 | first 5 days | | | |
-| Then | All remaining (549 + 183 day 4–6) | by grade, in week order | | | |
+| Batch | Agent | Pack · grade | Lessons | Drafted | Owner approved | Released |
+|---|---|---|---|---|---|---|
+| Samples | Claude Code | Math G2, G3; Hindi G1, G2 | w14 d1 each (drafts files) | ✓ | layouts chosen; text not yet approved | — |
+| M1 | Claude Code | Math G2 | w01–w05 (15) + sample w14 d1 | ✓ (PR, sheet `docs/review/cards/up-math-2026-g2.md`) | awaiting | |
+| H1 | Codex | Hindi G1 | w09–w11 (15) | not started | | |

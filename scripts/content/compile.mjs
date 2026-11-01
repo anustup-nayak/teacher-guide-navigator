@@ -7,7 +7,7 @@ import {validate} from './schema.mjs';
 import {loadProgramMetadata,validateProgramMetadata} from './program_metadata.mjs';
 import {checkStructure,dayTypeFor} from './structure.mjs';
 import {exportCatalog} from './v1_codec.mjs';
-export const SCHEMA_VERSION='1.2.0';
+export const SCHEMA_VERSION='1.3.0';
 const ROOT=fileURLToPath(new URL('../../',import.meta.url));
 const json=x=>JSON.stringify(x,null,1)+'\n';
 export const sha256=x=>crypto.createHash('sha256').update(x).digest('hex');
@@ -48,7 +48,7 @@ export function loadPack(pack,root=ROOT){
   const guides=fs.existsSync(path.join(model,'guide'))?walk(path.join(model,'guide')).filter(p=>p.endsWith('.json')).map(read):[];
   const publication=path.resolve(root,'dist',config.publicationDirectory);
   if(publication!==path.join(root,'dist')&&!publication.startsWith(path.join(root,'dist')+path.sep))throw Error('Unsafe publication path');
-  return {...programMetadata,pageMap:read(path.join(model,'pagemap.json')),pack,program:read(path.join(model,'program.json')),structure:read(path.join(model,'structure.json')),sections:read(path.join(model,'sections.json')),assets:assetModel.assets,lessons,guides,compat:read(path.join(dir,'compat/v1.json')),outcomes:optional('outcomes.json'),sequence:optional('sequence.json'),routines:optional('routines.json'),materials:optional('materials.json'),assessments:optional('assessments.json'),inputs,parityCatalog:fs.readFileSync(path.join(publication,'catalog.mjs'),'utf8')};
+  return {...programMetadata,pageMap:read(path.join(model,'pagemap.json')),pack,program:read(path.join(model,'program.json')),structure:read(path.join(model,'structure.json')),sections:read(path.join(model,'sections.json')),assets:assetModel.assets,lessons,guides,compat:read(path.join(dir,'compat/v1.json')),outcomes:optional('outcomes.json'),sequence:optional('sequence.json'),routines:optional('routines.json'),materials:optional('materials.json'),assessments:optional('assessments.json'),cards:(()=>{const dir=path.join(model,'cards');if(!fs.existsSync(dir))return null;const parts=walk(dir).filter(p=>p.endsWith('.json')).sort().map(read);for(const part of parts)if(part.pack!==pack)throw Error('cards: wrong pack');return {pack,cards:parts.flatMap(part=>part.cards)};})(),inputs,parityCatalog:fs.readFileSync(path.join(publication,'catalog.mjs'),'utf8')};
 }
 function assertSchema(schema,data){const errors=validate(schema,data);if(errors.length)throw Error(`${schema}: ${errors.slice(0,8).join('; ')}`);}
 function eachSource(value,visit){
@@ -72,7 +72,9 @@ export function buildRelease(data,{version,previous=null}={}){
     for(const period of lesson.periods){const shape=t.periods.find(p=>p.number.join()===period.number.join());for(const step of period.steps)for(const slot of step.slots||[])if(!shape?.slots.some(s=>s.id===slot))throw Error(`${lesson.id}: invalid slot ${slot}`);}
   }
   for(const guide of data.guides)assertSchema('guide',guide);
-  for(const name of ['outcomes','sequence','routines','materials','assessments'])if(data[name]){assertSchema(name,data[name]);if(data[name].pack!==data.pack)throw Error(`${name}: wrong pack`);}
+  for(const name of ['outcomes','sequence','routines','materials','assessments','cards'])if(data[name]){assertSchema(name,data[name]);if(data[name].pack!==data.pack)throw Error(`${name}: wrong pack`);}
+  // Smart cards (docs/SMART_CARDS.md): every card names a real lesson and only that lesson's steps; each step on at most one line.
+  if(data.cards){const byId=new Map(data.lessons.map(l=>[l.id,l])),seen=new Set();for(const c of data.cards.cards){const l=byId.get(c.lesson);if(!l)throw Error(`cards: unknown lesson ${c.lesson}`);if(seen.has(c.lesson))throw Error(`cards: duplicate card for ${c.lesson}`);seen.add(c.lesson);const steps=new Set(l.periods.flatMap(p=>p.steps.map(x=>x.id))),used=new Set();for(const line of c.lines)for(const ph of line.phases){if(!steps.has(ph))throw Error(`cards: ${c.lesson} has no step ${ph}`);if(used.has(ph))throw Error(`cards: ${c.lesson} step ${ph} on two lines`);used.add(ph);}if(c.image?.phase&&!steps.has(c.image.phase))throw Error(`cards: ${c.lesson} image step ${c.image.phase} missing`);}}
   const docs=new Map(data.program.documents.map(d=>[d.id,d]));
   if(docs.size!==data.program.documents.length)throw Error('Duplicate document id');
   const assetsByDoc=new Map(), imagePaths=new Set();
@@ -94,7 +96,7 @@ export function buildRelease(data,{version,previous=null}={}){
   const sections=Object.entries(data.sections.guides).flatMap(([grade,g])=>g.sections.map(s=>({...s,id:`g${grade}/${s.id}`,grade:+grade,source:{doc:g.document,pdf:s.pdf[0],printed:s.pdf[0]>data.sections.printedOffset?s.pdf[0]-data.sections.printedOffset:null},provenance})));
   const populated=new Map(sections.map(s=>[s.id,s]));
   for(const guide of data.guides)for(const s of guide.sections){if(!populated.has(s.id))throw Error(`Guide section absent from page map: ${s.id}`);populated.set(s.id,{...populated.get(s.id),...s});}
-  const entities={program:[{id:data.pack,...data.program}],document:data.program.documents.map(d=>({...d,provenance})),daytype:data.structure.dayTypes.map(t=>({...t,provenance:t.provenance||data.structure.provenance||provenance})),lesson:data.lessons,step:data.lessons.flatMap(l=>l.periods.flatMap(p=>p.steps.map(s=>({...s,id:`${l.id}/${s.id}`,lesson:l.id,grade:l.grade,week:l.week,day:l.day,period:p.number})))),section:[...populated.values()],passage:data.guides.flatMap(g=>g.sections.flatMap(s=>(s.passages||[]).map(p=>({...p,section:s.id,grade:g.grade})))),lo:data.outcomes?.outcomes||[],goal:data.outcomes?.goals||[],objective:data.outcomes?.objectives||[],unit:data.sequence?.units||[],routine:data.routines?.routines||[],material:data.materials?.materials||[],assessment:data.assessments?.assessments||[],resource:data.assets.filter(a=>a.kind==='resource'),workbook:data.assets.filter(a=>a.kind==='workbook')};
+  const entities={program:[{id:data.pack,...data.program}],document:data.program.documents.map(d=>({...d,provenance})),daytype:data.structure.dayTypes.map(t=>({...t,provenance:t.provenance||data.structure.provenance||provenance})),lesson:data.lessons,step:data.lessons.flatMap(l=>l.periods.flatMap(p=>p.steps.map(s=>({...s,id:`${l.id}/${s.id}`,lesson:l.id,grade:l.grade,week:l.week,day:l.day,period:p.number})))),section:[...populated.values()],passage:data.guides.flatMap(g=>g.sections.flatMap(s=>(s.passages||[]).map(p=>({...p,section:s.id,grade:g.grade})))),lo:data.outcomes?.outcomes||[],goal:data.outcomes?.goals||[],objective:data.outcomes?.objectives||[],unit:data.sequence?.units||[],routine:data.routines?.routines||[],material:data.materials?.materials||[],assessment:data.assessments?.assessments||[],card:(data.cards?.cards||[]).map(c=>({...c,id:`card/${c.lesson}`})),resource:data.assets.filter(a=>a.kind==='resource'),workbook:data.assets.filter(a=>a.kind==='workbook')};
   const index=new Map();
   for(const [kind,list]of Object.entries(entities))for(const entity of list){const id=`${kind}:${entity.id}`;if(index.has(id))throw Error(`Duplicate entity ${id}`);index.set(id,entity);}
   const graph=[];

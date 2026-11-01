@@ -38,8 +38,9 @@ feature here, not a matter of taste.
    without its preparation note. (Owner-approved 31 Oct 2026; no style change.)
    The program guide is reached from the पूरा साल tab (the find-page guide card was removed, 1 Nov 2026);
    lessons keep the “सप्ताह कैसे चलता है” link inside “पाठ के विकल्प” and Help links to the guide.
-4. **Lesson anatomy, in order.** Blue lesson banner with week/day badge and, where mapped, the goal with the
-   lesson's position; the previous/next lesson line; wrapping sticky section chips; “पाठ के विकल्प” (my list,
+4. **Lesson anatomy, in order.** Where an owner-approved smart card exists, the card comes first and replaces the
+   banner and previous/next line ([SMART_CARDS.md](SMART_CARDS.md), owner-approved 1 Nov 2026). Otherwise: blue lesson
+   banner with week/day badge and, where mapped, the goal with the lesson's position; the previous/next lesson line; wrapping sticky section chips; “पाठ के विकल्प” (my list,
    offline, text size, week guide), folded; (preparation, every source phase with its
    minutes, my note, original pages); preparation blocks; one card per source
    phase (coloured band with name and minutes, original artwork with

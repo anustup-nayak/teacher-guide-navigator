@@ -81,14 +81,31 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/today-home` (from `task/math-goals`, PR #21) | `dist/views/today.mjs`, `dist/domain/progress.mjs`, `dist/app.mjs`, `dist/index.html`, `dist/core.mjs`, `dist/guide-cards.css`, `dist/views/{program-guide,current-context}.mjs`, `dist/domain/app-context.mjs`, tests, docs (`UX_REVIEW_2026-11`, `SMART_CARDS`, contract), r65 | PR to `next` (after #21) | Built and checked (132 tests). Next: owner reviews the PR; then smart cards. [Task note](tasks/today-home-r65.md). |
-| *unclaimed* | from `task/today-home` | `curricula/*/model/cards/`, `schemas/content-model/cards.schema.json`, compiler and publish_site card steps, `dist/views/smart-card.mjs`, `docs/review/smart-cards-*` | Ready to start once the owner picks layout A or B | Read [SMART_CARDS.md](SMART_CARDS.md) end to end; samples and generator in `docs/design/smart-cards/`. |
+| Claude Code | `task/today-home` (merged into `next` as PR #22, 1 Nov 2026) | `dist/views/today.mjs`, `dist/domain/progress.mjs`, `dist/app.mjs`, `dist/index.html`, `dist/core.mjs`, `dist/guide-cards.css`, `dist/views/{program-guide,current-context}.mjs`, `dist/domain/app-context.mjs`, tests, docs (`UX_REVIEW_2026-11`, `SMART_CARDS`, contract), r65 | Merged | #21 and #22 merged into `next` after a full check on the merged tree (132 tests). [Task note](tasks/today-home-r65.md). |
+| Claude Code | `task/smart-cards` (from `next` @ r65) | card component, data path, workbench (`scripts/content/cards.mjs`), schema 1.3.0, release 1.3.0, r66 | PR to `next` | Built and checked (136 tests). Then drafting is split: Claude Code = Math, Codex = Hindi; protocol and Codex prompt in [SMART_CARDS.md §8](SMART_CARDS.md). |
+| Claude Code | `task/cards-math-*` | `curricula/up-math-2026/drafts/cards/`, `docs/review/cards/up-math-2026-*` | Next | Batch M1: Math G2 w01–w05. |
+| Codex | `task/cards-hindi-*` | `curricula/up-hindi-2026/drafts/cards/`, `docs/review/cards/up-hindi-2026-*` | Not started | Batch H1: Hindi G1 w09–w11; start from the prompt in SMART_CARDS.md §8. |
 | Claude Code | `task/math-goals` (from `next`, includes the titles draft from PR #20) | `curricula/up-math-2026/model/{outcomes,lessons}`, schemas, `scripts/content/{compile,publish_site}.mjs`, `content/*/1.2.0`, `dist/views/program-guide.mjs`, `dist/app.mjs`, `dist/core.mjs`, `dist/lesson-goals.mjs`, `dist/guide-cards.css`, tests, r64 | PR to `next` | Owner approved titles and the same-week rule; slice G-Math built. Next: owner merges (PR #20 then closes as included); Hindi goal-to-week map draft. |
 | Claude Code (took over from Codex) | `task/program-metadata-layout` ([PR #17](https://github.com/anustup-nayak/teacher-guide-navigator/pull/17)) | Program metadata, layout, skill, docs cleanup, release 1.1.0 | Integrated with `next`; cleanup added; PR open | Next: owner merges PR #17. |
 | Claude Code | `task/program-guide-a` (from PR #17's branch) | `dist/views/program-guide.mjs`, `dist/program-guide-data.mjs`, `dist/app.mjs` (guide screen, entry links), `dist/core.mjs` (route), `dist/views/current-context.mjs`, `dist/guide-cards.css`, `scripts/content/publish_site.mjs`, `tests/program-guide.test.mjs`, r63 | Merged (PR #19, `00420fb`) | Slice A live on `next`. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused (out of credits) | Not on GitHub; do not touch without the owner. |
 
 ## Change log
+
+### 2026-11-01 · Claude Code · `task/smart-cards` (r66, smart-card component and workbench)
+
+- Owner decisions (chat, 1 Nov 2026): layout A (`steps`) for Math, B (`periods`) for Hindi; card first, step chips
+  below; Hindi image = top of the workbook page, none when absent; `next` → `main` after cards. **Design approval
+  recorded** (guide-cards.css) and contract §4 amended.
+- Built: `dist/views/smart-card.mjs` and `smartCard()` in `app.mjs` (shown only when an owner-approved card exists);
+  `cards.schema.json`, compiler `card` entity (schema 1.3.0), content release 1.3.0 (no approved cards yet, so
+  `dist/lesson-cards.mjs` is empty), `publish_site` card module, `scripts/content/cards.mjs` (scaffold, source, check,
+  sheet, approve). Drafts live in `curricula/<pack>/drafts/cards/` so editing them never breaks the immutable
+  release check; `approve` moves cards to `model/cards/`, then the integrator builds a release.
+- Checks: `npm test` 136/136 (new `tests/smart-cards.test.mjs`), `check`, `verify:site`, `verify:content`. Browser
+  with a temporary local approval (not committed): Math and Hindi cards at 320/360/390 px, Hindi and English, line
+  taps jump to the step, no overflow or errors.
+- Next: Math batch M1 (Claude Code) and Hindi batch H1 (Codex) in parallel; see SMART_CARDS.md §8 and §10.
 
 ### 2026-11-01 · Claude Code · `task/today-home` (r65, UX review changes)
 

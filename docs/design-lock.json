@@ -3,7 +3,7 @@
   "contract": "docs/DESIGN_CONTRACT.md",
   "files": {
     "dist/styles.css": "f18b7f9e9eb0bab25564d71c37a4efd95afbc2920fd14a14ba9810c9a48da25b",
-    "dist/guide-cards.css": "f3b76502b0cf3f7169f5e2d9175ce6562d686610995ed8502e4adb2355222921",
+    "dist/guide-cards.css": "e2cf221116c51816e925d2ed6c82da5e2feb00fecc62b05467374357c3642f82",
     "dist/index.html": "50b6ae8e3ff9cbe85d719096845d3aaafa65c1c05754c0b5b0bdbdb59b159619"
   },
   "approvals": [
@@ -40,6 +40,14 @@
       "files": [
         "dist/guide-cards.css",
         "dist/index.html"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "reason": "r66 smart lesson card component (docs/SMART_CARDS.md): card first, step chips below; layout 'steps' for Math and 'periods' for Hindi; header image from the I do step (Math) or the top of the workbook page (Hindi), none when absent; shows only owner-approved cards",
+      "approvedBy": "owner, in chat, 2026-11-01 (chose Option A for Math and Option B for Hindi from the mockups; card first with step chips below; workbook image for Hindi)",
+      "files": [
+        "dist/guide-cards.css"
       ]
     }
   ]

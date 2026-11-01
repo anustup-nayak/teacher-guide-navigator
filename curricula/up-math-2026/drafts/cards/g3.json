@@ -1,0 +1,61 @@
+{
+ "pack": "up-math-2026",
+ "cards": [
+  {
+   "lesson": "g3-math-w14-d01",
+   "layout": "steps",
+   "title": "2 से 10 तक के पहाड़े बनाना",
+   "image": {
+    "phase": "i-do"
+   },
+   "lines": [
+    {
+     "phases": [
+      "conversation"
+     ],
+     "label": "बातचीत",
+     "minutes": "10 मि",
+     "text": "गुणा का पोस्टर: “एक बार दो, दो बार दो…”; 2 के पहाड़े पर बात"
+    },
+    {
+     "phases": [
+      "i-do"
+     ],
+     "label": "मैं करूँ",
+     "minutes": "7 मि",
+     "text": "ज़मीन पर संख्या ट्रैक; एक बच्चा 3 की छलांग लगाए; पाठ्यपुस्तक पृष्ठ 95 की तालिका"
+    },
+    {
+     "phases": [
+      "we-do",
+      "you-do"
+     ],
+     "label": "हम करें, फिर बच्चे करें",
+     "minutes": "23 मि",
+     "text": "4-4 के समूह 10 सींकों से 2 का पहाड़ा; फिर 7–10 के पहाड़े, पृष्ठ 96–97"
+    },
+    {
+     "phases": [
+      "practice"
+     ],
+     "label": "कार्यपत्रक",
+     "minutes": "कालांश 2",
+     "text": "पृष्ठ 61; हर प्रश्न का एक उदाहरण पहले बोर्ड पर"
+    },
+    {
+     "phases": [
+      "support"
+     ],
+     "label": "खेल और सहायता",
+     "minutes": "कालांश 3",
+     "text": "“गुणा के बोर्ड” पर छुपी संख्या का खेल; फिर चिह्नित बच्चों के साथ रिमीडियल"
+    }
+   ],
+   "provenance": {
+    "assertion": "editorial",
+    "review": "unreviewed",
+    "note": "Draft sample, 1 Nov 2026 (Claude Code), from the lesson's own steps; awaiting owner approval."
+   }
+  }
+ ]
+}
