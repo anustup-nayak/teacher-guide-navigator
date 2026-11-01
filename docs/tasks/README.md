@@ -25,6 +25,7 @@ records, not instructions; the current rules are in the contracts listed in [../
 | [program-structure](program-structure.md) | Program structure: calendar, day types | v2, merged |
 | [content-compiler](content-compiler.md) | Phase 3: compiler, releases, website pinned to release | v2, merged |
 | [program-metadata-layout](program-metadata-layout.md) | Program metadata, repository layout, docs cleanup | v2, PR #17 |
+| [today-home-r65](today-home-r65.md) | UX review changes: आज home, tabs, lesson goal line, year view | v2 r65, PR |
 
 ## Writing a task note
 

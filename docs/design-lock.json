@@ -3,8 +3,8 @@
   "contract": "docs/DESIGN_CONTRACT.md",
   "files": {
     "dist/styles.css": "f18b7f9e9eb0bab25564d71c37a4efd95afbc2920fd14a14ba9810c9a48da25b",
-    "dist/guide-cards.css": "88db7373fb5d647d8bad1aa4c08577e143d0dccb8060a208b81b3e2f73120d2c",
-    "dist/index.html": "9f35bd7f63a6bf9b0993c955c0d5a9e4b50315e895966f0a85bfabe63e990ff6"
+    "dist/guide-cards.css": "f3b76502b0cf3f7169f5e2d9175ce6562d686610995ed8502e4adb2355222921",
+    "dist/index.html": "50b6ae8e3ff9cbe85d719096845d3aaafa65c1c05754c0b5b0bdbdb59b159619"
   },
   "approvals": [
     {
@@ -31,6 +31,15 @@
       "approvedBy": "owner (Anustup Nayak), in chat, 2026-10-31: 'Approve and build A' (design rev 2) and 'Approve both' (goal titles and same-week rule)",
       "files": [
         "dist/guide-cards.css"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "reason": "r65 UX review changes: header tabs आज · पूरा साल · सभी पाठ (मेरी सूची and मदद move into the screens); new आज home (#/today, default route) with next lesson in order, taught prompt, this week's days and school-readiness note; lesson banner shows goal and position, a previous/next line, lesson tools folded into 'पाठ के विकल्प'; end of lesson shows goal progress and next lesson; grade/subject controls open from the context chip; year view leads with plain words, legend and 'आप यहाँ हैं'. See docs/UX_REVIEW_2026-11.md",
+      "approvedBy": "owner, in chat, 2026-11-01 ('First work all the other enhancements other than smart cards', after reviewing the UX review and mockups; tabs approved in the review doc)",
+      "files": [
+        "dist/guide-cards.css",
+        "dist/index.html"
       ]
     }
   ]
