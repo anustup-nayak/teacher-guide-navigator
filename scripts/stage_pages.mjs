@@ -19,6 +19,10 @@ export function stagePages(current, legacy, output) {
   if (fs.existsSync(path.join(roots[0], 'v1'))) throw Error('Current website already contains v1');
   fs.cpSync(roots[0], roots[2], {recursive: true});
   fs.cpSync(roots[1], path.join(roots[2], 'v1'), {recursive: true});
+  // Cache Storage is shared across service-worker scopes on the same origin.
+  // Keep the frozen fallback from migrating/deleting the current app's caches.
+  const worker = path.join(roots[2], 'v1/sw.js');
+  fs.writeFileSync(worker, fs.readFileSync(worker, 'utf8').replaceAll('up-guide-', 'legacy-up-guide-'));
   console.log(`Staged current website and frozen /v1/ at ${roots[2]}`);
 }
 
