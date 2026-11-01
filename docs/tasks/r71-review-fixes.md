@@ -25,8 +25,17 @@ Checkpoint: header/runtime and strong E2E assertions implemented. All 97 distinc
 
 Updated design contract/system, PRD, architecture description (same modules), developer repair procedure, reusable design reference and historical OCR inventory status. Added page-hashed repair recipes and a bounded idempotent model→existing legacy-codec export helper. Hindi ingestion retains exact fixes; AAText-only decoder fixes U+F024 without changing other fonts’ dollar currency. New content 1.3.4 / runtime r71; no framework/backend migration.
 
-## Next
+## Next at the pre-release checkpoint (completed below)
 
 Review staged diff, finish browser screenshot evidence, push integration PR, check CI; release through next→main under the existing publication authorization and verify exact deployed bytes. Keep frozen /v1/ untouched.
 
 CI caught an omitted `dist/sw.js` in the initial commit (the local r71 worker was tested but a staging suffix filter omitted .js). Added the tested r71 worker; no test weakened and no production deployment occurred from the incomplete candidate. Rechecking CI before release.
+
+## Final release — complete
+
+- Integration [PR #38](https://github.com/anustup-nayak/teacher-guide-navigator/pull/38) merged; production [PR #39](https://github.com/anustup-nayak/teacher-guide-navigator/pull/39) merged as `d575b475414eb5589dde92006316cea447dda0c4`.
+- GitHub Checks on final integration head `f4ebaee` succeeded; production Pages run [41301976050](https://github.com/anustup-nayak/teacher-guide-navigator/actions/runs/41301976050) passed every validation gate and deployment.
+- Live `index.html`, `app.mjs`, `sw.js`, `guide-cards.css`, Math catalog and Hindi catalog match tested local bytes; [hash evidence](../review/r71-live-byte-check.json). Frozen `/v1/app.mjs` remains r61.
+- Live browser confirms Hindi default, no language dropdown, correct selected Grade/Subject, direct subject switching, 200% summary text (30px), focused phase jumps and visible selectors while reading. Math detail now contains `26 + 13 = 39` and `क्या जोड़ बड़ी संख्या से शुरू किया?`. Reading preference restored after the live check; no teacher data cleared.
+- Screenshot evidence: [header](../review/r71-evidence/header-hi-360.png), [Hindi at 200%/320px](../review/r71-evidence/hindi-200-320.png), [live repaired detail](../review/r71-evidence/live-repaired-detail.png). Browser matrices: [549 cards](../review/r71-browser-cards.json), [152 route cases](../review/r71-browser-matrix.json), [24 reading cases](../review/r71-browser-reading.json).
+- Follow-up branch `task/r71-release-record` records this verified outcome and refreshes current-version docs only. Existing architecture, storage namespaces and frozen v1 are unchanged. Real teachers, academic proofreading, physical TalkBack/devices and printing retain their documented limits.

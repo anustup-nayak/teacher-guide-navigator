@@ -24,6 +24,7 @@ first table wins and the other should be corrected in the same change.
 | [VISUAL_DESIGN.md](VISUAL_DESIGN.md) | Source-led lesson card geometry (values now come from DESIGN_SYSTEM tokens) |
 | [PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md), [review/math-goal-titles.md](review/math-goal-titles.md) | Approved design record: guide structure and Math goals are live; Hindi goal mapping and later slices remain separate work |
 | [SMART_CARDS.md](SMART_CARDS.md) | Published card contract, review/approval and future card authoring |
+| [tasks/r71-review-fixes.md](tasks/r71-review-fixes.md) | r71 source repairs, teacher header, independent browser checks and verified production release |
 | [AUDIT_2026-11-PRODUCTION.md](AUDIT_2026-11-PRODUCTION.md) | Production audit (UI, UX, engineering, docs): goals, issue register, what r70 fixed |
 | [TEACHER_UX_AUDIT_PROTOCOL.md](TEACHER_UX_AUDIT_PROTOCOL.md) | Protocol for the human teacher study (still open) |
 | [UI_DESIGN_NEXT_ITERATION.md](UI_DESIGN_NEXT_ITERATION.md) | The brief that the production audit answered (record) |

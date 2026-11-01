@@ -1,0 +1,32 @@
+[
+ {
+  "file": "index.html",
+  "matches": true,
+  "sha256": "613d0f49c362536e0fafcbc130084d6b35db1359d80d8c70d657b74beb5b03c1"
+ },
+ {
+  "file": "app.mjs",
+  "matches": true,
+  "sha256": "764aa1a1c2ea366f68d529d915d18d22d6e865c0f2a37d0d3e88203db6cba65a"
+ },
+ {
+  "file": "sw.js",
+  "matches": true,
+  "sha256": "672ee552d3e7591b566857fa65ba30276ebbd0a72a7fc71cde04e497af8a301e"
+ },
+ {
+  "file": "guide-cards.css",
+  "matches": true,
+  "sha256": "de6fb99b28cc785306495e9c446ab812646309bb8cd5df56d8f9a99c84c83650"
+ },
+ {
+  "file": "catalog.mjs",
+  "matches": true,
+  "sha256": "745499a6fe56039ebc3af9885739ff09d78b1bc27b9f5fd059d29a9ad10d43f4"
+ },
+ {
+  "file": "packs/up-hindi-2026/catalog.mjs",
+  "matches": true,
+  "sha256": "b4c76f70d50a1dfad941d2b48ac16fa89b68cd8d64580f17a7c49364d4fe1a4c"
+ }
+]

@@ -9,7 +9,7 @@ in each release manifest; no links or academic approval are inferred to fill it.
 
 Program understanding is mandatory authoring metadata; see
 [PROGRAM_METADATA.md](PROGRAM_METADATA.md) and [REPOSITORY_LAYOUT.md](REPOSITORY_LAYOUT.md).
-r71 candidate content is release 1.3.4 (source text repairs); production at task start was 1.3.3, schema 1.3.0: program metadata, Math goals and 549 owner-approved smart cards. Earlier releases stay immutable; generated website modules from the pin are deployed on `main`.
+Production content is release 1.3.4 (r71 source text repairs), schema 1.3.0: program metadata, Math goals and 549 owner-approved smart cards. Earlier releases stay immutable; generated website modules from the pin are deployed on `main`.
 
 ## Inputs and ownership
 
@@ -55,7 +55,7 @@ npm run verify:program         # whole-program metadata readiness
 npm run verify:content         # current pin: 1.3.4, previous 1.3.3; read-only
 npm run verify:site            # generated dist modules equal pinned releases
 # Example only, after reviewed model changes: choose a NEW, unused version.
-npm run content:build -- --version 1.3.4 --previous 1.3.3
+npm run content:build -- --version 1.3.5 --previous 1.3.4
 ```
 
 Optional final arguments select pack IDs. When canonical models advance, update the new release, `verify:content` in `package.json`, and `content/website.json` together in the reviewed PR, then run `site:publish` and the full gate. Read the current pin before choosing the next version; the example is not permission to build or approve content. Older directories remain immutable; rebuilding an older release from newer models is not a supported update mechanism.

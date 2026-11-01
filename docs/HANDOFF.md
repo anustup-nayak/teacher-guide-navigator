@@ -36,39 +36,38 @@ mid-task. It is the first file to read and the last file to update.
 
 | Item | Value |
 |---|---|
-| Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`); r70 / content 1.3.3 deployed from `main` at `9259ec8` on 1 Nov 2026 (Pages deployment success; tag `v2.1.0` to be created: the agent proxy blocks tag pushes) |
+| Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ — r71 / content 1.3.4, main `d575b47` (release PR #39), Pages run `41301976050` validated and deployed successfully on 1 Nov 2026; live bytes and browser verified |
 | Repository | github.com/anustup-nayak/teacher-guide-navigator (public). Branches: `main` (production), `release/v1` (frozen at v1.0.4), `next` (v2 integration) — see [VERSIONING.md](VERSIONING.md) |
 | v1 release | r61 @ `49f873c`, tag `v1.0.4`; `release/v1` stays there for rollback |
-| v2 line | Content releases up to 1.3.3 (pinned in `content/website.json`); आज home, पूरा साल guide, goals, chains, 549 owner-approved smart cards; design system v2 ([DESIGN_SYSTEM.md](DESIGN_SYSTEM.md)); release token r70 (tag `v2.1.0` pending). Frozen r61 at `/v1/` |
+| v2 line | Content 1.3.4 (source-compared text repairs), schema 1.3.0; 549 approved smart cards; design system v2; r71: persistent Grade/Subject selects, Hindi default, English explicit QA URL, summary reading enlargement. Frozen r61 at `/v1/`. Older content releases retained immutable |
 | Published content | UP Mathematics `up-math-2026` and UP Hindi `up-hindi-2026`, Grades 1–3: 366 day plans each; 990 + 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (permanent) |
-| Checks | See [DEVELOPMENT.md](DEVELOPMENT.md#checks); last full run 1 Nov 2026 (r70): npm test 143/143, e2e 594/0, gates pass. Earlier (r69): npm test 137/137, ingestion 16, skill helpers 5/5, all verify gates pass, cards check 549/549, Playwright UI sweep 0 failures |
+| Checks | r71: 145 Node tests, 18 ingestion tests, 5 skill helpers; all release gates and GitHub CI/Pages pass. Browser: 549 cards, 152 matrix cases, 24 reading/persistence cases; live smoke and prepared lesson/workbook without origin server. [Evidence](tasks/r71-review-fixes.md) |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
-| Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing; r70 final review findings and coverage limits in [report](review/final-ui-ux-r70/REPORT.md) |
+| Known open checks | Independent academic review, real teachers, physical phones/TalkBack and physical printing. The three r70 final-review findings are repaired in r71; [evidence and limits](tasks/r71-review-fixes.md) |
 | Other agents' work | Codex worktree `…/Codex/2026-10-31/un/work/metadata-worktree` on `task/query-backed-runtime` has uncommitted work, not on GitHub; owner said leave it untouched |
 
 ## Next up
 
-r70 (design system v2) is live: release PR #34, `main` @ `9259ec8`. Create tag `v2.1.0` on `9259ec8` (`git tag v2.1.0 9259ec8 && git push origin v2.1.0`; the agent proxy refused it). Next, in priority order (details in the r70
-change-log entry and [AUDIT_2026-11-PRODUCTION.md](AUDIT_2026-11-PRODUCTION.md) §6):
-1. r71 candidate resolves the 150-row OCR inventory and the reported Math plus-symbol errors; see [task](tasks/r71-review-fixes.md). Production verification is pending.
-2. Fold the remaining screen-specific card rules into the component layer (U7).
-3. Extract the lesson, browse, saved and help views from `app.mjs` in bounded slices, with `npm run test:e2e` as the net.
-4. Human teacher study, TalkBack and low-end devices ([TEACHER_UX_AUDIT_PROTOCOL.md](TEACHER_UX_AUDIT_PROTOCOL.md)); academic review.
+r71 is live (release PR #39, `main` at `d575b47`). The r70 final-review findings and owner-requested header changes are complete; see [release evidence](tasks/r71-review-fixes.md). No app architecture refactor was performed or authorized as part of this repair.
 
-Day-5 counts and usage counts remain deferred by the owner. Live verification note: the agent workspace cannot reach
-github.io, so r70 was verified through the GitHub deployment API (status `success` for `9259ec8`, and `sw.js` on
-`main` reads r70). The next agent with browser access should run `BASE=https://anustup-nayak.github.io/teacher-guide-navigator/ npm run test:e2e`.
+Next iteration: teacher observation using archetypes A–F and the [audit protocol](TEACHER_UX_AUDIT_PROTOCOL.md), physical TalkBack/low-end-device testing, independent academic review, and the professional UI/spec review. Component consolidation and view extraction remain deferred work, not release blockers or instructions to start refactoring.
+
+Administrative older follow-up: r70 tag `v2.1.0` still has not been pushed (would point to `9259ec8`; the previous agent's proxy refused it). The verified r71 release is identified by its runtime token and release merge above. Day-5/usage counts remain owner-deferred.
 
 ## Active work
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Codex | `task/r71-review-fixes` | Header/switcher, card sizing, E2E, source repairs and affected contracts | in progress | Header/sizing and source repairs implemented; content 1.3.4/r71 candidate. Unit 145/145; release gates and browser matrix in progress. Owner design approval recorded; architecture/data preserved. |
 | Claude Code | `task/production-polish` | see [task note](tasks/production-polish-r70.md) | Done (PR #33 → `next`, release PR #34 → `main`, `9259ec8`; tag `v2.1.0` pending) | Follow-ups for the next agent are listed in the r70 change-log entry. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused | Other agent's uncommitted work; do not touch. |
 
 ## Change log
+
+### 1 Nov 2026 — Codex: r71 deployed and independently verified
+
+Integration PR #38 → `next`; release PR #39 → `main` at `d575b475414eb5589dde92006316cea447dda0c4`. Checks and Pages run `41301976050` pass. Six public runtime/catalog files byte-match the tested candidate; `/v1/app.mjs` remains r61. Live browser confirms persistent Grade/Subject selects, Hindi/default and no language dropdown, summary 200% scaling, correct focused teaching phase, corrected plus symbols/questions and actual subject switching. No teacher storage reset or architecture migration. [Full handoff and evidence](tasks/r71-review-fixes.md). Runtime work is complete; remaining limits are teacher/academic/physical-device validation, not unfinished fixes.
+
 
 ### 1 Nov 2026 — Codex: r71 review fixes and owner-requested teacher header (candidate)
 

@@ -4,7 +4,7 @@ Status: design constraint, 31 October 2026. **Only the website is being built.**
 decided (31 Oct 2026) not to build other products now, but to shape the content repository so
 they can be built later without restructuring it. Builds on the
 [content architecture plan](CONTENT_ARCHITECTURE_PLAN.md) and the
-[content model](CONTENT_MODEL.md). This is the product-neutral architecture constraint. The v2 website is now live on `main` (r69/content 1.3.3); other products are still out of scope.
+[content model](CONTENT_MODEL.md). This is the product-neutral architecture constraint. The v2 website is now live on `main` (r71/content 1.3.4); other products are still out of scope.
 
 ## 1. Goal
 
