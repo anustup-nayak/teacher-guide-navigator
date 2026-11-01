@@ -44,7 +44,7 @@ mid-task. It is the first file to read and the last file to update.
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (permanent) |
 | Checks | See [DEVELOPMENT.md](DEVELOPMENT.md#checks); last full run 1 Nov 2026 (r70): npm test 143/143, e2e 594/0, gates pass. Earlier (r69): npm test 137/137, ingestion 16, skill helpers 5/5, all verify gates pass, cards check 549/549, Playwright UI sweep 0 failures |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
-| Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
+| Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing; r70 final review findings and coverage limits in [report](review/final-ui-ux-r70/REPORT.md) |
 | Other agents' work | Codex worktree `…/Codex/2026-10-31/un/work/metadata-worktree` on `task/query-backed-runtime` has uncommitted work, not on GitHub; owner said leave it untouched |
 
 ## Next up
@@ -68,6 +68,10 @@ github.io, so r70 was verified through the GitHub deployment API (status `succes
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused | Other agent's uncommitted work; do not touch. |
 
 ## Change log
+
+### 1 Nov 2026 — Codex: independent final UI/UX check of r70
+
+Review complete; [report and evidence](review/final-ui-ux-r70/REPORT.md), [task note](tasks/final-ui-ux-r70.md). Live bytes match r70; independent unit tests 143/143. Sampled live grade/subject, search, Math/Hindi summary-to-phase, reader/zoom/Escape/focus, goal and year/period flows work. Clean sign-off withheld: visible corrupted teaching text including `$` for `+`, summary text not enlarging with reading preference, and two weak E2E assertions. Full teacher/device/offline validation remains open. No runtime or deployment changes. Claude follow-up and explicit coverage limits are in the report.
 
 
 ### 2026-11-01 · Claude Code · `task/production-polish` (r70: design system v2, journey fixes, docs)
