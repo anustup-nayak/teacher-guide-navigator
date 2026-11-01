@@ -47,7 +47,10 @@ docs/DEVELOPMENT.md before editing. Files under docs/history/ and docs/tasks/ ar
 ## Verification
 - Node 22+: npm test and npm run check. `npm test` includes the design lock (`npm run design:check` runs it alone).
 - Check dist/sw.js syntax after worker changes; bump app and worker versions together for releases.
-- Test changed UI in Hindi and English at 360 and 390px, keyboard navigation and legacy deep links.
+- Test changed UI in Hindi and English at 320–390px, keyboard navigation and legacy deep links; run `npm run test:e2e`
+  against a local server (archetype journeys A–F, all smart cards, offline).
+- Style only with design tokens ([docs/DESIGN_SYSTEM.md](docs/DESIGN_SYSTEM.md)); `tests/design-system.test.mjs` fails on raw
+  colours, px font sizes, px radii or inline style values.
 - Test on localhost or HTTPS. Opening index.html through file:// is unsupported.
 - Keep this project buildless unless a task explicitly authorizes a framework migration.
 

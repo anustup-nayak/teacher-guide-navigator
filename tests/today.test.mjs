@@ -30,6 +30,8 @@ test('the taught prompt asks once a day and stops after three dismissals',()=>{
 test('आज renders the next lesson, the week, the readiness note and every way out, with no gate',()=>{
  const t=(hi)=>hi,e=s=>String(s);const position=teacherPosition(L,1,{});
  const html=renderToday({t,e,grade:1,gradeText:'कक्षा 1',subjectText:'गणित',position,week:{number:9,lessons:weekLessons(L,1,9),completed:{}},ask:null,goals:[{id:'g1-m101',title:'स्थान',position:1,total:6}],readiness:{from:1,to:8,label:'स्कूल रेडिनेस'},card:l=>`<a class="lesson-card" href="#/lesson/${l.id}">${l.id}</a>`,dayLabel:()=>null,lessonHref:l=>`#/lesson/${l.id}`,hasGoals:true});
- for(const s of ['#/lesson/g1-math-w09-d01','पाठ 1 / 6','सप्ताह 1–8: स्कूल रेडिनेस','#/guide/goals','#/find','#/saved','#/help','aria-current="step"'])assert.ok(html.includes(s),s);
+ for(const s of ['#/lesson/g1-math-w09-d01','पाठ 1 / 6','सप्ताह 1–8: स्कूल रेडिनेस','#/guide/goal/g1-m101','#/saved','#/help','aria-current="step"'])assert.ok(html.includes(s),s);
  assert.equal((html.match(/class="today-day[ "]/g)||[]).length,6);
+ // the whole year and all lessons are one tap away in the header tabs (audit X3, 1 Nov 2026), not repeated here
+ assert.ok(!html.includes('href="#/find"'));
 });

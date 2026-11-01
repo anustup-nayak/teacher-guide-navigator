@@ -56,14 +56,27 @@ npm run test:ingestion            # Python ingestion tests (needs PyMuPDF, Pillo
 npm run verify:sources -- --require-complete
 ```
 
+Before a UI release, also run the end-to-end journey sweep (not in CI: it needs a browser and a local server):
+
+```sh
+python3 -m http.server 8765 --directory dist &   # any static server on :8765
+npm run test:e2e                                 # BASE=https://… to target another origin
+```
+
+It walks archetypes A–F ([PRD.md](PRD.md#personas-canonical-set)) through their journeys. It sweeps every top-level
+route at 320/360/390/1024 px in both languages for overflow, console errors, text under 13 px and small targets. It
+renders all 549 smart cards and checks offline reading with fonts. Expect 0 failures.
+
 Read exit codes: piping to `tail` hides a failing command. File-sync tools (iCloud, Dropbox) can drop
 copies named `… 2.json` into the tree, including inside `.git`; the compiler refuses them. Keep the
 repository out of synced folders, and check `git status` for `* 2*` files if a gate fails oddly.
 
 ## Changing things
 
-- **UI** (`dist/`): test Hindi and English at 360 and 390 px, keyboard navigation and old deep links.
-  Protected files and frozen behaviour need the owner's approval ([DESIGN_CONTRACT.md](DESIGN_CONTRACT.md)).
+- **UI** (`dist/`): use design tokens only ([DESIGN_SYSTEM.md](DESIGN_SYSTEM.md); `tests/design-system.test.mjs`
+  enforces it), put new screens in `dist/views/`, and run `npm run test:e2e`. Test Hindi and English at 320–390 px,
+  keyboard navigation and old deep links. Protected files and frozen behaviour need the owner's approval
+  ([DESIGN_CONTRACT.md](DESIGN_CONTRACT.md)).
 - **Existing-pack source repairs**: add a source-compared entry to
   `curricula/<pack>/tools/repairs.json`, rebuild with the pack's `build_pack.py --no-images`, publish with
   the reviewed-snapshot publication path only as part of the repair procedure, and record a reviewed baseline amendment

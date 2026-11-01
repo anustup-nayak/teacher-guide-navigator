@@ -17,6 +17,7 @@
     "verify:content": "node scripts/content/compile.mjs --version 1.3.3 --previous 1.3.2 --check",
     "verify:program": "node scripts/content/program_metadata.mjs",
     "site:publish": "node scripts/content/publish_site.mjs",
-    "verify:site": "node scripts/content/publish_site.mjs --check"
+    "verify:site": "node scripts/content/publish_site.mjs --check",
+    "test:e2e": "node tests/e2e/journeys.cjs"
   }
 }

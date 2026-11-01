@@ -24,7 +24,8 @@ feature here, not a matter of taste.
    one tap from the lesson, never a gate (owner-approved 1 Nov 2026). The program guide `#/guide`, `#/guide/week|periods|pages` is a separate
    way in, never a gate before a lesson (owner-approved 31 Oct 2026; see
    [PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md)).
-2. **Shell.** Header with brand, then the three tabs आज · पूरा साल · सभी पाठ
+2. **Shell.** Header with brand, then the three tabs (rendered as a standard tab bar with icons and a yellow
+   current-tab indicator; amended 1 Nov 2026, [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md)) आज · पूरा साल · सभी पाठ
    (in this order; `#today-link` → `#/today`, `#year-link` → `#/guide`, `#find-link` → `#/find`;
    owner-approved 1 Nov 2026), then the language menu (हिन्दी first and default). मेरी सूची and मदद are
    linked from आज and सभी पाठ. Below the header, the sticky grade/subject context line; its chip opens the
@@ -39,8 +40,8 @@ feature here, not a matter of taste.
    The program guide is reached from the पूरा साल tab (the find-page guide card was removed, 1 Nov 2026);
    lessons keep the “सप्ताह कैसे चलता है” link inside “पाठ के विकल्प” and Help links to the guide.
 4. **Lesson anatomy, in order.** Where an owner-approved smart card exists, the card comes first and replaces the
-   banner and previous/next line ([SMART_CARDS.md](SMART_CARDS.md), owner-approved 1 Nov 2026). Otherwise: blue lesson
-   banner with week/day badge and, where mapped, the goal with the lesson's position; the previous/next lesson line; wrapping sticky section chips; “पाठ के विकल्प” (my list,
+   banner; the previous/next pair sits at the foot of the card, after the start button ([SMART_CARDS.md](SMART_CARDS.md), owner-approved 1 Nov 2026; position amended 1 Nov 2026, audit X6). Otherwise: blue lesson
+   banner with week/day badge and, where mapped, the goal with the lesson's position; the previous/next lesson line; sticky section chips in one ordered, scrollable row (amended 1 Nov 2026, audit U8); “पाठ के विकल्प” (my list,
    offline, text size, week guide), folded; (preparation, every source phase with its
    minutes, my note, original pages); preparation blocks; one card per source
    phase (coloured band with name and minutes, original artwork with
@@ -49,15 +50,15 @@ feature here, not a matter of taste.
    undo; original books and pages; other-day links. The whole lesson scrolls;
    nothing is collapsed or gated. Weekly plans keep one source phase and never
    gain invented I do / We do / You do sections.
-5. **Palette tokens** in `dist/styles.css` `:root`: blue `#286f99`,
-   blue-dark `#174d6c`, ink `#253d4c`, body `#334d5c`, muted `#586c78`,
-   background `#f5f7f8`, line `#d4dfe5`, amber `#f0b35f`, pink `#df909d`,
-   purple `#b5a0c9`, focus `#854900`; source-card overrides in
-   `dist/guide-cards.css`. Role meaning is fixed: blue navigation, amber
-   teaching, pink practice, purple support.
-6. **Type and touch.** System UI font, body 17px / 1.65 line height, headings
-   28 / 23 / 19px, controls at least 48px tall, 3px focus outline. Text-size
-   control up to 200%. No horizontal scrolling at 320, 360 or 390px.
+5. **Palette.** The Teacher Guide colours keep their values as the 500 steps of the ramps in `dist/styles.css`
+   `:root`: blue `#286f99`, blue-dark `#174d6c`, ink `#253d4c`, body `#334d5c`, muted `#586c78`,
+   background `#f5f7f8`, line `#d4dfe5`, amber `#f0b35f`, pink `#df909d`, purple `#b5a0c9`, focus `#854900`.
+   Components use the semantic tokens mapped onto them ([DESIGN_SYSTEM.md](DESIGN_SYSTEM.md) §2; amended 1 Nov 2026:
+   the separate source-card blue `#367da8` was retired in favour of the single brand blue). Role meaning is fixed:
+   blue navigation, amber teaching, pink practice, purple support.
+6. **Type and touch.** Self-hosted Noto Sans Devanagari / Noto Sans (amended 1 Nov 2026; was the system UI font),
+   body 17px / 1.65 line height, headings 28 / 23 / 19px, no text below 13px, controls at least 48px tall
+   (chips 40px), 3px focus outline. Text-size control up to 200%. No horizontal scrolling at 320, 360 or 390px.
 7. **Vocabulary.** The Hindi labels above and the action names in the design
    reference's “Meaning, action and reversal” table (मेरी सूची, बिना इंटरनेट
    के लिए रखें, मूल पृष्ठ, मेरा नोट, …). English labels are their translations,

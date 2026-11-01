@@ -42,7 +42,7 @@ mid-task. It is the first file to read and the last file to update.
 | v2 line | Content releases up to 1.3.3 (pinned in `content/website.json`); आज home, पूरा साल guide, goals, chains, and 549 owner-approved smart cards (183 Math, 366 Hindi); release token r69. Live on `main` at `edd31db`, tag `v2.0.0`; frozen r61 at `/v1/` |
 | Published content | UP Mathematics `up-math-2026` and UP Hindi `up-hindi-2026`, Grades 1–3: 366 day plans each; 990 + 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (permanent) |
-| Checks | See [DEVELOPMENT.md](DEVELOPMENT.md#checks); last full run 1 Nov 2026 (r69): npm test 137/137, ingestion 16, skill helpers 5/5, all verify gates pass, cards check 549/549, Playwright UI sweep 0 failures |
+| Checks | See [DEVELOPMENT.md](DEVELOPMENT.md#checks); last full run 1 Nov 2026 (r70): npm test 143/143, e2e 594/0, gates pass. Earlier (r69): npm test 137/137, ingestion 16, skill helpers 5/5, all verify gates pass, cards check 549/549, Playwright UI sweep 0 failures |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
 | Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
 | Other agents' work | Codex worktree `…/Codex/2026-10-31/un/work/metadata-worktree` on `task/query-backed-runtime` has uncommitted work, not on GitHub; owner said leave it untouched |
@@ -55,10 +55,37 @@ Production cutover is complete: PR #30, `edd31db`, tag `v2.0.0`; [Pages deployme
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Claude Code | `task/production-polish` | see [task note](tasks/production-polish-r70.md) | Releasing r70 | Done: audit, design system, journeys, docs; gate green; e2e 594/0. Next: PR to `next`, release PR to `main`, live check. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused | Other agent's uncommitted work; do not touch. |
 
 ## Change log
 
+
+### 2026-11-01 · Claude Code · `task/production-polish` (r70: design system v2, journey fixes, docs)
+
+- Owner, chat: audit UI, UX and engineering, then "set clear goals …, do the audit, map out tasks, execute to this plan,
+  unsupervised till done". The audit, goals G1–G6 and the issue register are in [AUDIT_2026-11-PRODUCTION.md](AUDIT_2026-11-PRODUCTION.md).
+  Archetypes A–F were recovered from the owner's UX review doc and are now canonical in the PRD.
+- **Design approval recorded** (`design:approve`, owner chat 1 Nov 2026) for `styles.css`, `guide-cards.css` and `index.html`.
+  DESIGN_CONTRACT §2, §4, §5 and §6 are amended.
+  - New: tokens and a self-hosted Noto font in [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md); a standard tab bar with icons; the
+    component layer; captions below illustrations; scrollable section chips; list rows on आज; search first on सभी पाठ;
+    the chain below the card.
+  - Fixes: 48 px grade switch, 320 px tabs, the switcher stays open after a grade change, real period count, single back
+    link, screen titles.
+- Engineering and docs:
+  - Both CSS files are readable and token-only; the source-card blue `#367da8` is retired; fonts are in the worker
+    shell (`release_assets` now reads CSS `url()`s).
+  - New `tests/design-system.test.mjs` and `tests/e2e/journeys.cjs` (`npm run test:e2e`).
+  - New docs: WORKFLOWS.md, a PRD personas section, the ARCHITECTURE module map, DEVELOPMENT, AGENTS, QA gates
+    UI-05 and UX-01, and the docs index.
+- Checks: `npm test` 143/143; check, verify:program, verify:content, verify:publication, verify:site and
+  verify:sources pass; ingestion and skill tests OK; cards 549/549; sw.js ok; `npm run test:e2e` 594 checks, 0 failures.
+- Left for Codex or a later agent, in priority order:
+  1. Source-compared repair of the 150 detached-vowel strings ([review/ocr-matra-defects.md](review/ocr-matra-defects.md)).
+  2. Fold the remaining screen-specific card rules into the component layer (audit U7).
+  3. Extract the lesson, browse, saved and help views from `app.mjs` (ARCHITECTURE "Where new code goes").
+  4. Human teacher study and TalkBack/device checks ([TEACHER_UX_AUDIT_PROTOCOL.md](TEACHER_UX_AUDIT_PROTOCOL.md)).
 ### 2026-11-01 · Codex · post-cutover documentation consistency
 
 - Corrected current agent rules, branch/release flow, documentation map, architecture/compiler/platform status, Hindi source-archive status and reusable release instructions after the v2 cutover. Marked older plans and approval questions as historical rather than current deployment instructions.

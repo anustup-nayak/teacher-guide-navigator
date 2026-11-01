@@ -53,7 +53,7 @@ test('Hindi G1 shows weeks 9–12 day 6 as revision and the combined assessment 
 test('entry points are present and the guide loads lazily and offline', () => {
   const app = dist('app.mjs'), sw = dist('sw.js'), v = app.match(/import\('\.\/views\/program-guide\.mjs\?v=(r\d+)'\)/)?.[1];
   assert.ok(v, 'program-guide view is imported on demand');
-  assert.match(dist('index.html'), /<a href="#\/guide" id="year-link">पूरा साल<\/a>/, 'header tab पूरा साल (owner-approved 1 Nov 2026)');
+  assert.match(dist('index.html'), /<a href="#\/guide" id="year-link">(?:<svg[^]*?<\/svg>)?<span>पूरा साल<\/span><\/a>/, 'header tab पूरा साल (owner-approved 1 Nov 2026)');
   assert.ok(app.includes('${bannerGoals(l)}') && app.includes('${chainLine(l)}'), 'goal and lesson order in the lesson banner');
   assert.ok(app.includes('${guideLink(l)}'), 'lesson link');
   assert.ok(sw.includes(`"views/program-guide.mjs?v=${v}"`) && sw.includes(`"program-guide-data.mjs?v=${v}"`), 'worker caches the guide');

@@ -1,5 +1,8 @@
 # Source-led lesson cards
 
+> Values (colours, sizes, radii, spacing) now come from the tokens in [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md). This file keeps the source-led geometry rationale.
+
+
 Design record introduced in r27. The current [design contract](DESIGN_CONTRACT.md) is authoritative: r69 places an approved smart card before the unchanged detailed lesson, with step chips directly below. The reading-layout description below records the original detailed-step component. The app uses the source guide's visual grammar without
 flattening the lesson into an unreadable page screenshot.
 
