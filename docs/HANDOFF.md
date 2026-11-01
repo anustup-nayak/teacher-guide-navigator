@@ -36,10 +36,10 @@ mid-task. It is the first file to read and the last file to update.
 
 | Item | Value |
 |---|---|
-| Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`); r70 / content 1.3.3 deployed from `main` at `9259ec8` on 1 Nov 2026 (tag `v2.1.0`; Pages deployment success) |
+| Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`); r70 / content 1.3.3 deployed from `main` at `9259ec8` on 1 Nov 2026 (Pages deployment success; tag `v2.1.0` to be created: the agent proxy blocks tag pushes) |
 | Repository | github.com/anustup-nayak/teacher-guide-navigator (public). Branches: `main` (production), `release/v1` (frozen at v1.0.4), `next` (v2 integration) — see [VERSIONING.md](VERSIONING.md) |
 | v1 release | r61 @ `49f873c`, tag `v1.0.4`; `release/v1` stays there for rollback |
-| v2 line | Content releases up to 1.3.3 (pinned in `content/website.json`); आज home, पूरा साल guide, goals, chains, 549 owner-approved smart cards; design system v2 ([DESIGN_SYSTEM.md](DESIGN_SYSTEM.md)); release token r70, tag `v2.1.0`. Frozen r61 at `/v1/` |
+| v2 line | Content releases up to 1.3.3 (pinned in `content/website.json`); आज home, पूरा साल guide, goals, chains, 549 owner-approved smart cards; design system v2 ([DESIGN_SYSTEM.md](DESIGN_SYSTEM.md)); release token r70 (tag `v2.1.0` pending). Frozen r61 at `/v1/` |
 | Published content | UP Mathematics `up-math-2026` and UP Hindi `up-hindi-2026`, Grades 1–3: 366 day plans each; 990 + 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (permanent) |
 | Checks | See [DEVELOPMENT.md](DEVELOPMENT.md#checks); last full run 1 Nov 2026 (r70): npm test 143/143, e2e 594/0, gates pass. Earlier (r69): npm test 137/137, ingestion 16, skill helpers 5/5, all verify gates pass, cards check 549/549, Playwright UI sweep 0 failures |
@@ -49,7 +49,7 @@ mid-task. It is the first file to read and the last file to update.
 
 ## Next up
 
-r70 (design system v2) is live: release PR #34, `main` @ `9259ec8`, tag `v2.1.0`. Next, in priority order (details in the r70
+r70 (design system v2) is live: release PR #34, `main` @ `9259ec8`. Create tag `v2.1.0` on `9259ec8` (`git tag v2.1.0 9259ec8 && git push origin v2.1.0`; the agent proxy refused it). Next, in priority order (details in the r70
 change-log entry and [AUDIT_2026-11-PRODUCTION.md](AUDIT_2026-11-PRODUCTION.md) §6):
 1. Source-compared repair of the 150 detached-vowel strings ([review/ocr-matra-defects.md](review/ocr-matra-defects.md)).
 2. Fold the remaining screen-specific card rules into the component layer (U7).
@@ -64,7 +64,7 @@ github.io, so r70 was verified through the GitHub deployment API (status `succes
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/production-polish` | see [task note](tasks/production-polish-r70.md) | Done (PR #33 → `next`, release PR #34 → `main`, `9259ec8`, tag `v2.1.0`) | Follow-ups for the next agent are listed in the r70 change-log entry. |
+| Claude Code | `task/production-polish` | see [task note](tasks/production-polish-r70.md) | Done (PR #33 → `next`, release PR #34 → `main`, `9259ec8`; tag `v2.1.0` pending) | Follow-ups for the next agent are listed in the r70 change-log entry. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused | Other agent's uncommitted work; do not touch. |
 
 ## Change log

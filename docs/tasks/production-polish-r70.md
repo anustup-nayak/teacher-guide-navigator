@@ -13,7 +13,7 @@ DESIGN_CONTRACT, PRD, ARCHITECTURE, DEVELOPMENT, README index, HANDOFF.
 
 ## Progress
 - [x] Audit written (`docs/AUDIT_2026-11-PRODUCTION.md`)
-- [x] T1 tokens and fonts · [x] T2 components · [x] T3 screens · [x] T4 guards (design-system test, `npm run test:e2e` 594 checks, 0 failures) · [x] T5 docs · [x] T6 released: PR #33 → `next`, PR #34 → `main` @ `9259ec8`, Pages success, tag `v2.1.0`
+- [x] T1 tokens and fonts · [x] T2 components · [x] T3 screens · [x] T4 guards (design-system test, `npm run test:e2e` 594 checks, 0 failures) · [x] T5 docs · [x] T6 released: PR #33 → `next`, PR #34 → `main` @ `9259ec8`, Pages success; tag `v2.1.0` pending (proxy refused the push)
 
 ## If you pick this up (Codex)
 Work through the unchecked tasks in order. Every visual value must come from the `:root` tokens in
