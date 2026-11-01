@@ -55,6 +55,7 @@ Production cutover is complete: PR #30, `edd31db`, tag `v2.0.0`; [Pages deployme
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Codex | `task/ui-ux-audit-r69` | `docs/review/ui-ux-r69/`, `docs/tasks/ui-ux-audit-r69.md`, HANDOFF audit status | in progress | Baseline f59cd45/r69 pinned; inventory and expert teacher-workflow walkthrough; no implementation. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused | Other agent's uncommitted work; do not touch. |
 
 ## Change log
