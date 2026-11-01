@@ -27,9 +27,7 @@ feature here, not a matter of taste.
 2. **Shell.** Header with brand, then the three tabs (rendered as a standard tab bar with icons and a yellow
    current-tab indicator; amended 1 Nov 2026, [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md)) आज · पूरा साल · सभी पाठ
    (in this order; `#today-link` → `#/today`, `#year-link` → `#/guide`, `#find-link` → `#/find`;
-   owner-approved 1 Nov 2026), then the language menu (हिन्दी first and default). मेरी सूची and मदद are
-   linked from आज and सभी पाठ. Below the header, the sticky grade/subject context line; its chip opens the
-   grade/subject controls. Skip link first. One reader dialog.
+   owner-approved 1 Nov 2026). Grade and Subject are directly selectable, always visible native selects in the sticky blue header (r71 owner request, 1 Nov 2026). No public language dropdown; Hindi is the default regardless of an older stored language preference. English remains available only through explicit `?ui=en` for QA. मेरी सूची and मदद are linked from आज and सभी पाठ. Below the header, show only the needed back/location line. Skip link first. One reader dialog.
 3. **Browse screen.** Two side-by-side route tabs, “पाठ के विषय से” and
    “सप्ताह / दिन से”; topic groups expand to summary cards; cards end with
    “पाठयोजना खोलें →” (or “साप्ताहिक रूपरेखा खोलें →” for weekly plans).
@@ -58,7 +56,7 @@ feature here, not a matter of taste.
    blue navigation, amber teaching, pink practice, purple support.
 6. **Type and touch.** Self-hosted Noto Sans Devanagari / Noto Sans (amended 1 Nov 2026; was the system UI font),
    body 17px / 1.65 line height, headings 28 / 23 / 19px, no text below 13px, controls at least 48px tall
-   (chips 40px), 3px focus outline. Text-size control up to 200%. No horizontal scrolling at 320, 360 or 390px.
+   (chips 40px), 3px focus outline. Text-size control up to 200%, applied to essential summary-card text and full instructions (r71 repair). No horizontal scrolling at 320, 360 or 390px.
 7. **Vocabulary.** The Hindi labels above and the action names in the design
    reference's “Meaning, action and reversal” table (मेरी सूची, बिना इंटरनेट
    के लिए रखें, मूल पृष्ठ, मेरा नोट, …). English labels are their translations,

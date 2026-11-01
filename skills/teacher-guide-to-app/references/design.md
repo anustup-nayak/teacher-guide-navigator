@@ -127,9 +127,10 @@ gamification, account/onboarding gates or a foreign curriculum hierarchy by defa
 Do not present desktop heuristics as observed teacher research. Test proposed
 Hindi wording with teachers before claiming it is intuitive in the field.
 
-Selected grade/subject must be bold in a compact header that remains at the viewport
-top on every route. Show the actual current screen, browsing week/topic or lesson
+Grade and Subject must be directly selectable native controls in the blue header, always visible at the viewport top on every route (owner-approved r71). Hindi is the teacher default; preserve English only through explicit `?ui=en` for QA, without a public language dropdown. Show the actual current screen, browsing week/topic or lesson
 week/day/section. Avoid stacking duplicate context rows; measure combined header
 and section-nav heights so chip/keyboard jumps remain visible, including 320px and
 large text. My list/offline lists reflect the selected grade/subject without deleting
 other saved records.
+
+Summary cards and full lesson instructions both respect the reading-size preference through 200%; verify phone wrapping and measured sticky offsets.

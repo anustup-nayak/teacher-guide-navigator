@@ -164,8 +164,7 @@ Read docs/CURRICULUM_EXPANSION.md for additive delivery and preservation gates.
 `views/current-context.mjs` derives the grade/subject identity and location text
 from the selected pack, screen and current source section. App composition updates
 its existing DOM text on scrolling (without replacing focused controls) and measures
-header/nav heights for sticky and anchor offsets. The top identity button returns
-to selection controls. The section navigator no longer duplicates that identity.
+header/nav heights for sticky and anchor offsets. The same curriculum-switcher view renders always-visible Grade/Subject selects in the blue app bar. Hindi defaults independently of stored language; explicit `?ui=en` enables QA translations. The section navigator no longer duplicates that identity.
 
 ## Content platform (v2 design constraint)
 

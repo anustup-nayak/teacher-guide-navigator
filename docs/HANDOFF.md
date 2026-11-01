@@ -44,14 +44,14 @@ mid-task. It is the first file to read and the last file to update.
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (permanent) |
 | Checks | See [DEVELOPMENT.md](DEVELOPMENT.md#checks); last full run 1 Nov 2026 (r70): npm test 143/143, e2e 594/0, gates pass. Earlier (r69): npm test 137/137, ingestion 16, skill helpers 5/5, all verify gates pass, cards check 549/549, Playwright UI sweep 0 failures |
 | Design lock | `docs/design-lock.json`; see [design contract](DESIGN_CONTRACT.md) |
-| Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing |
+| Known open checks | Independent academic review, real teachers, physical phones/TalkBack, physical printing; r70 final review findings and coverage limits in [report](review/final-ui-ux-r70/REPORT.md) |
 | Other agents' work | Codex worktree `…/Codex/2026-10-31/un/work/metadata-worktree` on `task/query-backed-runtime` has uncommitted work, not on GitHub; owner said leave it untouched |
 
 ## Next up
 
 r70 (design system v2) is live: release PR #34, `main` @ `9259ec8`. Create tag `v2.1.0` on `9259ec8` (`git tag v2.1.0 9259ec8 && git push origin v2.1.0`; the agent proxy refused it). Next, in priority order (details in the r70
 change-log entry and [AUDIT_2026-11-PRODUCTION.md](AUDIT_2026-11-PRODUCTION.md) §6):
-1. Source-compared repair of the 150 detached-vowel strings ([review/ocr-matra-defects.md](review/ocr-matra-defects.md)).
+1. r71 candidate resolves the 150-row OCR inventory and the reported Math plus-symbol errors; see [task](tasks/r71-review-fixes.md). Production verification is pending.
 2. Fold the remaining screen-specific card rules into the component layer (U7).
 3. Extract the lesson, browse, saved and help views from `app.mjs` in bounded slices, with `npm run test:e2e` as the net.
 4. Human teacher study, TalkBack and low-end devices ([TEACHER_UX_AUDIT_PROTOCOL.md](TEACHER_UX_AUDIT_PROTOCOL.md)); academic review.
@@ -64,10 +64,19 @@ github.io, so r70 was verified through the GitHub deployment API (status `succes
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Codex | `task/r71-review-fixes` | Header/switcher, card sizing, E2E, source repairs and affected contracts | in progress | Header/sizing and source repairs implemented; content 1.3.4/r71 candidate. Unit 145/145; release gates and browser matrix in progress. Owner design approval recorded; architecture/data preserved. |
 | Claude Code | `task/production-polish` | see [task note](tasks/production-polish-r70.md) | Done (PR #33 → `next`, release PR #34 → `main`, `9259ec8`; tag `v2.1.0` pending) | Follow-ups for the next agent are listed in the r70 change-log entry. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused | Other agent's uncommitted work; do not touch. |
 
 ## Change log
+
+### 1 Nov 2026 — Codex: r71 review fixes and owner-requested teacher header (candidate)
+
+Owner explicitly requested fixing the three final-review findings, removing the public language dropdown, and keeping Grade/Subject directly selectable in the blue header, without architecture changes. This is the recorded design approval for the corresponding shell/styles and reading-size repair; `design:approve` records these exact changes and narrow-screen wrapping/keyboard corrections. Hindi defaults even with an older English preference; English remains explicit `?ui=en` QA mode. Existing context, selection, content, storage, reader and offline modules remain in use. Source repairs are page-hashed, content 1.3.4 is new/immutable, and only the two reviewed catalog hashes are amended in the preservation baseline. Validation and publication status: [task](tasks/r71-review-fixes.md).
+
+### 1 Nov 2026 — Codex: independent final UI/UX check of r70
+
+Review complete; [report and evidence](review/final-ui-ux-r70/REPORT.md), [task note](tasks/final-ui-ux-r70.md). Live bytes match r70; independent unit tests 143/143. Sampled live grade/subject, search, Math/Hindi summary-to-phase, reader/zoom/Escape/focus, goal and year/period flows work. Clean sign-off withheld: visible corrupted teaching text including `$` for `+`, summary text not enlarging with reading preference, and two weak E2E assertions. Full teacher/device/offline validation remains open. No runtime or deployment changes. Claude follow-up and explicit coverage limits are in the report.
 
 
 ### 2026-11-01 · Claude Code · `task/production-polish` (r70: design system v2, journey fixes, docs)
@@ -91,7 +100,7 @@ github.io, so r70 was verified through the GitHub deployment API (status `succes
 - Checks: `npm test` 143/143; check, verify:program, verify:content, verify:publication, verify:site and
   verify:sources pass; ingestion and skill tests OK; cards 549/549; sw.js ok; `npm run test:e2e` 594 checks, 0 failures.
 - Left for Codex or a later agent, in priority order:
-  1. Source-compared repair of the 150 detached-vowel strings ([review/ocr-matra-defects.md](review/ocr-matra-defects.md)).
+  1. r71 candidate resolves the 150-row OCR inventory and the reported Math plus-symbol errors; see [task](tasks/r71-review-fixes.md). Production verification is pending.
   2. Fold the remaining screen-specific card rules into the component layer (audit U7).
   3. Extract the lesson, browse, saved and help views from `app.mjs` (ARCHITECTURE "Where new code goes").
   4. Human teacher study and TalkBack/device checks ([TEACHER_UX_AUDIT_PROTOCOL.md](TEACHER_UX_AUDIT_PROTOCOL.md)).

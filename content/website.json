@@ -1,7 +1,7 @@
 {
  "$comment": "Content releases the website is pinned to. dist/ catalogs are copied from each release's views/v1/catalog.mjs by scripts/content/publish_site.mjs; tests/site-from-release.test.mjs keeps them identical. Advance a pin only with a reviewed release.",
  "packs": {
-  "up-math-2026": {"version": "1.3.3", "catalog": "catalog.mjs"},
-  "up-hindi-2026": {"version": "1.3.3", "catalog": "packs/up-hindi-2026/catalog.mjs"}
+  "up-math-2026": {"version": "1.3.4", "catalog": "catalog.mjs"},
+  "up-hindi-2026": {"version": "1.3.4", "catalog": "packs/up-hindi-2026/catalog.mjs"}
  }
 }

@@ -1419,7 +1419,7 @@ main :focus-visible {
 /* A single compact identity/location bar stays above the lesson sequence. */
 #current-context {
   position: sticky;
-  top: 0;
+  top: var(--app-header-height, 0px);
   z-index: 20;
   background: var(--white);
   border-bottom: 2px solid var(--blue-500);
@@ -2638,7 +2638,8 @@ main :focus-visible {
 
 /* App bar + tabs ---------------------------------------------------------- */
 .site-header {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 20;
   background: var(--color-brand);
   color: var(--color-text-inverse);
@@ -2647,7 +2648,7 @@ main :focus-visible {
 .header-inner {
   display: grid;
   grid-template-columns: 1fr auto;
-  grid-template-areas: "brand lang" "tabs tabs";
+  grid-template-areas: "brand brand" "selection selection" "tabs tabs";
   align-items: center;
   max-width: var(--container);
   margin: 0 auto;
@@ -2676,24 +2677,6 @@ main :focus-visible {
   color: var(--color-brand);
   font-size: var(--fs-4);
   line-height: 1;
-}
-
-#ui-language {
-  grid-area: lang;
-  min-height: var(--touch-compact);
-  width: auto;
-  padding: 0 var(--space-8) 0 var(--space-3);
-  border: 1px solid var(--white-a40);
-  border-radius: var(--radius-pill);
-  background-color: var(--white-a15);
-  color: var(--color-text-inverse);
-  font-size: var(--fs-2);
-  font-weight: var(--fw-semibold);
-}
-
-#ui-language option {
-  color: var(--color-ink);
-  background: var(--color-surface);
 }
 
 .header-inner nav {
@@ -2755,7 +2738,7 @@ main :focus-visible {
   stroke: none;
 }
 
-.header-inner nav a:focus-visible, .brand:focus-visible, #ui-language:focus-visible {
+.header-inner nav a:focus-visible, .brand:focus-visible, #curriculum-navigation select:focus-visible {
   outline: 3px solid var(--color-question);
   outline-offset: -3px;
 }
@@ -2763,7 +2746,7 @@ main :focus-visible {
 @media (min-width: 720px) {
   .header-inner {
     grid-template-columns: auto 1fr auto;
-    grid-template-areas: "brand tabs lang";
+    grid-template-areas: "brand selection tabs";
     gap: var(--space-6);
   }
 
@@ -3032,3 +3015,63 @@ main :focus-visible {
     font-size: var(--fs-3);
   }
 }
+
+/* Owner-approved 1 Nov 2026: direct, persistent teacher context in the blue app bar. */
+.header-inner #curriculum-navigation {
+  grid-area: selection;
+  background: transparent;
+  border: 0;
+  min-width: 0;
+}
+.header-inner .curriculum-switcher-inner {
+  padding: 0 0 var(--space-2);
+  flex-wrap: nowrap;
+  gap: var(--space-3);
+}
+.header-inner .curriculum-switcher-inner label {
+  flex: 1;
+  min-width: 0;
+  display: block;
+  color: var(--color-text-inverse);
+  font-size: var(--fs-1);
+}
+.header-inner .curriculum-switcher-inner select {
+  width: 100%;
+  min-width: 0;
+  min-height: var(--touch-min);
+  border-color: var(--white-a40);
+  background-color: var(--white);
+  color: var(--color-ink);
+  font-size: var(--fs-3);
+}
+#current-context:has(.context-location-row):not(:has(#context-return:not([hidden]))):has(#context-location:empty) {
+  display: none;
+}
+.smart-card .card-line, .smart-card .card-band, .smart-card .card-prep {
+  font-size: calc(var(--fs-2) * var(--reading-scale, 1));
+}
+.smart-card .card-context, .smart-card .card-label, .smart-card .card-tag,
+.smart-card .card-line small, .smart-card .card-band-head small,
+.smart-card .card-chain {
+  font-size: calc(var(--fs-1) * var(--reading-scale, 1));
+}
+.smart-card .card-head .lesson-title {
+  font-size: calc(var(--fs-5) * var(--reading-scale, 1));
+}
+.smart-card .card-start {
+  font-size: calc(var(--fs-3) * var(--reading-scale, 1));
+}
+.smart-card .card-tag { white-space: normal; }
+.smart-card .card-line > span:nth-child(2) { min-width: 0; }
+.smart-card { overflow-wrap: anywhere; }
+@media (min-width: 720px) {
+  .header-inner { grid-template-columns: auto minmax(260px, 1fr) minmax(270px, 1fr); gap: var(--space-4); }
+  .header-inner .curriculum-switcher-inner { padding: var(--space-2) 0; }
+}
+
+.smart-card .card-goal { font-size: calc(var(--fs-2) * var(--reading-scale, 1)); }
+@media (max-width: 380px) {
+  .smart-card .card-head .lesson-title { font-size: calc(var(--fs-4) * var(--reading-scale, 1)); }
+}
+/* Long source-derived goal strings must wrap on narrow phones and large text. */
+.preparation-goal { overflow-wrap: anywhere; }

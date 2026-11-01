@@ -1,0 +1,421 @@
+[
+ {
+  "grade": 1,
+  "pdf": 43,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 7
+ },
+ {
+  "grade": 1,
+  "pdf": 45,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 7
+ },
+ {
+  "grade": 1,
+  "pdf": 49,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 11
+ },
+ {
+  "grade": 1,
+  "pdf": 52,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 2
+ },
+ {
+  "grade": 1,
+  "pdf": 55,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 5
+ },
+ {
+  "grade": 1,
+  "pdf": 56,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 6
+ },
+ {
+  "grade": 2,
+  "pdf": 27,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 11
+ },
+ {
+  "grade": 2,
+  "pdf": 30,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 2
+ },
+ {
+  "grade": 2,
+  "pdf": 32,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 5
+ },
+ {
+  "grade": 2,
+  "pdf": 33,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 6
+ },
+ {
+  "grade": 2,
+  "pdf": 40,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 7
+ },
+ {
+  "grade": 2,
+  "pdf": 42,
+  "fonts": [
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 1
+ },
+ {
+  "grade": 2,
+  "pdf": 44,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 11
+ },
+ {
+  "grade": 2,
+  "pdf": 47,
+  "fonts": [
+   "AAText-Bold"
+  ],
+  "encodedPlusSpans": 1
+ },
+ {
+  "grade": 2,
+  "pdf": 52,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 5
+ },
+ {
+  "grade": 2,
+  "pdf": 54,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 14
+ },
+ {
+  "grade": 2,
+  "pdf": 55,
+  "fonts": [
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 2
+ },
+ {
+  "grade": 2,
+  "pdf": 57,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 14
+ },
+ {
+  "grade": 2,
+  "pdf": 59,
+  "fonts": [
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 2
+ },
+ {
+  "grade": 2,
+  "pdf": 71,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 6
+ },
+ {
+  "grade": 2,
+  "pdf": 72,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 9
+ },
+ {
+  "grade": 2,
+  "pdf": 74,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 9
+ },
+ {
+  "grade": 2,
+  "pdf": 75,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 14
+ },
+ {
+  "grade": 2,
+  "pdf": 76,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 16
+ },
+ {
+  "grade": 2,
+  "pdf": 78,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 18
+ },
+ {
+  "grade": 2,
+  "pdf": 79,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 15
+ },
+ {
+  "grade": 2,
+  "pdf": 80,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 11
+ },
+ {
+  "grade": 2,
+  "pdf": 81,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 4
+ },
+ {
+  "grade": 2,
+  "pdf": 82,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 12
+ },
+ {
+  "grade": 2,
+  "pdf": 83,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 7
+ },
+ {
+  "grade": 2,
+  "pdf": 91,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 4
+ },
+ {
+  "grade": 2,
+  "pdf": 92,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 5
+ },
+ {
+  "grade": 2,
+  "pdf": 98,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 7
+ },
+ {
+  "grade": 2,
+  "pdf": 104,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 8
+ },
+ {
+  "grade": 3,
+  "pdf": 23,
+  "fonts": [
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 3
+ },
+ {
+  "grade": 3,
+  "pdf": 25,
+  "fonts": [
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 2
+ },
+ {
+  "grade": 3,
+  "pdf": 39,
+  "fonts": [
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 1
+ },
+ {
+  "grade": 3,
+  "pdf": 41,
+  "fonts": [
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 2
+ },
+ {
+  "grade": 3,
+  "pdf": 44,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 11
+ },
+ {
+  "grade": 3,
+  "pdf": 45,
+  "fonts": [
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 3
+ },
+ {
+  "grade": 3,
+  "pdf": 47,
+  "fonts": [
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 3
+ },
+ {
+  "grade": 3,
+  "pdf": 48,
+  "fonts": [
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 4
+ },
+ {
+  "grade": 3,
+  "pdf": 63,
+  "fonts": [
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 1
+ },
+ {
+  "grade": 3,
+  "pdf": 64,
+  "fonts": [
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 1
+ },
+ {
+  "grade": 3,
+  "pdf": 85,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 7
+ },
+ {
+  "grade": 3,
+  "pdf": 99,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 4
+ },
+ {
+  "grade": 3,
+  "pdf": 101,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 10
+ },
+ {
+  "grade": 3,
+  "pdf": 105,
+  "fonts": [
+   "AAText-Bold",
+   "AAText-Normal"
+  ],
+  "encodedPlusSpans": 6
+ }
+]

@@ -1,4 +1,4 @@
-import {gradeLabel} from '../domain/selection.mjs?v=r70';
+import {gradeLabel} from '../domain/selection.mjs?v=r71';
 export function describeCurrentContext({pack,grade,lang,prefs,screen,lesson,section}){
  const t=(hi,en)=>lang==='en'?en:hi;
  const identity=gradeLabel(pack,lesson?.grade??grade,lang)+' · '+pack.subjectLabel[lang];
