@@ -1,7 +1,6 @@
 # Program guide in the app — plan and design proposal
 
-Status: revision 2 **approved by the owner** (31 October 2026, “Approve and build A”). **Slice A is built** on `next` (see §7);
-the other slices wait for the approvals listed there.
+Status: revision 2 **approved by the owner** (31 October 2026, “Approve and build A”). **Slices A and G-Math are built and live** on `main` (r69/content 1.3.3; see §7). G-Hindi and later slices remain separate work. Sections 1–10 retain the original design proposal and approval questions; the current [design contract](DESIGN_CONTRACT.md) and [handoff](HANDOFF.md) govern present behaviour.
 Mockups: [docs/design/program-guide/index.html](design/program-guide/index.html) (serve the repository
 root, e.g. `python3 -m http.server 8766`, then open `http://localhost:8766/docs/design/program-guide/`).
 This is the program-guide slice of plan Phase 6 ([CONTENT_ARCHITECTURE_PLAN.md §4a](CONTENT_ARCHITECTURE_PLAN.md)).
@@ -96,9 +95,7 @@ Sections 3–5 keep the three reading depths of plan §4a as tabs: **सार**
 | **G-Hindi** | Screens 6–7 for Hindi | After the Hindi goal-to-week map (Phase 4 task) is drafted and approved |
 | **C** | Full guide text (पूरा पढ़ें), assessment and support details, activity guide | Phases 4–5 |
 
-Build route: `site:publish` generates a small per-pack guide bundle (`dist/packs/<pack>/guide.json`: goals,
-goal→lesson links with their assertion and review status, structure, section page refs) from the pinned
-release, like `day-types.mjs`; a new view `dist/views/program-guide.mjs` loads it only on `#/guide…`.
+Implemented build route: `site:publish` generates `dist/program-guide-data.mjs` (structure and section/page maps) and `dist/lesson-goals.mjs` (approved/stated Math goal links) from the pinned releases. `dist/views/program-guide.mjs` is loaded on demand for `#/guide…`. The originally proposed per-pack `guide.json` path is not used.
 Progress reads the existing completion key. Offline: the bundle is cached with the shell.
 
 ## 8. Contract changes this asks you to approve
@@ -119,7 +116,9 @@ assertion and is hidden unless stated or approved; “अगला पाठ” 
 routes and deep links unchanged; tests that the guide bundle is generated from the release and that each
 goal's lessons equal the release's stated/approved links.
 
-## 10. Decisions for you
+## 10. Original approval questions (historical)
+
+Entry points, slice A, Math goal titles/same-week rule and owner sign-off were approved and implemented. Hindi goal mapping and the remaining slices still need their own reviewed work; the questions below record the original proposal.
 
 1. Approve the entry points (§4) and the goals-first home (§5).
 2. Approve slice A now, and the order of the remaining slices (§7).

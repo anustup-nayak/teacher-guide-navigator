@@ -38,6 +38,8 @@ This file records what the repository needs from it.
 | Year view: plain words before NIPUN codes, a legend, the teacher's own position marked, no internal process wording | `dist/views/program-guide.mjs` |
 | The find screen no longer carries the guide box | `dist/app.mjs` |
 
-Not done, deliberately: smart cards (next); day 4–6 cards (with smart cards); loading only the chosen subject's
+At r65, deliberately deferred: smart cards; day 4–6 cards; loading only the chosen subject's
 lesson data (first load fetches both catalogs, about 0.8 MB compressed); keeping this week offline automatically;
 multigrade view.
+
+Current update (1 Nov 2026): 549 approved teaching-day cards are live in r69/content 1.3.3. Math weekly-template day 4–6 cards remain outside that count. The new [UI review brief](UI_DESIGN_NEXT_ITERATION.md) and [teacher-centred UX protocol](TEACHER_UX_AUDIT_PROTOCOL.md) define the next iteration; the full original Claude archetypes still need retrieval.

@@ -195,7 +195,7 @@ recorded as `review: owner-approved`, see §3).
 | 6 | Day types (§1a)? | **Accepted** as listed for both subjects. |
 | 7 | Who signs off (plan §9.3)? | **The owner.** Academic review is not claimed; an academic reviewer can later raise items to `reviewed`. |
 
-**Status:** ontology **v1.0.0**. The Phase 3 compiler rebuilds both v1 catalogs byte for byte
+**Status:** the frozen ontology baseline is **v1.0.0**; current schema **1.3.0** adds metadata, goals and approved cards, published in release **1.3.3**. The Phase 3 compiler rebuilds both v1 catalogs byte for byte
 from all 732 model lessons. Changes are additive only (new fields, values or entities);
 nothing published is renamed or removed. Content population/review in Phases 4–5 remains
 separate from this schema/parity gate. The additive `step.instructions` variant and typed

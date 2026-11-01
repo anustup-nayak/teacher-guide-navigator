@@ -110,7 +110,7 @@ a grade/subject addition and must be reviewed explicitly.
 For GitHub delivery, read `docs/SOURCE_ARCHIVE.md` and `docs/GITHUB_PAGES.md`. Run
 `npm run verify:sources` and report missing originals separately from app readiness.
 Do not replace a missing source with a different-checksum edition or a PDF rebuilt
-from page images. Archive PDFs outside dist; Pages uploads dist only. Test the
+from page images. Archive PDFs outside dist; Pages stages only website files: current dist at the root and the frozen v1.0.4 dist at /v1/; it does not publish repository documentation or raw content releases. Test the
 actual project-prefix HTTPS URL after the check-gated workflow deploys.
 
 ## Content-model releases on the v2 line
@@ -123,13 +123,11 @@ explicit previous version; keep old IDs/directories. Derived links and editorial
 need reviewed/owner-approved status before default website queries expose them. A schema/
 parity pass freezes ontology v1.0, not academic approval or completion of Phases 4–5.
 
-The website on `next` is pinned to a release (`content/website.json`). `npm run site:publish`
+Both production `main` and integration `next` use a pinned content release (`content/website.json`). `npm run site:publish`
 copies each pinned release's hash-checked `views/v1/catalog.mjs` into `dist/` and generates
 `dist/day-types.mjs` from its `structure.json`; `npm run verify:site` and
 `tests/site-from-release.test.mjs` fail if `dist/` drifts or if the per-grade app bundles lack any
-field the website shows. Advance the pin, `verify:content` and the release together. `next` keeps
-its own higher rNN release token than `main`; after merging `main` into `next`, re-run
-`release:assets` there. When checking in a browser, a server without cache headers (Python's)
+field the website shows. Advance the pin, `verify:content` and the release together. Choose a new unused rNN token for changed runtime bytes; do not bump it merely for a documentation change or a merge with identical runtime bytes. After the v2 cutover, keep `release/v1` frozen and follow the current `docs/VERSIONING.md` release flow. When checking in a browser, a server without cache headers (Python's)
 lets the browser keep old modules under an unchanged token: use a fresh port or new token.
 
 File-sync tools (iCloud Desktop & Documents, Dropbox) can drop copies such as `lessons/1 2.json`

@@ -1,10 +1,6 @@
 # Ontology-led content system and app v2 — build plan
 
-Status: **approved by the owner and in progress** (31 October 2026). Done: Phase 0 except the preview
-site, Phases 1–3 (profiles and maps, content model and program structure, compiler and content
-releases; the website on `next` reads release 1.1.0). Next: Phases 4–5 and the program-guide design
-([PROGRAM_GUIDE_DESIGN.md](PROGRAM_GUIDE_DESIGN.md)). Live app: `main`, r61. The phase list below is the
-original plan; [HANDOFF.md](HANDOFF.md) has the current state.
+Status (1 Nov 2026): the owner-approved v2 cutover is complete (`v2.0.0`, r69, content 1.3.3), including the program guide, Math goals and 549 approved smart cards. The phased plan below is the original 31 October design record, not a statement of current deployment status or commands to rerun. Phases 4–5 are still only partly populated; the separate preview origin and later product work remain distinct decisions. [HANDOFF.md](HANDOFF.md) gives current state; [CONTENT_COMPILER.md](CONTENT_COMPILER.md) and [VERSIONING.md](VERSIONING.md) govern current builds and releases.
 
 ## 1. Why
 

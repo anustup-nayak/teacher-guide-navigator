@@ -64,11 +64,10 @@ repository out of synced folders, and check `git status` for `* 2*` files if a g
 
 - **UI** (`dist/`): test Hindi and English at 360 and 390 px, keyboard navigation and old deep links.
   Protected files and frozen behaviour need the owner's approval ([DESIGN_CONTRACT.md](DESIGN_CONTRACT.md)).
-- **Lesson content repairs (v1, on `main`)**: add a source-compared entry to
+- **Existing-pack source repairs**: add a source-compared entry to
   `curricula/<pack>/tools/repairs.json`, rebuild with the pack's `build_pack.py --no-images`, publish with
-  `node scripts/publish_curriculum.mjs <pack>`, and record a reviewed baseline amendment
-  ([CURRICULUM_EXPANSION.md](CURRICULUM_EXPANSION.md)). After `main` is merged into `next`, rebuild the
-  content release so `verify:site` stays green.
+  the reviewed-snapshot publication path only as part of the repair procedure, and record a reviewed baseline amendment
+  ([CURRICULUM_EXPANSION.md](CURRICULUM_EXPANSION.md)). For the current v2 website, synchronize the canonical model and a new immutable content release, advance the pin and publish generated site modules in the same reviewed task. Do not publish a repaired v1 snapshot alone over the pinned production catalogs; `verify:site` and parity must both pass.
 - **Content model (v2, on `next`)**: edit `curricula/<pack>/model/`, then
   `npm run content:build -- --version <next> --previous <current>`, update `content/website.json` and the
   `verify:content` pin, and run `npm run site:publish` ([CONTENT_COMPILER.md](CONTENT_COMPILER.md)).
