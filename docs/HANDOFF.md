@@ -83,7 +83,7 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
 |---|---|---|---|---|
 | Claude Code | `task/today-home` (merged into `next` as PR #22, 1 Nov 2026) | `dist/views/today.mjs`, `dist/domain/progress.mjs`, `dist/app.mjs`, `dist/index.html`, `dist/core.mjs`, `dist/guide-cards.css`, `dist/views/{program-guide,current-context}.mjs`, `dist/domain/app-context.mjs`, tests, docs (`UX_REVIEW_2026-11`, `SMART_CARDS`, contract), r65 | Merged | #21 and #22 merged into `next` after a full check on the merged tree (132 tests). [Task note](tasks/today-home-r65.md). |
 | Claude Code | `task/smart-cards` (from `next` @ r65) | card component, data path, workbench (`scripts/content/cards.mjs`), schema 1.3.0, release 1.3.0, r66 | PR to `next` | Built and checked (136 tests). Then drafting is split: Claude Code = Math, Codex = Hindi; protocol and Codex prompt in [SMART_CARDS.md §8](SMART_CARDS.md). |
-| Claude Code | `task/cards-all-drafts` | `curricula/*/drafts/cards/`, `docs/review/cards/*`, `scripts/content/cards.mjs` (`draft`) | PR #27 to `next` | All 183 Math cards approved and published (release 1.3.2, r68). Next: hand-rework Hindi period lines (fragments), then owner approval → release 1.3.3. |
+| Claude Code | `task/cards-all-drafts` | `curricula/*/drafts/cards/`, `docs/review/cards/*`, `scripts/content/cards.mjs` (`draft`) | PR #27 to `next` | All 183 Math cards approved and published (release 1.3.2, r68). Hindi period lines reworked (whole instructions only); awaiting owner approval → release 1.3.3. |
 | Codex | `task/cards-hindi-*` | — | Superseded | Owner asked Claude Code to complete all cards; Hindi drafts now exist. Codex may review/refine Hindi lines on a separate branch. |
 | Claude Code | `task/math-goals` (from `next`, includes the titles draft from PR #20) | `curricula/up-math-2026/model/{outcomes,lessons}`, schemas, `scripts/content/{compile,publish_site}.mjs`, `content/*/1.2.0`, `dist/views/program-guide.mjs`, `dist/app.mjs`, `dist/core.mjs`, `dist/lesson-goals.mjs`, `dist/guide-cards.css`, tests, r64 | PR to `next` | Owner approved titles and the same-week rule; slice G-Math built. Next: owner merges (PR #20 then closes as included); Hindi goal-to-week map draft. |
 | Claude Code (took over from Codex) | `task/program-metadata-layout` ([PR #17](https://github.com/anustup-nayak/teacher-guide-navigator/pull/17)) | Program metadata, layout, skill, docs cleanup, release 1.1.0 | Integrated with `next`; cleanup added; PR open | Next: owner merges PR #17. |
@@ -98,7 +98,10 @@ Only open work. Finished rows are removed; their change-log entries keep the rec
   G1 (45), G2 (53), G3 (69); 183 Math cards in `model/`. Content release 1.3.2 (previous 1.3.1), pinned;
   `site:publish` → `dist/lesson-cards.mjs` carries 183 Math cards, no Hindi. `release:assets r68`.
 - Checks: `npm test` 136 pass; `check`, `verify:program`, `verify:content`, `verify:publication` pass; sw.js syntax ok.
-- Left: Hindi rework → owner approval → release 1.3.3; then ask the owner about `next` → `main`.
+- Hindi rework: `draft` now builds each period line from whole instructions only (verb-ending clauses, balanced
+  quotes/brackets, no questions or pronoun starts), ranked for lesson-specific content; a step with no such clause
+  keeps only its title in `steps`. One line hand-fixed (G2 w03 d2). `check` 549/549.
+- Left: owner approval of Hindi → release 1.3.3; then ask the owner about `next` → `main`.
 
 ### 2026-11-01 · Claude Code · `task/cards-all-drafts` (all remaining cards drafted)
 

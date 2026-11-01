@@ -44,6 +44,15 @@ const brief = (p, max) => {
   const ok = parts.find(a => { const n = a.split(/\s+/).length; return n >= Math.max(4, Math.floor(max * 0.55)) && n <= max && VERB_END.test(a) && ((a.match(/[‘“]/g) || []).length === (a.match(/[’”]/g) || []).length); });
   return ok || clip(key(p), max);
 };
+// complete instructions only (verb-ending clause, balanced quotes, no dangling start); shortest first
+const START_BAD = /^(के|का|की|को|में|से|पर|और|एवं|या|तथा|फिर से|जिसमें|जो|कि)\s/;
+const wholes = (p, max) => sentences(p)
+  .flatMap(a => a.split(/(?<=[।!;])\s+|(?<=\sहुए)\s+|(?<=\.)\s+(?=\D)|(?<=(?:ें|एँ|ाएँ|ाएं|िए)),\s+/))
+  .map(a => a.trim().replace(/^(तथा|और|एवं|फिर)\s+/, '').replace(/[।.;,]$/, '').replace(/^\(|\)$/g, ''))
+  .filter(a => { const n = a.split(/\s+/).length; return n >= 3 && n <= max && VERB_END.test(a) && !START_BAD.test(a) && !/^(उसे|इसे|उन्हें|इन्हें|यह|वह|ये|वे|इस दौरान|इसके|उसके|उनके|बच्चे जैसे)\s/.test(a) && !/(^|\s)(क्यों|कितन[ाेी]|क्या|कैसे|कौन|किस|कहाँ)(\s|$)/.test(a) && (a.match(/\(/g) || []).length === (a.match(/\)/g) || []).length && !/[(\[]/.test(a.replace(/\([^)]*\)/g, '')) && (a.match(/[‘“]/g) || []).length === (a.match(/[’”]/g) || []).length; })
+  .sort((x, y) => score(y) - score(x));
+const GENERIC = /^(बच्चों (को|से) )?गतिविधि (करने|बच्चों को करने)|जुड़े रहें|सहायता करें$|प्रतिक्रियाएँ लें|दोहराएँ$/;
+function score(a) { const n = a.split(/\s+/).length; return Math.min(n, 10) + (/[‘“]|\d|पाठ-|कार्यपुस्तिका|वर्ण|शब्द|कहानी|कविता|चित्र/.test(a) ? 4 : 0) - (GENERIC.test(a) ? 6 : 0); }
 const DANGLING = new Set(['के','का','की','को','में','से','पर','और','एवं','या','तथा','जैसे-','जैसे','उनके','उनकी','उन्हें','हर','कुछ','एक','इस','उस','दिए','गए','गई','द्वारा','लिए','साथ','बच्चों','—','-','कि','जैसे,','जो','तो','यदि']);
 const trimEnd = w => { while (w.length > 3 && (DANGLING.has(w[w.length - 1].replace(/[,;:।]$/, '')) || /[‘“(]$/.test(w[w.length - 1]))) w.pop(); return w; };
 const clip = (x, max) => {
@@ -111,8 +120,11 @@ if (cmd === 'scaffold') {
       } else {
         if (line.label.includes(TODO)) line.label = `कालांश ${line.period}`;
         line.steps = ps.map(p => `${clip(cleanTitle(p.title), 4)} ${p.minutes ?? ''}`.trim()).join(' · ');
-        const per = ps.length > 2 ? 8 : 11;
-        line.text = ps.map(p => brief(p, per)).join(' → ');
+        // one whole instruction per step; drop a step's text (its title stays in line.steps) rather than clip it
+        const picks = ps.map(p => wholes(p, 14)[0] || null); picks.forEach((x, i) => { if (x && picks.indexOf(x) !== i) picks[i] = null; });
+        const words = () => picks.filter(Boolean).reduce((n, x) => n + x.split(/\s+/).length, 0);
+        while (words() > 24) { let k = 0; picks.forEach((x, i) => { if (x && x.split(/\s+/).length > (picks[k]?.split(/\s+/).length || 0)) k = i; }); const alt = wholes(ps[k], picks[k].split(/\s+/).length - 1).filter(x => !picks.includes(x)); picks[k] = alt[0] || null; }
+        line.text = picks.filter(Boolean).join(' → ') || brief(ps[0], 14);
       }
       n++;
     }
