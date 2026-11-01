@@ -74,12 +74,14 @@ repository out of synced folders, and check `git status` for `* 2*` files if a g
   `verify:content` pin, and run `npm run site:publish` ([CONTENT_COMPILER.md](CONTENT_COMPILER.md)).
 - **New PDFs / grades / subjects**: follow the skill and [CURRICULUM_EXPANSION.md](CURRICULUM_EXPANSION.md).
 
-## Releasing (v1)
+## Releasing
 
-Branches and tags: [VERSIONING.md](VERSIONING.md). For a release on `main`: `npm run manifest` if page
+Branches and tags: [VERSIONING.md](VERSIONING.md). For a v1 maintenance release before cutover: `npm run manifest` if page
 images changed, `npm run release:assets -- rNN` (coordinates every `?v=` token and the worker shell), all
 checks, PR, merge (GitHub Pages deploys `dist/` from `main`: [GITHUB_PAGES.md](GITHUB_PAGES.md)), then
 fast-forward `release/v1`, tag `v1.0.N` and merge `main` into `next`. `next` carries its own higher rNN.
+
+After v2 cutover, freeze `release/v1` at `v1.0.4`; normal v2 releases flow through `next` → `main`. Pages runs the v2 content/site gates and stages the current `dist/` plus the frozen v1 tag at `/v1/` using `scripts/stage_pages.mjs`. Never fast-forward `release/v1` to a v2 commit. See [GitHub Pages delivery](GITHUB_PAGES.md).
 
 ## Parallel agents
 

@@ -7,8 +7,8 @@ The live app (v1) must keep working while v2 is built.
 
 | Branch | Purpose | Deploys |
 |---|---|---|
-| `main` | v1 production until the v2 cutover | GitHub Pages site root (`pages.yml`, `main` only) |
-| `release/v1` | v1 maintenance line; mirrors `main` until cutover, then keeps v1 alive | Nothing until cutover; afterwards `/v1/` |
+| `main` | Production (v2 after the owner-approved cutover) | GitHub Pages site root (`pages.yml`, `main` only) |
+| `release/v1` | Frozen v1.0.4 rollback line | `/v1/`, staged from immutable tag `v1.0.4` |
 | `next` | v2 integration: content model, compiler, app v2 | Preview site only (see below) |
 | `task/<name>` | One task per agent, in its own worktree | Nothing |
 
@@ -30,8 +30,7 @@ cutover is approved by the owner.
 - `v1.0.3` = `main` @ `4be3376`, release r60 (restored quoted vowel signs in 13 Hindi lessons).
 - `v1.0.4` = `main` @ `49f873c`, release r61 (lesson links find their subject from the lesson id).
 - v2 previews: `v2.0.0-alpha.N`; release candidates `v2.0.0-rc.N`; cutover `v2.0.0`.
-- `v2.0.0` = cutover of `next` into `main` on 1 Nov 2026, release r69 (owner: “Publish … make it clean production
-  ready”). `/v1/` copy not yet built; rollback by reverting the cutover merge.
+- `v2.0.0` identifies the owner-approved v2 cutover, release r69, content 1.3.3 (owner, 1 Nov 2026: “Publish … make it clean production ready”). Tag the verified cutover commit after deployment. The Pages artifact stages frozen `v1.0.4` at `/v1/`; rollback is by reverting the cutover merge.
 
 Rollback at any time: revert the offending merge on `main` by PR (Pages redeploys the
 previous build). No data migration is needed because every version keeps the v1 lesson IDs
@@ -63,5 +62,5 @@ on manual dispatch. No tokens or secrets. The template workflow lives in
 
 1. Tag the last v1 release; `release/v1` stays at it.
 2. Merge `next` into `main` by PR; the Pages workflow publishes v2 at the root and the v1
-   build from `release/v1` at `/v1/`.
+   build from immutable tag `v1.0.4` (the frozen `release/v1` state) at `/v1/`.
 3. Keep `/v1/` and the rollback path for at least one school term.
