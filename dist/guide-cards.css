@@ -317,7 +317,10 @@ main[data-guide-profile=up-3] .practice .phase-heading, main[data-guide-profile=
   color: var(--white);
 }
 
-main[data-guide-profile=up-3] .practice .phase-heading h2, main[data-guide-profile=up-3] .support .phase-heading h2, main[data-guide-profile=up-3] .practice .phase-heading .eyebrow, main[data-guide-profile=up-3] .support .phase-heading .eyebrow {
+main[data-guide-profile=up-3] .practice .phase-heading h2,
+main[data-guide-profile=up-3] .support .phase-heading h2,
+main[data-guide-profile=up-3] .practice .phase-heading .eyebrow,
+main[data-guide-profile=up-3] .support .phase-heading .eyebrow {
   color: var(--white);
 }
 
@@ -1200,7 +1203,16 @@ main[data-guide-profile=up-12][data-guide-weekly-day="4"] .weekly-plan .phase-he
   line-height: 1.65;
 }
 
-.phase-heading .eyebrow, .preparation-heading>.small, .preparation.lesson-section .learning-code, .worksheet .small, .references .small, .notes-footer span, .guide-banner .lesson-hierarchy, .phase-heading .time, .preparation.lesson-section .preparation-grid h3, .question-box h3 {
+.phase-heading .eyebrow,
+.preparation-heading>.small,
+.preparation.lesson-section .learning-code,
+.worksheet .small,
+.references .small,
+.notes-footer span,
+.guide-banner .lesson-hierarchy,
+.phase-heading .time,
+.preparation.lesson-section .preparation-grid h3,
+.question-box h3 {
   font-size: var(--fs-1);
 }
 
@@ -1428,7 +1440,7 @@ main :focus-visible {
   display: flex;
   align-items: center;
   gap: var(--space-3);
-  min-height: 38px;
+  min-height: var(--touch-min);
   border: 0;
   background: none;
   padding: 0;
@@ -1505,7 +1517,7 @@ main :focus-visible {
     min-height: 23px;
   }
   #current-identity {
-    min-height: 35px;
+    min-height: var(--touch-min);
   }
   .lesson-section-nav {
     top: var(--context-height,0px);
@@ -2944,9 +2956,79 @@ main :focus-visible {
   display: grid;
   gap: var(--space-2);
   margin: var(--space-4) 0 0;
-  padding: var(--space-3) 0 0;
+  padding: var(--space-3) var(--space-4) var(--space-4);
   border-top: 1px solid var(--color-border);
   border-bottom: 0;
   background: none;
   font-size: var(--fs-2);
+}
+
+/* Find: search is a first-class field, not a folded control (audit X5) ------ */
+.find-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-4);
+}
+
+.link-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  min-height: var(--touch-compact);
+  padding: 0 var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  background: var(--color-surface);
+  color: var(--color-brand-strong);
+  font-size: var(--fs-2);
+  font-weight: var(--fw-semibold);
+  text-decoration: none;
+}
+
+.link-chip:hover {
+  border-color: var(--color-brand);
+  background: var(--color-brand-subtle);
+}
+
+.search-field {
+  display: grid;
+  gap: var(--space-1);
+  margin: 0 0 var(--space-4);
+}
+
+.search-field label {
+  color: var(--color-text-muted);
+  font-size: var(--fs-2);
+  font-weight: var(--fw-semibold);
+}
+
+.search-field input {
+  width: 100%;
+  min-height: var(--touch-min);
+  padding: 0 var(--space-4);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-m);
+  background: var(--color-surface);
+  font-size: var(--fs-3);
+}
+
+.search-field input:focus {
+  border-color: var(--color-brand);
+}
+
+/* Narrow phones (320px): tabs drop their icons so three labels always fit */
+@media (max-width: 359px) {
+  .tab-icon {
+    display: none;
+  }
+
+  .header-inner nav a {
+    padding: 0 var(--space-1);
+    font-size: var(--fs-1);
+  }
+
+  .brand {
+    font-size: var(--fs-3);
+  }
 }
