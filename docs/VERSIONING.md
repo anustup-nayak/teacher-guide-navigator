@@ -40,8 +40,7 @@ model, compiler, site and parity gates. A PR into `main` must pass the full curr
 
 ## Optional preview site (not configured)
 
-The following is the original separate-preview proposal, not an existing deployed site. A separate origin would keep preview service workers and browser storage separate from production, using the live app's offline worker or browser storage:
-a free GitHub organisation owned by the project owner, with a user-site repository
+The following is the original separate-preview proposal, not an existing deployed site. A separate origin would isolate preview service workers and browser storage from production. The proposal uses a free GitHub organisation owned by the project owner, with a user-site repository
 `<org>.github.io`. Its only content is a Pages workflow that checks out the public `next`
 branch of `anustup-nayak/teacher-guide-navigator` and publishes its build, on a schedule and
 on manual dispatch. No tokens or secrets. The template workflow lives in
