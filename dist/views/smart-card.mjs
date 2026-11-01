@@ -14,13 +14,15 @@ export function renderSmartCard({card, lesson, t, e, context, goals, chain, imag
     ? `<div class="card-bands">${card.lines.map(line => `<a class="card-band role-${line.period === 2 ? 'practice' : line.period === 3 ? 'support' : 'teaching'}" href="#${target(line)}" data-section="${target(line)}"><span class="card-band-head"><b>${e(line.label)}</b>${line.steps ? `<small>${e(line.steps)}</small>` : ''}</span><span class="card-text">${e(line.text)}</span></a>`).join('')}</div>`
     : `<ol class="card-lines">${card.lines.map((line, i) => `<li><a class="card-line" href="#${target(line)}" data-section="${target(line)}"><span class="card-num role-${role(line)}" aria-hidden="true">${i + 1}</span><span><b>${e(line.label)}</b>${line.minutes ? ` <small>${e(line.minutes)}</small>` : ''}<span class="card-text">${e(line.text)}</span></span><span class="card-go" aria-hidden="true">›</span></a></li>`).join('')}</ol>`;
   const prep = [lesson.materials?.length ? `<b>${t('तैयार रखें', 'Have ready')}:</b> ${lesson.materials.map(e).join(' · ')}` : '', lesson.commonMistake ? `<b>${t('ध्यान दें', 'Watch for')}:</b> ${e(lesson.commonMistake)}` : ''].filter(Boolean).join('<br>');
+  const periods = card.lines.length, WORD = {1: 'एक', 2: 'दो', 3: 'तीन', 4: 'चार'};
+  // Lesson identity first; the previous/next pair follows the start button (audit X6, 1 Nov 2026).
   return `<section class="smart-card" aria-labelledby="smart-card-title">
-<div class="card-chain">${before}${next}</div>
 <header class="card-head"><p class="card-context">${e(context)}</p><h1 class="lesson-title" id="smart-card-title">${e(card.title)}</h1>${goalLine}</header>
 ${image || ''}
-<p class="card-label">${card.layout === 'periods' ? t('आज के तीन कालांश', 'Today’s three periods') : t('पाठ एक नज़र में', 'The lesson at a glance')} <span class="card-tag">${t('सार · पूरे निर्देश नीचे हर चरण में', 'Summary · full steps below')}</span></p>
+<p class="card-label">${card.layout === 'periods' ? t(`आज के ${WORD[periods] || periods} कालांश`, `Today’s ${periods} periods`) : t('पाठ एक नज़र में', 'The lesson at a glance')} <span class="card-tag">${t('सार · पूरे निर्देश नीचे हर चरण में', 'Summary · full steps below')}</span></p>
 ${body}
 ${prep ? `<p class="card-prep">${prep}</p>` : ''}
 <a class="button primary card-start" href="#lesson-phase-0" data-section="lesson-phase-0">${t('पाठ शुरू करें · चरण 1', 'Start the lesson · step 1')} →</a>
+<nav class="card-chain" aria-label="${t('पिछला और अगला पाठ', 'Previous and next lesson')}">${before}${next}</nav>
 </section>`;
 }
