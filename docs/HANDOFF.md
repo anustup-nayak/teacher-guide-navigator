@@ -36,10 +36,10 @@ mid-task. It is the first file to read and the last file to update.
 
 | Item | Value |
 |---|---|
-| Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`); production is the latest successful Pages deployment on `main` |
+| Live app | https://anustup-nayak.github.io/teacher-guide-navigator/ (deployed from `main` by `.github/workflows/pages.yml`); v2 r69 / content 1.3.3 deployed from `main` at `edd31db` on 1 Nov 2026 |
 | Repository | github.com/anustup-nayak/teacher-guide-navigator (public). Branches: `main` (production), `release/v1` (frozen at v1.0.4), `next` (v2 integration) — see [VERSIONING.md](VERSIONING.md) |
 | v1 release | r61 @ `49f873c`, tag `v1.0.4`; `release/v1` stays there for rollback |
-| v2 line | Content releases up to 1.3.3 (pinned in `content/website.json`); आज home, पूरा साल guide, goals, chains, and 549 owner-approved smart cards (183 Math, 366 Hindi); release token r69. Cutover to `main` authorized; verify the Pages deployment after merge |
+| v2 line | Content releases up to 1.3.3 (pinned in `content/website.json`); आज home, पूरा साल guide, goals, chains, and 549 owner-approved smart cards (183 Math, 366 Hindi); release token r69. Live on `main` at `edd31db`, tag `v2.0.0`; frozen r61 at `/v1/` |
 | Published content | UP Mathematics `up-math-2026` and UP Hindi `up-hindi-2026`, Grades 1–3: 366 day plans each; 990 + 972 page images |
 | Teacher-data namespaces | Math `up-sandarshika-2026-v1`, Hindi `up-hindi-sandarshika-2026-v1` (permanent) |
 | Checks | See [DEVELOPMENT.md](DEVELOPMENT.md#checks); last full run 1 Nov 2026 (r69): npm test 136/136, ingestion 16, skill tests OK, all verify gates pass, cards check 549/549, Playwright UI sweep 0 failures |
@@ -49,16 +49,22 @@ mid-task. It is the first file to read and the last file to update.
 
 ## Next up
 
-Owner authorized production cutover on 1 Nov 2026: “Yes approve everything. Publish and run all UI, UX, content tests, cleanup unnecessary files and make it clean production ready.” PR #27 is merged into `next`; Codex is completing deployment and the frozen `/v1/` fallback. See [production task](tasks/cards-production-finish.md). Day-5 counts and usage counts remain deferred; independent academic review and field testing remain open.
+Production cutover is complete: PR #30, `edd31db`, tag `v2.0.0`; [Pages deployment](https://github.com/anustup-nayak/teacher-guide-navigator/actions/runs/41279200254) succeeded and live root/fallback were verified. The next iteration is the owner's requested professional [UI review and design specification](UI_DESIGN_NEXT_ITERATION.md), with the [teacher-archetype UX protocol](TEACHER_UX_AUDIT_PROTOCOL.md). Review first; implement only after agreeing the design direction. Recover the original Claude archetypes; do not substitute invented profiles. Day-5 counts and usage counts remain deferred; independent academic review, physical-device/TalkBack and teacher field tests remain open.
 
 ## Active work
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Codex (handover from Claude Code) | `task/cards-production-finish` | Pages staging, deployment checks, current release docs | in progress | PR #27 merged; validate release and `/v1/`, then cut over via PR to main and verify live. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused | Other agent's uncommitted work; do not touch. |
 
 ## Change log
+
+### 2026-11-01 · Codex · verified v2 production release
+
+- Merged owner-approved PR #30 to `main` as `edd31db543ef9eceee39e97f69d5bd3f7cc6bbda`; tagged `v2.0.0`. Pages run `41279200254` and Checks run `41279200249` both succeeded.
+- Verified live index/app/worker/card module byte-for-byte against r69, 549 approved cards, frozen v1.0.4 app at `/v1/` and isolated fallback worker cache namespace. Browser smoke: Hindi 360px and English 390px, card → detailed step focus, loaded workbook reader and return, no overflow/console errors. A reversible v1 note survived the upgrade; original note restored.
+- Full validation: 137 Node tests, 16 ingestion tests, 5 skill helpers, 549-card checker and renderer sweep, program/content/site/publication/complete-source checks. Physical devices, TalkBack, teachers and independent academic review remain unverified.
+- Saved the owner's next-iteration UI/UX brief and teacher-archetype audit protocol; no redesign implemented. [Release evidence](tasks/cards-production-finish.md).
 
 ### 2026-11-01 · Codex · production handover from Claude Code
 

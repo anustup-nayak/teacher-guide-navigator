@@ -1,6 +1,6 @@
 # Smart lesson cards: specification and handoff
 
-Status (1 Nov 2026): **component, data path and workbench built (r66); drafting split between Claude Code (Math) and Codex (Hindi), §8.** Read this whole file before making any card.
+Status (1 Nov 2026): **549 cards owner-approved and published in content 1.3.3 / r69; production cutover verified, tag v2.0.0.** Read this whole file before making any card.
 It is written so that any agent can pick up the work, including after the previous agent ran out of tokens.
 Background: [UX_REVIEW_2026-11.md](UX_REVIEW_2026-11.md). Track progress in the table at the end of this file
 and in [HANDOFF.md](HANDOFF.md).
