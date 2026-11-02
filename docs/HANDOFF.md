@@ -59,6 +59,7 @@ Administrative: tag `v2.1.0` (r70, `9259ec8`) was pushed on 2 Nov 2026. r71 has 
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
+| Claude Code | `task/hindi-workbook-label-repair` | `curricula/up-hindi-2026/compat/v1.json`, `curricula/up-hindi-2026/tools/` (label recipes, build_pack.py), `scripts/content/source_text_repairs.mjs`, its test, content 1.3.5, pins, baseline amendment, `dist/` generated modules and r72 tokens; see [task note](tasks/hindi-workbook-label-repair.md) | In progress | Comparing all 85 Grade 1 Hindi workbook labels with page images; next: recipes and repair tool. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused | Other agent's uncommitted work; do not touch. |
 
 ## Change log
