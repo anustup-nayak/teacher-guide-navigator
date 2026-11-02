@@ -30,6 +30,18 @@ for(const id of ['up-math-2026','up-hindi-2026']){
    else if(contains(model,r.old)||contains(legacy,r.old))throw Error(`Unapplied text repair: ${r.lesson}/${r.step}`);
   }
  }
+ // Workbook page labels live only in the compatibility bridge and the legacy worksheet list.
+ const labelFile=path.join(dir,'tools/workbook-label-repairs-r72.json');
+ const labels=fs.existsSync(labelFile)?JSON.parse(fs.readFileSync(labelFile)).repairs:[];
+ const sheetFiles=labels.length?[path.join(dir,'reviewed/worksheets.json'),path.join(root,'dist/packs',id,'worksheets.json')]:[];
+ const sheetLists=sheetFiles.map(f=>JSON.parse(fs.readFileSync(f)));
+ for(const r of labels){
+  if(digest(path.join(root,'dist',r.evidence))!==r.sha256)throw Error(`Source image changed: ${r.evidence}`);
+  const sheets=[...Object.values(data.compat.lessons).flatMap(l=>l.fields?.worksheets||[]),...sheetLists.flat()].filter(w=>w.grade===r.grade&&w.pdfPage===r.pdfPage);
+  if(!sheets.some(w=>w.label===r.old||w.label===r.new))throw Error(`Label repair no longer matches: g${r.grade} p${r.pdfPage}`);
+  for(const w of sheets)if(w.label===r.old){if(write)w.label=r.new;else throw Error(`Unapplied label repair: g${r.grade} p${r.pdfPage}`);}
+ }
+ if(write)sheetFiles.forEach((f,i)=>fs.writeFileSync(f,JSON.stringify(sheetLists[i])+'\n'));
  if(write){
   for(const grade of data.program.grades)fs.writeFileSync(path.join(dir,`model/lessons/${grade}.json`),json(data.lessons.filter(l=>l.grade===grade)));
   fs.writeFileSync(path.join(dir,'compat/v1.json'),json(data.compat));
@@ -37,5 +49,5 @@ for(const id of ['up-math-2026','up-hindi-2026']){
   fs.writeFileSync(path.join(dir,'reviewed/catalog.mjs'),catalog);
   fs.writeFileSync(path.join(root,'dist',id==='up-math-2026'?'catalog.mjs':`packs/${id}/catalog.mjs`),catalog);
  }
- console.log(`${id}: ${repairs.length} source-compared repair records ${write?'applied':'verified'}`);
+ console.log(`${id}: ${repairs.length} source-compared repair records${labels.length?` and ${labels.length} workbook label repairs`:''} ${write?'applied':'verified'}`);
 }

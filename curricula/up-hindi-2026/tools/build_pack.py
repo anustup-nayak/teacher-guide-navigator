@@ -8,7 +8,8 @@ Writes curricula/up-hindi-2026/reviewed/{catalog.mjs,resources.json,worksheets.j
 and renders dist/packs/up-hindi-2026/{source,workbook}/gN-pNNN.webp. Topics come from each
 guide's “वार्षिक शिक्षण उद्देश्य” page (printed p13); repairs.json holds source-compared
 replacements for text the parser cannot recover (a repair replaces a period, adds one the
-parser dropped, or restores a bare vowel sign shown as an empty ‘ ’). Text is decoded from the PDFs, never rewritten.
+parser dropped, or restores a bare vowel sign shown as an empty ‘ ’); workbook-label-repairs-r72.json holds
+page-compared workbook headings. Text is decoded from the PDFs, never rewritten.
 """
 import hashlib
 import io
@@ -94,6 +95,9 @@ def main(repo, images=True):
     guides = json.loads((base / 'extracted/adapter/guides.json').read_text())
     workbooks = json.loads((base / 'extracted/adapter/workbooks.json').read_text())
     repairs = json.loads((base / 'tools/repairs.json').read_text())
+    label_file = base / 'tools' / 'workbook-label-repairs-r72.json'
+    label_repairs = {(r['grade'], r['pdfPage'], r['old']): r['new']
+                     for r in (json.loads(label_file.read_text())['repairs'] if label_file.exists() else [])}
     manifest = json.loads((base / 'originals/manifest.json').read_text())
     docs = {d['id']: d for d in manifest['documents']}
     dist = repo / 'dist' / 'packs' / PACK
@@ -188,6 +192,8 @@ def main(repo, images=True):
                          'pdfPage': wp['pdfPage'], 'page': n,
                          'image': resources['workbook'][str(g)]['pages'][wp['pdfPage'] - 1],
                          'instructions': [clean(x) for x in wp['instructions']]}
+                # Page-compared label corrections (r72) for headings the legacy font decodes badly.
+                sheet['label'] = label_repairs.get((g, sheet['pdfPage'], sheet['label']), sheet['label'])
                 sheets.append(sheet)
                 worksheets.append(sheet)
             p2 = next((p for p in periods if p['period'] == 2), None)
