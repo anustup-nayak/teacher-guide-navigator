@@ -59,10 +59,15 @@ Administrative: tag `v2.1.0` (r70, `9259ec8`) was pushed on 2 Nov 2026. r71 has 
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/hindi-workbook-label-repair` | `curricula/up-hindi-2026/compat/v1.json`, `curricula/up-hindi-2026/tools/` (label recipes, build_pack.py), `scripts/content/source_text_repairs.mjs`, its test, content 1.3.5, pins, baseline amendment, `dist/` generated modules and r72 tokens; see [task note](tasks/hindi-workbook-label-repair.md) | In progress | Comparing all 85 Grade 1 Hindi workbook labels with page images; next: recipes and repair tool. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused | Other agent's uncommitted work; do not touch. |
 
 ## Change log
+
+### 2 Nov 2026 — Claude Code: Grade 1 Hindi workbook labels repaired (r72 / content 1.3.5, candidate on `next`)
+
+- Owner (chat): fix the damaged workbook label found in the explainer storyline, then "All Grade 1 labels". Compared all 75 Grade 1 workbook pages with their labels; repaired 36 pages / 41 lesson entries (legacy-font damage, dropped स्कूल रेडिनेस badges, missing heading, ✓ and anusvara signs). Page-hashed recipes in `curricula/up-hindi-2026/tools/workbook-label-repairs-r72.json`; repair script, raw builder and a new test cover them.
+- Content 1.3.5 (labels only; Math metadata only), pins, site publish, r72 tokens, baseline amendment. `npm test` 146/146 and every verify gate pass; browser check at 375 px. `test:e2e` not run (Playwright not installed).
+- The r71 UI does not display these labels, so teachers see no change; the published data is corrected. Not released to `main`. [Task note](tasks/hindi-workbook-label-repair.md).
 
 ### 2 Nov 2026 — Claude Code: status check and housekeeping
 
