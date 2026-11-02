@@ -1,0 +1,74 @@
+[
+ {
+  "id": "guide-g1-00970fd3c1e8",
+  "kind": "guide",
+  "grade": 1,
+  "title": {
+   "hi": "UP Literacy TG Grade-1 with Grid.pdf"
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g2-d86262b7a94c",
+  "kind": "guide",
+  "grade": 2,
+  "title": {
+   "hi": "UP Literacy TG Grade-2.pdf"
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "guide-g3-ab99c837f781",
+  "kind": "guide",
+  "grade": 3,
+  "title": {
+   "hi": "UP Literacy TG Grade-3 (1).pdf"
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-04678c7d6792",
+  "kind": "workbook",
+  "grade": 1,
+  "title": {
+   "hi": "WB Sarangi Grade-1.pdf"
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-b7aee36aedf3",
+  "kind": "workbook",
+  "grade": 2,
+  "title": {
+   "hi": "WB Grade-2 Sarangi.pdf"
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-e0e75877c246",
+  "kind": "workbook",
+  "grade": 3,
+  "title": {
+   "hi": "WB Grade-3 Veena 1 (18 march 25).pdf"
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ }
+]

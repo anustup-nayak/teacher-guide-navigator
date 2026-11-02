@@ -1,0 +1,829 @@
+{
+ "pack": "up-hindi-2026",
+ "printedOffset": 2,
+ "provenance": "Section titles and printed ranges from each guide’s contents page (pdf = printed + 2); \"observed\" ranges were read from page headings where the contents page is silent or disagrees. Unreviewed.",
+ "guides": {
+  "1": {
+   "document": "guide-g1-00970fd3c1e8",
+   "pages": 152,
+   "sections": [
+    {
+     "id": "cover",
+     "kind": "admin",
+     "title": "आवरण",
+     "pdf": [
+      1,
+      1
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "nipun-list",
+     "kind": "program",
+     "title": "निपुण सूची - हिंदी (कक्षा-1)",
+     "pdf": [
+      2,
+      2
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "title-page",
+     "kind": "admin",
+     "title": "शीर्षक पृष्ठ",
+     "pdf": [
+      3,
+      3
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "credits",
+     "kind": "admin",
+     "title": "संरक्षण / लेखन मंडल",
+     "pdf": [
+      4,
+      4
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "contents",
+     "kind": "admin",
+     "title": "विषय सूची",
+     "pdf": [
+      5,
+      5
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "annual-weekly-tracker",
+     "kind": "tracker",
+     "title": "वार्षिक साप्ताहिक ट्रैकर (2026-27)",
+     "pdf": [
+      6,
+      6
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "guide-usage",
+     "kind": "program",
+     "title": "संदर्शिका का उपयोग",
+     "pdf": [
+      7,
+      7
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-checking-understanding",
+     "kind": "article",
+     "title": "समझ की जाँच",
+     "pdf": [
+      8,
+      9
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-systematic-decoding",
+     "kind": "article",
+     "title": "व्यवस्थित डिकोडिंग",
+     "pdf": [
+      10,
+      11
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-emergent-writing",
+     "kind": "article",
+     "title": "उभरता लेखन से स्वतंत्र लेखन की ओर",
+     "pdf": [
+      12,
+      12
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-gender-sensitivity",
+     "kind": "article",
+     "title": "प्रारंभिक कक्षाओं में जेंडर संवेदनशीलता",
+     "pdf": [
+      13,
+      14
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "annual-objectives",
+     "kind": "program",
+     "title": "2026-27 वार्षिक शिक्षण उद्देश्य",
+     "pdf": [
+      15,
+      15
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "weekly-cycle",
+     "kind": "program",
+     "title": "सप्ताह दिवस साप्ताहिक शिक्षण चक्र",
+     "pdf": [
+      16,
+      16
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "materials",
+     "kind": "program",
+     "title": "शिक्षण सामग्रियों का विवरण",
+     "pdf": [
+      17,
+      17
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "period-outline",
+     "kind": "program",
+     "title": "कालांशों की रूपरेखा",
+     "pdf": [
+      18,
+      18
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "daily-plans",
+     "kind": "plans",
+     "title": "दैनिक शिक्षण योजना",
+     "pdf": [
+      19,
+      110
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "routines-period-1",
+     "kind": "routines",
+     "title": "कालांश-1 की गतिविधियों का विवरण",
+     "pdf": [
+      111,
+      123
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "routines-period-2",
+     "kind": "routines",
+     "title": "कालांश-2 की गतिविधियों का विवरण",
+     "pdf": [
+      124,
+      130
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "routines-period-3",
+     "kind": "routines",
+     "title": "कालांश-3 की गतिविधियों का विवरण",
+     "pdf": [
+      131,
+      132
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "weekly-assessment",
+     "kind": "assessment",
+     "title": "साप्ताहिक आकलन",
+     "pdf": [
+      133,
+      134
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "remedial-strategy",
+     "kind": "assessment",
+     "title": "दैनिक रिमीडियल शिक्षण कार्य की रणनीति",
+     "pdf": [
+      135,
+      137
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "oral-language-assessment",
+     "kind": "assessment",
+     "title": "मौखिक भाषा विकास का आकलन",
+     "pdf": [
+      138,
+      138
+     ],
+     "source": "contents",
+     "note": "page heading reads मौखिक भाषा विकास का अवलोकन"
+    },
+    {
+     "id": "stories-poems",
+     "kind": "resources",
+     "title": "कहानियाँ एवं कविताएँ",
+     "pdf": [
+      139,
+      140
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "grids",
+     "kind": "resources",
+     "title": "ग्रिड: विभिन्न सप्ताहों में उपयोग हेतु",
+     "pdf": [
+      141,
+      148
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "weekly-assessment-tracker",
+     "kind": "tracker",
+     "title": "साप्ताहिक आकलन ट्रैकर",
+     "pdf": [
+      149,
+      150
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "teaching-reminders",
+     "kind": "program",
+     "title": "भाषा शिक्षण में ध्यान रखने योग्य बातें",
+     "pdf": [
+      151,
+      151
+     ],
+     "source": "observed",
+     "note": "not in the contents page"
+    },
+    {
+     "id": "anthem",
+     "kind": "admin",
+     "title": "राष्ट्रगान",
+     "pdf": [
+      152,
+      152
+     ],
+     "source": "observed"
+    }
+   ]
+  },
+  "2": {
+   "document": "guide-g2-d86262b7a94c",
+   "pages": 200,
+   "sections": [
+    {
+     "id": "cover",
+     "kind": "admin",
+     "title": "आवरण",
+     "pdf": [
+      1,
+      1
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "nipun-list",
+     "kind": "program",
+     "title": "निपुण सूची - हिंदी (कक्षा-2)",
+     "pdf": [
+      2,
+      2
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "title-page",
+     "kind": "admin",
+     "title": "शीर्षक पृष्ठ",
+     "pdf": [
+      3,
+      3
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "credits",
+     "kind": "admin",
+     "title": "संरक्षण / लेखन मंडल",
+     "pdf": [
+      4,
+      4
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "contents",
+     "kind": "admin",
+     "title": "विषय सूची",
+     "pdf": [
+      5,
+      5
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "annual-weekly-tracker",
+     "kind": "tracker",
+     "title": "वार्षिक साप्ताहिक ट्रैकर (2026-27)",
+     "pdf": [
+      6,
+      7
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "guide-usage",
+     "kind": "program",
+     "title": "संदर्शिका का उपयोग",
+     "pdf": [
+      8,
+      8
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-oral-language-strategies",
+     "kind": "article",
+     "title": "मौखिक भाषा विकास की रणनीतियाँ",
+     "pdf": [
+      9,
+      9
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-checking-understanding",
+     "kind": "article",
+     "title": "समझ की जाँच",
+     "pdf": [
+      10,
+      11
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-scaffolding-pair-group",
+     "kind": "article",
+     "title": "स्कैफोल्डिंग एवं जोड़ी-समूह में कार्य",
+     "pdf": [
+      12,
+      12
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-gender-sensitivity",
+     "kind": "article",
+     "title": "प्रारम्भिक कक्षाओं में जेंडर संवेदनशीलता",
+     "pdf": [
+      13,
+      14
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "annual-objectives",
+     "kind": "program",
+     "title": "2026-27 वार्षिक शिक्षण उद्देश्य",
+     "pdf": [
+      15,
+      15
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "weekly-cycle",
+     "kind": "program",
+     "title": "सप्ताह दिवस साप्ताहिक शिक्षण चक्र",
+     "pdf": [
+      16,
+      16
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "materials",
+     "kind": "program",
+     "title": "शिक्षण सामग्रियों का विवरण",
+     "pdf": [
+      17,
+      17
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "period-outline",
+     "kind": "program",
+     "title": "कालांशों की रूपरेखा",
+     "pdf": [
+      18,
+      18
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "daily-plans",
+     "kind": "plans",
+     "title": "दैनिक शिक्षण योजनाएँ",
+     "pdf": [
+      19,
+      158
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "routines-period-1",
+     "kind": "routines",
+     "title": "कालांश-1 में कार्य करने की रणनीतियाँ",
+     "pdf": [
+      159,
+      172
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "routines-period-2",
+     "kind": "routines",
+     "title": "कालांश-2 में कार्य करने की रणनीतियाँ",
+     "pdf": [
+      173,
+      178
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "routines-period-3",
+     "kind": "routines",
+     "title": "कालांश-3 में कार्य करने की रणनीतियाँ",
+     "pdf": [
+      179,
+      181
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "assessment-remedial",
+     "kind": "assessment",
+     "title": "आकलन एवं दैनिक रिमीडियल कार्य",
+     "pdf": [
+      182,
+      184
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "oral-language-assessment",
+     "kind": "assessment",
+     "title": "मौखिक भाषा विकास का आकलन",
+     "pdf": [
+      185,
+      185
+     ],
+     "source": "contents",
+     "note": "page heading reads मौखिक भाषा विकास का अवलोकन"
+    },
+    {
+     "id": "stories",
+     "kind": "resources",
+     "title": "कहानियाँ",
+     "pdf": [
+      186,
+      190
+     ],
+     "source": "observed",
+     "note": "contents says printed 184-189 (pdf 186-191); the poems heading is on pdf 191"
+    },
+    {
+     "id": "poems",
+     "kind": "resources",
+     "title": "कविताएँ",
+     "pdf": [
+      191,
+      193
+     ],
+     "source": "observed",
+     "note": "pdf 192 also carries the end of story 15"
+    },
+    {
+     "id": "weekly-assessment-tracker",
+     "kind": "tracker",
+     "title": "साप्ताहिक आकलन ट्रैकर",
+     "pdf": [
+      194,
+      198
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "teaching-reminders",
+     "kind": "program",
+     "title": "भाषा शिक्षण में ध्यान रखने योग्य बातें",
+     "pdf": [
+      199,
+      199
+     ],
+     "source": "observed",
+     "note": "not in the contents page"
+    },
+    {
+     "id": "anthem",
+     "kind": "admin",
+     "title": "राष्ट्रगान",
+     "pdf": [
+      200,
+      200
+     ],
+     "source": "observed"
+    }
+   ],
+   "contentsAnomalies": [
+    "contents lists बहुकक्षीय शिक्षण 185-186, but printed 185-186 are stories; no multigrade section was found"
+   ]
+  },
+  "3": {
+   "document": "guide-g3-ab99c837f781",
+   "pages": 200,
+   "sections": [
+    {
+     "id": "cover",
+     "kind": "admin",
+     "title": "आवरण",
+     "pdf": [
+      1,
+      1
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "nipun-list",
+     "kind": "program",
+     "title": "निपुण सूची - हिंदी (कक्षा-3)",
+     "pdf": [
+      2,
+      2
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "title-page",
+     "kind": "admin",
+     "title": "शीर्षक पृष्ठ",
+     "pdf": [
+      3,
+      3
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "credits",
+     "kind": "admin",
+     "title": "संरक्षण / लेखन मंडल",
+     "pdf": [
+      4,
+      4
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "contents",
+     "kind": "admin",
+     "title": "विषय सूची",
+     "pdf": [
+      5,
+      5
+     ],
+     "source": "observed"
+    },
+    {
+     "id": "annual-weekly-tracker",
+     "kind": "tracker",
+     "title": "वार्षिक साप्ताहिक ट्रैकर (2026-27)",
+     "pdf": [
+      6,
+      7
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "guide-usage",
+     "kind": "program",
+     "title": "संदर्शिका का उपयोग",
+     "pdf": [
+      8,
+      8
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-structured-pedagogy",
+     "kind": "article",
+     "title": "संरचित शिक्षणशास्त्र और इसका महत्व",
+     "pdf": [
+      9,
+      9
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-checking-understanding",
+     "kind": "article",
+     "title": "समझ की जाँच",
+     "pdf": [
+      10,
+      11
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-writing-for-expression",
+     "kind": "article",
+     "title": "अभिव्यक्ति के लिए लेखन",
+     "pdf": [
+      12,
+      12
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "article-gender-sensitivity",
+     "kind": "article",
+     "title": "प्रारम्भिक कक्षाओं में जेंडर संवेदनशीलता",
+     "pdf": [
+      13,
+      14
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "annual-objectives",
+     "kind": "program",
+     "title": "2026-27 वार्षिक शिक्षण उद्देश्य",
+     "pdf": [
+      15,
+      15
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "weekly-cycle",
+     "kind": "program",
+     "title": "सप्ताह दिवस साप्ताहिक शिक्षण चक्र",
+     "pdf": [
+      16,
+      16
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "materials",
+     "kind": "program",
+     "title": "शिक्षण सामग्रियों का विवरण",
+     "pdf": [
+      17,
+      17
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "period-outline",
+     "kind": "program",
+     "title": "कालांशों की रूपरेखा",
+     "pdf": [
+      18,
+      18
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "daily-plans",
+     "kind": "plans",
+     "title": "दैनिक शिक्षण योजनाएँ",
+     "pdf": [
+      19,
+      158
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "routines-period-1",
+     "kind": "routines",
+     "title": "कालांश-1 में कार्य करने की रणनीतियाँ",
+     "pdf": [
+      159,
+      170
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "routines-period-2",
+     "kind": "routines",
+     "title": "कालांश-2 में कार्य करने की रणनीतियाँ",
+     "pdf": [
+      171,
+      176
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "routines-period-3",
+     "kind": "routines",
+     "title": "कालांश-3 में कार्य करने की रणनीतियाँ",
+     "pdf": [
+      177,
+      179
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "assessment-remedial",
+     "kind": "assessment",
+     "title": "आकलन एवं दैनिक रिमीडियल कार्य",
+     "pdf": [
+      180,
+      182
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "oral-language-assessment",
+     "kind": "assessment",
+     "title": "मौखिक भाषा विकास का अवलोकन",
+     "pdf": [
+      183,
+      183
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "stories",
+     "kind": "resources",
+     "title": "कहानियाँ",
+     "pdf": [
+      184,
+      191
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "poems",
+     "kind": "resources",
+     "title": "कविताएँ",
+     "pdf": [
+      192,
+      193
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "weekly-assessment-tracker",
+     "kind": "tracker",
+     "title": "साप्ताहिक आकलन ट्रैकर",
+     "pdf": [
+      194,
+      198
+     ],
+     "source": "contents"
+    },
+    {
+     "id": "teaching-reminders",
+     "kind": "program",
+     "title": "भाषा शिक्षण में ध्यान रखने योग्य बातें",
+     "pdf": [
+      199,
+      199
+     ],
+     "source": "observed",
+     "note": "not in the contents page"
+    },
+    {
+     "id": "anthem",
+     "kind": "admin",
+     "title": "राष्ट्रगान",
+     "pdf": [
+      200,
+      200
+     ],
+     "source": "observed"
+    }
+   ],
+   "contentsAnomalies": [
+    "contents lists बहुकक्षीय शिक्षण 185-186, but printed 185-186 are stories; no multigrade section was found",
+    "title page (pdf 3) prints session 2025-2026"
+   ]
+  }
+ }
+}
