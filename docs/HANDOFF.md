@@ -53,16 +53,21 @@ r71 is live (release PR #39, `main` at `d575b47`). The r70 final-review findings
 
 Next iteration: teacher observation using archetypes A–F and the [audit protocol](TEACHER_UX_AUDIT_PROTOCOL.md), physical TalkBack/low-end-device testing, independent academic review, and the professional UI/spec review. Component consolidation and view extraction remain deferred work, not release blockers or instructions to start refactoring.
 
-Administrative older follow-up: r70 tag `v2.1.0` still has not been pushed (would point to `9259ec8`; the previous agent's proxy refused it). The verified r71 release is identified by its runtime token and release merge above. Day-5/usage counts remain owner-deferred.
+Administrative: tag `v2.1.0` (r70, `9259ec8`) was pushed on 2 Nov 2026. r71 has no tag yet; its name is the owner's call (see [housekeeping note](tasks/housekeeping-2026-11-02.md)). Closing draft PR #28 and deleting merged remote task branches are listed there for the owner to run. Day-5/usage counts remain owner-deferred.
 
 ## Active work
 
 | Agent | Branch | Owned files | Status | Last step / next step |
 |---|---|---|---|---|
-| Claude Code | `task/production-polish` | see [task note](tasks/production-polish-r70.md) | Done (PR #33 → `next`, release PR #34 → `main`, `9259ec8`; tag `v2.1.0` pending) | Follow-ups for the next agent are listed in the r70 change-log entry. |
 | Codex | `task/query-backed-runtime` (local worktree only) | unknown | Paused | Other agent's uncommitted work; do not touch. |
 
 ## Change log
+
+### 2 Nov 2026 — Claude Code: status check and housekeeping
+
+- Status check: live `sw.js` is r71, `main` = `next` = `5b2cb43`, latest Checks and Pages runs green. Local: `npm test` 145/145 (design lock included); `check`, `verify:program`, `verify:content`, `verify:publication`, `verify:site` pass.
+- Pushed annotated tag `v2.1.0` → `9259ec8` (r70), as VERSIONING.md recorded. Removed the finished `task/production-polish` row from *Active work*. Moved the owner's main checkout from `task/today-home` (r65) to `next` by fast-forward; it had no local changes.
+- Not done (the permission classifier refused GitHub writes from this session): closing superseded draft PR #28 and deleting merged remote task branches. Exact commands and the branch list are in the [task note](tasks/housekeeping-2026-11-02.md). No runtime, content or design file changed.
 
 ### 1 Nov 2026 — Codex: r71 deployed and independently verified
 
