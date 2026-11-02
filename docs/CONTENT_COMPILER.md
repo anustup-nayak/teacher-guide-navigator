@@ -52,10 +52,10 @@ Requires Node 22+. No npm dependency/install or build framework.
 
 ```sh
 npm run verify:program         # whole-program metadata readiness
-npm run verify:content         # current pin: 1.3.4, previous 1.3.3; read-only
+npm run verify:content         # current pin: 1.3.5, previous 1.3.4; read-only
 npm run verify:site            # generated dist modules equal pinned releases
 # Example only, after reviewed model changes: choose a NEW, unused version.
-npm run content:build -- --version 1.3.5 --previous 1.3.4
+npm run content:build -- --version 1.3.6 --previous 1.3.5
 ```
 
 Optional final arguments select pack IDs. When canonical models advance, update the new release, `verify:content` in `package.json`, and `content/website.json` together in the reviewed PR, then run `site:publish` and the full gate. Read the current pin before choosing the next version; the example is not permission to build or approve content. Older directories remain immutable; rebuilding an older release from newer models is not a supported update mechanism.

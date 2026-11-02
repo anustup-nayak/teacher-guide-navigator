@@ -1,0 +1,331 @@
+{
+ "date": "2026-11-02",
+ "review": "Claude Code compared each label with the top of its rendered workbook page (badge, lesson number and first activity heading) on 2 Nov 2026.",
+ "scope": "Grade 1 Hindi workbook labels only. Repairs legacy-font decoding damage, restores dropped or garbled स्कूल रेडिनेस badge words, the missing पढ़ें heading on PDF p58, and the tick (✓) and anusvara signs that decoded as empty brackets. Badge order is normalised to badge → पाठ number → heading. Grades 2–3 labels were scanned and not changed.",
+ "repairs": [
+  {
+   "grade": 1,
+   "pdfPage": 7,
+   "page": 5,
+   "old": "क पाठ - 1 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ-",
+   "new": "स्कूल रेडिनेस क पाठ - 1 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p007.webp",
+   "sha256": "1ae8b3f944c0e41667911bc2ed3a8141fdc9a78bdedfa98a62c2e4946fc7275e"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 8,
+   "page": 6,
+   "old": "क पाठ - 2 ‘क’ वर्ण वाले गोले में रंग भरं-े",
+   "new": "स्कूल रेडिनेस क पाठ - 2 ‘क’ वर्ण वाले गोले में रंग भरें-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p008.webp",
+   "sha256": "a3e7398eccc9fe4f173b00347ee22d73a99a7fd75e830cf95350108c22ffce75"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 9,
+   "page": 7,
+   "old": "स्कूल डिनेस र पाठ - 3 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ -",
+   "new": "स्कूल रेडिनेस र पाठ - 3 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p009.webp",
+   "sha256": "1d6562dfc688e5b9c6f8024622d68c2e88a3e3b717fae8cc677e9c3fb1bd291e"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 10,
+   "page": 8,
+   "old": "स्कूल डिनेस र पाठ - 4 ‘र’ वर्ण वाले गोले में रंग भरं-े",
+   "new": "स्कूल रेडिनेस र पाठ - 4 ‘र’ वर्ण वाले गोले में रंग भरें-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p010.webp",
+   "sha256": "1b651f35f98ac595caf110ef349010b953057e0c7d93050fcd826a1a17be6956"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 12,
+   "page": 10,
+   "old": "स्कूल डनेस न पाठ - 7 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ-",
+   "new": "स्कूल रेडिनेस न पाठ - 7 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p012.webp",
+   "sha256": "0d11189456070cae7d44f976b80eaf098dfaf8b6869221e7387e3c15e169f9f3"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 13,
+   "page": 11,
+   "old": "स्कूल डनेस न पाठ - 8 ‘न’ वर्ण के नीचे वाले गोले में रंग भरें-",
+   "new": "स्कूल रेडिनेस न पाठ - 8 ‘न’ वर्ण के नीचे वाले गोले में रंग भरें-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p013.webp",
+   "sha256": "d2c5783aa92a36f66c2508bd78c011112b9330ee55d6b551d0567f882ccabfe6"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 14,
+   "page": 12,
+   "old": "स्कूल डनेस म पाठ - 9 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ-",
+   "new": "स्कूल रेडिनेस म पाठ - 9 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p014.webp",
+   "sha256": "0fb206aa8864069a3b47654c221040a780357ccd27834c31bf6a944e51a55887"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 15,
+   "page": 13,
+   "old": "स्कूल डनेस म पाठ - 10 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ-",
+   "new": "स्कूल रेडिनेस म पाठ - 10 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p015.webp",
+   "sha256": "d0be6d38696c9adfd796302f6566a438551e04070caf9d9c2ccdee2bf199c1b3"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 17,
+   "page": 15,
+   "old": "स्कूल डिनेस ा पाठ - 13 पढ़ें- (शिक्षक दी गई क्रमिक/अनुक्रमिक ग्रिड के वर्ण/अक्षर को उच्चारित करें और बच्चों से अंतर पहचानने का अभ्यास कराएँ।)",
+   "new": "स्कूल रेडिनेस ा पाठ - 13 पढ़ें- (शिक्षक दी गई क्रमिक/अनुक्रमिक ग्रिड के वर्ण/अक्षर को उच्चारित करें और बच्चों से अंतर पहचानने का अभ्यास कराएँ।)",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p017.webp",
+   "sha256": "d3205862d31866d64064d4528b8502e37abdc16a3cb1e9333ada2a138bce3fc2"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 18,
+   "page": 16,
+   "old": "स्कूल डिनेस ा पाठ - 14 पढ़ें- (शिक्षक दी गई क्रमिक/अनुक्रमिक ग्रिड के वर्ण/अक्षर को उच्चारित करें और बच्चों से ध्वनि का अंतर",
+   "new": "स्कूल रेडिनेस ा पाठ - 14 पढ़ें- (शिक्षक दी गई क्रमिक/अनुक्रमिक ग्रिड के वर्ण/अक्षर को उच्चारित करें और बच्चों से ध्वनि का अंतर",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p018.webp",
+   "sha256": "1deb1062b9e6ef65a35625f340fc48e44b521e4143d807f99cc45e3bb087cb2a"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 19,
+   "page": 17,
+   "old": "स्कूल डिनेस ा पाठ - 15 पढ़ें और देखकर लिखें-",
+   "new": "स्कूल रेडिनेस ा पाठ - 15 पढ़ें और देखकर लिखें-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p019.webp",
+   "sha256": "461bd0558fd131252af7549ee52a4ee7e99925a2f00c1b9e2021d9e37c032f20"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 20,
+   "page": 18,
+   "old": "स्कूल डिनेस ा पाठ - 16 चित्रों को उनके नाम से मिलाएँ-",
+   "new": "स्कूल रेडिनेस ा पाठ - 16 चित्रों को उनके नाम से मिलाएँ-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p020.webp",
+   "sha256": "8889f19ef03aee7d8d3a9b8dbd7286fc1e160652f97690b8a5d301d65a8dd34e"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 21,
+   "page": 19,
+   "old": "पाठ - 17 स्कूल रेडिनेस पुनरावृत्ति पढं-े़",
+   "new": "पाठ - 17 स्कूल रेडिनेस पुनरावृत्ति पढ़ें-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p021.webp",
+   "sha256": "48d53bfeaa4e2f340c958891471af8325cc6546f712157e5a206dcf5b85d0c43"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 22,
+   "page": 20,
+   "old": "स पाठ - 19 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ -",
+   "new": "स्कूल रेडिनेस स पाठ - 19 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p022.webp",
+   "sha256": "451064145515b99dc2d09a0a6ce7f7ca57b41bbe73d212215b682144ed8e8c8a"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 23,
+   "page": 21,
+   "old": "स्कूल डनेस त पाठ - 20 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ-",
+   "new": "स्कूल रेडिनेस त पाठ - 20 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p023.webp",
+   "sha256": "568529325cd491ef7425a545155ea89a131375af6b38ba87c979efd277bbed39"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 25,
+   "page": 23,
+   "old": "स्कू डनेस ब पाठ - 22 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ -",
+   "new": "स्कूल रेडिनेस ब पाठ - 22 चित्रों को पहचानकर उनके नाम की पहली ध्वनि अपने साथी को बताएँ -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p025.webp",
+   "sha256": "efd4bef48d0e072a8f3ab8e48a7634b22d81cbd2b18168a58d86c49c42b6f336"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 34,
+   "page": 32,
+   "old": "पाठ - 32 पुनरावृत्ति पढं े़ -",
+   "new": "पाठ - 32 पुनरावृत्ति पढ़ें -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p034.webp",
+   "sha256": "c48894619d53f7cbe4caf410362abd2fd7ac2c2fda1986c247caab2e96b86954"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 40,
+   "page": 38,
+   "old": "च पाठ - 38 ‘च’ से शुरू होने वाले चित्रों पर सही ( ) का निशान लगाएँ - ü",
+   "new": "च पाठ - 38 ‘च’ से शुरू होने वाले चित्रों पर सही (✓) का निशान लगाएँ -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p040.webp",
+   "sha256": "2496bee3b3efdffcbc51ad4cfb17dde8219e5be67700ff585ff7f31083f6604a"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 50,
+   "page": 48,
+   "old": "आ पाठ - 48 ‘आ’ से शुरू होने वाले चित्रों पर सही ( ) का निशान लगाएँ- ü",
+   "new": "आ पाठ - 48 ‘आ’ से शुरू होने वाले चित्रों पर सही (✓) का निशान लगाएँ-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p050.webp",
+   "sha256": "670920acb1b8a7aafc00f4d44846febde6b30abf1fa848bace6c45ad3c493487"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 52,
+   "page": 50,
+   "old": "य पाठ - 50 शब्दांे में ‘य’ वर्ण पर गोला लगाएँ-",
+   "new": "य पाठ - 50 शब्दों में ‘य’ वर्ण पर गोला लगाएँ-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p052.webp",
+   "sha256": "94dae107094871e2f08156d2bef66a90577e3adcdfab4ec5290fbf86b61c6316"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 55,
+   "page": 53,
+   "old": "ट पाठ - 53 ‘ट’ की ध्वनि से शुरू होने वाले चित्रों पर सही ( ) का निशान लगाएँ- ü",
+   "new": "ट पाठ - 53 ‘ट’ की ध्वनि से शुरू होने वाले चित्रों पर सही (✓) का निशान लगाएँ-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p055.webp",
+   "sha256": "dd21d05bfec27b5693bad612b0f6854d465ff593064b30ac0092825c4a85a63f"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 58,
+   "page": 56,
+   "old": "ो पाठ - 56",
+   "new": "ो पाठ - 56 पढ़ें -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p058.webp",
+   "sha256": "c4089255c6ab295333ba053485c46e977e845199572fbb63a6c2f01f35080039"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 60,
+   "page": 58,
+   "old": "इ पाठ - 58 ‘इ’ ध्वनि से शुरू होने वाले चित्रों पर सही ( ) का निशान लगाएँ - ü",
+   "new": "इ पाठ - 58 ‘इ’ ध्वनि से शुरू होने वाले चित्रों पर सही (✓) का निशान लगाएँ -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p060.webp",
+   "sha256": "a2394cfcddbbffec9930f81a7e0e47076c9dd5ffe1a7fb1ea8f2d7b85cc491a6"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 68,
+   "page": 66,
+   "old": "ए पाठ - 66 ‘ए’ ध्वनि से शुरू होने वाले चित्रों पर सही ( ) का निशान लगाएँ - ü",
+   "new": "ए पाठ - 66 ‘ए’ ध्वनि से शुरू होने वाले चित्रों पर सही (✓) का निशान लगाएँ -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p068.webp",
+   "sha256": "f50b3d7511f44a3802e19a06fdd1c1e49631dba716ab5e8f01b441eb9dfc41be"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 70,
+   "page": 68,
+   "old": "थ पाठ - 68 ‘थ’ ध्वनि से शुरू होने वाले चित्रों पर सही ( ) का निशान लगाएँ - ü",
+   "new": "थ पाठ - 68 ‘थ’ ध्वनि से शुरू होने वाले चित्रों पर सही (✓) का निशान लगाएँ -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p070.webp",
+   "sha256": "26a4e9af9a1ad80c451a0e9847c2f008751ccdc71b0c0204687bab60ab5621a8"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 71,
+   "page": 69,
+   "old": "पाठ - 69 पुनरावृत्ति पढं े़ -",
+   "new": "पाठ - 69 पुनरावृत्ति पढ़ें -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p071.webp",
+   "sha256": "15953f335b6ecd865bdd1976374aa8abaf847a077553d829c077b56355303abb"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 72,
+   "page": 70,
+   "old": "ु पाठ - 70 वणाङे में ‘ु ’ मात्रा लगाकर पढे़ं और लिखें -",
+   "new": "ु पाठ - 70 वर्णों में ‘ ु ’ मात्रा लगाकर पढ़ें और लिखें -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p072.webp",
+   "sha256": "2be19203b4d4ce3009ce5d7c3b22042d81b55a0e22a3fb7d2eba35d3e6493637"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 73,
+   "page": 71,
+   "old": "ु पाठ - 71 पढं े़ -",
+   "new": "ु पाठ - 71 पढ़ें -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p073.webp",
+   "sha256": "eb09f6b785b6e178bf86e96365f4c524e88771c9cc0f078f4ae647583b234adf"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 76,
+   "page": 74,
+   "old": "पाठ - 74 पुनरावृत्ति पढं े़ -",
+   "new": "पाठ - 74 पुनरावृत्ति पढ़ें -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p076.webp",
+   "sha256": "6ef823291907f8a60890d63ba19cee88e4c085717dbce880f0b7b4faf3467687"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 77,
+   "page": 75,
+   "old": "ू पाठ - 75 पढं े़ - लिखें और पढ़ें-",
+   "new": "ू पाठ - 75 पढ़ें - लिखें और पढ़ें-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p077.webp",
+   "sha256": "9da7abcb05b80c8cfd27660aeb7e62eabf1a2713cf8c5ce81ec65c4434fa20e1"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 81,
+   "page": 79,
+   "old": "पाठ - 79 पुनरावृत्ति पढं े़ -",
+   "new": "पाठ - 79 पुनरावृत्ति पढ़ें -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p081.webp",
+   "sha256": "2728ac42b828d16567889d1af9120dd3cb4219a285c69d56937e1cbc7e0a431e"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 82,
+   "page": 80,
+   "old": "पाठ - 80 ं पढ़ें और आवाज में अंतर पहचानें-",
+   "new": "ं पाठ - 80 पढ़ें और आवाज में अंतर पहचानें-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p082.webp",
+   "sha256": "fe9dbbf62c1660677330a0bbe06153dde1fe0e128e91785d04e09bd61c049a8a"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 83,
+   "page": 81,
+   "old": "पाठ - 81 ं शब्दों में सही जगह पर अनुस्वार ( ) लगाकर लिखें और पढ़ें-",
+   "new": "ं पाठ - 81 शब्दों में सही जगह पर अनुस्वार ( ं ) लगाकर लिखें और पढ़ें-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p083.webp",
+   "sha256": "4a06372c39eeaedc3d2d551e15692825e6dae7d07c36a6fccba1a40059f1850c"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 86,
+   "page": 84,
+   "old": "पाठ - 84 पुनरावृत्ति पढं े़ -",
+   "new": "पाठ - 84 पुनरावृत्ति पढ़ें -",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p086.webp",
+   "sha256": "f1ed5abde067caeb70e9afe28d818cce856acd13657227d1f6aa74bc8c196d4b"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 87,
+   "page": 85,
+   "old": "ि पाठ - 85 वणोङ में ‘ि ’ मात्रा लगाकर पढ़ें और लिखें-",
+   "new": "ि पाठ - 85 वर्णों में ‘ ि ’ मात्रा लगाकर पढ़ें और लिखें-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p087.webp",
+   "sha256": "6b1648377fb91f1410ff674112518788923c7f03082a201df956293d3e64d976"
+  },
+  {
+   "grade": 1,
+   "pdfPage": 89,
+   "page": 87,
+   "old": "ै पाठ - 87 वणोङ में ‘ ै ’ मात्रा लगाकर पढ़ें और लिखें-",
+   "new": "ै पाठ - 87 वर्णों में ‘ ै ’ मात्रा लगाकर पढ़ें और लिखें-",
+   "evidence": "packs/up-hindi-2026/workbook/g1-p089.webp",
+   "sha256": "82c5a277a8e8b02d676c1a0ef37faff00b75cd385a3de570849badc777ddcbbb"
+  }
+ ]
+}

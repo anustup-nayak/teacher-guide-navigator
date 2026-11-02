@@ -33,10 +33,10 @@
         3
       ],
       "files": {
-        "packs/up-hindi-2026/catalog.mjs": "b4c76f70d50a1dfad941d2b48ac16fa89b68cd8d64580f17a7c49364d4fe1a4c",
+        "packs/up-hindi-2026/catalog.mjs": "df98d45cd2ba11783e3b8f031b5f6c44e12a3f2c2cda14092aa86c0a5c5b6340",
         "packs/up-hindi-2026/sources.json": "ecde5723e6520817d981d85647bd359a839af8fce981835e251cd8784d10e2fd",
         "packs/up-hindi-2026/resources.json": "f090edf7f9528bae573647e4f8207eec2e4fdd23df6b0cdaa625e4ce29bbc921",
-        "packs/up-hindi-2026/worksheets.json": "6dec94236e39c4d063f49fd064409dae7f721968a5984b812d60f81c0fb5b690"
+        "packs/up-hindi-2026/worksheets.json": "07ab6097e3071ef95dea1f720b5f07c115d56fbf8b92257802363f77f0d92f1b"
       }
     }
   ],
@@ -2358,6 +2358,66 @@
         "packs/up-hindi-2026/catalog.mjs": {
           "from": "966e0ee827f39c8531b4e4889c0e513d85861bfb3fe5da94d7e67ee8d5be2eaa",
           "to": "b4c76f70d50a1dfad941d2b48ac16fa89b68cd8d64580f17a7c49364d4fe1a4c"
+        }
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "release": "r72 / content 1.3.5",
+      "pack": "up-hindi-2026",
+      "lessons": [
+        "g1-hindi-w09-d01",
+        "g1-hindi-w09-d02",
+        "g1-hindi-w09-d03",
+        "g1-hindi-w09-d04",
+        "g1-hindi-w10-d01",
+        "g1-hindi-w10-d02",
+        "g1-hindi-w10-d03",
+        "g1-hindi-w10-d04",
+        "g1-hindi-w11-d01",
+        "g1-hindi-w11-d02",
+        "g1-hindi-w11-d03",
+        "g1-hindi-w11-d04",
+        "g1-hindi-w11-d05",
+        "g1-hindi-w11-d06",
+        "g1-hindi-w12-d01",
+        "g1-hindi-w12-d02",
+        "g1-hindi-w12-d04",
+        "g1-hindi-w14-d03",
+        "g1-hindi-w15-d04",
+        "g1-hindi-w17-d04",
+        "g1-hindi-w18-d01",
+        "g1-hindi-w18-d04",
+        "g1-hindi-w19-d02",
+        "g1-hindi-w19-d04",
+        "g1-hindi-w21-d02",
+        "g1-hindi-w21-d04",
+        "g1-hindi-w21-d05",
+        "g1-hindi-w21-d06",
+        "g1-hindi-w22-d01",
+        "g1-hindi-w22-d02",
+        "g1-hindi-w22-d05",
+        "g1-hindi-w22-d06",
+        "g1-hindi-w23-d01",
+        "g1-hindi-w23-d05",
+        "g1-hindi-w23-d06",
+        "g1-hindi-w24-d01",
+        "g1-hindi-w24-d02",
+        "g1-hindi-w24-d05",
+        "g1-hindi-w24-d06",
+        "g1-hindi-w25-d01",
+        "g1-hindi-w25-d03"
+      ],
+      "reason": "Owner-requested repair of Grade 1 workbook labels damaged by legacy-font decoding (36 workbook pages, labels only)",
+      "evidence": "curricula/up-hindi-2026/tools/workbook-label-repairs-r72.json; docs/tasks/hindi-workbook-label-repair.md",
+      "files": {
+        "packs/up-hindi-2026/catalog.mjs": {
+          "from": "b4c76f70d50a1dfad941d2b48ac16fa89b68cd8d64580f17a7c49364d4fe1a4c",
+          "to": "df98d45cd2ba11783e3b8f031b5f6c44e12a3f2c2cda14092aa86c0a5c5b6340"
+        },
+        "packs/up-hindi-2026/worksheets.json": {
+          "from": "6dec94236e39c4d063f49fd064409dae7f721968a5984b812d60f81c0fb5b690",
+          "to": "07ab6097e3071ef95dea1f720b5f07c115d56fbf8b92257802363f77f0d92f1b"
         }
       }
     }

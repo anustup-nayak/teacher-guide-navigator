@@ -1,0 +1,5762 @@
+[
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p1",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p001.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 1,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p2",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p002.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 2,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p3",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p003.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 3,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p4",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p004.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 4,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p5",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p005.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 5,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p6",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p006.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 6,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p7",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p007.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 7,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p8",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p008.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 8,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p9",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p009.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 9,
+   "printed": 7
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p10",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p010.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 10,
+   "printed": 8
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p11",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p011.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 11,
+   "printed": 9
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p12",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p012.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 12,
+   "printed": 10
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p13",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p013.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 13,
+   "printed": 11
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p14",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p014.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 14,
+   "printed": 12
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p15",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p015.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 15,
+   "printed": 13
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p16",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p016.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 16,
+   "printed": 14
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p17",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p017.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 17,
+   "printed": 15
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p18",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p018.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 18,
+   "printed": 16
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p19",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p019.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 19,
+   "printed": 17
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p20",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p020.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 20,
+   "printed": 18
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p21",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p021.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 21,
+   "printed": 19
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p22",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p022.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 22,
+   "printed": 20
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p23",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p023.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 23,
+   "printed": 21
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p24",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p024.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 24,
+   "printed": 22
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p25",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p025.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 25,
+   "printed": 23
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p26",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p026.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 26,
+   "printed": 24
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p27",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p027.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 27,
+   "printed": 25
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p28",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p028.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 28,
+   "printed": 26
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p29",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p029.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 29,
+   "printed": 27
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p30",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p030.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 30,
+   "printed": 28
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p31",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p031.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 31,
+   "printed": 29
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p32",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p032.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 32,
+   "printed": 30
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p33",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p033.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 33,
+   "printed": 31
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p34",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p034.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 34,
+   "printed": 32
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p35",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p035.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 35,
+   "printed": 33
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p36",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p036.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 36,
+   "printed": 34
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p37",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p037.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 37,
+   "printed": 35
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p38",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p038.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 38,
+   "printed": 36
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p39",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p039.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 39,
+   "printed": 37
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p40",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p040.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 40,
+   "printed": 38
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p41",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p041.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 41,
+   "printed": 39
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p42",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p042.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 42,
+   "printed": 40
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p43",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p043.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 43,
+   "printed": 41
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p44",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p044.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 44,
+   "printed": 42
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p45",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p045.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 45,
+   "printed": 43
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p46",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p046.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 46,
+   "printed": 44
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p47",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p047.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 47,
+   "printed": 45
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p48",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p048.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 48,
+   "printed": 46
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p49",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p049.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 49,
+   "printed": 47
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p50",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p050.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 50,
+   "printed": 48
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p51",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p051.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 51,
+   "printed": 49
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p52",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p052.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 52,
+   "printed": 50
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p53",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p053.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 53,
+   "printed": 51
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p54",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p054.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 54,
+   "printed": 52
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p55",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p055.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 55,
+   "printed": 53
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p56",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p056.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 56,
+   "printed": 54
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p57",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p057.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 57,
+   "printed": 55
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p58",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p058.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 58,
+   "printed": 56
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p59",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p059.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 59,
+   "printed": 57
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p60",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p060.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 60,
+   "printed": 58
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p61",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p061.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 61,
+   "printed": 59
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p62",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p062.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 62,
+   "printed": 60
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p63",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p063.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 63,
+   "printed": 61
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p64",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p064.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 64,
+   "printed": 62
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p65",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p065.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 65,
+   "printed": 63
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p66",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p066.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 66,
+   "printed": 64
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p67",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p067.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 67,
+   "printed": 65
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p68",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p068.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 68,
+   "printed": 66
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p69",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p069.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 69,
+   "printed": 67
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p70",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p070.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 70,
+   "printed": 68
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p71",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p071.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 71,
+   "printed": 69
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p72",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p072.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 72,
+   "printed": 70
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p73",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p073.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 73,
+   "printed": 71
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p74",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p074.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 74,
+   "printed": 72
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p75",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p075.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 75,
+   "printed": 73
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p76",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p076.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 76,
+   "printed": 74
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p77",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p077.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 77,
+   "printed": 75
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p78",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p078.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 78,
+   "printed": 76
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p79",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p079.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 79,
+   "printed": 77
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p80",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p080.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 80,
+   "printed": 78
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p81",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p081.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 81,
+   "printed": 79
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p82",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p082.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 82,
+   "printed": 80
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p83",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p083.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 83,
+   "printed": 81
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p84",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p084.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 84,
+   "printed": 82
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p85",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p085.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 85,
+   "printed": 83
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p86",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p086.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 86,
+   "printed": 84
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p87",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p087.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 87,
+   "printed": 85
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p88",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p088.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 88,
+   "printed": 86
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p89",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p089.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 89,
+   "printed": 87
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p90",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p090.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 90,
+   "printed": 88
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p91",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p091.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 91,
+   "printed": 89
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p92",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p092.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 92,
+   "printed": 90
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p93",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p093.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 93,
+   "printed": 91
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p94",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p094.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 94,
+   "printed": 92
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p95",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p095.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 95,
+   "printed": 93
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p96",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p096.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 96,
+   "printed": 94
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p97",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p097.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 97,
+   "printed": 95
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p98",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p098.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 98,
+   "printed": 96
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p99",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p099.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 99,
+   "printed": 97
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p100",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p100.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 100,
+   "printed": 98
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p101",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p101.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 101,
+   "printed": 99
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p102",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p102.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 102,
+   "printed": 100
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p103",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p103.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 103,
+   "printed": 101
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p104",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p104.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 104,
+   "printed": 102
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p105",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p105.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 105,
+   "printed": 103
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p106",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p106.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 106,
+   "printed": 104
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p107",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p107.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 107,
+   "printed": 105
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p108",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p108.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 108,
+   "printed": 106
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p109",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p109.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 109,
+   "printed": 107
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p110",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p110.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 110,
+   "printed": 108
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p111",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p111.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 111,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g1-87d1e0f42ce2/p112",
+  "kind": "workbook",
+  "grade": 1,
+  "image": "workbook/g1-p112.webp",
+  "source": {
+   "doc": "workbook-g1-87d1e0f42ce2",
+   "pdf": 112,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p1",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p001.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 1,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p2",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p002.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 2,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p3",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p003.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 3,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p4",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p004.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 4,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p5",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p005.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 5,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p6",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p006.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 6,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p7",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p007.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 7,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p8",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p008.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 8,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p9",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p009.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 9,
+   "printed": 7
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p10",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p010.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 10,
+   "printed": 8
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p11",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p011.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 11,
+   "printed": 9
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p12",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p012.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 12,
+   "printed": 10
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p13",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p013.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 13,
+   "printed": 11
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p14",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p014.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 14,
+   "printed": 12
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p15",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p015.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 15,
+   "printed": 13
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p16",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p016.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 16,
+   "printed": 14
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p17",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p017.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 17,
+   "printed": 15
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p18",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p018.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 18,
+   "printed": 16
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p19",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p019.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 19,
+   "printed": 17
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p20",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p020.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 20,
+   "printed": 18
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p21",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p021.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 21,
+   "printed": 19
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p22",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p022.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 22,
+   "printed": 20
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p23",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p023.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 23,
+   "printed": 21
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p24",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p024.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 24,
+   "printed": 22
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p25",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p025.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 25,
+   "printed": 23
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p26",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p026.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 26,
+   "printed": 24
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p27",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p027.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 27,
+   "printed": 25
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p28",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p028.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 28,
+   "printed": 26
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p29",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p029.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 29,
+   "printed": 27
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p30",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p030.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 30,
+   "printed": 28
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p31",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p031.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 31,
+   "printed": 29
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p32",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p032.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 32,
+   "printed": 30
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p33",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p033.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 33,
+   "printed": 31
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p34",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p034.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 34,
+   "printed": 32
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p35",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p035.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 35,
+   "printed": 33
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p36",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p036.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 36,
+   "printed": 34
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p37",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p037.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 37,
+   "printed": 35
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p38",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p038.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 38,
+   "printed": 36
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p39",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p039.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 39,
+   "printed": 37
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p40",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p040.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 40,
+   "printed": 38
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p41",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p041.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 41,
+   "printed": 39
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p42",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p042.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 42,
+   "printed": 40
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p43",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p043.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 43,
+   "printed": 41
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p44",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p044.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 44,
+   "printed": 42
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p45",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p045.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 45,
+   "printed": 43
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p46",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p046.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 46,
+   "printed": 44
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p47",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p047.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 47,
+   "printed": 45
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p48",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p048.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 48,
+   "printed": 46
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p49",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p049.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 49,
+   "printed": 47
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p50",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p050.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 50,
+   "printed": 48
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p51",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p051.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 51,
+   "printed": 49
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p52",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p052.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 52,
+   "printed": 50
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p53",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p053.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 53,
+   "printed": 51
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p54",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p054.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 54,
+   "printed": 52
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p55",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p055.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 55,
+   "printed": 53
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p56",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p056.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 56,
+   "printed": 54
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p57",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p057.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 57,
+   "printed": 55
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p58",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p058.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 58,
+   "printed": 56
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p59",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p059.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 59,
+   "printed": 57
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p60",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p060.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 60,
+   "printed": 58
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p61",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p061.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 61,
+   "printed": 59
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p62",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p062.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 62,
+   "printed": 60
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p63",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p063.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 63,
+   "printed": 61
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p64",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p064.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 64,
+   "printed": 62
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p65",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p065.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 65,
+   "printed": 63
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p66",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p066.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 66,
+   "printed": 64
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p67",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p067.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 67,
+   "printed": 65
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p68",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p068.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 68,
+   "printed": 66
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p69",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p069.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 69,
+   "printed": 67
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p70",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p070.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 70,
+   "printed": 68
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p71",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p071.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 71,
+   "printed": 69
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p72",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p072.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 72,
+   "printed": 70
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p73",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p073.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 73,
+   "printed": 71
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p74",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p074.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 74,
+   "printed": 72
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p75",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p075.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 75,
+   "printed": 73
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p76",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p076.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 76,
+   "printed": 74
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p77",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p077.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 77,
+   "printed": 75
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p78",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p078.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 78,
+   "printed": 76
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p79",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p079.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 79,
+   "printed": 77
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p80",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p080.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 80,
+   "printed": 78
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p81",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p081.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 81,
+   "printed": 79
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p82",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p082.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 82,
+   "printed": 80
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p83",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p083.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 83,
+   "printed": 81
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p84",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p084.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 84,
+   "printed": 82
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p85",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p085.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 85,
+   "printed": 83
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p86",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p086.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 86,
+   "printed": 84
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p87",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p087.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 87,
+   "printed": 85
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p88",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p088.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 88,
+   "printed": 86
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p89",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p089.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 89,
+   "printed": 87
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p90",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p090.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 90,
+   "printed": 88
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p91",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p091.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 91,
+   "printed": 89
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p92",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p092.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 92,
+   "printed": 90
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p93",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p093.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 93,
+   "printed": 91
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p94",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p094.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 94,
+   "printed": 92
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p95",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p095.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 95,
+   "printed": 93
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p96",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p096.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 96,
+   "printed": 94
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p97",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p097.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 97,
+   "printed": 95
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p98",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p098.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 98,
+   "printed": 96
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p99",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p099.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 99,
+   "printed": 97
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p100",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p100.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 100,
+   "printed": 98
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p101",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p101.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 101,
+   "printed": 99
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p102",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p102.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 102,
+   "printed": 100
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p103",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p103.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 103,
+   "printed": 101
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p104",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p104.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 104,
+   "printed": 102
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p105",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p105.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 105,
+   "printed": 103
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p106",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p106.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 106,
+   "printed": 104
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p107",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p107.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 107,
+   "printed": 105
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p108",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p108.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 108,
+   "printed": 106
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p109",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p109.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 109,
+   "printed": 107
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p110",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p110.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 110,
+   "printed": 108
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p111",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p111.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 111,
+   "printed": 109
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p112",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p112.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 112,
+   "printed": 110
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p113",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p113.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 113,
+   "printed": 111
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p114",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p114.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 114,
+   "printed": 112
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p115",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p115.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 115,
+   "printed": 113
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p116",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p116.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 116,
+   "printed": 114
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p117",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p117.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 117,
+   "printed": 115
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p118",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p118.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 118,
+   "printed": 116
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p119",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p119.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 119,
+   "printed": 117
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p120",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p120.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 120,
+   "printed": 118
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p121",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p121.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 121,
+   "printed": 119
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p122",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p122.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 122,
+   "printed": 120
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p123",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p123.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 123,
+   "printed": 121
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p124",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p124.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 124,
+   "printed": 122
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p125",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p125.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 125,
+   "printed": 123
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p126",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p126.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 126,
+   "printed": 124
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p127",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p127.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 127,
+   "printed": 125
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p128",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p128.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 128,
+   "printed": 126
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p129",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p129.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 129,
+   "printed": 127
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p130",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p130.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 130,
+   "printed": 128
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p131",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p131.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 131,
+   "printed": 129
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p132",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p132.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 132,
+   "printed": 130
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p133",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p133.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 133,
+   "printed": 131
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p134",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p134.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 134,
+   "printed": 132
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p135",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p135.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 135,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g3-057d687b6500/p136",
+  "kind": "workbook",
+  "grade": 3,
+  "image": "workbook/g3-p136.webp",
+  "source": {
+   "doc": "workbook-g3-057d687b6500",
+   "pdf": 136,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p1",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p001.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 1,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p2",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p002.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 2,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p3",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p003.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 3,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p4",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p004.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 4,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p5",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p005.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 5,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p6",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p006.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 6,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p7",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p007.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 7,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p8",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p008.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 8,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p9",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p009.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 9,
+   "printed": 7
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p10",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p010.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 10,
+   "printed": 8
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p11",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p011.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 11,
+   "printed": 9
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p12",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p012.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 12,
+   "printed": 10
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p13",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p013.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 13,
+   "printed": 11
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p14",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p014.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 14,
+   "printed": 12
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p15",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p015.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 15,
+   "printed": 13
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p16",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p016.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 16,
+   "printed": 14
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p17",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p017.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 17,
+   "printed": 15
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p18",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p018.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 18,
+   "printed": 16
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p19",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p019.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 19,
+   "printed": 17
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p20",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p020.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 20,
+   "printed": 18
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p21",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p021.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 21,
+   "printed": 19
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p22",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p022.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 22,
+   "printed": 20
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p23",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p023.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 23,
+   "printed": 21
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p24",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p024.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 24,
+   "printed": 22
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p25",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p025.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 25,
+   "printed": 23
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p26",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p026.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 26,
+   "printed": 24
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p27",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p027.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 27,
+   "printed": 25
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p28",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p028.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 28,
+   "printed": 26
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p29",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p029.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 29,
+   "printed": 27
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p30",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p030.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 30,
+   "printed": 28
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p31",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p031.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 31,
+   "printed": 29
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p32",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p032.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 32,
+   "printed": 30
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p33",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p033.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 33,
+   "printed": 31
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p34",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p034.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 34,
+   "printed": 32
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p35",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p035.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 35,
+   "printed": 33
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p36",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p036.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 36,
+   "printed": 34
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p37",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p037.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 37,
+   "printed": 35
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p38",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p038.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 38,
+   "printed": 36
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p39",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p039.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 39,
+   "printed": 37
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p40",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p040.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 40,
+   "printed": 38
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p41",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p041.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 41,
+   "printed": 39
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p42",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p042.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 42,
+   "printed": 40
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p43",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p043.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 43,
+   "printed": 41
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p44",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p044.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 44,
+   "printed": 42
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p45",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p045.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 45,
+   "printed": 43
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p46",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p046.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 46,
+   "printed": 44
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p47",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p047.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 47,
+   "printed": 45
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p48",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p048.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 48,
+   "printed": 46
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p49",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p049.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 49,
+   "printed": 47
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p50",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p050.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 50,
+   "printed": 48
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p51",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p051.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 51,
+   "printed": 49
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p52",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p052.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 52,
+   "printed": 50
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p53",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p053.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 53,
+   "printed": 51
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p54",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p054.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 54,
+   "printed": 52
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p55",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p055.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 55,
+   "printed": 53
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p56",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p056.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 56,
+   "printed": 54
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p57",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p057.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 57,
+   "printed": 55
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p58",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p058.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 58,
+   "printed": 56
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p59",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p059.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 59,
+   "printed": 57
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p60",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p060.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 60,
+   "printed": 58
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p61",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p061.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 61,
+   "printed": 59
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p62",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p062.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 62,
+   "printed": 60
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p63",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p063.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 63,
+   "printed": 61
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p64",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p064.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 64,
+   "printed": 62
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p65",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p065.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 65,
+   "printed": 63
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p66",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p066.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 66,
+   "printed": 64
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p67",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p067.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 67,
+   "printed": 65
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p68",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p068.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 68,
+   "printed": 66
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p69",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p069.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 69,
+   "printed": 67
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p70",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p070.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 70,
+   "printed": 68
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p71",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p071.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 71,
+   "printed": 69
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p72",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p072.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 72,
+   "printed": 70
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p73",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p073.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 73,
+   "printed": 71
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p74",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p074.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 74,
+   "printed": 72
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p75",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p075.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 75,
+   "printed": 73
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p76",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p076.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 76,
+   "printed": 74
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p77",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p077.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 77,
+   "printed": 75
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p78",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p078.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 78,
+   "printed": 76
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p79",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p079.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 79,
+   "printed": 77
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p80",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p080.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 80,
+   "printed": 78
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p81",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p081.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 81,
+   "printed": 79
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p82",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p082.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 82,
+   "printed": 80
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p83",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p083.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 83,
+   "printed": 81
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p84",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p084.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 84,
+   "printed": 82
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p85",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p085.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 85,
+   "printed": 83
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p86",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p086.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 86,
+   "printed": 84
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p87",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p087.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 87,
+   "printed": 85
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p88",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p088.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 88,
+   "printed": 86
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p89",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p089.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 89,
+   "printed": 87
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p90",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p090.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 90,
+   "printed": 88
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p91",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p091.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 91,
+   "printed": 89
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p92",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p092.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 92,
+   "printed": 90
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p93",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p093.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 93,
+   "printed": 91
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p94",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p094.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 94,
+   "printed": 92
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p95",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p095.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 95,
+   "printed": 93
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p96",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p096.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 96,
+   "printed": 94
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p97",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p097.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 97,
+   "printed": 95
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p98",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p098.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 98,
+   "printed": 96
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p99",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p099.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 99,
+   "printed": 97
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p100",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p100.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 100,
+   "printed": 98
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p101",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p101.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 101,
+   "printed": 99
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p102",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p102.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 102,
+   "printed": 100
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p103",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p103.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 103,
+   "printed": 101
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p104",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p104.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 104,
+   "printed": 102
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p105",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p105.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 105,
+   "printed": 103
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p106",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p106.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 106,
+   "printed": 104
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p107",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p107.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 107,
+   "printed": 105
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p108",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p108.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 108,
+   "printed": 106
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p109",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p109.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 109,
+   "printed": 107
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p110",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p110.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 110,
+   "printed": 108
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p111",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p111.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 111,
+   "printed": 109
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p112",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p112.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 112,
+   "printed": 110
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p113",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p113.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 113,
+   "printed": 111
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p114",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p114.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 114,
+   "printed": 112
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p115",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p115.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 115,
+   "printed": 113
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p116",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p116.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 116,
+   "printed": 114
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p117",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p117.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 117,
+   "printed": 115
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p118",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p118.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 118,
+   "printed": 116
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p119",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p119.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 119,
+   "printed": 117
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p120",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p120.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 120,
+   "printed": 118
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p121",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p121.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 121,
+   "printed": 119
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p122",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p122.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 122,
+   "printed": 120
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p123",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p123.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 123,
+   "printed": 121
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p124",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p124.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 124,
+   "printed": 122
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p125",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p125.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 125,
+   "printed": 123
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p126",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p126.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 126,
+   "printed": 124
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p127",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p127.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 127,
+   "printed": 125
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p128",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p128.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 128,
+   "printed": 126
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p129",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p129.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 129,
+   "printed": 127
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p130",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p130.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 130,
+   "printed": 128
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p131",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p131.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 131,
+   "printed": 129
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p132",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p132.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 132,
+   "printed": 130
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p133",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p133.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 133,
+   "printed": 131
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p134",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p134.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 134,
+   "printed": 132
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p135",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p135.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 135,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ },
+ {
+  "id": "workbook-g2-9a90832e59d1/p136",
+  "kind": "workbook",
+  "grade": 2,
+  "image": "workbook/g2-p136.webp",
+  "source": {
+   "doc": "workbook-g2-9a90832e59d1",
+   "pdf": 136,
+   "printed": null
+  },
+  "provenance": {
+   "assertion": "stated",
+   "review": "unreviewed"
+  }
+ }
+]

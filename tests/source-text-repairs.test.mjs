@@ -18,6 +18,19 @@ test('every explicit r71 repair stays applied, source-linked, and backed by unch
   }
  }
 });
+test('every r72 workbook label repair is applied to every lesson and worksheet list, backed by unchanged page evidence',()=>{
+ const {repairs}=read('curricula/up-hindi-2026/tools/workbook-label-repairs-r72.json');
+ const hindi=CURRICULA.find(p=>p.id==='up-hindi-2026');
+ const lists=[read('curricula/up-hindi-2026/reviewed/worksheets.json'),read('dist/packs/up-hindi-2026/worksheets.json'),hindi.lessons.flatMap(l=>l.worksheets||[])];
+ for(const r of repairs){
+  const hash=crypto.createHash('sha256').update(fs.readFileSync(new URL('../dist/'+r.evidence,import.meta.url))).digest('hex');assert.equal(hash,r.sha256);
+  for(const list of lists){
+   const sheets=list.filter(w=>w.grade===r.grade&&w.pdfPage===r.pdfPage);
+   assert.ok(sheets.length>0,`p${r.pdfPage}`);for(const w of sheets)assert.equal(w.label,r.new,`p${r.pdfPage}`);
+  }
+ }
+ for(const w of lists[2])assert.ok(!/भरं-े|पढं े़|स्कूल डि?नेस|स्कू डनेस|वणोङ|वणाङे|ü/.test(w.label),w.label);
+});
 test('Math teaching instructions contain the source plus symbol, never a dollar placeholder',()=>{
  const math=CURRICULA.find(p=>p.id==='up-math-2026');
  for(const l of math.lessons)for(const p of l.phases)for(const s of [...p.actions,...p.questions,...(p.instructions||[])])assert.ok(!s.includes('$'),`${l.id}/${p.id}`);
